@@ -2,6 +2,11 @@
 
 This document provides instructions for configuring the PR analysis system to work with the new file-per-PR data structure.
 
+## Repository Structure
+
+- **pr_analysis repository**: Contains all code, tests, and GitHub Actions workflows
+- **pr-data repository**: Contains only data files (PR data, indexes, and reports)
+
 ## PR Analysis Repository Configuration
 
 The `team-mirai-volunteer/pr_analysis` repository needs to be configured to work with the new data structure in `team-mirai-volunteer/pr-data`. The main configuration file is located at `config/settings.yaml`.
@@ -40,7 +45,7 @@ generators:
 
 ## GitHub Actions Workflow
 
-The GitHub Actions workflow in the `team-mirai-volunteer/pr-data` repository is configured to run hourly and update the PR data. The workflow file is located at `.github/workflows/hourly_update.yml`.
+The GitHub Actions workflow should be configured in the `team-mirai-volunteer/pr_analysis` repository to run hourly and update the PR data. The workflow file should be located at `.github/workflows/hourly_update.yml`.
 
 ### Required Secrets
 
@@ -49,8 +54,6 @@ The workflow requires the following secrets to be configured in the repository s
 1. **GITHUB_TOKEN**: This is automatically provided by GitHub Actions and is used for API access.
 
 2. **GH_TOKEN**: This is a personal access token with repository access permissions. It is used for checking out repositories.
-
-See [GitHub Actions Workflow Setup](github_actions_setup.md) for detailed instructions on setting up these secrets.
 
 ## Testing the Configuration
 

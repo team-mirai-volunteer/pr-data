@@ -1,10 +1,15 @@
 # GitHub Actions Workflow Setup
 
-This document provides instructions for setting up the GitHub Actions workflow for the PR data repository.
+This document provides instructions for setting up the GitHub Actions workflow for the PR analysis system.
+
+## Repository Structure
+
+- **pr_analysis repository**: Contains all code, tests, and GitHub Actions workflows
+- **pr-data repository**: Contains only data files (PR data, indexes, and reports)
 
 ## Required Secrets
 
-The workflow requires the following secrets to be configured in the repository settings:
+The workflow requires the following secrets to be configured in the pr_analysis repository settings:
 
 1. **GITHUB_TOKEN**: This is automatically provided by GitHub Actions and is used for API access.
 
@@ -27,7 +32,7 @@ The workflow requires the following secrets to be configured in the repository s
 
 ### Adding Secrets to the Repository
 
-1. Go to the repository settings (team-mirai-volunteer/pr-data)
+1. Go to the repository settings (team-mirai-volunteer/pr_analysis)
 2. Navigate to Secrets and variables > Actions
 3. Click "New repository secret"
 4. Add the GH_TOKEN secret:
@@ -37,13 +42,13 @@ The workflow requires the following secrets to be configured in the repository s
 
 ## Workflow Configuration
 
-The workflow is configured to run hourly and can also be triggered manually. The workflow file is located at `.github/workflows/hourly_update.yml`.
+The workflow should be configured in the pr_analysis repository to run hourly and can also be triggered manually. The workflow file should be located at `.github/workflows/hourly_update.yml`.
 
 ### Manual Trigger
 
 To manually trigger the workflow:
 
-1. Go to the repository on GitHub
+1. Go to the pr_analysis repository on GitHub
 2. Navigate to the "Actions" tab
 3. Select the "Hourly PR Data Update" workflow
 4. Click "Run workflow"
@@ -69,7 +74,7 @@ If the workflow fails, check the following:
 
 1. Ensure that the GH_TOKEN secret is properly configured
 2. Verify that the token has the necessary permissions
-3. Check that the pr_analysis repository is accessible
+3. Check that the pr-data repository is accessible
 4. Examine the workflow logs for specific error messages
 
 For more detailed information, refer to the [GitHub Actions documentation](https://docs.github.com/en/actions).
