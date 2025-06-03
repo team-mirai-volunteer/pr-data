@@ -1,0 +1,211 @@
+{
+  "basic_info": {
+    "number": 1889,
+    "title": "災害時における国民保護の強化：リアルタイム情報連携による避難支援システム構築の提案",
+    "state": "open",
+    "created_at": "2025-06-01T17:04:44Z",
+    "updated_at": "2025-06-02T15:20:32Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/1889",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [
+    {
+      "id": 8631771283,
+      "node_id": "LA_kwDOOqTJvM8AAAACAn5gkw",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9",
+      "name": "行政改革",
+      "color": "97C1A2",
+      "default": false,
+      "description": ""
+    }
+  ],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "f04dd76f0ffde48ec1be10067172425fc072cd91",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/team-mirai/policy/blob/57ae9aa1ed0360784fc213234dca27b6fb8700e2/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/57ae9aa1ed0360784fc213234dca27b6fb8700e2/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=57ae9aa1ed0360784fc213234dca27b6fb8700e2",
+      "patch": "@@ -135,6 +135,8 @@\n   * 情報公開は今でも取り組まれているが、内容が複雑、情報が分散している状況にある状況を解消するため、検索しやすく・読みやすく・選びやすい、誰でも使いやすい情報設計を実現します。さらに、AIによって利用者の属性や相談内容に応じた解説や制度案内を行い、誰にとっても“自分ごと”として理解できる行政を目指します。\n   * 新しい制度や予算の使い道について、「何がうまくいって」「何がダメだったのか」見える形で定期的に公表します。\n   * これらを通じて、国民の皆様がより政治に参加しやすいよう基盤を整備していきます。\n+* 災害情報のリアルタイム連携と避難支援システムの構築\n+  * Jアラート発令時や、気象庁の予測情報、ハザードマップ、リアルタイムの被災状況といった多様な災害関連情報を集約し、API等を通じて外部システムと連携できる基盤を整備します。これにより、例えば地図アプリケーションと連携し、災害の規模や種類、範囲に応じて最適な避難場所を個別に提示し、現在地からの避難経路を案内するようなシステムの構築を促進します。さらに、利用者からのフィードバック機能や、同意に基づく位置情報の共有機能も持たせ、行政による支援物資の提供における迅速化や配分量の適正化にも貢献することを目指します。\n * 情報公開をAPI経由で実施できるように  \n   * 現在の情報公開制度は書面やオンラインフォームが中心となっていますが、その選択肢を増やすと同時に、各省庁で異なるシステムやデータ形式についてAPIの標準化・一次公開の義務付けを進めます。  \n   * 申請コストを下げることによる情報公開請求増加に対応するため、行政側の処理負担も軽減すべく、AIによる分類・要約や処理自動化を行います。  \n@@ -189,6 +191,4 @@\n * 希望自治体での議論を支援  \n   * 運用コスト・投票率など効果指標を共有し、実現可能なモデルを検討します。  \n * 在外投票など実現可能な領域から導入し、段階的に拡大することを目指します。  \n-* 検証を通じて国民が納得できる合意点を探り、技術的課題の解決を支援します。\n-\n-\n+* 検証を通じて国民が納得できる合意点を探り、技術的課題の解決を支援します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "d09c6bf49fa0f8a9787211cde393dab9c6465904",
+      "node_id": "C_kwDOOqTJvNoAKGQwOWM2YmY0OWZhMGY4YTk3ODcyMTFjZGUzOTNkYWI5YzY0NjU5MDQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-01T16:56:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-01T16:56:15Z"
+        },
+        "message": "モーさんの提案に基づき、災害情報連携システムに関する項目を4)に追加",
+        "tree": {
+          "sha": "8d3c98317e9c554ce763e641f3fcb8e7785b7aae",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/8d3c98317e9c554ce763e641f3fcb8e7785b7aae"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d09c6bf49fa0f8a9787211cde393dab9c6465904",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPIYvCRC1aQ7uu5UhlAAAQxUQAIUlUedR9U+mdWaDy1bORd1T\nF9C6+0W8uffMuIUzM7ucDUl+AW8dZ/kpGR818g7LC9gp8avoa5iMtPbt63nep+kD\nVGxy1DGgm5+0UH8+w1zbXkZSKCImzXTFg0zyW3MvsYUx5n8FRsbkeT18YNudw/bJ\nXPyNkUXDGS0N6S+N6HxnqclzPoX7KagtZhBxdgdgMNoI09BKl1Zqk9NaWxjMemwj\nPXBS/9iZgSKslq64u7Ii5hahTkkU6oqZMTMqqXdTlPmzyxnkbB17Ql41dceE6A3c\nPe7l1fbZtNQK7JDIMz3zVvvpD5NsT6I9gbJYUjJlUBv7b/Gq64r6ptNU45hCdTB8\n0LKBv082ANBJ8owLSaDdTnBQfSAVLdwMCEVOkcE51cl3aVGfSE9nIezeI7ensMiV\nwEEXyb3FwV5ctM/2uJhDOQlus3lXWolrhZGut2vGtJjiFsmyHYfLqkRX3yTAaVDG\nJiT6Wz99ZDbp14nOvrH89Dz78IK/0A/POyA6fvuhIFVmo8uiMOqGuP9azR6GCuI8\nwJwvNpqrqw2q5x6VWwIU8rchfoO+GMXEEPAAz40KZZVhdEBHU9t60/s4/EmPesUQ\nY/pJzG0zxckrhkkfhqlSf3LTxlm5GPXxO9nG346D1pr3+L982hM0o3Bc/OWLjROG\nB+G6hh6zoKnD2nzHpL6+\n=xxws\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8d3c98317e9c554ce763e641f3fcb8e7785b7aae\nparent 388a33763bae74c3bfe969d17f67af4e6ba00f27\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748796975 +0000\ncommitter GitHub <noreply@github.com> 1748796975 +0000\n\nモーさんの提案に基づき、災害情報連携システムに関する項目を4)に追加",
+          "verified_at": "2025-06-01T16:56:15Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d09c6bf49fa0f8a9787211cde393dab9c6465904",
+      "html_url": "https://github.com/team-mirai/policy/commit/d09c6bf49fa0f8a9787211cde393dab9c6465904",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d09c6bf49fa0f8a9787211cde393dab9c6465904/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "388a33763bae74c3bfe969d17f67af4e6ba00f27",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/388a33763bae74c3bfe969d17f67af4e6ba00f27",
+          "html_url": "https://github.com/team-mirai/policy/commit/388a33763bae74c3bfe969d17f67af4e6ba00f27"
+        }
+      ]
+    },
+    {
+      "sha": "57ae9aa1ed0360784fc213234dca27b6fb8700e2",
+      "node_id": "C_kwDOOqTJvNoAKDU3YWU5YWExZWQwMzYwNzg0ZmMyMTMyMzRkY2EyN2I2ZmI4NzAwZTI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-01T17:02:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-01T17:02:29Z"
+        },
+        "message": "モーさんによる災害情報連携システムの提案追加",
+        "tree": {
+          "sha": "2ad4ea9cd3f6179b7e4ac8b03a13e098ae67a419",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2ad4ea9cd3f6179b7e4ac8b03a13e098ae67a419"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/57ae9aa1ed0360784fc213234dca27b6fb8700e2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPIelCRC1aQ7uu5UhlAAA+tsQAD7YB05czPK1+d8RL6CkyeJ/\nEaX/k3jBhKTfywMN3G3EAlEp9pe8Bk7HJ8sMQQX7XjGv8iIk2Nxurm+PGak3j10p\nPsVlOAE1GbJRwaib8m6fntkgWPFyLGFRGUTOS1gUqBd5qtcdFvp1kftChjp2Ovku\nHQdkxzEAjyGgG6/zofHzJoAZAN5su5qRoux4PUeAicNuLlcLHs+HQBQJpVyt+cYZ\nslEBlpGXyeKdkOGj8D5rgAkh7Yo5i2b4ictyc69yEE/Cbjttvqs7StsPqzIAHWkv\nEMP2Xyqp5U4kgY7PtpybOjgwjOUfHLn1My/kKsoDNmmbt4Y8XoDWpq3yCX2nQtEX\n1eY4vBcJixjHDFVKgH40Muujz/VheKWci66pQzpvIV2nay9wHaMOJ5axkBaeh++e\nE6fWTFVnVpQj6/T875rOgsYBTn1DYTdSCzUGXux2rZbHJ0CDoLexq4xx1tzpi3Y3\nB43I8J9FL9CTo/H5FBhqjwt5aY9a9IoYJLL8EQ1sC+hed/pbcweazCtKJj91HLrA\noY3ndKnh/fvs8covYQhyH/QrIM8WTOaXxobAP0eVnBfVRNut4AmuAIkgrMySautH\nmbj8KrvJgzNjVpPHGhsyq9NQ6BvR2Tj7FUQQgtw9RgzK6kY2Aefgyg5fCiGIwy68\n/U1ytZ1iFVvxTxnmEYBJ\n=h7gL\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2ad4ea9cd3f6179b7e4ac8b03a13e098ae67a419\nparent d09c6bf49fa0f8a9787211cde393dab9c6465904\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748797349 +0000\ncommitter GitHub <noreply@github.com> 1748797349 +0000\n\nモーさんによる災害情報連携システムの提案追加",
+          "verified_at": "2025-06-01T17:02:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/57ae9aa1ed0360784fc213234dca27b6fb8700e2",
+      "html_url": "https://github.com/team-mirai/policy/commit/57ae9aa1ed0360784fc213234dca27b6fb8700e2",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/57ae9aa1ed0360784fc213234dca27b6fb8700e2/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d09c6bf49fa0f8a9787211cde393dab9c6465904",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d09c6bf49fa0f8a9787211cde393dab9c6465904",
+          "html_url": "https://github.com/team-mirai/policy/commit/d09c6bf49fa0f8a9787211cde393dab9c6465904"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-03T00:38:48.458885"
+}

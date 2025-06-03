@@ -1,0 +1,129 @@
+{
+  "basic_info": {
+    "number": 1847,
+    "title": "水道料金体系の最適化とデジタル技術活用によるインセンティブ設計の追加",
+    "state": "open",
+    "created_at": "2025-05-31T22:46:29Z",
+    "updated_at": "2025-06-01T15:17:17Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/1847",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [
+    {
+      "id": 8631771283,
+      "node_id": "LA_kwDOOqTJvM8AAAACAn5gkw",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9",
+      "name": "行政改革",
+      "color": "97C1A2",
+      "default": false,
+      "description": ""
+    }
+  ],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "b3c563e2458411473aa5dd5387bc03fd5e690446",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 1,
+      "changes": 10,
+      "blob_url": "https://github.com/team-mirai/policy/blob/6e6eda99247851762eba09a017226eecd17da2b5/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/6e6eda99247851762eba09a017226eecd17da2b5/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=6e6eda99247851762eba09a017226eecd17da2b5",
+      "patch": "@@ -141,7 +141,7 @@\n   * ただし、これらは「セキュリティとプライバシーの確保」、「AIによる大量スパム行為」など懸念も残るので、請求回数に一定の制約を設ける、マイナンバーによる資格確認を実施する、レートリミットと行為検知でスパムを防止する等のルールを整備します。  \n * 法令データの利便性向上  \n   * e-lawsでの法令標準 XMLスキーマに基づいた XML形式での提供、デジタル庁の提供する法令一覧や法令本文のXMLをプログラムから取得できるようにする法令 APIに加え、以下を実施するとともに、生成AIでも活用な形での情報提供を進めます。  \n-    * 告示や通達などの法令データも整備し、より包括的な法令データベースを構築します。  \n+    * 告示や通達などの法令データも整備し、より 包括的な法令データベースを構築します。  \n     * 文の意味（例：定義語、適用条件、例外など）、法令間の参照関係や意味上のつながり（例えば「○○法第△条を準用する」）のマークアップを実現します。  \n     * 過去の条文の履歴や、法改正前後の差分情報を提供します。  \n * 各省庁の保有する情報のAPI経由での提供  \n@@ -191,4 +191,12 @@\n * 在外投票など実現可能な領域から導入し、段階的に拡大することを目指します。  \n * 検証を通じて国民が納得できる合意点を探り、技術的課題の解決を支援します。\n \n+## ７）水道料金体系の最適化とデジタル技術活用によるインセンティブ設計\n \n+### 現状認識・課題分析\n+*   現行の水道料金計算は、同居人数を十分に考慮できていないため、世帯がバラバラに住む方が料金的に有利になる場合があり、インフラ維持の観点からは非効率。\n+*   過疎地域におけるインフラ維持コストの増大や、子育て世帯・介護を行う二世帯住宅など、特定の居住形態に対する経済的インセンティブが不足している。\n+\n+### 政策概要\n+*   デジタル技術を活用し、同居人数や居住エリアの人口密度などを水道料金の計算要素に組み込むことで、より公平で効率的な料金体系を構築する。\n+*   集約居住、子育て支援、二世帯住宅での介護などを促進するインセンティブを料金体系に導入し、社会全体の効率化と持続可能な地域づくりを目指す。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "6e6eda99247851762eba09a017226eecd17da2b5",
+      "node_id": "C_kwDOOqTJvNoAKDZlNmVkYTk5MjQ3ODUxNzYyZWJhMDlhMDE3MjI2ZWVjZDE3ZGEyYjU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-05-31T22:42:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-05-31T22:42:43Z"
+        },
+        "message": "せさんによる水道料金最適化の項目追加",
+        "tree": {
+          "sha": "7e4c466bd7f8ffe0c2d689184675e22a43c26f94",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7e4c466bd7f8ffe0c2d689184675e22a43c26f94"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6e6eda99247851762eba09a017226eecd17da2b5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoO4XjCRC1aQ7uu5UhlAAAJ3kQAHcFZbu648EPqgBC3tGl+EfB\nBi/ESjGNpWaaeByfIWfIsJ07/ZBmoQvFIb0E1PgsRyL7ZwIbNpsKALeFnxtalYwB\nNM7YYLaJqFmtfKmIehnESDx5B48A86c7zaFj0fuDUUFwF9JsZ8dSVHD6wWqmPpav\nAgkbMK0aKOOKPssQokqMU8rjBhhJXYPMI+IfB+1pC46TYfY795MJVr3haz18XgAL\nJNBJi8si0Q43xZoa9UyJt+diQaDmx5gUOs5EPNOT/Wg2a74CdZyYkZz/CNcRax7L\nAulvHSHyw66MU0KZCyVS827zVSbWsrdt9qFeQFOwTcTUzs2pHT34xqQAnktAeQrO\n+uBPrVw808kF17gJHuPejNRjN8wQaGlRIWTUdWdJhOEHv1WtKNd4MmlgH22H9/zV\n3Ray7g61SrpOH6L8o1ck0tCFa8Za6u23dEAd3dw3sPJC/NPn8vg4HshTOJ08ZQaU\nL9BTS5jICiuIZPHrGE39v7F6JtCgSK4mSbRJyqiRfpF4QUIOMwy7yJE2L8lRvVa1\nHk7MiZxkMxyF0PwV4mKcHA7AhfZD1XpaYDhYS5758mR+dlbLEMS2Hc7LFMSZms5h\nRc61ZFB3mP/ve4IOf3AOlr3UulNut9KPmJ2jreeFnpMlF1i1Q2Nmdv4pC8pyeFMN\nTrVFtt+jImVMI68AjcdA\n=fqzU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7e4c466bd7f8ffe0c2d689184675e22a43c26f94\nparent 95a2d5490a1b5fb88faec70e983c54c23787a2a2\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748731363 +0000\ncommitter GitHub <noreply@github.com> 1748731363 +0000\n\nせさんによる水道料金最適化の項目追加",
+          "verified_at": "2025-05-31T22:42:43Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6e6eda99247851762eba09a017226eecd17da2b5",
+      "html_url": "https://github.com/team-mirai/policy/commit/6e6eda99247851762eba09a017226eecd17da2b5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6e6eda99247851762eba09a017226eecd17da2b5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "95a2d5490a1b5fb88faec70e983c54c23787a2a2",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/95a2d5490a1b5fb88faec70e983c54c23787a2a2",
+          "html_url": "https://github.com/team-mirai/policy/commit/95a2d5490a1b5fb88faec70e983c54c23787a2a2"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-03T00:39:36.219558"
+}
