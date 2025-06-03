@@ -1,0 +1,529 @@
+{
+  "basic_info": {
+    "number": 1918,
+    "title": "介護分野におけるAI活用を中心とした政策改善提案（匿名ユーザー）",
+    "state": "open",
+    "created_at": "2025-06-03T02:48:54Z",
+    "updated_at": "2025-06-03T02:48:55Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/1918",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "a921c48a27891e7c87dc70613e0efd5f9864d257",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "changes": 20,
+      "blob_url": "https://github.com/team-mirai/policy/blob/e1db2e8865db5745f1d020d27d25e775b0b0396c/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/e1db2e8865db5745f1d020d27d25e775b0b0396c/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=e1db2e8865db5745f1d020d27d25e775b0b0396c",
+      "patch": "@@ -1,3 +1,4 @@\n+\\\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくはこちら\n \n@@ -21,7 +22,7 @@\n   - 僻地や島嶼部などの医療アクセスが難しい地域にお住まいの方々や一人で外出することが難しい方などの場合、医療機関で相談をしたくても受診控えをしている場合もあると思います  \n - オンライン診療が進まない要因の一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n   - 現在の診療報酬制度ではオンライン診療が対面診療と比べて優遇されているとは言えず、医療機関側にとってシステム投資や運用構築を乗り越えてまで推し進める動機づけが不足しています  \n-  - また、オンライン診療で医師に相談をしても、受診後の医薬品の受け取りに調剤薬局を訪ねる必要があり、一連の受療行動をオンラインで完結できていない状況も多いかと思います\n+  - また、オンライン診療で医師に相談をしても、受診後の医薬品の受け取りに調剤薬局を訪ねる必要があり、一連の受療行動をオンラインで完결できていない状況も多いかと思います\n \n ### 政策概要\n \n@@ -57,3 +58,20 @@\n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n - 受付、決済やオンライン診療の領域で医療DXが進み、安全に効率的に電子カルテと外部システムが接続できる環境が整うことで、新たな医療機関向けサービスの開発や導入が進展することも期待されます\n+\n+# 9．介護\n+\n+## 現状認識・課題分析\n+- 地方において親が病気になった際、介護認定を受けるために市役所に申請してから認定までに約1ヶ月を要することがある。病状が急変するリスクもある中で、この期間は迅速な介護サービス利用開始の障壁となっている。\n+- また、介護認定後も、利用できるサービスや手続きに関する説明が複雑で多岐にわたるため、高齢者本人だけでは内容を十分に理解・記憶することが難しい場合がある。少子高齢化の進行により、説明に同席できる家族が身近にいないケースも増えている。\n+- また、一人暮らしの高齢者の中には、実際には日常生活に困難を抱えていても、他者の介入を好まなかったり、申請手続きを煩わしく感じたりして、必要な行政サービスに繋がっていないケースも存在する。こうしたケースでは、本人の状況が悪化する前に行政側からの能動的な働きかけが求められる場合があるが、プライバシーへの配慮や介入のあり方が課題となる。\n+\n+## 政策概要\n+- **AI活用による窓口業務・審査プロセスの効率化:**\n+    - 窓口での申請手続きにおいて、AIが申請書類の記入漏れチェックや必要書類の案内を補助することで、職員の負担を軽減し、待ち時間を短縮します。\n+    - 郵送やFAXで提出された申請書類をAI-OCR（光学文字認識）でデータ化し、AIが内容の予備チェックを行うことで、審査期間の短縮を目指します。\n+    - 電話での問い合わせに対し、AIが初期対応やよくある質問への回答を行うことで、職員がより専門的な相談に集中できる体制を構築します。\n+- **AIケアマネージャー（仮称）による電話相談サポートの提供:**\n+    - 介護認定を受けた高齢者やその家族に対し、個々の状況に合わせて、利用可能な介護サービスの種類、手続き方法、費用などを、AIとの電話を通じた対話により分かりやすく説明します。\n+    - 利用者の理解度に応じて、説明のペースや言葉遣いを調整し、何度でも辛抱強く対応することで、情報格差の解消を目指します。\n+    - 質問や不安に対してもAIが応答し、必要な情報を提供することで、精神的な負担の軽減も図ります。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "c52da35d72da5f11dd7f8ea8ab15d756aaa44770",
+      "node_id": "C_kwDOOqTJvNoAKGM1MmRhMzVkNzJkYTVmMTFkZDdmOGVhOGFiMTVkNzU2YWFhNDQ3NzA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-03T02:20:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-03T02:20:10Z"
+        },
+        "message": "「9．介護」のセクションを匿名ユーザーが追加",
+        "tree": {
+          "sha": "f2c93db78f2c019deb57a039741b9247f44da741",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f2c93db78f2c019deb57a039741b9247f44da741"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c52da35d72da5f11dd7f8ea8ab15d756aaa44770",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPlvaCRC1aQ7uu5UhlAAAOeoQAFRd83jlZvO8zmfPQ0RYX72X\nJ7S2EtAd63PCn8M3Y6SQlgIJnirfOodM7drplhQS4a6PRoBAhucUKv0LqxFVt08B\nN8fESGmekCVjWYKGrc6VKRAOfpRhdPxQoG3TsXKDt2ZGxFY1A7gM4AVyT4FHSx4G\nrXGskNc2E7o3vekg7g7Pf2Jxjm5n4sLWWJGoMbriTxfeksxXQem3oRYH1zI6Ph9h\nWYMEmFyQJPGV5mBUjeQ7VCywWis6kG8gNulPj8XHz54CHrzxuVcU7+bIJZRPHFbM\nPAmvhyzsMFci8/3bnytOlZhQzcjHLZWZMP0gPnZ+twm57dZFcOjvJbj5WcmkT5Bi\nITAGnx4qplFZQhy0iKcc6+1Em0LmEajXSGJpFlwgQJWMpR7QNAN8wflkF0cQnAE/\nqRhchuRvXvTH01YX02mzVvNfBu1IKauVBTJ2XJuMo/Ae1bwXcibQEEDtEciTEzBH\n/FATKQAKfsPErIthP3W5Wtxu1ed2YnH9tvtPxvSAiy2wNkfhhGJQfJHbR0o1+kpP\nVFQj91PlXSNGkbfZsKtEbnEU5RrSrRnGmFb7iIMZ9K88+uVrHKqSbMQ7WfFFe7CQ\nRQWo+ZkPkPaoqY5KVMVvZ+IKC11gVqMB8QdQHXbGVmzr75RFp3L1eEnNVlaBr8k9\ndlhIaQtiXXoFWjqL49b3\n=iNqj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f2c93db78f2c019deb57a039741b9247f44da741\nparent 8cc26fb8d708712e538812f6968a27f0e1ed4cbd\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748917210 +0000\ncommitter GitHub <noreply@github.com> 1748917210 +0000\n\n「9．介護」のセクションを匿名ユーザーが追加",
+          "verified_at": "2025-06-03T02:20:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c52da35d72da5f11dd7f8ea8ab15d756aaa44770",
+      "html_url": "https://github.com/team-mirai/policy/commit/c52da35d72da5f11dd7f8ea8ab15d756aaa44770",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c52da35d72da5f11dd7f8ea8ab15d756aaa44770/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8cc26fb8d708712e538812f6968a27f0e1ed4cbd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/8cc26fb8d708712e538812f6968a27f0e1ed4cbd",
+          "html_url": "https://github.com/team-mirai/policy/commit/8cc26fb8d708712e538812f6968a27f0e1ed4cbd"
+        }
+      ]
+    },
+    {
+      "sha": "99f82162c78884e53fcdb8b69b865f9133ff3f30",
+      "node_id": "C_kwDOOqTJvNoAKDk5ZjgyMTYyYzc4ODg0ZTUzZmNkYjhiNjliODY1ZjkxMzNmZjNmMzA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-03T02:24:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-03T02:24:01Z"
+        },
+        "message": "匿名ユーザー: 「9. 介護」セクションを追加し、介護認定審査期間の課題を記述",
+        "tree": {
+          "sha": "26c70015ca2a72ea53df8ae2a0ff8f33d9edb0aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/26c70015ca2a72ea53df8ae2a0ff8f33d9edb0aa"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/99f82162c78884e53fcdb8b69b865f9133ff3f30",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPlzBCRC1aQ7uu5UhlAAAFnoQAEvm0JAvYFtAiGsb47tf2/sj\nTx/LkLErwaX613egluJNDo6bac7t7FEBcuuwFefba0nFvuyLg1TG5oxddG3dnyRi\nIrKEqd4zNHwX7I5NUBwvx/h5OilMQ5USHn5dT51eCL4ioYkT8pAIPI587UTULEG6\nZruqhibNPwme+Tk/yG/N+yk60+HSItFTm6Uw7ss9ihOPJkJ58VTTa/nt1CPM4K54\nSk/0wDCyeXn63JuG/4qx6nDYFL1BAyrcHQwdr0TbRi7bDKfd7EDLXykZQnfF8BWr\nR+SP78hegtdVxYEU1aDK5/+N9VFv1ubkZbN8T6rNgCjXGcaObZl0Lg0mg4AZUVDc\n7Z4gdKxuKCRkr3Vuu13pBtFmWzjXr43gAAbBVuroWyVqgeNdtkQ9trEhcdumoAUl\n5exMxlwlIk9QWW5iKkxXz6Jdp+G2J/XOhviQ1T8BaVjHveQCNrYa4FoRlHjQCDP/\ns8jNFJ/t3A5fNDLt2vLbKPzsb2sV2bvcNLmYHZNpdVD6J5dnEx23jPLavVw+7sXu\nFLP14QSBXlPrjUuYCEKXMaoG2i+n+gY12gZqd1s94PNyd/NstzWHL0xgP1HM1Ydx\neK+QlIZn8mRHMJmRqRQg7h0/LFM4g9GSAsCf6tuV/G+pYPtwgEROXX/cxcDFsdQq\nMSzBXRhvW+C3HS/GGez5\n=n6pU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 26c70015ca2a72ea53df8ae2a0ff8f33d9edb0aa\nparent c52da35d72da5f11dd7f8ea8ab15d756aaa44770\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748917441 +0000\ncommitter GitHub <noreply@github.com> 1748917441 +0000\n\n匿名ユーザー: 「9. 介護」セクションを追加し、介護認定審査期間の課題を記述",
+          "verified_at": "2025-06-03T02:24:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/99f82162c78884e53fcdb8b69b865f9133ff3f30",
+      "html_url": "https://github.com/team-mirai/policy/commit/99f82162c78884e53fcdb8b69b865f9133ff3f30",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/99f82162c78884e53fcdb8b69b865f9133ff3f30/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c52da35d72da5f11dd7f8ea8ab15d756aaa44770",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c52da35d72da5f11dd7f8ea8ab15d756aaa44770",
+          "html_url": "https://github.com/team-mirai/policy/commit/c52da35d72da5f11dd7f8ea8ab15d756aaa44770"
+        }
+      ]
+    },
+    {
+      "sha": "0d6887e9cc7636ecd00006e4cbabdde5c225051b",
+      "node_id": "C_kwDOOqTJvNoAKDBkNjg4N2U5Y2M3NjM2ZWNkMDAwMDZlNGNiYWJkZGU1YzIyNTA1MWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-03T02:28:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-03T02:28:52Z"
+        },
+        "message": "匿名ユーザー: 介護セクションにAI活用による窓口業務・審査プロセスの効率化に関する政策概要を追記",
+        "tree": {
+          "sha": "f0c4a486c0d50d9bf8014135b9e5802a2040b329",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f0c4a486c0d50d9bf8014135b9e5802a2040b329"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0d6887e9cc7636ecd00006e4cbabdde5c225051b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPl3kCRC1aQ7uu5UhlAAA5fwQAEP0iaVme3yrc7nFWDwzjxU0\nG9qsQ/WgLCeBk1jqqdv4wQrgG6ZvQWoSDELChRou7BQ5mi8x4y+83Rxg0QMwLZcO\nB7oPSZNNKYJ0+CW/n4DKulRJN6JGQUKwCpk4PFmf1wYduIUnZRKQ55Tysaq6bpjM\nukvrtnkXVh4VCnF9m5c5nRKbaZeaucvP/JwDqpvSlyfjVQR6InONhqrpNdY0NVi7\n8dyAL0XJwpCe8GbB4EE4cbGNLMDsImu1s/bcT19I53P0gryC4pEcir6QnrekwSH0\ndnDQF/V0Pevui/FbMZOgwtq4H8809V7K1uupXC1+MWn98+PSl2wnH46xkrLdrHHu\n5gs08JclvO9UhUkPO91rqbH/G7PHaTeeI5bgXBqNjKYat19Nzj8WZHTeFzjvCBRP\n65slX+rDHbfvJ7kSCWSK4rNxsEf4QySdne9XTD8wJYjNCigUOYsd/pycvkDuTY0S\n3B+TNTY5UqTSbDdJGkcNhNB3iShgIsHrR8rvtGYWs8gxgrkiuvjPEOSQDe0rl+ei\nTm+VX0FFLGkmDHfIMb1q4z60F5wTqP4dwVQRx5aX948+IWxW99oCoQxUrGcZpl8m\n5MT7mtOi67Tu2WImbI2M+XKhs5s8anFY3AZBOParH1ibI86vX4gRNOAw1Hxg5l2i\ntW4CEBqJaCawYfEwOheM\n=l4Vh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f0c4a486c0d50d9bf8014135b9e5802a2040b329\nparent 99f82162c78884e53fcdb8b69b865f9133ff3f30\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748917732 +0000\ncommitter GitHub <noreply@github.com> 1748917732 +0000\n\n匿名ユーザー: 介護セクションにAI活用による窓口業務・審査プロセスの効率化に関する政策概要を追記",
+          "verified_at": "2025-06-03T02:28:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0d6887e9cc7636ecd00006e4cbabdde5c225051b",
+      "html_url": "https://github.com/team-mirai/policy/commit/0d6887e9cc7636ecd00006e4cbabdde5c225051b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0d6887e9cc7636ecd00006e4cbabdde5c225051b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "99f82162c78884e53fcdb8b69b865f9133ff3f30",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/99f82162c78884e53fcdb8b69b865f9133ff3f30",
+          "html_url": "https://github.com/team-mirai/policy/commit/99f82162c78884e53fcdb8b69b865f9133ff3f30"
+        }
+      ]
+    },
+    {
+      "sha": "ad2ff8aa8cb8267995e8db53204b6a55378709d5",
+      "node_id": "C_kwDOOqTJvNoAKGFkMmZmOGFhOGNiODI2Nzk5NWU4ZGI1MzIwNGI2YTU1Mzc4NzA5ZDU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-03T02:33:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-03T02:33:22Z"
+        },
+        "message": "匿名ユーザー: 介護セクションの現状認識・課題分析に、認定後の説明理解の困難さに関する記述を追記",
+        "tree": {
+          "sha": "c821c228a7d86ab67885644f7f6c638bf64792ca",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c821c228a7d86ab67885644f7f6c638bf64792ca"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ad2ff8aa8cb8267995e8db53204b6a55378709d5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPl7yCRC1aQ7uu5UhlAAAiVYQAHRYBVWtm4AcM0mFrze44o9Y\nl3/1LIVKmWHZ4VxE+DvKKuTIWQRmbKpEmyGwpUhaxiAJKNEatR+KcSB+2dUed8FQ\nnUGIW3TyqG8zez6Snfqt37umkdf9cpCbSehVoFno/1vZULTg2CD2VFpo/PV5Y7s0\nO1ifIzmY7zKh/wfZnAIRaExhyoj3AgwqRoTs/4GO/Ot4AwzybQU0NOFgwFO2pV2I\nB94wo2jOn7weTGzSRhcF7kpZ6ZIeuAH9t3OxmbhBcMTmAxZ83FPOSMRrGJfglIIY\ndRQhaqBrFkYxurWvlPJ/rBVdRngR0m+pH6RBbUU87p2nogneo1KxlgZ7wFqZzuXi\nBwVhkjYhPuDXo7d3QHTWDFOYkN+TLjynCSriAKFMTu3beM5NWV+2OzCFEROLJ7lV\nBjDsy0V+7aUSlRYgnhRoLaAt9ogmQRsDKbsElKKSQPPNO/4eSbfDZxgsIcJ2Ooav\nYDch/DZfP4bm+/6cRObwuMYZ995WxwMU9v677JJNaHVK6AlJP6nUwXiDekqb6SMf\nsAfJ3oT7kCGSOjAqWGrEHbgKOld64hHH2ZwO/ICLtaMcqA+QSZXEwpkYTM1uRL1E\ni7MRE1K1If43ECTAgyrqRBkTVTtY3hzBwtwE48aVOqy83l+SD0OMBVwFbFqUvkl8\nToo0JjFJ702ySLxGeV7w\n=NZ7S\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c821c228a7d86ab67885644f7f6c638bf64792ca\nparent 0d6887e9cc7636ecd00006e4cbabdde5c225051b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748918002 +0000\ncommitter GitHub <noreply@github.com> 1748918002 +0000\n\n匿名ユーザー: 介護セクションの現状認識・課題分析に、認定後の説明理解の困難さに関する記述を追記",
+          "verified_at": "2025-06-03T02:33:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ad2ff8aa8cb8267995e8db53204b6a55378709d5",
+      "html_url": "https://github.com/team-mirai/policy/commit/ad2ff8aa8cb8267995e8db53204b6a55378709d5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ad2ff8aa8cb8267995e8db53204b6a55378709d5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0d6887e9cc7636ecd00006e4cbabdde5c225051b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0d6887e9cc7636ecd00006e4cbabdde5c225051b",
+          "html_url": "https://github.com/team-mirai/policy/commit/0d6887e9cc7636ecd00006e4cbabdde5c225051b"
+        }
+      ]
+    },
+    {
+      "sha": "ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb",
+      "node_id": "C_kwDOOqTJvNoAKGRkYmE0NGI2YTg2MjZiOWY4MWRjZDlmZTYzN2VjMmY4NGNlMGYzYmI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-03T02:36:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-03T02:36:56Z"
+        },
+        "message": "匿名ユーザー: 介護セクションの政策概要にAIケアマネージャー（電話相談サポート）の提案を追記",
+        "tree": {
+          "sha": "a8ebe049fef1a8b0665966e4612c066334e15bfe",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a8ebe049fef1a8b0665966e4612c066334e15bfe"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPl/ICRC1aQ7uu5UhlAAAmMAQAK1pzXtXK4T5XGoRMcIZNDDj\nAAB3DDagoaVqSECL483kzYlOcRlomliCTqteLTCOxPfGBvVNCzQbohxRSHVr3cx7\nKHi9uonoZDubRip9gARi4rxkdBJIk/R5FCAj61OW0UT2jRKQ2EaJ7/6HM+3xTPpt\ntCNdzkvncTscmvEHaXGp4HXoJhtj8OEQBYiyV2vH0/4Yk0BM7O4Ca0NKLRyx0lg9\nvaAeuBHfFk4Om6+zxEZ5VRlly4+HIX+OlW7gFNboDzUXZt6JeOg44xHJ8AhxEKTq\nPXaqFQPdAjuvuq9WgcGRvzLCX2VOwBZOlVBr62Z3SWtu6Z4INNqjtIyZoyeVvdZE\n8qGIfuGtEmHRr8+UjeoCjmcgq230f9M9YkGnqRKrzytcY/42JZYB1n7NOYJ0OG6T\n2frFlM3TFzqqXT7n1URwwGtgmRgE8CTqGEgnJFKG8rgelBpJ6Wl2Bw6jjzimTMB8\neFjsOR18sy9bTGTv83TAeL+mJABnysRTYN4dd4YX0uGywlgXP0s+2NxwaChXZoT3\npy+DpuDDbfXgoKTNtQWku5NadvMSl9PcUjqAOMY7r5gFvLp/QAdEN69ThMd9go8Z\nB0797Yg24tpOM1+J8K8bkm77vAuiKgiks1Hzv97oK9B0uScHRV3Crr1c/1LTlcER\nC9p3ft/mbvl4CMFj5g2U\n=1gR1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a8ebe049fef1a8b0665966e4612c066334e15bfe\nparent ad2ff8aa8cb8267995e8db53204b6a55378709d5\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748918216 +0000\ncommitter GitHub <noreply@github.com> 1748918216 +0000\n\n匿名ユーザー: 介護セクションの政策概要にAIケアマネージャー（電話相談サポート）の提案を追記",
+          "verified_at": "2025-06-03T02:36:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb",
+      "html_url": "https://github.com/team-mirai/policy/commit/ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ad2ff8aa8cb8267995e8db53204b6a55378709d5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ad2ff8aa8cb8267995e8db53204b6a55378709d5",
+          "html_url": "https://github.com/team-mirai/policy/commit/ad2ff8aa8cb8267995e8db53204b6a55378709d5"
+        }
+      ]
+    },
+    {
+      "sha": "e1db2e8865db5745f1d020d27d25e775b0b0396c",
+      "node_id": "C_kwDOOqTJvNoAKGUxZGIyZTg4NjVkYjU3NDVmMWQwMjBkMjdkMjVlNzc1YjBiMDM5NmM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-03T02:42:40Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-03T02:42:40Z"
+        },
+        "message": "匿名ユーザー: 介護セクションの現状認識・課題分析に、支援を必要としながら申請に至らない高齢者に関する記述を追記",
+        "tree": {
+          "sha": "7d72c2435fa734ed34cb89c1b0996387e7435444",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7d72c2435fa734ed34cb89c1b0996387e7435444"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e1db2e8865db5745f1d020d27d25e775b0b0396c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPmEgCRC1aQ7uu5UhlAAASigQAIXMh3T3LngJJXac4roxGVOP\nV6tcfw0w0w6p+cJhcOCVbqelw4WyMM6wKYFuC2DtugnY3/iNHBi7/9nLmiLqtLPN\nNmGgDDQJZ2u5f6exy6tGHM6F3RoDy/xg5bJPixUdqSehLm9hdg3jsWjBJdXzOvPc\n/HXTxk9MyFalBAqLjhAm3SN81OlMvkEhN0GHIhultua7IYzS9v/oO/XcZ6WzkxRd\nOU9j5kBkRkPCHJAIf3Oilt4RzZZXhv4//x+sokdeCn/jjcSXrm7aY7PaYqLY7vVo\nJ8fmwjLPaD5xHYKDhEvmc9Wc+iqBeYgcEN6wXGhUzZXL9l045+d11bMjSzWy3/87\numIQox7PQb/P+Oaxm5gDW74ScK8OyavYjZpVkn0fI7j277QQtpHMWXAUu1YRitOE\nMn0OXhdHC7CHJcDZjeKQe9Pyq9+wNqyWmseXzMMtQFROskWOay4QMPx0BIKShjwH\nNVOjMX46gxtFW1U1XiW00K8cBQXZFbaz8qoJhWkbzYb2CPqfYnZmgXLGpPjSobMb\nN3VufIPvmm1fPYJ7G9QGkrHom7REHHYqP13eaypzB7L5TR4b3Bd/GBlS9bQueXMm\nk1s/vcwIKYjYBoKqq0CyUix7ZPHz8SjmQJiKJ4wYFz66eJpIv8c/hvdRcumLhrVx\nZjNn29oeCI3xNWcmLH6W\n=WQfc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7d72c2435fa734ed34cb89c1b0996387e7435444\nparent ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1748918560 +0000\ncommitter GitHub <noreply@github.com> 1748918560 +0000\n\n匿名ユーザー: 介護セクションの現状認識・課題分析に、支援を必要としながら申請に至らない高齢者に関する記述を追記",
+          "verified_at": "2025-06-03T02:42:41Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e1db2e8865db5745f1d020d27d25e775b0b0396c",
+      "html_url": "https://github.com/team-mirai/policy/commit/e1db2e8865db5745f1d020d27d25e775b0b0396c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e1db2e8865db5745f1d020d27d25e775b0b0396c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb",
+          "html_url": "https://github.com/team-mirai/policy/commit/ddba44b6a8626b9f81dcd9fe637ec2f84ce0f3bb"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-03T03:46:00.695327"
+}
