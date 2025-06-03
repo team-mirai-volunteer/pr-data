@@ -4,9 +4,9 @@
 
 - [その他](#その他) (509件)
 - [エネルギー](#エネルギー) (108件)
-- [デジタル民主主義](#デジタル民主主義) (257件)
+- [デジタル民主主義](#デジタル民主主義) (258件)
 - [医療](#医療) (146件)
-- [子育て](#子育て) (216件)
+- [子育て](#子育て) (217件)
 - [教育](#教育) (294件)
 - [産業](#産業) (278件)
 - [科学技術](#科学技術) (142件)
@@ -649,7 +649,7 @@
 
 ## デジタル民主主義
 
-### オープン (245件)
+### オープン (246件)
 
 - [PR #777](https://github.com/team-mirai/policy/pull/777) チームの目標とDX化指標を序文に明記 by ゆとりん
 - [PR #270](https://github.com/team-mirai/policy/pull/270) 政策文書改善案：グローバルな課題認識の反映とデジタル施策の具体化
@@ -820,6 +820,7 @@
 - [PR #1246](https://github.com/team-mirai/policy/pull/1246) りすくさん提案：ワクチン接種履歴管理システムの構築と非デジタル対応者への配慮
 - [PR #1080](https://github.com/team-mirai/policy/pull/1080) 教育分野におけるデジタル端末配布に関する政策の具体化：匿名ユーザー提案
 - [PR #186](https://github.com/team-mirai/policy/pull/186) 産業分野におけるセキュリティ対策の重視を提案（こたつ）
+- [PR #1913](https://github.com/team-mirai/policy/pull/1913) とわさん提案：デジタル母子パスポートの利便性向上と対象範囲拡大
 - [PR #249](https://github.com/team-mirai/policy/pull/249) 【匿名ユーザー提案】デジタル機器の健康的な利用に関する記述追加
 - [PR #59](https://github.com/team-mirai/policy/pull/59) AI技術を活用した多様な層へのメッセージ動画作成の提案（testさんより）
 - [PR #1467](https://github.com/team-mirai/policy/pull/1467) AIを活用したパブコメ改善と情報操作対策の強化
@@ -1068,7 +1069,7 @@
 
 ## 子育て
 
-### オープン (213件)
+### オープン (214件)
 
 - [PR #1768](https://github.com/team-mirai/policy/pull/1768) テクノロジー活用の基本姿勢を明記（提案者：団鬼八さん）
 - [PR #1376](https://github.com/team-mirai/policy/pull/1376) 本多正則様による子育て支援政策改訂：財源、実行留意点、副次的効果の具体化
@@ -1211,6 +1212,7 @@
 - [PR #1344](https://github.com/team-mirai/policy/pull/1344) 結婚の障壁に関する政策改善：養子縁組支援の強化（遠山健司提案）
 - [PR #1496](https://github.com/team-mirai/policy/pull/1496) panda氏提案：子育て支援策の強化（労働環境改善、住環境整備、地方活性化）
 - [PR #218](https://github.com/team-mirai/policy/pull/218) 養育費問題解決に向けた子どもの貧困対策強化（小野様提案）
+- [PR #1913](https://github.com/team-mirai/policy/pull/1913) とわさん提案：デジタル母子パスポートの利便性向上と対象範囲拡大
 - [PR #865](https://github.com/team-mirai/policy/pull/865) 子育て支援策の充実に向けて：「仕事と妊娠・育児の両立」項目への育休期間延長の検討明記（あみさんの提案）
 - [PR #62](https://github.com/team-mirai/policy/pull/62) 年少扶養控除の検討を目次に追加（じんはるさん提案）
 - [PR #132](https://github.com/team-mirai/policy/pull/132) 障がいのある方の成人期以降の支援と情報格差解消の具体策を追加
