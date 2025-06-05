@@ -1,0 +1,529 @@
+{
+  "basic_info": {
+    "number": 1947,
+    "title": "税の一部使い道選択制度の導入検討",
+    "state": "open",
+    "created_at": "2025-06-05T02:58:02Z",
+    "updated_at": "2025-06-05T02:58:03Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/1947",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "b52ce86d8d3cbbe6a49a8fe16ceb6281cd16cc48",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 4,
+      "changes": 9,
+      "blob_url": "https://github.com/team-mirai/policy/blob/eea968418d7548abbdf372834d77d33636730c1f/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/eea968418d7548abbdf372834d77d33636730c1f/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=eea968418d7548abbdf372834d77d33636730c1f",
+      "patch": "@@ -18,7 +18,7 @@\n * 所得の“段差”が行動をゆがめる  \n   * 控除額や、制度適用の基準値はなめらかではなく、「崖・壁」が多数存在。これが就労調整などの動機になっています。  \n * 制度の金額がインフレに追いつかない  \n-  * 控除・給付額、所得制限値が固定されている制度においては、2020～2024年のCPI累計上昇率6.4%に対し、実質的な手取り増加・給付価値は相対的に低下。特に低・中所得層では家計負担感が増大しています。  \n+  * 控除・給付額、所得制限値が固定されている制度においては、2020～2024年のCPI累計上昇率6.4%に対し、実質的な手取り増加・給付価値は относи的に低下。特に低・中所得層では家計負担感が増大しています。  \n * “手作業改定”が制度運用のボトルネック  \n   * 政策改正のたびに企業や社労士は給与ソフトや帳票を更新する必要があります。制度改定の影響も読みにくく、周知・対応コストがかさみます。  \n * 制度間の一貫性が欠如  \n@@ -38,6 +38,7 @@\n   * Webシミュレーターを公開し、個人・企業による新旧制度を比較可能にします。  \n   * ダッシュボードで負担・給付を可視化します。  \n   * 政策GitHubで制度のモデル仕様・ロジック・パラメータ更新履歴を公開します。\n+  * 【新設】税の一部使い道選択制度（仮称）の導入検討：ふるさと納税制度の仕組みを参考に、国政レベルの実験的な新規事業等へ対象を拡張する形で、国民が納税額の一部について支援したい事業を選択できる制度の導入を検討します。これにより、国民の政策決定への関与を深め、各省庁の事業提案へのインセンティブ向上も目指します。\n \n ## ２）ロックインを防ぐ、オープンな公共調達を推進します\n \n@@ -64,7 +65,7 @@\n * アジャイルな政策実装サイクルの採用  \n   * OSSやオープン化の推進とあわせて、調達・開発プロセス自体も柔軟かつ段階的なサイクルに移行する必要があります。以下のような柔軟な実装サイクルを制度化することで、変更が難しい高額発注やベンダーロックインのリスクを抑え、プロジェクト全体の費用対効果を高めます。\n     * 小規模なMVP（最小限の機能を備えた試行版）から開発を開始し、早期に運用環境での検証を実施\n-    * 利用者や実務担当者からのフィードバックを集約し、短いサイクルで段階的に機能を改善\n+    * 利用者や実務担当者からのフィードバックを集約し、短いサイクルで段階的に Funktionen を改善\n     * 成果と課題を定期的に検証し、必要に応じて横展開、見直し、あるいは中止などの判断を柔軟に行う\n * ベンダーロックイン防止ガイドラインの制定  \n   * データ・API・インフラのポータビリティ要件を調達仕様に明示します。  \n@@ -200,7 +201,7 @@\n   * 出席が義務化されている根拠として、憲法63条には、内閣総理大臣およびその他の国務大臣に対し、国会で答弁を求められた場合には「議院に出席しなければならない」と規定されています。\n   * この「出席至上主義」は、外交や災害対応、国際交渉など政策現場へ出向く機会を制限しています。\n * 官僚の国会待機と徹夜作業の常態化\n-  * 国会会期中、各省庁の官僚は「質問通告がいつ来るかわからない」状態で深夜まで庁舎で待機しなければいけない事態になっています。\n+  * 国会会期中、各省庁の官僚は「質問通被告がいつ来るかわからない」状態で深夜まで庁舎で待機しなければいけない事態になっています。\n   * 過去のデジタル担当大臣の記者会見では、通告が「前日午後6時以降」になる割合は2.5%であるものの、これが徹夜稼働の主因となっていると言われています。\n   * こうした過酷な環境での働き方も影響し、人材流出が加速。国家公務員総合職の離職率は10年で2倍以上になっています。\n * 紙・FAX文化の根強さ\n@@ -227,4 +228,4 @@\n   * 全議員にタブレットを貸与し、本会議場でも使用を解禁します。原則電子媒体での交付とし、紙配布は例外時のみ許可制にします。\n * 緊急時ハイブリッド議会\n   * 大規模災害・感染症流行時に限り、議員の遠隔出席と電子投票を許可する方向での検討を進めます。\n-  * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n+  * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "0667f42200787fead04ac8540f100e7e896ff72a",
+      "node_id": "C_kwDOOqTJvNoAKDA2NjdmNDIyMDA3ODdmZWFkMDRhYzg1NDBmMTAwZTdlODk2ZmY3MmE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-05T00:59:20Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-05T00:59:20Z"
+        },
+        "message": "中村さんの提案に基づき、「税の一部使い道選択制度」の検討を追記",
+        "tree": {
+          "sha": "2d6e85b4ccc2abf590248b7887662b7e0b379103",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2d6e85b4ccc2abf590248b7887662b7e0b379103"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0667f42200787fead04ac8540f100e7e896ff72a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQOvpCRC1aQ7uu5UhlAAAMjQQAHNAHWIy1w7MFmb8P+tUNbQX\nv5/528BeOCt1aLOWlQeWppMQsROxWQbnWMCc7NhW7gTGNFuj7bKjekfF4bT9+La4\n8ZS4z9OIfu+YePLkkUSrZEgAry5Lvh7ORYg2xaLDLDqJOTLAN5X7t9yfPGKBSK7+\n9zZ+Dx5AIdLMCcLKKCGHxGF2Jsa8hpnMN/4O0i+hvTFeUA3TonR6yxP2yq8umjDx\nU1zEE+NYte8b7lW6v6IvFMu3LudL32n6lx4Yc5rOWl929FCbc3PZGEH3QL0YXv1s\nDCDzosWWR4iz/PxHeDn0Pbz7MitlaFNhVV0L48+cEEcxfeYAfWFi7SpyXzZ/ouct\nRIoBkU1LZ7zXdEtY51TT7sXoeKsDOvU6d7DXiCV3TU79DDd3kzSksFG4H+BSNNzh\nyQ4PZEnC1covMuKLGAvE5UbLo0Nk7y1JaMpw0hhYj5/+sL4eriYf/wt6zensrHqU\nCVQPlnG6TlTQ66n1mUIrAG4l/NBk4DCJO3iQGToxJjKKijMmLLKvyUjfn4J7WQMB\ntdDFLlC7GmmAJxY5+RAfJkCMPKwo1yx2BqPFu4Rd41cLLUfbMokD4EfpNqjYSP67\nz/oMZ1LaYIcxyzneEwcgSAQiHcGfoeGo54Q/LSwvTUYHDu/AvT0VKdh4bnl8cUxp\nVLv2wRBkP5pSAGSTXWlG\n=Q1eH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2d6e85b4ccc2abf590248b7887662b7e0b379103\nparent b4b6c2b54bebf68be05452b1560755af29da35ff\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749085160 +0000\ncommitter GitHub <noreply@github.com> 1749085160 +0000\n\n中村さんの提案に基づき、「税の一部使い道選択制度」の検討を追記",
+          "verified_at": "2025-06-05T00:59:21Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0667f42200787fead04ac8540f100e7e896ff72a",
+      "html_url": "https://github.com/team-mirai/policy/commit/0667f42200787fead04ac8540f100e7e896ff72a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0667f42200787fead04ac8540f100e7e896ff72a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b4b6c2b54bebf68be05452b1560755af29da35ff",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b4b6c2b54bebf68be05452b1560755af29da35ff",
+          "html_url": "https://github.com/team-mirai/policy/commit/b4b6c2b54bebf68be05452b1560755af29da35ff"
+        }
+      ]
+    },
+    {
+      "sha": "a0ab46cec5bc667afef0d462bc570678743f2f86",
+      "node_id": "C_kwDOOqTJvNoAKGEwYWI0NmNlYzViYzY2N2FmZWYwZDQ2MmJjNTcwNjc4NzQzZjJmODY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-05T02:01:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-05T02:01:29Z"
+        },
+        "message": "中村さんの提案に基づき、税の一部使い道選択制度に関する記述を追加",
+        "tree": {
+          "sha": "ccaf33474b53230d3b5843f0033d18afefea924e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ccaf33474b53230d3b5843f0033d18afefea924e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a0ab46cec5bc667afef0d462bc570678743f2f86",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQPp5CRC1aQ7uu5UhlAAAiG0QAFsR5WSyUBE5Tt0DJ8Mq8kr9\nck7n6r6QVNpKdsu0H0/CS3rz56VLmmsLY/6/QYxgI31N0duAfCDjJCu18ps0GbRF\niu/zcDftMMu+fveBuKD5gm2Qd5OmvLWpCRGdu21i0idgUgJODrO/ySsgoOgp8lug\nmH6D+k7mNfIkpEXI3UBJSlQRq8JF7IxbMkyw/Olnt7LCdD5mUdbiDn3a1MhftncE\nUQek7uA18ydXp8E80NeLa4ex5rDCVlVliEwiDcAfPk3dSD1bLl0qai4esGadMmW6\nFMNSgFteE8IfsQqg3rnLkQF8aQQmuL+c2zOLCNP5ZdmJ4WJAELEF5z5SksBm/j16\nC+U4zKM0bPJmT23avnbMYPeDkl3baTI5+ukgUdvpOTEG1H4sEWQ1rfwMlMH+MVze\nLF7g8mnD19Ge5N8a63luciMf5FyU4w7Vx0ebFhdQYPHGltmqpJCI/vvMwNY2bR1j\nZXJvJ7hPGVS17RTsbHLza11erIPe0sjGW5mcWgshBVocpuEIHDRx792bRfnXi5PF\nJb4opTyzpDrvA1tZauw9NuXfFSJHvFRdvFzGomz9RwtdrZXpjsvCQe7H/0oOl2X1\nm8iBER9MuFPDX1q6Okk8QLtgbvGSqrOqlpL9LLJsSqyaGLYuBQ9aQeJcb7ABObMN\nHNaU5OYtJ0yPZGln0Lg1\n=I82T\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ccaf33474b53230d3b5843f0033d18afefea924e\nparent 0667f42200787fead04ac8540f100e7e896ff72a\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749088889 +0000\ncommitter GitHub <noreply@github.com> 1749088889 +0000\n\n中村さんの提案に基づき、税の一部使い道選択制度に関する記述を追加",
+          "verified_at": "2025-06-05T02:01:29Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a0ab46cec5bc667afef0d462bc570678743f2f86",
+      "html_url": "https://github.com/team-mirai/policy/commit/a0ab46cec5bc667afef0d462bc570678743f2f86",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a0ab46cec5bc667afef0d462bc570678743f2f86/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0667f42200787fead04ac8540f100e7e896ff72a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0667f42200787fead04ac8540f100e7e896ff72a",
+          "html_url": "https://github.com/team-mirai/policy/commit/0667f42200787fead04ac8540f100e7e896ff72a"
+        }
+      ]
+    },
+    {
+      "sha": "90e4f217a766009703659fd8683b915ce5cc1440",
+      "node_id": "C_kwDOOqTJvNoAKDkwZTRmMjE3YTc2NjAwOTcwMzY1OWZkODY4M2I5MTVjZTVjYzE0NDA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-05T02:03:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-05T02:03:35Z"
+        },
+        "message": "中村さんの提案に基づき、「税の一部使い道選択制度」の記述を修正（ふるさと納税の言及追加）",
+        "tree": {
+          "sha": "481ba7a1f04c16dce7d59abde13e30a5a28b9d03",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/481ba7a1f04c16dce7d59abde13e30a5a28b9d03"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/90e4f217a766009703659fd8683b915ce5cc1440",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQPr3CRC1aQ7uu5UhlAAAqZwQAH3imXMb9+qrF5VpvcfqNU7d\n22CuXE2u4zEagaHzUHv78GaKyLxrnrW4/KPtDFqUBM4LVf2TCa166aOn5HOojw6R\nmZZa9WlPj8EQZOV4EvAtoOg4CyAP+VoB6DrBQPnXIKR38B72nG82HlVamgV5LN0t\n8wU4JZmKo65AioQMLinhMhubaTMqu5dSjTP65VYI29qEtqsAAQg9HcLFPdgg3+u1\nE0Aefz/X53vJqaAYnZ6W78bw3Nz9mVzqnQD1dCo6EgMoR2a/8lR/dUpamVmZoQiN\nszwK4SeLnHgU4af+e4tav/G65Ng23sCgpGSbFFw6Cow3DSZQQiBjfil3hAcvrYiz\nGdqjJr0Ne/6NIXZNWoasY2ekYM5nsqIudJFWfuFtg/wOfeGpW1CmlM7Vpm2yrpDM\nmNiDBOeQ9jRzPr0Qa3wUPtp/eiP0OJ75Iy/R5ie3fiGruEBeGrx/bWBz82eq70m/\nbj/Oi9VeFE7Uu5hi11Dh/Xv4ycEFuPSJRIqTs0RleLe4/GLnE/vdETYcDqmCG8Af\nXgd/di9Fedmh+22I2MS2G8mXmfINCJLGc/GQ1GAQckHwGtaqqZlaOUB68wFUZMYN\nP5wws695Xw+q2tgbR/QJXeEvzwGk6N2ePuBIXLzjE1MJCe0aKM2jaIY5pBZLigg6\nFcuW/SE82QsFpPODJQHN\n=vcOx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 481ba7a1f04c16dce7d59abde13e30a5a28b9d03\nparent a0ab46cec5bc667afef0d462bc570678743f2f86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749089015 +0000\ncommitter GitHub <noreply@github.com> 1749089015 +0000\n\n中村さんの提案に基づき、「税の一部使い道選択制度」の記述を修正（ふるさと納税の言及追加）",
+          "verified_at": "2025-06-05T02:03:36Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/90e4f217a766009703659fd8683b915ce5cc1440",
+      "html_url": "https://github.com/team-mirai/policy/commit/90e4f217a766009703659fd8683b915ce5cc1440",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/90e4f217a766009703659fd8683b915ce5cc1440/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a0ab46cec5bc667afef0d462bc570678743f2f86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a0ab46cec5bc667afef0d462bc570678743f2f86",
+          "html_url": "https://github.com/team-mirai/policy/commit/a0ab46cec5bc667afef0d462bc570678743f2f86"
+        }
+      ]
+    },
+    {
+      "sha": "dc8efbc6487dadd4743c427976ab49e43e753e9c",
+      "node_id": "C_kwDOOqTJvNoAKGRjOGVmYmM2NDg3ZGFkZDQ3NDNjNDI3OTc2YWI0OWU0M2U3NTNlOWM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-05T02:04:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-05T02:04:58Z"
+        },
+        "message": "中村さんの提案に基づき、税の一部使い道選択制度に関する記述を修正（再試行）",
+        "tree": {
+          "sha": "7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/dc8efbc6487dadd4743c427976ab49e43e753e9c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQPtKCRC1aQ7uu5UhlAAA9EUQAKMj96KYjLnwGlu6Mkttz1rg\ne73UtaGRYNEZASR4RRU2agb+q366qbYb+304MCXn0biZ60fESjmDEmoO2/zciBLm\nFj658MZekF0QyP4MmVaKnFUvwtWU7Lw9DZpaP65RxwEXTYFJcIIPIvmGxafjoDxp\nFBMwSdCUWhZ7BDDLVw6+7SdTn7tBh9+jyWneiPA7V26JI+nFpr+3cQGDmZjbXVaI\nShoCkDcC5NWzw3uVY3OvsAg2CgB/IZqNJvFZR4Of/td3UfJl0DLc4azB5hAMEy+9\nbqzwgj9KkoXYWb6oerFmLEot3GuK3tH3JJ6vNqL2qF3moveLs+vBUCzpO9MDL9AW\nGm3wH+tLPiR6jmhP0crJRuKsEMx7oJxiz2Le6L7QPTzVR2Gb9uLWjJuUMG815seV\nHI6YTQ6WBnZxgPccF7qa0/gKsaXM610e6ezH0pFmoUAea9iQkyLUNLZVHOHGSqqI\nWHaYTYjgu7Aq1gUXpg9Tp13IzVOsG8gNDotKvjWNYHsdwiGudxghYoY9qtE0gQHl\nBiRrDaiKb9GbR59sSHsV0d3qYvlk2VcPdkuYoOypCEQ4oFpDelC+1nov/z21hguE\nnZbfBvN8B7evXoTBn8/BDjy2MSPcMW7SCjRGoMsPZZkeTaK7V7JPLNenU6IHTg+U\n/pGT/ngWd2XstcKihPWQ\n=rSts\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea\nparent 90e4f217a766009703659fd8683b915ce5cc1440\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749089098 +0000\ncommitter GitHub <noreply@github.com> 1749089098 +0000\n\n中村さんの提案に基づき、税の一部使い道選択制度に関する記述を修正（再試行）",
+          "verified_at": "2025-06-05T02:04:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/dc8efbc6487dadd4743c427976ab49e43e753e9c",
+      "html_url": "https://github.com/team-mirai/policy/commit/dc8efbc6487dadd4743c427976ab49e43e753e9c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/dc8efbc6487dadd4743c427976ab49e43e753e9c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "90e4f217a766009703659fd8683b915ce5cc1440",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/90e4f217a766009703659fd8683b915ce5cc1440",
+          "html_url": "https://github.com/team-mirai/policy/commit/90e4f217a766009703659fd8683b915ce5cc1440"
+        }
+      ]
+    },
+    {
+      "sha": "e02979b05df73ae405fd365560a6d00caa687d6e",
+      "node_id": "C_kwDOOqTJvNoAKGUwMjk3OWIwNWRmNzNhZTQwNWZkMzY1NTYwYTZkMDBjYWE2ODdkNmU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-05T02:07:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-05T02:07:03Z"
+        },
+        "message": "中村さんの提案に基づき、「税の一部使い道選択制度」の項目を「なめらかな税・社会保障」の政策概要に追加",
+        "tree": {
+          "sha": "7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e02979b05df73ae405fd365560a6d00caa687d6e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQPvHCRC1aQ7uu5UhlAAAZFYQABg+DLTTakZ/bktSJoiurtL2\nhrA3FxYeyEUPsG0qSw/OBfCk1VuhZYemDpedVA/gswuWmeDcqKnX/dDiGh+24jj+\ntx9RRDUbjjrFwIClRdewVBZG9OYimKOzqiH5PGyCTQeegSI+TE2YrVI/F9ORCOAp\n6c5NQPCSz3OffiB6vGuPJWVvABc4I17IN6E78diPyjuKS6rgeMprdjBGBDVksp5b\n49nD8NRh/XuF0hZ1klfXPDLzM+JBzTTtdwFRxhCZIC0BV8ERxwO4y29elWszHABT\naSzh12039s7gQ4zyNU14q39pb18DzE/527VNWRas77cwNsyRw0pgb8fydRizHonY\n49FJGh1SRLRzOTEzKqVp4nVWfc8+7CL57IXJndbZlu7BfaBzHn0Y3JDxCdKflX5j\nA4jBwnHwpwRy8Mbuzz0vzx1jqx+5yzeyTnFIcdks+LQD1fA/1RPTy+oD4HBd2sVb\n9Dz81+d9/+EHOQsnhdq0nVvQ3i9jZC+A4X0CcId7knMFNmXhr9Xke0Bs+oSMotHL\npEprrf0n7fqKmixF9E+j0M352NyvlVRq2tNPfd3u1YqsV6dgri9AcwAoSkcVw8gn\nn5qPRl57Y4PRZUOLFPPymvCEFEuA7xBqiWUc7gaXoSWK/fUeCey0yEq56I0GFgD9\nKQSn9TGry6g3l6LatjDo\n=OAPJ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea\nparent dc8efbc6487dadd4743c427976ab49e43e753e9c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749089223 +0000\ncommitter GitHub <noreply@github.com> 1749089223 +0000\n\n中村さんの提案に基づき、「税の一部使い道選択制度」の項目を「なめらかな税・社会保障」の政策概要に追加",
+          "verified_at": "2025-06-05T02:07:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e02979b05df73ae405fd365560a6d00caa687d6e",
+      "html_url": "https://github.com/team-mirai/policy/commit/e02979b05df73ae405fd365560a6d00caa687d6e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e02979b05df73ae405fd365560a6d00caa687d6e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dc8efbc6487dadd4743c427976ab49e43e753e9c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/dc8efbc6487dadd4743c427976ab49e43e753e9c",
+          "html_url": "https://github.com/team-mirai/policy/commit/dc8efbc6487dadd4743c427976ab49e43e753e9c"
+        }
+      ]
+    },
+    {
+      "sha": "eea968418d7548abbdf372834d77d33636730c1f",
+      "node_id": "C_kwDOOqTJvNoAKGVlYTk2ODQxOGQ3NTQ4YWJiZGYzNzI4MzRkNzdkMzM2MzY3MzBjMWY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-05T02:34:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-05T02:34:24Z"
+        },
+        "message": "中村さんの提案に基づき、「税の一部使い道選択制度（仮称）」の検討を追記",
+        "tree": {
+          "sha": "7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/eea968418d7548abbdf372834d77d33636730c1f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQQIxCRC1aQ7uu5UhlAAA05AQAGfYmX4LN9iZHXEiw5Ml1i61\norDjPlpagS3TuILL1dwmcsmxfJLSSlqCUPXKqT9Hv/yBPUlxxO3Mbvx60G48hXPg\nW8DlTpHaP5s+Hw+gkYqHwfx1xbpGXW1c7Der3BEG322FiYgUNR+r58t+ghnfr8NU\nh+MZYa2SjcYn496HHa3hqt0omUr1pLTh5RkCl42V0rm1P2+83UlMxLDRBtEsASXI\n8N8CDHI0fR5xVJ2aBVfNzCLIG1oddK5nPvOX6LG8qcNIGHHjAwkPasvhHEYs+EF5\nHGCWuafV7UxwgF73I50qUbPJlHwodkzD2LRmPHH0kYuIzb/6vOdiUGR8oJEmvAmz\nONm2yNeHktYDTkJXHcKiyFApu77aEADA8uJ/8FzQK6c6xZaMwI/njJP+JtxAPKVX\nNtmFIgf57uZ8Ww5Ik9NaL3M6RHLZa2XHHmTV8uYwkAjCOPBnX8z1sI4Loey6/xOi\n+kgpaGXZ5VYbeoCEd/WpG9paHlvuQSGsvLoL8Po01jzbXiyUXjtGe0Qii12GLoTp\nz1NXRR/XHEILnWmze+8luM07eP7C+Tx7INQTsgcEwTF9B0FYxcId1rLUhYTfkGgC\nlHAtUVpfXa5dGbX6Qvu1vQd2T/+Iz3OyT94AZn0WKlGuj3O/FX06tbOTQkGX1kVr\nlHIa7/mtBVYQsipft+63\n=Bqy1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7d7dcd2a3d7af8191232ee9c37ac11c0c3fe64ea\nparent e02979b05df73ae405fd365560a6d00caa687d6e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749090864 +0000\ncommitter GitHub <noreply@github.com> 1749090864 +0000\n\n中村さんの提案に基づき、「税の一部使い道選択制度（仮称）」の検討を追記",
+          "verified_at": "2025-06-05T02:34:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/eea968418d7548abbdf372834d77d33636730c1f",
+      "html_url": "https://github.com/team-mirai/policy/commit/eea968418d7548abbdf372834d77d33636730c1f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/eea968418d7548abbdf372834d77d33636730c1f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e02979b05df73ae405fd365560a6d00caa687d6e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e02979b05df73ae405fd365560a6d00caa687d6e",
+          "html_url": "https://github.com/team-mirai/policy/commit/e02979b05df73ae405fd365560a6d00caa687d6e"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-05T03:47:38.559490"
+}
