@@ -4,9 +4,9 @@
 
 - [その他](#その他) (518件)
 - [エネルギー](#エネルギー) (112件)
-- [デジタル民主主義](#デジタル民主主義) (262件)
+- [デジタル民主主義](#デジタル民主主義) (263件)
 - [医療](#医療) (149件)
-- [子育て](#子育て) (221件)
+- [子育て](#子育て) (222件)
 - [教育](#教育) (298件)
 - [産業](#産業) (282件)
 - [科学技術](#科学技術) (144件)
@@ -662,7 +662,7 @@
 
 ## デジタル民主主義
 
-### オープン (250件)
+### オープン (251件)
 
 - [PR #777](https://github.com/team-mirai/policy/pull/777) チームの目標とDX化指標を序文に明記 by ゆとりん
 - [PR #270](https://github.com/team-mirai/policy/pull/270) 政策文書改善案：グローバルな課題認識の反映とデジタル施策の具体化
@@ -840,6 +840,7 @@
 - [PR #249](https://github.com/team-mirai/policy/pull/249) 【匿名ユーザー提案】デジタル機器の健康的な利用に関する記述追加
 - [PR #59](https://github.com/team-mirai/policy/pull/59) AI技術を活用した多様な層へのメッセージ動画作成の提案（testさんより）
 - [PR #1467](https://github.com/team-mirai/policy/pull/1467) AIを活用したパブコメ改善と情報操作対策の強化
+- [PR #1951](https://github.com/team-mirai/policy/pull/1951) いどばたシステムを、デジタル庁に設置する
 - [PR #1590](https://github.com/team-mirai/policy/pull/1590) 行政改革：予算執行状況の透明化によるデジタル民主主義の推進に関する提案
 - [PR #206](https://github.com/team-mirai/policy/pull/206) Caterさん提案：「デジタル民主主義」政策への再スタート支援プラットフォーム追加
 - [PR #151](https://github.com/team-mirai/policy/pull/151) YukiさんによるAI家庭教師の項目の削除提案
@@ -1089,12 +1090,13 @@
 
 ## 子育て
 
-### オープン (218件)
+### オープン (219件)
 
 - [PR #1768](https://github.com/team-mirai/policy/pull/1768) テクノロジー活用の基本姿勢を明記（提案者：団鬼八さん）
 - [PR #1376](https://github.com/team-mirai/policy/pull/1376) 本多正則様による子育て支援政策改訂：財源、実行留意点、副次的効果の具体化
 - [PR #815](https://github.com/team-mirai/policy/pull/815) 教育：子どもたちの情報アクセス権保障とリテラシー向上のための提案
 - [PR #499](https://github.com/team-mirai/policy/pull/499) あんでぃさん提案：産科医療アクセス改善と無痛分娩費用助成の全国展開について
+- [PR #1952](https://github.com/team-mirai/policy/pull/1952) 専門職における「小1の壁」打破に向けた具体的な仕事と育児の両立支援策の強化
 - [PR #296](https://github.com/team-mirai/policy/pull/296) これからの『みらい』を担う子供たちでも理解できるマニフェストにしませんか？（ゆき提案）
 - [PR #1766](https://github.com/team-mirai/policy/pull/1766) 団鬼八さんの提案に基づく保育士の待遇改善に関する追記
 - [PR #791](https://github.com/team-mirai/policy/pull/791) Mさんの提案：年少扶養控除廃止の影響を明記し、復活検討の記述を強化
