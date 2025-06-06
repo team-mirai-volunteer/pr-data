@@ -1,0 +1,129 @@
+{
+  "basic_info": {
+    "number": 1981,
+    "title": "Update step2 section 3,4",
+    "state": "open",
+    "created_at": "2025-06-05T15:15:17Z",
+    "updated_at": "2025-06-05T15:19:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/1981",
+    "user": {
+      "login": "chaspy",
+      "id": 10370988,
+      "html_url": "https://github.com/chaspy"
+    }
+  },
+  "labels": [
+    {
+      "id": 8631770611,
+      "node_id": "LA_kwDOOqTJvM8AAAACAn5d8w",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E6%95%99%E8%82%B2",
+      "name": "教育",
+      "color": "E57B81",
+      "default": false,
+      "description": ""
+    }
+  ],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "af50ebaf640ec16cc0c27f7e2461b1de29df9c66",
+      "filename": "21_ステップ２教育.md",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 15,
+      "changes": 62,
+      "blob_url": "https://github.com/team-mirai/policy/blob/8f913867b96f060ef082bae3a6e0a02184f8dd05/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/8f913867b96f060ef082bae3a6e0a02184f8dd05/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md?ref=8f913867b96f060ef082bae3a6e0a02184f8dd05",
+      "patch": "@@ -50,27 +50,59 @@\n   * カナダやオーストラリアでは学習指導要領のデジタル化が進んでおり、先生がわかりやすく内容にアクセス出来るように工夫されています。  \n     * 参考）文科省での審議会の資料：[https://www.mext.go.jp/content/20250228-mext\\_kyoiku01-000040050\\_03.pdf](https://www.mext.go.jp/content/20250228-mext_kyoiku01-000040050_03.pdf)\n \n-## ３）アルゴリズムと教育データ利活用によりEBPMを推進します\n+## ３）教育データ利活用によりEBPMを推進します\n \n-### \t\t現状認識・課題分析\n-\n-* 適切なアルゴリズムを組むことでマッチングの問題を解決する  \n-  * デジタル併願制は、受験生が複数の公立高校を希望順に志望し、成績に基づいて最適な進学先が独自のアルゴリズムで自動的に割り当てられる仕組みのことである  \n-  * デジタル併願性を活用することで、公立高校に進学を希望する子どもの機会を保障しやすくなる。特に、経済的に公立しか選択肢のない家庭で、不合格を懸念して志望校を下げる必要がなくなり、教育格差の是正につながる  \n-  * デジタル併願性は、ゲーム理論におけるDAアルゴリズム (Deferred Acceptance Algorithm)が基礎になっている  \n-  * このように、学術的に実証されたアルゴリズムを活用すれば、マッチングを最適化することができ、今後別のイシューにも展開出来る\n+### 現状認識・課題分析\n \n-### \t\t政策概要\n-\n-* EBPMの基盤を構築する  \n-  * 英国DfEではExplore Education Statistics (EES)で学校財務や学力データをAPI公開し、政策モデルをオープン検証している。  \n-  * 他方、日本では全国学力・学習状況調査、GIGA 端末の学習ログ、教員勤務実態などのデータが省庁・自治体・学校間で分断されており、政策判断に活用できていない  \n-  * ゆえに、日本でも、教育データ標準仕様（IMS/LTI＋国内拡張）の法定化と共に、匿名加工データを信託管理する「Education Data Trust」の創設など、EBPMの基盤整備が必要  \n-    * 例えば、過去問をRAGや強化学習に使用できるように整備することで、LLMの精度が飛躍的に上がることが期待出来る\n+* 英国の教育省（DfE）では「Explore Education Statistics (EES)」というプラットフォームを通じて、学校の財務状況や学力に関するデータをAPI形式で公開し、政策モデルのオープンな検証を可能にしています。\n \n <p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/81996478-f465-415c-b1fa-3848e24685a3\">\n </p>\n \n イギリスのExplore Education Statisticsによる情報開示の例  \n /https://explore-education-statistics.service.gov.uk/find-statistics/pupil-attendance-in-schools/2025-week-15\n+\n+### 政策概要\n+\n+* EBPM（証拠に基づく政策立案）の推進に向けた基盤を構築します。    \n+* データに基づいた効果的な教育政策を実現するために、日本においても教育データ標準仕様（例えば、IMS Common CartridgeやLTIといった国際標準規格に、日本独自の拡張を加えたもの）を定めることを検討します。さらに、匿名加工された教育データを安全かつ倫理的に管理・運用するための「Education Data Trust」のような組織の創設を検討するなど、EBPMを推進するための基盤整備が必要です。  \n+* 例えば、過去の試験問題をAIが活用しやすいように整備することで、AIの精度を飛躍的に向上させることが期待できます。これは、教育データの効果的な利活用の一例です。  \n+* ステップ１の４）で述べたような支援の実施状況や効果についても、実際に子どもや家庭にどのような影響を与えているかを、データで追跡・可視化します。  \n+  * AIによる効果測定と評価サイクルを導入し、支援内容の改善や制度の見直しに繋げます。これにより、支援が「積極的」かつ「必要十分」に届いているかを客観的に評価し、継続的な改善を図ります。\n+\n+## ４）これらのしなやかな仕組みを活かした先進的モデル校を産官学が連携して設立し、その効果を測定します\n+\n+### 現状認識・課題分析\n+\n+* 日本は、経済停滞と少子化という二つの深刻な課題に直面しています。IT・デジタル化への対応の遅れは経済成長を阻害し、AIの台頭による世界の教育レベルの急速な向上は、日本の「人材立国」としての地位を危うくしています。  \n+  * たとえば中国に本拠地を置くSquirrel AI Learningは、膨大な生徒のデータベースを用いてAIアルゴリズムを訓練し、個々の生徒に合わせた授業計画をカスタマイズしています。2019年までに、アジアの200都市に2,000の学習センターを展開し、100万人以上の生徒にサービスを提供しています。  \n+* 女性の社会進出と出産適齢期の「ズレ」は少子化を加速させており、この構造的な問題は教育システムを含めた社会全体の改革なしには解決できません。現在の画一的な教育では、個人の可能性を最大限に引き出し、多様な自己実現を早期に支援することが困難であり、これが少子化や経済低迷の一因となっています。  \n+* ステップ２で描いた「しなやかな仕組み」を大胆に活用して、義務教育学校（小中９年間）と高等専門学校（高校３年間＋大学前期２年間）をつなげた新たな教育モデルを構築し、その効果を測定します。\n+\n+### 政策概要\n+\n+* 義務教育学校と高等専門学校を連携させた「早期高密度教育パス」モデル校を設置します。教育の力で個人の可能性を最大限に引き出し、より早期に、より多様な自己実現を可能にします。これにより、個人のライフプランとキャリア形成の調和を図り、結果として、誰もが希望するタイミングで家庭を築ける環境の整備に貢献します。  \n+  * 義務教育学校（小中一貫校）での早期高密度教育  \n+    * AIアダプティブラーニングを全面的に導入します。  \n+    * 個々の習熟度に応じた柔軟な学習進度を可能にし、15歳で従来の高校卒業レベルの基礎知識・技能の完全習得を目指します。  \n+    * 国際バカロレアなどの探究型・自律型学習メソッドを取り入れ、自発的学習力や探究スキル、メタ認知能力を育成します。  \n+    * 15歳での基礎教育課程修了後、「学力到達認定制度」により到達度を客観的に認定します。  \n+  * 高等専門学校との連携による「リサーチパーク」機能の創設  \n+    * 15歳で基礎教育課程を修了した若者が、連携する高等専門学校に進学し、先進的な施設やカリキュラムを活用して、実践的な研究や起業、社会貢献活動に集中的に取り組める環境を提供します。  \n+      * 具体的には、20歳卒業時点で、大学院博士課程レベルの研究を行う者や、起業により社会に貢献しながら自立した生活を送る者が多数輩出されることを想定します。  \n+    * 国、地方自治体、大学・研究機関、民間企業が連携する「産官学コンソーシアム」を組織し、各分野の専門家によるメンター制度を導入します。  \n+    * 活動資金支援、メンタルヘルスサポートに加え、早期に家庭を持つ若者への育児支援（託児施設併設など）を検討し、キャリア形成と出産・育児の両立を支援します。  \n+  * 上記の教育モデルをさまざまな観点から検証し、全国的に取り入れるべき部分と、修正が必要な部分とを洗い出す。  \n+    * 特に、良質なAIアダプティブラーニングが全国的に展開できた場合、従来塾や高額な教材に頼ってきた個別最適化された専門的な指導を、公教育の中で提供することができ、家庭の教育費負担を軽減できる可能性があります。  \n+  * 考えられる課題とその解決策の方向性は以下の通りです。  \n+    * 制度的障壁（学校教育法等）  \n+      * 教育特区制度の活用、文科省との連携による実証事業としての推進、段階的導入と成果検証。  \n+    * 心理的・発達的課題  \n+      * 認知的発達だけでなく、社会的・情動的スキル（SEL）の育成プログラム導入、メンター制度やカウンセリング体制の充実。  \n+    * 教育の質保証  \n+      * 国際的な標準学力テスト（PISA等）への参加、ポートフォリオ評価、第三者機関による認証などを組み合わせた多角的な評価システム構築。  \n+    * 社会的受容性  \n+      * 保護者、大学、企業等への丁寧な説明と合意形成、段階的試行とその成果の透明な公開。  \n+    * カリキュラム設計の複雑さ  \n+      * 学習科学の専門家、AI研究者、現場教員からなる専門チームによる継続的なカリキュラム開発・改善。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "8f913867b96f060ef082bae3a6e0a02184f8dd05",
+      "node_id": "C_kwDOO2qTOdoAKDhmOTEzODY3Yjk2ZjA2MGVmMDgyYmFlM2E2ZTBhMDIxODRmOGRkMDU",
+      "commit": {
+        "author": {
+          "name": "kondo takeshi",
+          "email": "chaspy@users.noreply.github.com",
+          "date": "2025-06-05T15:08:29Z"
+        },
+        "committer": {
+          "name": "kondo takeshi",
+          "email": "chaspy@users.noreply.github.com",
+          "date": "2025-06-05T15:08:29Z"
+        },
+        "message": "Add step2 section 3,4",
+        "tree": {
+          "sha": "b9cab206ec364b1da6979a0f3a652522ccef68ee",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b9cab206ec364b1da6979a0f3a652522ccef68ee"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8f913867b96f060ef082bae3a6e0a02184f8dd05",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/8f913867b96f060ef082bae3a6e0a02184f8dd05",
+      "html_url": "https://github.com/team-mirai/policy/commit/8f913867b96f060ef082bae3a6e0a02184f8dd05",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8f913867b96f060ef082bae3a6e0a02184f8dd05/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d51154ec75b3b0588eaa135f2bd90aa8f44facdd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d51154ec75b3b0588eaa135f2bd90aa8f44facdd",
+          "html_url": "https://github.com/team-mirai/policy/commit/d51154ec75b3b0588eaa135f2bd90aa8f44facdd"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-06T03:47:04.926117"
+}
