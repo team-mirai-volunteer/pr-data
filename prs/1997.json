@@ -1,0 +1,129 @@
+{
+  "basic_info": {
+    "number": 1997,
+    "title": "Update 17_ステップ１医療.md",
+    "state": "open",
+    "created_at": "2025-06-06T10:36:05Z",
+    "updated_at": "2025-06-06T15:16:38Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/1997",
+    "user": {
+      "login": "hsuzuki-md",
+      "id": 212373147,
+      "html_url": "https://github.com/hsuzuki-md"
+    }
+  },
+  "labels": [
+    {
+      "id": 8631778033,
+      "node_id": "LA_kwDOOqTJvM8AAAACAn568Q",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E5%8C%BB%E7%99%82",
+      "name": "医療",
+      "color": "D3DAE8",
+      "default": false,
+      "description": ""
+    }
+  ],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "dba3995d23bfc9574f66ae3ec0a2e365634a18db",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 29,
+      "deletions": 0,
+      "changes": 29,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ba35b4e1e29f2678090a93c8222ed5a1727ac48b/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ba35b4e1e29f2678090a93c8222ed5a1727ac48b/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=ba35b4e1e29f2678090a93c8222ed5a1727ac48b",
+      "patch": "@@ -57,3 +57,32 @@\n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n - 受付、決済やオンライン診療の領域で医療DXが進み、安全に効率的に電子カルテと外部システムが接続できる環境が整うことで、新たな医療機関向けサービスの開発や導入が進展することも期待されます\n+\n+## 3）画像診断AIで見逃しリスクと医師不足の解消を同時に\n+\n+### 現状認識・課題分析\n+\n+- 日本では人口100 万人当たり CT 115.7台・MRI 57.4台とOECD加盟国の中でも最多の画像検査機器が稼働しています\n+- 一方で、それらの画像検査機器で行われた検査結果を評価し、読影レポートを作成する放射線科医は他国と比べて決して多いと言える水準にはなく、放射線科医一人当たりの年間検査数は欧米の3-4倍とも言われています\n+- 検査に対して医師が不足するということは、それだけ一件のCT、MRI検査結果を評価するのにかけられる時間が不足するということですし、1日に対応できる検査数が少なくなるということに繋がります。そして、それは検査の見落としリスクや医師不足地域での検査待機時間の増加に繋がります\n+- 日本医学放射線学会はかねてからCT検査数の増大に放射線科医の増加が追いついていないことに対して警鐘を鳴らしています\n+- こうした状況に対して、昨今のAIやIT技術の進化は親和性が高いと考えます\n+- すでに国内外でAI画像解析による画像解析やレポート作成支援は検討が進められており、欧州放射線学会が同学会会員に行った調査では回答者の約半数が臨床現場でAIを積極的に活用していると答えています。日本でも、AIで画像解析を行い読影レポートの作成支援をするシステムが発売されています\n+- しかし、技術的な萌芽はみられていますが、日本ではまだまだ画像解析やレポート作成支援システムの普及が進んでいるとは言い難い状況です\n+\n+### 政策概要\n+\n+- システム導入費の補助による画像解析システムの導入推進を行います\n+  - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n+  - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n+  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n+  - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n+- 診断AIへの加算を制定し、継続利用を促すとともにAI画像解析の成果について評価を行います\n+  - CT・MRI読影にAI画像解析を併用した場合に一定の診療報酬の加算を暫定的に設けます\n+  - AI画像解析の運用コストについて一定の担保をするとともに、AI画像解析が行われた施設での読影効率や解析精度、時間外労働への影響を分析し、エビデンス構築を促します\n+- 人とAIが協働する医療のルールづくりを進めます\n+  - AIの精度が進化しても診断を行うのは医師である以上、最終責任は医師が行う必要があります\n+  - 一方で、AIが提示した異常や逆にAIが提示しなかった異常は医師の判断に影響を及ぼす以上、メーカーの責任や性能評価についても整理が必要となります\n+  - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n+  - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n+  - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "ba35b4e1e29f2678090a93c8222ed5a1727ac48b",
+      "node_id": "C_kwDOO3HYCtoAKGJhMzViNGUxZTI5ZjI2NzgwOTBhOTNjODIyMmVkNWExNzI3YWM0OGI",
+      "commit": {
+        "author": {
+          "name": "hsuzuki-md",
+          "email": "hikaru.1985utc@gmail.com",
+          "date": "2025-06-06T10:31:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-06T10:31:07Z"
+        },
+        "message": "Update 17_ステップ１医療.md\n\nステップ１医療セクションに3つ目の提案「3）画像診断AIで見逃しリスクと医師不足の解消を同時に」を追加",
+        "tree": {
+          "sha": "a392b32356f342091bd3d53988d76ef2c42e0705",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a392b32356f342091bd3d53988d76ef2c42e0705"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ba35b4e1e29f2678090a93c8222ed5a1727ac48b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoQsNrCRC1aQ7uu5UhlAAA0/4QAKP3uOesaarhyJPZvY+Uo6sv\nRjJ+i+fc05KQW/mQ60DDtQdhNNWgWP1+tCYHNRuk26sjYO3mp/48eUVXOo6jpNcj\n9kwhvtLcEJjf+CdC9HwDeGKZRovC8R6tC2yKimlyPUWQbc3Rn3ma8deZLAafisFa\nuW+42l1nouSm+BKbzFzkCKSfNeGaOXLmiGugAR5bQpdgwgegifGKlPrGcQhQMKYo\negA/WaXutuG6aihwd6ELe4t5Aqha1H/MJ1nJWnTyxiEX6lsJXIpFi4sB0OYzZOpp\nE/7CFkANWmcfFgxoP300O9WBj08ISybgCmWASGCGZXDzdubFuoZYdytxk5HJjD2Q\n8GM0ktV8ZRf9qwjEPMMI0Qj3HT3H4OkpHKsB8HppmD+5j78RYfv1DMBbi8Jp5d5v\nf6HdmW7bMadq+mG6N87Pk9HNtuphtl8F3r9yJdak1iyOY0de6XKTTycLRCaI0MoY\nEKwTYLY7X9Ln9u206UHBNOlWzAPWv8o9muOd9HcKYqKFWaXaV33mdXLffnuUkMLJ\nVcvRb0tH+BsIjb2DL+4nLgEtvV2ZaqubTTde29HC3A2qbIDXqAZNQBVb8DSH7ZRN\nUkLGf9krqLKmRhY/XOL5luRna3/Y8N1OxCtToVwBEEufe3pxbzjc7TZIfsweYoRk\n6YXZX8TuMd5Q6oVeh6oz\n=fSJX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a392b32356f342091bd3d53988d76ef2c42e0705\nparent d51154ec75b3b0588eaa135f2bd90aa8f44facdd\nauthor hsuzuki-md <hikaru.1985utc@gmail.com> 1749205867 +0900\ncommitter GitHub <noreply@github.com> 1749205867 +0900\n\nUpdate 17_ステップ１医療.md\n\nステップ１医療セクションに3つ目の提案「3）画像診断AIで見逃しリスクと医師不足の解消を同時に」を追加",
+          "verified_at": "2025-06-06T10:31:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ba35b4e1e29f2678090a93c8222ed5a1727ac48b",
+      "html_url": "https://github.com/team-mirai/policy/commit/ba35b4e1e29f2678090a93c8222ed5a1727ac48b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ba35b4e1e29f2678090a93c8222ed5a1727ac48b/comments",
+      "author": {
+        "login": "hsuzuki-md",
+        "id": 212373147,
+        "node_id": "U_kgDODKiOmw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/212373147?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hsuzuki-md",
+        "html_url": "https://github.com/hsuzuki-md",
+        "followers_url": "https://api.github.com/users/hsuzuki-md/followers",
+        "following_url": "https://api.github.com/users/hsuzuki-md/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hsuzuki-md/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hsuzuki-md/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hsuzuki-md/subscriptions",
+        "organizations_url": "https://api.github.com/users/hsuzuki-md/orgs",
+        "repos_url": "https://api.github.com/users/hsuzuki-md/repos",
+        "events_url": "https://api.github.com/users/hsuzuki-md/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hsuzuki-md/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d51154ec75b3b0588eaa135f2bd90aa8f44facdd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d51154ec75b3b0588eaa135f2bd90aa8f44facdd",
+          "html_url": "https://github.com/team-mirai/policy/commit/d51154ec75b3b0588eaa135f2bd90aa8f44facdd"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-07T03:43:37.735824"
+}
