@@ -1,0 +1,211 @@
+{
+  "basic_info": {
+    "number": 2055,
+    "title": "選挙制度改革：区割り問題と供託金制度の見直しによる民意反映の強化 by 大仏",
+    "state": "open",
+    "created_at": "2025-06-08T08:16:15Z",
+    "updated_at": "2025-06-08T15:18:03Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2055",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [
+    {
+      "id": 8631771283,
+      "node_id": "LA_kwDOOqTJvM8AAAACAn5gkw",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9",
+      "name": "行政改革",
+      "color": "97C1A2",
+      "default": false,
+      "description": ""
+    }
+  ],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "bcd243a85616ce845099f68b2ad1576220ec4bed",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 4,
+      "changes": 19,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a62e3e35c0f484e87a18ba2ee162474e90a37418/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a62e3e35c0f484e87a18ba2ee162474e90a37418/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=a62e3e35c0f484e87a18ba2ee162474e90a37418",
+      "patch": "@@ -1,3 +1,4 @@\n+\\\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -48,7 +49,7 @@\n   * OSSは、企業全体で約9兆ドル（約1,080兆円）の開発費を節約したとされる[Harvard Business Schoolの試算](https://www.enterprisedb.com/blog/open-source-leadership-public-sector-pioneering-data-sovereignty-and-innovation?utm_source=chatgpt.com)もあります。  \n *  ベンダーロックインと競争阻害  \n   * 一度特定の事業者に依頼してしまうと、他の業者の参入が難しくなり、結果として効率が悪くても特定のベンダーを使い続けてしまう問題があります。  \n-  * 公正取引委員会の実態調査は、官公庁システム調達で“同一ベンダー継続率”が高く、機能改修やバージョンアップさえ他社が請け負えない構造が競争を阻害していると指摘しています。（出典：公正取引委員会「[官公庁における情報システム調達に関する実態調査](https://www.jftc.go.jp/houdou/pressrelease/2022/feb/220208_system.html)」）  \n+  * 公正取引委員会の実態調査は、官公庁システム調達で“同一ベンダー継続率”が高く、機能改修やバージョンアップさえ他社が請け負えない構造が競争を阻害していると指摘しています。（出典：公正取引위원회「[官公庁における情報システム調達に関する実態調査](https://www.jftc.go.jp/houdou/pressrelease/2022/feb/220208_system.html)」）  \n   * [英国政府の公式マニュアル](https://www.gov.uk/service-manual/service-standard/point-12-make-new-source-code-open?utm_source=chatgpt.com)でも、「新規開発コードはOSS化し、特定業者への依存を避けよ」と明記。これにより重複開発を減らし、コスト削減および健全な市場競争を促進しています。  \n * “ウォーターフォール調達”が改革の足かせに  \n   * 現在の行政による発注で前提とする、仕様を確定 → 長期契約 → 継続的な改修作業という従来型の工程では、政策変更や技術進化に追従できません。  \n@@ -164,7 +165,7 @@\n * その上で、対象制度に関与する省庁・自治体・実務者・受益者などの利害関係者を整理し、問題の法令を改正した場合にどの変更が誰にどう影響するかを整理します。  \n * その後、特定の制度・分野で試験的にリファクタリング改正版の制度を試験的に導入し、実運用での改善点をフィードバックします。継続的な改善を繰り返しながら、本格導入の是非を評価します。\n \n-## ６）電子投票・ネット投票を推進します\n+## ６）誰もが参加しやすく、民意を正確に反映する選挙制度へ\n \n ### 現状認識・課題分析\n \n@@ -175,6 +176,11 @@\n * 投票の公平性リスク  \n   * 手書き文字の判読は難しく、意図せぬ無効票を生み出してしまうおそれがあります。  \n   * 子育て・介護・障害・在外居住などにより移動が難しい有権者の投票ハードルが高くなってしまっています。  \n+* 一票の格差問題と区割りの硬直性:\n+  * 現行の10年ごとの国勢調査に基づく区割り見直しでは、反映までのタイムラグにより常に実態とのズレが生じ、一票の格差問題が完全に解消されず、違憲判決が繰り返されています。\n+  * また、都道府県単位での区割りが行われているため、日本全体の最適化が図られていないという課題も存在します。\n+* 高額な供託金による参加障壁:\n+  * 高額な供託金制度は、立候補の意思があっても経済的な理由で断念せざるを得ない人々を生み出し、多様な人材の政治参加を阻む要因の一つとなっています。\n * 非常時の民主プロセス停滞  \n   * パンデミックや大規模災害で従来型投票が機能不全となるリスクがあります。  \n * 柔軟な投票方法へのニーズ・手がかりはすでに存在  \n@@ -190,6 +196,11 @@\n   * 運用コスト・投票率など効果指標を共有し、実現可能なモデルを検討します。  \n * 在外投票など実現可能な領域から導入し、段階的に拡大することを目指します。  \n * 検証を通じて国民が納得できる合意点を探り、技術的課題の解決を支援します。\n+* 選挙区割りのアジャイルなアップデートと最適化:\n+  * 最新の有権者人口予測アルゴリズムと、日本全国を対象とした自動区割りアルゴリズムを導入し、迅速かつ正確に一票の格差を是正する仕組みを構築します。\n+  * 10年ごとの大幅な見直しではなく、より短いサイクルでの継続的な調整を目指し、常に民意を正確に反映できる区割りを実現します。\n+* 供託金の大幅な引き下げ:\n+  * 立候補への経済的障壁を軽減するため、供託金を大幅に引き下げ、より多くの人々が多様な視点から政治に参加できる環境を整備します。\n \n ## ７）開かれた国会で、暮らしも外交も止めない。\n \n@@ -204,7 +215,7 @@\n   * 過去のデジタル担当大臣の記者会見では、通告が「前日午後6時以降」になる割合は2.5%であるものの、これが徹夜稼働の主因となっていると言われています。\n   * こうした過酷な環境での働き方も影響し、人材流出が加速。国家公務員総合職の離職率は10年で2倍以上になっています。\n * 紙・FAX文化の根強さ\n-  * 2022年、衆議院は会議録や官報など一部資料の紙配布を廃止しましたが、ペーパーレス率は低水準にとどまります。\n+  * 2022年、衆議院は会議録や官報など一部資料の紙配布を廃止 Gesundheitsministerium ペーパーレス率は低水準にとどまります。\n   * また委員会ではタブレット端末の使用等認められつつありますが、本会議ではまだ認められていません。\n * オンライン出席の法的未整備と政治的慎重さ\n   * コロナ禍においても日本の国会ではオンライン審議が正式導入されませんでした。\n@@ -227,4 +238,4 @@\n   * 全議員にタブレットを貸与し、本会議場でも使用を解禁します。原則電子媒体での交付とし、紙配布は例外時のみ許可制にします。\n * 緊急時ハイブリッド議会\n   * 大規模災害・感染症流行時に限り、議員の遠隔出席と電子投票を許可する方向での検討を進めます。\n-  * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n+  * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "91edc823a972f27a718dc48ea44b30f28c77ae6d",
+      "node_id": "C_kwDOOqTJvNoAKDkxZWRjODIzYTk3MmYyN2E3MThkYzQ4ZWE0NGIzMGYyOGM3N2FlNmQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-08T08:11:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-08T08:11:54Z"
+        },
+        "message": "大仏さんの提案に基づき、選挙制度改革（区割り、供託金）の内容を追加",
+        "tree": {
+          "sha": "c61f91cec1e91e3b8755263086d23b4fdfe7c1d8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c61f91cec1e91e3b8755263086d23b4fdfe7c1d8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/91edc823a972f27a718dc48ea44b30f28c77ae6d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoRUXKCRC1aQ7uu5UhlAAAycsQAJhSAn/S2lDs6YVbsbN0O1vp\nCFvVmyiBkJxx/VROj8ASjqpOwnhQVYidKKvo0TxQ2d6+vKpaORVPJqrQMUQMcV6S\nKxlhYfDx/BnehUD0Ug56tz82I6J7SyeffbZnUMSv2I87tUxzOWBKGjZ3V+g3auyt\nCw3hI0SBpjBFwChpr1dn759DMqoS1LnT9fo4woiOfq1uNW+YEf/C7F7FFdFH+ZNE\nSyy9G5rJIkKsq7wQxnuuONMr80GY/O7EeSx4P8g1q4gaTCYwejfJrFkvwcX0YRAA\n65jTvo7KgFw/47AC6tS+DJO2+R1FSttTI8jHkUTY4nph2ynD2HZCHG4PCE58Hhll\n9p2AuLFAA+DCYbs9d2DcTRhX5P10g7JQbqp5fOXNmRSI3Fyrg4ryQy+tAe+2Uq4p\nvHM0ouvOzVDBEMwHxmYN9wEV+iUJoOkzaSYJXvfEpX/Q+ARwTP50eN23NqoXfQGE\nuK9CM9ZSMxt5b1UPJQ0CUGtBYioRSP5PPVF1/j05VKL3VhmoeFJkYG51oVPCxR81\n+oTgX9/DF/vc7JvCypXOkr1/rJHmEUaDoxmJ7akQrCiutfkYP9VIaynTZhOJPzOD\n+fbn51h7mDLrzCyaws3d0dMYKJ1O91pyPrhkOYhQ+oB7TtI46JU64MYZl3mLtPPc\nYluDZcv68TrJ3msWTanS\n=So6a\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c61f91cec1e91e3b8755263086d23b4fdfe7c1d8\nparent b121f4fa18301efe9811daae6e81598a82b91274\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749370314 +0000\ncommitter GitHub <noreply@github.com> 1749370314 +0000\n\n大仏さんの提案に基づき、選挙制度改革（区割り、供託金）の内容を追加",
+          "verified_at": "2025-06-08T08:11:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/91edc823a972f27a718dc48ea44b30f28c77ae6d",
+      "html_url": "https://github.com/team-mirai/policy/commit/91edc823a972f27a718dc48ea44b30f28c77ae6d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/91edc823a972f27a718dc48ea44b30f28c77ae6d/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b121f4fa18301efe9811daae6e81598a82b91274",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b121f4fa18301efe9811daae6e81598a82b91274",
+          "html_url": "https://github.com/team-mirai/policy/commit/b121f4fa18301efe9811daae6e81598a82b91274"
+        }
+      ]
+    },
+    {
+      "sha": "a62e3e35c0f484e87a18ba2ee162474e90a37418",
+      "node_id": "C_kwDOOqTJvNoAKGE2MmUzZTM1YzBmNDg0ZTg3YTE4YmEyZWUxNjI0NzRlOTBhMzc0MTg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-08T08:13:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-08T08:13:50Z"
+        },
+        "message": "大仏さんの提案に基づき、選挙制度の課題（区割り、供託金）に関する現状認識と政策概要を追加",
+        "tree": {
+          "sha": "693cd4e7aea060245635c89148a0f1220ab16b2a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/693cd4e7aea060245635c89148a0f1220ab16b2a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a62e3e35c0f484e87a18ba2ee162474e90a37418",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoRUY+CRC1aQ7uu5UhlAAAYKwQABetIizsjCXG926jEi/+k7QM\nNHSvE2KPYmMjPnmHnG6FMCIpgt4aAVC9+mBFp+pJuWaG7tEzuGGR9LzgryEsg/el\nBd3JCKBIqrK6X59303xKSyJOJCivslh0A98Ufx98csGYEmLX0DE2UP0wgxjjYlk7\n1bhfu7GnPMfxafNPsuKqtkTl5dQ6O0ArOP20djjJ8yk0ECtINQxo3g1HniaVFkyL\nldKcYDN3YxxGp6kc9zwVVR8GjFRPCfaGazw8WA+rHiAMBfqvZyKs8H9BvKMJw3EE\nWlyUZZLdwlxdl6Zzu1/I5FWRDnw7G8gXDF7qeiDtCZoIO8NWd+KbWtZwrwPh6as6\nZFjfP3AwFV9FhEA5twX6LD1ADujhMc6f2aSX99KlGcj3iqlOx7qGwFj9egUBM5yD\nPmGVsetkpzUldYr6188M7ctlFCLm0uCLfJJjvxZR8L8rkbeZ5DBDMDxxJP48UFj9\n94MmYl0/5idqZyk8Yj5mzM5pC7t29TjOz5K+8JIn7/tOOFvw7NHfMwYweyhfquJ0\nISdiF8zAT5+iaa+IojtBe6Lka+0zQ/QcDo7zWTJ62Hp0WsTgAYUyoqYxo4IsrEiz\nMsUnrwl4YagMtfbAuTqjTYstlh3Wtlh/7NtmSnznoLHoT5QhWdz9VaJ3xhr5z+qa\nDanED9NsgEJOWmb+57gW\n=9uSL\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 693cd4e7aea060245635c89148a0f1220ab16b2a\nparent 91edc823a972f27a718dc48ea44b30f28c77ae6d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749370430 +0000\ncommitter GitHub <noreply@github.com> 1749370430 +0000\n\n大仏さんの提案に基づき、選挙制度の課題（区割り、供託金）に関する現状認識と政策概要を追加",
+          "verified_at": "2025-06-08T08:13:50Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a62e3e35c0f484e87a18ba2ee162474e90a37418",
+      "html_url": "https://github.com/team-mirai/policy/commit/a62e3e35c0f484e87a18ba2ee162474e90a37418",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a62e3e35c0f484e87a18ba2ee162474e90a37418/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "91edc823a972f27a718dc48ea44b30f28c77ae6d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/91edc823a972f27a718dc48ea44b30f28c77ae6d",
+          "html_url": "https://github.com/team-mirai/policy/commit/91edc823a972f27a718dc48ea44b30f28c77ae6d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-09T03:52:02.859847"
+}
