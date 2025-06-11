@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 2163,
+    "title": "家庭との連携状況把握による早期支援の強化（丸山さん提案）",
+    "state": "open",
+    "created_at": "2025-06-11T03:00:04Z",
+    "updated_at": "2025-06-11T03:00:05Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2163",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "e2532ca8f541ce0232e716c49751c8b71a9df703",
+      "filename": "11_ステップ１教育.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/team-mirai/policy/blob/dc861a45a78720fa47ced07876a02076d16c0a67/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/dc861a45a78720fa47ced07876a02076d16c0a67/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=dc861a45a78720fa47ced07876a02076d16c0a67",
+      "patch": "@@ -119,7 +119,7 @@\n \n ### 現状認識・課題分析\n \n-* 子ども・家庭が抱える課題は、経済的な困窮、学習の遅れ、不登校、いじめ、発達上の課題、ヤングケアラー問題など極めて多岐にわたりますが、表面化しにくく、支援のニーズが見えていないことも少なくありません。  \n+* 子ども・家庭が抱える課題は、経済的な困窮、学習の遅れ、不登校、いじめ、発達上の課題、ヤングケアラー問題など極めて多岐にわたりますが、表面化しにくく、支援のニーズが見えていないことも少なくありません。また、家庭からの協力や関心の度合い、コミュニケーションの状況を把握することも重要ですが、現状これらを体系的に収集・分析する仕組みが不十分です。\n * 現状、支援を必要とする子どもや家庭へのアプローチは、各機関（学校、教育委員会、福祉部局、医療機関、地域の子育て支援団体など）が個別に情報を把握し、対応することが一般的ですが、こうした縦割り型の支援体制下では、以下のような課題が発生する場合があります。  \n   * 情報連携が不足し、必要な支援が迅速に届かない  \n   * 自ら声を上げることができない子どもや家庭の潜在的なニーズを見落としてしまう  \n@@ -130,7 +130,7 @@\n ### 政策概要\n \n * 多機関連携型のデータプラットフォームを構築します。  \n-  * 学校（出欠席、学習状況、面談記録など）、教育委員会（不登校相談、いじめ事案記録など）、福祉部局（生活保護、児童手当、子育て相談記録など）、医療機関（健診データ、発達相談記録など）、その他地域の子育て支援団体などが持つ匿名化・非識別化された関連データを、高いセキュリティ基準のもとで一元的に集約・連携するプラットフォームを構築します。  \n+  * 学校（出欠席、学習状況、面談記録など）、教育委員会（不登校相談、いじめ事案記録など）、福祉部局（生活保護、児童手当、子育て相談記録など）、医療機関（健診データ、発達相談記録など）、その他地域の子育て支援団体などが持つ匿名化・非識別化された関連データに加え、保護者の学校行事への参加状況や学校からの連絡に対する応答状況といった家庭との連携状況に関する情報を、高いセキュリティ基準のもとで一元的に集約・連携するプラットフォームを構築します。\n   * 個人が特定できない形でのデータ連携を徹底し、プライバシー保護を最優先とします。必要な場合は、個人情報の利用目的を明確化し、保護者の同意を十分に得るプロセスを導入します。  \n   * 構築されたデータプラットフォーム上の情報（たとえば、欠席の増加、特定の科目での成績低下など）をAIが複合的に分析し、いじめや不登校の兆候、家庭内の変化、学習上の困難、心身の不調など、支援が必要となる可能性のある子どもや家庭を早期に抽出します。  \n     * AIの分析結果は、支援の必要性に関する参考情報として、関連する教職員や支援者にのみアラートとして通知され、その後の専門職による判断や具体的な介入につなげます。  \n@@ -154,7 +154,7 @@\n   * 象徴的な一例として、日本の知の集積地である国立国会図書館は、満18歳未満の利用に際し、施設のキャパシティや人員体制を理由とした利用条件や、事前の煩雑な申請手続きを設けており、子どもたちの自由な情報探索を妨げる大きな要因となっています。  \n   * 学芸員などの専門職員は、資料収集、整理、調査研究、展示企画、教育普及活動など多岐にわたる業務を抱え、負担が大きくなっています。  \n   * 文化財や歴史的資料の保存・継承、研究活動において、デジタル技術の活用が十分に進んでおらず、情報の共有や効率化、新たな価値創出の機会を逃している可能性があります。  \n-* 同様に、書籍・論文・新聞記事など、有益な情報リソースが複数のデータベースに分散しており、横断的な検索やアクセスが難しくなっています。所蔵資料のデジタル化やテキストデータベース化も十分に進んでおらず、高度な検索やビッグデータ解析への活用が限定的である状況です。  \n+* 同様に、書籍・論文・新聞記事など、有益な情報リソースが複数のデータベースに分散しており、横断的な検索やアクセスが難しくなっており、所蔵資料のデジタル化やテキストデータベース化も十分に進んでおらず、高度な検索やビッグデータ解析への活用が限定的である状況です。  \n * AI技術は、その扱いに長けた人と苦手な人との間にデジタル・ディバイドを生む側面もあり、この解消は、社会教育施設の重要な役割の一つと言えます。\n \n ### 政策概要"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "8498b5d255af197f5169ff7f4dd6ba625757a827",
+      "node_id": "C_kwDOOqTJvNoAKDg0OThiNWQyNTVhZjE5N2Y1MTY5ZmY3ZjRkZDZiYTYyNTc1N2E4Mjc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-11T02:56:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-11T02:56:07Z"
+        },
+        "message": "丸山さんの提案に基づき、家庭との連携状況に関する情報収集の視点を追加",
+        "tree": {
+          "sha": "362c8c6c4e3ccdb0d76a8c14d3bad7a9222a09f8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/362c8c6c4e3ccdb0d76a8c14d3bad7a9222a09f8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8498b5d255af197f5169ff7f4dd6ba625757a827",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSPBHCRC1aQ7uu5UhlAAApewQAHDFTQLRtdOwTS5WbMuS9HDi\neip7LVvqcuBSu8s4AEv4VmhA9becbpzJPcLILeT2GFk2Ml/RbY9COEAZ2G1I3YQH\nt61IScOTGSe1rd8EQewWoYcG7eRaSYD4E64K7lF+PxQPRJQOKKk2t5H8szaOIllx\nKDr+quMLfoEBbmaLTrmH7Uw7KM2bgj1zVUbqp1JvbPCyzB+BsYWXmrrRJJoPQOtp\nzs96zHX+1EIzxUJJU3gCnLJ0Xc8jGXtwlazre3YaJx9+EoPSK17DegWxqfixsKKX\n/EIWWMn/btajztZkNsQu+qlvE2i5QpQ/wV8YsCEPbKTx3BrcCNHMeaUGeJHtC6qN\n22wkyME7HwC9DBA16xDdBIYsN27i0bhp/qW2WmqmPotf8Z1wtkfYRBPAdOBdvcZ5\nat/5O2U7U3C7H1TX1NkhSZSLT2igDU7i8bAqFIO9FQgsv5JEHEW1dXJR8c0myMu7\nrHCFY8doBE5kRJ4P4jPihEQBvLCms9OYaztgRNkC8768msCPskvE9vLCHKm9HwrA\nqjFvpcW+mtR9PU4m0lC3tfUAUqUzZB/a3PaGrqc60eF8lPbR+lP7uQcubGgrvxYq\n2FPiGVH3Uyl3zdzF2zLpHgry9Hao+A+wQjjT8jwOMlZntzoL9tuW2M7SF1pV7gPR\ncWBuiaDQguti8UhlTgbf\n=X9k+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 362c8c6c4e3ccdb0d76a8c14d3bad7a9222a09f8\nparent dec69c22aa6be340bbd8a16907e93d2d5423adf7\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749610567 +0000\ncommitter GitHub <noreply@github.com> 1749610567 +0000\n\n丸山さんの提案に基づき、家庭との連携状況に関する情報収集の視点を追加",
+          "verified_at": "2025-06-11T02:56:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/8498b5d255af197f5169ff7f4dd6ba625757a827",
+      "html_url": "https://github.com/team-mirai/policy/commit/8498b5d255af197f5169ff7f4dd6ba625757a827",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8498b5d255af197f5169ff7f4dd6ba625757a827/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dec69c22aa6be340bbd8a16907e93d2d5423adf7",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/dec69c22aa6be340bbd8a16907e93d2d5423adf7",
+          "html_url": "https://github.com/team-mirai/policy/commit/dec69c22aa6be340bbd8a16907e93d2d5423adf7"
+        }
+      ]
+    },
+    {
+      "sha": "dc861a45a78720fa47ced07876a02076d16c0a67",
+      "node_id": "C_kwDOOqTJvNoAKGRjODYxYTQ1YTc4NzIwZmE0N2NlZDA3ODc2YTAyMDc2ZDE2YzBhNjc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-11T02:58:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-11T02:58:27Z"
+        },
+        "message": "丸山さんの提案に基づき、家庭との連携状況に関する情報収集の視点を追加",
+        "tree": {
+          "sha": "335e308ffc04fa8ece420ef079f9c84f3801afb3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/335e308ffc04fa8ece420ef079f9c84f3801afb3"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/dc861a45a78720fa47ced07876a02076d16c0a67",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSPDTCRC1aQ7uu5UhlAAAYJgQAFnFE9T5SlwophdtRSkiYyQg\n88+Qu1VmC7VYwTHxW9qbX2ySf9b5CvpvhMPTV6MAae1PgGOPrf+lzErsmYfLd7EA\njLbJ/BHr/r4xQ1hPQbWx+vnbH19qvLdGlGXND72LfMrVwOFOJ/jzSuFowIY6EzqO\npf91iBAW5MZ/xXAokIJi01olAp6g7nW0yI7pd64B0EXIlJt3yReEeTwqSeQGI1yl\n+oNt6w8Rw6+RuDRzHU6JgQLtbJmC8+XQYuIsHY9vnSOEN8NP386SK9LTlGSVwZtD\n86qTjET1qGX6V0etpwog1LrZyKNN6uT5CPM87dP4RCXXsXCaD1JvEZN5fqNLjlcF\nXv92y+IgB61Gaz0GhqXuLQfYnVKaXHvDRHwZg+pnR5bJY3nvWF793i0P3hnvYt5J\nJ7gWiVl7xZqf0zqX0NxAsHdBNKzYy5DKaM6i5a1sT97A1AUhiowo2BrWq0soqK7J\nT7npZLlRoy9fBync8qJYEWoLS+zNPUuGWce7tr1N65iT2+ZmTO7BHEYIeKSbNaXQ\nbITqj4OBKQayJXnGvmb5RhXXoO4HOhZrduWVtpXq+8EBv3AWDLtRI0YKuRyPgzHL\niYyU6V699sQq+5u17TPbsOUxPHiDzVbgGn6U24KfxY6liWPntbpGUSsSJj/KgmLs\nGAs35gjQyPcKiN6aKZ3C\n=H9dc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 335e308ffc04fa8ece420ef079f9c84f3801afb3\nparent 8498b5d255af197f5169ff7f4dd6ba625757a827\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749610707 +0000\ncommitter GitHub <noreply@github.com> 1749610707 +0000\n\n丸山さんの提案に基づき、家庭との連携状況に関する情報収集の視点を追加",
+          "verified_at": "2025-06-11T02:58:27Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/dc861a45a78720fa47ced07876a02076d16c0a67",
+      "html_url": "https://github.com/team-mirai/policy/commit/dc861a45a78720fa47ced07876a02076d16c0a67",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/dc861a45a78720fa47ced07876a02076d16c0a67/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8498b5d255af197f5169ff7f4dd6ba625757a827",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/8498b5d255af197f5169ff7f4dd6ba625757a827",
+          "html_url": "https://github.com/team-mirai/policy/commit/8498b5d255af197f5169ff7f4dd6ba625757a827"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-11T03:48:02.895590"
+}

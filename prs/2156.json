@@ -1,0 +1,447 @@
+{
+  "basic_info": {
+    "number": 2156,
+    "title": "公共調達における透明性向上と契約モデル見直しの提案",
+    "state": "open",
+    "created_at": "2025-06-11T00:28:30Z",
+    "updated_at": "2025-06-11T00:28:31Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2156",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "f350dc15dda8cb6155e4ce8fe8c2d5bd68a3f795",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 36,
+      "changes": 43,
+      "blob_url": "https://github.com/team-mirai/policy/blob/dd6e28c2b4ba9f2e54382452621ca3150b24606a/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/dd6e28c2b4ba9f2e54382452621ca3150b24606a/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=dd6e28c2b4ba9f2e54382452621ca3150b24606a",
+      "patch": "@@ -53,6 +53,7 @@\n * “ウォーターフォール調達”が改革の足かせに  \n   * 現在の行政による発注で前提とする、仕様を確定 → 長期契約 → 継続的な改修作業という従来型の工程では、政策変更や技術進化に追従できません。  \n   * 結果として、国民が享受するサービス改善スピードも鈍化し、DX 施策の効果が見えにくいという構造課題が生じています。\n+  * このような調達方法は、多重下請け構造を誘発しやすく、結果としてプロジェクトに関与する人員の把握が困難になり、品質管理の低下やセキュリティリスクの増大、責任所在の不明確化といった問題を引き起こす可能性があります。過去には、こうした構造が原因で不適切な団体が開発に関与した事例も指摘されています。この問題は公共調達に限らず、民間企業においても同様の課題として認識されており、サプライチェーン全体の透明性向上が求められています。\n \n ### 政策概要\n \n@@ -66,42 +67,12 @@\n     * 小規模なMVP（最小限の機能を備えた試行版）から開発を開始し、早期に運用環境での検証を実施\n     * 利用者や実務担当者からのフィードバックを集約し、短いサイクルで段階的に機能を改善\n     * 成果と課題を定期的に検証し、必要に応じて横展開、見直し、あるいは中止などの判断を柔軟に行う\n-* ベンダーロックイン防止ガイドラインの制定  \n+* ベンダーロックイン防止ガイドラインの制定と多重下請け構造の是正  \n   * データ・API・インフラのポータビリティ要件を調達仕様に明示します。  \n-  * 公正取引委員会の調査報告を踏まえ、長期専属契約・独占的保守契約の防止条項を標準契約書に盛り込みます。\n-\n-## ３）アジャイルガバナンスを推進します\n-\n-### 現状認識・課題分析\n-\n-* 技術進化スピードと政策ラグのギャップが拡大  \n-  * 生成AI は半年単位で能力が倍加する一方、法律改正は長期間の検討、審議を前提としており、法改正サイクルは追いついていません。 旧来型 PDCA だけでは社会的リスクに追従できないと[OECDも警告](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/04/regulatory-experimentation_fc84553c/f193910c-en.pdf?utm_source=chatgpt.com)しています。  \n-  * 政府の[「重点計画」(2024)](https://www.digital.go.jp/policies/priority-policy-program?utm_source=chatgpt.com) でも“機動的で柔軟な政策形成”を最優先原則に掲げており、制度側のレガシー解消は継続的課題となっています。  \n-* 行政の「無謬性神話」による影響からの脱却の必要性  \n-  * 我が国の行政には、行政は間違いを犯してはならない、現行の制度や政策は間違っていないと考える、いわゆる「無謬性神話」が存在するとの指摘があります。（[アジャイル型政策形成・評価の在り方に関するワーキンググループ提言](https://www.gyoukaku.go.jp/singi/gskaigi/agilewg/img/220531_honbun.pdf)など）  \n-  * 環境変化が速く、社会課題が複雑化・困難化する中で、「無謬性神話」にとらわれず、様々な社会課題に適時的確に対応・解決していくことが必要です。  \n-* 政府としても“機動的政策形成”を優先的位置付けに  \n-  * 2024 年「[デジタル社会の実現に向けた重点計画](https://www.digital.go.jp/policies/priority-policy-program?utm_source=chatgpt.com)」において、“機動的で柔軟な政策形成”を基本原則に掲げ、サンドボックス・試行錯誤を前提とした制度改革が求められています。  \n-*  社会的信頼の素早い獲得と、柔軟なリスク管理の必要性が拡大  \n-  * [デジタル庁のダッシュボード公開数は年間1,660件 まで増加 ](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/76083c4c-44f7-4921-b71c-01a28b9a4338/c7be7b06/20250422_meeting_conception_outline_01.pdf?utm_source=chatgpt.com)。 高頻度で成果を可視化し、市民の監視とフィードバックを組み込む文化が定着しつつあります。  \n-* 国際規制競争が「待ったなし」  \n-  * [OECD の「アジャイル規制ツールキット」(2023)](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/04/regulatory-experimentation_fc84553c/f193910c-en.pdf?utm_source=chatgpt.com) が加盟国に実証サンドボックスと失敗学習の制度化を推奨。今走らなければ国際標準づくりから取り残されるおそれがあります。  \n-  * OECD は[2024 年報告](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/03/facts-not-fakes-tackling-disinformation-strengthening-information-integrity_ff96d19f/d909ff7a-en.pdf?utm_source=chatgpt.com)で、誤情報・生成 AI が民主プロセスに与える影響を指摘し、「迅速なアップデートと失敗からの学習」を各国に求めています。\n-\n-### 政策概要\n-\n-* 失敗を許容し、データに基づき高速に学習する政策サイクルの導入  \n-  * サンドボックス＋error budget的思考の採用  \n-    * 機動的で柔軟な見直しを行うような政策設計等ができる制度等の枠を設けます。  \n-    * また、事前に起こりうる失敗及びその確率を検討し、問題が発生した際にそれが想定内か想定外かを踏まえて対応を検討します。  \n-    * エラー発生時は即時原因分析→改善を検討します。  \n-  * 「ゴール設定」→「システムデザイン」→「運用」→「評価」→「環境・リスクの再分析とゴールの再設定」という二重のサイクルの採用  \n-    * PDCAを内包しつつ、環境分析やゴール設定の継続的な見直しを採用し、外部への透明性・アカウンタビリティを確保します。  \n-  * EBPMの動的な実践:  \n-    * 一時点での評価・分析にとどまるスタティックなEBPMだけでなく、状況の変化に応じて政策を見直し・実行するダイナミックなEBPMを実践する。  \n-    *  EBPM、政策評価制度、行政事業レビューの重複感や負担感を解消し、より機動的で柔軟な政策形成にリソースを割けるようにします。  \n-  * 当事者が相互にフィードバックを行う構造  \n-    * 事前あるいは評価時に他省庁の意見および国民からの声をフィードバックとして施策に反映する。\t  \n+  * 公正取引委員会の調査報告を踏まえ、長期専属契約・独占的保守契約の防止条項を標準契約書に盛り込みます。  \n+  * 多重下請け構造による弊害を排除するため、原則として二次下請けまでを上限とし、契約に関わる主要な開発者情報の登録を義務付けるなど、透明性の高い契約プロセスを確立します。  \n+  * これらの公共調達における取り組みで得られた知見やベストプラクティスは、民間企業にも参考情報として積極的に提供し、業界全体の透明性向上を側面から支援します。\n+  * 現行の請負契約に過度に依存した調達慣行を見直し、開発プロセスや成果の透明性をより重視した契約モデル（例：準委任契約の適切な活用、成果完成型準委任契約、アジャイルな開発手法と親和性の高い契約形態など）への移行を検討・推進する。\n * アジャイルガバナンスの基盤としてのプラットフォームの整備  \n   * ID、ベース・レジストリ、オープンデータ、クラウド、決済基盤などの「共通基盤」を整備をより一層推進します  \n     * 参考：デジタル庁による[公的な信頼基盤の整備](https://www.digital.go.jp/policies/trust?utm_source=chatgpt.com)  \n@@ -227,4 +198,4 @@\n   * 全議員にタブレットを貸与し、本会議場でも使用を解禁します。原則電子媒体での交付とし、紙配布は例外時のみ許可制にします。\n * 緊急時ハイブリッド議会\n   * 大規模災害・感染症流行時に限り、議員の遠隔出席と電子投票を許可する方向での検討を進めます。\n-  * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n+  * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "a793f50be0b6c12557d604d494030bab64d3ba29",
+      "node_id": "C_kwDOOqTJvNoAKGE3OTNmNTBiZTBiNmMxMjU1N2Q2MDRkNDk0MDMwYmFiNjRkM2JhMjk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-11T00:13:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-11T00:13:45Z"
+        },
+        "message": "匿名ユーザー：ウォーターフォール調達と多重下請け構造に関する問題提起と改善策を追記",
+        "tree": {
+          "sha": "9bf70552334cecf3bac80268a47aa6a402e2ca09",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/9bf70552334cecf3bac80268a47aa6a402e2ca09"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a793f50be0b6c12557d604d494030bab64d3ba29",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSMo5CRC1aQ7uu5UhlAAA0IYQAJ2q8+TgDierWYNF/aZHCjxg\n5jOrCzlYlYYaAgjOC7XWnBN1od0CRYcjiVT+tSkenJddV9LLe36ncTmjXKGAfTvL\nqRBxuXNyLLbwsM1YQvb3Xls4z+BvFO1B4K1g0+CKKCx6ga6uH+9GUCHJ/GtcnaJW\nT+OTygvfMxwjtzAnKAH1UVtLIiY3D3zZRHW19tFMnbheUlEMynNc0LYlZgnECh6k\nt7ZHSdNSkX3IMsNmTHBqiwxpSEdFG1SyLVwEF2M5LrpEVf07hlxDk71CYIFzEcu9\n2yWX5gHN0oM+eMg2GTo3NjNemilkK2d8DdNQLmZS6HZGBFQxeaLP6MtIhvT6Zx6u\nzZLxmN0SFwknuLOe3M4IjPxUjJtSQlSHWuP0jANtAr4zzLKsXWQtUhG5SgKvDyrf\n52QFu3t7r4MY9crWpuTp54iSok/wVRbJ/JzCz5kryocqUBEPv2eoNv6Nq5Kzoh9M\nCq+RTgA+UHVGja30bSmuO3pSmUc8E88pajO/wxwgIadlg/I1zYCEAoQ0PO76OFck\ntx5wyYS4bz0hitGKZWClQ1EBGfq8WfZdS+NPfBiiakwHa3TfPFhk9K6ERBEmYcXO\n+7UhNzW/sXH7NcXoP6Mv0FbwhajR4XExZBmlI10v9l1/vNfhOjLooM9H/fSjn+62\nYsYCbkmlrkBaRmW3bu4Q\n=VWQR\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9bf70552334cecf3bac80268a47aa6a402e2ca09\nparent dec69c22aa6be340bbd8a16907e93d2d5423adf7\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749600825 +0000\ncommitter GitHub <noreply@github.com> 1749600825 +0000\n\n匿名ユーザー：ウォーターフォール調達と多重下請け構造に関する問題提起と改善策を追記",
+          "verified_at": "2025-06-11T00:13:45Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a793f50be0b6c12557d604d494030bab64d3ba29",
+      "html_url": "https://github.com/team-mirai/policy/commit/a793f50be0b6c12557d604d494030bab64d3ba29",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a793f50be0b6c12557d604d494030bab64d3ba29/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dec69c22aa6be340bbd8a16907e93d2d5423adf7",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/dec69c22aa6be340bbd8a16907e93d2d5423adf7",
+          "html_url": "https://github.com/team-mirai/policy/commit/dec69c22aa6be340bbd8a16907e93d2d5423adf7"
+        }
+      ]
+    },
+    {
+      "sha": "23d4a5e47256ea4b9d9121c0332ddc451ab9f360",
+      "node_id": "C_kwDOOqTJvNoAKDIzZDRhNWU0NzI1NmVhNGI5ZDkxMjFjMDMzMmRkYzQ1MWFiOWYzNjA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-11T00:13:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-11T00:13:53Z"
+        },
+        "message": "匿名ユーザー: ウォーターフォール調達と多重下請け構造の問題、及び民間への展開可能性について追記",
+        "tree": {
+          "sha": "10712db8e9e725c46701d000ec8fb85ffb5eb72e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/10712db8e9e725c46701d000ec8fb85ffb5eb72e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/23d4a5e47256ea4b9d9121c0332ddc451ab9f360",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSMpBCRC1aQ7uu5UhlAAABj0QAEFn8dPnx4EVWdYMirmj347f\n6DhXupC3yZtsdbZcujJ1rKd1jDYece91NtzZCp35lLkxq1B0o4RcbXGYvzalcObD\ncIhCuV6vlhMhq1eorZUrzET5xGQgka1yUtDEbx564uOXiZBi+0EQJla9fcIzmU7l\nqvFLfsbPNoqz3PmrJ4MtH24ccQ2uUq4R0msl0tAti7AlgujEJzGGonfacqemHIwb\nEdrGJBjdHXdeZf+0QUYp/BJVCFijjOL8w1pTPAZ4uc9ykiiF2c9jvCjDy4QBXZPj\nwAamH9MuqwuuZhpPq7QxGCeo+yseI3jELGYX6LCom0eI2qV4ll+XrjgSXPCVP4VK\nXL30Y1I0velSPwHTpKGWuyk3rWl5lW91sYKRkLAlv/CVYpnZdJHW+/1C1wgGFDrt\ngAAf9DiWGH/w1WjssQcwpvtCXdChjtciaY2qy1WpFjRatuqDCJSNDm6ZQ0kzfEMd\nE61h9y8IAN3CmyhLlRP8TJ+6rxYT7lOxrUNCnUU7Zoo/BJ8SxeL1LH69Xgf9g1k8\nRapqs42Qvbf04kFQUh/F8Ys5wqRw3iW17VP48ZJEjRAkdFa+L/Osow6J9iPJkHUv\nQ/2nKwgssmn+ohsiFP91WjrpaUiPRaqCL79GwKiOMdOiKc3oJyFGWB9vQxG2XBxJ\nPhBJwiQihx/MEX5hxb1o\n=TAF/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 10712db8e9e725c46701d000ec8fb85ffb5eb72e\nparent a793f50be0b6c12557d604d494030bab64d3ba29\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749600833 +0000\ncommitter GitHub <noreply@github.com> 1749600833 +0000\n\n匿名ユーザー: ウォーターフォール調達と多重下請け構造の問題、及び民間への展開可能性について追記",
+          "verified_at": "2025-06-11T00:13:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/23d4a5e47256ea4b9d9121c0332ddc451ab9f360",
+      "html_url": "https://github.com/team-mirai/policy/commit/23d4a5e47256ea4b9d9121c0332ddc451ab9f360",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/23d4a5e47256ea4b9d9121c0332ddc451ab9f360/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a793f50be0b6c12557d604d494030bab64d3ba29",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a793f50be0b6c12557d604d494030bab64d3ba29",
+          "html_url": "https://github.com/team-mirai/policy/commit/a793f50be0b6c12557d604d494030bab64d3ba29"
+        }
+      ]
+    },
+    {
+      "sha": "040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8",
+      "node_id": "C_kwDOOqTJvNoAKDA0MGJiYzdlMGJkZjM3ZjFjOTZiZTMxYWU5NzVlMGIyYzBjYTE5Yjg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-11T00:22:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-11T00:22:42Z"
+        },
+        "message": "匿名ユーザー：請負契約依存からの脱却と成果完成型準委任契約の検討を政策に追加",
+        "tree": {
+          "sha": "0bc73c592ba158465a5f20e6f228421908f5fd3f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0bc73c592ba158465a5f20e6f228421908f5fd3f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSMxSCRC1aQ7uu5UhlAAAWNoQAGZE7wclL2bhcwcKhzuNAInJ\nybbRzwf7DGhVq7TBfJDjEFDxkTQZjOFsA8/QGt7zqaov8k8vuND0KIPDV0vnHFg5\nkhlP2Vhut7KASnl+NNWa3gWxxhdPnMsYfCYMVWy6xiVRS/0ZhnxKqdUNy5m7t/+8\nHax3daPiIj/C64fGnF0V2hFnr7X41kinFONykqkq2kSc5BKGvSn139QUIphie+H6\nFQ22S41ZLT/kY7sRP7aZ41674LZB8YdQ9E8Tc1wWkC5lfTqfUTqz0wMDRU2uatOv\njEzExT5gwhfAgaRBKYXR/2lcvAaOF95ERPy7ulfd4JhsksC2xMke+RqqvdNffMNM\nKXiiEDNOSF+oZvr4FM3d+/Z5lp0LtYsuoNzBKwdEM2Sg2i/lkp/id+ST+B4RcYa6\n5Lea4hAukA+j2HRs1zIdRjVUm2+DhjR6uEhVRPxtaTKdic/IjNSmIFIx5LPvhEFJ\nDCrsTn0swet59QMEZxA8tMrlUXQIswbT5pGLZuVangKINF66JHHX8I3UpXrrTsUL\n/hgkj8QLbh9VDlIjyZirBcP7HVI5TfHqcpSfrtMx04CkJKMC7JrGIyKn5i8LffuZ\nERC7KA3/CkoRzRxID/q5SiuKy4VaxjJ4HFMUolMdFtrMpI2GTbLLCRtcoaQ9yBkR\n83rYDmSJ1iLtOJOfEGux\n=BpEe\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0bc73c592ba158465a5f20e6f228421908f5fd3f\nparent 23d4a5e47256ea4b9d9121c0332ddc451ab9f360\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749601362 +0000\ncommitter GitHub <noreply@github.com> 1749601362 +0000\n\n匿名ユーザー：請負契約依存からの脱却と成果完成型準委任契約の検討を政策に追加",
+          "verified_at": "2025-06-11T00:22:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8",
+      "html_url": "https://github.com/team-mirai/policy/commit/040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "23d4a5e47256ea4b9d9121c0332ddc451ab9f360",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/23d4a5e47256ea4b9d9121c0332ddc451ab9f360",
+          "html_url": "https://github.com/team-mirai/policy/commit/23d4a5e47256ea4b9d9121c0332ddc451ab9f360"
+        }
+      ]
+    },
+    {
+      "sha": "b4a92a0f30282786b63a076731a30476187e4154",
+      "node_id": "C_kwDOOqTJvNoAKGI0YTkyYTBmMzAyODI3ODZiNjNhMDc2NzMxYTMwNDc2MTg3ZTQxNTQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-11T00:23:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-11T00:23:45Z"
+        },
+        "message": "匿名ユーザー：請負契約依存からの脱却と成果完成型準委任契約の検討を政策に追加",
+        "tree": {
+          "sha": "544bd2441173fb93fbd065ecfc298847c264d22e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/544bd2441173fb93fbd065ecfc298847c264d22e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b4a92a0f30282786b63a076731a30476187e4154",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSMyRCRC1aQ7uu5UhlAAAQa4QAHJElYi3NPh2Q+7azFbylAeV\n8WUzFQZd8Xtm4Tq52YtJLDGvLnRql9jtxvC3aveQWTkYP1Bako+rUlRF/PNxg8d7\nmfMUWS9ZH23GWsl0L2h74FeqXpe2MsjwUoxZqiR7W1iS17aUE3j2mLmxe4J6064b\nTRJGYjNa9hZX9/3oqWvoQVCQeN44N/B8oHDiEgPt+FXqbCzwNZL5J9F0ivz0fojP\n32rIAQ//eADoNPrJA543XJq/VIHCL4/Qozdvd0kGI5jMUU52r2bZfgqs5qW4aO8x\nwEBiswaHRF2zorK79WPB+Ekicz7Q0C3S+M6ToifgCZIQB2+6XVDlGgJ97uM6apXC\nG8WbEQDS0CDpVe6r75HRZlbGBaCoznozN56l+oMqp7jsNJ8kM7ZoOXlAXvP1l0ZF\nfKq0BAC7xKOpr5Fk2xMcfe0NhKFt/h7VIDFF1tBG42u35ijXbLImlXM4BTrOpJ7R\n4hq14Vx19ic9AvhTPm2Eg6JMnWPAE+KD+ipIlJojpATYuAf92MUfn1Nyzj8CV4/s\nU2elOBRK/cENhoL/dYSCM5QfwNYg/C75zfd3FP4984p6ObVAE2MdTSIxn4LMQ2Bz\npXpm6lzpu7xcB6VCrGelEErKygaF/p3yX9U1+ura6GSJhFameBmHXB88/UbMcs06\nLfBOzMTzrlumvo+CCiP2\n=R68z\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 544bd2441173fb93fbd065ecfc298847c264d22e\nparent 040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749601425 +0000\ncommitter GitHub <noreply@github.com> 1749601425 +0000\n\n匿名ユーザー：請負契約依存からの脱却と成果完成型準委任契約の検討を政策に追加",
+          "verified_at": "2025-06-11T00:23:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b4a92a0f30282786b63a076731a30476187e4154",
+      "html_url": "https://github.com/team-mirai/policy/commit/b4a92a0f30282786b63a076731a30476187e4154",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b4a92a0f30282786b63a076731a30476187e4154/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8",
+          "html_url": "https://github.com/team-mirai/policy/commit/040bbc7e0bdf37f1c96be31ae975e0b2c0ca19b8"
+        }
+      ]
+    },
+    {
+      "sha": "dd6e28c2b4ba9f2e54382452621ca3150b24606a",
+      "node_id": "C_kwDOOqTJvNoAKGRkNmUyOGMyYjRiYTlmMmU1NDM4MjQ1MjYyMWNhMzE1MGIyNDYwNmE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-11T00:25:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-11T00:25:54Z"
+        },
+        "message": "匿名ユーザー：請負契約依存からの脱却と成果完成型準委任契約の検討を政策に追加",
+        "tree": {
+          "sha": "509f5a7ce0e885efbc10a44c335579d278a74f9a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/509f5a7ce0e885efbc10a44c335579d278a74f9a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/dd6e28c2b4ba9f2e54382452621ca3150b24606a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSM0SCRC1aQ7uu5UhlAAAwSkQAKCOiN8LRROX8YG2FdUmUtG4\niECA2iGJSOdFRl4qLD/aIrvjDstaZ6hHGWQ4zDHv64UHMfa8kxjdKCfRy7wvnLdR\n/2OYwipGUP8npkGGSFlWRkS5Thesg+6gACb/Ch4ExYwHw6yuVvwQ4kM+mXUwx8ru\nexD4VvhPNFDQdcpi+qfbfGgntIWxZWxo76XwHjFD2kPyWWXE3ukArTMXCeAYT17/\n5p4vKAGxAxHjevtrUsyJdM8nd+56lRwug77wLSwhpHs5CqHR9MBuFrXFFu1JueHi\nBvigV9rRsfTDZI9atuRi4w9Waw/iRNyj61kM88JvQzwjiPbAJHWqULWf4O+hXOz6\nXGzNiStnhje4mgk0brVl5aeaOb3hM+U6R6lY5OBG9uVusPOKwuezo7/If/h0VGEF\n+N+mDmF8jO1Mg+OK/W0/hpqXMrstCCDNO2ji+AT5KLaLbm1YB0A5yDFfPyfaEbYw\nM32UYdek3ulEGbJDi6BeyxN5A1mtBelwU3hvpHclb/RSCVFp4UCfgcs5wLaFWnjc\n7P5s59My6PYQenuWMS0afS6ifFRs97QHxoVju4qRhny/s0vJQ2h/gJhGullL0I8P\nk4RCJVoBMoBixVqMCzm28wnArefZJPzMn1agyTuNDVZtbdv65C6ZbbBcC0eEhhnI\nnn4rMTQnUfAgHzdXx6HQ\n=KKnJ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 509f5a7ce0e885efbc10a44c335579d278a74f9a\nparent b4a92a0f30282786b63a076731a30476187e4154\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749601554 +0000\ncommitter GitHub <noreply@github.com> 1749601554 +0000\n\n匿名ユーザー：請負契約依存からの脱却と成果完成型準委任契約の検討を政策に追加",
+          "verified_at": "2025-06-11T00:25:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/dd6e28c2b4ba9f2e54382452621ca3150b24606a",
+      "html_url": "https://github.com/team-mirai/policy/commit/dd6e28c2b4ba9f2e54382452621ca3150b24606a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/dd6e28c2b4ba9f2e54382452621ca3150b24606a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b4a92a0f30282786b63a076731a30476187e4154",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b4a92a0f30282786b63a076731a30476187e4154",
+          "html_url": "https://github.com/team-mirai/policy/commit/b4a92a0f30282786b63a076731a30476187e4154"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-11T03:48:16.963453"
+}
