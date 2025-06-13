@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2283,
+    "title": "デジタル民主主義政策におけるAIの情報操作リスク対策強化",
+    "state": "open",
+    "created_at": "2025-06-13T12:24:09Z",
+    "updated_at": "2025-06-13T12:24:10Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2283",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "badea9ffe1f7f935db840428f564872fd9c3a896",
+      "filename": "25_ステップ２_デジタル民主主義.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 4,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/74adef78a4264d2b63bb224ee26d24581495c0b9/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/74adef78a4264d2b63bb224ee26d24581495c0b9/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92_%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=74adef78a4264d2b63bb224ee26d24581495c0b9",
+      "patch": "@@ -21,7 +21,7 @@\n \n ### **政策概要**\n \n-* SNS投稿、街の声、パブコメなどから収集された意見を、AIが構造化・可視化する「ブロードリスニング」を実現します。  \n+* SNS投稿、街の声、パブコメなどから収集された意見を、AIが構造化・可視化する「ブロードリスニング」を実現します。**その際、特定の意見への偏りや意図的な情報操作を防ぐため、複数の独立したAIによる検証プロセスを導入し、結果の客観性と信頼性を確保します。あわせて、これらのAIの判断根拠やデータの偏りは常に開示します。**  \n * 具体的なプロダクト  \n   * TTTC (https://github.com/AIObjectives/talk-to-the-city-reports)・広聴AI (https://github.com/digitaldemocracy2030/kouchou-ai)など。すでに自治体や政党で実績多数あり。  \n * 描く未来: これまで聞き逃していた国民の大事な声が把握され、政治家や行政がより適切な政策判断を下す土壌が整います。\n@@ -68,7 +68,7 @@\n * 以下の3段階でAIが支援：  \n   * **論点投票**：SNSや投稿フォームなどからAIが国民の声を集め、重要な論点を抽出・可視化。背景や構造を整理したうえで、市民が投票によって優先課題を決められる仕組みを整えます。  \n   * **重要論点議論**：誰でも参加できるオンライン議論の場を開き、AIが中立的に議論を促進・整理。初めての人でも流れが分かるよう可視化し、寄せられた声から解決策のたたき台を導き出します。  \n-  * **具体提案議論**：AIが議論をモニタリングし、多様な視点を取り込みながら提案を洗練。偏りや抜け漏れを補正し、より実効性の高い政策案へと仕上げていきます。  \n+  * **具体提案議論**：AIが議論をモニタリングし、多様な視点を取り込みながら提案を洗練。偏りや抜け漏れを補正し、より実効性の高い政策案へと仕上げていきます。**ここでも、議論の公正性を保つために、異なる学習データやアルゴリズムを用いた複数のAIによる多角的なチェック機構を設け、潜在的なバイアスや誘導を検知・排除します。**  \n * 描く未来：  \n   * 対立する利害の間から「誰もが納得できる第三案」を熟議によって導き出し、建設的な合意形成を実現します。  \n   * 国民の声を分断ではなく対話へつなげ、政治への参加が「対立の土俵」ではなく「共創の場」となる仕組みをつくります。  \n@@ -91,5 +91,4 @@\n * 政策形成における「民意」と「予測による合理性」のバランスを取る新たな仕組みとして、他の政策参加手段と組み合わせて活用を進めていきます。  \n * 当面は小規模な予測市場での実証実験を重ね、信頼性や運用課題を精査しながら、段階的に制度設計へと反映させていきます。  \n * 将来的には、立法・行政の政策決定で、予測市場の援用を可能にします。  \n-* Futarchyの活用を通じ、AIだけに偏らず、人間の集合知の力を活用した政策の意思決定が可能になります。\n-\n+* Futarchyの活用を通じ、AIだけに偏らず、人間の集合知の力を活用した政策の意思決定が可能になります。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "74adef78a4264d2b63bb224ee26d24581495c0b9",
+      "node_id": "C_kwDOOqTJvNoAKDc0YWRlZjc4YTQyNjRkMmI2M2JiMjI0ZWUyNmQyNDU4MTQ5NWMwYjk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-13T12:23:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-13T12:23:10Z"
+        },
+        "message": "政策案の更新（情報操作対策の追記）by はた　たかひろ",
+        "tree": {
+          "sha": "76cbc6dfa58b1d7e4a23400da7abb712de0b83ff",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/76cbc6dfa58b1d7e4a23400da7abb712de0b83ff"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/74adef78a4264d2b63bb224ee26d24581495c0b9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTBguCRC1aQ7uu5UhlAAAGpIQAFEkwIjL2Qv/HCNqLN0rLhfK\n8ryQwiQ8/Ic6e8VdpOHSgwpwFGkAfigNymb+9B/7UehpyRnS3D9v962w9QJuy2ta\npAz9cvTWK87/m4PJAs/HPQl9dz3FaRa7nclhiSeoX4E2bIbQrVjsDGqqxHbhMbxJ\nIXS9DgRj9e97mRiT56Bbi6aVb3fg/w5gNiiT+hzHHuuJKNyRcA+f7hjGrc/1FqvS\nG/2DPos0Hy2L9tryt5k7bSuiKQ7DQ0jNCAA4xcU3IexYwEqAg0lomWELvExpGqHs\nVTKf3Ib03sZ+JjqtPmTZ/IoL2pm7upRn+Fd3j9jAIteVvIKjt16atZ456U+8RgqH\n5yfMvWZElF7zw8M7QxdQuC7vM5A6IaYiG1w+r4Hi5RK2hDt5aKItaAyHRwAq22WM\nZi/PKe76YY7twfpJoQu9FIaDoZvXCExF+fblRk+DozKYYvm3J/9pdadE+ZLFHmzt\n9hoF9sk9ZmHN7Er/amxIVFbox4htlTdzxhBIPFGZIsPegae2gc2R95QngQWCMG65\nSAX+MvYrXiU76NnSfhlu52t/u8Qnr1zHSEBLCZLSTi5TsovtZmXYqXHhFXlG77l4\n7PfxNTG4+p82Vzex5pjM0994JYpo2BxZ3COcZr6pSeU3I0Cyw78LA4jt/GN6iS7D\nBYW16BiLc5lvO0HzWash\n=UQa/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 76cbc6dfa58b1d7e4a23400da7abb712de0b83ff\nparent 3139d71404e4b0bdf5df1031746bab8ac93f9d71\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749817390 +0000\ncommitter GitHub <noreply@github.com> 1749817390 +0000\n\n政策案の更新（情報操作対策の追記）by はた　たかひろ",
+          "verified_at": "2025-06-13T12:23:10Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/74adef78a4264d2b63bb224ee26d24581495c0b9",
+      "html_url": "https://github.com/team-mirai/policy/commit/74adef78a4264d2b63bb224ee26d24581495c0b9",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/74adef78a4264d2b63bb224ee26d24581495c0b9/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3139d71404e4b0bdf5df1031746bab8ac93f9d71",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/3139d71404e4b0bdf5df1031746bab8ac93f9d71",
+          "html_url": "https://github.com/team-mirai/policy/commit/3139d71404e4b0bdf5df1031746bab8ac93f9d71"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-13T13:26:23.414994"
+}
