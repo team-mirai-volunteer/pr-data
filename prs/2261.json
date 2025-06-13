@@ -1,0 +1,447 @@
+{
+  "basic_info": {
+    "number": 2261,
+    "title": "【フィリア提案】教育政策「１．教育」セクションへの改善提案（教員負担軽減・意見聴取・AIリスク対応・AI開発中立性）",
+    "state": "open",
+    "created_at": "2025-06-12T22:36:59Z",
+    "updated_at": "2025-06-12T22:37:00Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2261",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "e6127f94f0fe81b00a9e71fafdeb7beed2672e12",
+      "filename": "11_ステップ１教育.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 7,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/839fe5fe509c0cd166ca1ac859b0b9cdd6ab5601/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/839fe5fe509c0cd166ca1ac859b0b9cdd6ab5601/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=839fe5fe509c0cd166ca1ac859b0b9cdd6ab5601",
+      "patch": "@@ -13,6 +13,7 @@\n   * 小中高でのデジタルリテラシー教育を強化し、子どもたち自身に、AIなどのテクノロジーを使いこなす力を育みます。\n   * AIなどのテクノロジー利用に際して予想される懸念事項に対して、文部科学省とデジタル庁とが連携してその解消に努めます。\n * 支援の必要な子ども・ご家庭に、テクノロジーの助けを借りながら、必要十分な支援をより効果的に届けます。\n+本政策全体の推進に先立ち、様々な環境にある学校現場の教職員、多様な背景を持つ子どもたちと保護者の意見を積極的に聴取し、その結果を大方針の策定及び継続的な見直しに反映させるプロセスを重視します。一部の意見に偏ることなく、幅広い層からのフィードバックを得るための仕組みを構築します。\n \n ## １）子ども一人ひとりに「専属のAIアシスタント」を届けます\n \n@@ -40,14 +41,14 @@\n   * こうしたAIアシスタントにより、子ども・教員双方に時間的な余裕が生まれ、教室では、対人でしかできない活動、対人でしか育めない力を育むことに、より注力できるようになります。  \n * 短期的には、ChatGPTなどの既存のAIを元にしたツールを配布します。  \n   * 生成AI事業者に対して、事例として発表できるように協力することで調達予算を抑えます。  \n-  * 保護者の明確な同意プロセス、教育機関による監督体制、不適切なコンテンツへのアクセス制限など、厳格な安全措置とプライバシー保護策をとります。  \n+  * 保護者の明確な同意プロセス、教育機関による監督体制、不適切なコンテンツへのアクセス制限など、厳格な安全措置とプライバシー保護策をとります。特に、既存AIが持つ既知の限界や偏見が教育現場に負の影響を及ぼすリスクを最小化するため、初期段階においては、AIが直接的な評価や断定的な指導を行うことを避け、人間の教員による確認と判断を必須とします。倫理的配慮が求められる事柄や、修正が困難な影響を生む可能性のある領域では、AIの利用範囲を慎重に限定し、専門家チームによる影響評価と承認プロセスを導入します。\n   * 同時に、完璧なルール整備を待つのではなく、パイロット校での試行導入と並行して、ガイドラインの見直しや改善を継続的に行います。  \n     * パイロット校選定にあたっては、地域（都市・農村）・規模（大規模・小規模）・学校種別（公立・私立・義務教育校・特別支援校）が偏らないよう配慮し、得られたフィードバックをもとに全ての学校で運用可能なモデルを確立します。  \n   * 保護者向けの説明会や情報提供を積極的に行い、懸念や疑問に丁寧に答え、合意形成を図るプロセスを重視します。  \n   * また、AI開発の初期段階から、学習障害を含む様々な特性・学習ニーズを持つ子どもたちやその保護者、教育・福祉の専門家など、多様な関係者へのヒアリングを徹底し、具体的なニーズを詳細に把握することで、誰一人取り残さないAI活用を実現します。  \n   * 教師がAI出力の妥当性を判断・補完する必要があるため、教師向けのガイドラインやフィードバックツールを提供し、また教員研修を通じて、AI出力の正確性や信頼性の判断能力を向上します。  \n * 中長期では、政府が基準を定め、民間のAI開発を支援することで普及を目指します。  \n-  * 既存のAIのデータセットには、日本の学校現場特有の概念（古典・日本史・靴箱・給食袋など）が十分に組み込まれていないので、日本の文脈にあったAIを開発します。  \n+  * 既存のAIのデータセットには、日本の学校現場特有の概念（古典・日本史・靴箱・給食袋など）が十分に組み込まれていないので、日本の文脈にあったAIを開発します。その開発においては、特定の価値観やイデオロギーの押し付けにならないよう、多様な視点を取り入れ、教育における中立性・公平性を担保するためのガイドラインを策定し、透明性の高い開発プロセスを確保します。\n   * 文科省とデジタル庁が連携して、義務教育で使うAIが満たすべき仕様を定め、民間で開発してもらい、仕様を満たしたものだけ学校に導入出来るようにします。初期の開発にはコストがかかるので、懸賞金型の研究開発補助金の導入も検討します。  \n   * 開発したAIは、政府の保有するクラウドサーバー上で動かすことで、個人情報も含めて安全に扱えるようにします。  \n     * 今後AIの性能が上がってきた場合には、特に秘匿性の高い情報については、オフライン環境でも扱えるような仕組みを構築することも検討します。  \n@@ -69,14 +70,14 @@\n   * イギリスでは、教員向けのAIアシスタント「Aila」プロジェクトが進められています。そのパイロット版の調査では、教材作成における負担軽減と質の向上、そして教師の全体的な業務負担の軽減に貢献した実績が報告されています。\n \n ### 政策概要\n-\n+これらの施策の導入にあたっては、計画段階から現場の教職員の意見を十分に聴取し、新たな負担増とならないよう、実効性のある負担軽減策を着実に実行します。\n * IT/AIツールや追加の人員配置により、教員の授業外業務を削減します。  \n   * 補助金等を活用し、校務支援ツールを積極的に導入します。  \n   * 各自治体の教育委員会にデジタル推進委員を配備し、各校への円滑なテクノロジー導入を支援します。  \n * 学校支援・先生支援AIを開発します。  \n   * 生徒の個人情報を安全に扱うことのできるAIを配布することで、教職員が広範な業務にAIを活用できるようにします。  \n     * たとえば、外国にルーツのある子ども・家庭への多言語での情報のやり取りは、現状のAIで十分手軽に実行可能です。  \n-  * 短期的には、出欠連絡や学校からのお知らせ、保護者とのやり取りなどの校内業務を、スマートフォンやPC上で完結させるツール（すでに民間事業者によるものが複数存在）を各校に導入します。  \n+  * 短期的には、出欠連絡や学校からのお知らせ、保護者とのやり取りなどの校内業務を、スマートフォンやPC上で完결させるツール（すでに民間事業者によるものが複数存在）を各校に導入します。  \n   * いじめ等の問題発生時の対応マニュアルなどを読み込めるAIを配布します。  \n     * 経験の浅い教員であっても、被害生徒・加害生徒、および各ご家庭へのより迅速かつ適切な対応が可能になります。  \n   * 保護者からの問い合わせや要望は、原則として全て録音・テキスト化し、対応記録としてデータベースに保存します。これにより、下記を実現します。  \n@@ -96,7 +97,7 @@\n \n * AIは、これからの時代ますます使われるようになっていきますが、現状では誤りや偏りのある回答をすることもあり、使い方によって毒にも薬にもなります。  \n * これからの時代を生きる子どもたちは、AIリテラシーを育むことにもっと時間を使う必要があります。  \n-* 現状、文部科学省は「初等中等教育段階における生成 AI の利活用に関するガイドライン」を策定しており、子どもたちのAIリテラシー向上に向けて乗り出していますが、AIについて学ぶ時間の増加や教材作成までには至っていません。  \n+* 現状、文部科学省は「初等中等教育段階における生成 AI の利活用に関するガイドライン」を策定しており、子どもたちのAIリてラシー向上に向けて乗り出していますが、AIについて学ぶ時間の増加や教材作成までには至っていません。  \n   * 参考：生成AIの利用について[https://www.mext.go.jp/a\\_menu/other/mext\\_02412.html](https://www.mext.go.jp/a_menu/other/mext_02412.html) \n \n ### 政策概要\n@@ -160,7 +161,7 @@\n ### 政策概要\n \n * AI等のテクノロジー活用を支援し、資料管理、簡易な問い合わせ対応、施設の維持管理業務などを効率化することで、専門職員がより高度な専門業務や利用者サービスに注力できる環境を整備します。  \n-* 国営の高品質な「統合型情報アクセスプラットフォーム」を構築・提供します。既存の学術論文やアーカイブ資料の包括的なデジタル化とテキストデータベース化を進め、検索性の抜本的向上とビッグデータ研究への活用を可能にします。これにより、災害等による文化財損失リスクも低減します。  \n+* 국営の高品質な「統合型情報アクセスプラットフォーム」を構築・提供します。既存の学術論文やアーカイブ資料の包括的なデジタル化とテキストデータベース化を進め、検索性の抜本的向上とビッグデータ研究への活用を可能にします。これにより、災害等による文化財損失リスクも低減します。  \n * 国立国会図書館の施設拡充や人員増強を図り、年齢制限なくすべての国民に開放します。また、利用申請手続きを大幅に簡素化します。  \n   * 同様に、国立大学の図書館について、学生（小中高生および大学生・大学院生等）が、身分を証明することで他の利用者と同様のサービスを受けられるよう、積極的な開放を促します。  \n * 文化財や歴史的資料の研究において、画像解析AI、3Dスキャン、ビッグデータ解析などのテクノロジー導入を支援し、研究の深化と効率化を図り、文化の継承と発展に貢献します。  \n@@ -184,4 +185,4 @@\n * AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができます（プッシュ型支援）。\n * 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。  \n * 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。   \n-  * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n+  * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "e6033f370027cce7920c91d0eb2f53354eae6cc9",
+      "node_id": "C_kwDOOqTJvNoAKGU2MDMzZjM3MDAyN2NjZTc5MjBjOTFkMGViMmY1MzM1NGVhZTZjYzk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-12T10:26:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-12T10:26:46Z"
+        },
+        "message": "フィリアさんの提案に基づき、教員負担軽減、意見聴取、AIリスク対応、AI定義の多様性配慮を追記",
+        "tree": {
+          "sha": "415a7092d83a728a1a5e54a57c97f9cced702e81",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/415a7092d83a728a1a5e54a57c97f9cced702e81"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e6033f370027cce7920c91d0eb2f53354eae6cc9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSqtmCRC1aQ7uu5UhlAAASaUQAAHZ55TsD1aVjGZasgbFMvDr\nP7y74TCy8rKGj/2gcjkU91lQt2pSYuCb/Vn9c2oRsj0+D4r/7Y+jp1M7+CY1A1Id\nakrxtCuFaIyLRBx+1EsSeWE/Wm5kQesTo4A9LV9Zx6wT5IK5Iba/O1lepoyb2Xpy\niRBQiO61hoNllPDPeiRTBO+MfBld77UhDf76BBSngE2tb4R0czNMeHzgNTZifwd1\nC+sukhqVVSJ7ciPJH8fJWClW3eLxy4usBhWSoJxLnOv54G1RTbnvC616gpCjkyQU\nDCuExy39o/ZmWvFLIGiFsmIqD++ZpLppJZGJRTiHKvGe2tH1zBRX/BB5AIxcK37g\nLztpSf+GzyNy8JwWCeb/TJcW+TlfAq4xRIFGj0Jhd2mEqSkkGglCJPUf+c2B+pxb\nQiUmveVQajwIsurWRZs9G1dVJqsLtwAD3jf8oaGwLCiPtkjQRlzyb6HXd1oepRB5\n6xOy0+EsvP39+o+wMOsb4YY7zPg6udRO1bli9s6I7HWzzJnVSn+zB2eVmXzi4n8n\nFJQtdMs448/SaxkgWeq+gqrCO81PyqRt9oU4FMnuY1SuzW8+N/cZcTcgmRLSgA9m\nMTdO/FRsoTOTGxvdccEH0/+MV54arVX8h71UPgmea23yGjHgMlmkm4yjb0DH3omh\n2O91cpaZ4XCEX8/bvhYz\n=Z6q+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 415a7092d83a728a1a5e54a57c97f9cced702e81\nparent 5f2669de271429a795b8f932cb86170ae61a1e6f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749724006 +0000\ncommitter GitHub <noreply@github.com> 1749724006 +0000\n\nフィリアさんの提案に基づき、教員負担軽減、意見聴取、AIリスク対応、AI定義の多様性配慮を追記",
+          "verified_at": "2025-06-12T10:26:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e6033f370027cce7920c91d0eb2f53354eae6cc9",
+      "html_url": "https://github.com/team-mirai/policy/commit/e6033f370027cce7920c91d0eb2f53354eae6cc9",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e6033f370027cce7920c91d0eb2f53354eae6cc9/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5f2669de271429a795b8f932cb86170ae61a1e6f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5f2669de271429a795b8f932cb86170ae61a1e6f",
+          "html_url": "https://github.com/team-mirai/policy/commit/5f2669de271429a795b8f932cb86170ae61a1e6f"
+        }
+      ]
+    },
+    {
+      "sha": "0057c1421de0858c0f1a4c4c23ed8d9c33976bfd",
+      "node_id": "C_kwDOOqTJvNoAKDAwNTdjMTQyMWRlMDg1OGMwZjFhNGM0YzIzZWQ4ZDljMzM5NzZiZmQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-12T10:30:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-12T10:30:58Z"
+        },
+        "message": "フィリアさんの提案に基づき、教員負担軽減、幅広い意見聴取、AIリスク対応に関する記述を追記",
+        "tree": {
+          "sha": "415a7092d83a728a1a5e54a57c97f9cced702e81",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/415a7092d83a728a1a5e54a57c97f9cced702e81"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0057c1421de0858c0f1a4c4c23ed8d9c33976bfd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSqxiCRC1aQ7uu5UhlAAACccQADGURGarTCd5cc8PdZL6YRQu\noyhiKgApV21ISYgvYg9mMnKKFn2QNWc6NXVFRCmj2oo+RqdRiV7j5KJ1p6fD7sjk\nLEqwLWyfoB7gR473FJUBOqhKDhUNi5TFoGvynCo2EcptBcsbW8gi2rb3wOR1YRkK\nyvFbkpfPjVu1q9X4cCRozuACqSK8m/Snz0oWAXSPhHPX30xQ2ckDmdeV66qiY1qQ\nFeJXGs3LcBywt2SpIcQLUW9wl961ThWZ4ZVQJVozjiPtEEcsLN3t7RkMfMtFOF3t\nV9IN7yfy6hl0/9PdvTeiyxP8rUfnuybw1bUeZSS7o/biXShubs+mIFFAKr14iYZ6\n1Ta8+tmko3HxJt5/3WYxRD5XVufU4ENjwZsyO56eAh3u0cdp0Y/RZtWp9DhImX6Q\nLK8cXSBspx1OdydRiGLAR19rY8VDZ2qp7S+eqsJgefUTktUZ5tuA33bVpzlphbjB\nHlw6noSdfQdwps3hi9WDjvcGy+3PzVglBJg5ZdENZz+1k2ZASuKmqGpzk+C7e2NM\n3zV50+GyRzT/pGf6Cb9xjFyH1gpCDp4pGkAPfPkcnySA/VOV9yQKAnkOxD5k5/TR\nWmVKKTPVZD2o9s4RTdjTul4jjyi5qJoKLjY5f6uYL5vSh0+9mmhwkbFUrJCsrzdO\nUSsXmPqTlBazPZ5xBaJ2\n=1iSr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 415a7092d83a728a1a5e54a57c97f9cced702e81\nparent e6033f370027cce7920c91d0eb2f53354eae6cc9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749724258 +0000\ncommitter GitHub <noreply@github.com> 1749724258 +0000\n\nフィリアさんの提案に基づき、教員負担軽減、幅広い意見聴取、AIリスク対応に関する記述を追記",
+          "verified_at": "2025-06-12T10:30:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0057c1421de0858c0f1a4c4c23ed8d9c33976bfd",
+      "html_url": "https://github.com/team-mirai/policy/commit/0057c1421de0858c0f1a4c4c23ed8d9c33976bfd",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0057c1421de0858c0f1a4c4c23ed8d9c33976bfd/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e6033f370027cce7920c91d0eb2f53354eae6cc9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e6033f370027cce7920c91d0eb2f53354eae6cc9",
+          "html_url": "https://github.com/team-mirai/policy/commit/e6033f370027cce7920c91d0eb2f53354eae6cc9"
+        }
+      ]
+    },
+    {
+      "sha": "6881e7c297dc4c6124891122ffe11873a5c00dfb",
+      "node_id": "C_kwDOOqTJvNoAKDY4ODFlN2MyOTdkYzRjNjEyNDg5MTEyMmZmZTExODczYTVjMDBkZmI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-12T10:31:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-12T10:31:51Z"
+        },
+        "message": "フィリアさんの意見を反映し、教育方針に関する懸念事項への対応を追記",
+        "tree": {
+          "sha": "53f088d75df5aade9f5c0b9d3958f8d5d71817a2",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/53f088d75df5aade9f5c0b9d3958f8d5d71817a2"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6881e7c297dc4c6124891122ffe11873a5c00dfb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSqyXCRC1aQ7uu5UhlAAAb2UQAKIR+NtcDCP6kyCual8NkyNq\nS5n6uO6/OWY9/S8aXPrGF3xzhS9ZzE+7sE7OjcJGeEyJuA4duTsAKCiMGCo/66QR\nOcK/5L/nqx8c8Sihc3jXkNg1y/Wdpk/h/y82umDHECKjngS5xhifqtzFzPGNcuBz\nPnNr8KamGdcOXCLpl84Kg7HQyIvp6+vyiCJKTl3Bl36j+geLVqONefMfXs9wthQ5\n6HxMUBUmcW4qvHl8HHKGAeORMJl/7bGA8m3XtCDHdaS7Jdcji4z1xTZ3a9BMz3tY\nDgAuWYjotNVBlsiruRZXa0zSwRJiCh1oWicImHe5FZCPLL7oQ8Kf7O6S/N1frNV8\nHbBiaU4lhFlsKctoWqYdwOQLQ2YrmQRYySil/uaIoT0e/6vtd3tOFytFydv3ZDv1\nyFt9hhZ748KivlMyOJQ4xy2n0bnwBSPD0KMo4h41Hik0vCSMe0yVVuuczG7djsqy\nHRrrUlzAvPv5mbYPmoN/xEqn2U3C2vg72EOxwvi3s3ma76Fcg5UsE0PNGQzEqL+4\n2VeAvp1nTO/FBVXlmLBWmHvVYHh5EAe/8lE+HP6dQtSuNeor5X+2sVITkVi0on2Q\nSVETvgx4NngTr5/EMeyTI0Sa0a4WZOfbd+KBsqVI38CYVFRdYoWzY720JOtKlx81\nStY5x0lD4dnVvmiMacGG\n=YM52\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 53f088d75df5aade9f5c0b9d3958f8d5d71817a2\nparent 0057c1421de0858c0f1a4c4c23ed8d9c33976bfd\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749724311 +0000\ncommitter GitHub <noreply@github.com> 1749724311 +0000\n\nフィリアさんの意見を反映し、教育方針に関する懸念事項への対応を追記",
+          "verified_at": "2025-06-12T10:31:52Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6881e7c297dc4c6124891122ffe11873a5c00dfb",
+      "html_url": "https://github.com/team-mirai/policy/commit/6881e7c297dc4c6124891122ffe11873a5c00dfb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6881e7c297dc4c6124891122ffe11873a5c00dfb/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0057c1421de0858c0f1a4c4c23ed8d9c33976bfd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0057c1421de0858c0f1a4c4c23ed8d9c33976bfd",
+          "html_url": "https://github.com/team-mirai/policy/commit/0057c1421de0858c0f1a4c4c23ed8d9c33976bfd"
+        }
+      ]
+    },
+    {
+      "sha": "2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c",
+      "node_id": "C_kwDOOqTJvNoAKDJiN2MwYWIzYmQ2ZmVhYWU0Mjg3YWZjYmQ3ZDhkYWZmYWU3ZjczNWM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-12T11:30:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-12T11:30:45Z"
+        },
+        "message": "フィリアさんの提案に基づき、教員負担軽減、幅広い意見聴取、AIリスク対応、AI開発の多様性配慮に関する記述を追記",
+        "tree": {
+          "sha": "e2be77f0b419c2547a277511f62735bc38e4946c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e2be77f0b419c2547a277511f62735bc38e4946c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoSrplCRC1aQ7uu5UhlAAAtP8QAKT5yIIN1dJIZ1e3ykDYzT3L\nhs+Qqkxev+7cOn0QsG8qN18NgHIpTnZ+V3PQ+M6OBOlgnbYo8D9yqP07f8EZATMp\nZ8Ter5t8sia7NplqJkP0pkjCF3nIqJVCcG30YKoIDEcCkya4TX44EzdVJjinyzZ7\nnlU6C9v7KPR4+2SZweGKREjDeChKI+4yPIXIiJZrDPkXsh5p+VBShTqsdN4f/XH1\nDNB8IaILBVou8jTZrzf99OmzpT8ETXzWK5lRJWtfDUyJx20bZKD1c+pQ+9PBYVh8\nReAczV3ME6Q7hTxDBtL28Lr2onxrinS+SqTv2SEBt5kV4CIVc1F/nQcENrRULtIL\n3HWUN1ZloXWzOMgMxWp24374dOnVsQERoQVZWb/50yL51+ZDEmjW4ToOHy7VFUYV\n4Tk/NhZS1pLpEM3hNyJKn9JpJwyIlnUQvYYSze26KNhl0tE54y7uLQBVSy3sqaIB\nIO3tzJdCjGgP5Fjbbk9yQS2AR3c5ngpz0HINEYj9cm1J5gpgvueiqpV9jV2BxZn3\nqxjovlCalrAwbXCooBqDTBJplJuZ+zhrrI9iMjINxWzNCGei7z6I039TeTQ1n6r/\nGqhA1VrPuIFLX92VNFIYkrdEfnSvo+WBlSIIgP3i1ktQkz1O0PxCmvWuxpc7jI6r\nuRukK9GyLULaeCTyHwUz\n=CtNi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e2be77f0b419c2547a277511f62735bc38e4946c\nparent 6881e7c297dc4c6124891122ffe11873a5c00dfb\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749727845 +0000\ncommitter GitHub <noreply@github.com> 1749727845 +0000\n\nフィリアさんの提案に基づき、教員負担軽減、幅広い意見聴取、AIリスク対応、AI開発の多様性配慮に関する記述を追記",
+          "verified_at": "2025-06-12T11:30:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c",
+      "html_url": "https://github.com/team-mirai/policy/commit/2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6881e7c297dc4c6124891122ffe11873a5c00dfb",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6881e7c297dc4c6124891122ffe11873a5c00dfb",
+          "html_url": "https://github.com/team-mirai/policy/commit/6881e7c297dc4c6124891122ffe11873a5c00dfb"
+        }
+      ]
+    },
+    {
+      "sha": "839fe5fe509c0cd166ca1ac859b0b9cdd6ab5601",
+      "node_id": "C_kwDOOqTJvNoAKDgzOWZlNWZlNTA5YzBjZDE2NmNhMWFjODU5YjBiOWNkZDZhYjU2MDE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-12T22:31:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-12T22:31:24Z"
+        },
+        "message": "フィリアさんの提案に基づき、教員負担軽減、意見聴取、AIリスク対応、AI定義の明確化に関する修正を反映",
+        "tree": {
+          "sha": "e2be77f0b419c2547a277511f62735bc38e4946c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e2be77f0b419c2547a277511f62735bc38e4946c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/839fe5fe509c0cd166ca1ac859b0b9cdd6ab5601",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoS1U8CRC1aQ7uu5UhlAAAUm4QADnVhVbjMKCVPZ+Ph7HgWlCZ\nCnr7/zWczB8DoDF3Tnhre63GSYh8TUNatUSCRCeINh6QQqwCOTZgxdypq5NNy2OC\nxtkrdiUvhypBAXpCWASXYyTOp4Iy010wbE7b8bvi5xVC+EA9HyX1zO4BshmJKxS6\nDj/FkoQwYaizn7r/+dQKi8Ga25xHbMy6VtWj8Xxx3uuf60KcubD7YPLFR24ZZeuO\nkalfYsQN0ZyjIgfXnt5i2/6uRyQSWigs8y7C1K9SzgeDKUc68nXhEUfbrbdQ0AD7\nM+Il6vg+VVp0fKOLZjoJnT2qujKeRPoSWyqhw9EzyTVsKzt7g96xqhhLmYeGLCRE\nzRxUGeLCf/gjB+cqhGbf62bKDc3pwSg9hPHMMKW8QW7cmYaN14rDIesUun9RaChR\nOKqHpcqMmPBkQlO6L9AoDz6wWnRkzxqwfT+dMx46LQJlq4YzA5LJS/Tw6N2F5zG9\nwxnRnJQ4/CoWjPxEEcC8OUkEGU9lcPqD7gX6WdcbeW+Bvf7dKazFWH4q2K16DFFv\nakvCHbkuYx8t9CjsXnRDIRiZHEhI6jAjvxtCamRnvyh8aNbhN64G1T3qDkA3CoA8\n3EWgZsggd5Xu7aKO+4MdQgcKDcfXThQm9zGd5XYvjtnn/wXj6xCACQ1fK+VAoURj\nHDscfDPNxIRt4Xp+fRii\n=AjtV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e2be77f0b419c2547a277511f62735bc38e4946c\nparent 2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749767484 +0000\ncommitter GitHub <noreply@github.com> 1749767484 +0000\n\nフィリアさんの提案に基づき、教員負担軽減、意見聴取、AIリスク対応、AI定義の明確化に関する修正を反映",
+          "verified_at": "2025-06-12T22:31:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/839fe5fe509c0cd166ca1ac859b0b9cdd6ab5601",
+      "html_url": "https://github.com/team-mirai/policy/commit/839fe5fe509c0cd166ca1ac859b0b9cdd6ab5601",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/839fe5fe509c0cd166ca1ac859b0b9cdd6ab5601/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c",
+          "html_url": "https://github.com/team-mirai/policy/commit/2b7c0ab3bd6feaae4287afcbd7d8daffae7f735c"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-13T02:47:39.864251"
+}

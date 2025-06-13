@@ -1,0 +1,305 @@
+{
+  "basic_info": {
+    "number": 2247,
+    "title": "GitHubで行われているマニフェストのアップデートを、X(旧Twitter)でお知らせする機能の実装",
+    "state": "open",
+    "created_at": "2025-06-12T13:29:26Z",
+    "updated_at": "2025-06-12T15:19:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2247",
+    "user": {
+      "login": "yuki-snow1823",
+      "id": 59280290,
+      "html_url": "https://github.com/yuki-snow1823"
+    }
+  },
+  "labels": [
+    {
+      "id": 8616348035,
+      "node_id": "LA_kwDOOqTJvM8AAAACAZMJgw",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/[%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0]",
+      "name": "[システム]",
+      "color": "d73a4a",
+      "default": false,
+      "description": "GithubのシステムにまつわるPR"
+    }
+  ],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "294085c0c99b840dba825e2c3aa063ff37c15ffa",
+      "filename": ".github/scripts/post_to_x.ts",
+      "status": "added",
+      "additions": 51,
+      "deletions": 0,
+      "changes": 51,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ad805a1201bd465f2b1bda5a22134ed2f7c4adc5/.github%2Fscripts%2Fpost_to_x.ts",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ad805a1201bd465f2b1bda5a22134ed2f7c4adc5/.github%2Fscripts%2Fpost_to_x.ts",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fscripts%2Fpost_to_x.ts?ref=ad805a1201bd465f2b1bda5a22134ed2f7c4adc5",
+      "patch": "@@ -0,0 +1,51 @@\n+import { TwitterApi } from 'twitter-api-v2';\n+import * as fs from 'fs';\n+\n+interface GitHubUser {\n+  login: string;\n+}\n+\n+interface GitHubPullRequest {\n+  title?: string;\n+  html_url?: string;\n+  user?: GitHubUser;\n+}\n+\n+interface GitHubEvent {\n+  pull_request?: GitHubPullRequest;\n+}\n+\n+// PR情報をGitHub Actionsのイベントから取得\n+const eventPath = process.env.GITHUB_EVENT_PATH;\n+let pr: GitHubPullRequest = {};\n+if (eventPath && fs.existsSync(eventPath)) {\n+  const event: GitHubEvent = JSON.parse(fs.readFileSync(eventPath, 'utf8'));\n+  pr = event.pull_request || {};\n+}\n+\n+const prTitle = pr.title ?? 'PRタイトル';\n+const prUrl = pr.html_url ?? 'PRリンク';\n+const prUser = pr.user?.login ?? 'ユーザー名';\n+\n+const text = `提案したPRがマージされました！ありがとうございました！\\nタイトル: ${prTitle}\\nリンク: ${prUrl}\\n提案者: ${prUser}さん`;\n+\n+const client = new TwitterApi({\n+  appKey: process.env.TWITTER_API_KEY!,\n+  appSecret: process.env.TWITTER_API_SECRET!,\n+  accessToken: process.env.TWITTER_ACCESS_TOKEN!,\n+  accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET!,\n+});\n+\n+(async () => {\n+  try {\n+    const tweet = await client.v2.tweet(text);\n+    console.log('Success:', tweet);\n+  } catch (e: unknown) {\n+    if (e instanceof Error) {\n+      console.error('Error:', e.message);\n+    } else {\n+      console.error('Unknown error:', e);\n+    }\n+    process.exit(1);\n+  }\n+})(); "
+    },
+    {
+      "sha": "41a2a29d4ac03d4d0b7287a40e4b3824f669cf74",
+      "filename": ".github/workflows/post-to-x.yml",
+      "status": "added",
+      "additions": 33,
+      "deletions": 0,
+      "changes": 33,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ad805a1201bd465f2b1bda5a22134ed2f7c4adc5/.github%2Fworkflows%2Fpost-to-x.yml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ad805a1201bd465f2b1bda5a22134ed2f7c4adc5/.github%2Fworkflows%2Fpost-to-x.yml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fworkflows%2Fpost-to-x.yml?ref=ad805a1201bd465f2b1bda5a22134ed2f7c4adc5",
+      "patch": "@@ -0,0 +1,33 @@\n+name: Post PR Info to X\n+\n+on:\n+  pull_request:\n+    types: [closed]\n+    branches:\n+      - main\n+\n+jobs:\n+  post-to-x:\n+    runs-on: ubuntu-latest\n+    steps:\n+      - name: Checkout\n+        uses: actions/checkout@v4\n+\n+      - name: Set up Node.js\n+        uses: actions/setup-node@v4\n+        with:\n+          node-version: '20'\n+\n+      - name: Run post script\n+        if: github.event.pull_request.merged == true\n+        env:\n+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}\n+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}\n+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}\n+          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}\n+        run: |\n+          cd .github/scripts\n+          npm init -y\n+          npm install twitter-api-v2 typescript @types/node\n+          npx tsc post_to_x.ts --target ES2020 --module commonjs\n+          node post_to_x.js"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "94a9412ddd4a200beaf2f4f06d0c0d330b4e6264",
+      "node_id": "C_kwDOO6gH1doAKDk0YTk0MTJkZGQ0YTIwMGJlYWYyZjRmMDZkMGMwZDMzMGI0ZTYyNjQ",
+      "commit": {
+        "author": {
+          "name": "yuki-snow1823",
+          "email": "y.horikoshi.pg@gmail.com",
+          "date": "2025-06-12T13:04:40Z"
+        },
+        "committer": {
+          "name": "yuki-snow1823",
+          "email": "y.horikoshi.pg@gmail.com",
+          "date": "2025-06-12T13:04:40Z"
+        },
+        "message": "mainブランチへのmergeを行った際にXにPRの情報を投稿するActionの実装",
+        "tree": {
+          "sha": "31bd1d5c8ae8e4ce0093ab78002c90c652c957c2",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/31bd1d5c8ae8e4ce0093ab78002c90c652c957c2"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/94a9412ddd4a200beaf2f4f06d0c0d330b4e6264",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/94a9412ddd4a200beaf2f4f06d0c0d330b4e6264",
+      "html_url": "https://github.com/team-mirai/policy/commit/94a9412ddd4a200beaf2f4f06d0c0d330b4e6264",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/94a9412ddd4a200beaf2f4f06d0c0d330b4e6264/comments",
+      "author": {
+        "login": "yuki-snow1823",
+        "id": 59280290,
+        "node_id": "MDQ6VXNlcjU5MjgwMjkw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59280290?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yuki-snow1823",
+        "html_url": "https://github.com/yuki-snow1823",
+        "followers_url": "https://api.github.com/users/yuki-snow1823/followers",
+        "following_url": "https://api.github.com/users/yuki-snow1823/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yuki-snow1823/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yuki-snow1823/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yuki-snow1823/subscriptions",
+        "organizations_url": "https://api.github.com/users/yuki-snow1823/orgs",
+        "repos_url": "https://api.github.com/users/yuki-snow1823/repos",
+        "events_url": "https://api.github.com/users/yuki-snow1823/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yuki-snow1823/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yuki-snow1823",
+        "id": 59280290,
+        "node_id": "MDQ6VXNlcjU5MjgwMjkw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59280290?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yuki-snow1823",
+        "html_url": "https://github.com/yuki-snow1823",
+        "followers_url": "https://api.github.com/users/yuki-snow1823/followers",
+        "following_url": "https://api.github.com/users/yuki-snow1823/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yuki-snow1823/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yuki-snow1823/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yuki-snow1823/subscriptions",
+        "organizations_url": "https://api.github.com/users/yuki-snow1823/orgs",
+        "repos_url": "https://api.github.com/users/yuki-snow1823/repos",
+        "events_url": "https://api.github.com/users/yuki-snow1823/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yuki-snow1823/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5f2669de271429a795b8f932cb86170ae61a1e6f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5f2669de271429a795b8f932cb86170ae61a1e6f",
+          "html_url": "https://github.com/team-mirai/policy/commit/5f2669de271429a795b8f932cb86170ae61a1e6f"
+        }
+      ]
+    },
+    {
+      "sha": "fcf64ed69b1a144c6c4acf8c4d0ddcce470c042c",
+      "node_id": "C_kwDOO6gH1doAKGZjZjY0ZWQ2OWIxYTE0NGM2YzRhY2Y4YzRkMGRkY2NlNDcwYzA0MmM",
+      "commit": {
+        "author": {
+          "name": "yuki-snow1823",
+          "email": "y.horikoshi.pg@gmail.com",
+          "date": "2025-06-12T13:27:33Z"
+        },
+        "committer": {
+          "name": "yuki-snow1823",
+          "email": "y.horikoshi.pg@gmail.com",
+          "date": "2025-06-12T13:27:33Z"
+        },
+        "message": "不要なテストメッセージの削除",
+        "tree": {
+          "sha": "3427feb783464f48f996fe972f6a7a81d6704349",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3427feb783464f48f996fe972f6a7a81d6704349"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/fcf64ed69b1a144c6c4acf8c4d0ddcce470c042c",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/fcf64ed69b1a144c6c4acf8c4d0ddcce470c042c",
+      "html_url": "https://github.com/team-mirai/policy/commit/fcf64ed69b1a144c6c4acf8c4d0ddcce470c042c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/fcf64ed69b1a144c6c4acf8c4d0ddcce470c042c/comments",
+      "author": {
+        "login": "yuki-snow1823",
+        "id": 59280290,
+        "node_id": "MDQ6VXNlcjU5MjgwMjkw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59280290?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yuki-snow1823",
+        "html_url": "https://github.com/yuki-snow1823",
+        "followers_url": "https://api.github.com/users/yuki-snow1823/followers",
+        "following_url": "https://api.github.com/users/yuki-snow1823/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yuki-snow1823/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yuki-snow1823/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yuki-snow1823/subscriptions",
+        "organizations_url": "https://api.github.com/users/yuki-snow1823/orgs",
+        "repos_url": "https://api.github.com/users/yuki-snow1823/repos",
+        "events_url": "https://api.github.com/users/yuki-snow1823/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yuki-snow1823/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yuki-snow1823",
+        "id": 59280290,
+        "node_id": "MDQ6VXNlcjU5MjgwMjkw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59280290?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yuki-snow1823",
+        "html_url": "https://github.com/yuki-snow1823",
+        "followers_url": "https://api.github.com/users/yuki-snow1823/followers",
+        "following_url": "https://api.github.com/users/yuki-snow1823/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yuki-snow1823/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yuki-snow1823/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yuki-snow1823/subscriptions",
+        "organizations_url": "https://api.github.com/users/yuki-snow1823/orgs",
+        "repos_url": "https://api.github.com/users/yuki-snow1823/repos",
+        "events_url": "https://api.github.com/users/yuki-snow1823/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yuki-snow1823/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "94a9412ddd4a200beaf2f4f06d0c0d330b4e6264",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/94a9412ddd4a200beaf2f4f06d0c0d330b4e6264",
+          "html_url": "https://github.com/team-mirai/policy/commit/94a9412ddd4a200beaf2f4f06d0c0d330b4e6264"
+        }
+      ]
+    },
+    {
+      "sha": "ad805a1201bd465f2b1bda5a22134ed2f7c4adc5",
+      "node_id": "C_kwDOO6gH1doAKGFkODA1YTEyMDFiZDQ2NWYyYjFiZGE1YTIyMTM0ZWQyZjdjNGFkYzU",
+      "commit": {
+        "author": {
+          "name": "yuki-snow1823",
+          "email": "y.horikoshi.pg@gmail.com",
+          "date": "2025-06-12T13:31:57Z"
+        },
+        "committer": {
+          "name": "yuki-snow1823",
+          "email": "y.horikoshi.pg@gmail.com",
+          "date": "2025-06-12T13:31:57Z"
+        },
+        "message": "ファイルの最後に改行の追加",
+        "tree": {
+          "sha": "b4efc476a057ab8c00ecbd17d8e942e6f99214a4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b4efc476a057ab8c00ecbd17d8e942e6f99214a4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ad805a1201bd465f2b1bda5a22134ed2f7c4adc5",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ad805a1201bd465f2b1bda5a22134ed2f7c4adc5",
+      "html_url": "https://github.com/team-mirai/policy/commit/ad805a1201bd465f2b1bda5a22134ed2f7c4adc5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ad805a1201bd465f2b1bda5a22134ed2f7c4adc5/comments",
+      "author": {
+        "login": "yuki-snow1823",
+        "id": 59280290,
+        "node_id": "MDQ6VXNlcjU5MjgwMjkw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59280290?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yuki-snow1823",
+        "html_url": "https://github.com/yuki-snow1823",
+        "followers_url": "https://api.github.com/users/yuki-snow1823/followers",
+        "following_url": "https://api.github.com/users/yuki-snow1823/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yuki-snow1823/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yuki-snow1823/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yuki-snow1823/subscriptions",
+        "organizations_url": "https://api.github.com/users/yuki-snow1823/orgs",
+        "repos_url": "https://api.github.com/users/yuki-snow1823/repos",
+        "events_url": "https://api.github.com/users/yuki-snow1823/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yuki-snow1823/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "yuki-snow1823",
+        "id": 59280290,
+        "node_id": "MDQ6VXNlcjU5MjgwMjkw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/59280290?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/yuki-snow1823",
+        "html_url": "https://github.com/yuki-snow1823",
+        "followers_url": "https://api.github.com/users/yuki-snow1823/followers",
+        "following_url": "https://api.github.com/users/yuki-snow1823/following{/other_user}",
+        "gists_url": "https://api.github.com/users/yuki-snow1823/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/yuki-snow1823/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/yuki-snow1823/subscriptions",
+        "organizations_url": "https://api.github.com/users/yuki-snow1823/orgs",
+        "repos_url": "https://api.github.com/users/yuki-snow1823/repos",
+        "events_url": "https://api.github.com/users/yuki-snow1823/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/yuki-snow1823/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fcf64ed69b1a144c6c4acf8c4d0ddcce470c042c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/fcf64ed69b1a144c6c4acf8c4d0ddcce470c042c",
+          "html_url": "https://github.com/team-mirai/policy/commit/fcf64ed69b1a144c6c4acf8c4d0ddcce470c042c"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-13T02:48:27.760936"
+}
