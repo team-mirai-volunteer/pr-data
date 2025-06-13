@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2295,
+    "title": "マイナンバーを活用した新たな情報連携基盤の構築による行政サービス改善（かず提案）",
+    "state": "open",
+    "created_at": "2025-06-13T16:17:28Z",
+    "updated_at": "2025-06-13T16:17:28Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2295",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "48d54e674c18d9a3bf61fba2f4f19a9c7552fc54",
+      "filename": "13_ステップ１行政改革.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/team-mirai/policy/blob/442c2a28d127f9ce3ca6d1420239d59a003ea7cf/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/442c2a28d127f9ce3ca6d1420239d59a003ea7cf/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=442c2a28d127f9ce3ca6d1420239d59a003ea7cf",
+      "patch": "@@ -83,7 +83,7 @@\n     * 行政サービスを「探す・理解する・申請する」といった一連の行動において、住民が迷うことなくスムーズにたどり着ける仕組みを構築します。情報の分かりにくさや複雑さが申請意欲の喪失につながる現状を踏まえ、誰もが迷わず必要な支援にアクセスできる行政を目指します。\n     * 例えば、確定申告については、その手続きの煩雑さがかねてより指摘されており、納税者の負担軽減が急務です。マイナンバー制度およびマイナポータルの基盤を活用し、給与・報酬・金融所得・社会保険料・医療費など、申告に必要な情報を関係機関から自動的に集約・連携する仕組みを段階的に整備します。\n         * 現時点でも、医療費通知・社会保険料・ふるさと納税情報などについては、マイナポータル経由で取得し、e-Tax上に自動反映される機能が実装されています。また、家族の医療費についても、事前の代理設定により取得可能となるなど、代理による補助的な申告準備も技術的に整いつつあります。\n-        * 今後は、これらの仕組みをより一層拡張し、証券会社・金融機関・保険会社などの情報も含めた網羅的な所得・控除情報の事前集約を推進します。また、高齢者や体調不良等により自らの申告が困難な納税者については、税理士等の有資格者に限らず、家族等による代理提出やサポートがしやすくなる環境整備（例：電子委任状の標準化、代理人向け操作画面の整備）を進めます。\n+        * 今後は、これらの仕組みをより一層拡張し、証券会社・金融機関・保険会社などの情報も含めた網羅的な所得・控除情報の事前集約を推進します。また、高齢者や体調不良等により自らの申告が困難な納税者については、税理士等の有資格者に限らず、家族等による代理提出やサポートがしやすくなる環境整備（例：電子委任状の標準化、代理人向け操作画面の整備）を進めます。**さらに、マイナンバー制度を基盤とし、現行の戸籍制度が持つ家族関係の登録機能を発展させ、親子関係やパートナー関係に加え、相続の指定、契約や法律行為に関する代理人、行政手続きの代行者など、個人の社会生活に必要な様々な権限関係を本人の意思に基づき登録・管理できる新たな情報連携基盤の構築を検討します。これにより、国民がより安心して適切な権限移譲を行える環境を整備し、悪質ななりすましや本人の意思に基づかない不適切な権限行使といった詐欺被害のリスクを低減させ、行政側も手続きの対象者や代理権の範囲が明確になることで、業務の効率化とコスト削減を目指します。**\n         * これにより、最終的には、納税者があらかじめ集約された申告内容を確認し、ワンクリックで申告を完了できる「申告不要型」の仕組みを実現します。本人の意思に基づいた安全な情報連携、透明性の高い運用、そして不正利用を防止する制度設計を徹底することで、誰にとっても使いやすく、安心できる確定申告制度への転換を図ります。    \n     * また、本人情報やマイナンバーに紐づく属性データ（年齢、所得、家族構成など）に加え、住民自身がマイナポータル等で登録した興味・関心分野（例：子育て、教育、住宅支援、起業支援など）をもとに、対象となる可能性のある補助金・制度を自動抽出し、アプリやメールで個別通知する仕組みを整備します。これにより、「制度を自分で探しに行く」のではなく、「必要な情報が向こうから届く」プッシュ型の情報提供が実現されます。\n       * すでに、マイナポータルの「ぴったりサービス」や一部年金手続きで先行実装されつつあり、今後は他制度にも横断的に拡張し、自動化の精度を高めていきます。\n@@ -129,4 +129,4 @@\n     * モデルをAPI経由で公開し、リスク警告の実装を可能にすることでそもそもの法律違反を減らすことを目指します  \n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n-    * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+    * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "442c2a28d127f9ce3ca6d1420239d59a003ea7cf",
+      "node_id": "C_kwDOOqTJvNoAKDQ0MmMyYTI4ZDEyN2Y5Y2UzY2E2ZDE0MjAyMzlkNTlhMDAzZWE3Y2Y",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-13T16:16:44Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-13T16:16:44Z"
+        },
+        "message": "かずさんの提案に基づき、マイナンバーを活用した新たな情報連携基盤の構築について追記",
+        "tree": {
+          "sha": "61044c90b2a93a783b468763fedf445458623463",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/61044c90b2a93a783b468763fedf445458623463"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/442c2a28d127f9ce3ca6d1420239d59a003ea7cf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTE7sCRC1aQ7uu5UhlAAA8NAQAAolfjEfWpEthl3oSzx0T4Lh\nq/0lXENo4QwX8p1qvu6/GKBXt1/sHZAqkkSa7KQtfBA6yZkVCLsWbNhVDaGVsCrf\n3EpumXJuFHH3sE0f/+9WtXtDOTRFiXUdM2Lk1bAbKYVlLp6+dPYoSfJH+RdYPRE2\nC9dVVtgWyz4BcVPEoXbOdxe6gbPFnpmxOH1f4h8C4OIQLorFjjDOgRqR2QF1Hkjs\nDOQLAZ7PXbXNvZWw9+Eyep/v6hcIWU8mSo4Lx9YF52OQc/tr+0KXhmQ+xujuD/dF\ngcvIwRwMJtfd8CwF88qwPDKBd4Eew7RakY+iZpqX2s8n679cfvbRZ9i6vhLXgrl7\nDYWjW1h5KodV707nk+uPY3TBnXndx6LjKP92SEEu8BxVpHw5dvw572S35/gi9o/3\nVcdTkha7AlR/BuFyez+nL2KoshH/WrtwgY3bSU074JMNVqhQUq8ZYGo3On/OtRKH\nkChtBv+bzXIexPpaMdlB7Gfywt2FOVlRAHt4u8Zxe9WtR+n1/rK5GPc00MzzKC1N\naHGhwdUE1TdzKsC4QoVy54bWAhGdqmiQdkKe+heiiE5P+CWMFVeRZ9pxJYCHI2PD\nvI8iOM5EuVBBxDL4qcrbLuurPDqYJtOAxIDceS0HIhU18rfp0Wzvi6W2UGDenCKT\nrlbHXwudg6NOmlPBLbH/\n=siAo\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 61044c90b2a93a783b468763fedf445458623463\nparent d8e599b7af4321774a0b8e084e23a81e8221548f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749831404 +0000\ncommitter GitHub <noreply@github.com> 1749831404 +0000\n\nかずさんの提案に基づき、マイナンバーを活用した新たな情報連携基盤の構築について追記",
+          "verified_at": "2025-06-13T16:16:44Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/442c2a28d127f9ce3ca6d1420239d59a003ea7cf",
+      "html_url": "https://github.com/team-mirai/policy/commit/442c2a28d127f9ce3ca6d1420239d59a003ea7cf",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/442c2a28d127f9ce3ca6d1420239d59a003ea7cf/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d8e599b7af4321774a0b8e084e23a81e8221548f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d8e599b7af4321774a0b8e084e23a81e8221548f",
+          "html_url": "https://github.com/team-mirai/policy/commit/d8e599b7af4321774a0b8e084e23a81e8221548f"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-13T17:10:52.162921"
+}
