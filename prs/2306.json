@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 2306,
+    "title": "匿名SCさん提案：学習指導要領の柔軟な更新とAIによる教材研究支援の強化",
+    "state": "open",
+    "created_at": "2025-06-14T01:39:18Z",
+    "updated_at": "2025-06-14T01:39:19Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2306",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "22a8abc279157a01b464b4f9cfa89d3943f92f6a",
+      "filename": "21_ステップ２教育.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 5,
+      "changes": 11,
+      "blob_url": "https://github.com/team-mirai/policy/blob/fe350ec3b76cd6476d6c72bc1714061d3266579f/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/fe350ec3b76cd6476d6c72bc1714061d3266579f/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md?ref=fe350ec3b76cd6476d6c72bc1714061d3266579f",
+      "patch": "@@ -31,25 +31,26 @@\n \n 日本に標準授業時数は学年・教科双方で柔軟性がなく、諸外国と比較しても縛りが強い制度となっている  \n 出典：経済産業省資料  \n-[https://www.meti.go.jp/shingikai/sankoshin/shomu\\_ryutsu/kyoiku\\_innovation/pdf/20220922\\_1.pdf](https://www.meti.go.jp/shingikai/sankoshin/shomu_ryutsu/kyoiku_innovation/pdf/20220922_1.pdf)\n+[https://www.meti.go.jp/shingikai/sankoshin/shomu_ryutsu/kyoiku_innovation/pdf/20220922_1.pdf](https://www.meti.go.jp/shingikai/sankoshin/shomu_ryutsu/kyoiku_innovation/pdf/20220922_1.pdf)\n \n ## ２）時代の変化に対応できる学習指導要領に変えます\n \n ### 現状認識・課題分析\n \n+* 学習指導要領そのものだけでなく、多くの授業は教科書に準拠して進められています。しかし、その教科書の内容も、急速な社会の変化に十分に対応しきれていない場合があります。\n * 現在、学習指導要領は10年に1回ほど改訂しているが、この頻度ではついていけないほど、世の中の変化の速度が高まっています。  \n   * たとえば、2025年5月22日の中央教育審議会特別部会で、新教科「新・技術分野」を創設する方針が打ち出されました。しかしこれは2030年度以降実施の次期学習指導要領に盛り込まれる予定で、それまでの5年間にどのような変化が起こるかは予想できず、それまで現状のままの教育で良いとは考えられません。  \n * 最新の改訂は2020年ですが、その議論をしていたのはコロナ禍の前で一人一台端末もなく、もちろん生成AIもありませんでした。  \n * 学習指導要領自体は、日本の教育課程の基準として引き続き重要であり、全面改訂の頻度を上げることも現実的ではありません。学習指導要領はじっくり議論して作成するべきものですし、全国の学校現場への浸透にも時間がかかるためです。\n \n ### 政策概要\n \n-* そのため、ソフトウェアのバージョン管理と同じ考え方で、学習指導要領にも「メジャーアップデート（10年に1回）」と「マイナーアップデート（毎年）」の2つを盛り込むことを提案します。  \n+* そのため、学習指導要領本体は現行通りメジャーアップデート（10年に1回程度）を基本としつつ、その解説の充実に加え、学習指導要領のマイナーアップデートと連動する形で、教科書内容を補足・更新するデジタル補助教材などを、短いサイクルで柔軟に提供・更新していくことを提案します。\n * メジャーアップデートは、現在と同じプロセスで改訂することを想定します。しかし、改訂の際に、現在必ずしもテクノロジーの変化を十分に織り込んで議論できていないという課題があります。そのため、テクノロジーの専門家を委員に配置するなど、社会の変化をより反映できるように留意します。  \n * マイナーアップデートは、学習指導要領本体ではなく、学習指導要領の「解説」を充実させることで対応します。この際、スピード感をもったアップデートができるようにするため、追記のための手続きはなるべく減らすことを目指します。  \n-* 学習指導要領のマイナーアップデートを、全国の先生方に速やかに届けるために、学習指導要領のデジタル化を進め、改訂場所を先生に分かりやすく通知できるようにします。  \n+* 学習指導要領のマイナーアップデートを、全国の先生方に速やかに届けるために、学習指導要領のデジタル化を進め、改訂場所を先生に分かりやすく通知できるようにします。さらに、デジタル化された学習指導要領と連携し、AIが改訂内容に基づいた関連資料の提示、授業プランのたたき台作成、個々の生徒の状況に応じた教材アイデアの提案など、教師の教材研究を具体的にサポートする仕組みを構築します。  \n   * カナダやオーストラリアでは学習指導要領のデジタル化が進んでおり、先生がわかりやすく内容にアクセス出来るように工夫されています。  \n-    * 参考）文科省での審議会の資料：[https://www.mext.go.jp/content/20250228-mext\\_kyoiku01-000040050\\_03.pdf](https://www.mext.go.jp/content/20250228-mext_kyoiku01-000040050_03.pdf)\n+    * 参考）文科省での審議会の資料：[https://www.mext.go.jp/content/20250228-mext_kyoiku01-000040050_03.pdf](https://www.mext.go.jp/content/20250228-mext_kyoiku01-000040050_03.pdf)\n \n ## ３）教育データ利活用によりEBPMを推進します\n \n@@ -69,7 +70,7 @@\n * EBPM（証拠に基づく政策立案）の推進に向けた基盤を構築します。    \n * データに基づいた効果的な教育政策を実現するために、日本においても教育データ標準仕様（例えば、IMS Common CartridgeやLTIといった国際標準規格に、日本独自の拡張を加えたもの）を定めることを検討します。さらに、匿名加工された教育データを安全かつ倫理的に管理・運用するための「Education Data Trust」のような組織の創設を検討するなど、EBPMを推進するための基盤整備が必要です。  \n * 例えば、過去の試験問題をAIが活用しやすいように整備することで、AIの精度を飛躍的に向上させることが期待できます。これは、教育データの効果的な利活用の一例です。  \n-* ステップ１の４）で述べたような支援の実施状況や効果についても、実際に子どもや家庭にどのような影響を与えているかを、データで追跡・可視化します。  \n+* ステップ１の４）で述べたような支援の実施状況や効果についても、実際に子どもや家庭にどのような影響を与えているかを、データで追跡・可 viš化します。  \n   * AIによる効果測定と評価サイクルを導入し、支援内容の改善や制度の見直しに繋げます。これにより、支援が「積極的」かつ「必要十分」に届いているかを客観的に評価し、継続的な改善を図ります。\n \n ## ４）これらのしなやかな仕組みを活かした先進的モデル校を産官学が連携して設立し、その効果を測定します"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "6e8eb2b7aba285abd564d1e75663dcb8d55b2686",
+      "node_id": "C_kwDOOqTJvNoAKDZlOGViMmI3YWJhMjg1YWJkNTY0ZDFlNzU2NjNkY2I4ZDU1YjI2ODY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-14T01:29:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-14T01:29:01Z"
+        },
+        "message": "匿名SCさんによる、学習指導要領と教科書のアップデートに関する提案を反映",
+        "tree": {
+          "sha": "79e3d7d25fd316830a3078c54d6979111971844f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/79e3d7d25fd316830a3078c54d6979111971844f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6e8eb2b7aba285abd564d1e75663dcb8d55b2686",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTNBdCRC1aQ7uu5UhlAAAT0QQAJHN+weHheugp6gwmg9NlXVt\nvxmSB+KzFUcv1jvlxmAyrDQejpE1l2AhMB77cQth1SNpk1gqABjJBQWWCxa6Rp6o\nHsyYitiB5nqRChJJDZP6biF47nrsQGcr73pYIymjIIOPk1eqBmhBBdSB1u/IH5kA\n7ErXJI6GznRat8FhXp4dRFwWUwiy+qsF3SAx1IdyerObf9BxrksIF9AT2MIEezNn\nPV6KWNp6dNIYn2q9dqfTY07WyVYXuDt7QVL091RR/CnnmFl8UgVFgmwApH8p6Ggq\n2VMxfpsUlJEs5vuoBEb5mMLrly0v0Edfm22O00igt7ZrguSsmnNiYXUfPgV290Td\n9F6aHI2fPEfM5/46F7WSoY8KC3hCovmvWNr/tT8VTCYa6xc5lowLCWknP4dFkZNi\nOyUrO728XJFXCHdWy98DetYCR3X0HB6QFn1eVVJiOjK8TvjwigxJRViqkeXe+Sh6\nd1PQBltZNL34UwUxGxgSmvRT7r4DB1DKBbu+gOE1lKa/jz4NuFvIKI39gyAEkvlD\n2FD6frhN5n5eHBimsCpodOkBHUNyn/RYKmL0r4Og3FqJcUjPwm5SsRkn9NxNnm75\n5K5OjU9KQo2x79Px4zr/FZH6bqdu8TP+/JY3gWSPCibGjQVM8LoqgRK3XyckwHc+\nIEnqp8/H3qAxSq7taThq\n=QTgw\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 79e3d7d25fd316830a3078c54d6979111971844f\nparent d8e599b7af4321774a0b8e084e23a81e8221548f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749864541 +0000\ncommitter GitHub <noreply@github.com> 1749864541 +0000\n\n匿名SCさんによる、学習指導要領と教科書のアップデートに関する提案を反映",
+          "verified_at": "2025-06-14T01:29:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6e8eb2b7aba285abd564d1e75663dcb8d55b2686",
+      "html_url": "https://github.com/team-mirai/policy/commit/6e8eb2b7aba285abd564d1e75663dcb8d55b2686",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6e8eb2b7aba285abd564d1e75663dcb8d55b2686/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d8e599b7af4321774a0b8e084e23a81e8221548f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d8e599b7af4321774a0b8e084e23a81e8221548f",
+          "html_url": "https://github.com/team-mirai/policy/commit/d8e599b7af4321774a0b8e084e23a81e8221548f"
+        }
+      ]
+    },
+    {
+      "sha": "0efb31db3a54c17a794d6473358e5f8932d15546",
+      "node_id": "C_kwDOOqTJvNoAKDBlZmIzMWRiM2E1NGMxN2E3OTRkNjQ3MzM1OGU1Zjg5MzJkMTU1NDY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-14T01:32:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-14T01:32:36Z"
+        },
+        "message": "匿名SCさんによる、学習指導要領・教科書のアップデートとAIによる教材研究支援の提案を反映",
+        "tree": {
+          "sha": "42fba81d449a709724312689519aedac3cc28119",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/42fba81d449a709724312689519aedac3cc28119"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0efb31db3a54c17a794d6473358e5f8932d15546",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTNE0CRC1aQ7uu5UhlAAAHm4QAC/lR4PEuB+pfHlFcao1MmZd\nav+4qmrT3dBjh6mAzAjO7FvzVqMIdG2wV8lilaEVyb5XqcQmruZtc13fvImsPkMF\ngQtWZfPhi4oUWo0TL/Zpufc0vFgqkP6d0ZZ+Bz/zGIOc+HLbCw9Io6xqeUGthIwk\nTe1JFudAlFdBuxm30T1zRgXm8u7ZHbV5jRTVYAhoLP65lnqIcOCjzrC+tjtmOzhQ\nP2B3poJc3Ab6Zuj5cToYEg++nu//yyqOYkgvpnNBsu7TKPmVN/h6kjoSKzgG2Ou2\ngkJrzuY+PQJv4WIHqKJw3LNAkZstfY+9Kxd4/4ppwI547ys0HEYgjKdbkB4TezaG\nFj7G+lCmeqQUfMIQN/yllZyDokZ0VaH7RpU3XWRNQ1PfAWpyEwtceSzsn84ngTtc\npSywf8Z2xb5PQuzxINiOv3/kwe7Y9Ks/acDDH/h0EDNOzDGMnYeHxiVi4GP+4rWs\nF4ByTuN6URuo57DcSYe5UxhzXOV/E6OC7kCmNpf7EYnKo4wXvxkX/O3d1AdtCMf7\nyrUEsr7D9wky1y7WFVIGYFkWFGjkTQALdf7XuqKrjDke9A8qegIk7kFtaUA1jRuA\ndlKs99R5hCjUfMSSk95tnwKcb28FbglxbXn7RgmZk5j3TXyWdC84baVNdnldXC5o\nU+qauv0X6EQtkzU9jCqc\n=xQbQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 42fba81d449a709724312689519aedac3cc28119\nparent 6e8eb2b7aba285abd564d1e75663dcb8d55b2686\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749864756 +0000\ncommitter GitHub <noreply@github.com> 1749864756 +0000\n\n匿名SCさんによる、学習指導要領・教科書のアップデートとAIによる教材研究支援の提案を反映",
+          "verified_at": "2025-06-14T01:32:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0efb31db3a54c17a794d6473358e5f8932d15546",
+      "html_url": "https://github.com/team-mirai/policy/commit/0efb31db3a54c17a794d6473358e5f8932d15546",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0efb31db3a54c17a794d6473358e5f8932d15546/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6e8eb2b7aba285abd564d1e75663dcb8d55b2686",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6e8eb2b7aba285abd564d1e75663dcb8d55b2686",
+          "html_url": "https://github.com/team-mirai/policy/commit/6e8eb2b7aba285abd564d1e75663dcb8d55b2686"
+        }
+      ]
+    },
+    {
+      "sha": "fe350ec3b76cd6476d6c72bc1714061d3266579f",
+      "node_id": "C_kwDOOqTJvNoAKGZlMzUwZWMzYjc2Y2Q2NDc2ZDZjNzJiYzE3MTQwNjFkMzI2NjU3OWY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-14T01:35:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-14T01:35:41Z"
+        },
+        "message": "匿名SCさん提案：学習指導要領の補助教材提供とAIによる教材研究支援を反映",
+        "tree": {
+          "sha": "e9eab862f77ee68904b4ee2e0fa3ea9f08671411",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e9eab862f77ee68904b4ee2e0fa3ea9f08671411"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/fe350ec3b76cd6476d6c72bc1714061d3266579f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTNHtCRC1aQ7uu5UhlAAAD1EQAFP6QO465r7s9PPERrRjyjVG\nLQV9Q9dPbyDeDvSrP2hZi+JhZA6HNIg4kFlKC6pCne0c6iBRdI0KtayU//ay6Yuq\ngv8bQ4T/xtc7MzNOQBVkj+2mHDSI5PMu/627uPolnGU+DwyRG9zKiRZLitYLPWS4\nQ/6Ohu7SSPwZ/w7bYTRpY3+wV368cmi18xtrUoGqRBNPUkb0sTDZtAAgYtchrmbu\nQQj7NBk7hbdR+UZy5CRl01EvEOSvUO9n4CBLQSIUpEx0buEqJcs4+XsndzMvW4Fl\naNdp9hoHZuYtpuk1csRqlSmSOnWXfOFV6mwa906eAswukWgMJ+TnHWLJdRLLd6+C\n+ZIWiikuW90TMaSgxRD96qv7Bi6G11WLTBuAEoRkc/zQqsgZLgG5szXRrrzEI+ZW\ny2tAgWDNWa/KoR83lmy8kp+prVyoL8Hk8xd3vb1evxifuni42BNSAqD+0tfmR446\nbnGSFKUgB7MJbJ/Rno904hCjN/sOA1z6cZWbAVfQ9YTEnjb1MVpQycF0XR6Pxmz+\nCc5KkOozP0Nyj8UkPp03EOVk0gvl29otSRrZYtPQObKutxAUfjLqN7S/H3qJ+ejm\n0z6d4aN1ccAVOIWNlTM21K3JtHCOogp4DPCHF6SHIYeuTzi/40xMbOv27v3a7h9A\neNQjtSzpWtcKFZneHhpQ\n=k9+o\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e9eab862f77ee68904b4ee2e0fa3ea9f08671411\nparent 0efb31db3a54c17a794d6473358e5f8932d15546\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749864941 +0000\ncommitter GitHub <noreply@github.com> 1749864941 +0000\n\n匿名SCさん提案：学習指導要領の補助教材提供とAIによる教材研究支援を反映",
+          "verified_at": "2025-06-14T01:35:41Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/fe350ec3b76cd6476d6c72bc1714061d3266579f",
+      "html_url": "https://github.com/team-mirai/policy/commit/fe350ec3b76cd6476d6c72bc1714061d3266579f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/fe350ec3b76cd6476d6c72bc1714061d3266579f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0efb31db3a54c17a794d6473358e5f8932d15546",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0efb31db3a54c17a794d6473358e5f8932d15546",
+          "html_url": "https://github.com/team-mirai/policy/commit/0efb31db3a54c17a794d6473358e5f8932d15546"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-14T02:38:45.495489"
+}
