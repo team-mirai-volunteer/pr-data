@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2408,
+    "title": "行政改革案改善：用語集リンクの整備と将来的な用語集別ファイル化の提案（葦生さん）",
+    "state": "open",
+    "created_at": "2025-06-15T07:03:11Z",
+    "updated_at": "2025-06-15T07:03:11Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2408",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "24535d64169d47d4d4a4d8eec5604a703014fa82",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 6,
+      "changes": 23,
+      "blob_url": "https://github.com/team-mirai/policy/blob/fdc3c72f213892a115ad0052cb4b7e268201ebb5/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/fdc3c72f213892a115ad0052cb4b7e268201ebb5/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=fdc3c72f213892a115ad0052cb4b7e268201ebb5",
+      "patch": "@@ -18,7 +18,7 @@\n * 所得の“段差”が行動をゆがめる  \n   * 控除額や、制度適用の基準値はなめらかではなく、「崖・壁」が多数存在。これが就労調整などの動機になっています。  \n * 制度の金額がインフレに追いつかない  \n-  * 控除・給付額、所得制限値が固定されている制度においては、2020～2024年のCPI累計上昇率6.4%に対し、実質的な手取り増加・給付価値は相対的に低下。特に低・中所得層では家計負担感が増大しています。  \n+  * 控除・給付額、所得制限値が固定されている制度においては、2020～2024年の[CPI](#cpi)累計上昇率6.4%に対し、実質的な手取り増加・給付価値は相対的に低下。特に低・中所得層では家計負担感が増大しています。  \n * “手作業改定”が制度運用のボトルネック  \n   * 政策改正のたびに企業や社労士は給与ソフトや帳票を更新する必要があります。制度改定の影響も読みにくく、周知・対応コストがかさみます。  \n * 制度間の一貫性が欠如  \n@@ -33,7 +33,7 @@\n * 指数連動の自動改定  \n   * 年金制度と同様、CPI・平均賃金指数に連動して各種金額（控除額・給付額・保険料率）を自動スライドさせます。  \n * 公式APIの提供  \n-  * 税額・給付額を返すAPIをOSSで公開することで、給与ソフト・年末調整・自治体システム等の自動更新を支援します。  \n+  * 税額・給付額を返す[API](#api)を[OSS](#oss)で公開することで、給与ソフト・年末調整・自治体システム等の自動更新を支援します。  \n * 市民参加と透明性の仕組み  \n   * Webシミュレーターを公開し、個人・企業による新旧制度を比較可能にします。  \n   * ダッシュボードで負担・給付を可視化します。  \n@@ -75,7 +75,7 @@\n ### 現状認識・課題分析\n \n * 技術進化スピードと政策ラグのギャップが拡大  \n-  * 生成AI は半年単位で能力が倍加する一方、法律改正は長期間の検討、審議を前提としており、法改正サイクルは追いついていません。 旧来型 PDCA だけでは社会的リスクに追従できないと[OECDも警告](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/04/regulatory-experimentation_fc84553c/f193910c-en.pdf?utm_source=chatgpt.com)しています。  \n+  * 生成AI は半年単位で能力が倍加する一方、法律改正は長期間の検討、審議を前提としており、法改正サイクルは追いついていません。 旧来型 [PDCA](#pdca) だけでは社会的リスクに追従できないと[OECDも警告](https://www.oecd.org/content/dam/oecd/en/publications/reports/2024/04/regulatory-experimentation_fc84553c/f193910c-en.pdf?utm_source=chatgpt.com)しています。  \n   * 政府の[「重点計画」(2024)](https://www.digital.go.jp/policies/priority-policy-program?utm_source=chatgpt.com) でも“機動的で柔軟な政策形成”を最優先原則に掲げており、制度側のレガシー解消は継続的課題となっています。  \n * 行政の「無謬性神話」による影響からの脱却の必要性  \n   * 我が国の行政には、行政は間違いを犯してはならない、現行の制度や政策は間違っていないと考える、いわゆる「無謬性神話」が存在するとの指摘があります。（[アジャイル型政策形成・評価の在り方に関するワーキンググループ提言](https://www.gyoukaku.go.jp/singi/gskaigi/agilewg/img/220531_honbun.pdf)など）  \n@@ -91,13 +91,13 @@\n ### 政策概要\n \n * 失敗を許容し、データに基づき高速に学習する政策サイクルの導入  \n-  * サンドボックス＋error budget的思考の採用  \n+  * [サンドボックス＋error budget](#sandbox_error_budget)的思考の採用  \n     * 機動的で柔軟な見直しを行うような政策設計等ができる制度等の枠を設けます。  \n     * また、事前に起こりうる失敗及びその確率を検討し、問題が発生した際にそれが想定内か想定外かを踏まえて対応を検討します。  \n     * エラー発生時は即時原因分析→改善を検討します。  \n   * 「ゴール設定」→「システムデザイン」→「運用」→「評価」→「環境・リスクの再分析とゴールの再設定」という二重のサイクルの採用  \n     * PDCAを内包しつつ、環境分析やゴール設定の継続的な見直しを採用し、外部への透明性・アカウンタビリティを確保します。  \n-  * EBPMの動的な実践:  \n+  * [EBPM](#ebpm)の動的な実践:  \n     * 一時点での評価・分析にとどまるスタティックなEBPMだけでなく、状況の変化に応じて政策を見直し・実行するダイナミックなEBPMを実践する。  \n     *  EBPM、政策評価制度、行政事業レビューの重複感や負担感を解消し、より機動的で柔軟な政策形成にリソースを割けるようにします。  \n   * 当事者が相互にフィードバックを行う構造  \n@@ -112,7 +112,7 @@\n ### 現状認識・課題分析\n \n * 透明性は向上したが“使いやすさ”は発展途上  \n-  * 日本は [Open Data Inventory (ODIN) 2024](https://odin.opendatawatch.com/Report/countryProfileUpdated/JPN?year=2024) で 46 位／195 か国、総合スコア 71。公開件数は増えているものの、再利用のしやすさ（機械判読性・ライセンス明確性）の評価が伸び悩んでいることが示されています。  \n+  * 日本は [Open Data Inventory (ODIN) 2024](https://odin.opendatawatch.com/Report/countryProfileUpdated/JPN?year=2024) で 46 位／195 か国、総合スコア 71。公開件数は増えているものの、再利用のしやすさ（機械判読性・ライセンス明確性）の評価が伸び悩んでいることが示されています。(ODINは[こちら](#odin)で解説)\n * APIによるデータの提供も進んでいるが、フォーマットが省庁ごとにバラバラという課題があります。  \n   * 例\n \n@@ -228,3 +228,14 @@\n * 緊急時ハイブリッド議会\n   * 大規模災害・感染症流行時に限り、議員の遠隔出席と電子投票を許可する方向での検討を進めます。\n   * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n+\n+## 用語解説\n+*   **<a id=\"cpi\">CPI (消費者物価指数)</a>**: Consumer Price Indexの略。消費者が購入するモノやサービスの価格変動を示す指数。インフレ状況を把握する上で重要な経済指標。\n+*   **<a id=\"api\">API (Application Programming Interface)</a>**: Application Programming Interfaceの略。特定のソフトウェアやウェブサービスの機能やデータを、外部の他のプログラムから呼び出して利用するための仕組み。\n+*   **<a id=\"oss\">OSS (Open Source Software)</a>**: Open Source Softwareの略。ソースコードが公開されており、誰もが自由に利用、改変、再配布できるソフトウェア。\n+*   **<a id=\"pdca\">PDCAサイクル</a>**: Plan（計画）、Do（実行）、Check（評価）、Act（改善）の頭文字を取ったもので、品質管理や業務改善の手法の一つ。\n+*   **<a id=\"sandbox_error_budget\">サンドボックス＋error budget</a>**:\n+    *   **サンドボックス**: 新しい技術や制度を試行的に導入・検証するための、隔離された環境や制度的枠組み。\n+    *   **Error Budget (エラーバジェット)**: システムやサービスが許容できる「失敗」の量。この範囲内であれば、積極的に新しい試みを行うことが許容されるという考え方。\n+*   **<a id=\"ebpm\">EBPM (Evidence-Based Policy Making)</a>**: Evidence-Based Policy Makingの略。統計データなどの客観的な証拠に基づいて政策を企画立案すること。\n+*   **<a id=\"odin\">ODIN (Open Data Inventory)</a>**: Open Data Inventoryの略。各国の政府オープンデータの網羅性とアクセスしやすさを評価・ランク付けするプロジェクト。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "fdc3c72f213892a115ad0052cb4b7e268201ebb5",
+      "node_id": "C_kwDOOqTJvNoAKGZkYzNjNzJmMjEzODkyYTExNWFkMDA1MmNiNGI3ZTI2ODIwMWViYjU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-15T06:57:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-15T06:57:41Z"
+        },
+        "message": "葦生さん提案：用語解説セクションの追加と関連用語へのリンク設定",
+        "tree": {
+          "sha": "97ff3ad4e19f6801d017f2ac15d0a1b22afdaa31",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/97ff3ad4e19f6801d017f2ac15d0a1b22afdaa31"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/fdc3c72f213892a115ad0052cb4b7e268201ebb5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTm7lCRC1aQ7uu5UhlAAAejIQAK0bA9oVGdLvLFJXLloGYKdK\nc9VL95JK0BDnxmj4DSVZ0nJsNDdn7epO9opjzEUq9sOajnQV7k9fycwxLPBu0LKV\n5EC9nhhC6//wLC/bgVfUxIqPIHODdUuN9N9/w4DbvI2c9eZhvZ4IBabVFpG1hQoE\nH04eCaJM5dk2qCBfGuxmWWNdDuhq0kuwaU2sFewnhlwmJUYHRscaMv3uC/p3O7ul\nfV+Ku1hxcUDK5+ZyLRTWqVP61nGeZ5xSO4Wz6KGgjL4N2H3b/cWdjTvnFtXl6sLL\ntvL59XZUXai8+DBsklXJve2Jv15nmkvgf7oFeitQRxex0oNgcUq6d7G8o3QdKpVK\nKvsHEOIXrXspXzqtI0rPRSQkASQo3u1j8OaEjoHaxnU4UIM0Uf/uNeI7pLhfKqmd\n+UNxkYtIGCPsD3W4Y0fLiusPe9KJ+4VAFTJgTjrmO6iLTUvQ6vtjAIE1jgMWE79k\nOw8XU8V1J9GMBF6B+bKjZ6ZWjqZEFHs14zqpMtrE9qR7sIhrdr8gdLXvwx1Kf3jl\nfwN/iUj7dU0ohQG90/aQJEfXFhop+Br2VnHaqJ3SWn1qhiHziKHi/WxQyXCLeXle\nB/BMitoncUa2G6Zeh0H1KDX77af6/Hrfmf0/R5lD7V5G+e7FOtGON0o5cNllcOqm\nQnzJHiWgqr1T1H8dQlld\n=Cd9N\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 97ff3ad4e19f6801d017f2ac15d0a1b22afdaa31\nparent c9a3e2af312f93435e60666ad8c2ece445ad5206\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749970661 +0000\ncommitter GitHub <noreply@github.com> 1749970661 +0000\n\n葦生さん提案：用語解説セクションの追加と関連用語へのリンク設定",
+          "verified_at": "2025-06-15T06:57:41Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/fdc3c72f213892a115ad0052cb4b7e268201ebb5",
+      "html_url": "https://github.com/team-mirai/policy/commit/fdc3c72f213892a115ad0052cb4b7e268201ebb5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/fdc3c72f213892a115ad0052cb4b7e268201ebb5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c9a3e2af312f93435e60666ad8c2ece445ad5206",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c9a3e2af312f93435e60666ad8c2ece445ad5206",
+          "html_url": "https://github.com/team-mirai/policy/commit/c9a3e2af312f93435e60666ad8c2ece445ad5206"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-15T07:11:32.745721"
+}
