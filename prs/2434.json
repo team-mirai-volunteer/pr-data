@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2434,
+    "title": "AI利用に関する留意点と対策を追記し、透明性と信頼性を向上",
+    "state": "open",
+    "created_at": "2025-06-15T09:59:16Z",
+    "updated_at": "2025-06-15T09:59:17Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2434",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "4136e3b2960363d4cef259c16190d19879534cca",
+      "filename": "60_改善提案の反映方針.md",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "changes": 17,
+      "blob_url": "https://github.com/team-mirai/policy/blob/e4d4feb911b6cbd965f50813944916510778a184/60_%E6%94%B9%E5%96%84%E6%8F%90%E6%A1%88%E3%81%AE%E5%8F%8D%E6%98%A0%E6%96%B9%E9%87%9D.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/e4d4feb911b6cbd965f50813944916510778a184/60_%E6%94%B9%E5%96%84%E6%8F%90%E6%A1%88%E3%81%AE%E5%8F%8D%E6%98%A0%E6%96%B9%E9%87%9D.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/60_%E6%94%B9%E5%96%84%E6%8F%90%E6%A1%88%E3%81%AE%E5%8F%8D%E6%98%A0%E6%96%B9%E9%87%9D.md?ref=e4d4feb911b6cbd965f50813944916510778a184",
+      "patch": "@@ -38,6 +38,21 @@\n   * 「広聴AI」というツールを使った、意見の全体像の可視化　など  \n * ここで重要なのは、**AIが改善提案の採用・不採用の判断をしているわけではない**、ということです。人間が意思決定をするためのサポートとしてAIを活用しています。\n \n+**AI利用における留意点と対策**\n+\n+AIは非常に便利なツールですが、その利用にはいくつかの注意すべき点があり、リスクも伴います。チームみらいでは、これらのリスクを認識し、対策を講じながらAIを活用していきます。\n+\n+1.  **AI自体の特性や課題について**\n+    *   **学習データによる偏りの可能性:** AIは、学習に使用するデータに含まれる偏った情報や考え方を、意図せずに強めてしまうことがあります。このような偏りが、特定の意見や提案に対して不公平な判断を生まないよう、AIによる整理結果は必ず複数の人間の目で多角的に確認します。\n+    *   **判断プロセスの分かりにくさ:** AIがなぜそのような判断や分類をしたのか、その理由が人間には理解しにくい場合があります。私たちは、AIの判断をそのまま受け入れるのではなく、あくまで参考情報として位置づけ、最終的な判断は人間が責任を持って行います。\n+\n+2.  **AIを利用する上での注意点**\n+    *   **著作権や肖像権など、創作物の権利侵害のリスク:** AIが学習データとして利用する情報や、AIによって作り出される内容が、他の方の著作物や権利を侵害しないよう、細心の注意を払います。関連する法律や指針を守り、権利侵害の恐れがある場合には、AIの利用方法を見直します。\n+    *   **個人情報の取り扱い:** 改善提案に含まれる個人情報やプライバシーに関わる情報が、AIによって不適切に扱われたり、外部に漏れたりすることのないよう、情報を厳重に管理した上でAIを利用します。\n+    *   **誤った情報や不確かな情報の拡散リスク:** AIが間違った情報や不確かな情報を作り出し、それを事実であるかのように示してしまう可能性も考えられます。AIが示す情報の正確性については、必ず人間が確認し、慎重に扱います。\n+\n+私たちは、AIの可能性を最大限に引き出しつつ、そのリスクをできる限り小さくするために、常に学び、改善を続けていきます。AIの利用方法についても、皆さまからのご意見をいただきながら、より良い形を追求していきます。\n+\n ### 整理結果を踏まえた提案詳細の把握・事実確認・追加調査\n \n * いただいた個別の改善提案は、反映する・しないを判断するために、チームみらいの各テーマ担当者が順次目を通しています。  \n@@ -59,4 +74,4 @@\n A1. 新規の改善提案（プルリクエスト）にまとめなおした場合でも、参考にした元のプルリクエストに「thankyou」ラベルを付けたり、新規のプルリクエスト内に参照元となるプルリクエストを引用するなどして、なるべくプロセスが透明化されるような進め方にしていきます。\n \n **Q2. GitHubや「いどばたシステム」を使えないと意見は届かないの？**  \n-A2. いいえ、そんなことはありません。現在は、「いどばたシステム」経由で上げていただくプルリクエストでのご意見募集が中心となっていますが、今後ご意見募集経路は充実させていく方針です。例えば、私たちが開催するミートアップ（意見交換会）で直接いただいた声や、SNSなどでのコメントも積極的に収集し、政策改善に活かしていく予定です。また、各分野の専門家の方々へのヒアリングも継続的に行い、そこから得られた知見も、チームとしてプルリクエストの形にするなどして、政策に反映させていきます。すべての更新をプルリクエスト経由にすることで、外部から見てもどのようなプロセスで政策が作られているかがオープンな形で進めることを目指しています。  \n+A2. いいえ、そんなことはありません。現在は、「いどばたシステム」経由で上げていただくプルリクエストでのご意見募集が中心となっていますが、今後ご意見募集経路は充実させていく方針です。例えば、私たちが開催するミートアップ（意見交換会）で直接いただいた声や、SNSなどでのコメントも積極的に収集し、政策改善に活かしていく予定です。また、各分野の専門家の方々へのヒアリングも継続的に行い、そこから得られた知見も、チームとしてプルリクエストの形にするなどして、政策に反映させていきます。すべての更新をプルリクエスト経由にすることで、外部から見てもどのようなプロセスで政策が作られているかがオープンな形で進めることを目指しています。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "e4d4feb911b6cbd965f50813944916510778a184",
+      "node_id": "C_kwDOOqTJvNoAKGU0ZDRmZWI5MTFiNmNiZDk2NWY1MDgxMzk0NDkxNjUxMDc3OGExODQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-15T09:51:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-15T09:51:41Z"
+        },
+        "message": "匿名ユーザーによるAI利用の留意点と対策の追記",
+        "tree": {
+          "sha": "ca0071e6f3adc413a0670471fa7fc28477490f3b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ca0071e6f3adc413a0670471fa7fc28477490f3b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e4d4feb911b6cbd965f50813944916510778a184",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTpetCRC1aQ7uu5UhlAAA9xQQAFgjlz5I3ldFqy9dEJ67Xhdk\ntTxkAf5NLnc6/tQ7SYoq/BOjRw+cG3hqKy0bDW8v4zEAZex/01yktHAQ0lTAw6Va\nbeshL0PXVLgZ7mIqetYkgXFiv1FchgCpg4VD1RpvXuYsITUF0+OQmsV3MXFLgVDP\nsdlTP+bIapJ1X7OlcvgedE8jw7X7AO+yHZRKoJ3YCl1gZQS4s6gOgFqY91X7cWD/\n82uj3Di7lnPqhBClHzcukre7xgsDXdhj8BY+QqEVmsnSerk/9V2J4fFcoBvd4qKk\ne9qUQXHxsnzeVEN10srpq5VSeSiyUkLIB/s8i6reWhm4nc5YKh2f8Z4625IiQyUM\n0YXGeiHbVZEz3Ris0k/Pd7n1TZdOxgrQxHHCsxZ9zXA9Mfuj1xPHhJu9HYB+kBh2\nrtRBL5J1hcnUz3YpznIm8YJXAQoB/8kYa/y7pJs+cgAWFu6mdOpR9VcFH9EsSmZO\nzPDBJWG5iq8h3wHXkjXF7mlG7jKhpOnDZ4lCTpg5dEDUsMSlXe5WQDaXFflUzAHu\noNPoFOAxI8jTpd8fZb+4cz64lSD67js1wRkwuQZKP7Qv09NMTgv74cjJKAGfs1f9\nx1ZXndzBkdKUte6DZnIQGaIkMDX7DeqCWPBZM5BRVg+b0ZGv2lUNE3XD+YJ2OAk9\npgO+A+sC9T++BV5bmCtu\n=3B4Y\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ca0071e6f3adc413a0670471fa7fc28477490f3b\nparent c9a3e2af312f93435e60666ad8c2ece445ad5206\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749981101 +0000\ncommitter GitHub <noreply@github.com> 1749981101 +0000\n\n匿名ユーザーによるAI利用の留意点と対策の追記",
+          "verified_at": "2025-06-15T09:51:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e4d4feb911b6cbd965f50813944916510778a184",
+      "html_url": "https://github.com/team-mirai/policy/commit/e4d4feb911b6cbd965f50813944916510778a184",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e4d4feb911b6cbd965f50813944916510778a184/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c9a3e2af312f93435e60666ad8c2ece445ad5206",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c9a3e2af312f93435e60666ad8c2ece445ad5206",
+          "html_url": "https://github.com/team-mirai/policy/commit/c9a3e2af312f93435e60666ad8c2ece445ad5206"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-15T10:12:40.863968"
+}
