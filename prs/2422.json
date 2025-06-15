@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2422,
+    "title": "おキヌさん提案：医療マニフェストにおけるマイナンバーカード利用の課題を明確化",
+    "state": "open",
+    "created_at": "2025-06-15T08:17:19Z",
+    "updated_at": "2025-06-15T08:17:20Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2422",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "0a010cea808df250ba5146b51d78874b59739069",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "changes": 5,
+      "blob_url": "https://github.com/team-mirai/policy/blob/cd58a3e10c5e2f551583767362f7156120633a80/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/cd58a3e10c5e2f551583767362f7156120633a80/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=cd58a3e10c5e2f551583767362f7156120633a80",
+      "patch": "@@ -13,13 +13,14 @@\n \n ### 現状認識・課題分析\n \n+- マイナンバーカードの医療現場での利用が進む一方で、解決すべき課題も存在します。例えば、カードリーダーの機種が統一されておらず患者が戸惑う場面があること、カードで薬剤情報が確認できるにも関わらず従来のお薬手帳の持参を求められる二度手間が発生していること、そして最も大きな点として、患者自身がマイナンバーカードで何ができるのか、なぜ毎回読み取りが必要なのかといった情報を十分に理解できていない点が挙げられます。これらは、患者側・医療従事者側の双方にとって、ICT活用の障壁となっていると考えられます。\n - リモートワークやECサイトの利用などは広く生活に普及してきましたが、オンライン診療についてはまだ十分に普及しているとは言い難い状況かと思います  \n   - コロナ禍にあった2021年のデータでも外来診療全体におけるオンライン診療の割合はごくわずか（0.001%）に留まりました  \n   - 2023年に行われたアンケート調査でも回答者の9割がオンライン診療について知っていると回答しましたが、実際に自身・家族が利用したことがあると答えた人は1割弱に留まりました  \n - オンライン診療には対面と比べて患者さんの状況、詳細が把握しにくかったり、体調が悪化した際に高度医療機関との連携導線が確立されていなかったりと一定の課題がある一方で、適切に普及すれば多くの方々にとってメリットの大きいシステムだと考えます  \n   - 風邪や花粉症などの軽い相談や慢性疾患で継続的に同じ服薬で経過観察している患者さんにとって、診療のために仕事や家事・育児を調整して対面で受診することはまだまだ負担が大きいと言えます  \n   - 僻地や島嶼部などの医療アクセスが難しい地域にお住まいの方々や一人で外出することが難しい方などの場合、医療機関で相談をしたくても受診控えをしている場合もあると思います  \n-- オンライン診療が進まない要因の一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n+- オンライン診療が進まないavidinの一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n   - 現在の診療報酬制度ではオンライン診療が対面診療と比べて優遇されているとは言えず、医療機関側にとってシステム投資や運用構築を乗り越えてまで推し進める動機づけが不足しています  \n   - また、オンライン診療で医師に相談をしても、受診後の医薬品の受け取りに調剤薬局を訪ねる必要があり、一連の受療行動をオンラインで完結できていない状況も多いかと思います\n \n@@ -85,4 +86,4 @@\n   - 一方で、AIが提示した異常や逆にAIが提示しなかった異常は医師の判断に影響を及ぼす以上、メーカーの責任や性能評価についても整理が必要となります\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n-  - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+  - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "cd58a3e10c5e2f551583767362f7156120633a80",
+      "node_id": "C_kwDOOqTJvNoAKGNkNThhM2UxMGM1ZTJmNTUxNTgzNzY3MzYyZjcxNTYxMjA2MzNhODA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-15T08:14:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-15T08:14:56Z"
+        },
+        "message": "おキヌさんの指摘に基づき、マイナンバーカード利用の現状課題を追記",
+        "tree": {
+          "sha": "d678189a46539572a8c7a6d9844cfd4fadc45eb4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d678189a46539572a8c7a6d9844cfd4fadc45eb4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/cd58a3e10c5e2f551583767362f7156120633a80",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoToEACRC1aQ7uu5UhlAAAhRUQAJVfUVmmIwkltnMlRF7uEt0S\nN+5PGQ8FUNvib7kZo0Ja6e4MgFR6R/gA75ZQpRwA/PLHF0nHQzZ+Bo+wi0wpJZKx\nNkevErF0R0J9M2G8vA7MHXxFb8/aJ1ZiBJ+Vz69QZPwwe+tFs8UmL7bsGbRbQyOL\nyvg6rG4ihlEJzLY6/TIBIQv8VpTbSc0S3/SQD6f+hwJs6TPLrx11UT0iT3HzUhzd\n10mcbGYL3vamYAVHb8QuU/2PqUKScMgP3n8RmHlQwEo3TQdBO+Ro1F6BM/6r6gkR\nbnUQIc1llhe3pf5AiNxqRIYjVzmqamoPtaHPNeYlBy7B2NvtXFr0x6URtZqduqqW\nXOox2Kqc4WxzjTL2n9rB3kEjmGUigWtjOkBPU/12s+A2vGjEtZ7Ss4wwyb9EndyC\ndyuGEhQ8uFrjOqyqZBaefau0Cb38ziVX6Xc89/H1x69bkXNOGYstFM16aZdcOAvN\nLo+GoZ5jZIlpb3QTnYqQ0qPZumIstom6wCdIpCxlF1HBzo5H/m9eWyvuHKcKjC3Y\nRiGnj/p8bF1I9xRKNBvyCgR9N9kQ6XaVoeQXaKWoijp1dg2hDrX0Mo2ietwX69+G\nTxYILS+e2uScRcdvvXhrPhQsFfwAGP2t98txSdNPr6+ULiFtQL0m4hSrZFrP3pev\niX+ce8mc4K5cV/p+7zm2\n=owMZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d678189a46539572a8c7a6d9844cfd4fadc45eb4\nparent c9a3e2af312f93435e60666ad8c2ece445ad5206\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749975296 +0000\ncommitter GitHub <noreply@github.com> 1749975296 +0000\n\nおキヌさんの指摘に基づき、マイナンバーカード利用の現状課題を追記",
+          "verified_at": "2025-06-15T08:14:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/cd58a3e10c5e2f551583767362f7156120633a80",
+      "html_url": "https://github.com/team-mirai/policy/commit/cd58a3e10c5e2f551583767362f7156120633a80",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/cd58a3e10c5e2f551583767362f7156120633a80/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c9a3e2af312f93435e60666ad8c2ece445ad5206",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c9a3e2af312f93435e60666ad8c2ece445ad5206",
+          "html_url": "https://github.com/team-mirai/policy/commit/c9a3e2af312f93435e60666ad8c2ece445ad5206"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-15T09:11:58.091338"
+}

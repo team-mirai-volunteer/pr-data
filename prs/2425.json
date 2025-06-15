@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 2425,
+    "title": "政策9. PICSYを応用した「ソーシャル・ベーシックインカム」制度の研究（詳細版）",
+    "state": "open",
+    "created_at": "2025-06-15T08:28:06Z",
+    "updated_at": "2025-06-15T08:28:07Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2425",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "617513faa7cc3c5207112311833cfbe4c6c3417c",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "changes": 8,
+      "blob_url": "https://github.com/team-mirai/policy/blob/074b65d291062e0f3c7bf8b05f5edbaa17b2cd4e/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/074b65d291062e0f3c7bf8b05f5edbaa17b2cd4e/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=074b65d291062e0f3c7bf8b05f5edbaa17b2cd4e",
+      "patch": "@@ -28,8 +28,10 @@\n \n ### 政策概要\n \n-* 所得に応じた「滑らかな課税・給付」  \n-  * 所得控除・給付・保険料率をロジスティック曲線等の連続関数で設計。制度境界による急変（崖）を排除し、合理的かつ予測可能な制度設計を実現。  \n+* **所得と社会貢献に応じた「なめらかな税・社会保障」**\n+    * 従来の所得情報に加え、**PICSYの理念に着想を得て、金銭的報酬に直結しない多様な社会貢献（ケア労働、地域活動、知識共有等）も評価する仕組みを導入**します。\n+    * この「貢献度」は、個々人の活動記録を基に、**他者からの評価がネットワークを通じて伝播し、多くの参加者による分散的・多元的な視点から動的に調整されることで公平性・客観性を目指します。**\n+    * これにより、税負担や社会保障給付が、所得だけでなく、**個人の社会全体への多角的な貢献に応じてなめらかに変動する、より公正で包摂的な制度**を実現します。\n * 指数連動の自動改定  \n   * 年金制度と同様、CPI・平均賃金指数に連動して各種金額（控除額・給付額・保険料率）を自動スライドさせます。  \n * 公式APIの提供  \n@@ -227,4 +229,4 @@\n   * 全議員にタブレットを貸与し、本会議場でも使用を解禁します。原則電子媒体での交付とし、紙配布は例外時のみ許可制にします。\n * 緊急時ハイブリッド議会\n   * 大規模災害・感染症流行時に限り、議員の遠隔出席と電子投票を許可する方向での検討を進めます。\n-  * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n+  * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "d63c6bd58a1055e8fe33a744096e19397fb490ec",
+      "node_id": "C_kwDOOqTJvNoAKGQ2M2M2YmQ1OGExMDU1ZThmZTMzYTc0NDA5NmUxOTM5N2ZiNDkwZWM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-15T08:23:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-15T08:23:19Z"
+        },
+        "message": "政策概要の更新：PICSY理念に基づく貢献度評価の導入（宮嶋龍太郎）",
+        "tree": {
+          "sha": "ec0df51cd89e21119e19588cef248e53ecd5bc51",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ec0df51cd89e21119e19588cef248e53ecd5bc51"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d63c6bd58a1055e8fe33a744096e19397fb490ec",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoToL3CRC1aQ7uu5UhlAAA2osQAGbKqiDj2kWr2/wdBhQW8PU3\n8eHpn4Kyi/Ajg9FhBCHk5c4fXtoUwDARBBpvfI9aemLnmf981Tg4Dhc2tYtkP88P\nihmLDBgYkPjyMxA3UrqMZfNHRAosHQnXYlgpgTA19QJgahtxuSf6yEQ7uL3wiVS6\n4TxIVIrmAvcgGmaLkOBxxX/neIqO2OTvvVhc2jRhpyxTcll6Wdyza1GqflxflgAm\niuouE4M5bifylj6TuXPIYLQNNjkGrkce5vzs9j7oR6K61IsrhqMZOpQzMbDu6ak4\ne1ZF6p9EWvoL9Wz3wte4jKvOfyO+rljg/kl5d4bgkZSDJxcgtWDrJgN8cji4qDMP\njOswQISZ4czL3e2pkQfWQd799B7gaVE+WPGTbHmmuRQJx1QDN2AaZP8Ox1LvTxvX\nUgIv+XRuURE+Tarj4U3WDRL4/i6lUgn+UcLTBYC4cJ8eeucJ3UHXZ0C0qj/igv6G\nQRwE2ZukaXM3oL2WxxsfAs2XLwe2hudQe7kQoSTX5NZ/IwUy24yEoZ7Hxaf1CiSd\n0Llj8RcarMbHoazGzuYRuYpckOnYx47/sSjUVIRpcuzige0lK4oOM4ZmX4dyqqY+\nUY2bE3IboNvZQLugXFJuzkcKb6bA+MIg9ldOeHpHI8LlfSlxR2WowsZrue9ukXMn\nXxEAKHP2Z/CamZw/s5LH\n=oXxa\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ec0df51cd89e21119e19588cef248e53ecd5bc51\nparent c9a3e2af312f93435e60666ad8c2ece445ad5206\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749975799 +0000\ncommitter GitHub <noreply@github.com> 1749975799 +0000\n\n政策概要の更新：PICSY理念に基づく貢献度評価の導入（宮嶋龍太郎）",
+          "verified_at": "2025-06-15T08:23:19Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d63c6bd58a1055e8fe33a744096e19397fb490ec",
+      "html_url": "https://github.com/team-mirai/policy/commit/d63c6bd58a1055e8fe33a744096e19397fb490ec",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d63c6bd58a1055e8fe33a744096e19397fb490ec/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c9a3e2af312f93435e60666ad8c2ece445ad5206",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c9a3e2af312f93435e60666ad8c2ece445ad5206",
+          "html_url": "https://github.com/team-mirai/policy/commit/c9a3e2af312f93435e60666ad8c2ece445ad5206"
+        }
+      ]
+    },
+    {
+      "sha": "074b65d291062e0f3c7bf8b05f5edbaa17b2cd4e",
+      "node_id": "C_kwDOOqTJvNoAKDA3NGI2NWQyOTEwNjJlMGYzYzdiZjhiMDVmNWVkYmFhMTdiMmNkNGU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-15T08:25:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-15T08:25:01Z"
+        },
+        "message": "政策概要１にPICSYの理念を反映（宮嶋龍太郎さん提案）",
+        "tree": {
+          "sha": "ec0df51cd89e21119e19588cef248e53ecd5bc51",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ec0df51cd89e21119e19588cef248e53ecd5bc51"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/074b65d291062e0f3c7bf8b05f5edbaa17b2cd4e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoToNdCRC1aQ7uu5UhlAAAINUQAJmufn8aoJ/y84iLjmGC+fW5\n0GKgt/Ogk8XQkl5i2NQekF68HScanrRyWrwvxNDtowOymOv+iFFZmzhE4HGX4Mbd\nMCD/m22LflRS2gh7ewIMrX6M/Vq4/ga4qQlSsAD2Bcp63inymoVOLjOt+tYuUnLT\n0MwyCOmxERUNqOPxtGAR3cSHRvx9uu+y/E11TLW9m205E++6pMvcpKPn0H3pXkre\nOUeC+fcQOPj5tg2O41Y7MLGMu+drrRkwFzwrxgeJD0Q50744Yi4ea8aLg73OUYHb\nbiNM9AR7LK/wg6f/i621/PwLtDiuN23JFPv5SMZjIV5RpyVlTi2zvwgMlrJlUwph\nLMYXaaMyClv2TTLNvzbQ2bUH/hArzMYPbFi6RTyiz/GXFcmiyV4sst3MKC+j5eym\nYArlwYwMGCJ0Gid4cvdtgXd4ei0BiHZTTeyyLDy8i3CSiB2aK09n6wwoY8Le+RNH\nStFUFSFWu57W5tOULt0A0m2FSgnEeyVHK32DWx/uKI2QL0cbUjcIJAbZNZZw21mD\nD1Oo41Z8vbY698QCpJcbGFVHQkzsjMhRpgbpxLAnV+R1blLr0qgi/UybjRlkP5lE\nUFX7ly2R7cLqhyt+6Zkbz+6lEW9fQJzsVCXVn+RAMYkE5lHJfZigfh3EKlYRXxRl\nxaVVwzkvfHOWptwEOAQn\n=gSBN\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ec0df51cd89e21119e19588cef248e53ecd5bc51\nparent d63c6bd58a1055e8fe33a744096e19397fb490ec\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1749975901 +0000\ncommitter GitHub <noreply@github.com> 1749975901 +0000\n\n政策概要１にPICSYの理念を反映（宮嶋龍太郎さん提案）",
+          "verified_at": "2025-06-15T08:25:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/074b65d291062e0f3c7bf8b05f5edbaa17b2cd4e",
+      "html_url": "https://github.com/team-mirai/policy/commit/074b65d291062e0f3c7bf8b05f5edbaa17b2cd4e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/074b65d291062e0f3c7bf8b05f5edbaa17b2cd4e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d63c6bd58a1055e8fe33a744096e19397fb490ec",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d63c6bd58a1055e8fe33a744096e19397fb490ec",
+          "html_url": "https://github.com/team-mirai/policy/commit/d63c6bd58a1055e8fe33a744096e19397fb490ec"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-15T09:11:53.617806"
+}
