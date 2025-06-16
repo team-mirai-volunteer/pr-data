@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2515,
+    "title": "askさん提案：医療分野のDX推進（電子カルテAI活用と公衆衛生DX）",
+    "state": "open",
+    "created_at": "2025-06-16T11:48:16Z",
+    "updated_at": "2025-06-16T11:48:17Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2515",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "31122adb6ec2822126772510c12148ddac28e62e",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "changes": 5,
+      "blob_url": "https://github.com/team-mirai/policy/blob/3c59a67f3f84d048a6b7b6449a81d7a33c2d960b/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/3c59a67f3f84d048a6b7b6449a81d7a33c2d960b/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=3c59a67f3f84d048a6b7b6449a81d7a33c2d960b",
+      "patch": "@@ -49,6 +49,7 @@\n - 一方で、診察前後の処理を効率化することで、医療機関、患者双方の手続きを短縮し、診察前後の待機時間を圧縮する余地はあると考えます  \n - 例えば、病院でのクレジットカード決済対応は63％と普及が進みましたが、クリニックにおいては33%と遅れています。クレジットカード以外の決済手段については更に低い割合となります  \n - キャッシュレス決済以外にも、医師の診察前の問診情報の入力や受付処理などはまだ施設での対面でのオペレーションによるところが多く、受付から会計までの一連の流れの隙間にそれぞれ待ち時間が発生している状況です\n+- 加えて、多くの医療機関で電子カルテは導入されているものの、その情報が十分に活用されず、アラート機能なども未発達であるため、従事者の負担増や見落としリスクが存在します。特に急性期医療や人材不足の現場・地方において、この課題は深刻であり、従事者の注意力への過度な依存が生じがちです。\n \n ### 政策概要\n \n@@ -57,6 +58,8 @@\n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n - 受付、決済やオンライン診療の領域で医療DXが進み、安全に効率的に電子カルテと外部システムが接続できる環境が整うことで、新たな医療機関向けサービスの開発や導入が進展することも期待されます\n+- AIを活用したカルテ入力支援や、複数情報を統合し異常パターンやバイタル変動を検知した際のアラート・提案機能など、判断補助システムの開発・導入を支援します。\n+- それに伴い、AIが提示する情報の責任のあり方や、個人情報保護に配慮した上での医療データの利活用に関するルール整備を推進し、技術の恩恵を安全かつ公平に享受できる環境を目指します。\n \n ## 3）画像診断AIで見逃しリスクと医師不足の解消を同時に\n \n@@ -85,4 +88,4 @@\n   - 一方で、AIが提示した異常や逆にAIが提示しなかった異常は医師の判断に影響を及ぼす以上、メーカーの責任や性能評価についても整理が必要となります\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n-  - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+  - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "3c59a67f3f84d048a6b7b6449a81d7a33c2d960b",
+      "node_id": "C_kwDOOqTJvNoAKDNjNTlhNjdmM2Y4NGQwNDhhNmI3YjY0NDlhODFkN2EzM2MyZDk2MGI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T11:33:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T11:33:26Z"
+        },
+        "message": "askさん提案の電子カルテAI活用等、一件を保存",
+        "tree": {
+          "sha": "107fed9192bb6431fdcbea2897300e4957bb60f4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/107fed9192bb6431fdcbea2897300e4957bb60f4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3c59a67f3f84d048a6b7b6449a81d7a33c2d960b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUAEGCRC1aQ7uu5UhlAAAYJcQAGV8kuEz2XtVEUzQV9RbdtOz\nQOugI0I5A0ce1T0Wy1XODsQVwGeLSmvYwlPeozWFPlG3sZ/Xah8ZeGVirKTwrMwD\nnWMsSnAePjnXATSd7PuWd2KFM6sQzyXDn1GmPzLLsBjeqm8YbG4kPld2rSQmrIjN\njJH25xyp0Co7Y+HpxUrVirDyMdPjtPi8+20Ebyn+E8MuCOwrek07LQQzLbPEbo42\nnTDkSCNRDUNP7SI4wr5SBKmYL1P1wY3cfyFKlpG3tLoUbS+XOT5ps5VMK+feTt3s\nqNkSr7I4LWaixWk/2UuRetpyqZTkbd/1iRB40uV0ImZpJXlnyb89DO9Hj6ff66F5\nG5Dla4ARCzlRaiwGozr5Y/5jPXR6OIhXeZtOiLahJP+SrAdHHORK/n63mexFiY7U\n6svwW5Qzo0HtgsXXkGMVaPkkOYf1gpODfFi0VwmuVYM0pDevc4ySh+5qIRKtgo5n\nMIw090Z9LXIvb26q7wsju/tPxFAkfPkR3BTAs19VFDuGnPQeOvXytVJW4GZ7tROT\nRngSLEMSwqO82SsuIl4Yci2lovSQDO7J0MXo0oN1eQWXbRFvmSc+m4kZPZgFJxGZ\nIqHC8FcvMaMlDeyrUiT3v0F+yCfui7xFywquuQQOCTBjo8U+bzRQ7Z8ilv/U8pln\np/fceG0cKovixV4rlvOr\n=dOez\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 107fed9192bb6431fdcbea2897300e4957bb60f4\nparent 5f6d436acbfbbe8d2cee6e08cba752a8843d4f6f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750073606 +0000\ncommitter GitHub <noreply@github.com> 1750073606 +0000\n\naskさん提案の電子カルテAI活用等、一件を保存",
+          "verified_at": "2025-06-16T11:33:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3c59a67f3f84d048a6b7b6449a81d7a33c2d960b",
+      "html_url": "https://github.com/team-mirai/policy/commit/3c59a67f3f84d048a6b7b6449a81d7a33c2d960b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3c59a67f3f84d048a6b7b6449a81d7a33c2d960b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5f6d436acbfbbe8d2cee6e08cba752a8843d4f6f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5f6d436acbfbbe8d2cee6e08cba752a8843d4f6f",
+          "html_url": "https://github.com/team-mirai/policy/commit/5f6d436acbfbbe8d2cee6e08cba752a8843d4f6f"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-16T12:24:31.231702"
+}
