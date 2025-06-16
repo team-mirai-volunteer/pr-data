@@ -1,0 +1,529 @@
+{
+  "basic_info": {
+    "number": 2529,
+    "title": "遠山健司さんによる医療政策改善案：市販薬の保険適用見直しと予防医療の重視",
+    "state": "open",
+    "created_at": "2025-06-16T17:12:55Z",
+    "updated_at": "2025-06-16T18:03:47Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2529",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "da7deb552cbcb68f9a4a848c8386818597b0135f",
+      "filename": "37_ステップ３医療.md",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 1,
+      "changes": 33,
+      "blob_url": "https://github.com/team-mirai/policy/blob/290a9a62404586a7d79753fae9abd5ea5e3e9da7/37_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/290a9a62404586a7d79753fae9abd5ea5e3e9da7/37_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/37_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%8C%BB%E7%99%82.md?ref=290a9a62404586a7d79753fae9abd5ea5e3e9da7",
+      "patch": "@@ -27,6 +27,7 @@\n * また、我が国は治安やサービスの安全性、おもてなしといった文脈でも評価されており、医療を受ける上で強い優位性があると言えます  \n * そうした強みを活かした医療ツーリズムのポテンシャルは高いと考えますが、医療ツーリズムを展開するには、国内の医療資源への影響や通訳やビザ、保険など課題も多くあります  \n * しかし、安全性やホスピタリティをうまく活用しつつ、適切なペースで産業を育てることができれば、地域の医療インフラの整備や国内に居住する非日本語話者の方々への対応の整備などにもつながります\n+* さらに、医療費の適正化と国民皆保険制度の持続可能性向上のため、市販でも容易に購入できる一部医薬品の保険適用範囲について、その妥当性を検証し、段階的な見直しを検討する必要がある。\n \n ### 政策概要\n \n@@ -60,9 +61,39 @@\n - 看護師の実務範囲を明確化・段階的拡大する「美容医療看護認定制度」を創設し、注射やレーザーなど侵襲度の低い手技を資格化し、保険診療を行う医師の流出を緩和します\n   - 注射などの小手技は日本でも医師の指示の下で看護師が実施することは可能とされていますが、実務範囲が不明確であったり、施設によっても対応はまちまちです\n   - 米国ではナースプラクティショナー（NP）といった資格のある看護師が一定の監督下で施術する制度があり、日本でも診療看護師という形で医療現場での対応可能範囲を広げる動きがあります\n-  - こうした制度設計を美容医療の分野でも進めることで制度下で技術や知識、安全性を担保した形での医師から看護師へのタスクシフティングを進めます\n+  - こうした制度設計を美容医療の分野でも進めることで制度下で技術や知識、安全性を担保した形での医師から看護師へのタaskシフティングを進めます\n - 美容医療機関に賠償責任保険加入を義務付けを行い、また施術料の一部を拠出した基金を設立します\n   - 基金から連携先の高度医療機関への補償を行い、受け入れ先のインセンティブを設計します\n   - 連携施設には形成外科・麻酔科・感染症科などの医療提供体制を条件に診療報酬上の加算を設けます\n   - また、広範囲の手術や全身麻酔など高リスクな施術を行う施設に対して、賠償責任保険の加入を義務化します\n - 制度による規制の強化と産業育成はトレードオフの関係にあることも多いですが、施術費用に合併症等の管理コストを内在化させることで、安心・安全で高水準な医療を受けられることを示し、エコシステムを整えることが延いては産業育成につながると考えます\n+\n+## 3）予防医療の重視\n+\n+### 現状認識・課題分析\n+\n+*   国民皆保険制度の下、医療アクセスが良好である一方、一部には安易な受診や薬剤への過度な依存といった傾向も見られる。\n+*   「病気になってから治療する」という意識が依然として根強く、健康診断の受診率向上や、生活習慣改善による疾病予防への取り組みが十分に進んでいない。\n+*   結果として、生活習慣病の増加や医療費の増大を招いており、個人の生活の質の維持向上と、持続可能な医療制度の両立が課題となっている。\n+\n+### 政策概要\n+\n+*   国民一人ひとりの予防医療への意識向上と行動変容を促すため、健康診断の受診状況や予防活動への参加記録などをマイナンバーカード等と連携させ、個人の健康努力を可視化する仕組みを構築します。\n+*   健康診断の定期的な受診や、推奨される予防プログラムへの参加など、個人の主体的な健康増進への取り組みに対し、保険料負担の軽減や医療機関窓口での自己負担割合の調整、**さらには日常的な健康状態の把握を促す、Apple Watchのような身につけるタイプの健康管理機器**等の購入に対する補助など、実効性の高いインセンティブ制度の導入を検討します。\n+*   具体的な制度設計にあたっては、公平性や実行可能性、期待される効果などを多角的に検証し、国民的な議論を経て段階的に導入します。\n+\n+## 4）人生の最終段階における意思決定支援の充実\n+\n+### 現状認識・課題分析\n+\n+*   多くの国民が、人生の最終段階における医療について自らの意思で選択したいと望んでいるものの、「死について話し合うことは縁起でもない」といった文化的背景や、家族に迷惑をかけたくないという思いから、事前の意思表示や話し合いが十分に行われていない現状があります。\n+*   医療現場では、本人の意思が不明な場合、救命救急の観点や過去の慣習から、必ずしも本人が望まない可能性のある延命措置が選択されることがあります。また、家族が急な判断を迫られ、心理的な負担を感じたり、親族間の意見調整に苦慮するケースも少なくありません。\n+*   延命措置を望まない場合に、本人や家族が罪悪感を抱いたり、周囲からの無理解や批判を恐れたりすることも、意思決定を困難にする要因の一つと考えられます。\n+*   これらの課題は、個人の尊厳ある生き方の実現を妨げるだけでなく、結果として望まぬ医療による医療費の増大にも繋がる可能性があります。\n+\n+### 政策概要\n+\n+*   全国民を対象に、人生の最終段階における医療・ケアに関する意思決定の重要性について理解を深めるための啓発活動を強力に推進します。また、本人の意向を尊重した意思決定を支援するため、気軽に相談できる窓口の整備や、専門的な知識を持つ相談員の育成を進めます。\n+*   個人の尊厳ある最期を実現するため、リビングウィル（事前指示書）の作成と活用を促進します。その法的効力のあり方について検討を進めるとともに、本人の意思を医療機関や家族が円滑に共有できるよう、健康保険証やマイナンバーカード等への意思表示の記載・連携システムの導入を目指します。\n+*   リビングウィルの作成は個人の自由な意思に基づくべきとの考えから義務化は行いませんが、その作成を社会的に推奨し、努力義務として位置づけることを検討します。さらに、リビングウィルを作成した方に対し、マイナポイントの付与のような経済的インセンティブや、その他のメリットを提供することで、主体的な取り組みを後押しする仕組みを導入します。\n+*   これらの取り組みを通じて、本人が望む医療・ケアを受けられる社会の実現を目指し、同時に終末期医療における過度な医療資源の投入を抑制し、制度の持続可能性向上にも繋げます。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "cb9a730621532b563de2cfd3b0063b7472287471",
+      "node_id": "C_kwDOOqTJvNoAKGNiOWE3MzA2MjE1MzJiNTYzZGUyY2ZkM2IwMDYzYjc0NzIyODc0NzE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T16:51:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T16:51:51Z"
+        },
+        "message": "遠山健司さんの提案に基づき、市販薬の保険適用見直しに関する課題認識を追加",
+        "tree": {
+          "sha": "dd8a3e9aa7580126848bff9cad02e001a9e377f4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/dd8a3e9aa7580126848bff9cad02e001a9e377f4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/cb9a730621532b563de2cfd3b0063b7472287471",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUEunCRC1aQ7uu5UhlAAAd5cQAJP/lZSF5AB8T6cq+CNkASmY\n/PF7YDc7GMDQPcAsPs2QujmUYgwCQohll5XHm7EXakZ0XcwY+l8cFZoqdDVC4kN3\nV7xFB2bA8Ld0K2E8amdx/XkVIWmZ8dngGdRDGz4yAZbtQHud4+IJj6TmZu4S4lO1\nv+O2SElK2OhiuS8HuWXGkpyuzscecF68yl2sTYkDKffm1Iunr1S9VWULwOUZjAyX\npKTkO5cdnAePPH+/TyRI/z+Oba6kyy6Kdi1sTNB24U3mzl9p6BzsguzqC8ha0Zw/\njyBokl/x5lY6iHpPQYK8XzC08jIdLHaV31vDQBy2fvB1NLuhiIEDTqDhICPqynsa\nfGqxXjZe86RzDK7QbXxIx4XNpWjHljNPbxaoKN/Rm2auteH4AbgzmXCWfevCnhHD\nvxmeFtziAyLHLcQOPLvYEUWMirlXm462WJY7OEhxFFtMm4a1UyP+iWCjq6QKBo6u\nKKLrxzquENxo3PE3vTckvhU8a4wvAXa/JcwiXIVMuc3fbRDAxiotLdzGU3JRrpCi\nPBmvMALLvKRFyJTOTrVQ2f2ZpesUrhHLbE9BNsPTWv6AUXVhnyivEuUGkV2j4I/N\nlG62AdCs1YUQCUZRukZOTh0eNf0FZAeQTSyDvh4Joe38ESgxJlJ+UtAERRVN/vuW\njQpNfiAfayC75Qjxsv85\n=RXoc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dd8a3e9aa7580126848bff9cad02e001a9e377f4\nparent 530abbb6225cd1d7f6136e3a602ac09e9b7a105d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750092711 +0000\ncommitter GitHub <noreply@github.com> 1750092711 +0000\n\n遠山健司さんの提案に基づき、市販薬の保険適用見直しに関する課題認識を追加",
+          "verified_at": "2025-06-16T16:51:52Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/cb9a730621532b563de2cfd3b0063b7472287471",
+      "html_url": "https://github.com/team-mirai/policy/commit/cb9a730621532b563de2cfd3b0063b7472287471",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/cb9a730621532b563de2cfd3b0063b7472287471/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "html_url": "https://github.com/team-mirai/policy/commit/530abbb6225cd1d7f6136e3a602ac09e9b7a105d"
+        }
+      ]
+    },
+    {
+      "sha": "c0ad336abb5175440c0cb604f218e88a6244b56d",
+      "node_id": "C_kwDOOqTJvNoAKGMwYWQzMzZhYmI1MTc1NDQwYzBjYjYwNGYyMThlODhhNjI0NGI1NmQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T17:04:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T17:04:12Z"
+        },
+        "message": "遠山健司さんの提案に基づき、「予防医療の重視」のセクションおよび現状認識・課題分析を追加",
+        "tree": {
+          "sha": "3f27495769c0ba017d21860113faa6ca90a9bb2f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3f27495769c0ba017d21860113faa6ca90a9bb2f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c0ad336abb5175440c0cb604f218e88a6244b56d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUE6MCRC1aQ7uu5UhlAAAfP0QAGUffkPIPJKLJnfPafrHNhqK\nwq4XxFBxlSrf7yakfwd/VTMk02BIyMo6FfLPDQ3IGFHdPjhrNApCBAGE5hJ2Rfy1\nirH3u1SgV+o14I7Z51JnchB9Wc7l6kbINhWZ9VVPhtnKsYvjp+mvHXlYnMSMIFRc\ndZdQPCbG+adTxSoZt9P8U5EZ+5dAwIhUKr7bSAckhoOQLJVHIYI93T0d2fmlqCn5\n+Pn25cSAqmsPoneupmNP25hBZlTfxExtG3oS6uDb6t9VTmwqTiIYymHlDTxJuDo0\n8tHQ3d0VGW/rSkX0XlZq6+zqYJmRGkEa487KyJcZnVwNVyH+QHZFKvXbRAvJtXKG\nh4ddpZPqvqz6mvylQ3KyCkVIxOdJCuH9z2QktmVGENXBIjYO0gFJE+i8+ADlgBh+\nKrbREVNNBAgHKKtFXl1DFMkhkbBngq926amwjh70zYpBtfv2cya7E2zBISjdgQm4\no404WkSvoynOn7ql0HVgYmkrVBVs5iTXHNY5+l8fFZiZdtCPSb0xW3AIJH8YnrZE\n67tApO4yGmFDyp5EmB08nqJzQcFgE8A+ebaBde2mT8gTkYc3IzehXRxT2Sk8fzul\n2nplLZZcqHQNUYz5nnuqb+Yg2bQ/0AWAgw/f+LylTtn1ujNmc6MwBP2s08dPPoJt\nw0JSuVw8ESH0StdtPZJ0\n=YVR0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3f27495769c0ba017d21860113faa6ca90a9bb2f\nparent cb9a730621532b563de2cfd3b0063b7472287471\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750093452 +0000\ncommitter GitHub <noreply@github.com> 1750093452 +0000\n\n遠山健司さんの提案に基づき、「予防医療の重視」のセクションおよび現状認識・課題分析を追加",
+          "verified_at": "2025-06-16T17:04:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c0ad336abb5175440c0cb604f218e88a6244b56d",
+      "html_url": "https://github.com/team-mirai/policy/commit/c0ad336abb5175440c0cb604f218e88a6244b56d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c0ad336abb5175440c0cb604f218e88a6244b56d/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cb9a730621532b563de2cfd3b0063b7472287471",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/cb9a730621532b563de2cfd3b0063b7472287471",
+          "html_url": "https://github.com/team-mirai/policy/commit/cb9a730621532b563de2cfd3b0063b7472287471"
+        }
+      ]
+    },
+    {
+      "sha": "acfc5bcaf6abcd545b07ac4fd94e997948db0ae2",
+      "node_id": "C_kwDOOqTJvNoAKGFjZmM1YmNhZjZhYmNkNTQ1YjA3YWM0ZmQ5NGU5OTc5NDhkYjBhZTI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T17:11:39Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T17:11:39Z"
+        },
+        "message": "遠山健司さんの提案に基づき、「予防医療の重視」のセクションに政策概要を追加",
+        "tree": {
+          "sha": "9aae5420924cefac253b156926e4ddc3059d6792",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/9aae5420924cefac253b156926e4ddc3059d6792"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/acfc5bcaf6abcd545b07ac4fd94e997948db0ae2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUFBLCRC1aQ7uu5UhlAAAx3wQAF7u4X7L8tsqrLVwAIeYyKfo\n5bUnPA9+S4H6J19dqgaUdO7KFgkvWXyPdPn15O5h6Re1Ox58UQE8BWZ7do1tZXXq\nPNbT6UrkzX1YNli6kZ1p51g2vpb1O7t0+h0nFbkisNnghsSfWtz5+BRDiaZ5eOmf\n1/0DHjC72wFVBf2y+aO51k6BTrPap5eqXzcKuvOBOaINkB0nyxBupQ7/U6DuRLHi\nbkrMtnpBRNaJkMFOQSmeshCGMWO/EehpeAtqLIqFq2CJ/LBS/VtKEwH563TwGhiv\ny4nKujskVu0EicmmcNve3u+517HVnVA8twaUgSj7sBy18bSkwAwgDu9O488RTYmo\nyPyoTeUDe9hWLvWaPsCtm8zY2sQlYaA+qvdCKsbPdxs0SvG3j9udZVU8J+pXkqng\n5qjhxgsiPKrdion5Pq0svZkNLYNGCIB7hTJ3a4y8Tj4I3tMHdlHRXAPy+RSnN0pT\nz6i4U7rS/rdQDkeUzsqUTPcm+Jz48cKBFkj+WbZvpBMsfAjTDIaNstz9KcysXa9T\nSBbhtcLql7ERHmpqfSSpJjqE2bO5MnYVPVMXSxj+4+AyXykkUiZpQYS3rY3IiXhk\ndx/AgiWnjpbO6xWbeJnwdLVA1H7bu2WmYIsN3Dytfar9zKtDf8YrJruxlA9EaYQK\nJtzjevZTJJLg64ag3Hbr\n=rWmD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9aae5420924cefac253b156926e4ddc3059d6792\nparent c0ad336abb5175440c0cb604f218e88a6244b56d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750093899 +0000\ncommitter GitHub <noreply@github.com> 1750093899 +0000\n\n遠山健司さんの提案に基づき、「予防医療の重視」のセクションに政策概要を追加",
+          "verified_at": "2025-06-16T17:11:39Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/acfc5bcaf6abcd545b07ac4fd94e997948db0ae2",
+      "html_url": "https://github.com/team-mirai/policy/commit/acfc5bcaf6abcd545b07ac4fd94e997948db0ae2",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/acfc5bcaf6abcd545b07ac4fd94e997948db0ae2/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c0ad336abb5175440c0cb604f218e88a6244b56d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c0ad336abb5175440c0cb604f218e88a6244b56d",
+          "html_url": "https://github.com/team-mirai/policy/commit/c0ad336abb5175440c0cb604f218e88a6244b56d"
+        }
+      ]
+    },
+    {
+      "sha": "541f566ea8d9827f2f61e2b1a596e6ff53e16b63",
+      "node_id": "C_kwDOOqTJvNoAKDU0MWY1NjZlYThkOTgyN2YyZjYxZTJiMWE1OTZlNmZmNTNlMTZiNjM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T17:39:05Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T17:39:05Z"
+        },
+        "message": "遠山健司さんの提案に基づき、「人生の最終段階における意思決定支援の充実」に関する現状認識・課題分析を追加",
+        "tree": {
+          "sha": "a05c00cccd3a13c2838f5a25c9ba3909d3e9de46",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a05c00cccd3a13c2838f5a25c9ba3909d3e9de46"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/541f566ea8d9827f2f61e2b1a596e6ff53e16b63",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUFa5CRC1aQ7uu5UhlAAAoS4QACRa8pZqGq9tfZ6Y6NvY4Les\nYNfFnkP696zrqhUb4rQw6M27OR4QWSzHNATpVuRLrB+ykgJV4ZgP0i6SN449bXE7\nvgz9ClqVMEIHIvIiyvyExQPtj/P4NH5j/9nmnhjE9gwm1/1W2AtYYZdx55WxjcmQ\nHgKamBnOnMQeCipa8L9X7UMOGqGJsUZlx70O6W36WRsuXlEpf4JGLPCBg2Rjaqr+\nVOlGm1yt07eQieIUqQPs2IQkHdI7RihAkvePZc62SIef+gtLs6J3CdBEN7b8jzJp\n3o8E6t13DSCoJ56NUrc7r5Es4CtZlGHr8YSXlMr1/KlGvhExQufCbod8BSmXsSIm\nKLRUtTFskE47Kjm6f+syKhrJ/IQXKCjsSozr+3Y9CRknyfztS2NMIsk2pPMjx4E0\nmrceFcRMdNk5Z2gMpAG/408u/ccqF+pFH6S/zExKYhxw+WL0qMeVqKiGvqsWSKoF\nTzc2CF29gqrWfHbuMZp/a8+xc8aanpOCkAxWuRLXcrmWzqU96fyUgVjbUIWYzGsU\nZcMJCXe59fmuBuHCyXaDyIspM7b5w8UifgYQ0b1UdUuyYprx3SWB11UUespVo72z\n+iTQ0kvextmVic9lWZLS4savTy7DUhTalkzzoFKc090pyfgmfGYDlnPDbmVqZYhx\ng9iuGiHkdTBJoQZ2erQ4\n=eJSZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a05c00cccd3a13c2838f5a25c9ba3909d3e9de46\nparent acfc5bcaf6abcd545b07ac4fd94e997948db0ae2\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750095545 +0000\ncommitter GitHub <noreply@github.com> 1750095545 +0000\n\n遠山健司さんの提案に基づき、「人生の最終段階における意思決定支援の充実」に関する現状認識・課題分析を追加",
+          "verified_at": "2025-06-16T17:39:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/541f566ea8d9827f2f61e2b1a596e6ff53e16b63",
+      "html_url": "https://github.com/team-mirai/policy/commit/541f566ea8d9827f2f61e2b1a596e6ff53e16b63",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/541f566ea8d9827f2f61e2b1a596e6ff53e16b63/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "acfc5bcaf6abcd545b07ac4fd94e997948db0ae2",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/acfc5bcaf6abcd545b07ac4fd94e997948db0ae2",
+          "html_url": "https://github.com/team-mirai/policy/commit/acfc5bcaf6abcd545b07ac4fd94e997948db0ae2"
+        }
+      ]
+    },
+    {
+      "sha": "a7afdf0f584a9a0d450e9365bf41646eedf24229",
+      "node_id": "C_kwDOOqTJvNoAKGE3YWZkZjBmNTg0YTlhMGQ0NTBlOTM2NWJmNDE2NDZlZWRmMjQyMjk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T18:01:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T18:01:36Z"
+        },
+        "message": "遠山健司さんの提案に基づき、予防医療のインセンティブに健康管理機器の購入補助を追加",
+        "tree": {
+          "sha": "2c48c0462b9c1519b522fb1da2826573e43c56a2",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2c48c0462b9c1519b522fb1da2826573e43c56a2"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a7afdf0f584a9a0d450e9365bf41646eedf24229",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUFwACRC1aQ7uu5UhlAAAT9sQAE2OA0odDxTUwdyQauCWQ5fL\nhdVwxxWBa0K2PC4tM32itw/gSR5HUw38to8tQ6uFrLd8ajdm6EzHpuv8Z3mx1cBe\nQelaTwGC60D/z7P+xJNP+kJMKA+UiUBsJgAWBuz2EO1EkbI7uHPDAr/BBGVNl39D\n58nX82l1hCirch18hjc6OcmNnAzwqhcH9UihTCA8bZeoqs0lywMF3y7yGc2srCDT\nlwSkbL3Jnw99cSR2VbBFi+W7ffbNXfzqyAAq3+LNBJllSjkuBfI44V4XyKMw1axc\nlswwJNMDaoYNHyl0hXP+dbmHq06WwUOHPY9UHJ3HALaINF0RlAf1uR7HJxsSnmwf\nMSsBPjskfxLTm9aQcgN57v/3wy3yXs2SbXr42yZSYNa/uE00TBbqvXHGJPqhZtQn\nbU/IqhRuxSd8RWYLHAePYUbWsnvg8Ax4TWpHmrJ/ZCT1QQlQyo+VeWHKHNXKhYGp\nP2Cxcpj44LGLbQtQnf0PUcwqfDlWNcjfm4mPprA3TtjxYqsNKmgPJUN33CqRJovp\nGRtWbfiD3rtI04rtnABGCCzCIcbjR1vOInUuhANzhBBP7KU5wdF+PxkI5T7B8tjy\nv5cd+jmwFtPsMyTbqUgKLhDv7o5fCyBhUMLkTBdyZSCPBG83DnITLXIlXASOZQ+w\noM8SwGJanUH0mMxQI1/l\n=csyY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2c48c0462b9c1519b522fb1da2826573e43c56a2\nparent 541f566ea8d9827f2f61e2b1a596e6ff53e16b63\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750096896 +0000\ncommitter GitHub <noreply@github.com> 1750096896 +0000\n\n遠山健司さんの提案に基づき、予防医療のインセンティブに健康管理機器の購入補助を追加",
+          "verified_at": "2025-06-16T18:01:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a7afdf0f584a9a0d450e9365bf41646eedf24229",
+      "html_url": "https://github.com/team-mirai/policy/commit/a7afdf0f584a9a0d450e9365bf41646eedf24229",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a7afdf0f584a9a0d450e9365bf41646eedf24229/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "541f566ea8d9827f2f61e2b1a596e6ff53e16b63",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/541f566ea8d9827f2f61e2b1a596e6ff53e16b63",
+          "html_url": "https://github.com/team-mirai/policy/commit/541f566ea8d9827f2f61e2b1a596e6ff53e16b63"
+        }
+      ]
+    },
+    {
+      "sha": "290a9a62404586a7d79753fae9abd5ea5e3e9da7",
+      "node_id": "C_kwDOOqTJvNoAKDI5MGE5YTYyNDA0NTg2YTdkNzk3NTNmYWU5YWJkNWVhNWUzZTlkYTc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T18:03:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T18:03:45Z"
+        },
+        "message": "遠山健司さんの提案に基づき、予防医療のインセンティブに健康管理機器の購入補助を追加",
+        "tree": {
+          "sha": "57e9fdd6fe4f72d60c2767739a5c7dacda55a94f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/57e9fdd6fe4f72d60c2767739a5c7dacda55a94f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/290a9a62404586a7d79753fae9abd5ea5e3e9da7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUFyCCRC1aQ7uu5UhlAAAWp0QACdvoKuOsb4gCL/doCZr0iIb\nq7MB/dwBy/CfwuR5gDKX81oM+3qf1VamRHHNbLYJs1oF3oecxgbK/ZtzMka4BfRq\nuwk1gUX+TZj2qkZBQw2aCzrvvL9oFVA9AdYdOQdDu5BUyjQMLXjcKrxaCjyrKfQ+\nUmqzw2ETGT/Yko+pAoM9sso2rB3Lwh5xKLuokzP5D/baD2pQlCtPbtFmxvXRbTI7\nLn0gGyrmTR8DFOYzvbVQLPSCwnTg4818hjXVwEWuo1HES2/q6hwvjYi+5OeYBURV\nCa+sVzyt64EhtBhZpVW++MMNdQiC9gpTH/FjOm4sLbBw3YROkqGfLjOLKc3j4VCa\nFkl8GkKQWsPqFfB112zhQIb3GezwWn9s4EmixbtOphi1B96V6RnzPMVPWOodH/yh\nKvsep3qe729h+FIeTLb2C1rdS9WVQAokFJBK4WVmG9lGJK2k5TIGMw35nfX32FXq\n1FdjyoCym2FBdbqiyHlXxw87b5YYGyDl14cBgVZMFRvS8D5rgXHCWHkPI8k++FO7\n7tK+X8NGXQ2Pug5IXTKwMIMlh+Yy/HdNMWwfAtkb6mWxKi/5ZYp7AXXnRgM/7eDx\nJtPGM9YbcEIoYK0fepBi1whB69knMpJyDfM4tePmdDkOEEIbVNN13kXa/CPyI8Cn\nCEXExmEQpHdGvDwf4Npe\n=eCdI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 57e9fdd6fe4f72d60c2767739a5c7dacda55a94f\nparent a7afdf0f584a9a0d450e9365bf41646eedf24229\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750097025 +0000\ncommitter GitHub <noreply@github.com> 1750097025 +0000\n\n遠山健司さんの提案に基づき、予防医療のインセンティブに健康管理機器の購入補助を追加",
+          "verified_at": "2025-06-16T18:03:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/290a9a62404586a7d79753fae9abd5ea5e3e9da7",
+      "html_url": "https://github.com/team-mirai/policy/commit/290a9a62404586a7d79753fae9abd5ea5e3e9da7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/290a9a62404586a7d79753fae9abd5ea5e3e9da7/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a7afdf0f584a9a0d450e9365bf41646eedf24229",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a7afdf0f584a9a0d450e9365bf41646eedf24229",
+          "html_url": "https://github.com/team-mirai/policy/commit/a7afdf0f584a9a0d450e9365bf41646eedf24229"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-16T18:17:32.811891"
+}
