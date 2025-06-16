@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 2521,
+    "title": "教育政策案の改善：基礎学力の重視と現実的なアプローチへの修正",
+    "state": "open",
+    "created_at": "2025-06-16T14:40:56Z",
+    "updated_at": "2025-06-16T14:40:57Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2521",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "f2fc1c4702268b76b823af1420203709b71ff0b1",
+      "filename": "21_ステップ２教育.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 37,
+      "changes": 40,
+      "blob_url": "https://github.com/team-mirai/policy/blob/7dd26832fbd9c3fcf7ca220d5407edb306f9f204/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/7dd26832fbd9c3fcf7ca220d5407edb306f9f204/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md?ref=7dd26832fbd9c3fcf7ca220d5407edb306f9f204",
+      "patch": "@@ -18,10 +18,12 @@\n   * 日本の小学校・中学校では、学年軸・教科軸の双方に柔軟性がなく、各学年・各教科で何時間の授業が必要かが決まっています（標準授業時数）。  \n   * 日本なみに厳格な制度の韓国でも、２学年まとめた規定となっており、日本よりは柔軟です。もっとも制度が柔軟なオランダでは総学習時間だけ決まっており、何を何時間学ぶかは学校・子どもに合わせて決められます。  \n * 日本の教育課程の基準である学習指導要領のコード化は完了しているものの、各社の教科書をはじめとした教育コンテンツと十分に紐づいているとは言えず、個々の児童生徒の学習履歴が残せるようにはなっていません。\n+* また、すべての子どもたちが、社会で必要となる基礎的・基本的な学力を確実に習得することも、公教育の重要な役割です。現状では、残念ながら学力格差や、特定の分野でつまずいてしまう子どもたちも存在します。\n \n ### 政策概要\n \n * 一人ひとりの個性にあわせ、AIでオーダーメイドカリキュラムをつくり、柔軟に学んでいけるよう、標準授業時数の設定を大綱化することを目指します。  \n+* AI等を活用したオーダーメイドカリキュラムは、個々の進度や興味関心に対応するだけでなく、基礎学力の定着に課題を抱える子どもたちへの個別最適化された学習支援も可能にします。これにより、誰一人取り残すことなく、全ての子どもたちの学力向上を目指します。\n * 同時に、義務教育として必要な教育の質は担保するよう、イギリスの教育水準局や、オランダの教育監査局が実施している義務教育段階終了時のテストなどを参考に、一人ひとりが義務教育で身につけるべき内容を習得できているかをチェックし、データを元に改善していきます。  \n * あわせて、多様な学びの選択肢の一つとして、在宅学習の環境整備も推進します。在宅学習における学習評価や社会性を育む機会については、オンラインでの実施可能性を追求し、コロナ禍で得られた知見も参考にしながら、質の高いプログラムを構築します。\n \n@@ -70,40 +72,4 @@\n * データに基づいた効果的な教育政策を実現するために、日本においても教育データ標準仕様（例えば、IMS Common CartridgeやLTIといった国際標準規格に、日本独自の拡張を加えたもの）を定めることを検討します。さらに、匿名加工された教育データを安全かつ倫理的に管理・運用するための「Education Data Trust」のような組織の創設を検討するなど、EBPMを推進するための基盤整備が必要です。  \n * 例えば、過去の試験問題をAIが活用しやすいように整備することで、AIの精度を飛躍的に向上させることが期待できます。これは、教育データの効果的な利活用の一例です。  \n * ステップ１の４）で述べたような支援の実施状況や効果についても、実際に子どもや家庭にどのような影響を与えているかを、データで追跡・可視化します。  \n-  * AIによる効果測定と評価サイクルを導入し、支援内容の改善や制度の見直しに繋げます。これにより、支援が「積極的」かつ「必要十分」に届いているかを客観的に評価し、継続的な改善を図ります。\n-\n-## ４）これらのしなやかな仕組みを活かした先進的モデル校を産官学が連携して設立し、その効果を測定します\n-\n-### 現状認識・課題分析\n-\n-* 日本は、経済停滞と少子化という二つの深刻な課題に直面しています。IT・デジタル化への対応の遅れは経済成長を阻害し、AIの台頭による世界の教育レベルの急速な向上は、日本の「人材立国」としての地位を危うくしています。  \n-  * たとえば中国に本拠地を置くSquirrel AI Learningは、膨大な生徒のデータベースを用いてAIアルゴリズムを訓練し、個々の生徒に合わせた授業計画をカスタマイズしています。2019年までに、アジアの200都市に2,000の学習センターを展開し、100万人以上の生徒にサービスを提供しています。  \n-* 女性の社会進出と出産適齢期の「ズレ」は少子化を加速させており、この構造的な問題は教育システムを含めた社会全体の改革なしには解決できません。現在の画一的な教育では、個人の可能性を最大限に引き出し、多様な自己実現を早期に支援することが困難であり、これが少子化や経済低迷の一因となっています。  \n-* ステップ２で描いた「しなやかな仕組み」を大胆に活用して、義務教育学校（小中９年間）と高等専門学校（高校３年間＋大学前期２年間）をつなげた新たな教育モデルを構築し、その効果を測定します。\n-\n-### 政策概要\n-\n-* 義務教育学校と高等専門学校を連携させた「早期高密度教育パス」モデル校を設置します。教育の力で個人の可能性を最大限に引き出し、より早期に、より多様な自己実現を可能にします。これにより、個人のライフプランとキャリア形成の調和を図り、結果として、誰もが希望するタイミングで家庭を築ける環境の整備に貢献します。  \n-  * 義務教育学校（小中一貫校）での早期高密度教育  \n-    * AIアダプティブラーニングを全面的に導入します。  \n-    * 個々の習熟度に応じた柔軟な学習進度を可能にし、15歳で従来の高校卒業レベルの基礎知識・技能の完全習得を目指します。  \n-    * 国際バカロレアなどの探究型・自律型学習メソッドを取り入れ、自発的学習力や探究スキル、メタ認知能力を育成します。  \n-    * 15歳での基礎教育課程修了後、「学力到達認定制度」により到達度を客観的に認定します。  \n-  * 高等専門学校との連携による「リサーチパーク」機能の創設  \n-    * 15歳で基礎教育課程を修了した若者が、連携する高等専門学校に進学し、先進的な施設やカリキュラムを活用して、実践的な研究や起業、社会貢献活動に集中的に取り組める環境を提供します。  \n-      * 具体的には、20歳卒業時点で、大学院博士課程レベルの研究を行う者や、起業により社会に貢献しながら自立した生活を送る者が多数輩出されることを想定します。  \n-    * 国、地方自治体、大学・研究機関、民間企業が連携する「産官学コンソーシアム」を組織し、各分野の専門家によるメンター制度を導入します。  \n-    * 活動資金支援、メンタルヘルスサポートに加え、早期に家庭を持つ若者への育児支援（託児施設併設など）を検討し、キャリア形成と出産・育児の両立を支援します。  \n-  * 上記の教育モデルをさまざまな観点から検証し、全国的に取り入れるべき部分と、修正が必要な部分とを洗い出す。  \n-    * 特に、良質なAIアダプティブラーニングが全国的に展開できた場合、従来塾や高額な教材に頼ってきた個別最適化された専門的な指導を、公教育の中で提供することができ、家庭の教育費負担を軽減できる可能性があります。  \n-  * 考えられる課題とその解決策の方向性は以下の通りです。  \n-    * 制度的障壁（学校教育法等）  \n-      * 教育特区制度の活用、文科省との連携による実証事業としての推進、段階的導入と成果検証。  \n-    * 心理的・発達的課題  \n-      * 認知的発達だけでなく、社会的・情動的スキル（SEL）の育成プログラム導入、メンター制度やカウンセリング体制の充実。  \n-    * 教育の質保証  \n-      * 国際的な標準学力テスト（PISA等）への参加、ポートフォリオ評価、第三者機関による認証などを組み合わせた多角的な評価システム構築。  \n-    * 社会的受容性  \n-      * 保護者、大学、企業等への丁寧な説明と合意形成、段階的試行とその成果の透明な公開。  \n-    * カリキュラム設計の複雑さ  \n-      * 学習科学の専門家、AI研究者、現場教員からなる専門チームによる継続的なカリキュラム開発・改善。\n\\ No newline at end of file\n+  * AIによる効果測定と評価サイクルを導入し、支援内容の改善や制度の見直しに繋げます。これにより、支援が「積極的」かつ「必要十分」に届いているかを客観的に評価し、継続的な改善を図ります。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "857919352442803f9ca114f3c35add112ab0d093",
+      "node_id": "C_kwDOOqTJvNoAKDg1NzkxOTM1MjQ0MjgwM2Y5Y2ExMTRmM2MzNWFkZDExMmFiMGQwOTM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T14:32:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T14:32:59Z"
+        },
+        "message": "公立小学校児童の親さんの提案に基づき、１）に基礎学力定着の重要性を追記",
+        "tree": {
+          "sha": "fe3fe298fd520f8655a9797dc18d320795477cea",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/fe3fe298fd520f8655a9797dc18d320795477cea"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/857919352442803f9ca114f3c35add112ab0d093",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUCsbCRC1aQ7uu5UhlAAAgWIQAAr2uITFnDG4cL+bBq+z2uML\nPKoyzbh31s1dBUYCftCK1UWhyJil5KdO/77xgKyhXICpB3QfqUL5iGxnAc4ZX/5+\nhsAk/62a7/jQK6hJVAnNhT/S+PJTEIeebE+PLWbiT1TivqKYhlwrrWTDWdULSKQ8\nA4S8xufcJFMQbbNzn0Y3dg5cUdSPOg1NhAh8Shh/x71vZ5USHGVIqFWO4pkvK8JZ\n/r3axcJFAtl/ZlMOX165lSnSdChx1IvdWDb7MXR+3UKJJ5sudXSMVjMuXBJd17ed\nljye0u6Oqw9+PbnFqjChj3y9XHHrO2D0j/eQOsvHGJ/CfsGmpocOZXBVuOwBrIzf\nHFjuaOpj3ikRLlhkp7r9GJyNi4zF1Uk2tVU952ow4mf956fQwLr/s4XukBt9o1iG\n5hgX2Q0qziJMg8CNb0awcimoqzNH7NHPvnzyhxMyFveKbKzs/GTn7ge7dx67UP8a\nDMWqc4f3Qk0ibyFq9+RBKOl2YmNaZpjIjrIEyehSrUqoem3ZDhSLMVpiGX0L6hDf\n55TqvasjR63rIOu8bGDpeLISvi/xIw2wlAhLBqyZ3q6kZqH3W0g6XXsgZv4SUNGl\nnwPSapGZ1ReIdNz0UVZK6Wkgv7vkSQhUdRKzRhQx2o/T8OdAUbqiJoKjg8yJC696\ncLwqhJZIbkk3etUDPJv3\n=1pQa\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fe3fe298fd520f8655a9797dc18d320795477cea\nparent 530abbb6225cd1d7f6136e3a602ac09e9b7a105d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750084379 +0000\ncommitter GitHub <noreply@github.com> 1750084379 +0000\n\n公立小学校児童の親さんの提案に基づき、１）に基礎学力定着の重要性を追記",
+          "verified_at": "2025-06-16T14:32:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/857919352442803f9ca114f3c35add112ab0d093",
+      "html_url": "https://github.com/team-mirai/policy/commit/857919352442803f9ca114f3c35add112ab0d093",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/857919352442803f9ca114f3c35add112ab0d093/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "html_url": "https://github.com/team-mirai/policy/commit/530abbb6225cd1d7f6136e3a602ac09e9b7a105d"
+        }
+      ]
+    },
+    {
+      "sha": "7dd26832fbd9c3fcf7ca220d5407edb306f9f204",
+      "node_id": "C_kwDOOqTJvNoAKDdkZDI2ODMyZmJkOWMzZmNmN2NhMjIwZDU0MDdlZGIzMDZmOWYyMDQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-16T14:38:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-16T14:38:47Z"
+        },
+        "message": "公立小学校児童の親さんの提案に基づき、基礎学力の重要性を強調し、先進的モデル校の項目を削除",
+        "tree": {
+          "sha": "ad42fe30f4a36895b0f5fa8263e793b29899682f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ad42fe30f4a36895b0f5fa8263e793b29899682f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7dd26832fbd9c3fcf7ca220d5407edb306f9f204",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUCx4CRC1aQ7uu5UhlAAA+lAQABltBO4y1r7DcmpNo3t1NCiH\n6j2WiqHX4QhgCuvdMaEQFBBVpJcH2KPogXXXm2VG0+BzL6rsmobbmc8V04Xa2YsX\n9lrTZLDIFMmNBj5yjvaIvGT3TMRE1KnJi9/ssvT4yCGl5Zg/2PFH8CNiyYs0bkib\nniehkjJuWaKe5GKvYavsD9fT7BhG8bwkdd9NGeApfbZgS2pkrlJ8GwTk6ZDNLVB7\nwGXD9Fq0LScRAqD3Woy156ALPHAcGA2iInicTtHN+sUNB4SDGXpZeKFNczJSDfX+\n0kwVw5bnTkcXDtyhGPq4TjRTc3qnuN+TKWOqQKKZGED6z1hqs5PK2RCecsJeQxVC\nPYcxQgBhnuUJT0xzCopQlIP9K6kqAcLZPmTsBYydV4vLwwHlC8Ehq3j7bIdtcsK4\nwQRjfvWB/zHebjL2rSjvSI5OslChGWPg2KjFJdZH+hDE+JGSZcLg1g0gdlq0zI6J\nXxUwYCKYXzrTAiYW0cNpZWFEKkL+3fi8OvhstvUsAvrV1kGAXvjkQQmK0yFkqmI3\no0aueGNh7qpaaUt7KZyUSce4h3/oc8xS4EdkYJ0UD+TuB22ELauZfiixx89xR/5S\nSHakUmSnCLQOJ96ayLGKkrwZRpn51y/y1P7jVUZpI/CKxIy9R0Gh9GccC2pDBtoi\nseEK9YkingLiCZevkBC9\n=3hr9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ad42fe30f4a36895b0f5fa8263e793b29899682f\nparent 857919352442803f9ca114f3c35add112ab0d093\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750084727 +0000\ncommitter GitHub <noreply@github.com> 1750084727 +0000\n\n公立小学校児童の親さんの提案に基づき、基礎学力の重要性を強調し、先進的モデル校の項目を削除",
+          "verified_at": "2025-06-16T14:38:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7dd26832fbd9c3fcf7ca220d5407edb306f9f204",
+      "html_url": "https://github.com/team-mirai/policy/commit/7dd26832fbd9c3fcf7ca220d5407edb306f9f204",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7dd26832fbd9c3fcf7ca220d5407edb306f9f204/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "857919352442803f9ca114f3c35add112ab0d093",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/857919352442803f9ca114f3c35add112ab0d093",
+          "html_url": "https://github.com/team-mirai/policy/commit/857919352442803f9ca114f3c35add112ab0d093"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-16T15:13:38.394213"
+}
