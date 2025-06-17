@@ -1,10 +1,10 @@
 {
   "basic_info": {
     "number": 2462,
-    "title": "【更新】ビジョンに多様な家族形態、困難な状況にある養育者への支援、及び生命倫理に関する視点を追記",
+    "title": "【更新】ビジョンに、多様な生き方の選択肢、包括的支援、及び生命倫理に関する視点を追記",
     "state": "open",
     "created_at": "2025-06-15T18:04:17Z",
-    "updated_at": "2025-06-15T18:13:53Z",
+    "updated_at": "2025-06-16T15:21:09Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/2462",
@@ -14,21 +14,31 @@
       "html_url": "https://github.com/apps/idobata-policy-app"
     }
   },
-  "labels": [],
+  "labels": [
+    {
+      "id": 8631776104,
+      "node_id": "LA_kwDOOqTJvM8AAAACAn5zaA",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E5%AD%90%E8%82%B2%E3%81%A6",
+      "name": "子育て",
+      "color": "FBCA04",
+      "default": false,
+      "description": ""
+    }
+  ],
   "comments": [],
   "review_comments": [],
   "files": [
     {
-      "sha": "7cb01a8d56e0827d5d604f9dcc2f912e923edfe2",
+      "sha": "338c50b145e6eba9f296d89e097d5f7f0351e3eb",
       "filename": "12_ステップ１子育て.md",
       "status": "modified",
-      "additions": 4,
-      "deletions": 1,
-      "changes": 5,
-      "blob_url": "https://github.com/team-mirai/policy/blob/5cf47eee3f4446fe9b4d260030c108d06a81be9e/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/5cf47eee3f4446fe9b4d260030c108d06a81be9e/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=5cf47eee3f4446fe9b4d260030c108d06a81be9e",
-      "patch": "@@ -1,4 +1,5 @@\n \\\n+\\\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -9,6 +10,8 @@\n * テクノロジーの力を最大限に活用し、妊娠期から子育てまでのあらゆる段階で、保護者が直面する不安や負担を軽減します。  \n * 情報へのアクセスを容易にし、必要なサポートを適切なタイミングで届けることで、誰もが孤立せず、安心して子どもを産み育てられる、温かい社会の実現を目指します。  \n * デジタルはあくまで手段であり、その先にある親子の笑顔とゆとりある時間を創出することが私たちの目標です。\n+* また、結婚の有無、性別、これまでの経験にかかわらず、子を育てたいと願う誰もがその意志と愛情をもって養育者となることを支援するとともに、予期せぬ妊娠や経済的困窮など、様々な困難を抱える養育者に対しても、必要な支援が確実に届き、誰一人として孤独や不安の中に置き去りにしない社会を目指します。\n+* テクノロジーの進展がもたらす新たな家族のあり方や生命の誕生についても、倫理的な側面を十分に考慮し、全ての子どもが祝福される社会を目指します。\n \n ## １）子育てを切れ目なくサポートするデジタル母子パスポートを実現します\n \n@@ -62,4 +65,4 @@\n   * 出産施設を探す「出産なび」のような情報一元化を目指していきます  \n * これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n-* 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n+* 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n\\ No newline at end of file"
+      "additions": 8,
+      "deletions": 2,
+      "changes": 10,
+      "blob_url": "https://github.com/team-mirai/policy/blob/2fdf1d5aeef4d7bddccc19a6fe756ca3fe6007de/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/2fdf1d5aeef4d7bddccc19a6fe756ca3fe6007de/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=2fdf1d5aeef4d7bddccc19a6fe756ca3fe6007de",
+      "patch": "@@ -1,14 +1,20 @@\n-\\\n+\n+\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n # ２．子育て\n \n ## ビジョン\n \n+* 伝統的な家族の形だけが幸せの全てではありません。私たちは、一人ひとりが自らの選択を尊重され、たとえ困難に直面したとしても、多様なサポートを受けながら、自分らしい人生を歩んでいける、そんなセーフティネットと選択肢にあふれた社会を目指します。\n+* その上で、子どもを育てたいと願う全ての人が、どのような状況にあっても、その夢を諦めることなく実現できるよう、社会全体で支え、あらゆる障壁を取り除いていくことを誓います。\n+* 子どもを欲しいと願う、その純粋な気持ちこそが最も尊いものです。私たちは、その想いを社会全体で温かく受け止め、経済的、社会的、身体的、精神的なあらゆる負担を可能な限り軽減し、誰もが安心して子どもを産み育てられる環境を、国を挙げて整備します。\n * テクノロジーの力を最大限に活用し、妊娠期から子育てまでのあらゆる段階で、保護者が直面する不安や負担を軽減します。  \n * 情報へのアクセスを容易にし、必要なサポートを適切なタイミングで届けることで、誰もが孤立せず、安心して子どもを産み育てられる、温かい社会の実現を目指します。  \n * デジタルはあくまで手段であり、その先にある親子の笑顔とゆとりある時間を創出することが私たちの目標です。\n+* また、結婚の有無、性別、これまでの経験にかかわらず、子を育てたいと願う誰もがその意志と愛情をもって養育者となることを支援するとともに、予期せぬ妊娠や経済的困窮など、様々な困難を抱える養育者に対しても、必要な支援が確実に届き、誰一人として孤独や不安の中に置き去りにしない社会を目指します。\n+* テクノロジーの進展がもたらす新たな家族のあり方や生命の誕生についても、倫理的な側面を十分に考慮し、全ての子どもが祝福される社会を目指します。\n \n ## １）子育てを切れ目なくサポートするデジタル母子パスポートを実現します\n \n@@ -62,4 +68,4 @@\n   * 出産施設を探す「出産なび」のような情報一元化を目指していきます  \n * これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n-* 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n+* 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n\\ No newline at end of file"
     }
   ],
   "commits": [
@@ -277,7 +287,171 @@
           "html_url": "https://github.com/team-mirai/policy/commit/ee18a8665f99e00570275fc6ba09aca21000404d"
         }
       ]
+    },
+    {
+      "sha": "94eceee42ccf031fb25f7d480944cf8718d95b0a",
+      "node_id": "C_kwDOOqTJvNoAKDk0ZWNlZWU0MmNjZjAzMWZiMjVmN2Q0ODA5NDRjZjg3MThkOTViMGE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-15T18:26:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-15T18:26:03Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、「ビジョン」の冒頭に子どもを持つことへの心理的ハードルを下げるメッセージとテクノロジー活用の意思を追記",
+        "tree": {
+          "sha": "32e017278ae5b9b392751d26f8600d4345c0494a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/32e017278ae5b9b392751d26f8600d4345c0494a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/94eceee42ccf031fb25f7d480944cf8718d95b0a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTxA7CRC1aQ7uu5UhlAAANL4QAJgKUpYc1qWWXNbTZnA8D4+2\nhbQQHDG3StCROVF/CjBuZs/ftry2Eh01d+vFXx39cAxNyd8lzD6uCPjR2hXvCqnt\nTL4hYrHL8w32ijRHlE+YoozTisSWoV1ewUE7pX642eT2nlQL9xdZAhXGGYDpE7yj\nZ1OGQpbALLhKTvupasJoNXsQRYZSaOZ/3c6R4+bvaKc4McnbQNV3unhw2rIduhoC\nAoLw2qoXG3hRBSdle3ScBk411SECWTVaNLwJ6GHRGLnAXfw9kII84Zu61KmSnwU1\nIK5vY1mpM3DNK5L37mHKTuMTL78bWArUEhNXQHUxNGwHxwXZujhdtChdstAKpgkg\nr7PCgzWV8OjvMt8PkEeljArmqy4nKTFiNLwcOWjznFg6Vymk1nhwsw2IRAmecTXT\n5wo72tgKYZuMJqyQ3Um5g+wG02ucKLJkZ+AJg74etIKBxYdZOf0doyBj1lFVr64w\nezPY846czNox9A2c1F6GClNpu6D+FIZ73rnD9v59+CIYxVGciqlh6aXGTbGDwi0N\nnNvqo8PRVnSEtjWN8m4ym8MphKKI0wYvkvNE/eTx7foTVWMJJpKX4LeJ6/Vu0jbk\npMFs5q6JMViI0uhAQXEdpUVeqUfBRBde1StND6nbmosfpyCMbzltEuX2Xw5OZUAk\nwjFV//H5hRyPUxkeFv78\n=9eew\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 32e017278ae5b9b392751d26f8600d4345c0494a\nparent 5cf47eee3f4446fe9b4d260030c108d06a81be9e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750011963 +0000\ncommitter GitHub <noreply@github.com> 1750011963 +0000\n\n匿名ユーザーからの提案に基づき、「ビジョン」の冒頭に子どもを持つことへの心理的ハードルを下げるメッセージとテクノロジー活用の意思を追記",
+          "verified_at": "2025-06-15T18:26:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/94eceee42ccf031fb25f7d480944cf8718d95b0a",
+      "html_url": "https://github.com/team-mirai/policy/commit/94eceee42ccf031fb25f7d480944cf8718d95b0a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/94eceee42ccf031fb25f7d480944cf8718d95b0a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5cf47eee3f4446fe9b4d260030c108d06a81be9e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5cf47eee3f4446fe9b4d260030c108d06a81be9e",
+          "html_url": "https://github.com/team-mirai/policy/commit/5cf47eee3f4446fe9b4d260030c108d06a81be9e"
+        }
+      ]
+    },
+    {
+      "sha": "2fdf1d5aeef4d7bddccc19a6fe756ca3fe6007de",
+      "node_id": "C_kwDOOqTJvNoAKDJmZGYxZDVhZWVmNGQ3YmRkY2NjMTlhNmZlNzU2Y2EzZmU2MDA3ZGU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-15T18:39:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-15T18:39:10Z"
+        },
+        "message": "匿名ユーザーさんの提案に基づき、ビジョンに多様な生き方の選択肢とセーフティネットの重要性を追記",
+        "tree": {
+          "sha": "738c46b25af7f6578d83c20827f1d08f793c3231",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/738c46b25af7f6578d83c20827f1d08f793c3231"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2fdf1d5aeef4d7bddccc19a6fe756ca3fe6007de",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoTxNPCRC1aQ7uu5UhlAAAE80QAHOaiNIZqaLumkoc2qAGmDgu\nibP+nw0sdWtHTG1XpntkGmVBS6v+vKjejuGYbXFFxAqHIIVtNnQ54fXCLYHZUMYN\nqVv7UVZjUCw8z3uGXbbEoUFmE+DesbClIyggeQbfn/zoRvMTWwh0UopuQaHdGAIo\nKnx1sSihYfV5U3fiVCzwsftzNeJfqbAPoIGcjCTQRO/KjfFTHjYDTkWh9e+Mk0TT\nfImh/J/7Clp1+X5utLJ3BnV8F4IvF1ozDEMoDDDaIpjYY0QjxQmYmibTmOPChJQ1\nsVX/LG5qiHT2Kqka6NM3dEZTekqJjJKRgOYALX/dsltESp6z6bMUm3I9uTtADDAv\nPwEJR+Kt0MJJkF7IlqT+XX1pbnA5Vjcc5l9iFVQGAEBTI6xLLoT9IHjHk1CBmWri\nEE/JpG0QdbRrs6r7BmZyTO+8QmoMQ9GLHJ0csyzpb4tb5GwcrW/eu8HU8RrdooXc\nRSq3ofX2EzA8XLDrSjDTmW/pBuhWeokhg5n3SZkoZFOyi04vuhHKF7IHj1F6l2W0\nk+uZkOGQLQSZUTSx/PpC/J5CuLMO0YVwwQF1ypOY+RuAr5o4Ai3drK0sWlxwQxCq\n/3yeFUJqcFxTJTt/QQu8NOMZQmNV/zzQLZCqC0Rj20Ad7mLNfPE1q8iysl1eCkUD\nGuYpVU27hYWNYoEAKPWA\n=S7Tt\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 738c46b25af7f6578d83c20827f1d08f793c3231\nparent 94eceee42ccf031fb25f7d480944cf8718d95b0a\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750012750 +0000\ncommitter GitHub <noreply@github.com> 1750012750 +0000\n\n匿名ユーザーさんの提案に基づき、ビジョンに多様な生き方の選択肢とセーフティネットの重要性を追記",
+          "verified_at": "2025-06-15T18:39:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2fdf1d5aeef4d7bddccc19a6fe756ca3fe6007de",
+      "html_url": "https://github.com/team-mirai/policy/commit/2fdf1d5aeef4d7bddccc19a6fe756ca3fe6007de",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2fdf1d5aeef4d7bddccc19a6fe756ca3fe6007de/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "94eceee42ccf031fb25f7d480944cf8718d95b0a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/94eceee42ccf031fb25f7d480944cf8718d95b0a",
+          "html_url": "https://github.com/team-mirai/policy/commit/94eceee42ccf031fb25f7d480944cf8718d95b0a"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-06-15T18:15:07.591999"
+  "collected_at": "2025-06-17T09:15:39.404655"
 }
