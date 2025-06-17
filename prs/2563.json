@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 2563,
+    "title": "もりたさん発案：研究環境の透明性向上と課題の明確化、および競争環境に関する視点の追加",
+    "state": "open",
+    "created_at": "2025-06-17T14:23:40Z",
+    "updated_at": "2025-06-17T14:23:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2563",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "8d98d637b982de8b102404b356d2c430720ae94e",
+      "filename": "15_ステップ１科学技術.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/79c7839b99fa9ac7e79135ceeb339aca8c154fc8/15_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/79c7839b99fa9ac7e79135ceeb339aca8c154fc8/15_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/15_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md?ref=79c7839b99fa9ac7e79135ceeb339aca8c154fc8",
+      "patch": "@@ -1,3 +1,4 @@\n+'''\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -9,7 +10,7 @@\n     * 2024年、トップ10%論文数（質の高い論文数）を指標とすると、日本（13位）の上に、インド（4位）、イタリア（6位）、韓国（9位）、フランス（10位）、スペイン（11位）、イラン（12位）などの国々がいます。\n     * 同年、トップ1％論文数（極めて質の高い論文数）でみても、日本（12位）の上に、イタリア（5位）、インド（6位）、韓国（10位）、スペイン（11位）などの国々がいます。\n     * 一方、論文数では日本は5位で高位に位置しています。\n-    * このように論文数は多い一方、質の高い論文は少ない背景には、研究者が質の高い研究にじっくり取組むことができていない、という課題があるのではないか？と考えられます。\n+    * このように論文数は多い一方、質の高い論文は少ない背景には、研究者が質の高い研究にじっくり取組むことができていないという課題に加え、国内の研究環境における健全な競争が十分に機能しているか、あるいは国際的に見て競争環境が適切な状態にあるのか、といった多角的な視点からの検証も必要であると考えられます。\n     * 参考リンク：科学技術指標2024　https://www.nistep.go.jp/sti_indicator/2024/RM341_04.html\n * 研究者が本来の研究に専念できる環境を実現し、知の創出力を最大化します。そのために、以下の各論に取り組みます。\n     * 公的支援の仕組みにAI・ITを積極的に取り入れ、信頼性と効率性を兼ね備えた次世代型研究支援インフラを構築します\n@@ -51,15 +52,17 @@\n * さらに、研究室や大学は外からの監視が働きづらく、部屋の中で何が起きているのかが把握されにくいため、ハラスメントの温床となりやすい構造的な課題が存在します  \n * 通報窓口があっても、通報によって評価・推薦・人間関係に悪影響が出るのではという不安や、匿名性・中立性への疑問から当事者が声をあげづらいといった状況が存在します  \n * その結果、構成員の精神的健康の悪化を引き起こし、博士課程の中退、キャリア断念、国外流出等につながってしまいます\n+* なお、博士課程の中退、キャリア断念、国外流出の具体的な規模や、学生・ポスドクの雇用や制度的保護の不安定さが日本特有の問題であるのか、あるいは国際的にどの程度の水準にあるのかについては、今後客観的なデータに基づいた更なる調査と分析が求められます。\n \n ### 政策概要\n \n * ハラスメントの予防・早期発見・迅速対応を実現する仕組みを構築します。その際、大学が研究環境の管理者としての責任を明確に果たし、問題のあるPI（研究代表者）に対しては、実効性のある指導や、状況に応じた適切な措置を行う体制を整備することで、ハラスメントの抑止力を高めます。ただし、過度な監視が研究活動の自由闊達さを損なうことのないよう、研究室の自治を尊重しつつ、誰もが安心して研究に打ち込めるバランスの取れた環境構築を目指します。また、メンタリングプログラムの充実など、良好な人間関係の構築を支援するソフト面の取り組みも推進します。\n-  * 具体的には、研究室運営の可視化と外部モニタリングの強化します  \n+  * 具体的には、研究室運営の可視化と外部モニタリングを強化するため、全国規模で大学等から独立した第三者監査機関の設置を促進します  \n   * 研究室単位のガバナンス指標（離脱率、修了率、学生満足度）を設定・公開します  \n   * また、研究室内の権限集中を防ぎ、より開かれた運営体制を促進するため、事務職員の効果的な配置や、助教などの中間層アカデミアポストの充実と安定化を支援します。  \n   * AIチャットボットによる24時間対応の匿名相談窓口の整備、独立した通報機関（第三者機関）の設置を行い、匿名性と保護を担保した通報・相談体制の整備を行います  \n * 研究室間の移籍制度やローテーションの柔軟化を支援します  \n   * ハラスメントの発生や研究テーマのミスマッチ、指導スタイルの不一致などがあった際にも、研究のキャリアを継続すべく、ローテーション制度を整えます  \n * 部局横断的なメンタリングプログラムを整備します  \n   * 指導教授以外の教員や卒業生、ピアメンターが中立的な立場でキャリアや研究に関する相談に乗る体制を構築します\n+'''\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "1a56cb40dc0ee9bee3eaa2372febdd850e134990",
+      "node_id": "C_kwDOOqTJvNoAKDFhNTZjYjQwZGMwZWU5YmVlM2VhYTIzNzJmZWJkZDg1MGUxMzQ5OTA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-17T14:08:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-17T14:08:26Z"
+        },
+        "message": "もりたさん提案：外部モニタリング強化のため第三者監査機関の設置促進を追記",
+        "tree": {
+          "sha": "74ff0eff7448ddb5159da6dc60bb541951792f74",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/74ff0eff7448ddb5159da6dc60bb541951792f74"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1a56cb40dc0ee9bee3eaa2372febdd850e134990",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUXbaCRC1aQ7uu5UhlAAA2rgQAHsVT2EP12Ud9nBWVGEZVrWK\nRtRYRm81h34mgxODyn19gYYAr0T0KjvZ/WQcbQqm2QDRTIrhMf8F/lHrNToDF1Op\nXOcOn1EbFK09LW1kuDgOnHyi2SuvggkeMNA9iBC19wuoQcUqR4KcE230itCSet4p\ncygX3Y7POoVfGdEsUPdt0wZpP5pGJN1rdMHoy8unhqUf9kWzTsMIpsR9Jgys0DLK\nLTLLHpGWadQJEkGSUL6Zs3Di+F+aZ/tvQTQIINM4By0wQq9s87JoRj7mm1rAz2W9\n/0TzzeKL0FFsm7WyfVCIHPjiA5eF0eVn4PPiK3cjoqXbavGpbysd84MbAjdKasGn\ngdgZF4L7+N5pI9JdbpRYLStj+RPr3qFR8Yavput3GJOJRvbkthgcidKW37GKZx+3\nyE4fibVsv+dHlOadkaZM4VyOFegkciu11vCMoVNHjJiiD92OER+DJO0HXVfC/3pp\nICYMjvr3foLtiGssF8Y4mxUm5SsIAfh8KB8UBC8FUSg74GcE/d5EzF8OszcclNJK\n/HPSrLgFNS7gj421LsNtN852S4ja78b/eZ4hbyz4qxwpL96wItzGFZjl95JPcWeH\nzQ+IQLvPlZ0BMCbsl9sI1bqEuZRv4gSI7SjogonCrjO6mm+DLxOopg8jTm+lkABX\n+JdnGS64fF4FL5KrrpnZ\n=Z/jf\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 74ff0eff7448ddb5159da6dc60bb541951792f74\nparent 530abbb6225cd1d7f6136e3a602ac09e9b7a105d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750169306 +0000\ncommitter GitHub <noreply@github.com> 1750169306 +0000\n\nもりたさん提案：外部モニタリング強化のため第三者監査機関の設置促進を追記",
+          "verified_at": "2025-06-17T14:08:27Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1a56cb40dc0ee9bee3eaa2372febdd850e134990",
+      "html_url": "https://github.com/team-mirai/policy/commit/1a56cb40dc0ee9bee3eaa2372febdd850e134990",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1a56cb40dc0ee9bee3eaa2372febdd850e134990/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "html_url": "https://github.com/team-mirai/policy/commit/530abbb6225cd1d7f6136e3a602ac09e9b7a105d"
+        }
+      ]
+    },
+    {
+      "sha": "7d48d9344d7678a71205c04c7ce6ab3c9b5f8495",
+      "node_id": "C_kwDOOqTJvNoAKDdkNDhkOTM0NGQ3Njc4YTcxMjA1YzA0YzdjZTZhYjNjOWI1Zjg0OTU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-17T14:13:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-17T14:13:37Z"
+        },
+        "message": "もりたさん提案：博士課程の中退等に関するデータ不足と国際比較の必要性を課題として追記",
+        "tree": {
+          "sha": "024f2510dc5c2a134ea7631d13efab5c160a944c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/024f2510dc5c2a134ea7631d13efab5c160a944c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7d48d9344d7678a71205c04c7ce6ab3c9b5f8495",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUXgRCRC1aQ7uu5UhlAAAg5kQAECVfeYAAMatpA7P3rY8TF0G\n9XnbKfIefFop9zEgEp8WqJQfijKrvpv2RjCBNs4EYZN38QEgJvOoPDOplcXAXQ8O\nPZessgStW1gAeOB3iu3hV0qJAC73bXlKj5g73CfIycKfI40p6izK3jL1rBU//Slv\nTLpTYCbC1fDinBCfupJkaWLX2ATBbF3ApIQ0fhPYG/IMdRgyogNtb83cb4sksU7c\nKwtXVRHzxt0IO40ClqBByD9Hcfae+ZZ8T3f3k3FkByd0sNuQWKz9fyhizDOpsq2R\nHDNP39HRS0U7MTHGpYiUkG+1AWEsQbDzZpbHOmC5CGb6P+UiRLwa0oiWaRzqlvLo\n30A206bif3wXz7fCC2OSjRyRunKUz7cw+hVn23M88RMH+x4IhxXpUB0ppYm5szfv\nxpR/6aOPD8o6TxWvHEp9sV24qSvfq4oP91WgnZLrkE+Zoh6KE9KnsChxvj0v5L9d\n0qmJeFEjtwxokb082tDwDjdH+3/SKOYFDqjIwNgsNodc2tBHRLxYNEdmNu4AJkmi\n+fKTjPEPMdoLJU55RkYiZ5BDjoe+XZol2v5iB7tYjNaBogTz0SvzbXcvk/n9htyU\nsHNrLVKyJlGB38CXHQAJYmY/jcOHgbV5xeCFiy821JtiyBxDOpn2aQMO1Anddrkx\nfIDmUlJ/Bq1cjHBdDqQ4\n=6/Jh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 024f2510dc5c2a134ea7631d13efab5c160a944c\nparent 1a56cb40dc0ee9bee3eaa2372febdd850e134990\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750169617 +0000\ncommitter GitHub <noreply@github.com> 1750169617 +0000\n\nもりたさん提案：博士課程の中退等に関するデータ不足と国際比較の必要性を課題として追記",
+          "verified_at": "2025-06-17T14:13:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7d48d9344d7678a71205c04c7ce6ab3c9b5f8495",
+      "html_url": "https://github.com/team-mirai/policy/commit/7d48d9344d7678a71205c04c7ce6ab3c9b5f8495",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7d48d9344d7678a71205c04c7ce6ab3c9b5f8495/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1a56cb40dc0ee9bee3eaa2372febdd850e134990",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1a56cb40dc0ee9bee3eaa2372febdd850e134990",
+          "html_url": "https://github.com/team-mirai/policy/commit/1a56cb40dc0ee9bee3eaa2372febdd850e134990"
+        }
+      ]
+    },
+    {
+      "sha": "79c7839b99fa9ac7e79135ceeb339aca8c154fc8",
+      "node_id": "C_kwDOOqTJvNoAKDc5Yzc4MzliOTlmYTlhYzdlNzkxMzVjZWViMzM5YWNhOGMxNTRmYzg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-17T14:22:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-17T14:22:46Z"
+        },
+        "message": "もりたさん提案：「競争の度合い」の視点を日本の科学技術力低迷の背景分析に追加",
+        "tree": {
+          "sha": "b1615e18ea7b236d9e15dff8919ba51773c59c3f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b1615e18ea7b236d9e15dff8919ba51773c59c3f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/79c7839b99fa9ac7e79135ceeb339aca8c154fc8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUXo2CRC1aQ7uu5UhlAAA3hAQAHctD5c7Bmak4xIgwi68DWGQ\noHcSj1csDye5i4yN/7CEtEiZJQrMwaEpLnWUuERltyd95AvGIoABp+AvOAw+Ek4V\nIu2pn6w92a4JEysi4RyFMVNZnehB62sSyzETmElZSAvge5HAxfTNhZQCBCMgwUGj\nC+xHXOhR+a2B0kBrja9kdfCpEd0b5OIWZCIutix98jO1TZ87bzL/6iPLYKkPherR\nzOScQULaAeYtpfactsgNH6D3DXZmjZO4/XtbaTLxN77Q6ND1qhhjKPl11AwvhyAc\ndFUVwkeHdBxRGAd+e7dgS4yEXpOLa9tXZAnicSQDmPicEufMWbcpetRbBK/EH++b\nvMiNAVXNRkMS8kpeXUvzkqXI0qMKAwTv2o8UmBlxD2gB1TjWZ/gKEufjhuPr/QBl\n7T+bKJAmBCrkPd9byyxrqUpDJvVdDnMwsv7sFiPxJ30F9O8QFdTzHY6KK8PEfTDZ\nb0uaMzqrYDTQzyAgrgIExEEr0ZPiYe6N6fJPV8Lybb2u7Br2QjH/7aB42NFVxFmj\nS6fymtoFi/PXyM2av1ivad6U20Rwo05mR0+HI1H0g2olOkDZI0cxoB1vN31lybu6\naxNGkEzR8/G7LXI4+5c5WEsERByI+fRgAaeCz1OtPIG+M4RyA4K2AagCy1B0TJgZ\nR4cDhQZ/vGV3/5OWxaRF\n=6ZOt\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b1615e18ea7b236d9e15dff8919ba51773c59c3f\nparent 7d48d9344d7678a71205c04c7ce6ab3c9b5f8495\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750170166 +0000\ncommitter GitHub <noreply@github.com> 1750170166 +0000\n\nもりたさん提案：「競争の度合い」の視点を日本の科学技術力低迷の背景分析に追加",
+          "verified_at": "2025-06-17T14:22:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/79c7839b99fa9ac7e79135ceeb339aca8c154fc8",
+      "html_url": "https://github.com/team-mirai/policy/commit/79c7839b99fa9ac7e79135ceeb339aca8c154fc8",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/79c7839b99fa9ac7e79135ceeb339aca8c154fc8/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7d48d9344d7678a71205c04c7ce6ab3c9b5f8495",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/7d48d9344d7678a71205c04c7ce6ab3c9b5f8495",
+          "html_url": "https://github.com/team-mirai/policy/commit/7d48d9344d7678a71205c04c7ce6ab3c9b5f8495"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-17T15:13:20.378315"
+}
