@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2588,
+    "title": "食料問題に関する記述の具体化と政策例の追加",
+    "state": "open",
+    "created_at": "2025-06-18T06:06:27Z",
+    "updated_at": "2025-06-18T06:06:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2588",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "9b0e01b65e75ffdaf535e69c404fcde133a03503",
+      "filename": "01_チームみらいのビジョン.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 8,
+      "changes": 12,
+      "blob_url": "https://github.com/team-mirai/policy/blob/4bf026138808fd92e773b8c11d69c83c568b71a6/01_%E3%83%81%E3%83%BC%E3%83%A0%E3%81%BF%E3%82%89%E3%81%84%E3%81%AE%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/4bf026138808fd92e773b8c11d69c83c568b71a6/01_%E3%83%81%E3%83%BC%E3%83%A0%E3%81%BF%E3%82%89%E3%81%84%E3%81%AE%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/01_%E3%83%81%E3%83%BC%E3%83%A0%E3%81%BF%E3%82%89%E3%81%84%E3%81%AE%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3.md?ref=4bf026138808fd92e773b8c11d69c83c568b71a6",
+      "patch": "@@ -29,7 +29,7 @@\n \n 　テクノロジーは私たちの一人ひとりの選択肢を持続的に増やしてきました。例えば最初のテクノロジーと言える『火』は加熱を可能にし、食品の栄養価を高め、長期の保存を可能にしました。眼鏡は、視力の悪い方でも支障なくものを見えるようにしてくれます。車椅子は足の不自由な方でも移動をできるようにしてくれます。テクノロジーを使うことで、私たちの選択肢は増えます。一人ひとりの意思をより尊重できるような社会を作れます。\n \n-　また、テクノロジーは人類全体が抱えている地球規模の課題解決に対しても有効です。気候変動やそれに伴う食料問題、エネルギー問題、増大するパンデミックリスクなど、私たちの世界は地球レベルでたくさんの課題を抱えています。経済成長と持続可能性を両立するには、科学技術の進展が必要不可欠です。\n+　また、テクノロジーは人類全体が抱えている地球規模の課題解決に対しても有効です。気候変動やそれに伴う食料問題（例えば、国内での安定供給が重要となるコメについては『コメマップ』のような構想で生産・供給を最適化したり、資源減少が懸念される水産資源についてはテクノロジーで持続可能な漁業を支援するなど）、エネルギー問題、増大するパンデミックリスクなど、私たちの世界は地球レベルでたくさんの課題を抱えています。経済成長と持続可能性を両立するには、科学技術の進展が必要不可欠です。\n \n 　私たちは科学技術を推し進め、技術を良い方向に使うことで、誰も取り残さない未来を作ることができると考えています。\n \n@@ -57,7 +57,7 @@\n \n 　第二に**変化に対応できる、しなやかな仕組みづくり**です。アメリカの政権交代、世界各地での戦争など、世界は急速に変化しています。また、AIの指数関数的な性能向上は社会のあらゆる構造に影響します。こういった不確実性の高い場面では、変化に迅速に対応できるしなやかさこそ重要です。かつては考えられなかったような政策も、テクノロジーの力によって実現可能になると考えています。今の税制、教育、医療制度などは細かい事情まで考慮できないことを前提に作られたシステムですが、AIはより複雑な現実の事情に照らし合わせた高度な判断を出来るようになりつつあります。\n \n-　例えば、以下のような政策が考えられます。\n+㠠例えば、以下のような政策が考えられます。\n \n * 経済財政運営におけるシナリオプランニングの強化を行う。例えば、AGI（人間並みの知能を持つAI）が早期に開発され産業に大きなインパクトがあった場合にどうすべきか、事前に検討を行い即座に大胆な対策を講じれるようにする  \n * ブロードリスニングの技術を使い継続的に解像度高く国民の意見・アイデアを集めることができるデジタル民主主義の実践  \n@@ -81,14 +81,10 @@\n \n 　「考えがまだまとまっていないではないか」とご批判を受けるリスクを積極的に取りながら、現時点の未熟なバージョンの公開に踏み切ります。なぜそうするかといえば、批判の目をたくさん入れ、意見を取り入れてゆくことが最も良い政策を作るやり方だと思うからです。また、これはシンプルな多数決のように「意見が多いものを取り入れる」ということではありません。意見は聞きますし、プロセスの透明化も行いますが、あくまで意思決定は既存政党と同様にチームみらいの人が行います。これは、責任を取れる『人』が主体となって判断をすることが重要であるという価値観に基づくものです。\n \n-　作業中の箇所もたくさんあるため、議論の結果、これらのマニフェストの内容がまだ大きく変わる可能性がある点はご理解いただけますと幸いです。\n+㠠作業中の箇所もたくさんあるため、議論の結果、これらのマニフェストの内容がまだ大きく変わる可能性がある点はご理解いただけますと幸いです。\n \n ### （ご参考）党議拘束についての考え方\n \n 　チームみらいはフルパッケージ政党でもシングルイシュー政党でもなく、その中間の争点特化型政党を志向しています。それゆえ、この政策集で掲げた各論点の政策やビジョンについては、実現のために党を挙げて取り組み、党議拘束もかけてまいります。また、予算案や首相指名、内閣不信任案および緊急度・重要度の高い法案についても、党が掲げるビジョンや政策の実現のために一致して行動します。その一方で、政策集でビジョンや政策をお示ししていない論点の法案については、党として原則的に賛否を拘束しない立場をとり、各議員の自由投票を認めます。\n \n-　チームみらいが上記のようなスタンスを取る理由は、「選挙公約の実現に責任を持つため」です。すべての政策に党議拘束をかけるのではなく、公約としてお約束したビジョンや政策の実現のために結束することで、国民の皆さまからのご期待に責任を持って応えます。公約外の論点については幅広い議論を受け入れ、政策ごとに勉強会や討論を経て、最終的には議員の主体性に任せることで、党の透明性や民主性を高めます。\n-\n-\n-\n-\n+　チームみらいが上記のようなスタンスを取る理由は、「選挙公約の実現に責任を持つため」です。すべての政策に党議拘束をかけるのではなく、公約としてお約束したビジョンや政策の実現のために結束することで、国民の皆さまからのご期待に責任を持って応えます。公約外の論点については幅広い議論を受け入れ、政策ごとに勉強会や討論を経て、最終的には議員の主体性に任せることで、党の透明性や民主性を高めます。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "4bf026138808fd92e773b8c11d69c83c568b71a6",
+      "node_id": "C_kwDOOqTJvNoAKDRiZjAyNjEzODgwOGZkOTJlNzczYjhjMTFkNjljODNjNTY4YjcxYTY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-18T06:05:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-18T06:05:08Z"
+        },
+        "message": "食料問題に関する記述を更新（長兵衛さん）",
+        "tree": {
+          "sha": "78562a5a23f30cbf20be53786893db153df8a652",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/78562a5a23f30cbf20be53786893db153df8a652"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/4bf026138808fd92e773b8c11d69c83c568b71a6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUlcUCRC1aQ7uu5UhlAAA2/QQAGGPDB/U1lw8r28P6fkljw+n\nN928z0TWg66hmKuG+0HxYhtSdQ0wlLwUY47tLldLAqrWTQqK/lvcTbwDIC0Ydtnv\nqwBzNnAowfQA75dlymoNjW7Bzq8hRwbAd2KCvy2XW94UKPvdd7n6pQ0Q/BxZi++5\n4DZrnijX3eStILAXevsWYqy8XMbjb1lzzyd6x/VW9SNYq4aVacwYtuokF7tIad42\nOxMprm/BDUmwz48mpzJvxPmGK2Bv9KldMfKPuqVA/C2Yv+cPjUBnMpPZTDQbtpSc\nLP56cVW7Bg+QPTLhSM5g4zSGaivXMHrMR1+hsSLNm38z5X6vd8qxDukPjPIV5ZK3\n4zNV8k+clooV0kgtZOOTktsv0yygwWr2RiE2vObL+nkv65etflKONF03t0Uqsg6s\nlJ2W6s77ItnYSiVpZ7elR1Y42DxIvjj7b6bh48fBrw1OdgaAOSZYvyVpbxTwjFlQ\nxtBfgn6BsxDacJDTuddU+DY8sL7YFI6M6JEr3VrZkcXBsqBadhJ/DZXmFTCZZG8Q\nl0DgznEqEFyfPBWnedsqa1FloWizWImdOz+xqSMMiVTFhG7kH9FDL/viuLu5XdD1\nIasCIgh9Jl0/+ixQZoFpc88dcYrE7/kUCuw4YQl2UQd+SiR38OUtxcxTJQ/ye7Jd\nkd/GduJjoVJEcytkQi2v\n=NMoD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 78562a5a23f30cbf20be53786893db153df8a652\nparent 530abbb6225cd1d7f6136e3a602ac09e9b7a105d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750226708 +0000\ncommitter GitHub <noreply@github.com> 1750226708 +0000\n\n食料問題に関する記述を更新（長兵衛さん）",
+          "verified_at": "2025-06-18T06:05:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/4bf026138808fd92e773b8c11d69c83c568b71a6",
+      "html_url": "https://github.com/team-mirai/policy/commit/4bf026138808fd92e773b8c11d69c83c568b71a6",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/4bf026138808fd92e773b8c11d69c83c568b71a6/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "html_url": "https://github.com/team-mirai/policy/commit/530abbb6225cd1d7f6136e3a602ac09e9b7a105d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-18T06:18:22.442183"
+}
