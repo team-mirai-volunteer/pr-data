@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 2600,
+    "title": "【しろな提案】実感に即した国民負担率の新しい指標を追加",
+    "state": "open",
+    "created_at": "2025-06-18T09:52:36Z",
+    "updated_at": "2025-06-18T09:52:37Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2600",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "785effda9e0680d77db932faeed6f0013c120ad9",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 1,
+      "changes": 27,
+      "blob_url": "https://github.com/team-mirai/policy/blob/3d336ba0d13fc2ac7269e9976c16772672305943/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/3d336ba0d13fc2ac7269e9976c16772672305943/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=3d336ba0d13fc2ac7269e9976c16772672305943",
+      "patch": "@@ -169,7 +169,7 @@\n ### 現状認識・課題分析\n \n * 投票率は低下しているが、制度は硬直的  \n-  * 多くの行政手続きがオンライン化された一方、投票行為は紙と対面が原則のままです。  \n+  * 多くの行政手続きがオンライン化된一方、投票行為は紙と対面が原則のままです。  \n * 自治体現場の逼迫  \n   * ミスの許されない開票業務、休日・深夜にわたる開票業務は職員の負担となっています。また、過疎化や立会人確保の難しさによる投票所の減少や受付時間の短縮が起きており、現行制度のままだと投票機会の確保が難しくなります。  \n * 投票の公平性リスク  \n@@ -228,3 +228,28 @@\n * 緊急時ハイブリッド議会\n   * 大規模災害・感染症流行時に限り、議員の遠隔出席と電子投票を許可する方向での検討を進めます。\n   * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n+\n+## ８）実感に即した「国民負担率」指標の導入\n+\n+### 現状認識・課題分析\n+\n+* 現行の「国民負担率」は、租税および社会保険料の合計を国民所得で割った数値を使用しており、**最低生活費などを控除しない形式**のため、国民の体感的な負担感とかけ離れているという指摘があります。\n+* 現行指標：国民負担率 = （租税負担額 + 社会保険料負担額） ÷ 国民所得 × 100\n+* この定義では、実際の可処分所得や最低限の生活水準を考慮せず、特に**生活困窮層では極端に高い体感負担**となり、政策設計との乖離が生じています。\n+* 可処分所得を分母とする「実感ベース」の負担率導入によって、**制度持続性の限界検出や再配分政策の見直し指標**としての活用が可能になります。\n+\n+### 政策概要\n+\n+* 新たに以下の補助指標を導入します（仮称：「実感国民負担率」）：\n+**提案指標**：実感国民負担率 = （租税負担額 + 社会保険料負担額） ÷ （国民所得 - 必要最低限の生活費） × 100\n+* 「必要最低限の生活費」の定義については以下の指標をベースに、複数の算出方式を比較・検証します：\n+  - 厚生労働省による「生活扶助基準」または「最低生活費」\n+  - OECD基準に基づく「相対的貧困線（中央値の50%）」\n+  - 総務省家計調査を基にした生存支出の推計\n+  - 地域別生活保護基準を活用した地理補正付きモデル\n+* この指標は、次の機能を持ちます：\n+  - **制度破綻点の可視化**：分母がゼロまたはマイナスに近づくことで制度上の危険領域を数値で把握可能\n+  - **国民との整合性ある政策広報**：負担の実感に即した説明が可能\n+  - **階層別シミュレーション**：所得階層ごとの「実効負担率」可視化による再分配効果の検証\n+* 両指標を併記したダッシュボードを構築し、国民が政策影響をシミュレートできる設計とします。\n+* 式の構成要素、計算根拠、最低生活費の定義基準等を政策GitHubで公開し、透明性と改良余地を担保します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "ff5c7a739b0b6afaf29d57f0a9d832e69179849c",
+      "node_id": "C_kwDOOqTJvNoAKGZmNWM3YTczOWIwYjZhZmFmMjlkNTdmMGE5ZDgzMmU2OTE3OTg0OWM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-18T09:34:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-18T09:34:07Z"
+        },
+        "message": "しろなさんの提案に基づき、「実感国民負担率」の項目を追加",
+        "tree": {
+          "sha": "d57b4640325e9a3ced6287bcb18723abd24bc85c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d57b4640325e9a3ced6287bcb18723abd24bc85c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ff5c7a739b0b6afaf29d57f0a9d832e69179849c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUogQCRC1aQ7uu5UhlAAArSEQAHm1+Y88wpueerjOlVrPFP1O\n+6JwfybV/nsRFzQqDHufga4dADZc3IBIIECrSzR0nlumt7cX+8QFCoR6IB1lkdeB\n+dFIBox54xBQ/cKgtxnRX1Fm+BeTPKlBHof+3nubFUIxghkOmHZZG6mun11dyD6o\nlEIGv7wVT7NfvIwPotO8W/aFvlC0++UzoX/EagXLOXurs6SmpQwP1PlKG8r3nOF0\nMxdaIHJKjVscDvi4N86lhXrl5m89TbSorhBOXJeVF47ME3Gt7uuUiJB/Z1G3TbDU\nX2pC7DyTzhXMTKCJX4PlORF1fn1SaOqLTYEWtRjWYUrVPdqX4P7CUTD9JA4hRaKf\nL1+YvMuvmah6bUaUodFoRzPgsQIl7BhkHVOFUiwGlbnx2HSw+PGdU0HmCiikKt7N\nFZ5Y1NFm/dt2rKxP1E1zSOwL6ki78vT5p/RAN4Z9B5sJ5mdTEyyS57/9oRYA30EN\n9FvJOINcv7ruoLb3TJgo+UMxRdDIWjyDz8bcT904915gZozqVZ24XoKjT1IzGQuV\nZFcKZpw5J0Vru4wR1cdLecpagUHyu4IsAiUC8hqDnuwGXM0AAuyqy2lsxZo2n84e\n5sSLHYsfufyBkmn0OK/9xWY6RobBg6t3JXCGmtyqY1L0jF6vSeQjiSFaPoUeLC5O\nGSmHhsf2My014Qw6IjhX\n=ClWS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d57b4640325e9a3ced6287bcb18723abd24bc85c\nparent 530abbb6225cd1d7f6136e3a602ac09e9b7a105d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750239247 +0000\ncommitter GitHub <noreply@github.com> 1750239247 +0000\n\nしろなさんの提案に基づき、「実感国民負担率」の項目を追加",
+          "verified_at": "2025-06-18T09:34:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ff5c7a739b0b6afaf29d57f0a9d832e69179849c",
+      "html_url": "https://github.com/team-mirai/policy/commit/ff5c7a739b0b6afaf29d57f0a9d832e69179849c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ff5c7a739b0b6afaf29d57f0a9d832e69179849c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "html_url": "https://github.com/team-mirai/policy/commit/530abbb6225cd1d7f6136e3a602ac09e9b7a105d"
+        }
+      ]
+    },
+    {
+      "sha": "68ac6615d18a7586d6b6f85581d0d32036803c96",
+      "node_id": "C_kwDOOqTJvNoAKDY4YWM2NjE1ZDE4YTc1ODZkNmI2Zjg1NTgxZDBkMzIwMzY4MDNjOTY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-18T09:39:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-18T09:39:13Z"
+        },
+        "message": "しろなさんの提案に基づき、「実感国民負担率」の項目を追加",
+        "tree": {
+          "sha": "03b001fb8038b89c1b7bf3ab48619fc0fe1aa598",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/03b001fb8038b89c1b7bf3ab48619fc0fe1aa598"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/68ac6615d18a7586d6b6f85581d0d32036803c96",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUolBCRC1aQ7uu5UhlAAASWQQADaPffRbQ/NyoWRvH9UcY/co\nYyQVkSDVmJdjYguc/eacZJ/adw1IvwrVszXnKlwA9JUenAqMbjLjGRbZJ3dFZkq3\nlKgYlHzEIqGn8HxecmBA8Jc3fY4WQZUCLZm921OKpURNJ2Lhg0oCOFYFzJgVmB1N\nLtPs5BfZcB1ZFlhAlZwmWqGmA9mLr64kHvTusF3vOiSmC/YRsmETYZkvVIHtlDFQ\n/ARcGg4zmPZdEm8pKj69ASTFO3Quy4NuZF6Bx9vSDtMi5GgcN1HeGuOE/oFXvCuh\ncF6fhlsR5vk301LepIEMnrqxWAqskPU6Ssqf35EMJy4S4Vi6rWEQW1jaTn3XdTjn\nS2k2UUre/jLKZQ98pHUiTK8+k9IuBn2JtzY1gpzOHSMapUfvizL6WZtCUcvL1zUP\nMtfY2YGB0vuB665FQ8LV0JSiZu3jyU69+Tp+vW1dDXm8TiVYpLPdU5n5GQAOncSq\n4iovK681sOLq61qIMqYWBAuB6oeOvJJvy3B1ByiahI6nvcx8FhP9YFjaBR5OuxN3\nSyNR2tDML0+4d3IPKGp3cipwh/JWXadIw2bds5yKxKTWRbr3O9DDnjtqiA7OYA5p\ngeGNkmv+1+oePkgobCLKubqpO8xmo2s3fw6zLeh5OGliSzWn8H8T+2uRy1pxS3yC\n4nuF6ToB/rImjbsdarDp\n=tlAd\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 03b001fb8038b89c1b7bf3ab48619fc0fe1aa598\nparent ff5c7a739b0b6afaf29d57f0a9d832e69179849c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750239553 +0000\ncommitter GitHub <noreply@github.com> 1750239553 +0000\n\nしろなさんの提案に基づき、「実感国民負担率」の項目を追加",
+          "verified_at": "2025-06-18T09:39:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/68ac6615d18a7586d6b6f85581d0d32036803c96",
+      "html_url": "https://github.com/team-mirai/policy/commit/68ac6615d18a7586d6b6f85581d0d32036803c96",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/68ac6615d18a7586d6b6f85581d0d32036803c96/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ff5c7a739b0b6afaf29d57f0a9d832e69179849c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ff5c7a739b0b6afaf29d57f0a9d832e69179849c",
+          "html_url": "https://github.com/team-mirai/policy/commit/ff5c7a739b0b6afaf29d57f0a9d832e69179849c"
+        }
+      ]
+    },
+    {
+      "sha": "3d336ba0d13fc2ac7269e9976c16772672305943",
+      "node_id": "C_kwDOOqTJvNoAKDNkMzM2YmEwZDEzZmMyYWM3MjY5ZTk5NzZjMTY3NzI2NzIzMDU5NDM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-18T09:42:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-18T09:42:14Z"
+        },
+        "message": "しろなさんの提案に基づき、「８）実感に即した「国民負担率」指標の導入」のセクションを追加（数式修正版）",
+        "tree": {
+          "sha": "88a5320380ffb1de40bfbe05f6a98b73be09470f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/88a5320380ffb1de40bfbe05f6a98b73be09470f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3d336ba0d13fc2ac7269e9976c16772672305943",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoUon2CRC1aQ7uu5UhlAAAlYIQAE5KwCqqc2paPueDVJyXB27T\n10c0OQ7SfzE6TUx3xDkq1pk3rx49/foNcqMxSS5wzrcyKFRlKLC+RH71tOn5zbRD\nUA8ac3MJN4N5b0UVBrXZW/BITpGWMrXOdxfp35nsKjSXBjqaHG+ko+FIqtuupf4w\n669NWAIiPM3dEXoh/CABFniZyfrPpeBHBIoszHLdd2u8kcmi9lgp/KJMhu+VmmW6\nFln/Dlx5YLq5KGZszquIX5nKGtLpYF7FjrHoL6VJSjmHtQ4tCrYsfHs72t6f+55Q\nO/vpjPUhsN/qyMW6vmEFi/KMp/Ly4ly0/Ts1RCyd7K6D+vP6wGAHGuRNz3ABap5J\nDueVTh9VyP+mcfgDDbFN6F1QG570asME0WcW/te7hMm6IqhEvhSNWpi5hciM/HMK\nliFx8nrcBzbwtG8uMyeJjurIbDtmxnE7LoQATwf0+TrBMP5qzLQ7+yJGGJrtVltn\nYahUe0YP+yiVIj0rtAGvCHP9KGw2kbSA/b2U3p+F0+UiyuEgBk7lyTL2U5GSrAV6\nXnbqSntT5qiQF1oaSBmGLkbmv237bsyUNTv46oRSjAP5m1Oi0MGGnOY7nA4YKMwJ\nwixh2SIJxqSv3Mstp+q3qSatF71nRSfOO7x+VIg/C1+HQdYbS/tx2V/mvGKgGRu9\nCc85ESxDnkK52u6bAC8X\n=7jkZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 88a5320380ffb1de40bfbe05f6a98b73be09470f\nparent 68ac6615d18a7586d6b6f85581d0d32036803c96\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750239734 +0000\ncommitter GitHub <noreply@github.com> 1750239734 +0000\n\nしろなさんの提案に基づき、「８）実感に即した「国民負担率」指標の導入」のセクションを追加（数式修正版）",
+          "verified_at": "2025-06-18T09:42:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3d336ba0d13fc2ac7269e9976c16772672305943",
+      "html_url": "https://github.com/team-mirai/policy/commit/3d336ba0d13fc2ac7269e9976c16772672305943",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3d336ba0d13fc2ac7269e9976c16772672305943/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "68ac6615d18a7586d6b6f85581d0d32036803c96",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/68ac6615d18a7586d6b6f85581d0d32036803c96",
+          "html_url": "https://github.com/team-mirai/policy/commit/68ac6615d18a7586d6b6f85581d0d32036803c96"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-18T10:13:37.529429"
+}
