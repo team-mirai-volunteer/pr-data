@@ -2,11 +2,11 @@
   "basic_info": {
     "number": 192,
     "title": "keinaikiさんによる子育て支援策の改善提案：デジタル母子パスポート機能強化とケアと仕事の両立支援",
-    "state": "open",
+    "state": "closed",
     "created_at": "2025-05-16T11:47:29Z",
-    "updated_at": "2025-05-19T13:49:10Z",
-    "closed_at": null,
-    "merged_at": null,
+    "updated_at": "2025-06-01T10:14:10Z",
+    "closed_at": "2025-06-01T10:14:10Z",
+    "merged_at": "2025-06-01T10:14:10Z",
     "html_url": "https://github.com/team-mirai/policy/pull/192",
     "user": {
       "login": "idobata-policy-app[bot]",
@@ -29,16 +29,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "78a91cef0daf8ab2829cdd95fae8fc53b1c29e96",
+      "sha": "eec690e392121ff67cace1e3c2edbe57a0da4b45",
       "filename": "12_ステップ１子育て.md",
       "status": "modified",
-      "additions": 2,
+      "additions": 1,
       "deletions": 2,
-      "changes": 4,
-      "blob_url": "https://github.com/team-mirai/policy/blob/bc1fed00021c90990ef8a20886f29bfd12981354/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/bc1fed00021c90990ef8a20886f29bfd12981354/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=bc1fed00021c90990ef8a20886f29bfd12981354",
-      "patch": "@@ -23,7 +23,7 @@\n   * 子ども家庭庁で検討されている母子保健DXの動きを強く推進します。  \n * これにより、スマートフォン等からいつでもアクセス可能となり、つわりの時期などに無理して役所の窓口等へ行く必要がなくなります。  \n * 妊婦健診の受診券・補助券も、対象者に自動的にデジタル付与する仕組みを構築し自治体に提供することで、手続きの手間を省きます。医師の診断情報を基に、必要な人に必要な回数の補助がいきわたる仕組みを構築します。なお、現在一部自治体のみにとどまっている「妊婦健診は原則全額公費負担」の拡大を目指し、必要財源の確保や国から自治体への交付の最適化を検討します。  \n-* 産後の予防接種スケジュールもパスポート内で管理し、適切な時期にプッシュ通知でお知らせできる仕組みを提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n+* 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n \n ## ２）AIと専門家によるハイブリッド型育児相談ポータルを設置します\n \n@@ -33,6 +33,7 @@\n * また、育児の悩みや不安を抱えていても、「誰に相談すれば良いかわからない」「些細なことかもしれない」と感じ、一人で抱え込んでしまう保護者は少なくありません。自治体では様々なサポート体制を構築していますが、相談窓口に行くまでの外出準備や子どもを連れて移動する負担などを考えると、なかなか一歩が踏み出せないケースも少なくありません。  \n * また、男性の育児参加が進む一方で、男性特有の育児ストレスや悩みに対応する支援が不足しており、支援の狭間に落ちやすいという課題も指摘されています。  \n * 地域では保健師等による全戸訪問などの取り組みもされていますが、日程調整難や家庭からの訪問拒否等により、訪問できない世帯がある自治体が半数程度あります。「問題はないため訪問は不要」などと保護者が主張するケースもあり、本当にリスクのある事象を取りこぼす恐れもあります。より効果・効率を上げるべく、テクノロジーの力も組み合わせたアプローチが必要と考えます。\n+* さらに、子どもの人数が多い家庭では、病気の子どもの看護のために仕事を休む必要性が増え、年次有給休暇だけでは対応しきれない現状があります。同時に、今後ますます深刻化が予想される親の介護の問題も、子育て世代が直面しうる Makarna課題です。誰もが、子育てや介護といった家族のケアと仕事とを両立できるよう、状況に応じた柔軟な休暇制度の設計が求められます。これは、目先の負担軽減だけでなく、将来の社会保障制度を支える貴重な人材である子どもたちを健やかに育む環境を整備するという、未来への投資でもあります。このような認識を社会全体で共有し、全ての人にとって納得感のある支援のあり方を議論していく必要があります。\n \n ### 政策概要\n \n@@ -56,4 +57,3 @@\n * これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n * 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n-"
+      "changes": 3,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ca0f660e834d680ab4408935e282de018388a963/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ca0f660e834d680ab4408935e282de018388a963/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=ca0f660e834d680ab4408935e282de018388a963",
+      "patch": "@@ -23,7 +23,7 @@\n   * 子ども家庭庁で検討されている母子保健DXの動きを強く推進します。  \n * これにより、スマートフォン等からいつでもアクセス可能となり、つわりの時期などに無理して役所の窓口等へ行く必要がなくなります。  \n * 妊婦健診の受診券・補助券も、対象者に自動的にデジタル付与する仕組みを構築し自治体に提供することで、手続きの手間を省きます。医師の診断情報を基に、必要な人に必要な回数の補助がいきわたる仕組みを構築します。なお、現在一部自治体のみにとどまっている「妊婦健診は原則全額公費負担」の拡大を目指し、必要財源の確保や国から自治体への交付の最適化を検討します。  \n-* 産後の予防接種スケジュールもパスポート内で管理し、適切な時期にプッシュ通知でお知らせできる仕組みを提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n+* 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n \n ## ２）AIと専門家によるハイブリッド型育児相談ポータルを設置します\n \n@@ -56,4 +56,3 @@\n * これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n * 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n-"
     }
   ],
   "commits": [
@@ -205,7 +205,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/64d201e8106ff79e801752c54c1a2e51134534e6"
         }
       ]
+    },
+    {
+      "sha": "ca0f660e834d680ab4408935e282de018388a963",
+      "node_id": "C_kwDOOqTJvNoAKGNhMGY2NjBlODM0ZDY4MGFiNDQwODkzNWUyODJkZTAxODM4OGE5NjM",
+      "commit": {
+        "author": {
+          "name": "tokshibata",
+          "email": "48014497+tokshibata@users.noreply.github.com",
+          "date": "2025-06-01T10:12:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-01T10:12:14Z"
+        },
+        "message": "Update 12_ステップ１子育て.md\n\n休暇についてはステップ３で集約するためここからは削除させていただく。内容は党の方針と合致するものであり、ステップ３で取り入れさせていただく",
+        "tree": {
+          "sha": "beba2bba5f11d04e83068c3e4cc9a8c7118a92d8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/beba2bba5f11d04e83068c3e4cc9a8c7118a92d8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ca0f660e834d680ab4408935e282de018388a963",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoPCd+CRC1aQ7uu5UhlAAAaPIQAAhGy+8mUVnOXPJOhFpGJgWK\nOTG0YaiTywffEstBw9c9ZWMpbdcBn9IFf7shCiqdPK8p8Inlamku1sWL4FQGheLY\nOxQOCjpooK+vIietLastPjI5dOsIga5TeT2nHHAu4gBae79LHKymG9h71EL1YtfJ\n0MpGLZi07oafbg9rLfn5FAHyPUOM1vpqs9N5k0xRdkd5IgAPUMpAvetVRjwLO4Cx\nLAug6mZQMoRZGzVmeoMzQ+JQvejaoiA6pCwwmQQE84GdH7w6cttlvtaJJf/b2x13\nkeI2M7rtILmAf0xE5QycJzg0uvdwqFs7uSHEnSHE3/qba5ebpQf+W1Cvtvyl+c9C\njAzyzVTPY6WIvZ8b4wh6NdNhHPx53CTpmKOs50F0GT/+U9gWdqal7iOz33mbYw+n\neLZMbI7BLYtcIXd/f3fiaikPrE6xb5YxjR3pO2IigS697+DBINkyVIGU2CBJP3Rq\nCFC8e6D1hICKCuB9lI4FDB9mFsJBlBifGYiu6R05QVEi5X16dLB51xLXPdC+Gt3O\nrkX5nqV4LoY9oCK8jRYsfC6TuWdAT1BU0XnJdxTJulMe6k9qTXMx+PoNgCZIu8Jd\nRdTGoV0UjPLogvCcP9V/3mItTTYJsTJkJ0Uef/pZs60Nvf5A0hBOpcW881uNU1KI\nmKVtZ5o/I5ERMNyAEPFj\n=LnuA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree beba2bba5f11d04e83068c3e4cc9a8c7118a92d8\nparent bc1fed00021c90990ef8a20886f29bfd12981354\nauthor tokshibata <48014497+tokshibata@users.noreply.github.com> 1748772734 +0900\ncommitter GitHub <noreply@github.com> 1748772734 +0900\n\nUpdate 12_ステップ１子育て.md\n\n休暇についてはステップ３で集約するためここからは削除させていただく。内容は党の方針と合致するものであり、ステップ３で取り入れさせていただく",
+          "verified_at": "2025-06-01T10:12:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ca0f660e834d680ab4408935e282de018388a963",
+      "html_url": "https://github.com/team-mirai/policy/commit/ca0f660e834d680ab4408935e282de018388a963",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ca0f660e834d680ab4408935e282de018388a963/comments",
+      "author": {
+        "login": "tokshibata",
+        "id": 48014497,
+        "node_id": "MDQ6VXNlcjQ4MDE0NDk3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/48014497?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/tokshibata",
+        "html_url": "https://github.com/tokshibata",
+        "followers_url": "https://api.github.com/users/tokshibata/followers",
+        "following_url": "https://api.github.com/users/tokshibata/following{/other_user}",
+        "gists_url": "https://api.github.com/users/tokshibata/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/tokshibata/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/tokshibata/subscriptions",
+        "organizations_url": "https://api.github.com/users/tokshibata/orgs",
+        "repos_url": "https://api.github.com/users/tokshibata/repos",
+        "events_url": "https://api.github.com/users/tokshibata/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/tokshibata/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bc1fed00021c90990ef8a20886f29bfd12981354",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/bc1fed00021c90990ef8a20886f29bfd12981354",
+          "html_url": "https://github.com/team-mirai/policy/commit/bc1fed00021c90990ef8a20886f29bfd12981354"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-05-31T10:51:00.152319"
+  "collected_at": "2025-06-18T04:28:27.789767"
 }
