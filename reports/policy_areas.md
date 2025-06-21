@@ -2,22 +2,22 @@
 
 ## 目次
 
-- [その他](#その他) (599件)
-- [エネルギー](#エネルギー) (166件)
-- [デジタル民主主義](#デジタル民主主義) (409件)
-- [医療](#医療) (231件)
-- [子育て](#子育て) (299件)
-- [教育](#教育) (465件)
-- [産業](#産業) (435件)
-- [科学技術](#科学技術) (209件)
+- [その他](#その他) (612件)
+- [エネルギー](#エネルギー) (169件)
+- [デジタル民主主義](#デジタル民主主義) (411件)
+- [医療](#医療) (235件)
+- [子育て](#子育て) (304件)
+- [教育](#教育) (467件)
+- [産業](#産業) (437件)
+- [科学技術](#科学技術) (211件)
 - [経済財政](#経済財政) (284件)
-- [行政改革](#行政改革) (469件)
+- [行政改革](#行政改革) (473件)
 
 ---
 
 ## その他
 
-### オープン (549件)
+### オープン (561件)
 
 - [PR #1203](https://github.com/team-mirai/policy/pull/1203) ジェンダーギャップ解消に向けた具体的な政策（地方自治体職員への研修等）の追加提案（はるさんより）
 - [PR #405](https://github.com/team-mirai/policy/pull/405) 【伊藤修人さん提案】防災庁の機能強化：実働部隊の創設と消防団・民間協力体制の再構築による災害対応能力の向上
@@ -35,6 +35,7 @@
 - [PR #630](https://github.com/team-mirai/policy/pull/630) 永田町エンジニアチームの採用基準を明確化
 - [PR #1181](https://github.com/team-mirai/policy/pull/1181) 【煮凝りさん提案】同性婚の法制化に関する記述を更新し、不合理な区別の解消を目指す
 - [PR #1774](https://github.com/team-mirai/policy/pull/1774) ステップ1およびステップ2の目次に社会保障制度の項目追加 (川村 正春さん提案)
+- [PR #2684](https://github.com/team-mirai/policy/pull/2684) マニフェスト改善提案への対応方針の改訂：意見収集範囲の拡大と安全性への配慮
 - [PR #1268](https://github.com/team-mirai/policy/pull/1268) チームみらいのマスコットキャラクターにグループ制を採用案🐶😺
 - [PR #1831](https://github.com/team-mirai/policy/pull/1831) マニフェスト改善提案：ステップ１に情報セキュリティ項目を追加
 - [PR #631](https://github.com/team-mirai/policy/pull/631) パーソナルAIアシスタント導入による個人の能力拡張支援の提案
@@ -53,6 +54,7 @@
 - [PR #873](https://github.com/team-mirai/policy/pull/873) 宮内 翼さんによる政策案改善提案：成長戦略の明確化、持続可能な社会への視点強化、及びAIリテラシー格差解消策の拡充
 - [PR #2030](https://github.com/team-mirai/policy/pull/2030) 障害者福祉の充実と地域移行の推進（井上さんご提案）
 - [PR #925](https://github.com/team-mirai/policy/pull/925) コストの全体最適化
+- [PR #2708](https://github.com/team-mirai/policy/pull/2708) 引きこもり支援の強化：オンライン連携とプッシュ型情報提供の提案
 - [PR #2539](https://github.com/team-mirai/policy/pull/2539) 匿名ユーザーによる防衛戦略に関する記述の追加提案
 - [PR #163](https://github.com/team-mirai/policy/pull/163) 地方創生に関する大項目名の変更
 - [PR #1063](https://github.com/team-mirai/policy/pull/1063) りすくさんによる憲法改正に関する提案の追加
@@ -107,6 +109,7 @@
 - [PR #1742](https://github.com/team-mirai/policy/pull/1742) UI/UX改善：誰もがテクノロジーを活用できるためのサポート体制を明記
 - [PR #737](https://github.com/team-mirai/policy/pull/737) AI対話システムの情報源に関する注意喚起をマニフェスト冒頭に追記
 - [PR #2509](https://github.com/team-mirai/policy/pull/2509) 新章「７．社会制度の現代化と倫理的課題への対応」の追加
+- [PR #2687](https://github.com/team-mirai/policy/pull/2687) 動物福祉向上に向けたテクノロジー活用策の追加
 - [PR #2626](https://github.com/team-mirai/policy/pull/2626) 外交・防衛策の強化：人権に配慮した情報保護法整備の検討
 - [PR #1542](https://github.com/team-mirai/policy/pull/1542) matsumotoさんによる社会保障政策の追加提案
 - [PR #1521](https://github.com/team-mirai/policy/pull/1521) あさんによる政策案「01_チームみらいのビジョン.md」の改善提案：表現の明確化と冗長な部分の削除
@@ -121,6 +124,7 @@
 - [PR #2629](https://github.com/team-mirai/policy/pull/2629) マニフェストの主要ビジョンと3ステップの表現を改善
 - [PR #1999](https://github.com/team-mirai/policy/pull/1999) 変更提案の受付範囲を明確化し、初期段階の意見収集を促進
 - [PR #955](https://github.com/team-mirai/policy/pull/955) たばこ対策の強化に関する政策提案
+- [PR #2694](https://github.com/team-mirai/policy/pull/2694) マイナンバーカードについての個人情報等の懸念に対応する基本方針の明記
 - [PR #2635](https://github.com/team-mirai/policy/pull/2635) 不法滞在者を明確にする対策法
 - [PR #2435](https://github.com/team-mirai/policy/pull/2435) 政策提案における3つの柱の順序変更
 - [PR #1876](https://github.com/team-mirai/policy/pull/1876) ひろひろさんの提案によるマニフェスト目次構成の大幅な刷新
@@ -197,6 +201,7 @@
 - [PR #98](https://github.com/team-mirai/policy/pull/98) 【光さん提案】マニフェストに安全保障に関する項目と思想を追加
 - [PR #1328](https://github.com/team-mirai/policy/pull/1328) 政策ビジョン文書の冒頭部分改訂：問題提起の明確化とテクノロジー活用の視点整理
 - [PR #2076](https://github.com/team-mirai/policy/pull/2076) コロナ禍施策検証の具体例追加による100日プランの強化
+- [PR #2709](https://github.com/team-mirai/policy/pull/2709) 税制の公平性に関する議論の深化と国民的議論の喚起
 - [PR #2518](https://github.com/team-mirai/policy/pull/2518) 【りす改善提案】福祉分野における所得制限撤廃の追加
 - [PR #1152](https://github.com/team-mirai/policy/pull/1152) 匿名ユーザー提案：「生活音漏れ問題への対策強化」を政策に追加
 - [PR #1177](https://github.com/team-mirai/policy/pull/1177) 重要政策分野に関する項目追加の提案（安楽死制度・人工林管理）
@@ -250,6 +255,7 @@
 - [PR #2506](https://github.com/team-mirai/policy/pull/2506) mabarasujiさん提案：EDINET API改善の具体例をマニフェストに追記
 - [PR #637](https://github.com/team-mirai/policy/pull/637) 消費税に関する検討姿勢の追記
 - [PR #1589](https://github.com/team-mirai/policy/pull/1589) りすくさんの提案：インフラ整備の章を新設し、道路・鉄道建設推進を明記
+- [PR #2691](https://github.com/team-mirai/policy/pull/2691) 農業政策に関する章を新設し、内容を拡充する提案
 - [PR #309](https://github.com/team-mirai/policy/pull/309) AIの将来的な能力に関する記述の精度向上（ネイビーさん提案）
 - [PR #691](https://github.com/team-mirai/policy/pull/691) Nakaさんによる「国政政党成立後100日プラン」の方針追記
 - [PR #2588](https://github.com/team-mirai/policy/pull/2588) 食料問題に関する記述の具体化と政策例の追加
@@ -269,6 +275,7 @@
 - [PR #898](https://github.com/team-mirai/policy/pull/898) WIP: Changes for idobata-u1raq1
 - [PR #686](https://github.com/team-mirai/policy/pull/686) 海外留学支援策の追加による国際的人材育成の強化
 - [PR #2169](https://github.com/team-mirai/policy/pull/2169) 【鯖猫提案】防衛政策の更新：抑止力強化と防衛装備品の活用
+- [PR #2685](https://github.com/team-mirai/policy/pull/2685) 【糾弾者様ご提案】地球規模の課題と日本の役割に関する視点の追加
 - [PR #196](https://github.com/team-mirai/policy/pull/196) 匿名ユーザーによる「持続可能な社会」の追加と「防衛」概念の拡張提案
 - [PR #957](https://github.com/team-mirai/policy/pull/957) 竹内寛樹さんによる「チームみらいのビジョン」全体改定
 - [PR #1082](https://github.com/team-mirai/policy/pull/1082) 「チームみらいについて」セクションの充実化提案（鈴麻呂さんご提案）
@@ -337,6 +344,7 @@
 - [PR #1451](https://github.com/team-mirai/policy/pull/1451) 匿名ユーザーによる「AIと立法」に関する新規提案
 - [PR #1426](https://github.com/team-mirai/policy/pull/1426) 農業政策の新規提案：米不足時代に対応する持続可能な農業生産基盤の確立（提案者：みかん）
 - [PR #2537](https://github.com/team-mirai/policy/pull/2537) 匿名ユーザーによる「しなやかな仕組みづくり」に関する記述の改善提案：声なき声への配慮強化
+- [PR #2698](https://github.com/team-mirai/policy/pull/2698) ペロ猫さん提案：高セキュアな議員間コミュニケーション基盤の構想を追記
 - [PR #386](https://github.com/team-mirai/policy/pull/386) 帰化・移民政策の厳格化に関する宣言の追加提案
 - [PR #2632](https://github.com/team-mirai/policy/pull/2632) 【勝又伸一 提案】AI活用における個別最適化とプライバシー保護の明確化
 - [PR #1813](https://github.com/team-mirai/policy/pull/1813) 匿名ユーザーによる転売対策に関する提案の追記
@@ -423,6 +431,7 @@
 - [PR #1143](https://github.com/team-mirai/policy/pull/1143) 外交・防衛政策の具体性向上（匿名ユーザー提案）
 - [PR #616](https://github.com/team-mirai/policy/pull/616) 【らみさん提案】確定申告制度の改善：年末調整廃止とAIによる自動化
 - [PR #56](https://github.com/team-mirai/policy/pull/56) 政策インデックスのリンク形式を修正し、サイト内回遊性を向上
+- [PR #2683](https://github.com/team-mirai/policy/pull/2683) Update 18_ステップ１福祉_「障害」の表記について説明を追加.md
 - [PR #952](https://github.com/team-mirai/policy/pull/952) 水産資源管理の強化による持続可能な漁業の実現（K.T.提案）
 - [PR #1524](https://github.com/team-mirai/policy/pull/1524) 【りか提案】多様な家族のあり方を支える制度の実現について
 - [PR #1090](https://github.com/team-mirai/policy/pull/1090) 政策インデックス冒頭文追加：党の基本戦略とスコープの明確化（かとうしんや提案）
@@ -435,6 +444,7 @@
 - [PR #2208](https://github.com/team-mirai/policy/pull/2208) スローガンの変更：「テクノロジーで、日本の未来に誰も取り残さない」へ
 - [PR #1570](https://github.com/team-mirai/policy/pull/1570) takuさんによる奨学金制度改善提案
 - [PR #232](https://github.com/team-mirai/policy/pull/232) ステップ４：テクノロジーで支える新しい家族のかたち の追加
+- [PR #2704](https://github.com/team-mirai/policy/pull/2704) 【みずぅさんご提案】固有名詞「スーパーカブ」を「小型バイク」へ修正
 - [PR #1808](https://github.com/team-mirai/policy/pull/1808) マニフェスト冒頭に、革新的な政策アイデアを積極的に議論する姿勢を表明する一文を追加
 - [PR #2270](https://github.com/team-mirai/policy/pull/2270) (#2013の微修正)「主要な政策やビジョン」について「チームとしての一致した方針を示します。」という表現に修正
 - [PR #2006](https://github.com/team-mirai/policy/pull/2006) 政策文書冒頭に、チームみらいの基本姿勢と覚悟を明確化する加筆
@@ -494,6 +504,7 @@
 - [PR #1395](https://github.com/team-mirai/policy/pull/1395) 匿名ユーザーさんによる「選択的人生スローモード制度」の提案
 - [PR #899](https://github.com/team-mirai/policy/pull/899) 【一般男性さんご提案】チームみらいのAIに対する基本姿勢の明確化
 - [PR #2008](https://github.com/team-mirai/policy/pull/2008) 『変更提案について』のセクションのGitHubに関する記述を修正
+- [PR #2695](https://github.com/team-mirai/policy/pull/2695) 第一ステップへのデータ基盤整備に関する具体策の追加
 - [PR #2205](https://github.com/team-mirai/policy/pull/2205) スローガンの変更：より実態に即した表現へ
 - [PR #2426](https://github.com/team-mirai/policy/pull/2426) 政策案改善：AI立国に「紛争リスクの早期警告システム」を導入し、「公敵なき社会」の実現を目指す
 - [PR #819](https://github.com/team-mirai/policy/pull/819) 摩天楼による憲法改正発議要件の変更提案
@@ -525,6 +536,7 @@
 - [PR #625](https://github.com/team-mirai/policy/pull/625) マニフェスト改善提案：背景理念や全体構想に関する意見募集の明記
 - [PR #2037](https://github.com/team-mirai/policy/pull/2037) 「徴兵禁止法制定」に関するマニフェスト項目追加の提案 (匿名ユーザー)
 - [PR #2310](https://github.com/team-mirai/policy/pull/2310) 【そういちさん提案】ステップ2への「外国人との共生」項目の追加
+- [PR #2697](https://github.com/team-mirai/policy/pull/2697) 重要政治課題に対する党のスタンス明確化と、その意図について
 - [PR #1938](https://github.com/team-mirai/policy/pull/1938) 文化立国戦略の項目追加によるマニフェスト強化
 - [PR #2220](https://github.com/team-mirai/policy/pull/2220) 匿名ユーザーによる憲法改正の検討事項に関する具体的提案の追加
 - [PR #674](https://github.com/team-mirai/policy/pull/674) 政策改善提案：現状維持を望む声への対応方針を追記
@@ -569,7 +581,7 @@
 - [PR #682](https://github.com/team-mirai/policy/pull/682) （匿名ユーザー提案）22歳までの社会人への所得税控除拡充に関する提案
 - [PR #333](https://github.com/team-mirai/policy/pull/333) 住宅政策カテゴリの追加とSTEP2への具体案追記（匿名ユーザーによる提案）
 
-### クローズド (49件)
+### クローズド (50件)
 
 - [PR #2102](https://github.com/team-mirai/policy/pull/2102) Update: デバッグ用の政策と関係ない差分
 - [PR #217](https://github.com/team-mirai/policy/pull/217) CI: fix 406 error of GitHub links
@@ -611,6 +623,7 @@
 - [PR #830](https://github.com/team-mirai/policy/pull/830) feat: 廃止のお知らせがあるgithub-action-markdown-link-checkからLinkspectorに変更
 - [PR #2046](https://github.com/team-mirai/policy/pull/2046) Add Slack notification workflow for PR merges
 - [PR #1278](https://github.com/team-mirai/policy/pull/1278) Update CODEOWNERS file (fixed version)
+- [PR #1729](https://github.com/team-mirai/policy/pull/1729) りすさん提案：【ステップ１】福祉項目新設と所得制限撤廃による「制度バグ」解消
 - [PR #1691](https://github.com/team-mirai/policy/pull/1691) Update 60_改善提案の反映方針.md
 - [PR #2390](https://github.com/team-mirai/policy/pull/2390) X自動投稿botをマージ時のみ通知に変更
 - [PR #7](https://github.com/team-mirai/policy/pull/7) 政策インデックスの全項目へのリンク追加
@@ -623,7 +636,7 @@
 
 ## エネルギー
 
-### オープン (161件)
+### オープン (164件)
 
 - [PR #842](https://github.com/team-mirai/policy/pull/842) 【たかぎぃ提案】保育施設のICT環境整備と連絡アプリ標準化の追加
 - [PR #303](https://github.com/team-mirai/policy/pull/303) エネルギー政策改善案：国内資源探査とCO2対策技術開発の推進 by ぺい
@@ -668,6 +681,7 @@
 - [PR #1689](https://github.com/team-mirai/policy/pull/1689) エネルギー政策における核融合技術の推進時期を前倒し
 - [PR #302](https://github.com/team-mirai/policy/pull/302) 住宅の省エネ性能向上策の追加 (tokoroten)
 - [PR #93](https://github.com/team-mirai/policy/pull/93) テレワーク促進による東京都心部一極集中及び車通勤に起因する環境負荷の改善
+- [PR #2681](https://github.com/team-mirai/policy/pull/2681) 憲法改正案及び物価高対策（燃料税、エネルギー価格指標連動スキーム）の提案
 - [PR #1929](https://github.com/team-mirai/policy/pull/1929) とわさん提案：原子力発電の推進に伴う課題認識の追記
 - [PR #1036](https://github.com/team-mirai/policy/pull/1036) 教育政策におけるAI活用推進と環境整備に関する改善提案
 - [PR #1594](https://github.com/team-mirai/policy/pull/1594) README.md修正と教育政策への提言：匿名ユーザーによる真の機会均等に向けた提案
@@ -697,6 +711,7 @@
 - [PR #352](https://github.com/team-mirai/policy/pull/352) エネルギー政策案（35_ステップ３エネルギー.md）の改善提案（methaneより）
 - [PR #805](https://github.com/team-mirai/policy/pull/805) 教育におけるAI活用：グループ編成・役割分担支援による協調的学習環境の推進
 - [PR #2231](https://github.com/team-mirai/policy/pull/2231) エネルギー政策の更新提案：再生可能エネルギーへの移行加速とエネルギー自給率向上（匿名ユーザー提案）
+- [PR #2689](https://github.com/team-mirai/policy/pull/2689) エネルギー政策：原子力の段階的縮小と革新的技術への転換 by ino
 - [PR #2599](https://github.com/team-mirai/policy/pull/2599) 「デジタル民主主義」ビジョン明確化：AI活用と協働環境構築の追記（藤原さん提案）
 - [PR #1514](https://github.com/team-mirai/policy/pull/1514) 労働環境改善としてリモートワーク原則義務化を提案
 - [PR #520](https://github.com/team-mirai/policy/pull/520) 火水希星による提案：ビジョンの明確化とブラッシュアップ、全体的な文章と表現の質向上
@@ -717,6 +732,7 @@
 - [PR #1870](https://github.com/team-mirai/policy/pull/1870) 教育政策：「失敗できる」環境から始まる、構造理解教育の再設計（しろなさん提案）
 - [PR #1370](https://github.com/team-mirai/policy/pull/1370) 「地域情報アプリ（仮称）構想」の追加によるマニフェスト改善提案
 - [PR #2233](https://github.com/team-mirai/policy/pull/2233) 政策概要：原子力から棚田小水力発電への重点政策変更
+- [PR #2686](https://github.com/team-mirai/policy/pull/2686) 地熱発電の推進に関する提案（できる様ご提案）
 - [PR #1802](https://github.com/team-mirai/policy/pull/1802) 再エネ（特に太陽光）導入拡大のための具体案を追加
 - [PR #2279](https://github.com/team-mirai/policy/pull/2279) 匿名ユーザーさんによるエネルギー政策改善提案：水素エネルギー推進と放射性廃棄物問題の明記
 - [PR #1267](https://github.com/team-mirai/policy/pull/1267) 【匿名ユーザー提案】選択的夫婦別姓、環境、移民、土地取得、議員定年制に関する複数更新
@@ -797,7 +813,7 @@
 
 ## デジタル民主主義
 
-### オープン (385件)
+### オープン (387件)
 
 - [PR #2516](https://github.com/team-mirai/policy/pull/2516) 藤崎氏提案：デジタル民主主義における市民参加と意見反映の強化
 - [PR #372](https://github.com/team-mirai/policy/pull/372) 匿名ユーザーによるインターネット上の性犯罪対策強化の提案
@@ -930,6 +946,7 @@
 - [PR #924](https://github.com/team-mirai/policy/pull/924) AI家庭教師の実現に向けた課題を明記（しんさん提案）
 - [PR #2642](https://github.com/team-mirai/policy/pull/2642) 匿名ユーザー提案：知的障害者へのデジタル化対応強化と代理人規定の柔軟化について
 - [PR #1752](https://github.com/team-mirai/policy/pull/1752) 報道の自動イシュー化
+- [PR #2688](https://github.com/team-mirai/policy/pull/2688) 行政サービス利用の具体策を追加
 - [PR #574](https://github.com/team-mirai/policy/pull/574) 安達友幸さんご提案：地域活動のデジタル化推進と子育て支援の包括的拡充について
 - [PR #339](https://github.com/team-mirai/policy/pull/339) デジタル赤字の定義を明確化し、具体例を注釈として追加
 - [PR #2105](https://github.com/team-mirai/policy/pull/2105) 【yosssy提案】デジタル民主主義の強化：フェイクニュース対策とプラットフォームの中立性・透明性向上
@@ -1181,6 +1198,7 @@
 - [PR #1359](https://github.com/team-mirai/policy/pull/1359) エンタメ業界における透明性とガバナンス強化に関する提案（かわかみさんより）
 - [PR #2272](https://github.com/team-mirai/policy/pull/2272) ODA・海外助成金の透明性向上と不正防止策の議論を追記 by yuki
 - [PR #1228](https://github.com/team-mirai/policy/pull/1228) マニフェスト改善への参加を促進するための包括的提案
+- [PR #2702](https://github.com/team-mirai/policy/pull/2702) 匿名ユーザーによる農業DX推進に関する提案：第一次産業の効率化と収益力強化
 - [PR #2483](https://github.com/team-mirai/policy/pull/2483) 【医療・子育て】マイナンバーカード活用推進（医療費支払いシステム導入、母子パスポート連携強化）
 - [PR #2269](https://github.com/team-mirai/policy/pull/2269) 政治の見える化推進：国会審議のAI要約・アプリ配信案の追加
 - [PR #272](https://github.com/team-mirai/policy/pull/272) niryuuさん提案：独立研究者の科学技術研究への参加を促進させることにより、科学技術の競争力を上げる
@@ -1214,7 +1232,7 @@
 
 ## 医療
 
-### オープン (220件)
+### オープン (224件)
 
 - [PR #840](https://github.com/team-mirai/policy/pull/840) 【すうこう提案】政策インデックスへの「医療」カテゴリ追加と具体的政策の明記
 - [PR #788](https://github.com/team-mirai/policy/pull/788) 国民皆歯科検診制度の創設（年1回無料、将来的に拡充も検討）に関する提案
@@ -1263,6 +1281,7 @@
 - [PR #1828](https://github.com/team-mirai/policy/pull/1828) モーさん提案：医療分野における緊急時対応の拡充と多角的認証の導入
 - [PR #2087](https://github.com/team-mirai/policy/pull/2087) 産業政策への介護DX政策の追加提案
 - [PR #2386](https://github.com/team-mirai/policy/pull/2386) 高齢者と生活保護受給者の医療費改革案：公平と効率のバランスを目指して
+- [PR #2679](https://github.com/team-mirai/policy/pull/2679) モーさんの提案に基づき、9章の経済支援策を健康保険料減免モデルへ変更
 - [PR #702](https://github.com/team-mirai/policy/pull/702) 福祉・介護分野におけるDX推進策を追加し、誰も取り残さないデジタル化を目指す
 - [PR #2223](https://github.com/team-mirai/policy/pull/2223) ステップ3への介護項目の追加提案
 - [PR #2673](https://github.com/team-mirai/policy/pull/2673) 診療情報共有の仕組み構築による医療の質向上と患者負担軽減
@@ -1325,6 +1344,7 @@
 - [PR #1488](https://github.com/team-mirai/policy/pull/1488) 薬価制度の課題と国際的影響、改革の緊急性を追記（むんさん提案）
 - [PR #2660](https://github.com/team-mirai/policy/pull/2660) 介護従事者の待遇改善に関する提案（匿名ユーザー）
 - [PR #1067](https://github.com/team-mirai/policy/pull/1067) ぜりえーすさんによる子育て支援策の改善提案（医療機関支援の具体化と表現の適正化）
+- [PR #2706](https://github.com/team-mirai/policy/pull/2706) 追加提案：「医療の質向上のためのテクノロジー実装」セクションの新設について
 - [PR #1678](https://github.com/team-mirai/policy/pull/1678) オンライン診療におけるセルフケア推奨の追記（匿名ユーザー提案）
 - [PR #729](https://github.com/team-mirai/policy/pull/729) マイナンバーカード利活用推進による行政・医療サービスの向上（松尾光浩様提案）
 - [PR #1632](https://github.com/team-mirai/policy/pull/1632) 精神医療分野における診療報酬制度の課題に関する追記 (鈴木洋二様ご提案)
@@ -1386,6 +1406,7 @@
 - [PR #2456](https://github.com/team-mirai/policy/pull/2456) 終末期医療における選択肢の拡大（安楽死制度の検討）について
 - [PR #1455](https://github.com/team-mirai/policy/pull/1455) 提案：医療政策ビジョンに国民の健康増進努力を奨励する指針を追加
 - [PR #2620](https://github.com/team-mirai/policy/pull/2620) 政策案「6.医療」の章における「医療ツーリズム」から「人道的国際医療協力」への方針転換と内容修正
+- [PR #2699](https://github.com/team-mirai/policy/pull/2699) ひらさきさん提案：薬剤師の機能強化による医療アクセスと質の向上
 - [PR #2470](https://github.com/team-mirai/policy/pull/2470) ビジョンに介護予防の観点を追加
 - [PR #2399](https://github.com/team-mirai/policy/pull/2399) 精神疾患ケアの充実：オンライン診療における相談支援・多様な治療選択肢の拡充と家族支援の強化
 - [PR #27](https://github.com/team-mirai/policy/pull/27) 医療費負担の見直しによる歳出改革の視点を追加
@@ -1401,6 +1422,7 @@
 - [PR #2085](https://github.com/team-mirai/policy/pull/2085) 会社員の通院困難な現状を課題として明確化
 - [PR #524](https://github.com/team-mirai/policy/pull/524) 後期高齢者の医療費負担に関する具体的提案（まこさん提案）
 - [PR #901](https://github.com/team-mirai/policy/pull/901) 【じゅんさん提案】第六の柱として「高齢者介護」を追加し、AI・ロボット活用策を明記
+- [PR #2690](https://github.com/team-mirai/policy/pull/2690) 抹茶アイスさん提案：患者の心のケアのためのテクノロジー活用をビジョンに追加
 - [PR #568](https://github.com/team-mirai/policy/pull/568) 【コムネナさん提案】男性へのHPVワクチン公費助成に関する議論提起の追加
 - [PR #337](https://github.com/team-mirai/policy/pull/337) 医療分野におけるDX推進の提案（かずぴさんより）
 - [PR #541](https://github.com/team-mirai/policy/pull/541) 医療・介護分野のデジタル化推進に関する提案
@@ -1453,7 +1475,7 @@
 
 ## 子育て
 
-### オープン (281件)
+### オープン (286件)
 
 - [PR #842](https://github.com/team-mirai/policy/pull/842) 【たかぎぃ提案】保育施設のICT環境整備と連絡アプリ標準化の追加
 - [PR #1415](https://github.com/team-mirai/policy/pull/1415) アキさんの提案：マニフェスト全体の財政効率化を通じた子育て支援の持続可能性向上
@@ -1538,6 +1560,7 @@
 - [PR #2218](https://github.com/team-mirai/policy/pull/2218) 学生の結婚における税制上の障壁解消に向けた提案（よしひろたさんより）
 - [PR #1376](https://github.com/team-mirai/policy/pull/1376) 本多正則様による子育て支援政策改訂：財源、実行留意点、副次的効果の具体化
 - [PR #1356](https://github.com/team-mirai/policy/pull/1356) 選挙制度改革による政治の課題解決策の提案
+- [PR #2679](https://github.com/team-mirai/policy/pull/2679) モーさんの提案に基づき、9章の経済支援策を健康保険料減免モデルへ変更
 - [PR #1595](https://github.com/team-mirai/policy/pull/1595) 匿名ユーザーからの提案に基づき、児童手当の遡及支給に関する内容を追記
 - [PR #2027](https://github.com/team-mirai/policy/pull/2027) 大仏さんによる若年層の母親支援に関する政策改善提案
 - [PR #2309](https://github.com/team-mirai/policy/pull/2309) satoさん提案：フリーランス・自営業の親への保育継続支援策を追加
@@ -1655,6 +1678,7 @@
 - [PR #552](https://github.com/team-mirai/policy/pull/552) かま子さん提案：産後ケアの充実に関する政策の追加
 - [PR #2570](https://github.com/team-mirai/policy/pull/2570) 子育て世代の社会保険料負担軽減を明記し、将来世代への投資を強化する提案（藤崎）
 - [PR #409](https://github.com/team-mirai/policy/pull/409) れいさん提案：母子手帳の電子化推進と名称変更による子育て支援の拡充
+- [PR #2696](https://github.com/team-mirai/policy/pull/2696) 匿名ユーザー提案：子育て政策における「子どもの視点」と「親子の時間」の重視
 - [PR #1058](https://github.com/team-mirai/policy/pull/1058) 不登校児童生徒へのオンライン学習支援強化及び多様な学びの選択肢提供に関する提案 by じゅん
 - [PR #2497](https://github.com/team-mirai/policy/pull/2497) 【匿名ユーザー】養育費の履行確保に関する政策の追加提案
 - [PR #1133](https://github.com/team-mirai/policy/pull/1133) denfujitaさんによる子育て支援の経済的側面強化提案
@@ -1691,6 +1715,7 @@
 - [PR #1695](https://github.com/team-mirai/policy/pull/1695) 特別児童扶養手当の段階的拡充に関する提案（佐藤さん）
 - [PR #172](https://github.com/team-mirai/policy/pull/172) 子育て支援策の改善提案：メンタルケア強化と経済的支援拡充（sanoさん提案）
 - [PR #296](https://github.com/team-mirai/policy/pull/296) これからの『みらい』を担う子供たちでも理解できるマニフェストにしませんか？（ゆき提案）
+- [PR #2705](https://github.com/team-mirai/policy/pull/2705) モーさんの提案：2040年問題を見据えた「地域共生社会」と「子育て支援」の具体化
 - [PR #1763](https://github.com/team-mirai/policy/pull/1763) 「みらい応援ETF制度（仮称）」の新規提案✨️
 - [PR #2348](https://github.com/team-mirai/policy/pull/2348) 保育マッチングプラットフォームの安全性と選択肢のバランスに関するsatoshi様からの改善提案
 - [PR #663](https://github.com/team-mirai/policy/pull/663) 【FLOWさん提案】マニフェスト改善：家庭内の潜在的困難に苦しむ子どもたちへの支援強化を明記
@@ -1705,6 +1730,7 @@
 - [PR #2267](https://github.com/team-mirai/policy/pull/2267) ふるさと納税子供支援税制（柳原悠剛さん提案）の追加
 - [PR #1219](https://github.com/team-mirai/policy/pull/1219) 婚姻・子育て支援のための税制改正案（摩天楼さんご提案）
 - [PR #2665](https://github.com/team-mirai/policy/pull/2665) ながしまさん提案：デジタル母子パスポートに予防接種記録の教育機関共有機能を追加
+- [PR #2692](https://github.com/team-mirai/policy/pull/2692) 多様な家族形態を尊重し、子育て支援を拡充する提案
 - [PR #591](https://github.com/team-mirai/policy/pull/591) Cater氏による子育て支援策の拡充提案：働き方と地域サポートの強化
 - [PR #1786](https://github.com/team-mirai/policy/pull/1786) 結婚の障壁に関する課題認識の修正：個人の自信と関係構築の困難さを追加
 - [PR #2166](https://github.com/team-mirai/policy/pull/2166) 【ふくさん提案】ハイブリッド型育児相談ポータルの強化：妊娠前からのメンタルサポートと安心なデジタル環境の提供
@@ -1722,6 +1748,7 @@
 - [PR #505](https://github.com/team-mirai/policy/pull/505) 【Diego提案】少子化対策としての選択的多夫多妻制導入の検討
 - [PR #1378](https://github.com/team-mirai/policy/pull/1378) 養育費未払い問題の深刻化と、離婚後の再婚が子どもに与える影響についての政策提案
 - [PR #577](https://github.com/team-mirai/policy/pull/577) tanukiさんによる「カウンセリングAI」導入と子どもの声に寄り添う支援強化の提案
+- [PR #2701](https://github.com/team-mirai/policy/pull/2701) 地方創生政策の強化：自動配送、関係人口拡大、子供の体験機会創出に関する提案 by みねこ
 - [PR #276](https://github.com/team-mirai/policy/pull/276) 【Okumura Miki】子育て支援策の改善提案（保育無償化、質向上、利用対象拡大など）
 - [PR #1463](https://github.com/team-mirai/policy/pull/1463) 里親制度改革に関する総合的な政策提言を追加
 - [PR #1959](https://github.com/team-mirai/policy/pull/1959) 保育士の待遇改善に関する政策提案
@@ -1760,7 +1787,7 @@
 
 ## 教育
 
-### オープン (444件)
+### オープン (446件)
 
 - [PR #842](https://github.com/team-mirai/policy/pull/842) 【たかぎぃ提案】保育施設のICT環境整備と連絡アプリ標準化の追加
 - [PR #762](https://github.com/team-mirai/policy/pull/762) 古澤さんによる社会保障インカム構想及び教育費負担軽減策の提案
@@ -1823,6 +1850,7 @@
 - [PR #2575](https://github.com/team-mirai/policy/pull/2575) 海外留学奨学金制度創設の提案（匿名ユーザー）
 - [PR #1305](https://github.com/team-mirai/policy/pull/1305) こんにちはさんによる農業政策の新規提案：農家支援公務員制度と米輸出戦略
 - [PR #2157](https://github.com/team-mirai/policy/pull/2157) 教育政策案の改善：AI活用におる国際交流の促進と段階に応じた柔軟な導入支援（匿名ユーザー提案）
+- [PR #2703](https://github.com/team-mirai/policy/pull/2703) 英語教育におけるICT活用の具体化（もりたさん提案）
 - [PR #2078](https://github.com/team-mirai/policy/pull/2078) 科学技術投資戦略の強化：海外からの優秀な研究者・学生の受け入れ緊急策
 - [PR #2117](https://github.com/team-mirai/policy/pull/2117) 教員のAI研修・サポート体制の具体化
 - [PR #2675](https://github.com/team-mirai/policy/pull/2675) Shiroさん提案：地方におけるひとり親家庭等の自立と多様な働き方支援を強化するマニフェスト改定
@@ -1930,6 +1958,7 @@
 - [PR #2263](https://github.com/team-mirai/policy/pull/2263) AIメンタルアシスタントのプライバシー保護と安全対策の強化（bashさん提案）
 - [PR #976](https://github.com/team-mirai/policy/pull/976) 匿名ユーザーによる提案：中学校情報科における専門家活用による教育の質向上
 - [PR #2113](https://github.com/team-mirai/policy/pull/2113) 教育政策の抜本的見直しと実行計画の提案（匿名ユーザー）
+- [PR #2680](https://github.com/team-mirai/policy/pull/2680) 教育政策の改善：オーダーメイドカリキュラムにおける協働学習と地域連携の強化
 - [PR #1248](https://github.com/team-mirai/policy/pull/1248) 政策提案：歴史的文化財の保護と平和学習の推進に関する提案
 - [PR #1003](https://github.com/team-mirai/policy/pull/1003) 教育政策における個別最適化の具体化とエビデンスベースの推進（宮嶋龍太郎提案）
 - [PR #2306](https://github.com/team-mirai/policy/pull/2306) 匿名SCさん提案：学習指導要領の柔軟な更新とAIによる教材研究支援の強化
@@ -2233,7 +2262,7 @@
 
 ## 産業
 
-### オープン (427件)
+### オープン (429件)
 
 - [PR #2028](https://github.com/team-mirai/policy/pull/2028) 行政改革案：税制簡素化と国民負担軽減、分かりやすい行政システムへの改善提案
 - [PR #762](https://github.com/team-mirai/policy/pull/762) 古澤さんによる社会保障インカム構想及び教育費負担軽減策の提案
@@ -2313,6 +2342,7 @@
 - [PR #1119](https://github.com/team-mirai/policy/pull/1119) 中小企業の投資促進と税務簡素化のための少額償却資産特例の見直し
 - [PR #2087](https://github.com/team-mirai/policy/pull/2087) 産業政策への介護DX政策の追加提案
 - [PR #2042](https://github.com/team-mirai/policy/pull/2042) 産業政策のSTEP2へ「古物営業法の抜本的改正」を追加し、転売問題に対応
+- [PR #2679](https://github.com/team-mirai/policy/pull/2679) モーさんの提案に基づき、9章の経済支援策を健康保険料減免モデルへ変更
 - [PR #1643](https://github.com/team-mirai/policy/pull/1643) 製造業のDX推進による産業競争力強化とデジタル赤字削減 by kstone
 - [PR #558](https://github.com/team-mirai/policy/pull/558) 【敦】外国人材の受け入れとAI活用に関する提案
 - [PR #2331](https://github.com/team-mirai/policy/pull/2331) 匿名ユーザーによるAI人材確保と労働市場の柔軟性向上に関する提案
@@ -2531,6 +2561,7 @@
 - [PR #523](https://github.com/team-mirai/policy/pull/523) 観光政策の追加（鈴木慶太さん提案）
 - [PR #920](https://github.com/team-mirai/policy/pull/920) 財政支出に関する表現の明確化（与那嶺信さん提案）
 - [PR #1227](https://github.com/team-mirai/policy/pull/1227) 教育方針の更新：AI家庭教師導入と通学強制廃止による個別最適化された学習環境の実現（ベーシックインカムによる経済的自由と意思決定の尊重も視野に）
+- [PR #2707](https://github.com/team-mirai/policy/pull/2707) 【産業】地方創生と孤独・孤立対策のための「地域ミニ拠点」の提案
 - [PR #2303](https://github.com/team-mirai/policy/pull/2303) 第一次産業の振興策：人手不足解消と地域経済活性化への新提案
 - [PR #1241](https://github.com/team-mirai/policy/pull/1241) 経済財政政策に富の再分配と実質的ベーシックインカムの検討を追記（こんにちはさん提案）
 - [PR #1922](https://github.com/team-mirai/policy/pull/1922) AGIシナリオにおける税収確保と国内産業育成策の強化
@@ -2578,7 +2609,6 @@
 - [PR #1577](https://github.com/team-mirai/policy/pull/1577) マニフェストへの音声コンテンツ配信検討の追加
 - [PR #172](https://github.com/team-mirai/policy/pull/172) 子育て支援策の改善提案：メンタルケア強化と経済的支援拡充（sanoさん提案）
 - [PR #83](https://github.com/team-mirai/policy/pull/83) 財政政策に関する第三者委員会設置の方針を追加
-- [PR #1729](https://github.com/team-mirai/policy/pull/1729) りすさん提案：【ステップ１】福祉項目新設と所得制限撤廃による「制度バグ」解消
 - [PR #498](https://github.com/team-mirai/policy/pull/498) 【みかんさん提案】ネット広告税（仮称）の導入検討をマニフェストに追記
 - [PR #1011](https://github.com/team-mirai/policy/pull/1011) 経済財政：少額ベーシックインカム導入の検討を追記（遠山健司氏提案）
 - [PR #86](https://github.com/team-mirai/policy/pull/86) 【さるだモンさん提案】税制全体の再設計に関する検討の追記
@@ -2658,6 +2688,7 @@
 - [PR #1321](https://github.com/team-mirai/policy/pull/1321) しどにーさんによるREADME目次の更新提案：税金と社会の仕組みの追加
 - [PR #2464](https://github.com/team-mirai/policy/pull/2464) 中小企業の事業再編・撤退を円滑化する支援策の追加
 - [PR #431](https://github.com/team-mirai/policy/pull/431) 【silverさん提案】空き家対策の強化による経済活性化と財政基盤の強化策
+- [PR #2702](https://github.com/team-mirai/policy/pull/2702) 匿名ユーザーによる農業DX推進に関する提案：第一次産業の効率化と収益力強化
 - [PR #1296](https://github.com/team-mirai/policy/pull/1296) Cakeさんによる政策への冷凍食品輸出戦略の追加提案
 - [PR #1956](https://github.com/team-mirai/policy/pull/1956) 年金制度における高齢者向け現物支給の選択肢導入の提案
 - [PR #1208](https://github.com/team-mirai/policy/pull/1208) README.md のチームビジョン及び産業政策に関する記述の更新提案（柴田優呼）
@@ -2676,7 +2707,7 @@
 
 ## 科学技術
 
-### オープン (186件)
+### オープン (188件)
 
 - [PR #303](https://github.com/team-mirai/policy/pull/303) エネルギー政策改善案：国内資源探査とCO2対策技術開発の推進 by ぺい
 - [PR #1352](https://github.com/team-mirai/policy/pull/1352) 研究支援員の無期転換ルールに関する課題を追記
@@ -2762,7 +2793,9 @@
 - [PR #816](https://github.com/team-mirai/policy/pull/816) 「チームみらいについて」に反科学的見解を持つ人物を許容しない方針を明記
 - [PR #1371](https://github.com/team-mirai/policy/pull/1371) チームみらいのテクノロジー観の明確化と技術リテラシー向上の提言
 - [PR #821](https://github.com/team-mirai/policy/pull/821) 「海底資源開発の推進」に関する項目を追加
+- [PR #2689](https://github.com/team-mirai/policy/pull/2689) エネルギー政策：原子力の段階的縮小と革新的技術への転換 by ino
 - [PR #1382](https://github.com/team-mirai/policy/pull/1382) README.md: 科学技術予算に関する提案の追記（けんけんさんより）
+- [PR #2682](https://github.com/team-mirai/policy/pull/2682) 科学技術政策：国立大学等への基盤的経費拡充を明記
 - [PR #265](https://github.com/team-mirai/policy/pull/265) 最先端技術特区における住民合意形成と具体的支援策の強化
 - [PR #520](https://github.com/team-mirai/policy/pull/520) 火水希星による提案：ビジョンの明確化とブラッシュアップ、全体的な文章と表現の質向上
 - [PR #2649](https://github.com/team-mirai/policy/pull/2649) 科学技術政策ビジョンの明確化：社会貢献の視点を強化（モーさん提案）
@@ -2949,6 +2982,7 @@
 - [PR #2110](https://github.com/team-mirai/policy/pull/2110) 暗号資産に関する税制提案（井上さん提案）
 - [PR #1771](https://github.com/team-mirai/policy/pull/1771) 目次に「社会保障制度」の項目を追加
 - [PR #1376](https://github.com/team-mirai/policy/pull/1376) 本多正則様による子育て支援政策改訂：財源、実行留意点、副次的効果の具体化
+- [PR #2679](https://github.com/team-mirai/policy/pull/2679) モーさんの提案に基づき、9章の経済支援策を健康保険料減免モデルへ変更
 - [PR #1557](https://github.com/team-mirai/policy/pull/1557) 税制と経済成長に関する国際的研究成果を経済財政政策へ反映する提案
 - [PR #93](https://github.com/team-mirai/policy/pull/93) テレワーク促進による東京都心部一極集中及び車通勤に起因する環境負荷の改善
 - [PR #790](https://github.com/team-mirai/policy/pull/790) 経済財政分野へのAI活用検討を追記し、日本の新たな発展を目指す提案
@@ -3118,7 +3152,6 @@
 - [PR #1642](https://github.com/team-mirai/policy/pull/1642) 「世代間影響調査書の制度化」提案の追加と項目整理
 - [PR #172](https://github.com/team-mirai/policy/pull/172) 子育て支援策の改善提案：メンタルケア強化と経済的支援拡充（sanoさん提案）
 - [PR #83](https://github.com/team-mirai/policy/pull/83) 財政政策に関する第三者委員会設置の方針を追加
-- [PR #1729](https://github.com/team-mirai/policy/pull/1729) りすさん提案：【ステップ１】福祉項目新設と所得制限撤廃による「制度バグ」解消
 - [PR #498](https://github.com/team-mirai/policy/pull/498) 【みかんさん提案】ネット広告税（仮称）の導入検討をマニフェストに追記
 - [PR #1011](https://github.com/team-mirai/policy/pull/1011) 経済財政：少額ベーシックインカム導入の検討を追記（遠山健司氏提案）
 - [PR #2652](https://github.com/team-mirai/policy/pull/2652) 「行財政改革」の新設と「プロジェクトマネジメント省」導入提案 by Hiroshi Tsuboi
@@ -3185,7 +3218,7 @@
 
 ## 行政改革
 
-### オープン (435件)
+### オープン (439件)
 
 - [PR #2028](https://github.com/team-mirai/policy/pull/2028) 行政改革案：税制簡素化と国民負担軽減、分かりやすい行政システムへの改善提案
 - [PR #950](https://github.com/team-mirai/policy/pull/950) たく提案：自動スライド機構導入時の周知・広報戦略に関する追記
@@ -3331,6 +3364,7 @@
 - [PR #1334](https://github.com/team-mirai/policy/pull/1334) 国民の声を行政に活かす「国民省（仮称）」設置のご提案
 - [PR #1109](https://github.com/team-mirai/policy/pull/1109) 【strickぇさん提案】行政改革：障害者手帳・自立支援医療受給者証のマイナンバーカード統合
 - [PR #2642](https://github.com/team-mirai/policy/pull/2642) 匿名ユーザー提案：知的障害者へのデジタル化対応強化と代理人規定の柔軟化について
+- [PR #2688](https://github.com/team-mirai/policy/pull/2688) 行政サービス利用の具体策を追加
 - [PR #1357](https://github.com/team-mirai/policy/pull/1357) 匿名ユーザーによる行政改革案への道州制導入の提案
 - [PR #574](https://github.com/team-mirai/policy/pull/574) 安達友幸さんご提案：地域活動のデジタル化推進と子育て支援の包括的拡充について
 - [PR #1327](https://github.com/team-mirai/policy/pull/1327) README強化：長谷晃広氏提案の教育改革テーマ追記
@@ -3420,6 +3454,7 @@
 - [PR #1939](https://github.com/team-mirai/policy/pull/1939) いまさん提起：社会保障制度改革に関する議論の活性化と具体化
 - [PR #706](https://github.com/team-mirai/policy/pull/706) 行政改革における国産技術活用の推進とデジタル主権確立に関する提案
 - [PR #1705](https://github.com/team-mirai/policy/pull/1705) 【生活保護制度改革】目次に項目追加 by かいごテク
+- [PR #2700](https://github.com/team-mirai/policy/pull/2700) 消費税制度に関する基本的立場とインバウンド政策に関する見解の追加
 - [PR #1329](https://github.com/team-mirai/policy/pull/1329) せさんによるAI医療改革案の追加
 - [PR #1877](https://github.com/team-mirai/policy/pull/1877) エンジニアチームの非営利組織化と理由の明記
 - [PR #1844](https://github.com/team-mirai/policy/pull/1844) 最優先課題として歳出改革と行政の透明化を明記
@@ -3497,6 +3532,7 @@
 - [PR #2479](https://github.com/team-mirai/policy/pull/2479) 【高田理さん提案】行政改革案の改善：市町村合併後の課題と地方へのエネルギー支援の具体化
 - [PR #1424](https://github.com/team-mirai/policy/pull/1424) 10人で終わらせる税制改革
 - [PR #1391](https://github.com/team-mirai/policy/pull/1391) 【日本アプリ🇯🇵】みんなのための国民的アプリをつくろう💪
+- [PR #2693](https://github.com/team-mirai/policy/pull/2693) 公務員の専門性の強化
 - [PR #119](https://github.com/team-mirai/policy/pull/119) あまおとさんによるマニフェスト改善提案
 - [PR #2655](https://github.com/team-mirai/policy/pull/2655) 指定難病申請プロセスのデジタル化による患者負担軽減提案
 - [PR #854](https://github.com/team-mirai/policy/pull/854) 働き方改革：週初めの始業時間柔軟化による生産性・幸福度向上（FUGAさん提案）
@@ -3619,6 +3655,7 @@
 - [PR #1741](https://github.com/team-mirai/policy/pull/1741) 地方の専門人材不足解消と広域連携の強化による行政サービス向上
 - [PR #1934](https://github.com/team-mirai/policy/pull/1934) 行政改革：未来への都市集中戦略
 - [PR #271](https://github.com/team-mirai/policy/pull/271) 「なめらかな税・社会保障」における高額療養費制度の課題追記
+- [PR #2702](https://github.com/team-mirai/policy/pull/2702) 匿名ユーザーによる農業DX推進に関する提案：第一次産業の効率化と収益力強化
 - [PR #2269](https://github.com/team-mirai/policy/pull/2269) 政治の見える化推進：国会審議のAI要約・アプリ配信案の追加
 - [PR #1292](https://github.com/team-mirai/policy/pull/1292) 【ふくさん提案】行政改革：文化活動促進のための規制緩和を追加
 - [PR #38](https://github.com/team-mirai/policy/pull/38) 行政改革におけるアジャイルガバナンスの注釈追加（北島哲郎さん提案）
