@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2706,
+    "title": "追加提案：「医療の質向上のためのテクノロジー実装」セクションの新設について",
+    "state": "open",
+    "created_at": "2025-06-21T02:00:13Z",
+    "updated_at": "2025-06-21T02:00:13Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2706",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "8e4c5696a9035878a63ed9e84c1dbb3473c9999b",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 28,
+      "deletions": 0,
+      "changes": 28,
+      "blob_url": "https://github.com/team-mirai/policy/blob/e22ab1c328a7807dce2329e172b43fac694d27a7/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/e22ab1c328a7807dce2329e172b43fac694d27a7/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=e22ab1c328a7807dce2329e172b43fac694d27a7",
+      "patch": "@@ -86,3 +86,31 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）医療の質向上のためのテクノロジー実装\n+\n+> 本項目は、既存の「1）オンライン診療」「2）スマート受付」「3）画像診断AI」における個別施策を、医療の質という横断的評価基準のもとで俯瞰的に再整理した視点を提示するものです。各施策は以下に示す質指標（安全性・効果・患者中心性・即時性・効率性・公平性）のいずれかに寄与しており、それらの構造的意味を明示することで、テクノロジー導入の理念的整合性を補完します。\n+\n+### 現状認識・課題分析\n+\n+- 少子高齢化や医療人材の偏在により、従来型の医療体制では質の均一化と持続可能性の確保が困難となっている。\n+- 医療の質は、安全性・効果・患者中心性・即時性・効率性・公平性という複数指標から構成されており、それぞれの指標において制度的・人的な限界が露呈している。\n+- 現場におけるマルチタスクの過剰負荷、経験依存による判断のばらつき、言語・地域格差による診療機会の不均等などが顕在化している。\n+\n+### 政策概要\n+\n+- 医療の質を構造的に向上させるため、各種テクノロジーの段階的導入を進める。\n+\n+1. **安全性向上**：誤投薬防止アラートやAI診断補助の導入を通じて、ヒューマンエラーを減少させる。\n+2. **効果の最大化**：電子カルテ・ビッグデータを用いた治療効果の可視化と、エビデンスに基づく診療の標準化を進める。\n+3. **患者中心性の実現**：自動問診やパーソナライズド医療を活用し、患者個別ニーズに対応した診療体制を構築する。\n+4. **即時性・効率性の改善**：診療予約・受付・会計に至るプロセスの自動化により、待ち時間の短縮と業務の効率化を図る。\n+5. **公平性の担保**：音声認識・翻訳支援による言語バリアの克服や、遠隔地・高齢者へのアクセス支援を強化する。\n+\n+- 技術導入における反作用（例：責任の所在不明瞭化）への対処として、診断責任の明文化、AIシステムの透明性向上、ログ記録と第三者検証の制度化を並行して進める。\n+- 本施策は初期投資を伴うが、中長期的には持続的なコスト圧縮と医療従事者の精神的・物理的負荷軽減が期待される。\n+\n+### 今後の展開\n+\n+- 医療の質指標ごとに評価指標を設定し、テクノロジー導入の効果をエビデンスベースで定期評価。\n+- テクノロジーの進化に応じた制度設計（診療報酬、責任分界、データ利用）を行い、制度疲労を回避しつつ、構造的な質の向上を持続可能とする。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "e22ab1c328a7807dce2329e172b43fac694d27a7",
+      "node_id": "C_kwDOOqTJvNoAKGUyMmFiMWMzMjhhNzgwN2RjZTIzMjllMTcyYjQzZmFjNjk0ZDI3YTc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-21T01:53:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-21T01:53:35Z"
+        },
+        "message": "しろなさんの提案に基づき、「4）医療の質向上のためのテクノロジー実装」の項目を追加",
+        "tree": {
+          "sha": "cec80b39fea25560acf9a2807ed304c56b00c6fe",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/cec80b39fea25560acf9a2807ed304c56b00c6fe"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e22ab1c328a7807dce2329e172b43fac694d27a7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoVhCfCRC1aQ7uu5UhlAAAv/UQADL+KYaRQIuoFKwu2ideg8Cn\nnYdTvqm/QFYHjkpAYmTNEulU4ZGdoLT0k4jk7Pfuyj6stUM4Mklq3rfVA0NmgHPU\nrwaoMjJI9Nm+X6y8tCcSJ8mfXz6i9Ofb4l6DoQueoF29BbqHRBZRXU6lYp4hu476\nS5kihI//Wak2Ry+LM7aik3JHzrj4ZYWCHpGS6zlzW+KzQUie+K1KUtu7m1dw5tut\ne2aE7FZBQDaBlTKOsh+alcRt3hs3wu5oViUQWwz3WRFUK3NuOKqJ9bqQlp4Pjm+u\nagjZEbChrre+g9mePD2lAof/C7gBSIPx/DBZ8rPbF396d1AgxVoNWjhOrFKVNzjt\n4QYKl/OqJbYGp1pCmTEC2lgXV74yzreV54q/9neYCWGXVAeH3pif0Hj0lrBAE/V2\n2dnjwR5/vJJb+6TvE7LJafn6QQXVjGM2owuitZCjiX72hWMjrLH1vZjyDwTZ3974\nbk09CB/Az8AVqDxMwtuieqDI9WKNmaFaRTQeO5eAi3GvNYONnXwrPzNk5n+LHMjn\n30uS9/LaU/39l7gXj4XiVUiPhM59nBKtGuAn5vkSD7rhXIWS2mJuwnrVC1apcfFz\nFxXaX5tqW7NXrce8IKm1/PGreXFFGsGQyfVqlqK/gbVfWuS4LOTnijRU4sR3a9+L\n37bWKoivx+IZjKf4wiEY\n=F2H7\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cec80b39fea25560acf9a2807ed304c56b00c6fe\nparent 530abbb6225cd1d7f6136e3a602ac09e9b7a105d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750470815 +0000\ncommitter GitHub <noreply@github.com> 1750470815 +0000\n\nしろなさんの提案に基づき、「4）医療の質向上のためのテクノロジー実装」の項目を追加",
+          "verified_at": "2025-06-21T01:53:35Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e22ab1c328a7807dce2329e172b43fac694d27a7",
+      "html_url": "https://github.com/team-mirai/policy/commit/e22ab1c328a7807dce2329e172b43fac694d27a7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e22ab1c328a7807dce2329e172b43fac694d27a7/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/530abbb6225cd1d7f6136e3a602ac09e9b7a105d",
+          "html_url": "https://github.com/team-mirai/policy/commit/530abbb6225cd1d7f6136e3a602ac09e9b7a105d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-21T02:41:11.466876"
+}
