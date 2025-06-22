@@ -1,0 +1,213 @@
+{
+  "basic_info": {
+    "number": 2742,
+    "title": "【よぴらさん提案】デジタル民主主義の具体化：市民提案制度の導入",
+    "state": "open",
+    "created_at": "2025-06-22T12:21:48Z",
+    "updated_at": "2025-06-22T12:23:44Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2742",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "0b889f0d3e54cffc4f9a377bb19c304ec175d67d",
+      "filename": "16_ステップ１デジタル民主主義.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 47,
+      "changes": 56,
+      "blob_url": "https://github.com/team-mirai/policy/blob/3c751b55b07c12aaf7c5a7e99ed9017456e684d7/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/3c751b55b07c12aaf7c5a7e99ed9017456e684d7/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=3c751b55b07c12aaf7c5a7e99ed9017456e684d7",
+      "patch": "@@ -1,55 +1,17 @@\n-⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n-💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n-\n # ６．デジタル民主主義\n \n-## ビジョン\n-\n-今の投票による間接民主主義は数百年前に出来上がった制度です。当時はインターネットもSNSもAIもありませんでした。今のデジタル技術を使うことによって、より多くの人がより深いレベルでコラボレーションをすることが出来るようになると考えています。\n-\n-また、デジタルツールを導入するといっても、最終的な意思決定をAI任せや多数決任せにするというわけではありません。私たちは、政治的意思決定は責任が取れる主体である人間が行うべきであると考えています。\n-\n-## １）AIを活用したパブリックコメントの機能不全の解決\n-\n-### 現状認識・課題分析\n-\n-問題: パブリックコメントという意見募集システムがあるが、機能不全に陥っている状態\n-\n-* 3月末より複数のメディアで、パブリックコメントにおいて提出される意見の数が「異常件数」であると報道があった。背景には、何個も同じ趣旨の投稿を繰り返す多数派工作などの存在があることがわかっている  \n-* 本来パブリックコメントは意見の量ではなく意見の幅を見る仕組みであるが、意見の量が多くなりすぎることによって、職員の工数が大幅にとられてしまっている\n-\n-  ### 政策概要\n-\n-AIを活用してパブリックコメントの取りまとめをすることにより、工数を削減し多数派工作にも対応できるようにする\n-\n-* アメリカで2021年に発表された類似プロジェクトでは、コメントの重複削除で100件のコメントあたり約4.5時間の工数削減が、類似トピック集約機能で100件あたり約8時間の工数削減に成功している  \n-* イギリスで2025年5月に発表された[類似プロジェクト](%20https://ai.gov.uk/blogs/evaluating-consult-an-ai-tool-for-enhanced-public-consultation-analysis/)では、AI toolの導入により1件のレビューは中央値で23秒、77%の回答が1分未満でレビュー出来るようになった。またテーマ抽出を自動化することで、分析に時間を割けるようになった。これにより、年間7.5万日、2,000万ポンドの削減効果を見込む  \n-* 『デジタル民主主義２０３０』というOSSコミュニティでは「広聴AI」という意見の見える化ツールを開発している。これらの開発を支援する\n-\n-## ２）政治とカネ問題解決のための、政治資金透明化の推進\n-\n-### 現状認識・課題分析\n-\n-　裏金工作などのいわゆる『政治とカネ』問題により、国民の政治に対する信頼が揺らいでいます。政治資金収支報告書などで一定の情報は開示はされているものの、なかなかお金の流れは理解しづらいままの状況です。この不透明性は、有権者にとっては由々しき課題になっています。一方で、政治家にとっても、政治資金の処理はミスが政治家生命に直結してしまうことから、非常に多大な工数をかけて行われており、負担が大きくなっています。\n-\n-　一方で、民間や他国では好事例が存在します。例えばスウェーデンでは30年前から閣僚に対して国が発行したクレジットカードを貸与しています。クレジットカード経由で使われた支出に関しては利用明細が自動的に公開されるようになっており、誰がどこにお金を使ったかが自動的に分かるようになっています。民間ではクラウド会計ソフト、クレジットカード、銀行口座の３つが連携されることによって、資金管理の状態をリアルタイムで把握できるダッシュボードが存在します。\n-\n-### 政策概要\n-\n-* 民間や他国で行われているように、クラウド会計ソフト、銀行口座、クレジットカードを紐づけた形で資金の見える化を進める  \n-* 政治資金収支報告書を解析し、お金の流れを理解しやすい形で可視化する  \n-  * 『デジタル民主主義２０３０』というOSSをコミュニティで開発している「Polimoney」では、政治資金収支報告書を元に下記のような可視化を行うことができます  \n-<p align=\"center\">\n-  <img src=\"https://github.com/user-attachments/assets/bf5de7d9-c5d6-4eea-8154-579693106340\">\n-</p>\n+台湾のデジタル民主主義を参考に、市民が政策立案に直接参加できる新たな仕組みを構築します。市民の声を政策に反映させることで、より透明で開かれた政治を目指します。\n \n+## 市民提案制度の導入\n \n-## 補足：『デジタル民主主義2030』とは？\n+マイナンバーカードを活用した本人確認を前提とし、なりすましや不正な重複を防ぎます。その上で、市民が政策案を提案し、一定数（例えば5万人）の賛同が集まったものについては、政府が公式に検討し、国会等で議論することを義務付けます。\n \n-デジタル民主主義2030は安野たかひろが2025年1月に立ち上げたオープンソース開発のコミュニティです。現在も政治的中立を保ちながら活動を進めていきます（中立性維持を構造上可能なようにすべく、安野貴博も2025年5月にボードメンバーを辞しています）。詳細は[こちら](https://dd2030.org/)のページをご確認ください。\n+## ルールの設定\n \n-## 補足：Plurality（多元性）について\n+この制度が健全に機能するよう、ルール作りも重要です。例えば、以下のような提案は対象外とすることを検討します。\n \n-Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説\n-](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n+*   公序良俗に反するもの\n+*   特定の個人や団体の利益のみを目的とするもの\n+*   人権を侵害する恐れのあるもの\n \n+これらのルールについては、今後さらに議論を重ね、より良い制度設計を目指します。\n\\ No newline at end of file"
+    },
+    {
+      "sha": "1a33e9ff459f48e4b5e7a42c3c6472e287510940",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/team-mirai/policy/blob/3c751b55b07c12aaf7c5a7e99ed9017456e684d7/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/3c751b55b07c12aaf7c5a7e99ed9017456e684d7/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=3c751b55b07c12aaf7c5a7e99ed9017456e684d7",
+      "patch": "@@ -17,6 +17,7 @@\n   * [４．産業](14_ステップ１産業.md)  \n   * [５．科学技術](15_ステップ１科学技術.md)  \n   * [６．デジタル民主主義](16_ステップ１デジタル民主主義.md)  \n+    * **【よぴらさんによる改善提案】** 台湾の事例も参考に、市民が政策立案に参加する新しい仕組みを作ります。例えば、5万人の賛同が集まった市民からの提案は、政府が公式に検討することを義務付けます。偽アカウントによる不正を防ぐため、マイナンバーカードと連携した本人確認を導入します。また、公序良俗に反するものや特定の個人・団体の利益のみを目的とする提案を排除するためのルールも設けます。これは、まず市民の声を政治に反映させるハードルを下げ、広く意見を集めることを目的としています。制度の運用状況を見ながら、賛同者の数やルールの詳細は継続的に見直していきます。\n   * [７．医療](17_ステップ１医療.md)  \n * [ステップ２「変化に対応できる、しなやかな仕組みづくり」](20_ステップ２「変化に対応できるしなやかな仕組みづくり」.md)  \n   * [１．教育](21_ステップ２教育.md)  "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "0c38807ad1db14a4567ac437990c04afd2c4215b",
+      "node_id": "C_kwDOOqTJvNoAKDBjMzg4MDdhZDFkYjE0YTQ1NjdhYzQzNzk5MGMwNGFmZDJjNDIxNWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-22T12:19:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-22T12:19:45Z"
+        },
+        "message": "feat(政策): よぴらさんの提案に基づきデジタル民主主義の項目を具体化",
+        "tree": {
+          "sha": "749c9b9838722a11dc9a89d9de1c927d231e63d7",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/749c9b9838722a11dc9a89d9de1c927d231e63d7"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0c38807ad1db14a4567ac437990c04afd2c4215b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoV/ThCRC1aQ7uu5UhlAAALhMQAJP977ihz4LwKKAfRyuPvWe0\n8DXsNZiNOv2Z4mxJ7snO5v9LeIfFhOM6r6OBNGJsnYlAF7MHCQCxJHht8c4lJ/Of\nRNrT7M+1VR+n1DI8N9VvFqoViQomM95OEjz23au9eIyy1PjKR9iWHULEn4+qnnyx\nCPRbESJj4tm9jU08IGPc9v7Ph7vRIWGvC8AieDhG6ZVQndrnzWEdISpDMGti+wwv\ntFB+eDHzs6vMheHpTRbV7895DC6lChWX/FuaV4F+RcyHXG9U8eKVqq3yhlvfr9x2\nKAxCX85cUMhoSEs3byLw41iwqqqmYvWxZni2eHLY+netNM7l86ZgIOywqT1G3lEL\nhvY8MN1UlLBOZWcdy2C/tA0UbbzbSjcd6oScVX+Fp7Cp9XB7U8Py/jTRGdpT80DW\ndMp7FUL1b7XdwNuhQLkNga5e5BY3RYu5CaVyVyIS7467Yb33VDLeYfhsv+/fwsAI\nuGuJKwbhhPrMWwhYshCVv0R0vxh5NYLneOz6hGTi+9FOtRBEwWvbWGePtmSN5+xp\nzlHBiPPLkIjnmkmO10PAgudJAUCIlBPX6fUeNjVTxt7FhPnoN7A1fpiS/wYdT+Hl\nAEnocyVbyTZKMAnxrhXCxf3N7ZQS08+t93z39pft+vFnSsKRbCVAu2dnuKzVgJ4X\nWem1BtkkB7bXZhtCzp5F\n=r9KD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 749c9b9838722a11dc9a89d9de1c927d231e63d7\nparent f9ecf190707661f9ccbd255a2dd24e612ded3ef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750594785 +0000\ncommitter GitHub <noreply@github.com> 1750594785 +0000\n\nfeat(政策): よぴらさんの提案に基づきデジタル民主主義の項目を具体化",
+          "verified_at": "2025-06-22T12:19:45Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0c38807ad1db14a4567ac437990c04afd2c4215b",
+      "html_url": "https://github.com/team-mirai/policy/commit/0c38807ad1db14a4567ac437990c04afd2c4215b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0c38807ad1db14a4567ac437990c04afd2c4215b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "html_url": "https://github.com/team-mirai/policy/commit/f9ecf190707661f9ccbd255a2dd24e612ded3ef0"
+        }
+      ]
+    },
+    {
+      "sha": "3c751b55b07c12aaf7c5a7e99ed9017456e684d7",
+      "node_id": "C_kwDOOqTJvNoAKDNjNzUxYjU1YjA3YzEyYWFmN2M1YTdlOTllZDkwMTc0NTZlNjg0ZDc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-22T12:21:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-22T12:21:47Z"
+        },
+        "message": "よぴらさんの提案に基づき、デジタル民主主義の項目に市民提案制度に関する記述を追加",
+        "tree": {
+          "sha": "03ddc4ee053cb147d72961b162de1f61d34d0c0c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/03ddc4ee053cb147d72961b162de1f61d34d0c0c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3c751b55b07c12aaf7c5a7e99ed9017456e684d7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoV/VbCRC1aQ7uu5UhlAAA7WYQAHYK/9ZqEfVKyY0G3gipFMtC\n3nMYaKMLxM1ruzLdXin4kttRfaYiX2+9g27V263rICrlqT2zDLLZrf0Ud/KbN+75\noBAfAswGH0GpWiQAe9iPRKrtKO1iSmiFCufmZNt0goauhU4zlVSM2bQN2U97qPNz\nlObOotqQ6FUvs0aiFc0+yzh1wwRXx19TceD+FVmV9t28ErypVbmt3nWrqrx1zf1N\nS60qGwLzlsnvxnRfVnv4NtcAZ5KGnUIW4b6dy1F+P+Fm7K299YQ8plP4NW6RYgwK\nALZz9kfqDzZuei2Vh//2OlbOYMVBsRud+1R4AFGKhYihfZNIaEatEQl+kW20ceYq\nQt+y8cwv4+AxvLsOUPsYHaY5cOS1c0hErgXZBjMk/vT/ocywMqOGt3tpd0RChW4T\nfnCjR0IvPHsntvJfsYULi7ib2VH1Jzh17gtwQsvPDGwRs8/7k68To5TbiEU3TXbl\nLz576HRS0nLhLG6JMxWFBNBgy4XJOmuD8S2uNAmfzC6PeA6UdGeMMeEBN5pnP+Tk\nShcZDGBH8d7NrJCxlpE/h+RZHNzOG7yKyPJeBHkxiJ1tgLXfj7NUpk0O3GGRD6of\n4o13luSSSqvLah1/D1d3tUbTkgZhtdJFmRfz7gJnBLNMlispEamV1oQyNi7oX8JD\n5xwe0xYOh9QYqANctgpm\n=Mvem\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 03ddc4ee053cb147d72961b162de1f61d34d0c0c\nparent 0c38807ad1db14a4567ac437990c04afd2c4215b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750594907 +0000\ncommitter GitHub <noreply@github.com> 1750594907 +0000\n\nよぴらさんの提案に基づき、デジタル民主主義の項目に市民提案制度に関する記述を追加",
+          "verified_at": "2025-06-22T12:21:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3c751b55b07c12aaf7c5a7e99ed9017456e684d7",
+      "html_url": "https://github.com/team-mirai/policy/commit/3c751b55b07c12aaf7c5a7e99ed9017456e684d7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3c751b55b07c12aaf7c5a7e99ed9017456e684d7/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0c38807ad1db14a4567ac437990c04afd2c4215b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0c38807ad1db14a4567ac437990c04afd2c4215b",
+          "html_url": "https://github.com/team-mirai/policy/commit/0c38807ad1db14a4567ac437990c04afd2c4215b"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-22T12:29:10.373206"
+}
