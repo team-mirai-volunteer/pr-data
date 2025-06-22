@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 2746,
+    "title": "医療アウトカム評価制度に「QOL向上」や「病状維持」の観点を追加",
+    "state": "open",
+    "created_at": "2025-06-22T13:25:27Z",
+    "updated_at": "2025-06-22T13:29:29Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2746",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "ae185a0ee330b210566885720870876be6488492",
+      "filename": "24_ステップ２医療.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "changes": 5,
+      "blob_url": "https://github.com/team-mirai/policy/blob/9dfbe902c43978cc9cbbc601d4929559e2697422/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/9dfbe902c43978cc9cbbc601d4929559e2697422/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=9dfbe902c43978cc9cbbc601d4929559e2697422",
+      "patch": "@@ -48,11 +48,12 @@\n   * 現行の医療制度は行われた処置・診察の回数に応じて診療報酬が設計されており、疾患コントロールが改善したことに対するインセンティブは設計されていない  \n   * 糖尿病や高血圧、脂質異常症などの慢性疾患の多くは重症化し、虚血性心疾患などのイベントが発生するまで、自覚症状に乏しいことも多く、患者サイドにも治療を強化し、積極的に状態をよくしようと動機づけしにくい場合がある  \n * 海外では、治療成果に応じて報酬が支払われる制度が導入され、一定の課題が示されつつも医療の最適化と費用削減を両立が期待されています\n+* しかしながら、全ての疾患が「改善」を目標とできるわけではありません。例えば、難病（透析導入に至った慢性腎不全や、寛解維持を目標とする潰瘍性大腸炎など）では「改善」ではなく「より長期の維持」が、末期がんなどの終末期医療では緩和ケアによる「QOL（生活の質）の維持・向上」が目標となります。こうした医療も正当に評価される必要があります。特に、鎮痛剤のように客観的な検査値では効果を測定しにくいものの、患者本人のQOLにとって不可欠な治療については、患者の自己申告なども含めた多角的な評価が求められます。(T.H.さんのご意見より)\n \n ### 政策概要\n \n-* 「どれだけ診療が行われたか」だけでなく、「どれだけ良くなったか」にも報いる医療制度への転換を目指し、成果連動型の診療報酬制度を導入する  \n-  * 糖尿病、COPD、心不全など、アウトカム指標が整備され患者数・医療費規模の大きい慢性疾患の治療成果を「血糖値」「呼吸機能」「心不全マーカー」などの指標で評価  \n+* 「どれだけ診療が行われたか」だけでなく、「どれだけ良くなったか」や「病状が維持されたか」、「QOLが向上したか」にも報いる医療制度への転換を目指し、成果連動型の診療報酬制度を導入する  \n+  * 糖尿病、COPD、心不全など、アウトカム指標が整備され患者数・医療費規模の大きい慢性疾患の治療成果を「血糖値」「呼吸機能」「心不全マーカー」などの指標で評価します。これに加え、難病治療における「病状の維持」や、終末期医療における「QOLの向上」といった、多様な治療目標に対応できる評価体系を構築します\n   * 治療の効果が高い医療機関に対しての報酬加算、患者に対しての還元を設計し、医療機関・患者の双方に動機づけを行う  \n * 診療データを匿名化し、全国医療データベース（NDB）で一元管理。AIを活用した公平で迅速な評価を行う仕組みを整えます  \n   * アウトカム評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます  "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "f6512852cc3aebcadbb1e91c34aa42bc7697355b",
+      "node_id": "C_kwDOOqTJvNoAKGY2NTEyODUyY2MzYWViY2FkYmIxZTkxYzM0YWE0MmJjNzY5NzM1NWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-22T11:20:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-22T11:20:09Z"
+        },
+        "message": "畑俊哉さんのご意見を反映し、アウトカム評価の定義を拡大",
+        "tree": {
+          "sha": "2995949e245311052267750eb0ca904869ce4bc1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2995949e245311052267750eb0ca904869ce4bc1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f6512852cc3aebcadbb1e91c34aa42bc7697355b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoV+bpCRC1aQ7uu5UhlAAATZoQACcU4A+ZwGaMQ6tGzXrNeVFn\n0Vjg+6iRgCOUt7Dbsu4F6GPdkDQqVyJsz48JJRlwM84uDA8F/4yTIxJ31lOlJdeP\nZFs09KvQ6HbQlEcpRjq2Q0o+18qsZlQWiL4iNKbzcC4qgdoSWZimgiJuZraIp07q\nL/BvWn/Ral2uCBy+6oKmykpGiNCnAovF7ZnAU+Uy6YEEur9V+KDwsI4DwR0+A1iG\nxMJnwevTshU5eqf7PaS3LhCS1M3wUH0ES90X2P36kMVkhRrcVvPXggaLAOzyvRpC\nFqgoiOkS2x+3W5nPhWI0sToSXH/0zUqPmJfWe6ojbSOuFiPx4QJ44eEXam3VsTm7\n08VAiqOe13wrYJj/2Ah1bowtjq/qLVX8xLDeK4YuLiswaz0xt48R98rxUTZwSDY2\nYR5LlrBbXsi0J2qY2lebycZkjn39gKk9kcTZbeQboioJTFlt66XHuYgZdJDmJ5vY\nY5Li1agEuePGebzAYd5VFrn/XcXl5S8oaEa+pA1EuG4zIanxPHQKY+WDuILpG8Yb\nyzY8zeo1baSqAvmk+Kbs24JNw6clYauIWeMN7jzwTDSJh05CHAuCETcRL1qSnvOl\neutDpU7n/owoYfBrGmLOcZfSE+qLCk1MU2S6a7ZhHaXXRQJjQEbhPauWIUb1LBNk\njMRo1Iij9/HsMfQXujZx\n=UoWK\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2995949e245311052267750eb0ca904869ce4bc1\nparent f9ecf190707661f9ccbd255a2dd24e612ded3ef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750591209 +0000\ncommitter GitHub <noreply@github.com> 1750591209 +0000\n\n畑俊哉さんのご意見を反映し、アウトカム評価の定義を拡大",
+          "verified_at": "2025-06-22T11:20:10Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f6512852cc3aebcadbb1e91c34aa42bc7697355b",
+      "html_url": "https://github.com/team-mirai/policy/commit/f6512852cc3aebcadbb1e91c34aa42bc7697355b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f6512852cc3aebcadbb1e91c34aa42bc7697355b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "html_url": "https://github.com/team-mirai/policy/commit/f9ecf190707661f9ccbd255a2dd24e612ded3ef0"
+        }
+      ]
+    },
+    {
+      "sha": "64762f48b5219d7f4e43c5789c6908231e4127ed",
+      "node_id": "C_kwDOOqTJvNoAKDY0NzYyZjQ4YjUyMTlkN2Y0ZTQzYzU3ODljNjkwODIzMWU0MTI3ZWQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-22T13:17:59Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-22T13:17:59Z"
+        },
+        "message": "畑俊哉さんのご意見を反映し、医療アウトカム評価制度の評価軸を多様化",
+        "tree": {
+          "sha": "2995949e245311052267750eb0ca904869ce4bc1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2995949e245311052267750eb0ca904869ce4bc1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/64762f48b5219d7f4e43c5789c6908231e4127ed",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWAKHCRC1aQ7uu5UhlAAAmcoQAGF9kXbPX1vSyWaf1NEX3XQJ\nzvoGrFPgcDhOiP6az2sfYDnW0lBbBL8WMAN4DsbNtnGxFj8W65N50eninc1TCLbc\nq/ZASWLtfvNWdudvz2uFGD5x6pEJ5qDTw3SZGmUFuYvh9akbwvg+veI9N0Xwvz3v\n+3NKIShwEWTIkMxz+iF8VNMKiT38eZyDjfcNpCrZ6pkCkYHARZ1S17JbuUNUivgi\ncy7WXh2tBpBKH+LErSq+osXwXr7Mf5FVo/YnNCyZyr9iJ52inUG5ZntgSei4XZoV\no+gbRwHCI0PaP7Fovd9ydeKEu3pNOG041fPxmb68Fkxv+hs70lyrHOezoqNj9dLr\n9awaTBRY2YpzOo5PAVtfEBmK5D9AmeAMSfomb+1PY9cxVr3za66id4lW1L4pvLur\n8wF84c6IphZF3RH9AZvET4xLsEfAAOmEPtEyrfFDKIduM63Trn+mnKYG/IBPjGMc\n/ERE+3f1xZM/F+X0d4+X3bZKOBnnj+4A/wxjohI6U0q6fxuh0q1BJFaKqxkHoarS\nb0wW9vzCmn1IGpg1+4XaO+Nt79iNPwlkQUYXAgJx6hf2Ld1xSeMJ+l9PERNXfpHu\nKI9qTS4Fow36kGENfqoj1W4s3qLLA3k5JRS1/YzXSnvB6cFPD9L2WXhe89ehepSo\nIzqRa5xqVJWGiult23x3\n=iWLv\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2995949e245311052267750eb0ca904869ce4bc1\nparent f6512852cc3aebcadbb1e91c34aa42bc7697355b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750598279 +0000\ncommitter GitHub <noreply@github.com> 1750598279 +0000\n\n畑俊哉さんのご意見を反映し、医療アウトカム評価制度の評価軸を多様化",
+          "verified_at": "2025-06-22T13:18:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/64762f48b5219d7f4e43c5789c6908231e4127ed",
+      "html_url": "https://github.com/team-mirai/policy/commit/64762f48b5219d7f4e43c5789c6908231e4127ed",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/64762f48b5219d7f4e43c5789c6908231e4127ed/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f6512852cc3aebcadbb1e91c34aa42bc7697355b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f6512852cc3aebcadbb1e91c34aa42bc7697355b",
+          "html_url": "https://github.com/team-mirai/policy/commit/f6512852cc3aebcadbb1e91c34aa42bc7697355b"
+        }
+      ]
+    },
+    {
+      "sha": "9dfbe902c43978cc9cbbc601d4929559e2697422",
+      "node_id": "C_kwDOOqTJvNoAKDlkZmJlOTAyYzQzOTc4Y2M5Y2JiYzYwMWQ0OTI5NTU5ZTI2OTc0MjI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-22T13:20:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-22T13:20:30Z"
+        },
+        "message": "T.H.さんのご意見を反映し、医療アウトカム評価制度の評価軸を多様化",
+        "tree": {
+          "sha": "248742a39c8c9e1d77b1f2b91154955c87ef9c5a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/248742a39c8c9e1d77b1f2b91154955c87ef9c5a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9dfbe902c43978cc9cbbc601d4929559e2697422",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWAMeCRC1aQ7uu5UhlAAAokYQADVczNPMO+6wqjUvjAvqYmjo\n3N/QjFK6PcKTi+8qxkPed3ELYavFmBVoPN2c4aHSyaGixbK2mR7hXwAjk4RPJonK\nbuWaXN8OIYSYBeyFTZhSgXWlFZbu1lsDbEwDfhia6lK2wHlzyroJxo5MW9cJGT1A\ny1kPNXP5nyURFmbIaBIuBppcuNYN9Pk6exO06qlCzpTkCxd0DmFB/0lMcKKrDQpp\nW+MZh/G8UtUzca9ET+Ym48qcoZzR+hjOqtfzVrgbQ5/sg3+5PMFpKL6TC5ZOe/PP\nHMkcT2ht2ztgLHjIt/SOolncEDSirp6K/s+J2Shw301gcJHMTe2MGwXSA/YoArzt\npbqITI73QSCuxUYiCdwv1XUif795OHr4/XKqEysrX17RbUEVV+1XbP0ErNBqb9ea\npr6/9T8leaJhB9T7r7WXjn77VyfidorTSx8pSdV6IKn4S4pa/W4hnGCJWUNphYa+\n2i/vHARNhnGdPP3wHbnV17Jyv+FtF4/qy9FD6Jo+EavdLso9vxFvQ1q+YJEekcKe\nHeuy6Ep8dxOk0MjWFMrByV0vSvwm/oS/4qAGDZcPKpmbWriFPPB9iMq76hwTFl+4\n57HLA6nOjKsBAsrctpS/+Z9S1T4lVZZ/B2hVovsdvYxqMErtKu7lv/We/vhH6KnW\nDCxzthHwy19YaFM84ERq\n=FcI4\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 248742a39c8c9e1d77b1f2b91154955c87ef9c5a\nparent 64762f48b5219d7f4e43c5789c6908231e4127ed\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750598430 +0000\ncommitter GitHub <noreply@github.com> 1750598430 +0000\n\nT.H.さんのご意見を反映し、医療アウトカム評価制度の評価軸を多様化",
+          "verified_at": "2025-06-22T13:20:31Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9dfbe902c43978cc9cbbc601d4929559e2697422",
+      "html_url": "https://github.com/team-mirai/policy/commit/9dfbe902c43978cc9cbbc601d4929559e2697422",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9dfbe902c43978cc9cbbc601d4929559e2697422/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "64762f48b5219d7f4e43c5789c6908231e4127ed",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/64762f48b5219d7f4e43c5789c6908231e4127ed",
+          "html_url": "https://github.com/team-mirai/policy/commit/64762f48b5219d7f4e43c5789c6908231e4127ed"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-22T13:31:02.947269"
+}
