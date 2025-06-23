@@ -1,0 +1,447 @@
+{
+  "basic_info": {
+    "number": 2774,
+    "title": "選挙の立候補手続きをデジタル化し、候補者の負担を軽減",
+    "state": "open",
+    "created_at": "2025-06-23T08:03:01Z",
+    "updated_at": "2025-06-23T08:18:38Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2774",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "005bcbb44c730cfc8e1715381dcc99d3b2267c87",
+      "filename": "13_ステップ１行政改革.md",
+      "status": "modified",
+      "additions": 42,
+      "deletions": 4,
+      "changes": 46,
+      "blob_url": "https://github.com/team-mirai/policy/blob/9858ff6459968a9619be2f3489c373a369b408b1/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/9858ff6459968a9619be2f3489c373a369b408b1/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=9858ff6459968a9619be2f3489c373a369b408b1",
+      "patch": "@@ -52,7 +52,7 @@\n ### 現状認識・課題分析\n \n * 住民にとって“体験の良さ”は依然として低水準  \n-  * 国民生活に直結する26手続きについて、オンラインで完結できる自治体は65.1％にとどまり、3 割強が依然として書面・窓口前提で、オンライン移行は道半ばです。（出典：デジタル庁「[データから見た成果：社会におけるデジタル活用の進捗](https://www.digital.go.jp/policies/report-202309-202408/progress?utm_source=chatgpt.com)」）  \n+  * 国民生活に直結する26手続きについて、オンラインで完結できる自治体は65.1％にとどまり、3 割強が依然として書面・窓口前提で、オンライン移行は道半ばです。（出典：デジタル庁「[データから見た成果：社会におけるデジタル活用の進捗](https://www.digital.go.jp/policies/report-202309-202408/progress)」）  \n   * 「オンライン手続きができない」「何度も同じことを書く必要がある」「窓口が明確じゃない」などの声も聞こえ、国民にとっての使いやすさにはまだまだ改善の余地があります。  \n   * 育児中のご家庭や、高齢の方、障害のある方、就業者など、全ての人にとっての使いやすさが重要ですが、「手続きが複雑であきらめた」事例が各種ヒアリング調査で報告されています。\n * 制度へのアクセス障壁がもたらす公平性の欠如\n@@ -62,9 +62,7 @@\n   * 統計調査や現地調査で「Excel→手入力→基幹系」などの多重入力が常態化し、調査漏れや職員二重配置が発生していると自治体現場からの声もあります。  \n   * デジタル化を進めることで、職員は書類の受け取りや書類の記載内容の確認から解放され、本来の対人支援・相談業務に注力できるようになります。  \n   * また、業務フローを標準化・再整備することで業務の属人性、二重入力を排除し、またシステムによる自動チェックや履歴管理によりヒューマンエラーを防ぐことができ、待ち時間の減少、迅速な給付など、行政サービスの質の向上に繋がります。  \n-  * 例えば、書面や対面を義務づけるアナログ規制をオンライン化しただけで、甲種防火管理講習では年間 16.7 億円のコスト削減効果が試算されており、同様の潜在効果が多数残存。（出典：デジタル庁「[アナログ規制の見直しによる経済効果（中間報告）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/8993b6ae-e3d2-4d34-afe1-5c722d8e516f/fc4e86f1/20231226_policies_manual-analog-regulation-review_outline_05.pdf?utm_source=chatgpt.com)」）\n-\n-\n+  * 例えば、書面や対面を義務づけるアナログ規制をオンライン化しただけで、甲種防火管理講習では年間 16.7 億円のコスト削減効果が試算されており、同様の潜在効果が多数残存。（出典：デジタル庁「[アナログ規制の見直しによる経済効果（中間報告）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/8993b6ae-e3d2-4d34-afe1-5c722d8e516f/fc4e86f1/20231226_policies_manual-analog-regulation-review_outline_05.pdf)」）\n \n ### 政策概要\n \n@@ -131,3 +129,43 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+\n+## 5） AI＆ITによる公務員の働き方改革を行います\n+\n+### 現状認識・課題分析\n+\n+* 立候補手続きが“紙と対面”に強く依存\n+   * 立候補予定者は、事前説明会で各都道府県選挙管理委員会から膨大な届出書類を受け取り、記入・管理・提出に多大な労力を要しています。\n+   * 提出にあたっては、押印済み原本を「厳封」のうえ庁舎に再度持参する必要があり、手続き全体が紙ベースで運用されています。\n+   * なお、参議院選挙など一部では総務省のように[Web上](https://www.soumu.go.jp/senkyo/senkyo_s/news/000182044.html)での資料提供が行われている例もあります。\n+* 供託金納付はオンラインでも“紙提出が慣行のまま”\n+   * 法務省が提供する「供託ねっと」により、選挙供託金はオンラインで納付可能となっていますが、多くの選挙管理委員会では電子形式の預納証明書を受理しておらず、法務局で紙の原本を発行・提出する運用が依然として求められています。制度と現場運用の間に乖離が存在しています\n+* CD-R提出やPDFでの書類作成など、古い慣行が温存\n+   * 選挙公報などの提出書類では、CD-Rでの提出が求められる場合があります。\n+   * また、PDFファイルで様式が配布されることもあるため、専用ソフトによる加工や印刷・手書きによる記入が必要となることがあります。こうした非効率な形式依存が、事務作業の負担を増大させています。\n+* 短期間に集中する手続きと、情報の重複提出\n+   * 事前説明会から事前審査までわずか数日しかなく、その間に移動をしつつ、供託・戸籍取得・住民票・委任状・事務所届・政見放送などを同時並行で準備する必要があります。\n+   * 加えて、各選挙管理委員会により必要書類や記載ルールが異なり、同じ情報（例：候補者名や住所）を何度も転記させられる構造になっています。\n+   * このような短期集中・多重入力の負担は、特に参議院選挙のように全国を対象とする選挙では、地方に拠点を構えることが困難な新興政党にとって大きな障壁となっています。\n+* 移動・時間・費用面での制約が候補者の多様性を阻害\n+   * 庁舎への訪問や書類の郵送などにかかる時間や費用は、物理的・経済的な負担となっており、地方在住者、海外在住の日本人、平日に時間を取りづらい層にとって立候補の大きなハードルとなっています。その結果、立候補機会における地域・環境間の格差が生じ、候補者の多様性確保にも影響を与えています。\n+\n+### 政策概要\n+\n+* 誰もが立候補しやすい選挙へ：“フルオンライン届出”を段階的に実現\n+* 電子手続を全国統一運用へ\n+   * すでに可能となっている「供託ねっとによるオンライン納付」や「事前審査前のメール等での事前チェック」「事前審査のオンライン予約」など、実証済みの仕組みを全ての選挙管理委員会で共通運用できるよう整備します。\n+   * これらの法改正が不要な部分については、例えば総務省通達や業務ガイドラインにより統一ルールを策定し、速やかな運用開始を目指します。\n+   * 一方で、法改正が必要な手続きについては、法的な真正性とセキュリティなどの観点で慎重な対応が必要となるため段階的に進めます。\n+     *  例えば、「届出書類の電子署名・電子提出を紙と同等とみなすための法整備」、「マイナンバーカードを活用した本人確認プロセスの導入」、「書類一式のクラウド保存、タイムスタンプ運用による「厳封相当」措置の導入」については慎重な検証を通した上で段階的に対応します。\n+     *  その際、提出記録や操作ログを保存するなど、セキュリティ・訴訟耐性も確保する想定です。\n+*  手続きの重複をなくし、全国で使いやすい様式へ\n+   * 所・氏名・政党名・略歴などの繰り返しの同一の記載をなくすため、統合入力フォームを整備し、1回の入力で複数様式に自動展開します。\n+   * 加えて、様式・記載要領・メタデータ設計を仕様として標準化し、自治体ごとの記載揺れや独自欄をなくし、公平性と審査効率、ミス削減の両立を図ります。\n+* デジタル庁・総務省と連携した技術基盤の構築\n+   * 行政手続標準化の共通API（GSS）に「公職選挙手続き」を追加し、住民票・税務情報と同様に各種選挙手続きをAPI経由で処理できる構造を検討します。\n+   * 導入に負担の少ない汎用的な業務テンプレートを整備し、予算や人材が限られる自治体でも安定的に運用できるよう配慮します。\n+* 運用現場に配慮した“併存フェーズ”の設計\n+   * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n+   * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "21be756529d0066c70bdcb9a7e3fe9a02eed174c",
+      "node_id": "C_kwDOOqTJvNoAKDIxYmU3NTY1MjlkMDA2NmM3MGJkY2I5YTdlM2ZlOWEwMmVlZDE3NGM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T07:59:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T07:59:16Z"
+        },
+        "message": "tんさんの提案に基づき、立候補手続きのデジタル化に関する内容を追加",
+        "tree": {
+          "sha": "867d28dd926a32b81925535c8c3c5f4ff1d2c8d1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/867d28dd926a32b81925535c8c3c5f4ff1d2c8d1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/21be756529d0066c70bdcb9a7e3fe9a02eed174c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWQlUCRC1aQ7uu5UhlAAAQAwQAJBVFMYDeoOHtCL+8BI2lzC0\noPqg/kWJ+0fCNz3t/JSEwNUoMwsfZbNfp3FvNWptWCo9sMedh30L9Nt3F3wKYuID\nyT3DCm8JhiBFy7XFq40WbVqA9RgAOVDVefHDsOPK2XuKegj9JqtBZE2xrGYIfZaj\nS5f0zJ1oy/It0kXfpCM/BVni9hO6NvVhUlAQWaPAwdl857Uc0UiQ0Xh1aTLavu4L\nKYMks6ixVVhey3eEOY6IFgqs6SGWS6d4+CLVVhmEB1Y9Uq5FXxLtSyULnCrezEk6\nToJeWrgjokM5T1duG0oVmNn1g40bviCTgzLkQuQwkGi81Z6ZFiUxQH3Eyim42xg0\nuDCvBiz7VGRUq02LtdXkow1WpAPF8++/rMKdgjgjvlIE1rZEciJPNk5yZW9mA+VI\nIt0eQYO2NzecsOrdxef/OkhYn0otbHaY+CK5yC0ZCWgErWKVR3mE72L3o1fECCta\njsTNooOatC7iJLP5U/9wnDJvMe1MemqGCdAPT1AmLDx1otvGynPuFnqg7sDaDN7h\n8+DPX0wbFXEPlSPmOjAaX15Gcy8EWP0lrGaoT7/AXCr/MAs/09hjLWh+8hACtqUX\n8OHoFP5siMcUn0dLzT6fAJuqysgLUpIP3uE+al2nDofSF4pDS0N8HI7H4GShJTRX\nWc/SAk+3JEtocRfkfOcH\n=aeAT\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 867d28dd926a32b81925535c8c3c5f4ff1d2c8d1\nparent f9ecf190707661f9ccbd255a2dd24e612ded3ef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750665556 +0000\ncommitter GitHub <noreply@github.com> 1750665556 +0000\n\ntんさんの提案に基づき、立候補手続きのデジタル化に関する内容を追加",
+          "verified_at": "2025-06-23T07:59:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/21be756529d0066c70bdcb9a7e3fe9a02eed174c",
+      "html_url": "https://github.com/team-mirai/policy/commit/21be756529d0066c70bdcb9a7e3fe9a02eed174c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/21be756529d0066c70bdcb9a7e3fe9a02eed174c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "html_url": "https://github.com/team-mirai/policy/commit/f9ecf190707661f9ccbd255a2dd24e612ded3ef0"
+        }
+      ]
+    },
+    {
+      "sha": "a27e67b50e956f38ea247e9d35ac55749b1b62c8",
+      "node_id": "C_kwDOOqTJvNoAKGEyN2U2N2I1MGU5NTZmMzhlYTI0N2U5ZDM1YWM1NTc0OWIxYjYyYzg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T08:00:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T08:00:56Z"
+        },
+        "message": "tんさんによる立候補手続きのオンライン化提案を反映",
+        "tree": {
+          "sha": "867d28dd926a32b81925535c8c3c5f4ff1d2c8d1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/867d28dd926a32b81925535c8c3c5f4ff1d2c8d1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a27e67b50e956f38ea247e9d35ac55749b1b62c8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWQm4CRC1aQ7uu5UhlAAAp+IQAJjpEL3d/K6t3yqjIEa3QqIq\n/FjI71C/NkHHQlcrzvDNghZ9nWKj2G/evdDb8ZW8DK2VwTss+pH6waOQUlSrbiNK\nbyl9dKTUE5ASaKgZnet/EpkIQUdudNPbpvVfGP3oqzSBfz209bJhPQhQQ3qxGJVt\n/cyxGpE0QtTZh0FyS+3ZGlgqtcw9ei4sWI/cGuD6+Yg5wxeym4y7t+Lr0hgx1UXs\nb/eXiory4Eq2pFu5QgcUc7zZKdUkFbsV/6LRVIbBsaqCMRQCAhlJlogo+IP4pdPS\noWMDE5tvdMgXcIzJK2PmUtrDt3KT3YqoSkd16rBLBE+JvLoQPLB/ONAt6Qru1gSC\nkTyfeELazWkC2uASScW1zCEhBx/push5viWtaGB1p6XIlp4Sx5MygZE2ElmVJT0b\nu0+oyw5guFOMt+ik/kRx91ADSkVFOl+ZC+ZPftg5qnByjKLmbh4hMIIajhNNpG5W\nl74QCt/dwE4oOh4qkBZcHF2uEz5OVneN/FRes+f/41WSvUr401WGnqg0u4YFT0yd\nTJKASLW7dPxsVO7I72tgN9Lx+cmXr1W/OrF1eMEJujsnziQD7r8vbR17SVrmFBGV\ngoI0WRglmh2GSsVkcsA6+sZDGfPy87G3I9pvzqrSCnpxpjTYTjqzDX0bjtNjIR9y\nwm1MWUoPbTnG8ir6JHxa\n=FoMZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 867d28dd926a32b81925535c8c3c5f4ff1d2c8d1\nparent 21be756529d0066c70bdcb9a7e3fe9a02eed174c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750665656 +0000\ncommitter GitHub <noreply@github.com> 1750665656 +0000\n\ntんさんによる立候補手続きのオンライン化提案を反映",
+          "verified_at": "2025-06-23T08:00:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a27e67b50e956f38ea247e9d35ac55749b1b62c8",
+      "html_url": "https://github.com/team-mirai/policy/commit/a27e67b50e956f38ea247e9d35ac55749b1b62c8",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a27e67b50e956f38ea247e9d35ac55749b1b62c8/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "21be756529d0066c70bdcb9a7e3fe9a02eed174c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/21be756529d0066c70bdcb9a7e3fe9a02eed174c",
+          "html_url": "https://github.com/team-mirai/policy/commit/21be756529d0066c70bdcb9a7e3fe9a02eed174c"
+        }
+      ]
+    },
+    {
+      "sha": "99cd7d21bee8c9898ec481812261d3315e33cf74",
+      "node_id": "C_kwDOOqTJvNoAKDk5Y2Q3ZDIxYmVlOGM5ODk4ZWM0ODE4MTIyNjFkMzMxNWUzM2NmNzQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T08:02:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T08:02:15Z"
+        },
+        "message": "tんさんの提案に基づき、選挙の立候補手続きのデジタル化に関する内容を追記",
+        "tree": {
+          "sha": "0e1e6cc52d02018c7bbfbd3b9648abeaf875d309",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0e1e6cc52d02018c7bbfbd3b9648abeaf875d309"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/99cd7d21bee8c9898ec481812261d3315e33cf74",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWQoHCRC1aQ7uu5UhlAAAeiEQAHcZjgTz2g3g51i3GxjHLrFT\ncqTsPH786kXPCv4EpktNsllcFIr1wDXrFafcGLx/etvc0X581nu45Y4tKgJmJByX\n21w/XKngWOhaW3CnHhkgz/1y4WDMLzQEo9ZAAyVyUaaKtgGHwg3OydgyRdjyBbfM\nVBo/3N+AncSYx/AFsSONeF66+2WAjqoNmjZSOmQZjKU29gaSZHnMMfXNHyV4xPDc\n5O9LINW6o8B3r0XDaxUIOX/EjN3/+L1uQwsIo2gB6/S/8hC4j0sIfD14pzvEVaBx\nbe4mkofOU4a1KD1+sMEFLO2+IPn8pM2stUrxEzkVpc0um78EMBSzGBq3ZT9Hu8dm\nWXXjUpJVWrYjGHZLdOuZIJkDI4pmRQe3jGBHFgeL55X47J3tA45x3Jea0U5nWinB\nkUHF4oSegt4mInAEL0/U/8gVemP/o8fDWjqRagyuaGaFS4OGrIo82qA8O6xzR8my\nLfsj0QruhpYRsyrsS4+B2q54HbioTK1fW0YuY9cuNpA2euQ8u6dHkReCXCpzPQ8K\nYu7y2NbXKRA1OF1T8A6zqBv0uJxZQLZTAE3oPZeVeFAGSaBmKUuRJ9DtqeEIKkJF\n3LluH+r9uTyIHbSw3Zes1mL2HmUA+BUQqi1z9dOq+FgcPmR7G3m/Nq/2+KlWBna0\nkyw0dZp2Ji/Gh2WtfTmk\n=gn6Q\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0e1e6cc52d02018c7bbfbd3b9648abeaf875d309\nparent a27e67b50e956f38ea247e9d35ac55749b1b62c8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750665735 +0000\ncommitter GitHub <noreply@github.com> 1750665735 +0000\n\ntんさんの提案に基づき、選挙の立候補手続きのデジタル化に関する内容を追記",
+          "verified_at": "2025-06-23T08:02:16Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/99cd7d21bee8c9898ec481812261d3315e33cf74",
+      "html_url": "https://github.com/team-mirai/policy/commit/99cd7d21bee8c9898ec481812261d3315e33cf74",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/99cd7d21bee8c9898ec481812261d3315e33cf74/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a27e67b50e956f38ea247e9d35ac55749b1b62c8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a27e67b50e956f38ea247e9d35ac55749b1b62c8",
+          "html_url": "https://github.com/team-mirai/policy/commit/a27e67b50e956f38ea247e9d35ac55749b1b62c8"
+        }
+      ]
+    },
+    {
+      "sha": "711e49766f1e079433b4f6b77b81bd3c9d79b337",
+      "node_id": "C_kwDOOqTJvNoAKDcxMWU0OTc2NmYxZTA3OTQzM2I0ZjZiNzdiODFiZDNjOWQ3OWIzMzc",
+      "commit": {
+        "author": {
+          "name": "Taisho241",
+          "email": "58881155+Taisho241@users.noreply.github.com",
+          "date": "2025-06-23T08:17:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T08:17:27Z"
+        },
+        "message": "Update 13_ステップ１行政改革.md",
+        "tree": {
+          "sha": "e7214dd93389946602a54b4877ab43d2a12179f1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e7214dd93389946602a54b4877ab43d2a12179f1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/711e49766f1e079433b4f6b77b81bd3c9d79b337",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWQ2XCRC1aQ7uu5UhlAAAZh8QAFO8fC641Wd0LWXCbRY/H67X\n8o7sZd+OkbqwtiHZ0BO4k1nBQC/cQ/qUVQvjgKLRdTNmoOqUOygx9GwaqG38TJlE\nRIO5GJ6HJ0ATHxDbA3yLKH6EPOw5yJczKLNp361fVOLZb81xDi7BMd5WGzRjp1Lh\nEK647FEU7AAyLn1lfPDxL302BhjI18F4VlGVmBp/yLuPi8pyOKRcud3OTwGLZBF1\nvv6dDWoHicyYNwyakzxzqxv/w68YOqXcWqxotdyPFIBHL7R7yr+Ikk7Gz8T0b3Hv\nJtb1gfxDsPHyhzktNVdz+CTISC2FJyNw4KDktUDT02cuMt/gDBB7HTqWO73lBrig\nvh9rx+pFjYSkbFk6vUqrcaDFzwyhn8EPF4OuMTdTKMlTYi+8suvLRMVumeuGUN2Z\nf9ViVETTajP1E4EyUdqwvkzP6Yeel5bjaZPuGvOLG5ECNkDLFynRYb2IbZsQV5Lv\n/pVzMQbsl7ZVID0RXFS3rp7b5Bw7KGFwBucMSgVcmxCNP12HIUaGV/ZWbPSr+fHi\nUcpyWXcZvDNiJuEn7epd7JywsI8WElI3UZ0D0XyTsvLpKaAwk34ovDjKFu/sY1kW\nmAkFKgTIeJZfZ+QgFK8CWusyeOkBb02iM+UVFWRlgd0qiLr98bih/kynvM+Z+2A8\nZj8j3EEKQzHlVT7kGYy0\n=9KjV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e7214dd93389946602a54b4877ab43d2a12179f1\nparent 99cd7d21bee8c9898ec481812261d3315e33cf74\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1750666647 +0900\ncommitter GitHub <noreply@github.com> 1750666647 +0900\n\nUpdate 13_ステップ１行政改革.md",
+          "verified_at": "2025-06-23T08:17:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/711e49766f1e079433b4f6b77b81bd3c9d79b337",
+      "html_url": "https://github.com/team-mirai/policy/commit/711e49766f1e079433b4f6b77b81bd3c9d79b337",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/711e49766f1e079433b4f6b77b81bd3c9d79b337/comments",
+      "author": {
+        "login": "Taisho241",
+        "id": 58881155,
+        "node_id": "MDQ6VXNlcjU4ODgxMTU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58881155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Taisho241",
+        "html_url": "https://github.com/Taisho241",
+        "followers_url": "https://api.github.com/users/Taisho241/followers",
+        "following_url": "https://api.github.com/users/Taisho241/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Taisho241/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Taisho241/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Taisho241/subscriptions",
+        "organizations_url": "https://api.github.com/users/Taisho241/orgs",
+        "repos_url": "https://api.github.com/users/Taisho241/repos",
+        "events_url": "https://api.github.com/users/Taisho241/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Taisho241/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "99cd7d21bee8c9898ec481812261d3315e33cf74",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/99cd7d21bee8c9898ec481812261d3315e33cf74",
+          "html_url": "https://github.com/team-mirai/policy/commit/99cd7d21bee8c9898ec481812261d3315e33cf74"
+        }
+      ]
+    },
+    {
+      "sha": "9858ff6459968a9619be2f3489c373a369b408b1",
+      "node_id": "C_kwDOOqTJvNoAKDk4NThmZjY0NTk5NjhhOTYxOWJlMmYzNDg5YzM3M2EzNjliNDA4YjE",
+      "commit": {
+        "author": {
+          "name": "Taisho241",
+          "email": "58881155+Taisho241@users.noreply.github.com",
+          "date": "2025-06-23T08:18:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T08:18:37Z"
+        },
+        "message": "Update 13_ステップ１行政改革.md",
+        "tree": {
+          "sha": "0aa3ae95ce0feee813ca9b05ed2a04148880adb2",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0aa3ae95ce0feee813ca9b05ed2a04148880adb2"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9858ff6459968a9619be2f3489c373a369b408b1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWQ3dCRC1aQ7uu5UhlAAAeaAQAFlGKcWOAyMTOkUeIs85/U/F\nr9O6Y2Du2TQwSMACY7CH5SxoL3OfIb5fLFPULNlEAd8B1hi9dU4dGCqa7TmI83z/\nUgBdnFbujHuqOAfiUgsnZ+k96tIcEqemo7M0+y521+LrlDXXYvFMl5m8RW0c0EGt\nxGPB8BZQUx1AOltb5UOXCsIp/ACPpEnR2Sl8fttoHrlvmOJhK6s0qxFGIciu8JFT\nGbi9RVFSix00u6FUv/pZyeQ9r+Hvhc/NR0wqDQm6t1dvZJ+VPQxdWXnqhTAqrL9f\neUBEYiuyNLXMcIAEXqixWIDSX0Z+4koZwnXlPI2qP5u2GsIhCRtRXCowad46Yt17\nvGlr0q3kTSJyXsLTCrbKd8Padfhvnglot5pa2uZe9H1Hb6WP/qgW6SLsAruwWvrx\ndwnWQ4B0Lt/QBCCPY0OpBTdbVKoykR3ehzPhuTvD4LBZ66jhLbhdALLQ249EmYt7\nuOqd2pBUFlhDajXrwNEMLiA5X+THOy+MOyCYeDVRnbSdByk0dDRUN73TBWLSYZA8\n9gjW/2IGCHTbpt4mzsimVhbrDWdpSKk0Gtc+ZmCe4U21Fo/fpXOPTG+tkSP2TFV6\nxADEjw9/IGrtd5aLT9qU9R3EjE5q4UZE/7AtU3xSB+Eu94m0nCV1h/xlwGgwFJCG\neVFyLAznmrQsIllVhXDC\n=A45J\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0aa3ae95ce0feee813ca9b05ed2a04148880adb2\nparent 711e49766f1e079433b4f6b77b81bd3c9d79b337\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1750666717 +0900\ncommitter GitHub <noreply@github.com> 1750666717 +0900\n\nUpdate 13_ステップ１行政改革.md",
+          "verified_at": "2025-06-23T08:18:38Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9858ff6459968a9619be2f3489c373a369b408b1",
+      "html_url": "https://github.com/team-mirai/policy/commit/9858ff6459968a9619be2f3489c373a369b408b1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9858ff6459968a9619be2f3489c373a369b408b1/comments",
+      "author": {
+        "login": "Taisho241",
+        "id": 58881155,
+        "node_id": "MDQ6VXNlcjU4ODgxMTU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58881155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Taisho241",
+        "html_url": "https://github.com/Taisho241",
+        "followers_url": "https://api.github.com/users/Taisho241/followers",
+        "following_url": "https://api.github.com/users/Taisho241/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Taisho241/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Taisho241/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Taisho241/subscriptions",
+        "organizations_url": "https://api.github.com/users/Taisho241/orgs",
+        "repos_url": "https://api.github.com/users/Taisho241/repos",
+        "events_url": "https://api.github.com/users/Taisho241/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Taisho241/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "711e49766f1e079433b4f6b77b81bd3c9d79b337",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/711e49766f1e079433b4f6b77b81bd3c9d79b337",
+          "html_url": "https://github.com/team-mirai/policy/commit/711e49766f1e079433b4f6b77b81bd3c9d79b337"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-23T08:19:08.296623"
+}

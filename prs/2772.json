@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 2772,
+    "title": "パブリックコメント制度の改善：国民の声を「追える」「伝えられる」「反映される」仕組みへ",
+    "state": "open",
+    "created_at": "2025-06-23T07:32:03Z",
+    "updated_at": "2025-06-23T07:40:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2772",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "fae2966547c5d9134893683e75f46c08751d0af5",
+      "filename": "13_ステップ１行政改革.md",
+      "status": "modified",
+      "additions": 37,
+      "deletions": 1,
+      "changes": 38,
+      "blob_url": "https://github.com/team-mirai/policy/blob/7e6fbf58ff5bb6f9bc36747729c67616d8d32727/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/7e6fbf58ff5bb6f9bc36747729c67616d8d32727/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=7e6fbf58ff5bb6f9bc36747729c67616d8d32727",
+      "patch": "@@ -29,7 +29,7 @@\n   * 世界には社員が数十名程度で企業評価額が10億ドル以上の企業も存在しており、小さなチームでも大きな価値を生み出す活動が可能な見込み  \n * 行政デジタルツールの開発/運用  \n   * オンライン熟議の場  \n-    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します  \n+    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します\n   * 国民の声を効率的に集めるツール  \n     * パブリックコメント等の大量の意見投稿を効率的に処理できるシステム（例：広聴AI）を開発し、意見の集約をスムーズにします  \n * 政治資金の流れの公開  \n@@ -131,3 +131,39 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+   \n+## 4）決まる前に追える、届けられる――市民の声が届く法制度トラッカー\n+\n+### 現状認識・課題分析\n+\n+* 気づいた時にはもう終わっているパブリックコメント\n+  * 行政機関が実施するパブリックコメント（以下「パブコメ」）は、政策や規制の案を事前に公表し、広く国民から意見や情報を募集する重要な手続きです。しかしながら、その受付期間は原則30日以上とされている一方で、実際には短縮されるケースもあり、関係者が気づいたときには既に締切直前ということも少なくありません。\n+  * また、パブコメが実施されるタイミングでは、政策の内容がおおむね固まっている場合が多く、提出された意見が必ずしも十分に反映されていないという指摘もあります。\n+* 国会提出後に話題になっても、修正の余地は限られている\n+  * 法律案が社会的に注目されるのは、国会に提出される見込みとなった段階以降が多く、報道やSNS上での議論もこの時期に集中しがちです。\n+  * しかしその時点では、与党内の事前審査や省庁の内部調整を経て内容が固まっており、国会審議では野党修正や附帯決議が付くことはあっても、大きな修正がなされる可能性は低いのが実態です。\n+* 審議会など“政策の設計図”に市民の声が届きにくい\n+  * 例えば介護や医療などの分野においては、定期的な法律改正の前段階として、省庁が開催する審議会や部会で制度内容の検討が行われます。これらは実質的に政策の骨格を決める重要な場でありながら、パブコメの対象とはされておらず、一般には議事録が後日PDFで公開されるのみです。\n+  * そのため、審議会の段階で市民や現場の当事者が意見を届ける制度的な手段が整っておらず、政策形成の初期段階が“静かに”進行してしまう傾向があります。\n+* 今、効力を持っている条文がどれか分からない\n+  * 法令は、一般の市民にとって複雑で読みづらい構造になっているのが現状です。改正履歴や経過措置、時限措置といった要素が積み重なっており、特に改正法では条文ごとに異なる施行日が定められることも少なくありません。\n+  * さらに、附則に記された内容も施行期日が異なる場合が多く、「今まさに有効な条文がどれなのか」「いつ何が終了するのか」といった情報を追いかけるのは非常に困難です。こうした制度上の読みづらさは、法令への信頼や参加意識の妨げになっています。\n+ \n+### 政策概要\n+* 「気づけない」「わかりづらい」から、「追える」「伝えられる」「反映される」へ。\n+  * 政策づくりの流れを早期かつ継続的に追いかけ、暮らしに直結する法律や制度に“自分の声”を確実に届けられる仕組みを整えます\n+* 「知らないうちに終わってた」をなくす\n+  * 関心テーマ（教育、福祉、税制など）を登録することで、関連するパブリックコメントの受付開始を事前にお知らせする仕組みを構築します。\n+  * 開始前・開始時・締切前の３段階で通知し、「気づいたらもう締切」の機会損失を防ぎます。\n+* 政策の立案プロセスが見えるタイムライン\n+  * 一例ではあるが、審議会 → 与党部会 → 法令案作成 → パブコメ → 閣議決定 → 国会提出 → 成立 → 公布・施行という政策審議から立案・成立までの一連のプロセスを可視化します。\n+  * また国会や委員会審議では、議員ごとの過去発言や関連法案へのスタンスを色分け等見やすい形で表示し、一目で分かる仕組みを用意します。\n+* 法令トラッカーで変更差分・履歴を可視化\n+  * 改正法令の新旧条文を色分け等で差分表示し、どこがどう変わったかを直感的に把握できるようにします。\n+  * また、条文ごとの公布日・施行日、時限・経過措置の終了予定日をカレンダー形式で整理し、「今効力を持っている条文」「次に変わる条文」を分かりやすく提示します。\n+  * さらに、企業や自治体向けには API で同じ情報を提供し、社内規程や業務マニュアルの自動更新にも活用できるようにします。\n+* “みんなの声”が届くしくみ\n+  * PDF で公開されている審議会資料や議事録を機械可読化し、検索も要点把握も簡単にします。\n+  * また、「広聴AI」「いどばた」などの意見集約サービスと連携し、審議会段階から市民や現場の声を“ゆるやかに”政策づくりへ届ける場を設けます。\n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "ed7b638706f407295dee3e8bce6a80330413b090",
+      "node_id": "C_kwDOOqTJvNoAKGVkN2I2Mzg3MDZmNDA3Mjk1ZGVlM2U4YmNlNmE4MDMzMDQxM2IwOTA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T07:31:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T07:31:15Z"
+        },
+        "message": "tんさんの提案に基づき、パブリックコメントの仕組みを改善",
+        "tree": {
+          "sha": "a3815c936b0d875a9d6a530aadb71a3b717f430f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a3815c936b0d875a9d6a530aadb71a3b717f430f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ed7b638706f407295dee3e8bce6a80330413b090",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWQLDCRC1aQ7uu5UhlAAA53cQABZ/qu+YJXGLy7U5udg6AuXl\n5G70esyNftj0pA7jncjSIrR5NQ09Mh1ojTfiNKntzl9MqmeYYohgOMRLeqw5RvnQ\n2XAXu9j/Ja/HNCqaUqOlyV6mdUVKiDrX2SFdMzcFS995apdGw9q6clMzAbr73ClC\n+w4gjrIAKlOjiYwJyq5OKwK6fAdMulS42H6wXFIR+YumENw1NW/z90BySKu3lupz\nt2QxoHgFcHdFHoVn7tcvNcG4EFPyHdF4tudZgiE+o2lELApbpBkfEWJ/ftwz81QE\nn1fJiTAuRHx1YGY13YoyJ4/uLCsaxI3petYi+8HJiPzIUr7n62YvY/+fLlxEYPEi\nCEwIMtXz0r9qGnrnu1pGZTR2bGQAKjzA1c+MsA/L1TkAw+kKKlyG5NmKZkvKTFTK\n/c9A0URBZSSGxU54qn0x6hfEgCxFBhSErArv5kV/oIbf9PTEWRttrWJElcB+jZXH\nMudukiIg/FcbOVfNav2PKR0gn1RXi8zY/lusBdTZU549BHjsuMAvWxBhfOj/x5Ze\nJqbcOYa2lwcUOL3ttzL6PHs4cPjC2P8Q9MVRQfewm7R/SB2d0W26QdmCAckJEZfs\nWDg2iABrOTJOd4DPrHjq0wJxQUnDo+TW+6CGGKDGuvg37aGpq+DWLkrwhIvUPycH\np+0B0yRVu5chsmQgTRZr\n=jLhH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a3815c936b0d875a9d6a530aadb71a3b717f430f\nparent f9ecf190707661f9ccbd255a2dd24e612ded3ef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750663875 +0000\ncommitter GitHub <noreply@github.com> 1750663875 +0000\n\ntんさんの提案に基づき、パブリックコメントの仕組みを改善",
+          "verified_at": "2025-06-23T07:31:15Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ed7b638706f407295dee3e8bce6a80330413b090",
+      "html_url": "https://github.com/team-mirai/policy/commit/ed7b638706f407295dee3e8bce6a80330413b090",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ed7b638706f407295dee3e8bce6a80330413b090/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "html_url": "https://github.com/team-mirai/policy/commit/f9ecf190707661f9ccbd255a2dd24e612ded3ef0"
+        }
+      ]
+    },
+    {
+      "sha": "7e6fbf58ff5bb6f9bc36747729c67616d8d32727",
+      "node_id": "C_kwDOOqTJvNoAKDdlNmZiZjU4ZmY1YmI2ZjliYzM2NzQ3NzI5YzY3NjE2ZDhkMzI3Mjc",
+      "commit": {
+        "author": {
+          "name": "Taisho241",
+          "email": "58881155+Taisho241@users.noreply.github.com",
+          "date": "2025-06-23T07:40:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T07:40:53Z"
+        },
+        "message": "Update 13_ステップ１行政改革.md",
+        "tree": {
+          "sha": "5f86fb5388b182ffab8ae232f160059cf1b0d52d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5f86fb5388b182ffab8ae232f160059cf1b0d52d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7e6fbf58ff5bb6f9bc36747729c67616d8d32727",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWQUFCRC1aQ7uu5UhlAAACbMQADLiNL5J4g1LfMaLYmitMUQh\nSuZ9fcNtCfv6lLzPz/xTwBgWX9nWGmxLT6BWr+1IT4wfYlEqjXet9UsCdP+o1/yN\ncqOKX7zPIUmic2lxUUwJk8MAbgfTFVzPweMFzDQoFCFn807cNS2kueNJZ5FSlVb8\nAF94Cd2Txbt2lRm10cFKtdMY/6j6ePGNUgvyLteDMUi/LcQNYWd1ZHvMZr4TGW1P\niS1aiG8fB9fw3CM8zCnfj7Ln91eC/F6g1YnLgeFZCHHfiDc9jmADGe3EfIFBlb18\n/JqOVVlp9kzU9KiuU7ltN+viXCrm3nfr3qHYqVhstcfju9ed9VeoIzXmbigXuuMB\nm3nfZJU6OodE3gR/Isd4VqFC4Nj2otwL2rfBKxYs1HJoxQqziG6WkED7ytcJvyFW\n8zSDJzU2jRG/7JT5RxZojUqhBVbYe/cYq9VGQw64j0ssaPT4XgZ5SWZkIgzLiVbS\nJMgu93TLZDEN7spv3MAuxi5fCkB7ep76RRb8JLEj/T6hr4P2j9zP3DPTozk8CYsw\nDX1oe6NDe609o0i2h1BctHCPKWCFvGaBrRxTd14sb/BGkiFbkKoG531gxuUx9kkq\njiPSbtJizWVRvbWTN1ABi9A6+zA9O3ICu7HhEbbyZGWO3QzhJkxRJYfzuSPwdtfd\nioPsDy5QLoMB8q6LaX9U\n=WL/O\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5f86fb5388b182ffab8ae232f160059cf1b0d52d\nparent ed7b638706f407295dee3e8bce6a80330413b090\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1750664453 +0900\ncommitter GitHub <noreply@github.com> 1750664453 +0900\n\nUpdate 13_ステップ１行政改革.md",
+          "verified_at": "2025-06-23T07:40:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7e6fbf58ff5bb6f9bc36747729c67616d8d32727",
+      "html_url": "https://github.com/team-mirai/policy/commit/7e6fbf58ff5bb6f9bc36747729c67616d8d32727",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7e6fbf58ff5bb6f9bc36747729c67616d8d32727/comments",
+      "author": {
+        "login": "Taisho241",
+        "id": 58881155,
+        "node_id": "MDQ6VXNlcjU4ODgxMTU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58881155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Taisho241",
+        "html_url": "https://github.com/Taisho241",
+        "followers_url": "https://api.github.com/users/Taisho241/followers",
+        "following_url": "https://api.github.com/users/Taisho241/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Taisho241/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Taisho241/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Taisho241/subscriptions",
+        "organizations_url": "https://api.github.com/users/Taisho241/orgs",
+        "repos_url": "https://api.github.com/users/Taisho241/repos",
+        "events_url": "https://api.github.com/users/Taisho241/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Taisho241/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ed7b638706f407295dee3e8bce6a80330413b090",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ed7b638706f407295dee3e8bce6a80330413b090",
+          "html_url": "https://github.com/team-mirai/policy/commit/ed7b638706f407295dee3e8bce6a80330413b090"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-23T08:18:42.700868"
+}
