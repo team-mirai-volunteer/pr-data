@@ -1,0 +1,787 @@
+{
+  "basic_info": {
+    "number": 2783,
+    "title": "国土政策の新規追加",
+    "state": "open",
+    "created_at": "2025-06-23T11:33:50Z",
+    "updated_at": "2025-06-23T11:33:51Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2783",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "7564f16a6295816fcd13c8ffe5221829b2f6e16a",
+      "filename": "51_国土政策.md",
+      "status": "added",
+      "additions": 19,
+      "deletions": 0,
+      "changes": 19,
+      "blob_url": "https://github.com/team-mirai/policy/blob/38c5a6eaebb2ecdd95f0edf05b871cbb3656415c/51_%E5%9B%BD%E5%9C%9F%E6%94%BF%E7%AD%96.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/38c5a6eaebb2ecdd95f0edf05b871cbb3656415c/51_%E5%9B%BD%E5%9C%9F%E6%94%BF%E7%AD%96.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/51_%E5%9B%BD%E5%9C%9F%E6%94%BF%E7%AD%96.md?ref=38c5a6eaebb2ecdd95f0edf05b871cbb3656415c",
+      "patch": "@@ -0,0 +1,19 @@\n+# 国土政策\n+\n+## 相続登記の困難さに起因する空き家問題への対策\n+\n+### 現状の課題\n+総務省の調査によれば、令和5年時点で日本の空き家数は900万戸と過去最多を記録し、空き家率も13.8%に達しています。この問題は深刻化しており、空き家は以下のような問題を引き起こし、地域社会に悪影響を及ぼしています。\n+\n+*   家屋の倒壊のリスク\n+*   ねずみ・害虫などの増加による周辺環境の悪化\n+*   景観の悪化\n+*   不法侵入をはじめとする治安悪化\n+\n+この背景には、不動産所有者の死後、相続登記が長期間行われず放置されるケースが増加していることがあります。\n+\n+### 提案する解決策\n+登記情報をAIで解析し、相続人が多数存在し手続きが複雑化している不動産を自動で特定するシステムを構築します。\n+\n+### 具体的な行政支援\n+AIによる判定で「手続き困難」とされた不動産の所有者に対し、司法書士など専門家の派遣や相談窓口の設置といった行政支援を行います。\n\\ No newline at end of file"
+    },
+    {
+      "sha": "63e88b4f669ed9d46fa456993cd1872bfec2f7b0",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "changes": 4,
+      "blob_url": "https://github.com/team-mirai/policy/blob/38c5a6eaebb2ecdd95f0edf05b871cbb3656415c/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/38c5a6eaebb2ecdd95f0edf05b871cbb3656415c/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=38c5a6eaebb2ecdd95f0edf05b871cbb3656415c",
+      "patch": "@@ -31,6 +31,7 @@\n   * [６．経済財政](36_ステップ３経済財政.md)  \n * [国政政党成立後１００日プラン](40_国政政党成立後100日プラン.md)  \n * [その他重要分野についての政策・ビジョン](50_国政のその他重要分野.md)\n+* [国土政策](51_国土政策.md)\n \n ## このマニフェスト自身も、みんなの知恵を集めて改善していきます\n \n@@ -49,7 +50,7 @@\n チームみらい、安野たかひろについての最新情報は下記よりご確認ください。\n \n [チームみらい公式サイト](https://team-mir.ai/)  \n-[安野たかひろXアカウント](https://x.com/takahiroanno)  \n+[安野たかひроXアカウント](https://x.com/takahiroanno)  \n [安野たかひろ公式YouTube](https://www.youtube.com/@%E5%AE%89%E9%87%8E%E8%B2%B4%E5%8D%9A)\n \n ## 変更提案について\n@@ -107,3 +108,4 @@\n ## おしゃべりできるシステム『いどばたシステム』について\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "ea30449cab4cd25decb6e68c99b37121738ce00f",
+      "node_id": "C_kwDOOqTJvNoAKGVhMzA0NDljYWI0Y2QyNWRlY2I2ZTY4Yzk5YjM3MTIxNzM4Y2UwMGY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T10:46:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T10:46:19Z"
+        },
+        "message": "feat: 与那嶺信さんの提案に基づき、目次に国土政策の項目を追加",
+        "tree": {
+          "sha": "a782adafbc1c2df5307ad3292080dbd56f39161b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a782adafbc1c2df5307ad3292080dbd56f39161b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ea30449cab4cd25decb6e68c99b37121738ce00f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTB8CRC1aQ7uu5UhlAAA7zQQAGn4zS9B13vao7Oma4VjjUaz\nExrMmXt1++NLiRImrkemo6eeta7vK6CDi7I6mV9pYyaD0fZxPfBNKsLLhUZoxV9U\nb4HyA7q33yltAmCT5niSZ8IPLqR4TgEVWisoWoO3dQOk8yteHTkvE5XLzakLJrje\nA3TjoX1IvvI7AZAhl6lgLdRJ79oOzC2VE+hbapgDCBzp3v/wv/nNpWEvuEUs4Jyz\nq7src5tyku0Pht7wXKQylkkUkOXetOj9hzcv9teDq5VfCMgLbCIHzdeaBrib/GeS\n9Wgr+x2cvWwIoyQrWhytlO/jXMlH6pwl1ABuwsyVHIgnzk6rj72LNc3y2wh5TBk4\nnlHpqAme1PdhkiMZ67r9O2v/fDd+SJ3DpcZ8x6KsFxURY0g3PTTK6fi2E+CPbtz8\n9NpO6/WX6jwsEfU/T+XCXw70/+Nl32MBBCDgHphV8YEEcifhTUeOrkbwqa0vUqZ4\nsgWY8qYDlpgoPOblVra5g94HanuvxbDnL568HG3nm9CNPbZocsdA5E61XEuzcr4T\nobm7CvMmTLls5N0FDaHlq1GkATsLUqBtnn/tVY3pHs15b4qntk+jOQsr+cxwLG3b\nhzaBk0Ly0+GbfqYOyEDRYAtW/Ewk5sE6r/Re1xlinUIVqOI+TIITEcl26Pe2SD5p\n5p9CC3/s1CUFJO4KPWEy\n=3iOQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a782adafbc1c2df5307ad3292080dbd56f39161b\nparent f9ecf190707661f9ccbd255a2dd24e612ded3ef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750675579 +0000\ncommitter GitHub <noreply@github.com> 1750675579 +0000\n\nfeat: 与那嶺信さんの提案に基づき、目次に国土政策の項目を追加",
+          "verified_at": "2025-06-23T10:46:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ea30449cab4cd25decb6e68c99b37121738ce00f",
+      "html_url": "https://github.com/team-mirai/policy/commit/ea30449cab4cd25decb6e68c99b37121738ce00f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ea30449cab4cd25decb6e68c99b37121738ce00f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "html_url": "https://github.com/team-mirai/policy/commit/f9ecf190707661f9ccbd255a2dd24e612ded3ef0"
+        }
+      ]
+    },
+    {
+      "sha": "ad5e14f7ee8698fd0282d9ecd331ec920084c365",
+      "node_id": "C_kwDOOqTJvNoAKGFkNWUxNGY3ZWU4Njk4ZmQwMjgyZDllY2QzMzFlYzkyMDA4NGMzNjU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T11:12:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T11:12:09Z"
+        },
+        "message": "与那嶺信さんの提案: 国土政策のページを新設し、空き家の問題点を追記",
+        "tree": {
+          "sha": "335ccc31f3f0dbe97beb30535c0cd08983ab3a01",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/335ccc31f3f0dbe97beb30535c0cd08983ab3a01"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ad5e14f7ee8698fd0282d9ecd331ec920084c365",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTaJCRC1aQ7uu5UhlAAAKtAQADjgCKggOSOISXbOtVfZb5QV\nqP81Nf9T/iMWZcquZMKukW9/DbZdRufg3U/o055VoqqSJwl3h6jErcc1uAINwWqY\nlo/dOJBQid4zeBnnmmzBSEZuqnS7P8+m0MR8WueJg1Kyz8IuinB/7ZZ1qW6Bh9l/\nFykbJ4rzz3XrjJE79WCdB2MFIfw42kQggsFtypi5/X+b4DFUZK0yjYuUu6Qr71HE\n+VxruMNS1Q/QAEZ9w9KLku9F/Ebea5YN8jwjhdr3ZFHupLY2l19soWj463m0a5FP\nd6H5M7D1On6xCcaE0GIgwZf4e2P5TG7VB0VkjsfnGT4nXYc2ZpAq0rIbPNAKnFzi\nmb53pRiJQR8rW24U4GBWshiAkhWGCEumCNPYVtNOgVCBK8drEQjp385R2ANfBHQP\nayinLNzLUsWPkCpljqCpiMXdj4PoW0x3/56g6LTvi8E/f5zDfbVaAeh3V8LPbjkh\nHdrfhS1rgn7yvNh5s/+Dkqqv+FlWAzpwuYwJEo8KahNVf9jZ4/JhH9litZY1j7HE\nUlCV0UuO7J6G25S5GHcDL7Wsfz16+1lzGOY1eMxyHpXeU+kA84A+0lMqvD0vh9ej\nuxKgywk09TY1tLV6fTwRPeQoyaysyH59Jgivaz1dILP/6QSaISIvbuRB1zJCXX3H\nvC7UhU3XaOfc/tvKxwzz\n=vViX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 335ccc31f3f0dbe97beb30535c0cd08983ab3a01\nparent ea30449cab4cd25decb6e68c99b37121738ce00f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750677129 +0000\ncommitter GitHub <noreply@github.com> 1750677129 +0000\n\n与那嶺信さんの提案: 国土政策のページを新設し、空き家の問題点を追記",
+          "verified_at": "2025-06-23T11:12:09Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ad5e14f7ee8698fd0282d9ecd331ec920084c365",
+      "html_url": "https://github.com/team-mirai/policy/commit/ad5e14f7ee8698fd0282d9ecd331ec920084c365",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ad5e14f7ee8698fd0282d9ecd331ec920084c365/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ea30449cab4cd25decb6e68c99b37121738ce00f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ea30449cab4cd25decb6e68c99b37121738ce00f",
+          "html_url": "https://github.com/team-mirai/policy/commit/ea30449cab4cd25decb6e68c99b37121738ce00f"
+        }
+      ]
+    },
+    {
+      "sha": "b16d4290655ecef412d22d6c403e7aba18b09693",
+      "node_id": "C_kwDOOqTJvNoAKGIxNmQ0MjkwNjU1ZWNlZjQxMmQyMmQ2YzQwM2U3YWJhMThiMDk2OTM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T11:16:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T11:16:43Z"
+        },
+        "message": "与那嶺信さんの提案に基づき、国土政策に空き家の現状に関する具体的なデータを追記",
+        "tree": {
+          "sha": "f78be8e2bef2ba4f3600ee71d2b7b7c4d2da039c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f78be8e2bef2ba4f3600ee71d2b7b7c4d2da039c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b16d4290655ecef412d22d6c403e7aba18b09693",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTecCRC1aQ7uu5UhlAAAUvoQAHS8NeE1fHbFRHZF+8G8u71L\nlTY4uhgvtt3E6qgeXVtrYx2bsIreUwE3rrBQOQf0wggiLqNpieorYwV9DX+YF6Fn\nidWMGUrP00yNFIH1dZs3bZyx+BoySoZ/DwLS+zJuERjt17vjEBNYwAPHQfLMuGl6\nP3hr5PUbOyMuNMaPdheprx6YSCqQGhG8HG+QuEd/tKNqcnPgZVwAOaMPekIf6KNV\nBF/1yrfA7Q2RXQ3sXeD3fK+OID2dWV58Lo2SJQXiyn2Sk33qbUVrFSrk8yRiDDaU\nZ5FQIykAFQfVN48qv+M/vKRSsib/o7z9YAqgFlJmcz1wFLIzdgKpN4J/CCjnr+Hc\ngYht3imNV6rp2nJY2+1CzNqlA8VEKYyvNRONCDT7e8/1G0A2hL34Bs/vCBnCgOD0\nY2teS19wM61xXyOVzf8AY2che90fQrK46ZAWHcNC/h+jDZfufNsCC2SfqSpc1yPi\ntHt8xX257OFsMDXi6nXi+ZaRc3yWGK8qxNL8U2C21Qy9GIJhmxwq8VyOMlYXek9P\nkxgqxPKTe55tl+alLd0n+/t6w3TEv93PjjwbNb6WS6wF49hGquIgLPBKIRLnKKRm\nKK2TTZSKJVONDufWu7ZTVV90Ptcxvh2Cfvah2VNzNw0sR/S1SDMQGkDsB2cJJuVF\nOY+wh6ddirsFqacJe9oh\n=j9ZO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f78be8e2bef2ba4f3600ee71d2b7b7c4d2da039c\nparent ad5e14f7ee8698fd0282d9ecd331ec920084c365\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750677403 +0000\ncommitter GitHub <noreply@github.com> 1750677403 +0000\n\n与那嶺信さんの提案に基づき、国土政策に空き家の現状に関する具体的なデータを追記",
+          "verified_at": "2025-06-23T11:16:44Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b16d4290655ecef412d22d6c403e7aba18b09693",
+      "html_url": "https://github.com/team-mirai/policy/commit/b16d4290655ecef412d22d6c403e7aba18b09693",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b16d4290655ecef412d22d6c403e7aba18b09693/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ad5e14f7ee8698fd0282d9ecd331ec920084c365",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ad5e14f7ee8698fd0282d9ecd331ec920084c365",
+          "html_url": "https://github.com/team-mirai/policy/commit/ad5e14f7ee8698fd0282d9ecd331ec920084c365"
+        }
+      ]
+    },
+    {
+      "sha": "47946f76e859edb38b135fd88403cc9eaa5b6dd0",
+      "node_id": "C_kwDOOqTJvNoAKDQ3OTQ2Zjc2ZTg1OWVkYjM4YjEzNWZkODg0MDNjYzllYWE1YjZkZDA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T11:23:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T11:23:00Z"
+        },
+        "message": "与那嶺信さんの提案に基づき、国土政策のページを新設",
+        "tree": {
+          "sha": "f3fbd3deee19a6396aee663f983625929fa3e3e2",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f3fbd3deee19a6396aee663f983625929fa3e3e2"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/47946f76e859edb38b135fd88403cc9eaa5b6dd0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTkUCRC1aQ7uu5UhlAAA7u8QAB49hD5ZZIOdTEmc7hTGNkw5\nQmOIgkVNQBvzLlDh50HLj8zpsuYQ/MIEL453eDNoSEc82J1pyIJUagUHh58EkEg8\nQ/Ft5FclpNA1M/VUNlweZStgyN6suCG8HtbSGso4Zg7OSMxf/tPOmFAn7rswWWj6\nOtIWdUPmWrYiWyWAXRy5IQ4YMI9b1Z+bJX3sDdGXo14FNbmOilPWwXRxB7KPlYLZ\ntQ7s/6xad1mCDdMNRJl6vawQbMLd5ZdN8uqzovnmFRab8k1pe2httG8dVKFIdOcM\nmhewAgVxds1Ior24e2B8G1ZFHuV5D37WWb1QTVavhn6udyIGeLZlzAWQQktwkn0S\nQRchAJKUXRhG8sOmxU/m326yiJ6B2UttIEoNcoWk4rvYSsBXxHLKSPCsLUN8/W0U\nrkQy5G7OWZzvAms7sAeXF4lBIz02R42w3eW9JRs5uZQVxXC7PDo2B3IV8P4GcFFP\ndotuPGoWr2fm2HNhxp5i/lyAA+o1QIoR+RgHtOnuQEmGWMRCbnCfUyOBKhPGIoDh\nElJh3yAcGrnhwbpJ7xF6TeOS6fqF91jfJavSs0L0CywIoRm3+MHR2Lf25b+h8eFZ\nIlp7Yvb0OCwIvqdrlJjxkWu3u4XzrQO58NTUdhj9KZbZPYQYE49zDFQsPatEW9nK\nY9ZZfEoUvaGC7q9hv6nl\n=ou1Z\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f3fbd3deee19a6396aee663f983625929fa3e3e2\nparent b16d4290655ecef412d22d6c403e7aba18b09693\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750677780 +0000\ncommitter GitHub <noreply@github.com> 1750677780 +0000\n\n与那嶺信さんの提案に基づき、国土政策のページを新設",
+          "verified_at": "2025-06-23T11:23:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/47946f76e859edb38b135fd88403cc9eaa5b6dd0",
+      "html_url": "https://github.com/team-mirai/policy/commit/47946f76e859edb38b135fd88403cc9eaa5b6dd0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/47946f76e859edb38b135fd88403cc9eaa5b6dd0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b16d4290655ecef412d22d6c403e7aba18b09693",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b16d4290655ecef412d22d6c403e7aba18b09693",
+          "html_url": "https://github.com/team-mirai/policy/commit/b16d4290655ecef412d22d6c403e7aba18b09693"
+        }
+      ]
+    },
+    {
+      "sha": "2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a",
+      "node_id": "C_kwDOOqTJvNoAKDI2NjNmYzBjOTRmOGI0YWE0MDMzZDFhNzYxOGE2YTZhYTNlMDA4N2E",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T11:27:38Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T11:27:38Z"
+        },
+        "message": "feat: 新しい政策「国土政策」のファイル作成 by 与那嶺信",
+        "tree": {
+          "sha": "452429d374adbde80080eb5541e5643d0f04cf28",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/452429d374adbde80080eb5541e5643d0f04cf28"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTorCRC1aQ7uu5UhlAAAFIwQAInUd1qmQodaSGnz5fHcD8EC\nMnZHm5UUwohMCHwc9FP4o7NDY0a4QmDSCItUPmDWmPAjIMIAezZtPPQ+LLrdg9O1\nCQJGYDyu39HS1jHZJDhdFyHjTur0I9eJA4yLZHfzH2ptag8Y3JRZ2VabfCv9COCs\nZKRPuqZNCk9Pxk2pHWUfSdtRZDRgG5tBS6sTKBeTac1b568IImIx0VtM/rsXP8lM\nB+WTSJF+9rjDMps6M9jkN7msDxYH+jyHrG3UsOUEiwmC20WZuXxq73joi8C/648d\nUDwII0GjygfZSMzeyG5vYGnZWWPs20qFMtJkRkGoD7yoTipcpJdtbOqTMRCXX5As\na8C7vh/XY42j5gBy1h7xBCEYWsjhKsSUOVTAwmDXxG5YcXdbqSM+0NcYfPTC075C\nwbmJSOtTe5gBXzexnTw1rabJ/sMwmaP7F2YLWUmGwbvAIVPcnc68i9kEzcYp5zeK\nmJzVTRMATl0SIQr2I1QidUwSBR/8u2WWy5pLY+wAaJ5K1z34uLgDnCzehpo0owJe\nDAEQ84eyqTsZKJnZ9IuowUL0qu/3eUB+mNeqlRb5or12RFENi+xJXb2GMy+WE3j3\nhtdnPGrcK/ujD8JXFprBBEs0hhvsMF0qtORwA+z7V8Ri5r1tGs8Yu82nmpJ/aUHQ\n1xsg3wYGd+rghg1/zifM\n=TRwE\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 452429d374adbde80080eb5541e5643d0f04cf28\nparent 47946f76e859edb38b135fd88403cc9eaa5b6dd0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750678058 +0000\ncommitter GitHub <noreply@github.com> 1750678058 +0000\n\nfeat: 新しい政策「国土政策」のファイル作成 by 与那嶺信",
+          "verified_at": "2025-06-23T11:27:39Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a",
+      "html_url": "https://github.com/team-mirai/policy/commit/2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "47946f76e859edb38b135fd88403cc9eaa5b6dd0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/47946f76e859edb38b135fd88403cc9eaa5b6dd0",
+          "html_url": "https://github.com/team-mirai/policy/commit/47946f76e859edb38b135fd88403cc9eaa5b6dd0"
+        }
+      ]
+    },
+    {
+      "sha": "b4b4dd8cee724dd49698cd7737a26a5837a6e7cd",
+      "node_id": "C_kwDOOqTJvNoAKGI0YjRkZDhjZWU3MjRkZDQ5Njk4Y2Q3NzM3YTI2YTU4MzdhNmU3Y2Q",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T11:28:44Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T11:28:44Z"
+        },
+        "message": "新規: 国土政策のページを追加 (提案者: 与那嶺信)",
+        "tree": {
+          "sha": "7409b1422a2beba48482f15c83cbcf219971b735",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7409b1422a2beba48482f15c83cbcf219971b735"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b4b4dd8cee724dd49698cd7737a26a5837a6e7cd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTpsCRC1aQ7uu5UhlAAAe7kQAJ7vbWMgCW+LOGpI+7KZGlfS\nGkRLA9SeWOBG0X2fqBFWkDypwxkx4/DSahde4Cxe+Tp2F3OWofKLbgPrQD0fE0SO\n3ahR1PW2hjZixPW0AD34cBWSwdyyl6k0sFc2IOEprKiuewcRN/dvEepTRRJ305EG\nOwns1BAnwiSanlxAujhEfY+Y9x/uh82PHGbrSyzzj669KDOdX8Y3rLj/8vQ8Qiy2\n7NNY0sB+dN+fuKsLO4Fb/QygZRjEE9OSZG3yTahaRzv82+Brv+32PfWr2dQmOI4M\nHNLuunFcdnu6N10TTa6AcTzkmwiLo1WfRQradIVVVBJwTO81FR1N6W3+7GRZ0cT/\n6MoyBsNxM3hyq/BJM/MvJhj7J1upg4DanB0FvkcmRj4CbjwsXFO4yUMj/Upypwxr\nWDkHE7vZ9Ft6/FUtImwc0kEGons06rQyGp+3D1cZveCnTNNKiv6GgLKxx6wgJVj/\nTY5b4KBl5qFbxfhJP8JIZNJjAnBgfheGFLyot0flG333Y/1iaRUpHyn1OCNlNneG\nHn3nCeZM+7kdie2ltjDvAKWs0Xx9UlXZapgKbnzvbAFl0V1SWUWolpEwBaoRWsIB\nZe5yCPU+hzGR3EXPiTLTcGFRcfetPH0mCGGu06ZnUf8MbspsEtRAkxAS4kcp6o4r\nO62mi+uP6Lt9OzrOjSHO\n=rO2V\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7409b1422a2beba48482f15c83cbcf219971b735\nparent 2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750678124 +0000\ncommitter GitHub <noreply@github.com> 1750678124 +0000\n\n新規: 国土政策のページを追加 (提案者: 与那嶺信)",
+          "verified_at": "2025-06-23T11:28:44Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b4b4dd8cee724dd49698cd7737a26a5837a6e7cd",
+      "html_url": "https://github.com/team-mirai/policy/commit/b4b4dd8cee724dd49698cd7737a26a5837a6e7cd",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b4b4dd8cee724dd49698cd7737a26a5837a6e7cd/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a",
+          "html_url": "https://github.com/team-mirai/policy/commit/2663fc0c94f8b4aa4033d1a7618a6a6aa3e0087a"
+        }
+      ]
+    },
+    {
+      "sha": "795d5df4de9c5481196e1753da89a63ae1464b2e",
+      "node_id": "C_kwDOOqTJvNoAKDc5NWQ1ZGY0ZGU5YzU0ODExOTZlMTc1M2RhODlhNjNhZTE0NjRiMmU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T11:29:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T11:29:56Z"
+        },
+        "message": "与那嶺信さんの提案に基づき、目次に「国土政策」を追加",
+        "tree": {
+          "sha": "6b2667aff08a6f91e5a6c7f033cdc8d5258c7a3b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6b2667aff08a6f91e5a6c7f033cdc8d5258c7a3b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/795d5df4de9c5481196e1753da89a63ae1464b2e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTq0CRC1aQ7uu5UhlAAAvz4QAIoLhlxbA2vlPsnXK+ObN52O\nbISrcV+v+o5wBAqczNQxLqqcFccBZBBgzMef3FscniOphdKVb5GVN0P2azfXqYbp\nFPX8p9ESgQgeWnJ3Ofo0JkrX1tEEVPvIbtMFgOZ67b+YJCH+UNNkFCTARGftXAXC\n+aSvfctjAc4LerbXt+0/m/WqbQjbWUo9ArlqpuDjqL4JpQY+WkPecpW5V741F5Nb\nrTuAOEItEOYwoKe70dSzWrLIRToMv57j0DVrJ3GJW0zhdXguTqzO0P51Syo0RU+t\nRQeCqMbN/ctGu6dhhu1NEKTNj+6B3qFMFyqarl9J2Sv56GjlBbuqu7wuDELIIf0O\nbbme/CHr/urm/zDglH+9dXdC57vah+E2/3lD8/dwZsq1qr3tTecMr+zY2+XzGFEn\ntF2F6Qfs31eOuuYr5CsRftKfei1p6sQr56I53mWl+EnOvybxvZ+WitiagCw+mIx1\nESG08Lhd8rYIE02Sn0CYzxcPdFCRblxP9FKfscmbF12hRxmx5Huai3MeF5+P8A7x\nloSc5BNqxT0A9JYMpOZ/erX7cq98vuGu0l4E9ef/bg1bJ1tAOFk/DSaFhPfgVso3\np9glZsN8uIzLE1OQsozNBzeRNhOPLGhGymfaEpKydKUp0gvAmHWBLEybFR8VITXu\nkRqkBYMQHpXjX+JRgqT0\n=FxfJ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6b2667aff08a6f91e5a6c7f033cdc8d5258c7a3b\nparent b4b4dd8cee724dd49698cd7737a26a5837a6e7cd\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750678196 +0000\ncommitter GitHub <noreply@github.com> 1750678196 +0000\n\n与那嶺信さんの提案に基づき、目次に「国土政策」を追加",
+          "verified_at": "2025-06-23T11:29:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/795d5df4de9c5481196e1753da89a63ae1464b2e",
+      "html_url": "https://github.com/team-mirai/policy/commit/795d5df4de9c5481196e1753da89a63ae1464b2e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/795d5df4de9c5481196e1753da89a63ae1464b2e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b4b4dd8cee724dd49698cd7737a26a5837a6e7cd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b4b4dd8cee724dd49698cd7737a26a5837a6e7cd",
+          "html_url": "https://github.com/team-mirai/policy/commit/b4b4dd8cee724dd49698cd7737a26a5837a6e7cd"
+        }
+      ]
+    },
+    {
+      "sha": "65839c97afb5390edee157db4a99a3dc8e231043",
+      "node_id": "C_kwDOOqTJvNoAKDY1ODM5Yzk3YWZiNTM5MGVkZWUxNTdkYjRhOTlhM2RjOGUyMzEwNDM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T11:32:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T11:32:13Z"
+        },
+        "message": "与那嶺信さんの提案に基づき、目次に「国土政策」を追加",
+        "tree": {
+          "sha": "bb42026d70a4afa8e059a3c0cd7f82e4a8146232",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bb42026d70a4afa8e059a3c0cd7f82e4a8146232"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/65839c97afb5390edee157db4a99a3dc8e231043",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTs9CRC1aQ7uu5UhlAAA+LMQAKF4ZentMhiSJ7Gya9g4uy5D\nKTH8A4i3kxYKLhqsUjFz4OO4+lRBuG8GF5UM0ROSBLuIRccg6xH2cXFcpwrmW84y\nEdkPJYA4f2z+gzwJbqp8FVPziafGcWhIk2rsUVStjYCDTF4AeYbpCcjVvgQNv58r\nojhbcyl5u+X5lIgimF3E8GJA1BDrSdmGquBlEfXfLvNcmsKiJVK8+K21LmTwaFEB\npqoMXcFcCt7H05ZRhY1P5juBG1R+EW6oDeieTijgWTY8H5+pE0X+DInmNpptphnw\njTgAbQ87YsbQBm5l6Cw7Kab41FdzBkAG3tROTXYK4Rvcko7mGV7B6eFtAxwdUA4W\n+M0A7t/kjpusFMflnkETj39qYWxbfCceBrD7UQrPVm8yOmVBattcyk+g8hn0lIQW\nO292ta1f1MxVhQzFxb9lfHKCON0HFhSoBBCtWTvbhh8YxjLE8fylhl++0S6qrHoA\na+UvTWnQmzEj5CkfQIOow9c0M4RaI8YiVsGmgzqCN90R48XPvYdKSJeWmp2EQ/yX\nryf3fE0xlYyLPlSphFI5eZ6oE8puxkH1l104h7IGQ4y/qedn8zGsNH1U2ihzhsRl\nw/0PqZkfqB6NdyJlJrfEvsPpDtUxEuMU2/9c0JWHydujI8qbLrIM37ct/U+6E8hT\n0rj1M3GFf3sKKIBfv8SC\n=41ZO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bb42026d70a4afa8e059a3c0cd7f82e4a8146232\nparent 795d5df4de9c5481196e1753da89a63ae1464b2e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750678333 +0000\ncommitter GitHub <noreply@github.com> 1750678333 +0000\n\n与那嶺信さんの提案に基づき、目次に「国土政策」を追加",
+          "verified_at": "2025-06-23T11:32:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/65839c97afb5390edee157db4a99a3dc8e231043",
+      "html_url": "https://github.com/team-mirai/policy/commit/65839c97afb5390edee157db4a99a3dc8e231043",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/65839c97afb5390edee157db4a99a3dc8e231043/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "795d5df4de9c5481196e1753da89a63ae1464b2e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/795d5df4de9c5481196e1753da89a63ae1464b2e",
+          "html_url": "https://github.com/team-mirai/policy/commit/795d5df4de9c5481196e1753da89a63ae1464b2e"
+        }
+      ]
+    },
+    {
+      "sha": "38c5a6eaebb2ecdd95f0edf05b871cbb3656415c",
+      "node_id": "C_kwDOOqTJvNoAKDM4YzVhNmVhZWJiMmVjZGQ5NWYwZWRmMDViODcxY2JiMzY1NjQxNWM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-23T11:32:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-23T11:32:54Z"
+        },
+        "message": "与那嶺信さんの提案に基づき、「国土政策」のページを新設",
+        "tree": {
+          "sha": "caad29231f20d259df6488e57938f951cf8430d3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/caad29231f20d259df6488e57938f951cf8430d3"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/38c5a6eaebb2ecdd95f0edf05b871cbb3656415c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWTtmCRC1aQ7uu5UhlAAA+sMQAGdRTQ9lX7G1GHoZuusX+Jk3\nvtd7/ADaXr8vE5NfouLkyiqPAokfYAk2qq+g4fEmL9B/3vy43+0Xe/Tn7swNFLR8\nlAVbqQxIn2yipiCU63dh+SdAJVplHShnoY4Zek8Q/y1ykqi+URfRKAWOvGOVEUis\n1o5qBuEVWZFXDeQT/4Fy9sdiPA36bXXCiPiBxf8gZmHTZMl0yHCYj90XJL9BJ6H8\nnHlH++g9WJxHGV4IZezRKMQDcoYf0CveDbaDCN+n/jfUjWldFQIoFstjqjaXD56a\nHB1WGYUy/PWgK7ffudrH+EY8aMhsWfO2wkaywJVg8a3WwXkoREXdREGoPzvNk4dJ\nzBp+yENWmky/Glp+gKzACD31eCPAfTzvO1luJCfgNcbYc95B4u7ADJKRUbyT6Nog\nguzOAP01USgesvyzwPVJ7eGba/YDuKIJfbU0nSuH4QvX2/K3BzU+Pf9EQOPbc0ZA\n83DEcE26iJsoczCwRPh0eBUPsEGvSnHNf+yf+PenfhPZGFvRfii/kmNwokpIQ4Cv\nSBYdDPgbIr43+SFJTcpIL+mbIG5b2a/kwOi2mGZria67dmj0i6xyRlgSbTfr9+Zo\nE4U/mIgxL3Tc2vanvZqO4d6fOX4FYycCOFGTO6vv7yClBKMiCWL9TPRVLw6oeTvG\neoMCYJ7OsMHUiGs15Pjx\n=WYLs\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree caad29231f20d259df6488e57938f951cf8430d3\nparent 65839c97afb5390edee157db4a99a3dc8e231043\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750678374 +0000\ncommitter GitHub <noreply@github.com> 1750678374 +0000\n\n与那嶺信さんの提案に基づき、「国土政策」のページを新設",
+          "verified_at": "2025-06-23T11:32:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/38c5a6eaebb2ecdd95f0edf05b871cbb3656415c",
+      "html_url": "https://github.com/team-mirai/policy/commit/38c5a6eaebb2ecdd95f0edf05b871cbb3656415c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/38c5a6eaebb2ecdd95f0edf05b871cbb3656415c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "65839c97afb5390edee157db4a99a3dc8e231043",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/65839c97afb5390edee157db4a99a3dc8e231043",
+          "html_url": "https://github.com/team-mirai/policy/commit/65839c97afb5390edee157db4a99a3dc8e231043"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-23T12:25:13.815554"
+}
