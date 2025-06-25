@@ -1,0 +1,611 @@
+{
+  "basic_info": {
+    "number": 2849,
+    "title": "「子育て減税」と養子縁組支援による、現役世代に向けた新しい家族のあり方の提案",
+    "state": "open",
+    "created_at": "2025-06-24T23:40:40Z",
+    "updated_at": "2025-06-24T23:46:55Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2849",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "6a04608be71660bab1c6af0c5439f6d390fc7ce9",
+      "filename": "31_ステップ３子育て.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 7,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/f32ed97a610c8d6d4a1d3b9d686db454d624aec8/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/f32ed97a610c8d6d4a1d3b9d686db454d624aec8/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=f32ed97a610c8d6d4a1d3b9d686db454d624aec8",
+      "patch": "@@ -29,7 +29,7 @@\n   * いずれの制度も電子申請などの活用で申請者の利便性を高め、同時に行政の事務負担も軽減していきます。  \n * 多様なパートナーシップの尊重と法的整備  \n   * 事実婚を選択するカップルに対し、税制、社会保障、相続、共同親権等で法律婚と同等の保護が受けられるよう法制度の整備を検討します。  \n-  * 結婚による苗字変更によっておこる不利益を解消する方策について、国民の声を集めて多角的に検討します。\n+  * 結婚や養子縁組による苗字変更によっておこる不利益を解消する方策について、国民の声を集めて多角的に検討します。\n \n ## ２）子どもを望むすべての人へ専門的サポートを届けます\n \n@@ -64,7 +64,7 @@\n   * ワクチンの有効性や安全性に関する正確な情報を、テクノロジーを活用して分かりやすく提供し、積極的な接種勧奨を行います。  \n * デジタル母子パスポートの導入  \n   * ステップ１でも説明した通り、母子手帳をデジタル化する「デジタル母子パスポート」を導入し、妊娠届の提出から妊婦健診の記録、出産後の乳幼児健診、予防接種の履歴管理、関連する補助金の申請・受給までをスマートフォン等で一元的に管理できるシステムを構築します。  \n-  * 紙媒体での手続きを原則として不要とし、保護者の負担を大幅に軽減します。妊娠経過により妊婦健診の回数が増え、受診券・補助券が不足する場合には、医師の診断情報に基づき自動的に追加される仕組みも導入します。  \n+  * 紙媒体での手続きを原則として不要とし、保護者の負担を大幅に軽減します。妊娠経過により妊婦健 でしょうの回数が増え、受診券・補助券が不足する場合には、医師の診断情報に基づき自動的に追加される仕組みも導入します。  \n   * デジタル機器の利用が困難な方には、引き続き紙ベースでの提供も検討し、取り残される人がないような仕組みを目指します。\n \n ## ４）住まいの安心を提供します\n@@ -167,7 +167,7 @@\n   *  障がいのある子どもの親が働き続けやすいよう、テレワーク、フレックスタイム、短時間勤務、時差出勤などの柔軟な働き方を導入・活用する企業に対し、助成金や税制優遇措置を設ける。子どものケア（通院付き添い等）を理由とした休暇取得がしやすい企業文化の醸成も支援します。  \n * レスパイトケア・専門的保育の拡充  \n   * 家族が休息を取るためのレスパイトケア（在宅型、施設型、短期、緊急時対応など多様な形態）の提供体制を、量的・質的に大幅に拡充します。  \n-  * 予約や情報提供は「ファミリーサポートハブ」で効率化します。  \n+  * 予約や情報提供は「ファミリーサポートハब」で効率化します。  \n   * 医療的ケアを含む多様なニーズに対応できる保育士や放課後児童支援員などを養成するための研修プログラムを強化し、人材を確保します。サービスの提供時間を、フルタイム勤務の親のニーズにも応えられるよう延長・柔軟化します。\n \n ## ８）育児のセーフティーネットを強化します\n@@ -198,11 +198,11 @@\n \n ### 現状分析・課題認識\n \n-* 子育てには、食費、教育費、衣料費など、成長に伴い継続的かつ多岐にわたる経済的負担が生じます。これらの負担が、子どもを持つことへのためらいや、理想の数の子どもを持てないといった「希望と現実のギャップ」を生み出す一因となっていて、少子化の背景にある重要な課題です。  \n+* 子育てには、食費、教育費、衣料費など、成長に伴い継続的かつ多岐にわたる経済的負担が生じます。これらの負担が、子どもを持つことへのためらいや、理想の数の子どもを持てないといった「希望と現実のギャップ」を生み出す一因です。この問題は、特に経済的に不安定な時期を過ごした就職氷河期世代など、特定の世代に重くのしかかり、望んでも子を持つことを諦めざるを得なかった人々との間に社会の分断を生む危険性もはらんでいます。\n * 現行の児童手当は貧困対策と次代の社会を担う児童の健やかな成長を目的としており、少子化対策（人口政策）ではありません。結果として、多くの世帯にとっては実際の子育ての経済的負担に対して不足した支援となっており、少子化対策としてはより踏み込んだ経済的支援策が求められています。\n   * 各種研究やリサーチでも、一律の現金給付の少子化対策としての効果は限定的であるという指摘があります(例：大和総研レポート)[https://www.dir.co.jp/report/research/economics/japan/20240826_024581.pdf]\n   * 諸外国ではフランスのN分N乗課税方式やハンガリーにおける女性の所得税免除など、踏み込んだ経済支援の例が複数みられます。\n-  * 現金給付と現物給付（保育施設の整備など）はいずれも少子化対策において重要ですが、現在の止まらない少子化の波の中、日本においても「未来に大胆に投資する」ことが必要であると認識しています。\n+  * 子育て世代だけを特定的に優遇するのではなく、年齢やこれまでの経緯によらず、誰もが子どもの成長に関わり、支え合える社会を構築することが不可欠です。現金給付と現物給付（保育施設の整備など）はいずれも少子化対策において重要ですが、現在の止まらない少子化の波の中、日本においても「未来に大胆に投資する」ことが必要であると認識しています。\n * 一方、持続可能な税制とすることは重要です。テクノロジーの活用により無駄を削減し成長を生み出し、これまでの不可能を可能にする道を模索します。\n \n ### 政策概要\n@@ -215,5 +215,6 @@\n   * 具体的には、子どもの数に応じて、親の所得税の税率を定率で下げていくという仕組みを実装します。実現に向けて、詳細検討を強く推進します。\n     * 子ども1人で所得税率がマイナス5ポイント（例：23%→18%）、2人になるとマイナス10ポイント（例：23%→13%）、3人になるとマイナス20ポイント（例：23%→3%）というように、段階的に減らします。\n     * 4人以降についても1人当たり5ポイントずつ上乗せするなど、多子世帯の負担がしっかりと軽減され、子どもを持つことへの不安を払拭するだけのインパクトを生み出すことを狙います。\n-  * 「子育て減税」は、共働きの場合は両親の双方の所得税率に適用します。共働きでもそうでなくとも、世帯年収が同じであれば同じ金額が控除されます。\n-  * 現時点での試算ではこれにより税収は1.6～2.0兆円ほど年間で減る可能性がありますが、短期的には国債発行、中長期的には医療費の削減や経済成長による税収増で補っていきます。\n+  * 「子育て減税」は、所得制限を設けません。この減税は、戸籍上の親子関係があり、かつ親権を持つ親（実親・養親を問わない）を対象とします。離婚などにより親権を手放した親は対象となりません。\n+  * これにより、年齢やこれまでの経緯に関わらず子どもを育てたいと願う全ての人を支え、多様な家族のあり方を応援します。特に、養子縁組も等しく対象とすることで、子を持つことを諦めていた世代にも新たな選択肢を提供し、社会全体で子どもを育む機運を醸成します。共働き世帯や、特に手厚い支援が必要なひとり親世帯（1馬力）、あるいは複数の大人で子を育てる新しい家族の形（3馬力等）など、各家庭の状況に応じた公平できめ細かな制度設計を目指します。\n+  * 現時点での試算ではこれにより税収は1.6～2.0兆円ほど年間で減る可能性がありますが、短期的には国債発行、中長期的には医療費の削減や経済成長による税収増で補っていきます。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0",
+      "node_id": "C_kwDOOqTJvNoAKGEyYmFjNGI1MDYzZDg4MmU4YjNiZjZlZjBkZjdjNWMyZGE0NGQ4YzA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-24T10:39:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-24T10:39:43Z"
+        },
+        "message": "のりぃさんのご指摘を反映し、子育て減税の対象者を「実際に親権を持ち養育している親（実親・養親を問わず）」と明確化",
+        "tree": {
+          "sha": "fdc1fed4e6653c778997b01a5242123b8ad36e02",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/fdc1fed4e6653c778997b01a5242123b8ad36e02"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWoBvCRC1aQ7uu5UhlAAALSgQAJWxkpxWcVn/67YvVkSLnIMS\nHNhA96mvr5LyPn658gLgOnE2tNQtdi+GWBzXYM1HcPhUDKQ2tk3+6UurVr9H2JBe\nDBwhYJIYk3VOAIrnRVH61tIH3tttHN8QEjjBWx2YObRBOVEdyXXuV8E6p/rQVG7M\nr8rwgEr0pARY9fU9Os5nl76TIfeyptRNjZcOpdVGruGDgWNi5+0JkNcrMml4XrLz\niuHymn1a8+Zi/UkfDIBabc5nwfRWlkVA1DVCVZB3kO2sx3FX5yX9tn7zQtvOWuWh\nyAHF877kt0VyjgY9UlIsUtTq/LmTXRmJK6dH+bWQYkZTC5+xl+I8cQmGhGS9ltSp\nEwJUhLEIUjwGfHAkWVcwbfnPaaGWNEySQK2ADY/Xzm1Nk8jjKLS+AWavX9giPbC5\n1S8qTmVLRW7wN+vujQfrcTdZ/jgWjND3dxaO4PJTyDnP4/t6rsP41nQgqkd4M16a\nJHw1voTqANLR2+OWxhqMmQ2rzuObTNRYNQm2MGRQ0uwfAbl6adHOqUU2kBlG0q9i\nfVB0FT2VWvDFoWnPj5B3h+RtNFplm3G317yq4c1zdv2WAOmMSkXpFH7oqZ1P4x9N\nR1KqmJYAdtRJhJXtGDqwmdEdW7s4Fk8LhpimD/kHfVs9RzCDvUdA6H4FPqJ7zBnd\nkCMtf4wG6g1xCFJ+tLsx\n=vc/I\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fdc1fed4e6653c778997b01a5242123b8ad36e02\nparent f9ecf190707661f9ccbd255a2dd24e612ded3ef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750761583 +0000\ncommitter GitHub <noreply@github.com> 1750761583 +0000\n\nのりぃさんのご指摘を反映し、子育て減税の対象者を「実際に親権を持ち養育している親（実親・養親を問わず）」と明確化",
+          "verified_at": "2025-06-24T10:39:43Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0",
+      "html_url": "https://github.com/team-mirai/policy/commit/a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
+          "html_url": "https://github.com/team-mirai/policy/commit/f9ecf190707661f9ccbd255a2dd24e612ded3ef0"
+        }
+      ]
+    },
+    {
+      "sha": "cefbffe41976fc9ad518e5109b607ac1babdbec7",
+      "node_id": "C_kwDOOqTJvNoAKGNlZmJmZmU0MTk3NmZjOWFkNTE4ZTUxMDliNjA3YWMxYmFiZGJlYzc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-24T10:43:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-24T10:43:48Z"
+        },
+        "message": "のりぃさんの提案を反映：「子育て減税」が養親や離婚後の親権者も対象とし、所得制限を設けないことを明確化",
+        "tree": {
+          "sha": "6f2dfe5b6ecf1dd20052871d288a152d40719e93",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6f2dfe5b6ecf1dd20052871d288a152d40719e93"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/cefbffe41976fc9ad518e5109b607ac1babdbec7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWoFkCRC1aQ7uu5UhlAAAWfQQAJs7wJi/SG8B0S2kU7iehCZb\nCRBz5YH6j6YDfVm65yViEjMTIZ/li0hlEaD1hxAZgJOcTWMdzVypRGwakDKYD+44\ntIy8yFwxrqJJLl4mTDkp0vpVcTchPhoRM6unLxRSAvefrSKZRmaJBv1zruHV1CaQ\nTx7nCTVaqZXlgo+gdP/ppiRV/dZajiKM0vd99rnbBAprVzWbNj8D6fiVULt4GJuA\noQkdee5dL0AxJ0uXCvyB8XEk7bmXnc5byddEXIoi/r+4+A0iu4RDR87YQScMDWXl\n4d85H1LsCOucpEL00cfcxY9vO8efq3EOTThYwCTGf2kCLvsEZSLkoCbIe81KSwNw\nOiBmyrC/M8/dfPm9nKrIWcy0vb8+5Hh+EI33QlINA5kezcvtzh4Vl7zaJFlD+GDk\nQceJMJcajw0H64WcUSFHCR+jb25t1mam9CcPArlI2FgE9tQqoUBXY7ZPlgyq1HuH\n0uSUdk8OxfwXkrwvB6pBEEvoPnZNEcdaOmYbR4+fWxUZ36e8tdD/G/1UxRWoNrKn\nTfIfg87Jo7sXYgM6RUFUovHDzpw3SA4aBoV+J6p2ZxLm6ekoUQPh05dbFIFWntFo\nP2YmbcMbtcu7OyCW5OlUTJXPP8KztUqXUVImKVPtLYOtFHK2cfUUriWncUFiA+GY\nWk0eLXkjupEhuQCDd49V\n=+S6d\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6f2dfe5b6ecf1dd20052871d288a152d40719e93\nparent a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750761828 +0000\ncommitter GitHub <noreply@github.com> 1750761828 +0000\n\nのりぃさんの提案を反映：「子育て減税」が養親や離婚後の親権者も対象とし、所得制限を設けないことを明確化",
+          "verified_at": "2025-06-24T10:43:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/cefbffe41976fc9ad518e5109b607ac1babdbec7",
+      "html_url": "https://github.com/team-mirai/policy/commit/cefbffe41976fc9ad518e5109b607ac1babdbec7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/cefbffe41976fc9ad518e5109b607ac1babdbec7/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0",
+          "html_url": "https://github.com/team-mirai/policy/commit/a2bac4b5063d882e8b3bf6ef0df7c5c2da44d8c0"
+        }
+      ]
+    },
+    {
+      "sha": "39225ab7d96b13ee433f2566a236b110b5450eb2",
+      "node_id": "C_kwDOOqTJvNoAKDM5MjI1YWI3ZDk2YjEzZWU0MzNmMjU2NmEyMzZiMTEwYjU0NTBlYjI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-24T10:46:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-24T10:46:06Z"
+        },
+        "message": "のりぃさんの提案に基づき、「子育て減税」の対象者と趣旨を明確化",
+        "tree": {
+          "sha": "3eee2101ff33453680252cc0c6f235572d146ede",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3eee2101ff33453680252cc0c6f235572d146ede"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/39225ab7d96b13ee433f2566a236b110b5450eb2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWoHuCRC1aQ7uu5UhlAAAUakQAE67lcV0+9ytpP6sh864pgnw\nWNoXYuQLjMrSv3cutMC+AKuwUb24npK0/ebq8gub5vvmYuWZVqzJkkG8tMHct5ad\nmOZwTIVsDXC8Rp22LwTtFPcPUPPUcyK6zrl2LVtBQWsbM9Q3zwd1aFbuR8OU/Ukn\nWthZ3a/XjOlmOoNbY4lSZ1Qn7hFpVGr3ar3Ijdy2cRoNyxC6e7cCVMNKbwalS2KT\nnnjiKUUdNrdxeJlvDMbGKXbW5vGVsC0CsXkHhcAvhY7xxvUe6HJ+7nt/ZvehdD8n\nJLv7z04qXXPYqMvcwvzpFjlto+b04Bh9j1hKtAozgFMYmm3/qmCT0Wm/HPQXqmvv\n00QGXt765JeSpbSv4fKhfW3sPRVnwitFdyTFYpahGwFS2McQsUwSNk7IVWzIGQm1\njta7Mus01SK0nffLPCCBIz8+D/BD3d0K7SfEE92GeeOsImMM2euC/xoGxypdmeQx\n7iQJLsRQ76H8sZJ0Xji3stCx4+UeE0WYhubexGs7OXkNUREUYBDPB7jeCOtaDy4n\n/G5fuioxpqGjbEiE7F4XIiAiMj7hdLDGc1+Coj2FitCM59nHAw1WybXA4ZaN9bTr\nN4qktChVMwxDj6OWYz/eHQDUhISkHtG6Fo5LMn3//dnYJnhPF0aFKB19KYNgQg4K\nKSfz+zGMJZAn7B/FlIcQ\n=LQBV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3eee2101ff33453680252cc0c6f235572d146ede\nparent cefbffe41976fc9ad518e5109b607ac1babdbec7\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750761966 +0000\ncommitter GitHub <noreply@github.com> 1750761966 +0000\n\nのりぃさんの提案に基づき、「子育て減税」の対象者と趣旨を明確化",
+          "verified_at": "2025-06-24T10:46:06Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/39225ab7d96b13ee433f2566a236b110b5450eb2",
+      "html_url": "https://github.com/team-mirai/policy/commit/39225ab7d96b13ee433f2566a236b110b5450eb2",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/39225ab7d96b13ee433f2566a236b110b5450eb2/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cefbffe41976fc9ad518e5109b607ac1babdbec7",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/cefbffe41976fc9ad518e5109b607ac1babdbec7",
+          "html_url": "https://github.com/team-mirai/policy/commit/cefbffe41976fc9ad518e5109b607ac1babdbec7"
+        }
+      ]
+    },
+    {
+      "sha": "a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a",
+      "node_id": "C_kwDOOqTJvNoAKGEwZDRhMzhlZDUwOGRlMWYwNTA4NTIxZGZiOGFlMjlmOWNmZDRhOGE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-24T10:49:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-24T10:49:48Z"
+        },
+        "message": "のりぃさんとの議論を反映し、「子育て減税」の対象者と条件を明確化",
+        "tree": {
+          "sha": "3eee2101ff33453680252cc0c6f235572d146ede",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3eee2101ff33453680252cc0c6f235572d146ede"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWoLMCRC1aQ7uu5UhlAAAFyIQAJPK9fo1XsIVqxcxHGs3q/D2\n1H+Fn2ySqHPeFYgx3VmO6YZ7ETEIbWcFwkD+a+MT63iG+h7VC4+GT+DcWnfw7/Fc\ntAVVhO3qDyOlcBUVmMsaPgoQ4/zFkm6DJa/bsBGQDQJcw+9Z06VZ+UQGxT8iMazr\nIKoW+6N90uPrqeGQRGhYNElaMAzH+5q2ed3KZw8GgO1cbvKoj+I18KrTT4fdCkp1\n6sF99stp1+ty/glchTw0V0XByzpGf5KaAN57pf38rtVACnwzZXNXF//voW2/VIHo\nU+DAWCMYYEnJK1L0pQ9cgWK6uuwBGr+QLP4gSD0f/r22BDO+RovbQzbHs89XOiI3\nJf/Fov4l9jVQpXODD5Wgmu5zVCGyqvglaemdPOoehOwUDsTH/R9VzJxbbgKtZ7K4\nuzc+m2OQepW7uQWEACkW68JNTfurRWCqyTTOvt7el4LBBq5hlp2EU6fLO+J+QJca\nMbLEsKocQxhEMSmBx+UStoqzA7WsZSwhQjaeqmDekT7qBi7uxYLHleXGGIbo94s1\n8eT65otem391/VxpZajZzwzmzwyeYkJwRbKRs9EeY+Wah4ploSYDtKeHc8CAhmAI\nrhfDFqtakLjXS+Tp8RWh5jpghs0imGeo7q6OOFgD0JgcOF1asu9J4uEKcPoYVXzA\nG1YaGOu7kzUE8KR6Hi6e\n=zcZL\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3eee2101ff33453680252cc0c6f235572d146ede\nparent 39225ab7d96b13ee433f2566a236b110b5450eb2\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750762188 +0000\ncommitter GitHub <noreply@github.com> 1750762188 +0000\n\nのりぃさんとの議論を反映し、「子育て減税」の対象者と条件を明確化",
+          "verified_at": "2025-06-24T10:49:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a",
+      "html_url": "https://github.com/team-mirai/policy/commit/a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "39225ab7d96b13ee433f2566a236b110b5450eb2",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/39225ab7d96b13ee433f2566a236b110b5450eb2",
+          "html_url": "https://github.com/team-mirai/policy/commit/39225ab7d96b13ee433f2566a236b110b5450eb2"
+        }
+      ]
+    },
+    {
+      "sha": "6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71",
+      "node_id": "C_kwDOOqTJvNoAKDZlMWEwZmUxODA4MTdlMzRjZWFiNmQ2Yjc5YjhmNGFjMWEyNDRmNzE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-24T11:03:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-24T11:03:47Z"
+        },
+        "message": "のりぃさんの提案に基づき、子育て減税と氏の制度に関する記述を修正",
+        "tree": {
+          "sha": "8e8d0019ea33b59f9f10a5608759fcb028a08dd0",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/8e8d0019ea33b59f9f10a5608759fcb028a08dd0"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWoYUCRC1aQ7uu5UhlAAA1uUQADvVxQNyhALrOq6pRaced/8w\nBcnYlTy7eu8IfOjHzXGfsw35Z5IR9IVdYlwhiCBMGxLaGoW1VX+1o1mPuhuHOHrp\nPqCGUaHo7OQWkgZvtFVkR5qFSenm2I6h5+/2gxHEQ5eDA9m8Gxdv6MszDjgjo6FN\nHIvlIVjzGwgIg6JZvFwjcukW46wJdRmBGsDDGNslQCRzNIEwFX6u9MNMqebkWkLC\nNis62q+B7UWSrI5S/zmam4DaQQLBfQ5WqrSGvOP3BixJKdIh0/n3vh6hCt4fb4X+\n2QTA0aytjnIfLMZdcjDxAydjW5e5dduvKqQXxieEh++drfugV9akenlHEKoKf4gA\nyDNld7/5ZQHUlUgfxdfGgMmDGwfk1SWSVegkYWyRULEll+qRfzFUEjIlFYz8B9s5\nfYzny9BPnZcxk4NYjtCZQLx8GL+tYyKaW1bha0m0dxVumvPkdPuL6Py+NyAiWEFL\n1QXbsATd4eH5o5bHT4i3840dEb3rcIO6wSj2ONB6E4hVQ9c6nP6BJBNkvCFyQpqJ\nAillCmUgFuxhNjUL0xxvZoiX02gJxAFJCukiPaV+7s0jF1yAsLWzV4CMiwC3397F\nEvmR69R6+Z4f9k9Yk8cYphkd05d8u7OknhZ+mwniv0FDsqQfn1rf8lgiBFEHem4/\nC3xRi48h9JjxMPTbOxw1\n=fFh5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8e8d0019ea33b59f9f10a5608759fcb028a08dd0\nparent a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750763027 +0000\ncommitter GitHub <noreply@github.com> 1750763027 +0000\n\nのりぃさんの提案に基づき、子育て減税と氏の制度に関する記述を修正",
+          "verified_at": "2025-06-24T11:03:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71",
+      "html_url": "https://github.com/team-mirai/policy/commit/6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a",
+          "html_url": "https://github.com/team-mirai/policy/commit/a0d4a38ed508de1f0508521dfb8ae29f9cfd4a8a"
+        }
+      ]
+    },
+    {
+      "sha": "6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218",
+      "node_id": "C_kwDOOqTJvNoAKDZjMGVkMTg4ZTdhYWMwZjJjNmFmNmQxODVhOWE3Nzg4YTdlNmUyMTg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-24T23:16:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-24T23:16:06Z"
+        },
+        "message": "のりぃさんの提案に基づき「子育て減税」の定義を明確化",
+        "tree": {
+          "sha": "ec021054021d763d44f5faee0b7a086eb8eb5809",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ec021054021d763d44f5faee0b7a086eb8eb5809"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWzG2CRC1aQ7uu5UhlAAAFGIQAAsGdkvDE/l/AMZv/uKMABpW\nwUxlaput7ch03JTzAyt60zEfA8zshx93hNAWKVZvNJhplEVNxieRUNm7moIgawyx\nx/7NEUzaqymmvNgdE3mErM67CYJTcoQB6l1H76CFxSfm03On4XYgpcde8ewiqdLf\nBrZPKQe7WvcTXXNM7JWzJIL6xByLsjpF43DLh6Eo3PsS/Yeg5CHOJpbLV+E1bA8p\nwYzxYZtsXDxtIqW8hkCK0YJqUb3u9pMSb6XLv240MviZq1glQ5QZtqdSlYlaCILl\nrO0o7w6mlxPGHktJXU7/HB/fVwqPxcDho1dteXy4kyD8fa31vj7jsRM3BkKPQ+Vh\nRXSpLHBSLtiL1ityCKFRjkj7+9YNhKzzRuvdXjuL1sO3l5g9TqSjY56M+knS0uHL\neTVg1DShltWjM1b/eAXZxRFX2uKp1I5+bSMRRPrFukDT5xW+wTSA9dwp6BReEax5\nV3zHEKNm5H16jljoLABTLFs/0RMhvTbWvwpWemFvcCQn1G0zCKFvFrNWp+m37Poe\nL55igQ7BdCmVheBWlkeqaCJO4jlHp4PGeBpIGk0sdNwDb0c+jL/NiYYxqmrxWVZU\naCJmU5ht0WDWjSGpOOX65IX5nJQ+zec8+txCHamsESmmJ69Uj16OuYe2rnTIM0CR\ngOHLC5BFI7/okZdZSq3j\n=bRM2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ec021054021d763d44f5faee0b7a086eb8eb5809\nparent 6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750806966 +0000\ncommitter GitHub <noreply@github.com> 1750806966 +0000\n\nのりぃさんの提案に基づき「子育て減税」の定義を明確化",
+          "verified_at": "2025-06-24T23:16:07Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218",
+      "html_url": "https://github.com/team-mirai/policy/commit/6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71",
+          "html_url": "https://github.com/team-mirai/policy/commit/6e1a0fe180817e34ceab6d6b79b8f4ac1a244f71"
+        }
+      ]
+    },
+    {
+      "sha": "f32ed97a610c8d6d4a1d3b9d686db454d624aec8",
+      "node_id": "C_kwDOOqTJvNoAKGYzMmVkOTdhNjEwYzhkNmQ0YTFkM2I5ZDY4NmRiNDU0ZDYyNGFlYzg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-24T23:46:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-24T23:46:54Z"
+        },
+        "message": "のりぃさんの提案に基づき、「子育て減税」と「氏の変更」の項目を修正",
+        "tree": {
+          "sha": "ec021054021d763d44f5faee0b7a086eb8eb5809",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ec021054021d763d44f5faee0b7a086eb8eb5809"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f32ed97a610c8d6d4a1d3b9d686db454d624aec8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWzjuCRC1aQ7uu5UhlAAAY1EQAD82hZG4kYOfWDNL11I2mtTN\n4NbIxUe2dgcQP1LLWrzVCdxkRA86/1ysUsJC4FTjr29pphH1Mel4bNBFYI36drgv\n4pQmhvM/S52gOyD6c4vjW6hVR9r+YvjDEtDxDAKABLGEsKI69/0OBOO8Ppe+A7jg\ntbarFVgzqSiAXQbmrfUFhLvIiiXK4MJ7zn7xDpEjNxGNU4ywOxgQWhD8sa13ad0N\nIwk4lnzFjmD/sWJbVxohAMY5SEYmLBYd0WafqJ1CwHgRZHa3J3wAIgxU65j4lg9h\ndweKNg/JJ7PVtQVmv9MrDtTxYeZAJXZ7qL/x1nv14W3/4CuBkGOFiMZ3llaVQaBZ\n5fN5t4v67XlnPoaEhks4L5a331S4HwYbCHnPI7DLEtEPO5NO7dyPcgmtbQjc3xSc\nI1at83lnLE4q7DhGebRjQcsC5AwOCI5tRJOIp0qVj01DtfQ7lg2BO62YH/x7wCAe\nCyy2R4dNaA0Vdhlce4khVTtwfx0yeRljSJgbvoDz5AaYEZdtJ4oPDWIjSnhumWM2\n3YdUnyNE+N5lnaoYZ3ITbXS3aLeeWgJl+QDrdC5vMTL1zeCnOaoxqeEEbZVvFDm5\ndQCF7uCyCSBn/F3UI4acTob4qXyV3rTXAVK/BTxx9UctaMXIdf7LlZUuQTiDHEVl\n/YYLjJG4a4lOUcGU7cAn\n=f2bZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ec021054021d763d44f5faee0b7a086eb8eb5809\nparent 6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750808814 +0000\ncommitter GitHub <noreply@github.com> 1750808814 +0000\n\nのりぃさんの提案に基づき、「子育て減税」と「氏の変更」の項目を修正",
+          "verified_at": "2025-06-24T23:46:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f32ed97a610c8d6d4a1d3b9d686db454d624aec8",
+      "html_url": "https://github.com/team-mirai/policy/commit/f32ed97a610c8d6d4a1d3b9d686db454d624aec8",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f32ed97a610c8d6d4a1d3b9d686db454d624aec8/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218",
+          "html_url": "https://github.com/team-mirai/policy/commit/6c0ed188e7aac0f2c6af6d185a9a7788a7e6e218"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-25T01:00:20.479300"
+}
