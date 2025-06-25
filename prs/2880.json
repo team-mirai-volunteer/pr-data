@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2880,
+    "title": "「共同意思決定（SDM）」の導入と実効性を高める仕組みの追加",
+    "state": "open",
+    "created_at": "2025-06-25T10:21:20Z",
+    "updated_at": "2025-06-25T10:21:20Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2880",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "111a4b52b7dff681634b2b357b5e0f3894de5549",
+      "filename": "24_ステップ２医療.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 5,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/1569aaf1fb727c7c06ed95837853efe602c49197/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/1569aaf1fb727c7c06ed95837853efe602c49197/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=1569aaf1fb727c7c06ed95837853efe602c49197",
+      "patch": "@@ -9,6 +9,7 @@\n - しかし、少子高齢化や医療技術の進化による社会保障費の増加は急速に進んでおり、今の状況では継続的に制度を維持することへの不安もあります  \n - そうした状況の中でも、必要な方に必要な医療を届けるためにも医療制度も進化する必要があります  \n - テクノロジーとデータを使い、より緻密なシステムを構築することで医療の非効率を減らし、より費用対効果の高い医療が報われる制度を目指します  \n+- さらに、医療者と患者が対等なパートナーとして対話し、共に治療目標を決定する「共同意思決定（SDM）」を医療の基本原則とし、真の信頼関係に基づくwin-winの関係を目指します。\n - そして、人口構造、疾病構造の急変や増えていく変数にも対応するためのしなやかな制度、検討体制にアップグレードします\n \n ## 1）医療の有効性・重要度に応じたきめ細やかな自己負担へ\n@@ -25,12 +26,15 @@\n \n * 診療行為のエビデンス、費用対効果や重症度に基づく自己負担割合の複数段階化を検討します  \n   * 現在の健康保険法や高齢者医療確保法では、年齢による自己負担割合が言及されていますが、医療価値に応じた負担区分の段階化が可能となるよう、これらの法改正を検討します  \n+* 高血圧や糖尿病など、適切な管理が重症化予防に繋がり、長期的な医療費削減効果の高い慢性疾患については、治療成果に応じて自己負担を軽減する仕組みも検討します\n   * 現在の診療報酬システムでは、医療機関が審査支払機関に請求する診療報酬のみが設定されていますが、診療内容による自己負担割合の影響についても制度に組み込みます  \n-  * 上記の緻密な診療報酬制度を構築するため、全国医療データベース（NDB）に蓄えられた診療実績を解析し、柔軟に機動的に診療行為の有効性、費用対効果について議論するための基盤を整備します  \n-* 制度の複雑化による医療の現場や審査機関での事務処理の複雑化を解消するための仕組みの開発および導入を支援します  \n-  * 診療報酬制度の複雑化により、医療機関の窓口での計算もより複雑になります  \n-  * 医療機関への負担、サービスの質の低下を避けるために、電子レセプトに連携し窓口で即時に自己負担額が算出できるAI、システムの開発を支援します  \n-  * 併せて、医療DXを推進する支援の枠組みについても整備します  \n+  * 上記の緻密な診療報酬制度を構築するため、全国医療データベース（NDB）に蓄えられた診療実績を解析し、柔軟に機動的に診療行為の有効性、費用対効果について議論するための基盤を整備します\n+* これらの評価は、特定の機関に偏らないよう、NDBの客観的データに基づき、医学会の専門家、厚生労働省、そして患者の代表も交えた中立的な専門組織を設置し、透明性の高いプロセスで判断します\n+* 制度の複雑化による医療の現場や審査機関での事務処理の増大を解消するための仕組みの開発および導入を支援します\n+    * 診療報酬制度の複雑化により、医療機関の窓口での計算もより複雑になります\n+    * 医療機関への負担増を避け、サービスの質が低下しないよう、電子レセプトと連携し窓口で即時に自己負担額が算出できるAIシステムの開発などを支援します\n+    * 市販薬への代替等を安全に進めるため、身近な薬局の薬剤師が専門家として関与できる「かかりつけ薬局」制度の機能を強化します。多忙な中でも相談業務に取り組む薬局を経済的に評価する新たな報酬体系の導入やICT支援も合わせて進めます\n+    * 併せて、医療DXを推進する幅広い支援の枠組みを整備します。特に、医療者と患者の円滑なコミュニケーションを支援するため、AIを活用した対話支援ツールの開発や、AIアバターを用いた実践的な対話研修の導入を支援します\n * これらの仕組みにより、医療の質、家計への負担を維持したまま、医療財政への負担軽減を目指します。実際にフランスでは医薬品について医療上の有用性評価を行い、自己負担割合が設定されるという仕組みが導入されています（国民医療費をxx-xx％減らしたという実績もあります）  \n   * フランスでは医薬品ごとに有効性や副作用、代替治療の有無などの位置づけ、対象となる疾患の重篤度、公衆衛生上の意義などで区分されます  \n   * この評価に基づいて、外来用医薬品の自己負担割合が段階的に設定されます  \n@@ -59,3 +63,4 @@\n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n   * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "1569aaf1fb727c7c06ed95837853efe602c49197",
+      "node_id": "C_kwDOOqTJvNoAKDE1NjlhYWYxZmI3MjdjN2MwNmVkOTU4Mzc4NTNlZmU2MDJjNDkxOTc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-25T10:18:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-25T10:18:00Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、共同意思決定（SDM）、かかりつけ薬局の役割強化、AIによるコミュニケーション支援などを追記",
+        "tree": {
+          "sha": "b281a820dac8c16d8e6da5cfce75f9a94c57ae92",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b281a820dac8c16d8e6da5cfce75f9a94c57ae92"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1569aaf1fb727c7c06ed95837853efe602c49197",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoW8zYCRC1aQ7uu5UhlAAAHGsQACiQ2IxMeDkfRX/xvpA8ymbs\n1Sno8VZK/KdD670Df0scJQsHEpZ6hB4iIa/wSR+TTWRGdZaFSCNNFNk+i+uBHOkh\n20Tk+N2jrvxtv+eKjaKH3oZr3CO3ZhjkQRzE9wflqn6GWTLbGh7mpXRkOXHr6+Ug\n6aUsZptdLZNZn8HSKeTwgYg5pmgzopQh5utycRGOQKIh0u58izHp67eFjq2DeDfn\nnkaolD65VvxXXfyvv9Fpef7LO9XMWjtmIlZ+nWR4ztKZsIQgojCuZtST0ZSZ9OR5\nSaMx+amriAhrLJfVEIx4ADLcTF4DjtZi8m+RGZep6SGKnnILMPeQTIWc5Vfrya4o\nlOj382JVAhIaM+RGPBurbMDEs+XrE9escKdW6edZNfMUwzO5wdPaHJdhPzrI4Ifb\nSmGA81xXcVBAXV++vFtPPyRNlmv3kVYACxOJ4oFr6Upwkr7grFYhNC0yA7FEw8ZH\nmZpgpONGlgwx5arxebkaKOHGALT1unPS5oXs/m0tqdugGQ5pYaA45o2uvCVG6lRi\n5Eixyi2GCPzOzmhIF+gpFfWdcLXIER8wmNLGgvCNoHaklJKhKktKM42/G1KXmQOV\nkcqqv7idMrtICD4jegQ4C3i8ZF78OscgNoRhpe4IstIv5OprA5A5Y4yzFu/qmsNz\nmKd69g0zEbV5Y2HEsLc4\n=Eazw\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b281a820dac8c16d8e6da5cfce75f9a94c57ae92\nparent 2c68daefec5b1397778c033d9139a955c58e2141\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750846680 +0000\ncommitter GitHub <noreply@github.com> 1750846680 +0000\n\n匿名ユーザーの提案に基づき、共同意思決定（SDM）、かかりつけ薬局の役割強化、AIによるコミュニケーション支援などを追記",
+          "verified_at": "2025-06-25T10:18:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1569aaf1fb727c7c06ed95837853efe602c49197",
+      "html_url": "https://github.com/team-mirai/policy/commit/1569aaf1fb727c7c06ed95837853efe602c49197",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1569aaf1fb727c7c06ed95837853efe602c49197/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2c68daefec5b1397778c033d9139a955c58e2141",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2c68daefec5b1397778c033d9139a955c58e2141",
+          "html_url": "https://github.com/team-mirai/policy/commit/2c68daefec5b1397778c033d9139a955c58e2141"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-25T10:27:58.975947"
+}
