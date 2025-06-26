@@ -4,7 +4,7 @@
     "title": "再エネ（特に太陽光）導入拡大のための具体案を追加",
     "state": "open",
     "created_at": "2025-05-29T14:33:57Z",
-    "updated_at": "2025-06-26T03:51:41Z",
+    "updated_at": "2025-06-26T05:11:30Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/1802",
@@ -54,9 +54,9 @@
         "site_admin": false
       },
       "created_at": "2025-06-24T11:32:28Z",
-      "updated_at": "2025-06-26T03:26:00Z",
+      "updated_at": "2025-06-26T04:44:31Z",
       "author_association": "NONE",
-      "body": "# 資料\r\n\r\n1. [国内外の再生可能エネルギーの現状と今年度の調達価格等算定委員会の論点案](https://www.meti.go.jp/shingikai/santeii/pdf/095_01_00.pdf) -- 毎年10月ごろに出ているレポートの最新版\r\n2. [再エネ特措法](https://www.enecho.meti.go.jp/category/saving_and_new/saiene/kaitori/FIP_index.html) -- FIT、特に太陽光の問題点が注目を浴びがちだが、再エネ特措法ですでに新規分については解決済みの問題が多くある\r\n\r\n3. [総合資源エネルギー調査会 基本政策分科会（第69回会合）](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2025/069/)\r\n   各資料が参考になります。特に事務局の「最近の動向について」\r\n\r\n4. [Action Plan for Affordable Energy](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025DC0079)\r\n  EUのエネルギーコスト低減のためのアクションプラン\r\n\r\n5. [第7次エネルギー基本計画（令和7年2月）](https://www.enecho.meti.go.jp/category/others/basic_plan/)\r\n\r\n6. [第5回 発電コスト検証ワーキンググループ](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/cost_wg/2024/05.html)\r\n   * [資料1 システム統合の一部を考慮した電源別コストの試算](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/cost_wg/2024/data/05_04.pdf)",
+      "body": "# 資料\r\n\r\n1. [国内外の再生可能エネルギーの現状と今年度の調達価格等算定委員会の論点案](https://www.meti.go.jp/shingikai/santeii/pdf/095_01_00.pdf) -- 毎年10月ごろに出ているレポートの最新版\r\n2. [再エネ特措法](https://www.enecho.meti.go.jp/category/saving_and_new/saiene/kaitori/FIP_index.html) -- FIT、特に太陽光の問題点が注目を浴びがちだが、再エネ特措法ですでに新規分については解決済みの問題が多くある\r\n\r\n3. [総合資源エネルギー調査会 基本政策分科会（第69回会合）](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/2025/069/)\r\n   各資料が参考になります。特に事務局の「最近の動向について」\r\n\r\n4. [Action Plan for Affordable Energy](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52025DC0079)\r\n  EUのエネルギーコスト低減のためのアクションプラン\r\n\r\n5. [第7次エネルギー基本計画（令和7年2月）](https://www.enecho.meti.go.jp/category/others/basic_plan/)\r\n\r\n6. [第5回 発電コスト検証ワーキンググループ](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/cost_wg/2024/05.html)\r\n   * [【2024/12/23 差し替え】資料1 システム統合の一部を考慮した電源別コストの試算 （荻本委員・松尾委員提出資料）（PDF形式：2,395KB）](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/cost_wg/2024/data/05_04.pdf)\r\n   * [資料2 発電コスト検証に関する取りまとめ（案）（事務局提出資料）（PDF形式：8,139KB）](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/cost_wg/2024/data/05_05.pdf)",
       "reactions": {
         "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/2999971754/reactions",
         "total_count": 0,
@@ -149,6 +149,51 @@
       "body": "# 統合コストについて\r\n\r\n再エネは統合コストが高いという批判や懸念が、Xやこの政策へのPRでも散見されます。\r\n日本における再エネの統合コストを考えるうえで一番に参考になるのは、資料6にある統合コストの一部を考慮した電源コストになると思われます。\r\n\r\nしかし、この統合コストは電源構成以外の条件を固定し、電源構成を3パターン用意したうえで、そこから単位電源を追加するときの費用（限界コスト）を試算したもので、これをそのまま再エネの統合コストとして考えると多くの問題があります。\r\n\r\n* 連携線追加費用が含まれていない\r\n* 蓄電池の想定が20.9GWとなっており、この2年間の系統蓄電池の低価格化と普及のスピードを全く反映できていない\r\n* 統合コストは同種の電源を増やせば増やすほど加速度的に増えるので、限界統合コストはその現状からその電源構成に至るまでのピークの統合コストであり、平均コストは遥かに低い。なのに現状から大量に追加する再エネすべてに平均してそのコストがかかると誤解される。\r\n\r\n私の個人ブログですが、特に蓄電池コスト周りの解説を書いたので良ければ参照してください。\r\n\r\nhttps://methane.hatenablog.jp/entry/2025/01/04/212230",
       "reactions": {
         "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3006950787/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null
+    },
+    {
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3007067334",
+      "html_url": "https://github.com/team-mirai/policy/pull/1802#issuecomment-3007067334",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/1802",
+      "id": 3007067334,
+      "node_id": "IC_kwDOOqTJvM6zPDTG",
+      "user": {
+        "login": "methane",
+        "id": 199592,
+        "node_id": "MDQ6VXNlcjE5OTU5Mg==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/199592?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/methane",
+        "html_url": "https://github.com/methane",
+        "followers_url": "https://api.github.com/users/methane/followers",
+        "following_url": "https://api.github.com/users/methane/following{/other_user}",
+        "gists_url": "https://api.github.com/users/methane/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/methane/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/methane/subscriptions",
+        "organizations_url": "https://api.github.com/users/methane/orgs",
+        "repos_url": "https://api.github.com/users/methane/repos",
+        "events_url": "https://api.github.com/users/methane/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/methane/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2025-06-26T05:06:20Z",
+      "updated_at": "2025-06-26T05:11:30Z",
+      "author_association": "NONE",
+      "body": "# 蓄電池コスト\r\n\r\n上の統合コストとも関連しますが、蓄電池コストの最近の低下ペースが、経産省の試算よりも圧倒的に速いペースで進んでいることについて。\r\n\r\n<img width=\"1007\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4b9405b5-ac61-4434-ba53-df8909d85064\" />\r\n\r\n([資料2 発電コスト検証に関する取りまとめ（案）（事務局提出資料）（PDF形式：8,139KB）](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/cost_wg/2024/data/05_05.pdf)  198ページより)\r\n\r\nここでは蓄電池のコストが足元で6万円/kWhで、2040年に3.6万円/kWhになると予測されています。\r\n一方でコスト低減最先端の中国での最新の値としては、入札で平均（最安ではない）が $65/kWhと、すでに1万円/kWhを切っています。\r\n上の統合コスト試算が無意味になるほどの差ですし、北海道と本州の長距離直流送電事業なども縮小して蓄電池を活用したほうが安くなるかもしれません。\r\n\r\nhttps://www.ess-news.com/2025/03/24/chinas-huadian-announces-winners-in-6-gwh-bess-tender-with-average-bid-at-65-kwh/\r\n\r\nソーラー発電のコストは土地や架台のコストが大きいので海外の砂漠や荒野におけるギガソーラー並みの価格を日本で実現するのは難しいですが、蓄電池のコストに占める土地のコストはそこまで大きくありません。\r\n垂直統合のメリットを活かした中国並みのコストまでは無理でも、その2倍程度のコストは来年にでも実現できるはずです。\r\n\r\n中国以外の実績では、1年前のニュースですが、オーストラリアで約4.1万円/kWhの実績があります。今年はもっと下がっているでしょう。\r\nhttps://reneweconomy.com.au/new-big-battery-projects-in-australia-double-in-size-as-storage-prices-plunge/\r\n\r\nEmberの、蓄電池を使ってソーラーを24時間電源にするコストの試算も参考にしてください。\r\nhttps://ember-energy.org/latest-insights/solar-electricity-every-hour-of-every-day-is-here-and-it-changes-everything/\r\n\r\nまた、併設蓄電池でも、原発や火力の深夜電力を充電してピーク時に放電できるルールはすでに始まっているので、蓄電池併設ソーラーが増えるとピーク電源は完全に不要になります。大型火力発電を毎日起動、停止するDSS運用や熱効率の悪い低出力運転も減るでしょう。",
+      "reactions": {
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3007067334/reactions",
         "total_count": 0,
         "+1": 0,
         "-1": 0,
@@ -261,5 +306,5 @@
       ]
     }
   ],
-  "collected_at": "2025-06-26T04:22:52.196336"
+  "collected_at": "2025-06-26T05:14:14.999597"
 }
