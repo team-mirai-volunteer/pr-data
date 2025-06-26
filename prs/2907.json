@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 2907,
+    "title": "2章に患者主体の医療情報共有（PHR）の推進を追記",
+    "state": "open",
+    "created_at": "2025-06-26T03:49:08Z",
+    "updated_at": "2025-06-26T03:49:08Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2907",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "4303a7a4d802fbb83c28e7b0d8685bc950170abe",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "changes": 4,
+      "blob_url": "https://github.com/team-mirai/policy/blob/3cedab4dec3f1f4b9faf7fa8a17abb6f977dc377/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/3cedab4dec3f1f4b9faf7fa8a17abb6f977dc377/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=3cedab4dec3f1f4b9faf7fa8a17abb6f977dc377",
+      "patch": "@@ -17,7 +17,7 @@\n   - コロナ禍にあった2021年のデータでも外来診療全体におけるオンライン診療の割合はごくわずか（0.001%）に留まりました  \n   - 2023年に行われたアンケート調査でも回答者の9割がオンライン診療について知っていると回答しましたが、実際に自身・家族が利用したことがあると答えた人は1割弱に留まりました  \n - オンライン診療には対面と比べて患者さんの状況、詳細が把握しにくかったり、体調が悪化した際に高度医療機関との連携導線が確立されていなかったりと一定の課題がある一方で、適切に普及すれば多くの方々にとってメリットの大きいシステムだと考えます  \n-  - 風邪や花粉症などの軽い相談や慢性疾患で継続的に同じ服薬で経過観察している患者さんにとって、診療のために仕事や家事・育児を調整して対面で受診することはまだまだ負担が大きいと言えます  \n+  - 風邪や花粉症などの軽い相談や慢性疾患で継続的に同じ服薬で経過観察している患者さんにとって、診療のために仕事や家事・育- 児を調整して対面で受診することはまだまだ負担が大きいと言えます  \n   - 僻地や島嶼部などの医療アクセスが難しい地域にお住まいの方々や一人で外出することが難しい方などの場合、医療機関で相談をしたくても受診控えをしている場合もあると思います  \n - オンライン診療が進まない要因の一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n   - 現在の診療報酬制度ではオンライン診療が対面診療と比べて優遇されているとは言えず、医療機関側にとってシステム投資や運用構築を乗り越えてまで推し進める動機づけが不足しています  \n@@ -49,6 +49,7 @@\n - 一方で、診察前後の処理を効率化することで、医療機関、患者双方の手続きを短縮し、診察前後の待機時間を圧縮する余地はあると考えます  \n - 例えば、病院でのクレジットカード決済対応は63％と普及が進みましたが、クリニックにおいては33%と遅れています。クレジットカード以外の決済手段については更に低い割合となります  \n - キャッシュレス決済以外にも、医師の診察前の問診情報の入力や受付処理などはまだ施設での対面でのオペレーションによるところが多く、受付から会計までの一連の流れの隙間にそれぞれ待ち時間が発生している状況です\n+- また、医療データが各医療機関で分断されていることも大きな課題です。患者がセカンドオピニオンを求めたり、転院したりする際には、紙の紹介状や診断書を依頼する必要があり、時間的・金銭的な負担となっています。これは、医療データが患者本人ではなく、医療機関に帰属しているという旧来の考え方に起因します\n \n ### 政策概要\n \n@@ -57,6 +58,7 @@\n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n - 受付、決済やオンライン診療の領域で医療DXが進み、安全に効率的に電子カルテと外部システムが接続できる環境が整うことで、新たな医療機関向けサービスの開発や導入が進展することも期待されます\n+- 「医療データは患者本人に帰属する」という原則を確立し、患者が自身の情報を主体的に管理・共有できる仕組み（PHR: Personal Health Record）の構築を推進します。これにより、患者は自身の判断で医療機関にデータを共有し、不要な検査や紙の書類発行をなくすことを目指します。学校や企業への証明書提出なども、本人の許可に基づきデジタルで完結できる社会を目指します\n \n ## 3）画像診断AIで見逃しリスクと医師不足の解消を同時に\n "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "6e9bb48041c186e05be0530e08855f26c9f7fa8f",
+      "node_id": "C_kwDOOqTJvNoAKDZlOWJiNDgwNDFjMTg2ZTA1YmUwNTMwZTA4ODU1ZjI2YzlmN2ZhOGY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-26T03:46:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-26T03:46:53Z"
+        },
+        "message": "takumaさんの提案に基づき、患者主体の医療情報連携について追記",
+        "tree": {
+          "sha": "47e250e4dc271f535c5679444c0a9d9d7b09d97d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/47e250e4dc271f535c5679444c0a9d9d7b09d97d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6e9bb48041c186e05be0530e08855f26c9f7fa8f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoXMKtCRC1aQ7uu5UhlAAARlcQAC2rJFbOIdgfS+IR9QURlr3o\nSsyAoZhG+K8pkYcj3yrqNUZM2VZbIpnhkw11Kmi7qB16oXQKi3TJXkVSIZwK8l/a\nNLZ4Wv8I7bb/BmFy3sCNqixir0t4Z1Sb5+eHiR1IQ9TPVbc1lk6a4m3uphVUyIe1\njKS1ddGML0bKZHc7npvpOgvIc7F+hQSluiBp5hE/qqqNJFJYqadIVkoenghbnUj2\nxO93fPAcAELnVAdVUAAmgVA1dFapbjaaqeOEzOdEdie1//CDZrFboo0IuwxXeyFu\n/jZPc7rFqQKznrAiG6mGfB3amss2lxRF37IKPd8cXrnUjQaq/8n2QssUEOlp3fvm\nhPnK5YvZgvGoOJjlcGwFweBZynO/mg6JQtxOFNMZ5WnJPhkybhWb5uSTbhaIHitA\nSDDGE7bazLcoVi4j1Qk7o+jyqlmOn/bfNiKH197Q7W/9TzyNSo/zs7J6MaDBuTes\nanYCgpFNoB9KMI6Qz0kcWd/ee+dyyzyQU4GQoQL51VgJjftuGxG4PwEI6z4Ywg5i\nYvkf+ePxFrof/vgQo6BxvAM005poNGw8zXdxuYCHnpNPPNDFtV6ZXGrXZ/Ze37YY\nOTobQ4eMV5ZZCBCqqXpKqAmI8t80P8tN3mRuNf0mpHG0GUQ+kbKnnTOWgS0o0yWy\nhQA+N/hXJy1UykdfdIti\n=2Zq0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 47e250e4dc271f535c5679444c0a9d9d7b09d97d\nparent 30df4b2c6ec42834bcab46ca527e1e20ba8d7103\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750909613 +0000\ncommitter GitHub <noreply@github.com> 1750909613 +0000\n\ntakumaさんの提案に基づき、患者主体の医療情報連携について追記",
+          "verified_at": "2025-06-26T03:46:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6e9bb48041c186e05be0530e08855f26c9f7fa8f",
+      "html_url": "https://github.com/team-mirai/policy/commit/6e9bb48041c186e05be0530e08855f26c9f7fa8f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6e9bb48041c186e05be0530e08855f26c9f7fa8f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "30df4b2c6ec42834bcab46ca527e1e20ba8d7103",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/30df4b2c6ec42834bcab46ca527e1e20ba8d7103",
+          "html_url": "https://github.com/team-mirai/policy/commit/30df4b2c6ec42834bcab46ca527e1e20ba8d7103"
+        }
+      ]
+    },
+    {
+      "sha": "3cedab4dec3f1f4b9faf7fa8a17abb6f977dc377",
+      "node_id": "C_kwDOOqTJvNoAKDNjZWRhYjRkZWMzZjFmNGI5ZmFmN2ZhOGExN2FiYjZmOTc3ZGMzNzc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-26T03:49:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-26T03:49:07Z"
+        },
+        "message": "takumaさんの提案に基づき、患者主体の医療情報共有に関する項目を追加",
+        "tree": {
+          "sha": "47e250e4dc271f535c5679444c0a9d9d7b09d97d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/47e250e4dc271f535c5679444c0a9d9d7b09d97d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3cedab4dec3f1f4b9faf7fa8a17abb6f977dc377",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoXMMzCRC1aQ7uu5UhlAAAaDEQAJ8CQRz6AikcaIVpT3sxqGom\nfwQmWZqRAfOSQPqG1qadTnqhXIW8wLYfwosjLAFbHj/FCZVdhYupfCtnJIQeWewB\nKsVwSWxmx2lI8S5a6m29sBbVUNyKH957yp0cSYLDduZTBjUWG0LZErZISad23WMr\nnPGdzpqJOhxxOKSdZUmMZrRUHmHi0th5uvQQWs1EKpubkhe69XksCmgVFdMem+kh\nS8jmId+EejjlyU8qTtSI+YfstLsGGXZZCnqJDvqEJ94CNt1ZxWuw6vY9WddqMsv6\nQGAf4LxVN6WIBjl0trhEX0yptXxEGX/H3Xw+DlheMoEfuEOjlzFqeuxtvOk+cID9\nTcF9AsFqVXoT3aQ5pYRrAbzj6XoHDO5oBrJRaM2aM7SLWzsQrkNanTbk0JKE8IYa\n4Hv/6Aq1/5BJeqf6WtQK/Xd+8RYyQto3YWq9wfkBbVZxwp2hjMmkmlO3OtkjTyMw\nr3u8A9CoONslIhBTjZbqyNUSoMAVdRH99rJMbjKtMvmruchReU8Kqs9dAZG8MJHc\ngQyNkf8nmD/B4hWfBQd+Mg7OM9xyjT7YMwb8gUWHLezuhf5LRQyrWDPwqBUmU5B/\nmRsZ5yXziHocSZittkPvuvgj4onBVi8+YCVtfvCwiy2sGT/cUfzRN7Vfc4XDZDpj\nYcMOMS3/ON4bF71hq2d7\n=baGn\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 47e250e4dc271f535c5679444c0a9d9d7b09d97d\nparent 6e9bb48041c186e05be0530e08855f26c9f7fa8f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750909747 +0000\ncommitter GitHub <noreply@github.com> 1750909747 +0000\n\ntakumaさんの提案に基づき、患者主体の医療情報共有に関する項目を追加",
+          "verified_at": "2025-06-26T03:49:07Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3cedab4dec3f1f4b9faf7fa8a17abb6f977dc377",
+      "html_url": "https://github.com/team-mirai/policy/commit/3cedab4dec3f1f4b9faf7fa8a17abb6f977dc377",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3cedab4dec3f1f4b9faf7fa8a17abb6f977dc377/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6e9bb48041c186e05be0530e08855f26c9f7fa8f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6e9bb48041c186e05be0530e08855f26c9f7fa8f",
+          "html_url": "https://github.com/team-mirai/policy/commit/6e9bb48041c186e05be0530e08855f26c9f7fa8f"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-26T03:49:12.994648"
+}
