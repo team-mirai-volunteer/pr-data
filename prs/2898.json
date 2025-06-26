@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2898,
+    "title": "社会的養護に関する政策を追加",
+    "state": "open",
+    "created_at": "2025-06-25T23:36:30Z",
+    "updated_at": "2025-06-25T23:36:31Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2898",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "ca949245a06c48be2c6a414e4eee8765a5bfb6d6",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 1,
+      "changes": 17,
+      "blob_url": "https://github.com/team-mirai/policy/blob/30c0ecdae54681d2bf6ed21cf5d6cb9b80b9f3fe/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/30c0ecdae54681d2bf6ed21cf5d6cb9b80b9f3fe/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=30c0ecdae54681d2bf6ed21cf5d6cb9b80b9f3fe",
+      "patch": "@@ -16,7 +16,7 @@\n \n * 現在の母子手帳は紙媒体が主流であり、妊娠中の体調が不安定な時期に受け取りに行く手間や、紛失のリスクがあり、それによってワクチン接種記録などが確認できず、適切な時期に必要な医療や予防接種が受けられなくなるケースがあります。  \n * また、妊婦健診の受診券・補助券の手続きや、産後の煩雑な予防接種のスケジュール管理、医療機関での予診票の都度記入など、アナログな手続きが保護者の負担となっています。体調がすぐれなかったり忙しい時期に何度も名前や住所を繰り返し書く作業は、負担として蓄積しています。  \n-* また、妊娠の経過によっては妊婦健診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* また、妊娠の経過によっては妊婦健隠の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n \n ### 政策概要\n \n@@ -63,3 +63,18 @@\n * これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n * 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n+## ４）社会的養護を必要とする子どもたちに、家庭と同様の安定した環境を提供します\n+\n+### 現状認識・課題分析\n+\n+* 児童養護施設における支援の質は、施設ごとの運営方針や職員のスキルに大きく依存しており、施設間で格差が生じています。成功事例や課題が十分に共有されず、業界全体の質の向上が進みにくい状況です。\n+* また、職員の給与水準が低く、業務負担も大きいことから、経験豊富な人材が定着しにくいという深刻な課題があります。これは、子どもたちとの安定した愛着関係の形成を困難にし、その健やかな成長に影響を及ぼしかねません。\n+\n+### 政策概要\n+\n+* **児童養護の質の向上と標準化:**\n+    * 国が主導し、全国の児童養護施設の実践例や運営ノウハウを集約・分析するデータベースを構築します。これにより、各施設が他施設の成功事例を学び、自身の運営改善に活かせる仕組みを整えます。\n+    * 施設の第三者評価制度を強化し、評価結果を公表することで、運営の透明性を高め、継続的な質の向上を促します。\n+* **職員の専門性向上と待遇改善:**\n+    * 児童養護施設職員の給与水準を全産業平均まで引き上げることを目指し、国が新たな処遇改善加算を設けます。\n+    * ICT（情報通信技術）を活用した事務作業の効率化を支援し、職員が子どもたちと向き合う時間を確保できるようにします。また、研修機会を拡充することで、職員の専門性向上を後押しします。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "30c0ecdae54681d2bf6ed21cf5d6cb9b80b9f3fe",
+      "node_id": "C_kwDOOqTJvNoAKDMwYzBlY2RhZTU0NjgxZDJiZjZlZDIxY2Y1ZDZjYjliODBiOWYzZmU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-25T23:34:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-25T23:34:24Z"
+        },
+        "message": "かへほさんの提案により、社会的養護に関する政策を追加",
+        "tree": {
+          "sha": "2f4df6fa44e9cbd3ca845b0acb8ba413a17ea689",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2f4df6fa44e9cbd3ca845b0acb8ba413a17ea689"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/30c0ecdae54681d2bf6ed21cf5d6cb9b80b9f3fe",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoXIeACRC1aQ7uu5UhlAAABA8QAHsxokuMmPK1wkJ85EY3dyLQ\nUi3PE5D9Yy3x/b+MRYXhH7HZxrf0dNR1NqFOWU0OxcLJgKmyHwa3vMq+Pgswp8w0\nBNBCpz8z+XnqaXfLdnUDeBJIlMoVpxAuWuHlVxyWQ24QFYenDSsbSiMERimrwq+J\nOWehJ01TMZScraIlysAa0nZ55HUiLNDsZyDXzFe3Y0YrZ1didlcbEV452OicCkOP\neGPjTUA6rJOHZ6LvIRThpeilObALcdIcEz4xeJi3oqaV1CWT2B06FLHQ6rZjHZMw\nPl0pzoZDmpvWF1EOgDXS4pMz62+lEyI5YJHQq3wSxVyLR2a7cQ03mGCPiJWj5G+2\nMEf/YGmvGZ2zYdKDnOammuIrqH7I3vh1MPIkjbYh1ymGQQiKrUT8D3dGxoC99xdI\nCCPP2rMDOVns6EbgvOldrncDrFshKuF3Dr7ESaC4b4WM30CmacrGzvhglhb16knV\nsFE4rfCXvn7VcupXUWQS0xJLCis1LtYXZptvjl8sRXNa0n7HbSZdrktNzLrlrozv\nAPOPszx7k+pQC19E8FwvZ8Yi16qbIIw2sKbtfmo5nyY0yjCeNmEsolydHCEBiW8d\nIfFQKENmV+FpSkaefG+nWdaUGXfcOyf6KTgzV/2KdSVl1fDbh+1yASJD7TQ28/nQ\nnWw9+o5dipLGEwEQQJ9k\n=APyo\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2f4df6fa44e9cbd3ca845b0acb8ba413a17ea689\nparent 30df4b2c6ec42834bcab46ca527e1e20ba8d7103\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750894464 +0000\ncommitter GitHub <noreply@github.com> 1750894464 +0000\n\nかへほさんの提案により、社会的養護に関する政策を追加",
+          "verified_at": "2025-06-25T23:34:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/30c0ecdae54681d2bf6ed21cf5d6cb9b80b9f3fe",
+      "html_url": "https://github.com/team-mirai/policy/commit/30c0ecdae54681d2bf6ed21cf5d6cb9b80b9f3fe",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/30c0ecdae54681d2bf6ed21cf5d6cb9b80b9f3fe/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "30df4b2c6ec42834bcab46ca527e1e20ba8d7103",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/30df4b2c6ec42834bcab46ca527e1e20ba8d7103",
+          "html_url": "https://github.com/team-mirai/policy/commit/30df4b2c6ec42834bcab46ca527e1e20ba8d7103"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-26T00:59:41.588199"
+}
