@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 2960,
+    "title": "【もこさん提案】肥満解消に向けたインセンティブ設計の追加",
+    "state": "open",
+    "created_at": "2025-06-27T10:20:33Z",
+    "updated_at": "2025-06-27T10:20:34Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/2960",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "44bf9289a7754f1bccb7ee471d91850050147306",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 0,
+      "changes": 10,
+      "blob_url": "https://github.com/team-mirai/policy/blob/7316197ad7699eb561ce8d09428a319fa196fc6c/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/7316197ad7699eb561ce8d09428a319fa196fc6c/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=7316197ad7699eb561ce8d09428a319fa196fc6c",
+      "patch": "@@ -86,3 +86,13 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）肥満解消に向けたインセンティブ設計\n+\n+### 現状認識・課題分析\n+\n+- 肥満は、糖尿病や高血圧などの生活習慣病の主要な原因であるだけでなく、医療現場においても様々な負担を生じさせます。例えば、看護師の身体的負担の増加、手術や麻酔時における合併症リスクの上昇、そして使用する薬剤量の増加などが挙げられます。これらの負担は、医療費の増大にも繋がっています。\n+\n+### 政策概要\n+\n+- 個人の健康への意識を高め、肥満を予防・解消するインセンティブとして、BMI（Body Mass Index）を基準とした医療費の自己負担割合の調整を検討します。具体的には、BMI30以上の方に対して一定の「肥満加算」を課すことを提案します。ただし、遺伝的要因や特定の疾患など、個人の努力だけでは解決が困難な「病的な肥満」については、医師の診断に基づき加算の対象外とします。これにより、不公平感なく、健康的な生活習慣への動機づけを促すことを目指します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "7316197ad7699eb561ce8d09428a319fa196fc6c",
+      "node_id": "C_kwDOOqTJvNoAKDczMTYxOTdhZDc2OTllYjU2MWNlOGQwOTQyOGEzMTlmYTE5NmZjNmM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-27T10:18:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-27T10:18:55Z"
+        },
+        "message": "もこさんの提案に基づき、肥満と医療負担に関する項目を追加",
+        "tree": {
+          "sha": "e60792710cb7ec26bbd10bf05a829eb5b8e16a5b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e60792710cb7ec26bbd10bf05a829eb5b8e16a5b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7316197ad7699eb561ce8d09428a319fa196fc6c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoXnAPCRC1aQ7uu5UhlAAA3T4QAF3K9a7tHWks/dv20qGd8Tt7\n0DVLVx9K/sWxd66x1PdyNnYQed+O6Onuve2Wkkx0D8x0Tb8hgmImBKSg16V0moIP\nTEgITsn4rLXeHPNlaUQ29wPuPiNxn/hMQKdBXjxQ6bXZ9MS2X+IhZ/dh0DZ3Pam6\nOl/KnnYJ1g+HJrRj67pWqiRMy9CNd6Pm8RV6I6zoqX3tnqhu25eVXxyKQIJ2ac53\nFwfm+gOiHlYBVl3+5XJKcd7LTcUIqoOC1DWOvYk6sf0gt4D2+1TLDBW7FA7DTM/s\nz1Gy7UDenRqXks5mBtKjQ0HY5x1xOkc/xxjeZM0g/AmtkFP7tb9DRTRukJNzDQRm\nBlU3K+kZdXYM5T8DksxgXu8e81t7EDQ7A/e9cBGosDgvNskMNHELxEPWdFKX6Icv\nlMBokNpdPJQzicpGMe9j2ddaFDj7tXhWiMCHlvMhK+seHJNHmd0zZ/KuZhnseqzh\nia4+Nk8pUezBF2WQL0KhPhg0yET4kvuN3Av24UfVDv6quSbUMKMEEguSQ32MTUlb\ndFpawAGwR1eV4fBWiYzmC3+7gNJqIim4vk8K7Hk3FuSOygjgHLbrYxsMQrQ4anwc\n52aBC9J31R3n9u6R1OClupaOrbvkQtFS0PYx8zjN8++VCHBWVAznxHsPRllvEEd+\nzWQhPakFFgZw5WHh8DbP\n=Uw1a\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e60792710cb7ec26bbd10bf05a829eb5b8e16a5b\nparent 1015a02a3631b73da1ca84fcc3d2dec877db4dfd\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751019535 +0000\ncommitter GitHub <noreply@github.com> 1751019535 +0000\n\nもこさんの提案に基づき、肥満と医療負担に関する項目を追加",
+          "verified_at": "2025-06-27T10:18:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7316197ad7699eb561ce8d09428a319fa196fc6c",
+      "html_url": "https://github.com/team-mirai/policy/commit/7316197ad7699eb561ce8d09428a319fa196fc6c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7316197ad7699eb561ce8d09428a319fa196fc6c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1015a02a3631b73da1ca84fcc3d2dec877db4dfd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1015a02a3631b73da1ca84fcc3d2dec877db4dfd",
+          "html_url": "https://github.com/team-mirai/policy/commit/1015a02a3631b73da1ca84fcc3d2dec877db4dfd"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-27T10:22:53.533304"
+}
