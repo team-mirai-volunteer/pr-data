@@ -2,11 +2,11 @@
   "basic_info": {
     "number": 2970,
     "title": "Fix markdown link syntax error in 31_ステップ３子育て.md",
-    "state": "open",
+    "state": "closed",
     "created_at": "2025-06-27T15:09:36Z",
-    "updated_at": "2025-06-27T15:09:52Z",
-    "closed_at": null,
-    "merged_at": null,
+    "updated_at": "2025-06-27T15:53:37Z",
+    "closed_at": "2025-06-27T15:53:37Z",
+    "merged_at": "2025-06-27T15:53:37Z",
     "html_url": "https://github.com/team-mirai/policy/pull/2970",
     "user": {
       "login": "chaspy",
@@ -14,10 +14,68 @@
       "html_url": "https://github.com/chaspy"
     }
   },
-  "labels": [],
+  "labels": [
+    {
+      "id": 8631776104,
+      "node_id": "LA_kwDOOqTJvM8AAAACAn5zaA",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E5%AD%90%E8%82%B2%E3%81%A6",
+      "name": "子育て",
+      "color": "FBCA04",
+      "default": false,
+      "description": ""
+    }
+  ],
   "comments": [],
   "review_comments": [],
   "files": [
+    {
+      "sha": "ba785344be7818487c9816a35506e51707b5ed3c",
+      "filename": ".github/markdown-link-check-config.json",
+      "status": "added",
+      "additions": 36,
+      "deletions": 0,
+      "changes": 36,
+      "blob_url": "https://github.com/team-mirai/policy/blob/40949d7760cc2f8c3a6174532ad49b4475457c05/.github%2Fmarkdown-link-check-config.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/40949d7760cc2f8c3a6174532ad49b4475457c05/.github%2Fmarkdown-link-check-config.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fmarkdown-link-check-config.json?ref=40949d7760cc2f8c3a6174532ad49b4475457c05",
+      "patch": "@@ -0,0 +1,36 @@\n+{\n+  \"ignorePatterns\": [\n+    {\n+      \"pattern\": \"^https://x.com/\"\n+    },\n+    {\n+      \"pattern\": \"^https://www.meti.go.jp/.*\\\\.pdf$\"\n+    },\n+    {\n+      \"pattern\": \"^https://www.jftc.go.jp/\"\n+    },\n+    {\n+      \"pattern\": \"^https://odin.opendatawatch.com/\"\n+    },\n+    {\n+      \"pattern\": \"^https://www.science.org/\"\n+    },\n+    {\n+      \"pattern\": \"^https://ai.gov.uk/\"\n+    }\n+  ],\n+  \"replacementPatterns\": [],\n+  \"httpHeaders\": [\n+    {\n+      \"urls\": [\"https://\"],\n+      \"headers\": {\n+        \"User-Agent\": \"Mozilla/5.0 (compatible; markdown-link-check)\"\n+      }\n+    }\n+  ],\n+  \"timeout\": \"20s\",\n+  \"retryOn429\": true,\n+  \"retryCount\": 3,\n+  \"fallbackRetryDelay\": \"30s\",\n+  \"aliveStatusCodes\": [200, 201, 202, 203, 204, 205, 206]\n+}\n\\ No newline at end of file"
+    },
+    {
+      "sha": "f1f1a1f77f653e0e658816e56e6e2b651d343021",
+      "filename": ".github/workflows/markdown-link-check.yml",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 6,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/40949d7760cc2f8c3a6174532ad49b4475457c05/.github%2Fworkflows%2Fmarkdown-link-check.yml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/40949d7760cc2f8c3a6174532ad49b4475457c05/.github%2Fworkflows%2Fmarkdown-link-check.yml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fworkflows%2Fmarkdown-link-check.yml?ref=40949d7760cc2f8c3a6174532ad49b4475457c05",
+      "patch": "@@ -11,10 +11,13 @@ jobs:\n     runs-on: ubuntu-24.04\n     steps:\n       - uses: actions/checkout@v4\n-      - uses: umbrelladocs/action-linkspector@v1\n+      \n+      - uses: gaurav-nelson/github-action-markdown-link-check@v1\n         with:\n-          github_token: ${{ secrets.GITHUB_TOKEN }}\n-          reporter: github-pr-annotations\n-          filter_mode: nofilter\n-          fail_level: any\n-          config_file: .github/.linkspector.yml\n\\ No newline at end of file\n+          use-quiet-mode: 'yes'\n+          use-verbose-mode: 'no'\n+          config-file: '.github/markdown-link-check-config.json'\n+          folder-path: '.'\n+          file-extension: '.md'\n+          check-modified-files-only: 'yes'\n+          base-branch: 'main'\n\\ No newline at end of file"
+    },
+    {
+      "sha": "28586b7fadbeff59742836ea08fdd1af1f58657a",
+      "filename": ".gitignore",
+      "status": "added",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/team-mirai/policy/blob/40949d7760cc2f8c3a6174532ad49b4475457c05/.gitignore",
+      "raw_url": "https://github.com/team-mirai/policy/raw/40949d7760cc2f8c3a6174532ad49b4475457c05/.gitignore",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.gitignore?ref=40949d7760cc2f8c3a6174532ad49b4475457c05",
+      "patch": "@@ -0,0 +1,2 @@\n+# Claude local settings\n+.claude/settings.local.json\n\\ No newline at end of file"
+    },
+    {
+      "sha": "fc225d16bb2193d99991ab890c6d2f49573f58ea",
+      "filename": "16_ステップ１デジタル民主主義.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 3,
+      "changes": 5,
+      "blob_url": "https://github.com/team-mirai/policy/blob/40949d7760cc2f8c3a6174532ad49b4475457c05/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/40949d7760cc2f8c3a6174532ad49b4475457c05/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=40949d7760cc2f8c3a6174532ad49b4475457c05",
+      "patch": "@@ -23,7 +23,7 @@\n AIを活用してパブリックコメントの取りまとめをすることにより、工数を削減し多数派工作にも対応できるようにする。その結果として、活用効率の向上を目指す\n \n * アメリカで2021年に発表された類似プロジェクトでは、コメントの重複削除で100件のコメントあたり約4.5時間の工数削減が、類似トピック集約機能で100件あたり約8時間の工数削減に成功している  \n-* イギリスで2025年5月に発表された[類似プロジェクト](%20https://ai.gov.uk/blogs/evaluating-consult-an-ai-tool-for-enhanced-public-consultation-analysis/)では、AI toolの導入により1件のレビューは中央値で23秒、77%の回答が1分未満でレビュー出来るようになった。またテーマ抽出を自動化することで、分析に時間を割けるようになった。これにより、年間7.5万日、2,000万ポンドの削減効果を見込む  \n+* イギリスで2025年5月に発表された[類似プロジェクト](https://ai.gov.uk/blogs/evaluating-consult-an-ai-tool-for-enhanced-public-consultation-analysis/)では、AI toolの導入により1件のレビューは中央値で23秒、77%の回答が1分未満でレビュー出来るようになった。またテーマ抽出を自動化することで、分析に時間を割けるようになった。これにより、年間7.5万日、2,000万ポンドの削減効果を見込む  \n * 『デジタル民主主義２０３０』というOSSコミュニティでは「広聴AI」という意見の見える化ツールを開発している。これらの開発を支援する\n \n ## ２）政治とカネ問題解決のための、政治資金透明化の推進\n@@ -50,5 +50,4 @@ AIを活用してパブリックコメントの取りまとめをすることに\n \n ## 補足：Plurality（多元性）について\n \n-Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説\n-](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n\\ No newline at end of file\n+Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n\\ No newline at end of file"
+    },
     {
       "sha": "c0a1d3dc2cd57789c388d80843f55841f27663eb",
       "filename": "31_ステップ３子育て.md",
@@ -25,9 +83,9 @@
       "additions": 1,
       "deletions": 1,
       "changes": 2,
-      "blob_url": "https://github.com/team-mirai/policy/blob/a003f0d77ef3cd5a839170b4070012b7574fb6aa/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/a003f0d77ef3cd5a839170b4070012b7574fb6aa/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=a003f0d77ef3cd5a839170b4070012b7574fb6aa",
+      "blob_url": "https://github.com/team-mirai/policy/blob/40949d7760cc2f8c3a6174532ad49b4475457c05/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/40949d7760cc2f8c3a6174532ad49b4475457c05/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=40949d7760cc2f8c3a6174532ad49b4475457c05",
       "patch": "@@ -200,7 +200,7 @@\n \n * 子育てには、食費、教育費、衣料費など、成長に伴い継続的かつ多岐にわたる経済的負担が生じます。これらの負担が、子どもを持つことへのためらいや、理想の数の子どもを持てないといった「希望と現実のギャップ」を生み出す一因となっていて、少子化の背景にある重要な課題です。  \n * 現行の児童手当は貧困対策と次代の社会を担う児童の健やかな成長を目的としており、少子化対策（人口政策）ではありません。結果として、多くの世帯にとっては実際の子育ての経済的負担に対して不足した支援となっており、少子化対策としてはより踏み込んだ経済的支援策が求められています。\n-  * 各種研究やリサーチでも、一律の現金給付の少子化対策としての効果は限定的であるという指摘があります(例：大和総研レポート)[https://www.dir.co.jp/report/research/economics/japan/20240826_024581.pdf]\n+  * 各種研究やリサーチでも、一律の現金給付の少子化対策としての効果は限定的であるという指摘があります[例：大和総研レポート](https://www.dir.co.jp/report/research/economics/japan/20240826_024581.pdf)\n   * 諸外国ではフランスのN分N乗課税方式やハンガリーにおける女性の所得税免除など、踏み込んだ経済支援の例が複数みられます。\n   * 現金給付と現物給付（保育施設の整備など）はいずれも少子化対策において重要ですが、現在の止まらない少子化の波の中、日本においても「未来に大胆に投資する」ことが必要であると認識しています。\n * 一方、持続可能な税制とすることは重要です。テクノロジーの活用により無駄を削減し成長を生み出し、これまでの不可能を可能にする道を模索します。"
     }
   ],
@@ -113,7 +171,417 @@
           "html_url": "https://github.com/team-mirai/policy/commit/1015a02a3631b73da1ca84fcc3d2dec877db4dfd"
         }
       ]
+    },
+    {
+      "sha": "bb79f31db5bf22db83b94c14310194a22db80f68",
+      "node_id": "C_kwDOOqTJvNoAKGJiNzlmMzFkYjViZjIyZGI4M2I5NGMxNDMxMDE5NGEyMmRiODBmNjg",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:19:46Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:19:46Z"
+        },
+        "message": "Fix additional markdown link syntax errors\n\n- Fixed URL with encoded space (%20) at the beginning\n- Fixed multi-line link text to be on single line\n- This should resolve the linkspector CI failures\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+        "tree": {
+          "sha": "cd5a28c97bb1219b9c7d375ea186ff05f345c629",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/cd5a28c97bb1219b9c7d375ea186ff05f345c629"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/bb79f31db5bf22db83b94c14310194a22db80f68",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/bb79f31db5bf22db83b94c14310194a22db80f68",
+      "html_url": "https://github.com/team-mirai/policy/commit/bb79f31db5bf22db83b94c14310194a22db80f68",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/bb79f31db5bf22db83b94c14310194a22db80f68/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a003f0d77ef3cd5a839170b4070012b7574fb6aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a003f0d77ef3cd5a839170b4070012b7574fb6aa",
+          "html_url": "https://github.com/team-mirai/policy/commit/a003f0d77ef3cd5a839170b4070012b7574fb6aa"
+        }
+      ]
+    },
+    {
+      "sha": "941f78da63f02ccfd75db610786fe5848c6a61d3",
+      "node_id": "C_kwDOOqTJvNoAKDk0MWY3OGRhNjNmMDJjY2ZkNzVkYjYxMDc4NmZlNTg0OGM2YTYxZDM",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:44:02Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:44:02Z"
+        },
+        "message": "Replace linkspector with markdown-link-check\n\nThe linkspector action is causing parse errors with reviewdog integration.\nSwitching to the more stable markdown-link-check action instead.\n\n- Removed linkspector configuration\n- Added markdown-link-check with proper ignore patterns\n- This should resolve the CI failures\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+        "tree": {
+          "sha": "a92e07b38c9f0548af47fb1bcb4e5978d8357dac",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a92e07b38c9f0548af47fb1bcb4e5978d8357dac"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/941f78da63f02ccfd75db610786fe5848c6a61d3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/941f78da63f02ccfd75db610786fe5848c6a61d3",
+      "html_url": "https://github.com/team-mirai/policy/commit/941f78da63f02ccfd75db610786fe5848c6a61d3",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/941f78da63f02ccfd75db610786fe5848c6a61d3/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bb79f31db5bf22db83b94c14310194a22db80f68",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/bb79f31db5bf22db83b94c14310194a22db80f68",
+          "html_url": "https://github.com/team-mirai/policy/commit/bb79f31db5bf22db83b94c14310194a22db80f68"
+        }
+      ]
+    },
+    {
+      "sha": "607742f0be2aafc60377bf8ca6c21090338c9d3e",
+      "node_id": "C_kwDOOqTJvNoAKDYwNzc0MmYwYmUyYWFmYzYwMzc3YmY4Y2E2YzIxMDkwMzM4YzlkM2U",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:49:31Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:49:31Z"
+        },
+        "message": "Clean up and reorganize Claude configuration\n\n- Removed .claude_allowed_commands.json and CLAUDE.md from repository\n- Created .gitignore to exclude .claude/settings.local.json and .pr_analysis/\n- Moved configuration to local settings that won't be committed\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+        "tree": {
+          "sha": "884462d1fdf0ad07cf216bc857a0627745bbeedc",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/884462d1fdf0ad07cf216bc857a0627745bbeedc"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/607742f0be2aafc60377bf8ca6c21090338c9d3e",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/607742f0be2aafc60377bf8ca6c21090338c9d3e",
+      "html_url": "https://github.com/team-mirai/policy/commit/607742f0be2aafc60377bf8ca6c21090338c9d3e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/607742f0be2aafc60377bf8ca6c21090338c9d3e/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "941f78da63f02ccfd75db610786fe5848c6a61d3",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/941f78da63f02ccfd75db610786fe5848c6a61d3",
+          "html_url": "https://github.com/team-mirai/policy/commit/941f78da63f02ccfd75db610786fe5848c6a61d3"
+        }
+      ]
+    },
+    {
+      "sha": "f95626f6a45445d1e603bd16da8804b6a5f3b829",
+      "node_id": "C_kwDOOqTJvNoAKGY5NTYyNmY2YTQ1NDQ1ZDFlNjAzYmQxNmRhODgwNGI2YTVmM2I4Mjk",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:49:51Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:49:51Z"
+        },
+        "message": "Remove unnecessary backup file\n\n- Removed .github/workflows/markdown-link-check.yml.bak\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+        "tree": {
+          "sha": "b6521113733bcd2143e948fd5e067de25396191e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b6521113733bcd2143e948fd5e067de25396191e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f95626f6a45445d1e603bd16da8804b6a5f3b829",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f95626f6a45445d1e603bd16da8804b6a5f3b829",
+      "html_url": "https://github.com/team-mirai/policy/commit/f95626f6a45445d1e603bd16da8804b6a5f3b829",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f95626f6a45445d1e603bd16da8804b6a5f3b829/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "607742f0be2aafc60377bf8ca6c21090338c9d3e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/607742f0be2aafc60377bf8ca6c21090338c9d3e",
+          "html_url": "https://github.com/team-mirai/policy/commit/607742f0be2aafc60377bf8ca6c21090338c9d3e"
+        }
+      ]
+    },
+    {
+      "sha": "40949d7760cc2f8c3a6174532ad49b4475457c05",
+      "node_id": "C_kwDOOqTJvNoAKDQwOTQ5ZDc3NjBjYzJmOGMzYTYxNzQ1MzJhZDQ5YjQ0NzU0NTdjMDU",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:51:30Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-06-27T15:51:30Z"
+        },
+        "message": "Remove unnecessary .pr_analysis entry from .gitignore\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+        "tree": {
+          "sha": "a4d16d42c22f984912eed9eaeeef97832605be2d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a4d16d42c22f984912eed9eaeeef97832605be2d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/40949d7760cc2f8c3a6174532ad49b4475457c05",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/40949d7760cc2f8c3a6174532ad49b4475457c05",
+      "html_url": "https://github.com/team-mirai/policy/commit/40949d7760cc2f8c3a6174532ad49b4475457c05",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/40949d7760cc2f8c3a6174532ad49b4475457c05/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f95626f6a45445d1e603bd16da8804b6a5f3b829",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f95626f6a45445d1e603bd16da8804b6a5f3b829",
+          "html_url": "https://github.com/team-mirai/policy/commit/f95626f6a45445d1e603bd16da8804b6a5f3b829"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-06-27T15:13:01.021615"
+  "collected_at": "2025-06-27T16:15:32.096400"
 }
