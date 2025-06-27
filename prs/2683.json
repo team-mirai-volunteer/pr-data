@@ -1,10 +1,10 @@
 {
   "basic_info": {
     "number": 2683,
-    "title": "Update 18_ステップ１福祉_「障害」の表記について説明を追加.md",
+    "title": "「誰ひとり取り残さない福祉情報へ：情報アクセシビリティの保障と表現の工夫を行います」のセクションを追加.md",
     "state": "open",
     "created_at": "2025-06-20T07:37:57Z",
-    "updated_at": "2025-06-20T08:07:58Z",
+    "updated_at": "2025-06-27T05:51:15Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/2683",
@@ -19,16 +19,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "948af1fed0c4a55356bdb4f693c2b462e0ad9530",
+      "sha": "1b84f230383b55e1bd5f4826e16e33a6d71804ef",
       "filename": "18_ステップ１福祉.md",
       "status": "modified",
-      "additions": 2,
-      "deletions": 0,
-      "changes": 2,
-      "blob_url": "https://github.com/team-mirai/policy/blob/fa8a7d67926f0f624fa7084c091a69aaf5723f09/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/fa8a7d67926f0f624fa7084c091a69aaf5723f09/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md?ref=fa8a7d67926f0f624fa7084c091a69aaf5723f09",
-      "patch": "@@ -1,5 +1,7 @@\n # ステップ１「デジタル時代の当たり前をやりきる」\n \n+※「障害の社会モデル」の考え方に基づき、「障がい」ではなく「障害」と表記しています。\n+\n ## ビジョン\n \n * テクノロジーで誰も取り残さない福祉アクセスを実現します。  "
+      "additions": 26,
+      "deletions": 19,
+      "changes": 45,
+      "blob_url": "https://github.com/team-mirai/policy/blob/f5fc962f8a9974a2494226c8d8bd96cd8aaab415/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/f5fc962f8a9974a2494226c8d8bd96cd8aaab415/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md?ref=f5fc962f8a9974a2494226c8d8bd96cd8aaab415",
+      "patch": "@@ -1,14 +1,19 @@\n # ステップ１「デジタル時代の当たり前をやりきる」\n \n+※「障害の社会モデル」の考え方に基づき、「障がい」ではなく「障害」と表記しています。\n+\n ## ビジョン\n \n * テクノロジーで誰も取り残さない福祉アクセスを実現します。  \n-  * テクノロジーやAIの活用によって、支援が必要な人が迷わず適切な福祉サービスにアクセスできる仕組みをつくります。情報格差や手続きの複雑さを解消することで、すべての人が平等に福祉の恩恵を受けられる社会を目指しています。  \n+  * テクノロジーやAIの活用によって、支援が必要な人が迷わず適切な福祉サービスにアクセスできる仕組みをつくります。情報格差や手続きの複雑さを解消することで、すべての人が平等に福祉の恩恵を受けられる社会を目指しています。\n+* 情報アクセシビリティの向上で、制度の入り口で誰も取り残さない社会をつくります。\n+  * 福祉制度の説明や申請において、読解力や言語理解の困難によって支援にたどり着けない人を生まないよう、やさしい表現やルビ付き文章など、多様な情報提供手段を整備します。すべての人が自分にとって理解しやすい形で制度にアクセスできる環境を整えることで、公平な支援機会を保障します。\n * 福祉サービスの認定・審査プロセスの効率化と公正性を確保します。  \n   * AIなどのデジタル技術を活用して、障害年金や生活保護などの認定・審査プロセスを効率化し、透明性と公平性を高め、職員の業務負担も軽減します。  \n * 切れ目ないワンストップ福祉支援を実現します。  \n   * 申請から利用までの手続きを一元化、複数機関をまたぐ情報連携をデジタルで実現し、利用者や家族の負担を減らし、必要な支援がタイムリーに届く体制を整備します。\n \n+\n ## \n \n ## １）テクノロジーにより、支援が必要な人が適切な福祉サービスにアクセスしやすくします\n@@ -34,7 +39,25 @@\n   * 障害のある方やご家族が抱えるあらゆる疑問や悩みに応える「AI障害福祉相談ポータル」を設置します。このポータルでは、個々の状況や障害特性に応じて利用できる公的制度や必要な手続きを、対話形式でわかりやすく案内します。プッシュ通知機能も組み合わせ、申請や手続きのし忘れを防ぎます。  \n   * AIが相談内容から深刻なケースや専門的な支援が必要と判断した場合には、自治体の障害福祉担当職員や相談支援専門員、医療・心理の専門家などへスムーズに接続する仕組みを構築します。自治体と国が連携し、デジタルの即時性と専門家による的確なサポートを両立させ、支援が必要な方に確実にサービスが届く体制を整えます。\n \n-## ２）デジタル・AI活用により、障害年金・生活保護等の認定プロセスの効率化を実現、透明性と公平性を確保します\n+## ２）誰ひとり取り残さない福祉情報へ：情報アクセシビリティの保障と表現の工夫を行います\n+\n+### 現状認識・課題分析\n+* 行政サービスのオンライン化は進んでいますが、申請手続きや制度説明が「日本語の読解力」を前提としていることが、見過ごされがちな情報の壁となっています。\n+* ろう者やディスレクシア（読字障害）のある方、知的障害や学習障害、発達障害の特性により文書理解が難しい方（いわゆる「グレーゾーン」）は、日本語を母語としながらも制度情報の理解に大きな困難を抱えています。\n+* これらの方々は、福祉制度を必要とする機会が多い一方で、複雑な説明文や申請書類の難解さのために、制度そのものにたどり着けないリスクが高い層です。現状では、「支援を受ける以前に、情報にたどりつけない」「理解できないから申請できない」という構造が存在しています。読む力の有無が支援の可否を左右する社会は、公平な制度運用とは言えません。\n+\n+### 政策概要\n+* 福祉制度の説明・申請のすべての段階において、情報へのアクセスを保障するための表現工夫を制度化します。具体的には以下の取り組みを推進します：\n+  * 行政サイト、パンフレット、申請書類などに、**やさしい日本語・ルビ付き文章・図解・ピクトグラム**など、複数の表現手段を併記し、誰もが制度の内容を理解しやすくします。\n+  * 情報発信において、**ふりがな（ルビ）をつけた文章の提供**を標準化し、読字に困難のある方や小学生程度の漢字力の方にも情報が届く設計にします。\n+  * オンライン申請や情報検索を支援する**AIチャットボット**に、**わかりやすい言葉への変換モードや、音声読み上げ・対話型案内との連携**を実装します。\n+  * 各自治体のポータルサイトや申請窓口に「この説明をわかりやすく読む」ボタンを常設し、すぐに**やさしい表現やルビ付きのページに切り替えられる仕組み**を整備します。\n+  * 表現整備の過程では、言語支援の専門家のみならず、実際に制度を使いにくかった当事者の声を反映させ、実効性のある「使える情報」を制作します。\n+\n+制度のわかりやすさは、IT技術の課題であると同時に、言語と認知におけるアクセシビリティの課題でもあります。\n+自ら情報にたどりつき、内容を理解し、必要な支援につながります。 そのすべての段階を支えるやさしさと工夫が、誰ひとり取り残さない社会の基盤となります。\n+\n+## ３）デジタル・AI活用により、障害年金・生活保護等の認定プロセスの効率化を実現、透明性と公平性を確保します\n \n ### 現状認識・課題分析\n \n@@ -51,7 +74,7 @@\n   * 資産調査を電子化し、AIを導入して行うことで、職員の業務負担の削減と、迅速な支給認定手続きを実現します。  \n   * ケースワーカーの生活保護業務に関しても紙媒体ではなく電子化を進め、事務の効率化、データを活用しより適切な支援を提案できる仕組みを構築します。\n \n-## ３）切れ目ない福祉支援を提供する、ワンストップデジタル福祉パスポートを実現します\n+## ４）切れ目ない福祉支援を提供する、ワンストップデジタル福祉パスポートを実現します\n \n ### 現状認識・課題分析\n \n@@ -66,22 +89,6 @@\n * 福祉サービスの支給申請をオンラインで可能にし、各福祉施設での支援情報もワンストップデジタル福祉パスポートで管理できるようにします。受給者証等は、申請を元に対象者にデジタルで付与する仕組みを構築し、自治体に提供します。これにより、申請や受け取りの手間を省きます。  \n * 福祉サービスの利用スケジュールや受給者証更新手続きもパスポート内で一元管理し、必要な時期にプッシュ通知でお知らせできる仕組みを提供します。\n \n-## ４）福祉・介護サービスの空き情報を可視化するプラットフォームを構築します\n-\n-### 現状認識・課題分析\n-\n-* 障害者や高齢者、その家族にとって、希望する時期や条件で療育施設、デイサービス、生活介護、グループホーム、障害者施設などの福祉サービスを利用できる場所を見つけることは依然として大きな負担です。また、日常的なサービス利用だけでなく、短期間の一時利用や緊急的な支援ニーズも高まっていますが、空き状況の把握や予約が難しいのが現状です。\n-\n-* 障害福祉・介護の現場では人手不足が深刻化しており、地域によってはサービスの提供者不足で、福祉サービスを受けられない、施設に入れない状態が続いています。\n-\n-### 政策概要\n-\n-* 全国の療育施設、デイサービス、生活介護事業所、グループホーム、障害者施設などの登録情報を集約し、空き状況をリアルタイムで可視化するプラットフォームを構築します。\n-\n-* これにより、利用者やその家族は地域や条件に合わせて、スマートフォン等から簡単に利用先を探すことができ、サービス利用開始までの負担を大幅に軽減します。一時利用や緊急対応サービスの情報も集約し、必要な時にすぐに支援につながる体制を整え、福祉サービスの利用促進と負担軽減を図ります。\n-\n-* 障害福祉・介護従事者の給与を全産業平均に近づけるための賃上げを進め、処遇改善加算の取得を促進することで、賞与や福利厚生の充実を図ります。  \n-* ICTや介護ロボットなどのテクノロジーを積極的に導入し、記録業務や勤怠管理、シフト調整、利用者情報の共有といった日常業務を効率化することで、現場の負担を大幅に軽減します。週休3日制や夜勤なし正社員など、多様な働き方を導入することで、個々のライフスタイルや健康状態に合わせた柔軟な就労を可能にします。\n \n ## ５）オンライン診療 / 処方受け取り方法を充実させることで、どんな状況の方も適切な医療につながることをサポートします\n "
     }
   ],
   "commits": [
@@ -113,7 +113,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/530abbb6225cd1d7f6136e3a602ac09e9b7a105d"
         }
       ]
+    },
+    {
+      "sha": "f5fc962f8a9974a2494226c8d8bd96cd8aaab415",
+      "node_id": "C_kwDOOqTJvNoAKGY1ZmM5NjJmOGE5OTc0YTI0OTQyMjZjOGQ4YmQ5NmNkOGFhYWI0MTU",
+      "commit": {
+        "author": {
+          "name": "kasumiiwase",
+          "email": "iwase.kasumi@gmail.com",
+          "date": "2025-06-27T05:49:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-27T05:49:02Z"
+        },
+        "message": "Update 18_ステップ１福祉.md",
+        "tree": {
+          "sha": "1f992793974e5bceebe137b8e645cb0b53e4661b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1f992793974e5bceebe137b8e645cb0b53e4661b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f5fc962f8a9974a2494226c8d8bd96cd8aaab415",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoXjDOCRC1aQ7uu5UhlAAA6xkQAK0u52E/r5P9du46nEUgVryR\nte4Ceu1RMshvHd4eaZ/qVEymHnggDN7KgbcpStw/PSGvnIQjUSTP9yDs0SPcUtgq\nRhhPq4nUqT9t0HltbAz7cnN0dXqeucRYK0Sxt90YizQbbOvlvi7afEWOPxMM3Lz+\nqazJzoui9pWCNpPtuLb06YjQS83rz42VH9M6au2hwgM26weFeZLjwHC8hCrkmb6B\nQF4pajcFQoscPV+gwWwfBUGrBMgMEQQIFbK1estY+UWEJnlDmu/qpfwnIMFq/QgU\nEJpE2clvzlH+j+xgIl3JitT7PJBSRrpJCbK+552lViQO2GzVenuuTPe+bentQGEa\nO8zgDUjkm1/nFZ9oZs60m6ul8lreIkQP8jb+i22d51axp3zo8vHVL5DzdPtTUdbS\nDo4LpHV94Ymu7/6I2nD4MdyxyJeKjxudy8ggKORnk0+52TJ7Rke9z1faLHrBD+cq\noZaz3jZSo/yuVKStwdm7tqgZVaRL6SvqrxpUYsW1Z1tiaSELSjetAS9ZGFZ4almn\nS662jWz+FopjKCrwc/jyn5ZMGCKZLafim3POJlklEBANuv9upPjHpP012hLwbe3g\n21JDYSmjLnQJ7oixWC76TRnjaefRHjN/l8AVz54fwETwktukozDspEzTY/TP67qT\np/SVM8yolO9G+aJTaVHB\n=57O6\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1f992793974e5bceebe137b8e645cb0b53e4661b\nparent fa8a7d67926f0f624fa7084c091a69aaf5723f09\nauthor kasumiiwase <iwase.kasumi@gmail.com> 1751003342 +0900\ncommitter GitHub <noreply@github.com> 1751003342 +0900\n\nUpdate 18_ステップ１福祉.md",
+          "verified_at": "2025-06-27T05:49:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f5fc962f8a9974a2494226c8d8bd96cd8aaab415",
+      "html_url": "https://github.com/team-mirai/policy/commit/f5fc962f8a9974a2494226c8d8bd96cd8aaab415",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f5fc962f8a9974a2494226c8d8bd96cd8aaab415/comments",
+      "author": {
+        "login": "kasumiiwase",
+        "id": 174220419,
+        "node_id": "U_kgDOCmJkgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174220419?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kasumiiwase",
+        "html_url": "https://github.com/kasumiiwase",
+        "followers_url": "https://api.github.com/users/kasumiiwase/followers",
+        "following_url": "https://api.github.com/users/kasumiiwase/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kasumiiwase/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kasumiiwase/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kasumiiwase/subscriptions",
+        "organizations_url": "https://api.github.com/users/kasumiiwase/orgs",
+        "repos_url": "https://api.github.com/users/kasumiiwase/repos",
+        "events_url": "https://api.github.com/users/kasumiiwase/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kasumiiwase/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fa8a7d67926f0f624fa7084c091a69aaf5723f09",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/fa8a7d67926f0f624fa7084c091a69aaf5723f09",
+          "html_url": "https://github.com/team-mirai/policy/commit/fa8a7d67926f0f624fa7084c091a69aaf5723f09"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-06-20T08:17:02.574723"
+  "collected_at": "2025-06-27T06:19:40.721156"
 }
