@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 3042,
+    "title": "AI活用における安全性・信頼性確保策の追記",
+    "state": "open",
+    "created_at": "2025-06-29T13:37:18Z",
+    "updated_at": "2025-06-29T13:40:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3042",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "50ec78e15aca91cb8f5411ad72d6f3f794969377",
+      "filename": "16_ステップ１デジタル民主主義.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "changes": 5,
+      "blob_url": "https://github.com/team-mirai/policy/blob/800c563ef3598d3a4ef255e222207ba91624e1fc/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/800c563ef3598d3a4ef255e222207ba91624e1fc/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=800c563ef3598d3a4ef255e222207ba91624e1fc",
+      "patch": "@@ -25,6 +25,7 @@ AIを活用してパブリックコメントの取りまとめをすることに\n * アメリカで2021年に発表された類似プロジェクトでは、コメントの重複削除で100件のコメントあたり約4.5時間の工数削減が、類似トピック集約機能で100件あたり約8時間の工数削減に成功している  \n * イギリスで2025年5月に発表された[類似プロジェクト](https://ai.gov.uk/blogs/evaluating-consult-an-ai-tool-for-enhanced-public-consultation-analysis/)では、AI toolの導入により1件のレビューは中央値で23秒、77%の回答が1分未満でレビュー出来るようになった。またテーマ抽出を自動化することで、分析に時間を割けるようになった。これにより、年間7.5万日、2,000万ポンドの削減効果を見込む  \n * 『デジタル民主主義２０３０』というOSSコミュニティでは「広聴AI」という意見の見える化ツールを開発している。これらの開発を支援する\n+* また、行政の基幹システムでAIを利用する際には、入力した情報が意図せず外部に流出したり、AIの応答が外部から操作されたりするリスクを防ぐ必要があります。そのため、利用するAIの安全性や信頼性を担保する仕組み（第三者機関によるソースコードの監査など）を整備し、特に機微な情報を扱うシステムにおいては、国内で開発・管理されたAIの利用を優先することを検討します。\n \n ## ２）政治とカネ問題解決のための、政治資金透明化の推進\n \n@@ -37,7 +38,7 @@ AIを活用してパブリックコメントの取りまとめをすることに\n ### 政策概要\n \n * 民間や他国で行われているように、クラウド会計ソフト、銀行口座、クレジットカードを紐づけた形で資金の見える化を進める  \n-* 政治資金収支報告書を解析し、お金の流れを理解しやすい形で可視化する  \n+* 政治資金収支報告書を解析し、お金の流れを理解しやすい形で可vis化する  \n   * 『デジタル民主主義２０３０』というOSSをコミュニティで開発している「Polimoney」では、政治資金収支報告書を元に下記のような可視化を行うことができます  \n <p align=\"center\">\n   <img src=\"https://github.com/user-attachments/assets/bf5de7d9-c5d6-4eea-8154-579693106340\">\n@@ -50,4 +51,4 @@ AIを活用してパブリックコメントの取りまとめをすることに\n \n ## 補足：Plurality（多元性）について\n \n-Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n\\ No newline at end of file\n+Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "800c563ef3598d3a4ef255e222207ba91624e1fc",
+      "node_id": "C_kwDOOqTJvNoAKDgwMGM1NjNlZjM1OThkM2E0ZWYyNTVlMjIyMjA3YmE5MTYyNGUxZmM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-29T13:36:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-29T13:36:25Z"
+        },
+        "message": "匿名ユーザーによる提案：AIの安全性と国内開発に関する追記",
+        "tree": {
+          "sha": "2024cef34a8b73be3babb8867dc467298a2ad56c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2024cef34a8b73be3babb8867dc467298a2ad56c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/800c563ef3598d3a4ef255e222207ba91624e1fc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYUFZCRC1aQ7uu5UhlAAAmmUQAKrjHkMBCweccW3f+hvnHN+D\navcZhLrdUtp7tG2NRhl6Bmxne+Q5eUBik+kmDHAp+tmB0TCiFGSPBpxP2Q7+alb7\nS+9fu13mv8vWxzm0uPZLIDXwf9k0TgRBsp4VexDy8lYoNh1xKUNQi6u9ATXQKu/Y\n6En31cKcMmyBsBD/Kjiv9RlSNI6tc+mDERjhXxxtoyzBxG5k63JDkEwtCmR7p32s\n3VDIx6kJfBxiq54fOZcNBIHY2sj2+w7KWqMVJbuEs5YRFeOQF6gD1ExKRLEGNID4\nY8iQPktF5UAg5CPaOMG3RXwS1cC4rjVnkTPkhVZ7UoPcjb/KJFfSmi0JfWnY3t+y\nHAZ1L4BMrog9m7OS1SY+d7bT+MXcR+BRhA6WRwAk4T4O2BK6XtLZciyqOpTn3YLF\nEAXD9Lq6/oxuo0V8+dNumdBD97SGsSeWQDE0Yzb+r3IY2U8Vm3emZTlvPderDf74\n29+nEgHmbgA5QFLi1lEeOTo0JqllUOB0w5AwsTTIFvLHwhQIVUk8RHULL9xqsKmf\n3x5uxOkfgLsYtN0crlPNYHkNsbgTyvtEVpzCzqAmVxec7zdT4q0qqN9KLy3GE1Md\n5aTyXgy+K8dxN8tRxSsJykxKRf5oDqtidIj8FS+ILDnVP7RZyVwPeDNwLJX1l077\nv75rB9Mc3EdIVbm4qXXP\n=JAbi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2024cef34a8b73be3babb8867dc467298a2ad56c\nparent bbb052e22e7e9e40bfe34cf0d63398b264a90020\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751204185 +0000\ncommitter GitHub <noreply@github.com> 1751204185 +0000\n\n匿名ユーザーによる提案：AIの安全性と国内開発に関する追記",
+          "verified_at": "2025-06-29T13:36:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/800c563ef3598d3a4ef255e222207ba91624e1fc",
+      "html_url": "https://github.com/team-mirai/policy/commit/800c563ef3598d3a4ef255e222207ba91624e1fc",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/800c563ef3598d3a4ef255e222207ba91624e1fc/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bbb052e22e7e9e40bfe34cf0d63398b264a90020",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/bbb052e22e7e9e40bfe34cf0d63398b264a90020",
+          "html_url": "https://github.com/team-mirai/policy/commit/bbb052e22e7e9e40bfe34cf0d63398b264a90020"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-29T14:10:48.076095"
+}
