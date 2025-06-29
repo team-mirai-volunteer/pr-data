@@ -4,7 +4,7 @@
     "title": "法制局の業務支援・立法DXを追加し、立法プロセスを効率化",
     "state": "open",
     "created_at": "2025-06-28T07:16:49Z",
-    "updated_at": "2025-06-28T15:17:13Z",
+    "updated_at": "2025-06-29T09:53:57Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/2992",
@@ -29,16 +29,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "d300b23da33700b876bc6fc450faf19d1fd2cc1d",
+      "sha": "f7048886b41786536a5adf112da674462cd83d75",
       "filename": "13_ステップ１行政改革.md",
       "status": "modified",
-      "additions": 12,
+      "additions": 11,
       "deletions": 6,
-      "changes": 18,
-      "blob_url": "https://github.com/team-mirai/policy/blob/c98d9f065e343dae618c36443b13af9f1467855d/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/c98d9f065e343dae618c36443b13af9f1467855d/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=c98d9f065e343dae618c36443b13af9f1467855d",
-      "patch": "@@ -104,25 +104,30 @@\n ### 現状認識・課題分析\n \n * 過重労働が常態化し、若手人材が敬遠。行政サービスの質・スピード双方が低下。  \n-  * パブリックコメントは案件によっては10万件超の意見が集まる事例もあり、職員が手作業で分類するなど、大きな事務負担が生じています。  \n+  * パブリックコメントは案件によっては10万件超の意見が集まる事例もあり、職員が手作業で分類するなど、大きな事務負担が生じています。\n+* 立法支援機能の限界と現場の疲弊\n+  * 各省庁だけでなく、衆議院・参議院の法制局では、議員立法や政策分野の多様化により、法案作成・審査の業務が増大しています。膨大な審議記録や類似法案の調査を限られた人員でこなす現場はすでに限界に達しており、業務支援のための技術導入が不可欠です     \n * 危機対応に必要な“余白”が消失  \n   * 人手不足・過重労働が常態化しているため災害やパンデミック時に臨機応変な動員が難しく、非常時に機動的な動きができない恐れがあります。  \n-* 最新のツールや働き方を行政機関でも導入することで、行政職員のデジタルリテラシーを向上するとともに、現実に即した政策立案を推進します。\n \n ### 政策概要\n \n+* FAXや紙の廃止を進めるとともに、行政機関に最新の業務ツールや柔軟な働き方を導入し、職員のデジタルリテラシーを高めます。こうした基盤整備により、現場の実態や社会の変化を的確に捉えた、現実に即した政策立案を可能にします。  \n * 行政内部DX  \n   * AIアシスト型ワークフロー  \n     * パブリックコメントの分類、分析をAIで効率化します。  \n     * 紙のみで保存されている資料をOCRで検索可能にします。  \n-    * 告示・通知をデータベース化し、AI＋RAGで庁内文書横断検索を可能にします。  \n+    * 告示・通知をデータベース化し、AI＋RAGで庁内文書横断検索を可能にします。\n   * 「読み合わせ」から脱却  \n     * AI技術を活用して原稿のレビューを行うことで、口頭読み合わせを不要にします。  \n   * 音声AIによる一次問い合わせ窓口  \n     * 代表電話・コールセンター業務を集約し、職員が二次対応に専念できる環境を整備します。  \n-  * 機密区分・個人情報のマスキング手順を標準化し、行政機関での安全な生成AI活用を進めます。  \n-* 国会業務の可視化・効率化  \n-  * 質問通告の時刻や動員人数を公開し、深夜待機ゼロを目指します。  \n+  * 機密区分・個人情報のマスキング手順を標準化し、行政機関での安全な生成AI活用を進めます。    \n+* 法制局の業務支援・立法DX\n+  * 類似法案の検索、過去の審議記録の分析、条文案作成支援、影響範囲分析など、AI技術を活用したツールを開発します。  \n+  * e-Gov法令APIの構造化強化（プレーンテキスト化、履歴管理、告示データの整備等）や、デジタル庁が進める法制事務のデジタル化の動きとも連携し、議員立法や修正案作成にも使いやすい支援ツールを整備します。  \n+  * 法令・規則・条約のデータを再利用可能なリソースとして統合し、立法過程全体の質とスピードを高めます。\n+  * あわせて、各省庁でも答弁支援ツールを配布するなど国会対応の負担軽減を図ります。\n * 司法DX  \n   * 司法における書面準備作業などをAIを利用して効率化します。  \n   * AI“0審”モデル  \n@@ -131,3 +136,4 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+"
+      "changes": 17,
+      "blob_url": "https://github.com/team-mirai/policy/blob/18a9d445f46be7d6db7cd8c8b82e11da0d05920f/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/18a9d445f46be7d6db7cd8c8b82e11da0d05920f/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=18a9d445f46be7d6db7cd8c8b82e11da0d05920f",
+      "patch": "@@ -104,25 +104,29 @@\n ### 現状認識・課題分析\n \n * 過重労働が常態化し、若手人材が敬遠。行政サービスの質・スピード双方が低下。  \n-  * パブリックコメントは案件によっては10万件超の意見が集まる事例もあり、職員が手作業で分類するなど、大きな事務負担が生じています。  \n+  * パブリックコメントは案件によっては10万件超の意見が集まる事例もあり、職員が手作業で分類するなど、大きな事務負担が生じています。\n+* 立法支援機能の限界と現場の疲弊\n+  * 各省庁だけでなく、衆議院・参議院の法制局では、議員立法や政策分野の多様化により、法案作成・審査の業務が増大しています。膨大な審議記録や類似法案の調査を限られた人員でこなす現場はすでに限界に達しており、業務支援のための技術導入が不可欠です。   \n * 危機対応に必要な“余白”が消失  \n   * 人手不足・過重労働が常態化しているため災害やパンデミック時に臨機応変な動員が難しく、非常時に機動的な動きができない恐れがあります。  \n-* 最新のツールや働き方を行政機関でも導入することで、行政職員のデジタルリテラシーを向上するとともに、現実に即した政策立案を推進します。\n \n ### 政策概要\n \n+* FAXや紙の廃止を進めるとともに、行政機関に最新の業務ツールや柔軟な働き方を導入し、職員のデジタルリテラシーを高めます。こうした基盤整備により、現場の実態や社会の変化を的確に捉えた、現実に即した政策立案を可能にします。  \n * 行政内部DX  \n   * AIアシスト型ワークフロー  \n     * パブリックコメントの分類、分析をAIで効率化します。  \n     * 紙のみで保存されている資料をOCRで検索可能にします。  \n-    * 告示・通知をデータベース化し、AI＋RAGで庁内文書横断検索を可能にします。  \n+    * 告示・通知をデータベース化し、AI＋RAGで庁内文書横断検索を可能にします。\n   * 「読み合わせ」から脱却  \n     * AI技術を活用して原稿のレビューを行うことで、口頭読み合わせを不要にします。  \n   * 音声AIによる一次問い合わせ窓口  \n     * 代表電話・コールセンター業務を集約し、職員が二次対応に専念できる環境を整備します。  \n-  * 機密区分・個人情報のマスキング手順を標準化し、行政機関での安全な生成AI活用を進めます。  \n-* 国会業務の可視化・効率化  \n-  * 質問通告の時刻や動員人数を公開し、深夜待機ゼロを目指します。  \n+  * 機密区分・個人情報のマスキング手順を標準化し、行政機関での安全な生成AI活用を進めます。    \n+*  立法支援業務に向けたデジタルツールの整備\n+  * 類似法案の検索、過去の審議記録の分析、条文案作成支援、影響範囲分析など、AI技術を活用したツールを開発します。  \n+  * e-Gov法令APIの構造化強化（プレーンテキスト化、履歴管理、告示データの整備等）や、デジタル庁が進める法制事務のデジタル化の動きとも連携し、議員立法や修正案作成にも使いやすい支援ツールを整備します。  \n+  * 法令・規則・条約のデータを再利用可能なリソースとして統合し、立法過程全体の質とスピードを高めます。\n * 司法DX  \n   * 司法における書面準備作業などをAIを利用して効率化します。  \n   * AI“0審”モデル  \n@@ -131,3 +135,4 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+"
     }
   ],
   "commits": [
@@ -205,7 +205,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/6349325c80f9e2a9abdef0af8482b43a5a8c38a3"
         }
       ]
+    },
+    {
+      "sha": "18a9d445f46be7d6db7cd8c8b82e11da0d05920f",
+      "node_id": "C_kwDOOqTJvNoAKDE4YTlkNDQ1ZjQ2YmU3ZDZkYjdjZDhjOGI4MmUxMWRhMGQwNTkyMGY",
+      "commit": {
+        "author": {
+          "name": "Taisho241",
+          "email": "58881155+Taisho241@users.noreply.github.com",
+          "date": "2025-06-29T09:53:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-29T09:53:57Z"
+        },
+        "message": "Update 13_ステップ１行政改革.md",
+        "tree": {
+          "sha": "1ca56252eaa53576c7afb793bff616d3ad8f900a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1ca56252eaa53576c7afb793bff616d3ad8f900a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/18a9d445f46be7d6db7cd8c8b82e11da0d05920f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYQ01CRC1aQ7uu5UhlAAAUeYQAAnAwsU0Mfa5XO5asx5uy5hG\n7iVGXfswTSWh6XE6z3dzpXeNCkoHVWduXv70TyeJcVCfACVA8PKh+f83+fDbapHw\n472shbcu/ULB+8iU/Nn8kDO6RhLzFH3LO7NV+sxwxuYEu+cvVECRjt9FNXHJnvFD\nSRfvtiUb/PQb7jXMlHRNKs/qrQ0rMiZJ23LcM/7adl2Fi4t+QlKOz/u0w5MET/bw\nOiY3/w6bc3I6WidvveCcXy5oPKXybsOKG8nq3V/AkGVeA30nqiEbCX+WWvHLKthQ\n+q/zz6eyEqR9/TNEsY/ciRuvm8H1YHwhBpJbekxLiHB+PNv0q4v74VJr/QDdhuFl\n+A870y6L2lKIMW7ocuNCdq7xWtz4+XWo70MC6Qzm6qE0+zs3N733cRIhmQB48XA0\nRBAqobif/Q2+zB2sK9EoSDXuhcy4eLtXXcjrS6HneJIYlOhdsEvsd6crdX1ELme9\n8BMhwZ3b7jB9u0iTeHvfVfmBt1Sn/aPL+nsS0qDj1nZfscuXDha3atGBhbQeY+/b\nm5Cf3dKYuegKhLDme1yoVaTiKutM+RlTlyhCzcyJWKLR9nRNafRVG+H/DKSRZyQm\n8WobF7ZHDM+SVCSi6wMov8y7ezIM+Pl25fXOOiHy7P8GfMS7P70FJwSb8pXL2kl9\nPlkuxALiONB9us+1fb1n\n=bH+I\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1ca56252eaa53576c7afb793bff616d3ad8f900a\nparent c98d9f065e343dae618c36443b13af9f1467855d\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1751190837 +0900\ncommitter GitHub <noreply@github.com> 1751190837 +0900\n\nUpdate 13_ステップ１行政改革.md",
+          "verified_at": "2025-06-29T09:53:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/18a9d445f46be7d6db7cd8c8b82e11da0d05920f",
+      "html_url": "https://github.com/team-mirai/policy/commit/18a9d445f46be7d6db7cd8c8b82e11da0d05920f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/18a9d445f46be7d6db7cd8c8b82e11da0d05920f/comments",
+      "author": {
+        "login": "Taisho241",
+        "id": 58881155,
+        "node_id": "MDQ6VXNlcjU4ODgxMTU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58881155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Taisho241",
+        "html_url": "https://github.com/Taisho241",
+        "followers_url": "https://api.github.com/users/Taisho241/followers",
+        "following_url": "https://api.github.com/users/Taisho241/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Taisho241/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Taisho241/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Taisho241/subscriptions",
+        "organizations_url": "https://api.github.com/users/Taisho241/orgs",
+        "repos_url": "https://api.github.com/users/Taisho241/repos",
+        "events_url": "https://api.github.com/users/Taisho241/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Taisho241/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c98d9f065e343dae618c36443b13af9f1467855d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c98d9f065e343dae618c36443b13af9f1467855d",
+          "html_url": "https://github.com/team-mirai/policy/commit/c98d9f065e343dae618c36443b13af9f1467855d"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-06-28T16:14:13.605686"
+  "collected_at": "2025-06-29T10:13:29.790142"
 }
