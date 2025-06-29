@@ -4,7 +4,7 @@
     "title": "再エネ（特に太陽光）導入拡大のための具体案を追加",
     "state": "open",
     "created_at": "2025-05-29T14:33:57Z",
-    "updated_at": "2025-06-28T09:30:44Z",
+    "updated_at": "2025-06-29T07:50:01Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/1802",
@@ -189,11 +189,56 @@
         "site_admin": false
       },
       "created_at": "2025-06-26T05:06:20Z",
-      "updated_at": "2025-06-26T07:53:21Z",
+      "updated_at": "2025-06-29T07:50:01Z",
       "author_association": "NONE",
-      "body": "# 蓄電池コスト\r\n\r\n上の統合コストとも関連しますが、蓄電池コストの最近の低下ペースが、経産省の試算よりも圧倒的に速いペースで進んでいることについて。\r\n\r\n<img width=\"1007\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4b9405b5-ac61-4434-ba53-df8909d85064\" />\r\n\r\n([資料2 発電コスト検証に関する取りまとめ（案）（事務局提出資料）（PDF形式：8,139KB）](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/cost_wg/2024/data/05_05.pdf)  198ページより)\r\n\r\nここでは蓄電池のコストが足元で6万円/kWhで、2040年に3.6万円/kWhになると予測されています。\r\n一方でコスト低減最先端の中国での最新の値としては、入札で平均（最安ではない）が $65/kWhと、すでに1万円/kWhを切っています。\r\nhttps://www.ess-news.com/2025/03/24/chinas-huadian-announces-winners-in-6-gwh-bess-tender-with-average-bid-at-65-kwh/\r\n\r\n上の統合コスト試算が無意味になるほどの差ですし、北海道と本州の長距離直流送電事業なども縮小して蓄電池を活用したほうが安くなるかもしれません。\r\n\r\nソーラー発電のコストは土地や架台のコストが大きいので海外の砂漠や荒野におけるギガソーラー並みの価格を日本で実現するのは難しいですが、蓄電池のコストに占める土地のコストはそこまで大きくありません。\r\n垂直統合のメリットを活かした中国並みのコストまでは無理でも、その2倍程度のコストは来年にでも実現できるはずです。\r\n\r\n中国以外の実績では、1年前のニュースですが、オーストラリアで約4.1万円/kWhの実績があります。今年はもっと下がっているでしょう。\r\nhttps://reneweconomy.com.au/new-big-battery-projects-in-australia-double-in-size-as-storage-prices-plunge/\r\n\r\n今年のサウジアラビアでのオークション結果では、工事込みのコストで $120/kWh、約1.7万円/kWhです。\r\nhttps://www.linkedin.com/posts/mlkubik_energystorage-batteries-batteries-activity-7321449426214940672-ABcW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5DtnABO9OJdknVV7PmD_56YBZjRLF6I8I\r\n\r\nEmberの、蓄電池を使ってソーラーを24時間電源にするコストの試算も参考にしてください。\r\nhttps://ember-energy.org/latest-insights/solar-electricity-every-hour-of-every-day-is-here-and-it-changes-everything/\r\n\r\nまた、併設蓄電池でも、原発や火力の深夜電力を充電してピーク時に放電できるルールはすでに始まっているので、蓄電池併設ソーラーが増えるとピーク電源は完全に不要になります。大型火力発電を毎日起動、停止するDSS運用や熱効率の悪い低出力運転も減るでしょう。揚水発電のコストをすべて原発のコストに入れるべきでないのと同じく、蓄電池のコストもすべてを再エネのための費用とするのではなく、それ以外のメリットの分を差し引くべきでしょう。",
+      "body": "# 蓄電池コスト\r\n\r\n上の統合コストとも関連しますが、蓄電池コストの最近の低下ペースが、経産省の試算よりも圧倒的に速いペースで進んでいることについて。\r\n\r\n<img width=\"1007\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4b9405b5-ac61-4434-ba53-df8909d85064\" />\r\n\r\n([資料2 発電コスト検証に関する取りまとめ（案）（事務局提出資料）（PDF形式：8,139KB）](https://www.enecho.meti.go.jp/committee/council/basic_policy_subcommittee/mitoshi/cost_wg/2024/data/05_05.pdf)  198ページより)\r\n\r\nここでは蓄電池のコストが足元で6万円/kWhで、2040年に3.6万円/kWhになると予測されています。\r\n一方でコスト低減最先端の中国での最新の値としては、入札で平均（最安ではない）が $65/kWhと、すでに1万円/kWhを切っています。\r\nhttps://www.ess-news.com/2025/03/24/chinas-huadian-announces-winners-in-6-gwh-bess-tender-with-average-bid-at-65-kwh/\r\n\r\n上の統合コスト試算が無意味になるほどの差ですし、北海道と本州の長距離直流送電事業なども縮小して蓄電池を活用したほうが安くなるかもしれません。\r\n\r\nソーラー発電のコストは土地や架台のコストが大きいので海外の砂漠や荒野におけるギガソーラー並みの価格を平地が少なく地震や台風がある日本で実現するのは難しい。しかし、蓄電池のコストに占める土地のコストはそこまで大きくありません。\r\n垂直統合のメリットを最大限に活かした中国並みのコストまでは無理でも、その2倍程度のコストは数年以内に実現できるはずです。\r\n\r\n中国以外の実績では、1年前のニュースですが、オーストラリアで約4.1万円/kWhの実績があります。今年はもっと下がっているでしょう。\r\nhttps://reneweconomy.com.au/new-big-battery-projects-in-australia-double-in-size-as-storage-prices-plunge/\r\n\r\n今年のサウジアラビアでのオークション結果では、工事込みのコストで $120/kWh、約1.7万円/kWhです。\r\nhttps://www.linkedin.com/posts/mlkubik_energystorage-batteries-batteries-activity-7321449426214940672-ABcW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAA5DtnABO9OJdknVV7PmD_56YBZjRLF6I8I\r\n\r\nEmberの、蓄電池を使ってソーラーを24時間電源にするコストの試算も参考にしてください。\r\nhttps://ember-energy.org/latest-insights/solar-electricity-every-hour-of-every-day-is-here-and-it-changes-everything/\r\n\r\nまた、併設蓄電池でも、原発や火力の深夜電力を充電してピーク時に放電できるルールはすでに始まっているので、蓄電池併設ソーラーが増えるとピーク電源は完全に不要になります。大型火力発電を毎日起動、停止するDSS運用や熱効率の悪い低出力運転も減るでしょう。揚水発電のコストをすべて原発のコストに入れるべきでないのと同じく、蓄電池のコストもすべてを再エネのための費用とするのではなく、それ以外のメリットの分を差し引くべきでしょう。",
       "reactions": {
         "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3007067334/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null
+    },
+    {
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3016384748",
+      "html_url": "https://github.com/team-mirai/policy/pull/1802#issuecomment-3016384748",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/1802",
+      "id": 3016384748,
+      "node_id": "IC_kwDOOqTJvM6zymDs",
+      "user": {
+        "login": "methane",
+        "id": 199592,
+        "node_id": "MDQ6VXNlcjE5OTU5Mg==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/199592?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/methane",
+        "html_url": "https://github.com/methane",
+        "followers_url": "https://api.github.com/users/methane/followers",
+        "following_url": "https://api.github.com/users/methane/following{/other_user}",
+        "gists_url": "https://api.github.com/users/methane/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/methane/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/methane/subscriptions",
+        "organizations_url": "https://api.github.com/users/methane/orgs",
+        "repos_url": "https://api.github.com/users/methane/repos",
+        "events_url": "https://api.github.com/users/methane/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/methane/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2025-06-29T07:45:41Z",
+      "updated_at": "2025-06-29T07:46:16Z",
+      "author_association": "NONE",
+      "body": "# 原発 vs 再エネ\r\n\r\n再エネを推進している人に原発に否定的な人が多いため、「原発 vs 再エネ」という構図ができてしまい、原発肯定派は再エネに否定的な立場を取ることが多い。しかし実際には原発と再エネが競合するとしても2050年以降であり、原発を進める引き換えに再エネの拡大を止めるという選択は非合理的である。\r\n\r\n## 原発のタイムスパン\r\n\r\n2040年までで言えば、原発の最大限の再稼働と1基か2基程度のリプレイスができたとしても、電力構成を20%から大きく上振れさせることは難しい。（むしろ下振れリスクのほうが大きい）\r\n\r\n* [日本の原子力発電所 稼働状況一覧](https://www.fepc.or.jp/sp/re-operation/)\r\n\r\n世界中で原発の新設は延期が多発していて建設コストも1兆円を超えるものが多い。また、既存の原子力発電所の敷地には限りがあるので新たな場所を探すのにも時間がかかる。2040年代を考えても、寿命を60年に延長した原発が廃炉するのを相殺してさらに上積みする余地は限られている。\r\n\r\n## 再エネのタイムスパン\r\n\r\n一方の再エネは、未来の技術とされる次世代地熱（クローズドループ等）や浮体式洋上風力、ペロブスカイト太陽電池などは2030年代の実用化が期待されており、成功すれば2040年代には拡大とコスト低減が期待できる。\r\n\r\n着床式洋上風力やソーラーシェアリング、薄型太陽電池を使った建物へのソーラーの設置などは更に早く実用化と低コスト化がされるだろう。\r\n\r\n## 結論\r\n\r\nこのことから、日本の主力電源の座を原発と再エネが争う時期は2050年代以降になる可能性が高い。それまでの間は、原発も再エネも競合するのは火力（+CCS）である。\r\n\r\n原発への投資を止めて(2050年以降も)再エネに投資をするという選択肢は検討に値するが、原発に投資する場合も再エネへの投資を止めるとしたら2050年代の話であり、今から再エネ拡大ペースを緩めることは単に火力発電の比率を高止まりさせるだけである。\r\n\r\n「再エネか原発か」という構図の議論をするべきではなく、それぞれを独立して議論すべきである。",
+      "reactions": {
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3016384748/reactions",
         "total_count": 0,
         "+1": 0,
         "-1": 0,
@@ -306,5 +351,5 @@
       ]
     }
   ],
-  "collected_at": "2025-06-28T10:12:32.178868"
+  "collected_at": "2025-06-29T08:15:14.449695"
 }
