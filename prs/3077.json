@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 3077,
+    "title": "AIを活用したパブリックコメント機能の強化提案",
+    "state": "open",
+    "created_at": "2025-06-30T02:22:01Z",
+    "updated_at": "2025-06-30T02:22:02Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3077",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "05ae1ce933f51aba28f7c6e0cff23f07c9667598",
+      "filename": "16_ステップ１デジタル民主主義.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 6,
+      "changes": 13,
+      "blob_url": "https://github.com/team-mirai/policy/blob/619eddafa920fb0fcacc526a3172b3fcbc28df93/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/619eddafa920fb0fcacc526a3172b3fcbc28df93/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=619eddafa920fb0fcacc526a3172b3fcbc28df93",
+      "patch": "@@ -18,13 +18,14 @@\n * 3月末より複数のメディアで、パブリックコメントにおいて提出される意見の数が「異常件数」であると報道があった。背景には、何個も同じ趣旨の投稿を繰り返す多数派工作などの存在があることがわかっている  \n * 本来パブリックコメントは意見の量ではなく意見の幅を見る仕組みであるが、意見の量が多くなりすぎることによって、職員の工数が大幅にとられてしまっている\n \n-  ### 政策概要\n+### 政策概要\n \n-AIを活用してパブリックコメントの取りまとめをすることにより、工数を削減し多数派工作にも対応できるようにする。その結果として、活用効率の向上を目指す\n+AIを活用してパブリックコメントの取りまとめをすることにより、工数を削減し多数派工作にも対応できるようにします。さらに、AIが意見の背景にある事実や多様な論点を提示する機能を追加し、議論の質の向上を目指します。\n \n-* アメリカで2021年に発表された類似プロジェクトでは、コメントの重複削除で100件のコメントあたり約4.5時間の工数削減が、類似トピック集約機能で100件あたり約8時間の工数削減に成功している  \n-* イギリスで2025年5月に発表された[類似プロジェクト](https://ai.gov.uk/blogs/evaluating-consult-an-ai-tool-for-enhanced-public-consultation-analysis/)では、AI toolの導入により1件のレビューは中央値で23秒、77%の回答が1分未満でレビュー出来るようになった。またテーマ抽出を自動化することで、分析に時間を割けるようになった。これにより、年間7.5万日、2,000万ポンドの削減効果を見込む  \n-* 『デジタル民主主義２０３０』というOSSコミュニティでは「広聴AI」という意見の見える化ツールを開発している。これらの開発を支援する\n+* **背景事実の提示による議論の深化:** 提出された意見に対し、AIが関連する法制度、統計データ、国内外の事例などを自動で提示。これにより、市民は多角的に考えるきっかけを得られ、政策担当者は意見の背景を深く理解できるようになります。\n+* **信頼性と多様性の確保:** AIが提示する情報は、政府統計、学術論文など信頼性の高い情報源に限定し、出典を明記します。加えて、賛成・反対両論を併記するなど、情報が特定の立場に偏らないよう配慮します。\n+* **工数削減の実績:** アメリカの類似プロジェクトではコメントの重複削除や集約で100件あたり12.5時間の工数削減を達成。イギリスのプロジェクトではレビュー時間を大幅に短縮し、年間7.5万日、2,000万ポンドの削減効果を見込んでいます。\n+* **既存の動きを支援:** 『デジタル民主主義２０３０』というOSSコミュニティでは「広聴AI」という意見の見える化ツールを開発している。これらの開発を支援し、機能拡充を目指します。\n \n ## ２）政治とカネ問題解決のための、政治資金透明化の推進\n \n@@ -50,4 +51,4 @@ AIを活用してパブリックコメントの取りまとめをすることに\n \n ## 補足：Plurality（多元性）について\n \n-Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n\\ No newline at end of file\n+Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "171a8edf65d9b75c15ed65b99fb8d54c6e3328b4",
+      "node_id": "C_kwDOOqTJvNoAKDE3MWE4ZWRmNjVkOWI3NWMxNWVkNjViOTlmYjhkNTRjNmUzMzI4YjQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-30T02:18:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T02:18:28Z"
+        },
+        "message": "政策提案（利光 貞彦さん）: パブリックコメントへのAIによる背景事実提示機能の追加",
+        "tree": {
+          "sha": "66c4b4d503ac3a232862c9d55e190dc86e0f238b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/66c4b4d503ac3a232862c9d55e190dc86e0f238b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/171a8edf65d9b75c15ed65b99fb8d54c6e3328b4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYfP0CRC1aQ7uu5UhlAAARZEQAGsV7pDhfIIN0rNCMto2hUiQ\nrbbWdOl23MhjV28p2Kjoghtlr8UkfyeCwW15WeEaZ7F6KCZIEcHzQnuWg55T8w67\n4bRiZK8SugRwI0bnKbZXAC7gWHgCvotqFKzSe5q9/BlnEM7s9qmD6maqP94ayfXM\nBkNP7egn8WJendmjtBXTIlI3IVCToxCAPpw72N70Xy9s6dVsHHVDCqSTR1wOC/n0\nupSiBbS46jc3LxlO4tUZNMiWnSdAUckSu3IPqWid63Tg9DsESj1acqF5nm/cbxKC\noQVNfqwbFdNGZy6J28ZP5OK97W79NeIPhhWBGWhS3T76n0hDVF+STC9E0OE2j/w3\n93Oc0eEhAYaM+jGjtA/a3kjq2stSEsMssLQxkNelBNgw9cQZNbRTkxwwU4jwYPGT\nBdSaj+OUnk1OtHMAheGjd3IWCEGJU4tej4KB12YvIt5gRAIweffDjJ0KCmx6+TFt\n/I8EfpndQzMRp3ePU64ZnVJAHgp3qEqfwCvEL6fUtw4YvaOenfQmkVHKTPNflBET\n9DjkvwWKze5Is1fjK76vwcMNrUCw05fwZ+S50T7KW5TTStW60pemWUU0cQhPsHGD\nfTabtOwLmlqfegVDHhhUDJm5V1Bo9vn1syZ2IUIP4c2yFeU1U9cJiRSmfLcdmhqm\nm/14ZKSxNDVsBsRZutC6\n=HKcr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 66c4b4d503ac3a232862c9d55e190dc86e0f238b\nparent bbb052e22e7e9e40bfe34cf0d63398b264a90020\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751249908 +0000\ncommitter GitHub <noreply@github.com> 1751249908 +0000\n\n政策提案（利光 貞彦さん）: パブリックコメントへのAIによる背景事実提示機能の追加",
+          "verified_at": "2025-06-30T02:18:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/171a8edf65d9b75c15ed65b99fb8d54c6e3328b4",
+      "html_url": "https://github.com/team-mirai/policy/commit/171a8edf65d9b75c15ed65b99fb8d54c6e3328b4",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/171a8edf65d9b75c15ed65b99fb8d54c6e3328b4/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bbb052e22e7e9e40bfe34cf0d63398b264a90020",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/bbb052e22e7e9e40bfe34cf0d63398b264a90020",
+          "html_url": "https://github.com/team-mirai/policy/commit/bbb052e22e7e9e40bfe34cf0d63398b264a90020"
+        }
+      ]
+    },
+    {
+      "sha": "619eddafa920fb0fcacc526a3172b3fcbc28df93",
+      "node_id": "C_kwDOOqTJvNoAKDYxOWVkZGFmYTkyMGZiMGZjYWNjNTI2YTMxNzJiM2ZjYmMyOGRmOTM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-30T02:19:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T02:19:28Z"
+        },
+        "message": "feat: 利光 貞彦様の提案に基づき、AIによる背景事実の提示機能を追加",
+        "tree": {
+          "sha": "b4a54e99ce1e02076609b3ceeb509a68c3910b24",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b4a54e99ce1e02076609b3ceeb509a68c3910b24"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/619eddafa920fb0fcacc526a3172b3fcbc28df93",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYfQwCRC1aQ7uu5UhlAAA+skQAAVYRCcb5K2mJdQ6FezjYAzx\nuKRhDjkpH883EPM3J5bgSx/p33zmiLJrSzCcjU/J2UBN7MFgd2nA9p04+payqFsb\nniG1wqOZd+yg9pa68GRl/UQP5/KB0scKHF9bAeDEEUJ7+m19Lwz4TP+Y2//rr40F\nhLDG8MlhZdYkOcfz4tct0RuBmVnIcH0fInPNbEjLsgQ6hoJYD9tPDPfVUVytI6eS\nQS4nNuRhFiJw3rtLXjWa9H5PtrTGFgUOQWz8yJyVZ6ARCRRQXdrlAlelHejwgLcs\nMzPPebWZ384raALCxPJXxbD3uFYORDsVgy/gk3lfF8H7c5cv9W/HHYu3meV91IKX\nqstit0cLRzCmDa0uUnLxlHF7cyV7aNnSrMEF2VEK2RKwvdMHc+2dycKkikmZ2v8o\nndl1WdAhvInSTAfu4fEgd6rVbLTRymePQjD7DZF4q3OKB2GFkyLztKvjixXLb092\nI3l4HBYLpfvBmOU+7iG1TvJWRlX6m3A4CvUfbFVojRIG5Af75ZNegjOk7Gl1nJl+\ny/CeVdureRLPHtRrUtRLNNDsVNHcMdPzPrjiQZ8MGU/NwCuncWzUA0P90tvSysvb\ne+3/93oxdGflVwPM+Ag9kXufCUyBJVjfb3KakVTRa9rvlyIAX9gSf+qakwJGSnIu\nRmZ8bdXxIxTv1z3hza+z\n=KFdo\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b4a54e99ce1e02076609b3ceeb509a68c3910b24\nparent 171a8edf65d9b75c15ed65b99fb8d54c6e3328b4\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751249968 +0000\ncommitter GitHub <noreply@github.com> 1751249968 +0000\n\nfeat: 利光 貞彦様の提案に基づき、AIによる背景事実の提示機能を追加",
+          "verified_at": "2025-06-30T02:19:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/619eddafa920fb0fcacc526a3172b3fcbc28df93",
+      "html_url": "https://github.com/team-mirai/policy/commit/619eddafa920fb0fcacc526a3172b3fcbc28df93",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/619eddafa920fb0fcacc526a3172b3fcbc28df93/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "171a8edf65d9b75c15ed65b99fb8d54c6e3328b4",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/171a8edf65d9b75c15ed65b99fb8d54c6e3328b4",
+          "html_url": "https://github.com/team-mirai/policy/commit/171a8edf65d9b75c15ed65b99fb8d54c6e3328b4"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-30T03:20:10.041060"
+}
