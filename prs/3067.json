@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 3067,
+    "title": "政策案の改善：AI活用による社会インフラと食料自給率向上策の追加",
+    "state": "open",
+    "created_at": "2025-06-30T00:41:11Z",
+    "updated_at": "2025-06-30T00:41:13Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3067",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "2378a578e875abd152452a411d13db4d07c771e2",
+      "filename": "22_ステップ２行政改革.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/9d2fe2f0436a9cb52541d7d6ec4fa11f2d1871eb/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/9d2fe2f0436a9cb52541d7d6ec4fa11f2d1871eb/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=9d2fe2f0436a9cb52541d7d6ec4fa11f2d1871eb",
+      "patch": "@@ -149,18 +149,20 @@\n     * デジタル庁ガイドライン準拠 API の徹底。  \n     * 現在の「公共データ利用規約」を 国際標準のCC‑BY‑4.0 相当へアップグレードします。\n \n-## ５）「スパゲティコード化した行政システム」を“引き算”と“整理”でわかりやすく使いやすい仕組みへ変更します\n+## ５）「スパゲティコード化」した制度・インフラを“引き算”と“整理”で再生します\n \n ### 現状認識・課題分析\n \n * 日本の法律や制度は、時代の変化や社会課題への対応に応じて数多くの改正が重ねられてきましたが、多くの改正が都度の対応として実施されてきたために複雑化し、多くの人にとって理解が難しいものになっています。  \n * 国民にとっては「自分が対象かどうかわからない」「知らないうちに法令違反をしていないか」という不安や申請断念につながり、行政の現場では「ミスの温床」「非効率な手続き」を生む要因になっています。  \n * 「制度の複雑さが国民への説明や事務作業の支障になっている」という声も現場からは聞こえ、運用者・利用者の双方にとって深刻な課題となっています。\n+* こうした問題は、目に見える制度だけでなく、水道管や道路、公共施設といった社会インフラにも共通しています。過去の継ぎ足しによる場当たり的な修繕が、非効率な維持管理や予期せぬ事故のリスクを高めています。\n \n ### 政策概要\n \n * 大規模言語モデル（LLM）などの自然言語処理技術をはじめとしたテクノロジーを活用し、既存制度の構造・手続き・フローを体系的に可視化・分析します。  \n * 具体的には、法令・政省令・手続きフロー・ガイドライン等を解析し、制度上のルート・判断基準・申請要件を構造化するプロセスマイニングと制度マッピングを行い、冗長性や重複、理解困難な箇所を特定します。  \n+* このアプローチを社会インフラにも応用します。例えば、全国の水道管の設置年度、材質、過去の修繕履歴などをデータベース化し、AIで劣化度や事故リスクを予測します。これにより、場当たり的ではない、計画的・効率的な更新計画の立案を支援します。\n * その上で、対象制度に関与する省庁・自治体・実務者・受益者などの利害関係者を整理し、問題の法令を改正した場合にどの変更が誰にどう影響するかを整理します。  \n * その後、特定の制度・分野で試験的にリファクタリング改正版の制度を試験的に導入し、実運用での改善点をフィードバックします。継続的な改善を繰り返しながら、本格導入の是非を評価します。\n \n@@ -228,3 +230,14 @@\n * 緊急時ハイブリッド議会\n   * 大規模災害・感染症流行時に限り、議員の遠隔出席と電子投票を許可する方向での検討を進めます。\n   * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n+\n+## ８）AIを活用し、食料自給率の向上と持続可能な農林水産業を実現します\n+\n+### 現状認識・課題分析\n+*   **低い食料自給率と輸入依存のリスク:** 日本の食料自給率は低迷しており、国際情勢の変動や円安が食料の安定供給に与える影響が懸念されます。\n+*   **担い手不足と農家の高齢化:** 農業従事者の高齢化と後継者不足は深刻で、耕作放棄地も増加しており、国内の生産基盤が弱体化しています。\n+\n+### 政策概要\n+*   **スマート農業の導入支援:** AIやドローンを活用し、気象や土壌のデータを分析して最適な栽培計画を立てたり、農薬や肥料を効率的に使用したりする「スマート農業」を支援します。\n+*   **需要予測によるフードロス削減:** AIで市場の需要を予測し、生産量や出荷時期を最適化することで、売れ残りや廃棄といったフードロスを減らします。\n+*   **技術の普及と担い手育成:** 若者や新しい農業の担い手が技術を学びやすいように、オンラインでの学習プログラムや、AI活用の成功事例を共有するプラットフォームを整備します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "b8380fc9bea5cf273a9c95fa1675e6fabcc33738",
+      "node_id": "C_kwDOOqTJvNoAKGI4MzgwZmM5YmVhNWNmMjczYTljOTVmYTE2NzVlNmZhYmNjMzM3Mzg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-30T00:27:05Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T00:27:05Z"
+        },
+        "message": "木越さんの提案に基づき、政策案5にインフラ老朽化対策を追加",
+        "tree": {
+          "sha": "db3a47d6bbfc953ba39473164dda82688211da67",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/db3a47d6bbfc953ba39473164dda82688211da67"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b8380fc9bea5cf273a9c95fa1675e6fabcc33738",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYdnZCRC1aQ7uu5UhlAAA0BwQAIst49Mm7HJwa9iOmPzvBy1P\nncWc95rgEFSLrwtbuA4e7kvJi/fU7asvYozSokI9Rrr8oulvLkiwM588uA0ey6NV\ntTtOkBDPlArZIy2nzTKKBkbOcq76bBc/0VrErZx1U10SnyqdRGU9PEJv+uTak1DU\nJwgWf5LhYf4jkr1yks4jhp6LYL38zZR+XlDsbqCU4wS6MFEhoh0DYkezeV90SzrZ\ntnZJ/qsT7bDcn3GSZpu/nqQzQ0EvbmeKIH9gFYkZ6IB04mC/Nu+KBDAE954lcP3P\nPBEFhu84A0qgEcDJY6QYTSJRkGUDDXtIJjMgNXU9OoDFo+LrwiRjDdFsUN30ojlx\nyR4/Iz+Mj/HDsDKurUEwkfnQINxPSCagjH+A17L8uS2w4+zPbdXbGGjRkIng4tjX\n1/yEMyVrpMAvM0QA9MaU1FJnXQBLy3ZNh04uZvkRYw1RtImfTUxU0pl4gYNc5D4y\nPBQE43qruogDSBL5s1zvo+Qkyo34B+ZZu2RoXdL+NGkLYwJSniLm1ZFCho6OgXDb\nXb4ZE5lPCjYhWDomVg45Z8V2LgiUsFBauEsxbxpTxEXGxhzVngLioEE+02SsLU0M\nVmmec+pUeeYNMfpPxwr3DHEK8XV9N3XJzOUhfidLy637EahxEV49ZXrBKRoMmlpy\n6ZC+/jqwqE2jeJo8B1tB\n=+27B\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree db3a47d6bbfc953ba39473164dda82688211da67\nparent bbb052e22e7e9e40bfe34cf0d63398b264a90020\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751243225 +0000\ncommitter GitHub <noreply@github.com> 1751243225 +0000\n\n木越さんの提案に基づき、政策案5にインフラ老朽化対策を追加",
+          "verified_at": "2025-06-30T00:27:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b8380fc9bea5cf273a9c95fa1675e6fabcc33738",
+      "html_url": "https://github.com/team-mirai/policy/commit/b8380fc9bea5cf273a9c95fa1675e6fabcc33738",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b8380fc9bea5cf273a9c95fa1675e6fabcc33738/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bbb052e22e7e9e40bfe34cf0d63398b264a90020",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/bbb052e22e7e9e40bfe34cf0d63398b264a90020",
+          "html_url": "https://github.com/team-mirai/policy/commit/bbb052e22e7e9e40bfe34cf0d63398b264a90020"
+        }
+      ]
+    },
+    {
+      "sha": "cc2e369d09534a7ab2c4828fb28c0efeae02e3a8",
+      "node_id": "C_kwDOOqTJvNoAKGNjMmUzNjlkMDk1MzRhN2FiMmM0ODI4ZmIyOGMwZWZlYWUwMmUzYTg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-30T00:30:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T00:30:30Z"
+        },
+        "message": "木越さんのご提案に基づき、AIによる水道管老朽化のような社会インフラ問題への対策を追記",
+        "tree": {
+          "sha": "db3a47d6bbfc953ba39473164dda82688211da67",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/db3a47d6bbfc953ba39473164dda82688211da67"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/cc2e369d09534a7ab2c4828fb28c0efeae02e3a8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYdqmCRC1aQ7uu5UhlAAAJ5gQAEk5yNEeEgWtPlD+7ojFq3te\nUVCkCufhYx+4ihew8xm7e+FfzZBGIu/yfq8IFzgX0NjZ3pFdU1FYqRlZNREXIFEn\nBC3L7LEOEYiG8WNsQ2b/HZRYi9wbatP0DWG5m9foEj9r1S620zULjDArhOzFMgpy\nA1vjMkN7zurfurXMfeZNbkMdKp77+4ypVbR40sy0DM4YeyWBiPUC/CrbT3YTSAYF\nYEWDRWgvc4zO3BmKfIwGfhiRcAR57AJRx8MLtNNAmLS7E23+G6+uvEb5cYC4c9Kn\nOQbt7oNLGgI3kgY/gOpjA7bmQR9VsRuUKBuj0lB3N7z01BInr3pyqWowS9g6QZdX\niRfVRVxOZ3+TGtGegwBHVdgTHtWF+nEkUdFDcf5KlfylFPNCPvFYrVd5qiOr+7Lw\nkchW5CgdPKPe/V510kFG/tdIqhH07tcG+XCfoXtJVVy98Ugz7G8C9i7IvoA/t36W\n034Qbcc3bAA37nFxl2qn+s1ehZ7AsrnxTZWuFM/4rBTYbVTJ2MiZegU5i1J7Yf6a\nvG1RU0CQpq7WJScp5923bZwVlfCQFVUQLTqX2fL52BG/AsBeJ9QDL42L52d1Fluz\nV58iXiac3O3fn9QiiaBW4U2EBNNK8vM2dUErtvHMvzAgXRq3UACTrVlvNal6y8gX\n8B0JFoGjZi8rAr7MxmLS\n=B0dW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree db3a47d6bbfc953ba39473164dda82688211da67\nparent b8380fc9bea5cf273a9c95fa1675e6fabcc33738\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751243430 +0000\ncommitter GitHub <noreply@github.com> 1751243430 +0000\n\n木越さんのご提案に基づき、AIによる水道管老朽化のような社会インフラ問題への対策を追記",
+          "verified_at": "2025-06-30T00:30:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/cc2e369d09534a7ab2c4828fb28c0efeae02e3a8",
+      "html_url": "https://github.com/team-mirai/policy/commit/cc2e369d09534a7ab2c4828fb28c0efeae02e3a8",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/cc2e369d09534a7ab2c4828fb28c0efeae02e3a8/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b8380fc9bea5cf273a9c95fa1675e6fabcc33738",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b8380fc9bea5cf273a9c95fa1675e6fabcc33738",
+          "html_url": "https://github.com/team-mirai/policy/commit/b8380fc9bea5cf273a9c95fa1675e6fabcc33738"
+        }
+      ]
+    },
+    {
+      "sha": "9d2fe2f0436a9cb52541d7d6ec4fa11f2d1871eb",
+      "node_id": "C_kwDOOqTJvNoAKDlkMmZlMmYwNDM2YTljYjUyNTQxZDdkNmVjNGZhMTFmMmQxODcxZWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-30T00:40:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T00:40:03Z"
+        },
+        "message": "木越さんの提案に基づき、「AIを活用した食料自給率向上」の項目を追加",
+        "tree": {
+          "sha": "1d9ee8efec086fdaa758de57a01c1a6a503b8278",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1d9ee8efec086fdaa758de57a01c1a6a503b8278"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9d2fe2f0436a9cb52541d7d6ec4fa11f2d1871eb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYdzjCRC1aQ7uu5UhlAAATLkQAHLmKttsGYMynAOdMGRNq/jk\ntQqH+H/nSz0kLP3vtlnVnl3rrRZJeRXilta7OXW/VuUjyL+rTkVPfln+pwtgHDZc\n3PxG2O6XUfcwgRxRLbhN8dLrLZN3U0GFgxce1u2ZTA7NpHFme2Oa9XLfhLaBy1hL\n27dfi37+00rAA5v5zJe/qMGtHTbCVDo6sjuqtC3dzwB2DsqoQXmZU5oNKUsfPc6C\nfnDCbnwFHZTDt7cmmsS6h0lGkGehyKgBMt5dIQd5Q83kwtV6m4CMyqvL5y4aesq1\nmH1S/OZcyAlqGvHSsbLJ1N5t402H/ILBPudJQQZo/vmjsh/ivhtbOxCOQB5IHiir\n8U9rqqZumRO56frUbdyLfww65ksfrQTJDvytUeofvfygEA/DFjhzZ7cXOSYumJZt\n/8Rgc4ELsnpS/CKWUfEsp3Cv0DZKmHo1JGTBIGyCUbwlH3JKDZCW08GawxVHqqt4\nSDdi3SK6AU1l3z/EWhRypp4DE6242ArbY+J5/+jlNO5BczlzDWYyy1YiL0l5KEq2\ng6lLVHszTgi+Cx+JScCvUSihy2yxGrtqWFIe1KpASLrvNicFM8bpwnDBbZ7jpY/O\ny58vADFmb4Gg31eh9mXpchnaIxmCdgBpZsHT/hvLGfEKCBONB7FJwmrHHgzx37t6\nTYmYdJAQwrsHT2PnMBzR\n=RGaM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1d9ee8efec086fdaa758de57a01c1a6a503b8278\nparent cc2e369d09534a7ab2c4828fb28c0efeae02e3a8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751244003 +0000\ncommitter GitHub <noreply@github.com> 1751244003 +0000\n\n木越さんの提案に基づき、「AIを活用した食料自給率向上」の項目を追加",
+          "verified_at": "2025-06-30T00:40:04Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9d2fe2f0436a9cb52541d7d6ec4fa11f2d1871eb",
+      "html_url": "https://github.com/team-mirai/policy/commit/9d2fe2f0436a9cb52541d7d6ec4fa11f2d1871eb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9d2fe2f0436a9cb52541d7d6ec4fa11f2d1871eb/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cc2e369d09534a7ab2c4828fb28c0efeae02e3a8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/cc2e369d09534a7ab2c4828fb28c0efeae02e3a8",
+          "html_url": "https://github.com/team-mirai/policy/commit/cc2e369d09534a7ab2c4828fb28c0efeae02e3a8"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-30T01:03:33.042040"
+}
