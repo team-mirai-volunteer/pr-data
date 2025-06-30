@@ -2,11 +2,11 @@
   "basic_info": {
     "number": 2774,
     "title": "選挙の立候補手続きをデジタル化し、候補者の負担を軽減",
-    "state": "open",
+    "state": "closed",
     "created_at": "2025-06-23T08:03:01Z",
-    "updated_at": "2025-06-23T15:20:37Z",
-    "closed_at": null,
-    "merged_at": null,
+    "updated_at": "2025-06-30T03:56:26Z",
+    "closed_at": "2025-06-30T03:56:26Z",
+    "merged_at": "2025-06-30T03:56:26Z",
     "html_url": "https://github.com/team-mirai/policy/pull/2774",
     "user": {
       "login": "idobata-policy-app[bot]",
@@ -29,16 +29,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "005bcbb44c730cfc8e1715381dcc99d3b2267c87",
+      "sha": "e57ed19832e547b72fe85573c05ab6576f3f28f7",
       "filename": "13_ステップ１行政改革.md",
       "status": "modified",
-      "additions": 42,
+      "additions": 40,
       "deletions": 4,
-      "changes": 46,
-      "blob_url": "https://github.com/team-mirai/policy/blob/9858ff6459968a9619be2f3489c373a369b408b1/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/9858ff6459968a9619be2f3489c373a369b408b1/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=9858ff6459968a9619be2f3489c373a369b408b1",
-      "patch": "@@ -52,7 +52,7 @@\n ### 現状認識・課題分析\n \n * 住民にとって“体験の良さ”は依然として低水準  \n-  * 国民生活に直結する26手続きについて、オンラインで完結できる自治体は65.1％にとどまり、3 割強が依然として書面・窓口前提で、オンライン移行は道半ばです。（出典：デジタル庁「[データから見た成果：社会におけるデジタル活用の進捗](https://www.digital.go.jp/policies/report-202309-202408/progress?utm_source=chatgpt.com)」）  \n+  * 国民生活に直結する26手続きについて、オンラインで完結できる自治体は65.1％にとどまり、3 割強が依然として書面・窓口前提で、オンライン移行は道半ばです。（出典：デジタル庁「[データから見た成果：社会におけるデジタル活用の進捗](https://www.digital.go.jp/policies/report-202309-202408/progress)」）  \n   * 「オンライン手続きができない」「何度も同じことを書く必要がある」「窓口が明確じゃない」などの声も聞こえ、国民にとっての使いやすさにはまだまだ改善の余地があります。  \n   * 育児中のご家庭や、高齢の方、障害のある方、就業者など、全ての人にとっての使いやすさが重要ですが、「手続きが複雑であきらめた」事例が各種ヒアリング調査で報告されています。\n * 制度へのアクセス障壁がもたらす公平性の欠如\n@@ -62,9 +62,7 @@\n   * 統計調査や現地調査で「Excel→手入力→基幹系」などの多重入力が常態化し、調査漏れや職員二重配置が発生していると自治体現場からの声もあります。  \n   * デジタル化を進めることで、職員は書類の受け取りや書類の記載内容の確認から解放され、本来の対人支援・相談業務に注力できるようになります。  \n   * また、業務フローを標準化・再整備することで業務の属人性、二重入力を排除し、またシステムによる自動チェックや履歴管理によりヒューマンエラーを防ぐことができ、待ち時間の減少、迅速な給付など、行政サービスの質の向上に繋がります。  \n-  * 例えば、書面や対面を義務づけるアナログ規制をオンライン化しただけで、甲種防火管理講習では年間 16.7 億円のコスト削減効果が試算されており、同様の潜在効果が多数残存。（出典：デジタル庁「[アナログ規制の見直しによる経済効果（中間報告）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/8993b6ae-e3d2-4d34-afe1-5c722d8e516f/fc4e86f1/20231226_policies_manual-analog-regulation-review_outline_05.pdf?utm_source=chatgpt.com)」）\n-\n-\n+  * 例えば、書面や対面を義務づけるアナログ規制をオンライン化しただけで、甲種防火管理講習では年間 16.7 億円のコスト削減効果が試算されており、同様の潜在効果が多数残存。（出典：デジタル庁「[アナログ規制の見直しによる経済効果（中間報告）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/8993b6ae-e3d2-4d34-afe1-5c722d8e516f/fc4e86f1/20231226_policies_manual-analog-regulation-review_outline_05.pdf)」）\n \n ### 政策概要\n \n@@ -131,3 +129,43 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+\n+## 5） AI＆ITによる公務員の働き方改革を行います\n+\n+### 現状認識・課題分析\n+\n+* 立候補手続きが“紙と対面”に強く依存\n+   * 立候補予定者は、事前説明会で各都道府県選挙管理委員会から膨大な届出書類を受け取り、記入・管理・提出に多大な労力を要しています。\n+   * 提出にあたっては、押印済み原本を「厳封」のうえ庁舎に再度持参する必要があり、手続き全体が紙ベースで運用されています。\n+   * なお、参議院選挙など一部では総務省のように[Web上](https://www.soumu.go.jp/senkyo/senkyo_s/news/000182044.html)での資料提供が行われている例もあります。\n+* 供託金納付はオンラインでも“紙提出が慣行のまま”\n+   * 法務省が提供する「供託ねっと」により、選挙供託金はオンラインで納付可能となっていますが、多くの選挙管理委員会では電子形式の預納証明書を受理しておらず、法務局で紙の原本を発行・提出する運用が依然として求められています。制度と現場運用の間に乖離が存在しています\n+* CD-R提出やPDFでの書類作成など、古い慣行が温存\n+   * 選挙公報などの提出書類では、CD-Rでの提出が求められる場合があります。\n+   * また、PDFファイルで様式が配布されることもあるため、専用ソフトによる加工や印刷・手書きによる記入が必要となることがあります。こうした非効率な形式依存が、事務作業の負担を増大させています。\n+* 短期間に集中する手続きと、情報の重複提出\n+   * 事前説明会から事前審査までわずか数日しかなく、その間に移動をしつつ、供託・戸籍取得・住民票・委任状・事務所届・政見放送などを同時並行で準備する必要があります。\n+   * 加えて、各選挙管理委員会により必要書類や記載ルールが異なり、同じ情報（例：候補者名や住所）を何度も転記させられる構造になっています。\n+   * このような短期集中・多重入力の負担は、特に参議院選挙のように全国を対象とする選挙では、地方に拠点を構えることが困難な新興政党にとって大きな障壁となっています。\n+* 移動・時間・費用面での制約が候補者の多様性を阻害\n+   * 庁舎への訪問や書類の郵送などにかかる時間や費用は、物理的・経済的な負担となっており、地方在住者、海外在住の日本人、平日に時間を取りづらい層にとって立候補の大きなハードルとなっています。その結果、立候補機会における地域・環境間の格差が生じ、候補者の多様性確保にも影響を与えています。\n+\n+### 政策概要\n+\n+* 誰もが立候補しやすい選挙へ：“フルオンライン届出”を段階的に実現\n+* 電子手続を全国統一運用へ\n+   * すでに可能となっている「供託ねっとによるオンライン納付」や「事前審査前のメール等での事前チェック」「事前審査のオンライン予約」など、実証済みの仕組みを全ての選挙管理委員会で共通運用できるよう整備します。\n+   * これらの法改正が不要な部分については、例えば総務省通達や業務ガイドラインにより統一ルールを策定し、速やかな運用開始を目指します。\n+   * 一方で、法改正が必要な手続きについては、法的な真正性とセキュリティなどの観点で慎重な対応が必要となるため段階的に進めます。\n+     *  例えば、「届出書類の電子署名・電子提出を紙と同等とみなすための法整備」、「マイナンバーカードを活用した本人確認プロセスの導入」、「書類一式のクラウド保存、タイムスタンプ運用による「厳封相当」措置の導入」については慎重な検証を通した上で段階的に対応します。\n+     *  その際、提出記録や操作ログを保存するなど、セキュリティ・訴訟耐性も確保する想定です。\n+*  手続きの重複をなくし、全国で使いやすい様式へ\n+   * 所・氏名・政党名・略歴などの繰り返しの同一の記載をなくすため、統合入力フォームを整備し、1回の入力で複数様式に自動展開します。\n+   * 加えて、様式・記載要領・メタデータ設計を仕様として標準化し、自治体ごとの記載揺れや独自欄をなくし、公平性と審査効率、ミス削減の両立を図ります。\n+* デジタル庁・総務省と連携した技術基盤の構築\n+   * 行政手続標準化の共通API（GSS）に「公職選挙手続き」を追加し、住民票・税務情報と同様に各種選挙手続きをAPI経由で処理できる構造を検討します。\n+   * 導入に負担の少ない汎用的な業務テンプレートを整備し、予算や人材が限られる自治体でも安定的に運用できるよう配慮します。\n+* 運用現場に配慮した“併存フェーズ”の設計\n+   * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n+   * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n+"
+      "changes": 44,
+      "blob_url": "https://github.com/team-mirai/policy/blob/42ffe7f82c1697484df949af657f6469faceb1be/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/42ffe7f82c1697484df949af657f6469faceb1be/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=42ffe7f82c1697484df949af657f6469faceb1be",
+      "patch": "@@ -52,7 +52,7 @@\n ### 現状認識・課題分析\n \n * 住民にとって“体験の良さ”は依然として低水準  \n-  * 国民生活に直結する26手続きについて、オンラインで完結できる自治体は65.1％にとどまり、3 割強が依然として書面・窓口前提で、オンライン移行は道半ばです。（出典：デジタル庁「[データから見た成果：社会におけるデジタル活用の進捗](https://www.digital.go.jp/policies/report-202309-202408/progress?utm_source=chatgpt.com)」）  \n+  * 国民生活に直結する26手続きについて、オンラインで完結できる自治体は65.1％にとどまり、3 割強が依然として書面・窓口前提で、オンライン移行は道半ばです。（出典：デジタル庁「[データから見た成果：社会におけるデジタル活用の進捗](https://www.digital.go.jp/policies/report-202309-202408/progress)」）  \n   * 「オンライン手続きができない」「何度も同じことを書く必要がある」「窓口が明確じゃない」などの声も聞こえ、国民にとっての使いやすさにはまだまだ改善の余地があります。  \n   * 育児中のご家庭や、高齢の方、障害のある方、就業者など、全ての人にとっての使いやすさが重要ですが、「手続きが複雑であきらめた」事例が各種ヒアリング調査で報告されています。\n * 制度へのアクセス障壁がもたらす公平性の欠如\n@@ -62,9 +62,7 @@\n   * 統計調査や現地調査で「Excel→手入力→基幹系」などの多重入力が常態化し、調査漏れや職員二重配置が発生していると自治体現場からの声もあります。  \n   * デジタル化を進めることで、職員は書類の受け取りや書類の記載内容の確認から解放され、本来の対人支援・相談業務に注力できるようになります。  \n   * また、業務フローを標準化・再整備することで業務の属人性、二重入力を排除し、またシステムによる自動チェックや履歴管理によりヒューマンエラーを防ぐことができ、待ち時間の減少、迅速な給付など、行政サービスの質の向上に繋がります。  \n-  * 例えば、書面や対面を義務づけるアナログ規制をオンライン化しただけで、甲種防火管理講習では年間 16.7 億円のコスト削減効果が試算されており、同様の潜在効果が多数残存。（出典：デジタル庁「[アナログ規制の見直しによる経済効果（中間報告）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/8993b6ae-e3d2-4d34-afe1-5c722d8e516f/fc4e86f1/20231226_policies_manual-analog-regulation-review_outline_05.pdf?utm_source=chatgpt.com)」）\n-\n-\n+  * 例えば、書面や対面を義務づけるアナログ規制をオンライン化しただけで、甲種防火管理講習では年間 16.7 億円のコスト削減効果が試算されており、同様の潜在効果が多数残存。（出典：デジタル庁「[アナログ規制の見直しによる経済効果（中間報告）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/8993b6ae-e3d2-4d34-afe1-5c722d8e516f/fc4e86f1/20231226_policies_manual-analog-regulation-review_outline_05.pdf)」）\n \n ### 政策概要\n \n@@ -172,4 +170,42 @@\n   * PDF で公開されている審議会資料や議事録を機械可読化し、検索も要点把握も簡単にします。\n   * また、「広聴AI」「いどばた」などの意見集約サービスと連携し、審議会段階から市民や現場の声を“ゆるやかに”政策づくりへ届ける場を設けます。\n \n+## 5） AI＆ITによる公務員の働き方改革を行います\n+\n+### 現状認識・課題分析\n+\n+* 立候補手続きが“紙と対面”に強く依存\n+   * 立候補予定者は、事前説明会で各都道府県選挙管理委員会から膨大な届出書類を受け取り、記入・管理・提出に多大な労力を要しています。\n+   * 提出にあたっては、押印済み原本を「厳封」のうえ庁舎に再度持参する必要があり、手続き全体が紙ベースで運用されています。\n+   * なお、参議院選挙など一部では総務省のように[Web上](https://www.soumu.go.jp/senkyo/senkyo_s/news/000182044.html)での資料提供が行われている例もあります。\n+* 供託金納付はオンラインでも“紙提出が慣行のまま”\n+   * 法務省が提供する「供託ねっと」により、選挙供託金はオンラインで納付可能となっていますが、多くの選挙管理委員会では電子形式の預納証明書を受理しておらず、法務局で紙の原本を発行・提出する運用が依然として求められています。制度と現場運用の間に乖離が存在しています\n+* CD-R提出やPDFでの書類作成など、古い慣行が温存\n+   * 選挙公報などの提出書類では、CD-Rでの提出が求められる場合があります。\n+   * また、PDFファイルで様式が配布されることもあるため、専用ソフトによる加工や印刷・手書きによる記入が必要となることがあります。こうした非効率な形式依存が、事務作業の負担を増大させています。\n+* 短期間に集中する手続きと、情報の重複提出\n+   * 事前説明会から事前審査までわずか数日しかなく、その間に移動をしつつ、供託・戸籍取得・住民票・委任状・事務所届・政見放送などを同時並行で準備する必要があります。\n+   * 加えて、各選挙管理委員会により必要書類や記載ルールが異なり、同じ情報（例：候補者名や住所）を何度も転記させられる構造になっています。\n+   * このような短期集中・多重入力の負担は、特に参議院選挙のように全国を対象とする選挙では、地方に拠点を構えることが困難な新興政党にとって大きな障壁となっています。\n+* 移動・時間・費用面での制約が候補者の多様性を阻害\n+   * 庁舎への訪問や書類の郵送などにかかる時間や費用は、物理的・経済的な負担となっており、地方在住者、海外在住の日本人、平日に時間を取りづらい層にとって立候補の大きなハードルとなっています。その結果、立候補機会における地域・環境間の格差が生じ、候補者の多様性確保にも影響を与えています。\n+\n+### 政策概要\n+\n+* 誰もが立候補しやすい選挙へ：“フルオンライン届出”を段階的に実現\n+* 電子手続を全国統一運用へ\n+   * すでに可能となっている「供託ねっとによるオンライン納付」や「事前審査前のメール等での事前チェック」「事前審査のオンライン予約」など、実証済みの仕組みを全ての選挙管理委員会で共通運用できるよう整備します。\n+   * これらの法改正が不要な部分については、例えば総務省通達や業務ガイドラインにより統一ルールを策定し、速やかな運用開始を目指します。\n+   * 一方で、法改正が必要な手続きについては、法的な真正性とセキュリティなどの観点で慎重な対応が必要となるため段階的に進めます。\n+     *  例えば、「届出書類の電子署名・電子提出を紙と同等とみなすための法整備」、「マイナンバーカードを活用した本人確認プロセスの導入」、「書類一式のクラウド保存、タイムスタンプ運用による「厳封相当」措置の導入」については慎重な検証を通した上で段階的に対応します。\n+     *  その際、提出記録や操作ログを保存するなど、セキュリティ・訴訟耐性も確保する想定です。\n+*  手続きの重複をなくし、全国で使いやすい様式へ\n+   * 所・氏名・政党名・略歴などの繰り返しの同一の記載をなくすため、統合入力フォームを整備し、1回の入力で複数様式に自動展開します。\n+   * 加えて、様式・記載要領・メタデータ設計を仕様として標準化し、自治体ごとの記載揺れや独自欄をなくし、公平性と審査効率、ミス削減の両立を図ります。\n+* デジタル庁・総務省と連携した技術基盤の構築\n+   * 行政手続標準化の共通API（GSS）に「公職選挙手続き」を追加し、住民票・税務情報と同様に各種選挙手続きをAPI経由で処理できる構造を検討します。\n+   * 導入に負担の少ない汎用的な業務テンプレートを整備し、予算や人材が限られる自治体でも安定的に運用できるよう配慮します。\n+* 運用現場に配慮した“併存フェーズ”の設計\n+   * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n+   * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n "
     }
   ],
   "commits": [
@@ -451,7 +451,94 @@
           "html_url": "https://github.com/team-mirai/policy/commit/711e49766f1e079433b4f6b77b81bd3c9d79b337"
         }
       ]
+    },
+    {
+      "sha": "42ffe7f82c1697484df949af657f6469faceb1be",
+      "node_id": "C_kwDOOqTJvNoAKDQyZmZlN2Y4MmMxNjk3NDg0ZGY5NDlhZjY1N2Y2NDY5ZmFjZWIxYmU",
+      "commit": {
+        "author": {
+          "name": "takahiroanno",
+          "email": "annyotaka@gmail.com",
+          "date": "2025-06-30T03:56:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T03:56:16Z"
+        },
+        "message": "Merge branch 'main' into idobata-2rdbba",
+        "tree": {
+          "sha": "a9e92f23d24575c078d0468c7e9d9e28d09fc559",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a9e92f23d24575c078d0468c7e9d9e28d09fc559"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/42ffe7f82c1697484df949af657f6469faceb1be",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYgrgCRC1aQ7uu5UhlAAAqCIQAG10h51mMwYIAru0bxjuAz3d\nMR7qoSEl/zlbdF3m9tkgrdzAPihaWRUCcoaRJjg3bvnVvkA7FbnfJbkoE8PD/nFO\nr4PbMli1bnWPyJ2mY2gZqzeXWI8R36/ps0j9Gt8nqJd8wtFiJSh4FMGFdyyBQATG\n6kjyiWkvGn+TbFReqaM8mVMtTi85GwQLVFs1ock1m8VZu4IAEOmauCTWBMYuuwN0\nuWLcsQVC5EUlNpyF5W6DbHsrzDosx6tT9XfeZdgvHCQGMMtLopID12YBZxbaM14G\nFysxAxKIN5FdIkQLAGDMMmb5GHqwCP02A6Ds3yZFFSYFOmfgB19uvoR2lu1/EtWJ\nlhE2EYc7sEBL/Ggp0I36FR3ydl8hTXuoA5Cvi8Op+rP9hyD11ezg17aBnJPGds0P\nXtsnX4hpPuMFJJZx29lEFvEjd8C5Id+EidYbVB0uAPsO3kPqK3Htnz2elFEW0wn4\n27sw/AOU/zVTfpR3j6kf3v6k7ricRLHbXb8VWcOalIXpQuuNvMzroM+EtEKAIE1k\nTpes5Vrhsquicxc0fYfOLb8lC09KL913aiaJ50SjmDMN9ADdHyPClO5SwoslQnhb\n/2YXsECUQQuV4xzE2iikCJ/kuhceFJm+F/n4tdaPmbMN/FBqBJBFbNFpJRm2FDY5\nLkdrpCuj9k2g1HJotoOr\n=Bbc0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a9e92f23d24575c078d0468c7e9d9e28d09fc559\nparent 9858ff6459968a9619be2f3489c373a369b408b1\nparent 50611499b55010b19109739437dae5e2ab78721e\nauthor takahiroanno <annyotaka@gmail.com> 1751255776 +0900\ncommitter GitHub <noreply@github.com> 1751255776 +0900\n\nMerge branch 'main' into idobata-2rdbba",
+          "verified_at": "2025-06-30T03:56:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/42ffe7f82c1697484df949af657f6469faceb1be",
+      "html_url": "https://github.com/team-mirai/policy/commit/42ffe7f82c1697484df949af657f6469faceb1be",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/42ffe7f82c1697484df949af657f6469faceb1be/comments",
+      "author": {
+        "login": "takahiroanno",
+        "id": 1589322,
+        "node_id": "MDQ6VXNlcjE1ODkzMjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1589322?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/takahiroanno",
+        "html_url": "https://github.com/takahiroanno",
+        "followers_url": "https://api.github.com/users/takahiroanno/followers",
+        "following_url": "https://api.github.com/users/takahiroanno/following{/other_user}",
+        "gists_url": "https://api.github.com/users/takahiroanno/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/takahiroanno/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/takahiroanno/subscriptions",
+        "organizations_url": "https://api.github.com/users/takahiroanno/orgs",
+        "repos_url": "https://api.github.com/users/takahiroanno/repos",
+        "events_url": "https://api.github.com/users/takahiroanno/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/takahiroanno/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9858ff6459968a9619be2f3489c373a369b408b1",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/9858ff6459968a9619be2f3489c373a369b408b1",
+          "html_url": "https://github.com/team-mirai/policy/commit/9858ff6459968a9619be2f3489c373a369b408b1"
+        },
+        {
+          "sha": "50611499b55010b19109739437dae5e2ab78721e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/50611499b55010b19109739437dae5e2ab78721e",
+          "html_url": "https://github.com/team-mirai/policy/commit/50611499b55010b19109739437dae5e2ab78721e"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-06-23T16:16:25.245514"
+  "collected_at": "2025-06-30T04:28:24.182312"
 }

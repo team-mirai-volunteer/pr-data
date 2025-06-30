@@ -2,11 +2,11 @@
   "basic_info": {
     "number": 2772,
     "title": "パブリックコメント制度の改善：国民の声を「追える」「伝えられる」「反映される」仕組みへ",
-    "state": "open",
+    "state": "closed",
     "created_at": "2025-06-23T07:32:03Z",
-    "updated_at": "2025-06-23T15:20:39Z",
-    "closed_at": null,
-    "merged_at": null,
+    "updated_at": "2025-06-30T03:53:04Z",
+    "closed_at": "2025-06-30T03:53:04Z",
+    "merged_at": "2025-06-30T03:53:04Z",
     "html_url": "https://github.com/team-mirai/policy/pull/2772",
     "user": {
       "login": "idobata-policy-app[bot]",
@@ -29,16 +29,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "fae2966547c5d9134893683e75f46c08751d0af5",
+      "sha": "2b963f4fab05ae200dcf7824b847000a4b167c54",
       "filename": "13_ステップ１行政改革.md",
       "status": "modified",
-      "additions": 37,
+      "additions": 36,
       "deletions": 1,
-      "changes": 38,
-      "blob_url": "https://github.com/team-mirai/policy/blob/7e6fbf58ff5bb6f9bc36747729c67616d8d32727/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/7e6fbf58ff5bb6f9bc36747729c67616d8d32727/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=7e6fbf58ff5bb6f9bc36747729c67616d8d32727",
-      "patch": "@@ -29,7 +29,7 @@\n   * 世界には社員が数十名程度で企業評価額が10億ドル以上の企業も存在しており、小さなチームでも大きな価値を生み出す活動が可能な見込み  \n * 行政デジタルツールの開発/運用  \n   * オンライン熟議の場  \n-    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します  \n+    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します\n   * 国民の声を効率的に集めるツール  \n     * パブリックコメント等の大量の意見投稿を効率的に処理できるシステム（例：広聴AI）を開発し、意見の集約をスムーズにします  \n * 政治資金の流れの公開  \n@@ -131,3 +131,39 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+   \n+## 4）決まる前に追える、届けられる――市民の声が届く法制度トラッカー\n+\n+### 現状認識・課題分析\n+\n+* 気づいた時にはもう終わっているパブリックコメント\n+  * 行政機関が実施するパブリックコメント（以下「パブコメ」）は、政策や規制の案を事前に公表し、広く国民から意見や情報を募集する重要な手続きです。しかしながら、その受付期間は原則30日以上とされている一方で、実際には短縮されるケースもあり、関係者が気づいたときには既に締切直前ということも少なくありません。\n+  * また、パブコメが実施されるタイミングでは、政策の内容がおおむね固まっている場合が多く、提出された意見が必ずしも十分に反映されていないという指摘もあります。\n+* 国会提出後に話題になっても、修正の余地は限られている\n+  * 法律案が社会的に注目されるのは、国会に提出される見込みとなった段階以降が多く、報道やSNS上での議論もこの時期に集中しがちです。\n+  * しかしその時点では、与党内の事前審査や省庁の内部調整を経て内容が固まっており、国会審議では野党修正や附帯決議が付くことはあっても、大きな修正がなされる可能性は低いのが実態です。\n+* 審議会など“政策の設計図”に市民の声が届きにくい\n+  * 例えば介護や医療などの分野においては、定期的な法律改正の前段階として、省庁が開催する審議会や部会で制度内容の検討が行われます。これらは実質的に政策の骨格を決める重要な場でありながら、パブコメの対象とはされておらず、一般には議事録が後日PDFで公開されるのみです。\n+  * そのため、審議会の段階で市民や現場の当事者が意見を届ける制度的な手段が整っておらず、政策形成の初期段階が“静かに”進行してしまう傾向があります。\n+* 今、効力を持っている条文がどれか分からない\n+  * 法令は、一般の市民にとって複雑で読みづらい構造になっているのが現状です。改正履歴や経過措置、時限措置といった要素が積み重なっており、特に改正法では条文ごとに異なる施行日が定められることも少なくありません。\n+  * さらに、附則に記された内容も施行期日が異なる場合が多く、「今まさに有効な条文がどれなのか」「いつ何が終了するのか」といった情報を追いかけるのは非常に困難です。こうした制度上の読みづらさは、法令への信頼や参加意識の妨げになっています。\n+ \n+### 政策概要\n+* 「気づけない」「わかりづらい」から、「追える」「伝えられる」「反映される」へ。\n+  * 政策づくりの流れを早期かつ継続的に追いかけ、暮らしに直結する法律や制度に“自分の声”を確実に届けられる仕組みを整えます\n+* 「知らないうちに終わってた」をなくす\n+  * 関心テーマ（教育、福祉、税制など）を登録することで、関連するパブリックコメントの受付開始を事前にお知らせする仕組みを構築します。\n+  * 開始前・開始時・締切前の３段階で通知し、「気づいたらもう締切」の機会損失を防ぎます。\n+* 政策の立案プロセスが見えるタイムライン\n+  * 一例ではあるが、審議会 → 与党部会 → 法令案作成 → パブコメ → 閣議決定 → 国会提出 → 成立 → 公布・施行という政策審議から立案・成立までの一連のプロセスを可視化します。\n+  * また国会や委員会審議では、議員ごとの過去発言や関連法案へのスタンスを色分け等見やすい形で表示し、一目で分かる仕組みを用意します。\n+* 法令トラッカーで変更差分・履歴を可視化\n+  * 改正法令の新旧条文を色分け等で差分表示し、どこがどう変わったかを直感的に把握できるようにします。\n+  * また、条文ごとの公布日・施行日、時限・経過措置の終了予定日をカレンダー形式で整理し、「今効力を持っている条文」「次に変わる条文」を分かりやすく提示します。\n+  * さらに、企業や自治体向けには API で同じ情報を提供し、社内規程や業務マニュアルの自動更新にも活用できるようにします。\n+* “みんなの声”が届くしくみ\n+  * PDF で公開されている審議会資料や議事録を機械可読化し、検索も要点把握も簡単にします。\n+  * また、「広聴AI」「いどばた」などの意見集約サービスと連携し、審議会段階から市民や現場の声を“ゆるやかに”政策づくりへ届ける場を設けます。\n+\n+"
+      "changes": 37,
+      "blob_url": "https://github.com/team-mirai/policy/blob/c2c390e18768ed4d56c6628215885498a0c5a034/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/c2c390e18768ed4d56c6628215885498a0c5a034/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=c2c390e18768ed4d56c6628215885498a0c5a034",
+      "patch": "@@ -29,7 +29,7 @@\n   * 世界には社員が数十名程度で企業評価額が10億ドル以上の企業も存在しており、小さなチームでも大きな価値を生み出す活動が可能な見込み  \n * 行政デジタルツールの開発/運用  \n   * オンライン熟議の場  \n-    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します  \n+    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します\n   * 国民の声を効率的に集めるツール  \n     * パブリックコメント等の大量の意見投稿を効率的に処理できるシステム（例：広聴AI）を開発し、意見の集約をスムーズにします  \n * 政治資金の流れの公開  \n@@ -137,4 +137,39 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+   \n+## 4）決まる前に追える、届けられる――市民の声が届く法制度トラッカー\n+\n+### 現状認識・課題分析\n+\n+* 気づいた時にはもう終わっているパブリックコメント\n+  * 行政機関が実施するパブリックコメント（以下「パブコメ」）は、政策や規制の案を事前に公表し、広く国民から意見や情報を募集する重要な手続きです。しかしながら、その受付期間は原則30日以上とされている一方で、実際には短縮されるケースもあり、関係者が気づいたときには既に締切直前ということも少なくありません。\n+  * また、パブコメが実施されるタイミングでは、政策の内容がおおむね固まっている場合が多く、提出された意見が必ずしも十分に反映されていないという指摘もあります。\n+* 国会提出後に話題になっても、修正の余地は限られている\n+  * 法律案が社会的に注目されるのは、国会に提出される見込みとなった段階以降が多く、報道やSNS上での議論もこの時期に集中しがちです。\n+  * しかしその時点では、与党内の事前審査や省庁の内部調整を経て内容が固まっており、国会審議では野党修正や附帯決議が付くことはあっても、大きな修正がなされる可能性は低いのが実態です。\n+* 審議会など“政策の設計図”に市民の声が届きにくい\n+  * 例えば介護や医療などの分野においては、定期的な法律改正の前段階として、省庁が開催する審議会や部会で制度内容の検討が行われます。これらは実質的に政策の骨格を決める重要な場でありながら、パブコメの対象とはされておらず、一般には議事録が後日PDFで公開されるのみです。\n+  * そのため、審議会の段階で市民や現場の当事者が意見を届ける制度的な手段が整っておらず、政策形成の初期段階が“静かに”進行してしまう傾向があります。\n+* 今、効力を持っている条文がどれか分からない\n+  * 法令は、一般の市民にとって複雑で読みづらい構造になっているのが現状です。改正履歴や経過措置、時限措置といった要素が積み重なっており、特に改正法では条文ごとに異なる施行日が定められることも少なくありません。\n+  * さらに、附則に記された内容も施行期日が異なる場合が多く、「今まさに有効な条文がどれなのか」「いつ何が終了するのか」といった情報を追いかけるのは非常に困難です。こうした制度上の読みづらさは、法令への信頼や参加意識の妨げになっています。\n+ \n+### 政策概要\n+* 「気づけない」「わかりづらい」から、「追える」「伝えられる」「反映される」へ。\n+  * 政策づくりの流れを早期かつ継続的に追いかけ、暮らしに直結する法律や制度に“自分の声”を確実に届けられる仕組みを整えます\n+* 「知らないうちに終わってた」をなくす\n+  * 関心テーマ（教育、福祉、税制など）を登録することで、関連するパブリックコメントの受付開始を事前にお知らせする仕組みを構築します。\n+  * 開始前・開始時・締切前の３段階で通知し、「気づいたらもう締切」の機会損失を防ぎます。\n+* 政策の立案プロセスが見えるタイムライン\n+  * 一例ではあるが、審議会 → 与党部会 → 法令案作成 → パブコメ → 閣議決定 → 国会提出 → 成立 → 公布・施行という政策審議から立案・成立までの一連のプロセスを可視化します。\n+  * また国会や委員会審議では、議員ごとの過去発言や関連法案へのスタンスを色分け等見やすい形で表示し、一目で分かる仕組みを用意します。\n+* 法令トラッカーで変更差分・履歴を可視化\n+  * 改正法令の新旧条文を色分け等で差分表示し、どこがどう変わったかを直感的に把握できるようにします。\n+  * また、条文ごとの公布日・施行日、時限・経過措置の終了予定日をカレンダー形式で整理し、「今効力を持っている条文」「次に変わる条文」を分かりやすく提示します。\n+  * さらに、企業や自治体向けには API で同じ情報を提供し、社内規程や業務マニュアルの自動更新にも活用できるようにします。\n+* “みんなの声”が届くしくみ\n+  * PDF で公開されている審議会資料や議事録を機械可読化し、検索も要点把握も簡単にします。\n+  * また、「広聴AI」「いどばた」などの意見集約サービスと連携し、審議会段階から市民や現場の声を“ゆるやかに”政策づくりへ届ける場を設けます。\n+\n "
     }
   ],
   "commits": [
@@ -205,7 +205,94 @@
           "html_url": "https://github.com/team-mirai/policy/commit/ed7b638706f407295dee3e8bce6a80330413b090"
         }
       ]
+    },
+    {
+      "sha": "c2c390e18768ed4d56c6628215885498a0c5a034",
+      "node_id": "C_kwDOOqTJvNoAKGMyYzM5MGUxODc2OGVkNGQ1NmM2NjI4MjE1ODg1NDk4YTBjNWEwMzQ",
+      "commit": {
+        "author": {
+          "name": "takahiroanno",
+          "email": "annyotaka@gmail.com",
+          "date": "2025-06-30T03:52:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T03:52:55Z"
+        },
+        "message": "Merge branch 'main' into idobata-ipcf50",
+        "tree": {
+          "sha": "8337885d7f61e7ef063a6d96c98e2f94c056bd69",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/8337885d7f61e7ef063a6d96c98e2f94c056bd69"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c2c390e18768ed4d56c6628215885498a0c5a034",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYgoXCRC1aQ7uu5UhlAAAlWgQAITPoo49JYMSeQILRnD3TYfF\negNB/6yDsOk6Bs1EmmWJ81vSEavnGD3IetXYDSX7uR227mTLPk0VyxKW9x8z+FtU\nkf6R5z2qddii3OmDJbvqZW3MaEywejEHG6S8F81g9xY+e3j2j4xJlcAUM/4e6t0E\n5A7CISyvBqzWy3NOyxKdwEchBuhzFbdCyetJ0hm9pEXbpltTuCHnk7fSJHp186i1\n381GmDR+jWgEaXx5dFs5flV/tBpD540WMRY9ZvFiJaxZIGZ15dqT6SNyUFBevfe2\nnavyqsxqtXPxKCy6Ko7yo+WZKyhplyL8SPaFc/MSHHIq+tnG+8svDol1ag7MzUIa\nh2yZr2yQbFxUMRwfMNbGIoQYVcv3ZuVXQ+270VYdmpArA0W7MP/uLg+QRUiC+Cim\ndCQ0w8KdKDk7WsCOODi9yK6HkQYl0IWnSWWBpNGOtJDWYu5IRc4tsHFqruocfkAQ\n9P1Csn3nF+CKE9425k2FxAb7Ry6sGEQAA6XR4Gi986siyqZFvUu5s84BCBiuxhUN\nWiPVqyh+N3EzOf208dx8CWIJTMvmZcL2V5RcZH92NVSgsGpHNRB1GrukLjz9g9FI\njvfSyaKS/47wRgUbIoRj0CHBh38h3JgXaqs6N3blaVvm6WiBPjkAmdSJjtSfoZgn\nlFoGGqmoCwNNE5sfviHY\n=Dsnr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8337885d7f61e7ef063a6d96c98e2f94c056bd69\nparent 7e6fbf58ff5bb6f9bc36747729c67616d8d32727\nparent d27c9ae50c9d2044b809fc9485c7694cb0e59ca9\nauthor takahiroanno <annyotaka@gmail.com> 1751255575 +0900\ncommitter GitHub <noreply@github.com> 1751255575 +0900\n\nMerge branch 'main' into idobata-ipcf50",
+          "verified_at": "2025-06-30T03:52:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c2c390e18768ed4d56c6628215885498a0c5a034",
+      "html_url": "https://github.com/team-mirai/policy/commit/c2c390e18768ed4d56c6628215885498a0c5a034",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c2c390e18768ed4d56c6628215885498a0c5a034/comments",
+      "author": {
+        "login": "takahiroanno",
+        "id": 1589322,
+        "node_id": "MDQ6VXNlcjE1ODkzMjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/1589322?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/takahiroanno",
+        "html_url": "https://github.com/takahiroanno",
+        "followers_url": "https://api.github.com/users/takahiroanno/followers",
+        "following_url": "https://api.github.com/users/takahiroanno/following{/other_user}",
+        "gists_url": "https://api.github.com/users/takahiroanno/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/takahiroanno/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/takahiroanno/subscriptions",
+        "organizations_url": "https://api.github.com/users/takahiroanno/orgs",
+        "repos_url": "https://api.github.com/users/takahiroanno/repos",
+        "events_url": "https://api.github.com/users/takahiroanno/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/takahiroanno/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7e6fbf58ff5bb6f9bc36747729c67616d8d32727",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/7e6fbf58ff5bb6f9bc36747729c67616d8d32727",
+          "html_url": "https://github.com/team-mirai/policy/commit/7e6fbf58ff5bb6f9bc36747729c67616d8d32727"
+        },
+        {
+          "sha": "d27c9ae50c9d2044b809fc9485c7694cb0e59ca9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d27c9ae50c9d2044b809fc9485c7694cb0e59ca9",
+          "html_url": "https://github.com/team-mirai/policy/commit/d27c9ae50c9d2044b809fc9485c7694cb0e59ca9"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-06-23T16:16:21.766133"
+  "collected_at": "2025-06-30T04:28:26.357294"
 }
