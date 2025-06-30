@@ -4,7 +4,7 @@
     "title": "永田町エンジニアチームにUKの先行事例を参考に専門家の知見を導入する仕組みを追記",
     "state": "open",
     "created_at": "2025-06-23T08:32:31Z",
-    "updated_at": "2025-06-23T15:20:35Z",
+    "updated_at": "2025-06-30T07:28:21Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/2776",
@@ -29,16 +29,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "cf402d016a0955842246b3c4e48bb9df60f66b2d",
+      "sha": "1051cef197d7354baf17f0d5ff7798ac668eab43",
       "filename": "13_ステップ１行政改革.md",
       "status": "modified",
       "additions": 28,
       "deletions": 28,
       "changes": 56,
-      "blob_url": "https://github.com/team-mirai/policy/blob/54b80917aebb89665f456238e8d919f80392e2ff/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/54b80917aebb89665f456238e8d919f80392e2ff/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=54b80917aebb89665f456238e8d919f80392e2ff",
-      "patch": "@@ -15,37 +15,36 @@\n \n ### 現状認識・課題分析\n \n-* 民間サービスのテクノロジー革新に対し、行政サービスの変化は遅れている  \n-  * 民間企業はテクノロジーを活用して便利で効率的なサービスの提供が進む一方、行政サービスはその進展に追いつけていない状況です。  \n-* 行政の発注は硬直的で、ソフトウェア開発との相性がよくない  \n-  * 政府がソフトウェア発注を行う場合、事前に決めた要件に厳格に適合することが求められるため、柔軟な仕様変更が行えず、かえって余計にコストが発生する可能性があります。  \n-* 国会におけるAI専門家の不足  \n-  * 医療、産業、安全保障など、様々な分野でAIの活用が進み、専門的判断の重要性が増す中、立法・行政の場にAIの専門家は不足しています。\n+* 民間と行政で進む「技術活用のギャップ」\n+  * 民間企業ではテクノロジーを活かしたサービスの高度化が進む一方、行政や立法分野では変化のスピードに課題があり、日常的な利便性の実感に差が出てきています。\n+* 国会・立法府における技術人材の構造的不足\n+  * AIやオープンソースソフトウェア（ソースコードが公開され、誰でも自由に使用、改変、再配布が可能なソフトウェア。以下OSS）の活用が社会の基盤技術となる中、立法や政策設計においても専門的な技術知見が求められています。\n+  * イギリスでは「UK Parliamentary Digital Service（PDS）」がこうした役割を担っており、日本でも常設の技術チームによる支援体制が急がれています。\n+* 国民参加と熟議を支える基盤の未整備\n+  * 政策形成に市民の声を活かすには、意見を集め・整理し・論点化する基盤が必要ですが、現在はその多くが未整備です。多様な意見を構造的に把握・分析するツールの整備が求められています。\n+* 民間サービスのテクノロジー革新に対し、行政サービスの変化は遅れている    \n \n ### 政策概要\n \n-* エンジニアチームの設置  \n-  * 政党交付金を活用し、10名程度のエンジニアや調査員で構成されたチームを設置。政治や行政向けのソフトウェアを迅速に開発し、実装していきます。  \n-  * 世界には社員が数十名程度で企業評価額が10億ドル以上の企業も存在しており、小さなチームでも大きな価値を生み出す活動が可能な見込み  \n-* 行政デジタルツールの開発/運用  \n-  * オンライン熟議の場  \n-    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します  \n-  * 国民の声を効率的に集めるツール  \n-    * パブリックコメント等の大量の意見投稿を効率的に処理できるシステム（例：広聴AI）を開発し、意見の集約をスムーズにします  \n-* 政治資金の流れの公開  \n-  * 政治資金がどのように集まり、どのように使われているのかを、誰でも簡単に確認できる可視化ツールを開発・導入します。\n-  * あわせて、企業・団体からの献金は受け取らず、将来的な制度見直しにも取り組みます。 政党自らがまず行動し、政治資金のあり方を少しずつ見直すことで、より透明で納得感のある政治の実現を目指します。  \n-* 自治体向けアプリの開発支援  \n-  * 各自治体がカスタマイズして使うことができるアプリをオープンソースで開発し、全国的に導入できるように支援  \n-* 迅速なプロトタイプ作成\n-  * 行政が発注しようとするデジタル案件に対して、エンジニアチームが迅速にプロトタイプを作成します  \n-  * 発注前に要件定義の明確化や具体的なイメージをつかみやすくし、必要なときに必要なだけ予算を配分できる仕組みとするとともに、業者や行政の間で共通の理解を形成します  \n-* 他党や自治体と連携\n-  * AI政策についてオープンかつ国民的な検討を進めるためのオープンな超党派議連を立ち上げます。  \n-  * デジタル民主主義2030で構築したいどばたシステムや広聴AI、そしてオフラインでの議論を活用し、新しいオープンな政策立案プロセスを実現し、賛同を得られたものは法案提出を目指します  \n-  * デジタル民主主義2030の活動と同様の形で、他党や自治体の技術導入を中立的立場から支援します  \n-* 開発したツールをOSSとして公開  \n-  * エンジニアチームが開発したツールやシステムはオープンソースとして公開し、誰でも利用・改善できるようにします\n+* 国会にエンジニアチームを設置\n+  * 政党交付金を活用し、10名程度のエンジニアからなる技術チームを国会に設置します。政治・行政向けのソフトウェアや分析ツールを迅速に開発・実装し、立法・政策プロセスの高度化を支援します。\n+  * また、UK Parliamentary Digital Serviceのような先行モデルを参考にしつつ、AI・OSSの専門知見を立法府に常時インプットします。\n+* 行政のデジタルツールをつくる・運用する\n+  * ネット上で話し合える場づくり\n+    * デジタル民主主義2030で採用されている「いどばた」を活用し、市民が自由に意見を出し合えるオンラインの熟議の場を展開します。AIが内容を整理し、論点を明確にすることで建設的な議論を後押しします。\n+  * 声をきちんと受け止めるしくみ\n+    * すでに構築された「広聴AI」を基盤に、パブリックコメントやSNSなどから集まる意見を分類・整理し、政策検討に活かせるよう継続的に運用・改良します。\n+ * 政治資金の流れを市民が追えるツールを活用\n+    * デジタル民主主義2030における「Polimoney」を活かし、国民が政治資金の流れを容易に追跡・分析できる仕組みを導入します。\n+    * あわせて、企業・団体からの献金は受け取らず、将来的な制度見直しにも取り組みます。 政党自らがまず行動し、政治資金のあり方を少しずつ見直すことで、より透明で納得感のある政治の実現を目指します。 \n+ * 自治体で使えるOSSツールの開発支援\n+    * デジタル庁が進める標準化や共通基盤と競合しないよう配慮しつつ、小規模な自治体でも導入しやすいツール群をOSSとして迅速に構築します。必要に応じてカスタマイズできる形で全国に展開します。\n+ * プロトタイプによる仮説検証とOSS化\n+    * デジタル政策の構想段階において、まずプロトタイプを開発し、実現性や運用上の課題を検証します。効果が認められたツールについては、公共的に再利用可能なOSSとして開発・公開します。\n+ * 議員のための情報収集・分析支援機能\n+    * 各府省の資料、過去の国会・委員会の議事録などを横断的に収集・整理し、関連情報を自動的に集約・提示する機能を開発します。忙しい議員が短時間で必要な情報にアクセスできるようにします。\n+ * 技術外交のハブ機能\n+   * エンジニアチームだからこそ可能な“テック外交”を推進します。国内外の技術者コミュニティと連携し、政策立案に必要な知見を得ると同時に、日本発のガバメントテクノロジーのプレゼンスを高めていきます。\n \n ## ２）使いやすい行政を実現します\n \n@@ -131,3 +130,4 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+"
+      "blob_url": "https://github.com/team-mirai/policy/blob/ebb6889ea80ba96b772f8aa954692c99f66fab47/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ebb6889ea80ba96b772f8aa954692c99f66fab47/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=ebb6889ea80ba96b772f8aa954692c99f66fab47",
+      "patch": "@@ -15,37 +15,36 @@\n \n ### 現状認識・課題分析\n \n-* 民間サービスのテクノロジー革新に対し、行政サービスの変化は遅れている  \n-  * 民間企業はテクノロジーを活用して便利で効率的なサービスの提供が進む一方、行政サービスはその進展に追いつけていない状況です。  \n-* 行政の発注は硬直的で、ソフトウェア開発との相性がよくない  \n-  * 政府がソフトウェア発注を行う場合、事前に決めた要件に厳格に適合することが求められるため、柔軟な仕様変更が行えず、かえって余計にコストが発生する可能性があります。  \n-* 国会におけるAI専門家の不足  \n-  * 医療、産業、安全保障など、様々な分野でAIの活用が進み、専門的判断の重要性が増す中、立法・行政の場にAIの専門家は不足しています。\n+* 民間と行政で進む「技術活用のギャップ」\n+  * 民間企業ではテクノロジーを活かしたサービスの高度化が進む一方、行政や立法分野では変化のスピードに課題があり、日常的な利便性の実感に差が出てきています。\n+* 国会・立法府における技術人材の構造的不足\n+  * AIやオープンソースソフトウェア（ソースコードが公開され、誰でも自由に使用、改変、再配布が可能なソフトウェア。以下OSS）の活用が社会の基盤技術となる中、立法や政策設計においても専門的な技術知見が求められています。\n+  * イギリスでは「UK Parliamentary Digital Service（PDS）」がこうした役割を担っており、日本でも常設の技術チームによる支援体制が急がれています。\n+* 国民参加と熟議を支える基盤の未整備\n+  * 政策形成に市民の声を活かすには、意見を集め・整理し・論点化する基盤が必要ですが、現在はその多くが未整備です。多様な意見を構造的に把握・分析するツールの整備が求められています。\n+* 民間サービスのテクノロジー革新に対し、行政サービスの変化は遅れている    \n \n ### 政策概要\n \n-* エンジニアチームの設置  \n-  * 政党交付金を活用し、10名程度のエンジニアや調査員で構成されたチームを設置。政治や行政向けのソフトウェアを迅速に開発し、実装していきます。  \n-  * 世界には社員が数十名程度で企業評価額が10億ドル以上の企業も存在しており、小さなチームでも大きな価値を生み出す活動が可能な見込み  \n-* 行政デジタルツールの開発/運用  \n-  * オンライン熟議の場  \n-    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します  \n-  * 国民の声を効率的に集めるツール  \n-    * パブリックコメント等の大量の意見投稿を効率的に処理できるシステム（例：広聴AI）を開発し、意見の集約をスムーズにします  \n-* 政治資金の流れの公開  \n-  * 政治資金がどのように集まり、どのように使われているのかを、誰でも簡単に確認できる可視化ツールを開発・導入します。\n-  * あわせて、企業・団体からの献金は受け取らず、将来的な制度見直しにも取り組みます。 政党自らがまず行動し、政治資金のあり方を少しずつ見直すことで、より透明で納得感のある政治の実現を目指します。  \n-* 自治体向けアプリの開発支援  \n-  * 各自治体がカスタマイズして使うことができるアプリをオープンソースで開発し、全国的に導入できるように支援  \n-* 迅速なプロトタイプ作成\n-  * 行政が発注しようとするデジタル案件に対して、エンジニアチームが迅速にプロトタイプを作成します  \n-  * 発注前に要件定義の明確化や具体的なイメージをつかみやすくし、必要なときに必要なだけ予算を配分できる仕組みとするとともに、業者や行政の間で共通の理解を形成します  \n-* 他党や自治体と連携\n-  * AI政策についてオープンかつ国民的な検討を進めるためのオープンな超党派議連を立ち上げます。  \n-  * デジタル民主主義2030で構築したいどばたシステムや広聴AI、そしてオフラインでの議論を活用し、新しいオープンな政策立案プロセスを実現し、賛同を得られたものは法案提出を目指します  \n-  * デジタル民主主義2030の活動と同様の形で、他党や自治体の技術導入を中立的立場から支援します  \n-* 開発したツールをOSSとして公開  \n-  * エンジニアチームが開発したツールやシステムはオープンソースとして公開し、誰でも利用・改善できるようにします\n+* 国会にエンジニアチームを設置\n+  * 政党交付金を活用し、10名程度のエンジニアからなる技術チームを国会に設置します。政治・行政向けのソフトウェアや分析ツールを迅速に開発・実装し、立法・政策プロセスの高度化を支援します。\n+  * また、UK Parliamentary Digital Serviceのような先行モデルを参考にしつつ、AI・OSSの専門知見を立法府に常時インプットします。\n+* 行政のデジタルツールをつくる・運用する\n+  * ネット上で話し合える場づくり\n+    * デジタル民主主義2030で採用されている「いどばた」を活用し、市民が自由に意見を出し合えるオンラインの熟議の場を展開します。AIが内容を整理し、論点を明確にすることで建設的な議論を後押しします。\n+  * 声をきちんと受け止めるしくみ\n+    * すでに構築された「広聴AI」を基盤に、パブリックコメントやSNSなどから集まる意見を分類・整理し、政策検討に活かせるよう継続的に運用・改良します。\n+ * 政治資金の流れを市民が追えるツールを活用\n+    * デジタル民主主義2030における「Polimoney」を活かし、国民が政治資金の流れを容易に追跡・分析できる仕組みを導入します。\n+    * あわせて、企業・団体からの献金は受け取らず、将来的な制度見直しにも取り組みます。 政党自らがまず行動し、政治資金のあり方を少しずつ見直すことで、より透明で納得感のある政治の実現を目指します。 \n+ * 自治体で使えるOSSツールの開発\n+    * デジタル庁が進める標準化や共通基盤と競合しないよう配慮しつつ、小規模な自治体でも導入しやすいツール群をOSSとして迅速に構築します。必要に応じてカスタマイズできる形で全国に展開します。\n+ * プロトタイプによる仮説検証とOSS化\n+    * デジタル政策の構想段階において、まずプロトタイプを開発し、実現性や運用上の課題を検証します。効果が認められたツールについては、公共的に再利用可能なOSSとして開発・公開します。\n+ * 議員のための情報収集・分析支援機能\n+    * 各府省の資料、過去の国会・委員会の議事録などを横断的に収集・整理し、関連情報を自動的に集約・提示する機能を開発します。忙しい議員が短時間で必要な情報にアクセスできるようにします。\n+ * 技術外交のハブ機能\n+   * エンジニアチームだからこそ可能な“テック外交”を推進します。国内外の技術者コミュニティと連携し、政策立案に必要な知見を得ると同時に、日本発のガバメントテクノロジーのプレゼンスを高めていきます。\n \n ## ２）使いやすい行政を実現します\n \n@@ -131,3 +130,4 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+"
     }
   ],
   "commits": [
@@ -287,7 +287,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/d70cb0f9230551f26a3152df506f526afb74bd0b"
         }
       ]
+    },
+    {
+      "sha": "ebb6889ea80ba96b772f8aa954692c99f66fab47",
+      "node_id": "C_kwDOOqTJvNoAKGViYjY4ODllYTgwYmE5NmI3NzJmOGFhOTU0NjkyYzk5ZjY2ZmFiNDc",
+      "commit": {
+        "author": {
+          "name": "Taisho241",
+          "email": "58881155+Taisho241@users.noreply.github.com",
+          "date": "2025-06-30T07:28:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T07:28:21Z"
+        },
+        "message": "Update 13_ステップ１行政改革.md",
+        "tree": {
+          "sha": "78fb583db22928fe9c25a62ce2578fd3636d0a54",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/78fb583db22928fe9c25a62ce2578fd3636d0a54"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ebb6889ea80ba96b772f8aa954692c99f66fab47",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYjyVCRC1aQ7uu5UhlAAADHkQAGBIjaqVh0Tl19MF/KFQg8qC\nHQC3HyRESzddsIK0FWQlzns5ba7NfZGOTa/qbS3d8fXx/3nMzLnqIe+YGEGnoqUJ\n2WoxEmyP1JHiPyyi5PN6iYi1jxryqM4LQvxPKDAIbo5jOAE0/e8sxNXhatpI+vQ9\nAlo/XLDkrNdQ3j9T2afyPXQPR4EO3k9nvgCl3B7KhzuxTJ9yJ/8/Pg5MmHfW/R0/\nJLL/LWdA6HMItnyNMYp8evYzjCO5DVMvS/qvksDCEfNZwjpw8GPoM7IRwRxRBc/7\nhxX17Tve4CaKG5AG3fD8+ZPHtu1C8FG1kHJx4EOtrBtDyTeIkXN5yTPAqy0xquRr\nwaSo588VGWJVsUE83kS+U8i1AUw7hzOgJVA72hDu8+HJQssptovddwH5B0v0MiIZ\nRcUCWzLe1pgqZqNz2nh7Ck4IsOr7rzNylQzwT5ZLMDy274fkzGfTkDURUfET3Lmw\nHfxBurY7C0V9Ttx75ABhxtQaVNtT+YhdmYg7yhbJiZMV2TGQTMQKe8+rHL0lvWmj\nT8+NzVswHxkxo7W2W3ABF9ZRmP/ROVPTjpVdH1uVHvZdMvOWJcWbbsmUPwq0Ufsq\njI4cDObzJSIWfXbLzrViLFAbzHXjecTRV2LthVcqId/MkfO88mu1q29uTCzCVYct\n2s9cif6naXw41zyGPRkA\n=dtxS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 78fb583db22928fe9c25a62ce2578fd3636d0a54\nparent 54b80917aebb89665f456238e8d919f80392e2ff\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1751268501 +0900\ncommitter GitHub <noreply@github.com> 1751268501 +0900\n\nUpdate 13_ステップ１行政改革.md",
+          "verified_at": "2025-06-30T07:28:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ebb6889ea80ba96b772f8aa954692c99f66fab47",
+      "html_url": "https://github.com/team-mirai/policy/commit/ebb6889ea80ba96b772f8aa954692c99f66fab47",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ebb6889ea80ba96b772f8aa954692c99f66fab47/comments",
+      "author": {
+        "login": "Taisho241",
+        "id": 58881155,
+        "node_id": "MDQ6VXNlcjU4ODgxMTU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58881155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Taisho241",
+        "html_url": "https://github.com/Taisho241",
+        "followers_url": "https://api.github.com/users/Taisho241/followers",
+        "following_url": "https://api.github.com/users/Taisho241/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Taisho241/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Taisho241/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Taisho241/subscriptions",
+        "organizations_url": "https://api.github.com/users/Taisho241/orgs",
+        "repos_url": "https://api.github.com/users/Taisho241/repos",
+        "events_url": "https://api.github.com/users/Taisho241/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Taisho241/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "54b80917aebb89665f456238e8d919f80392e2ff",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/54b80917aebb89665f456238e8d919f80392e2ff",
+          "html_url": "https://github.com/team-mirai/policy/commit/54b80917aebb89665f456238e8d919f80392e2ff"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-06-23T16:16:30.301911"
+  "collected_at": "2025-06-30T08:19:06.475020"
 }

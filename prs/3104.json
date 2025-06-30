@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 3104,
+    "title": "デジタル技術による政策の効果と進捗および国会の議論と争点の可視化",
+    "state": "open",
+    "created_at": "2025-06-30T08:17:34Z",
+    "updated_at": "2025-06-30T08:17:35Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3104",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "8ab09928ef3c6b9d4281dac9932b0568156a1e7d",
+      "filename": "16_ステップ１デジタル民主主義.md",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 3,
+      "changes": 27,
+      "blob_url": "https://github.com/team-mirai/policy/blob/3e5b9a54e86d3ef6906920d5ff3141065eac21a1/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/3e5b9a54e86d3ef6906920d5ff3141065eac21a1/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=3e5b9a54e86d3ef6906920d5ff3141065eac21a1",
+      "patch": "@@ -7,7 +7,7 @@\n \n 今の投票による間接民主主義は数百年前に出来上がった制度です。当時はインターネットもSNSもAIもありませんでした。SNSの普及などにより、誰もが気軽に意見を発信できるようになった現代において、選挙で代表者を選ぶ方法に加え、従来の陳情のような高いハードルを感じることなく、より多様な民意を個別の政策課題にきめ細かく反映できる仕組みが求められています。今のデジタル技術を使うことによって、より多くの人がより深いレベルでコラボレーションをすることが出来るようになると考えています。\n \n-また、デジタルツールを導入するといっても、最終的な意思決定をAI任せや多数決任せにするというわけではありません。私たちは、政治的意思決定は責任が取れる主体である人間が行うべきであると考えています。\n+また、デジタルツールを導入するといっても、最終的な意思決定をAI任せや多数決任seにするというわけではありません。私たちは、政治的意思決定は責任が取れる主体である人間が行うべきであると考えています。\n \n ## １）AIを活用したパブリックコメントの機能強化\n \n@@ -38,16 +38,37 @@ AIを活用してパブリックコメントの取りまとめをすることに\n \n * 民間や他国で行われているように、クラウド会計ソフト、銀行口座、クレジットカードを紐づけた形で資金の見える化を進める  \n * 政治資金収支報告書を解析し、お金の流れを理解しやすい形で可視化する  \n-  * 『デジタル民主主義２０３０』というOSSをコミュニティで開発している「Polimoney」では、政治資金収支報告書を元に下記のような可視化を行うことができます  \n+  * 『デジタル民主主義２０３０』というOSSをコミュニティで開発している「Polimoney」では、政治資金収-支報告書を元に下記のような可visua化を行うことができます  \n <p align=\"center\">\n   <img src=\"https://github.com/user-attachments/assets/bf5de7d9-c5d6-4eea-8154-579693106340\">\n </p>\n \n+## ３）重要課題の進捗を可視化するダッシュボードの開発\n+\n+### 現状認識・課題分析\n+少子化対策のような国の重要課題に対し、政府がどのような目標を掲げ、どれほどの予算を使い、その結果どうなっているかが国民に見えにくい状況です。企業経営では当たり前のデータに基づいた進捗管理が行政では不十分で、国民が政策の効果を判断し、建設的な議論に参加することが困難になっています。\n+\n+### 政策概要\n+*   政府は、少子化対策などの重要課題ごとに具体的なKPIを設定し、その進捗をリアルタイムで確認できる「行政ダッシュボード」を開発し、国民に公開します。\n+*   このダッシュボードでは、年代別婚姻率や出生数などのマクロ指標から、個別施策の利用状況や成果などのミクロ指標まで可視化します。\n+*   各施策の予算と実績、KPIを紐づけ、効果を客観的に評価できる仕組みを作り、SNS等で情報発信することで、国民による政策議論を促進します。\n+\n+## ４）国会審議の可視化による、議論の質の向上\n+\n+### 現状認識・課題分析\n+現在の国会審議は、やり取りが複雑で、国民にとって議論の論点が何か、誰がどんな根拠で発言しているのかを理解するのが難しい状況です。そのため、国民が建設的な視点で議論に参加したり、議員の活動を正しく評価したりすることが困難になっています。\n+\n+### 政策概要\n+*   国会の議論を全て文字起こしし、オンラインで公開します。\n+*   AIを活用し、各議員の「主張」と「根拠」を明確にした「議論の要約図」を作成し、国民に分かりやすく提供します。\n+*   各議員の発言回数や質問回数といった活動データを集計・公開し、議員個人の貢献度を可視化します。\n+*   これにより、国民は国会の論点を正確に理解し、議員の働きを客観的に評価できるようになります。\n \n ## 補足：『デジタル民主主義2030』とは？\n \n デジタル民主主義2030は安野たかひろが2025年1月に立ち上げたオープンソース開発のコミュニティです。現在も政治的中立を保ちながら活動を進めていきます（中立性維持を構造上可能なようにすべく、安野貴博も2025年5月にボードメンバーを辞しています）。詳細は[こちら](https://dd2030.org/)のページをご確認ください。\n \n ## 補足：Plurality（多元性）について\n \n-Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n\\ No newline at end of file\n+Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "1da556791ed960b8d48ec3ed5e76c771f645c0f1",
+      "node_id": "C_kwDOOqTJvNoAKDFkYTU1Njc5MWVkOTYwYjhkNDhlYzNlZDVlNzZjNzcxZjY0NWMwZjE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-30T08:07:20Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T08:07:20Z"
+        },
+        "message": "おかきさんの提案に基づき、重要課題ダッシュボードの項目を追加",
+        "tree": {
+          "sha": "00ab35bf85c920317d5df559571307a248253181",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/00ab35bf85c920317d5df559571307a248253181"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1da556791ed960b8d48ec3ed5e76c771f645c0f1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYkW4CRC1aQ7uu5UhlAAAbxwQABMXHXfTIYwSWjOOMaTquHXS\nRnbRHHRZ7pdGyYmTIHkN+Wk4fsSz50OHwihY4yM0k6SR7qPtIR/qKwPK9WJgvgpg\nJbj5qlb1znHOKzmcO2XoBzLnWHrlFaDg1CYK2gy80Tk6TnEneMLLzY2Xe0xOxJpr\npizlxQ8jeTkINbgJFLZwnic5bODv5rajBY61MTbmkPKiHvmQfdMV3rvgRjKHZKI3\nbbuT+ymNP2zhc6lpWsMEJ4AvIeHZcnnEXyv+KW/J+sLuxlhVCXUZugZdXTuhgeB0\nesl49sEhx0/+fgo/vx56W3ZXVFirS4x/qWdPlc2gKfw9RpCyCOvwDheu675rrD1a\nT9Sj0bznAjxwBPLbmODklyl5/F9OxUhw7RwkPICRqfdujrHMnKANAUtxqih1gFxl\nuk8CvkvYX7DydSieTCW5FCXgS+wmQfRtesGMMFgyXWDX8HxlPc0+uYDSv44zsdRA\nGiZa0ywjRpcEoiGr6YohzER3c64sX1G+kUs1CiMRIxgU06Ap/6IBwmFDu/Wek3ij\n2p6RAgRVWKS23x1UJb5O8zS0Ca1c7e3qpa51Z1T2KcLS3nZA4/HKzykEFYpZ/7aL\n/G7l6bZsPAi5gcaTb6+8SWiYU8++MWzTA66FyNWcjMChrfd08cy2pqy+iovkK6+E\nVu5Hn2AkB92IkCS+Is0X\n=N9n5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 00ab35bf85c920317d5df559571307a248253181\nparent d3b7c0b38e4696324119209f370c9d467ddae568\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751270840 +0000\ncommitter GitHub <noreply@github.com> 1751270840 +0000\n\nおかきさんの提案に基づき、重要課題ダッシュボードの項目を追加",
+          "verified_at": "2025-06-30T08:07:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1da556791ed960b8d48ec3ed5e76c771f645c0f1",
+      "html_url": "https://github.com/team-mirai/policy/commit/1da556791ed960b8d48ec3ed5e76c771f645c0f1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1da556791ed960b8d48ec3ed5e76c771f645c0f1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d3b7c0b38e4696324119209f370c9d467ddae568",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d3b7c0b38e4696324119209f370c9d467ddae568",
+          "html_url": "https://github.com/team-mirai/policy/commit/d3b7c0b38e4696324119209f370c9d467ddae568"
+        }
+      ]
+    },
+    {
+      "sha": "3e5b9a54e86d3ef6906920d5ff3141065eac21a1",
+      "node_id": "C_kwDOOqTJvNoAKDNlNWI5YTU0ZTg2ZDNlZjY5MDY5MjBkNWZmMzE0MTA2NWVhYzIxYTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-06-30T08:14:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-06-30T08:14:24Z"
+        },
+        "message": "おかきさんの提案に基づき、「重要課題のダッシュボード開発」と「国会審議の可視化」の項目を追加",
+        "tree": {
+          "sha": "05e24a4e7033739da93509594390872b6f666150",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/05e24a4e7033739da93509594390872b6f666150"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3e5b9a54e86d3ef6906920d5ff3141065eac21a1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYkdgCRC1aQ7uu5UhlAAAT70QAEExnVObMj65AVV0HYL7KKqj\njIaVbUcaB0CfUiJqm7ihrXrkIFAMMlrn6J6Z/xtmMGR9olZ8lDrwl4fxJAqifJqH\nx1QtGy+ZVAeunvd4Ukp6jEtQx2rKhmYtpxhy+1+m383YJfi0pItp94znMq1qW8+5\nUFKGtOAndIVNdE5f5T46reDshk/5nAk/y3t1NY8UPl4yYTGbIXjmT4YlzZAHhE+n\nwo5HB8kJP6zJgeJxT6FTxcy6Oc6210Sd3uzL1mDAwElefk+55jh9oCcNgzdKFwcq\ncphw8ul9k07TOFrEQfAUIDnDchEHOpftdy11pPdnr6N9EDLe6Sy52eRGhfBwiPNw\n3RdP77M/n3iRbsoFdzYqdBr6TcRjWHtwLuVX0luvacAqlLkJUQOAa/RhgQy3hFey\nFtmcOgc7NE9QBbiGbTFDujVGHVBcRtLQ4Q3Jx8gn+UHDIdL1kFIiS+jtUu/p3Qt2\nhHCSlsam1PGxEm9vSLpC5CB5eXxj+ZwzEe3NZhCTt6dRztASdSZK7aBaE1Se/Qv8\nMwdV/VNKExNpVBzVNWszmXE9qsFCoNF+N9nrrRI2kUOGw0pAHHdkt1X8b0+C0QjW\nsk5utgyoI2qwYoLQ2s1l+D2irw6LRh36aKeF8uKSo6kwIQWapGsrPUROCzr7JgIt\n/NyEU55ykMOxtY90G5Rv\n=LDqV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 05e24a4e7033739da93509594390872b6f666150\nparent 1da556791ed960b8d48ec3ed5e76c771f645c0f1\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751271264 +0000\ncommitter GitHub <noreply@github.com> 1751271264 +0000\n\nおかきさんの提案に基づき、「重要課題のダッシュボード開発」と「国会審議の可視化」の項目を追加",
+          "verified_at": "2025-06-30T08:14:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3e5b9a54e86d3ef6906920d5ff3141065eac21a1",
+      "html_url": "https://github.com/team-mirai/policy/commit/3e5b9a54e86d3ef6906920d5ff3141065eac21a1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3e5b9a54e86d3ef6906920d5ff3141065eac21a1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1da556791ed960b8d48ec3ed5e76c771f645c0f1",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1da556791ed960b8d48ec3ed5e76c771f645c0f1",
+          "html_url": "https://github.com/team-mirai/policy/commit/1da556791ed960b8d48ec3ed5e76c771f645c0f1"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-06-30T08:18:29.940961"
+}
