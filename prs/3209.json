@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 3209,
+    "title": "誰もが安心して住み続けられるための住宅支援の強化",
+    "state": "open",
+    "created_at": "2025-07-01T17:05:27Z",
+    "updated_at": "2025-07-01T17:05:28Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3209",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "ee1bd0ca7ecaced71d33f8ee2d8a71e7ad3f0192",
+      "filename": "18_ステップ１福祉.md",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 10,
+      "changes": 27,
+      "blob_url": "https://github.com/team-mirai/policy/blob/d774df2cbb1d7f784453756bbe9b104e60448d5b/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/d774df2cbb1d7f784453756bbe9b104e60448d5b/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md?ref=d774df2cbb1d7f784453756bbe9b104e60448d5b",
+      "patch": "@@ -50,7 +50,7 @@\n * 福祉制度の説明・申請のすべての段階において、情報へのアクセスを保障するための表現工夫を制度化します。具体的には以下の取り組みを推進します：\n   * 行政サイト、パンフレット、申請書類などに、**やさしい日本語・ルビ付き文章・図解・ピクトグラム**など、複数の表現手段を併記し、誰もが制度の内容を理解しやすくします。\n   * 情報発信において、**ふりがな（ルビ）をつけた文章の提供**を標準化し、読字に困難のある方や小学生程度の漢字力の方にも情報が届く設計にします。\n-  * オンライン申請や情報検索を支援する**AIチャットボット**に、**わかりやすい言葉への変換モードや、音声読み上げ・対話型案内との連携**を実装します。\n+  * オンライン申請や情報検索を支援する**AIチャットボotto**に、**わかりやすい言葉への変換モードや、音声読み上げ・対話型案内との連携**を実装します。\n   * 各自治体のポータルサイトや申請窓口に「この説明をわかりやすく読む」ボタンを常設し、すぐに**やさしい表現やルビ付きのページに切り替えられる仕組み**を整備します。\n   * 表現整備の過程では、言語支援の専門家のみならず、実際に制度を使いにくかった当事者の声を反映させ、実効性のある「使える情報」を制作します。\n \n@@ -61,18 +61,23 @@\n \n ### 現状認識・課題分析\n \n-* 福祉サービスを受けるための認定基準が自治体により異なることが指摘されています。障害年金の認定状況の調査によると、新規の不支給率が増加しています。特に精神障害は客観的指標による評価が難しく、障害等級の目安より下位等級に認定され不支給となってしまうケースがあります。  \n-* また、その認定に必要な書類や手続きの煩雑さから、職員の業務負荷が膨大になっています。特に生活保護業務は多様化・複雑化し、ケースワーカーの業務負担が大きく、人材確保や専門性の維持が課題となっています。\n+*   福祉サービスを受けるための認定基準が自治体により異なることが指摘されています。障害年金の認定状況の調査によると、新規の不支給率が増加しています。特に精神障害は客観的指標による評価が難しく、障害等級の目安より下位等級に認定され不支給となってしまうケースがあります。\n+*   また、その認定に必要な書類や手続きの煩雑さから、職員の業務負荷が膨大になっています。特に生活保護業務は多様化・複雑化し、ケースワーカーの業務負担が大きく、人材確保や専門性の維持が課題となっています。\n+*   **日本の賃金水準が上昇する中で、公営住宅の収入基準が据え置かれているため、わずかな収入増で退去を余儀なくされ、かえって生活が不安定になるケースが発生しています。特に、障害のある方は治療や支援に費用がかかる現実があるにもかかわらず、収入額だけで判断されるため、就労意欲の低下にもつながっています。**\n+*   **障害があることを理由に、民間の賃貸住宅の入居を断られたり、住宅ローンの審査で不利になったりするなど、住まいの選択肢が著しく制限されるという根深い課題があります。**\n \n ### 政策概要\n \n-* AI活用により、障害年金支給判定プロセスにおける透明性と公平性を確保します  \n-  * 特に客観的指標による判断が難しい精神障害に関して、AIを用いて判定基準を明確化、透明化します。  \n-  * AIを活用して一次判定を行うことで、審査の標準化や地域差の解消、バイアスの排除を行います。AIによるデータチェックや自動入力、計算ミスの防止など、審査業務の自動化によってヒューマンエラーを減らし、正確性が向上させます。  \n-  * AIによる認定結果や不支給事案の分析を継続的に行い、制度運用の課題や改善ポイントを可視化します。  \n-* 生活保護費の算定やデータ入力作業をデジタルで効率化し、職員やケースワーカーの業務負担を削減します  \n-  * 資産調査を電子化し、AIを導入して行うことで、職員の業務負担の削減と、迅速な支給認定手続きを実現します。  \n-  * ケースワーカーの生活保護業務に関しても紙媒体ではなく電子化を進め、事務の効率化、データを活用しより適切な支援を提案できる仕組みを構築します。\n+*   AI活用により、障害年金支給判定プロセスにおける透明性と公平性を確保します\n+    *   特に客観的指標による判断が難しい精神障害に関して、AIを用いて判定基準を明確化、透明化します。\n+    *   AIを活用して一次判定を行うことで、審査の標準化や地域差の解消、バイアスの排除を行います。AIによるデータチェックや自動入力、計算ミスの防止など、審査業務の自動化によってヒューマンエラーを減らし、正確性が向上させます。\n+    *   AIによる認定結果や不支給事案の分析を継続的に行い、制度運用の課題や改善ポイントを可視化します。\n+*   生活保護費の算定やデータ入力作業をデジタルで効率化し、職員やケースワーカーの業務負担を削減します\n+    *   資産調査を電子化し、AIを導入して行うことで、職員の業務負担の削減と、迅速な支給認定手続きを実現します。\n+    *   ケースワーカーの生活保護業務に関しても紙媒体ではなく電子化を進め、事務の効率化、データを活用しより適切な支援を提案できる仕組みを構築します。\n+*   **誰もが安心して住み続けられるための住宅支援を抜本的に強化します**\n+    *   **公営住宅について、近年の賃金上昇などを踏まえた収入基準の柔軟な見直しを行います。また、住宅が不足している地域を中心に供給数を増やし、障害者や低所得者が安定した住まいを確保できるセーフティネットを再構築します。**\n+    *   **障害のある方が民間賃貸住宅を借りやすくなるよう、入居差別の解消に向けた法整備や、家賃保証制度の利用支援を強化します。また、金融機関と連携し、障害を理由に住宅ローン審査で不利益を被ることのないよう、公正な審査を促す仕組みを構築します。**\n \n ## ４）切れ目ない福祉支援を提供する、ワンストップデジタル福祉パスポートを実現します\n \n@@ -100,3 +105,5 @@\n ### 政策概要\n \n オンライン診療に関する詳細は[こちら](https://github.com/team-mirai/policy/blob/main/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md)をご覧ください。\n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "d90f1d9b5e54a196e545d4c65cb3268e172cfeca",
+      "node_id": "C_kwDOOqTJvNoAKGQ5MGYxZDliNWU1NGExOTZlNTQ1ZDRjNjVjYjMyNjhlMTcyY2ZlY2E",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-01T17:01:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-01T17:01:33Z"
+        },
+        "message": "sakiさんの提案を反映し、住宅支援策を追記",
+        "tree": {
+          "sha": "462936bfc66f387859e7ddd7141baaacd0a9c9fc",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/462936bfc66f387859e7ddd7141baaacd0a9c9fc"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d90f1d9b5e54a196e545d4c65cb3268e172cfeca",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZBRtCRC1aQ7uu5UhlAAAb6UQAFeNVuCOVjX3m1LDvvHWPlXL\nR5SIw3ueovtVus8x5zArdG1W9qWcmG40QUkf0OqA75HGe/CGaL2JqSlcuPTXPLry\nasLLlHmkooNxWT5BvNHk4yNHpHk6/lp240epflTBVVG78HB64tLOWV6H2++v2FPU\n4ApLbPIdrSRsGK3egv20LZcOrmbqkq47jo8pa44giZtPPUKizCU6jdIx9csXT1P8\nTrZ9mw0sxnq6oldcN3ETtyv1LCqJphK816GuC47AZlAz0diifwmXA/0p5uRS2yCs\nX0PI1lsQaWKCDV9f9Kl+LsSBNJEvCvwWg33kmS6DEfYjsPji3N94tgFX04HbpKAJ\nUZ0yrojGXIRzTSljX8/hrZjXqFguLmNucQ7HxdoPIDb55a2q3Q9BheUAlHv2c5Lm\nfZSg+dfd9GInSv9RdOKT/+jZXslyDuqlvJbsm3ND9u4hCNMC9sGOxXMpGPLDnD+R\nwzKA7ahbCPzgsslWXjE4K67NC4JsXcWg2oy5ApyGrihavKv1HCY7QUXkaqEMUlN+\nonXx0r4eNLvtPjOtV/CWLnGWG6tugmQPIfUVveXnFbtwDEBw9g2UaUJo0xYXOyJ+\nXbSbw/MzwFJlVDzvSxHfWyQMs+Zig2Xd1s5I7STGuq5+slrGUFxVh21fiLZOVRkk\n12qoFvr/qMglW7rG/Nv1\n=WoCd\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 462936bfc66f387859e7ddd7141baaacd0a9c9fc\nparent 0f7ac8d28ef0b1535607d896ccb20fb07c03c064\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751389293 +0000\ncommitter GitHub <noreply@github.com> 1751389293 +0000\n\nsakiさんの提案を反映し、住宅支援策を追記",
+          "verified_at": "2025-07-01T17:01:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d90f1d9b5e54a196e545d4c65cb3268e172cfeca",
+      "html_url": "https://github.com/team-mirai/policy/commit/d90f1d9b5e54a196e545d4c65cb3268e172cfeca",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d90f1d9b5e54a196e545d4c65cb3268e172cfeca/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0f7ac8d28ef0b1535607d896ccb20fb07c03c064",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0f7ac8d28ef0b1535607d896ccb20fb07c03c064",
+          "html_url": "https://github.com/team-mirai/policy/commit/0f7ac8d28ef0b1535607d896ccb20fb07c03c064"
+        }
+      ]
+    },
+    {
+      "sha": "d774df2cbb1d7f784453756bbe9b104e60448d5b",
+      "node_id": "C_kwDOOqTJvNoAKGQ3NzRkZjJjYmIxZDdmNzg0NDUzNzU2YmJlOWIxMDRlNjA0NDhkNWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-01T17:04:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-01T17:04:23Z"
+        },
+        "message": "sakiさんの提案に基づき、福祉政策に住宅支援の強化を追記",
+        "tree": {
+          "sha": "77002f1d14c8c1de24f47752807c759d10980ce0",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/77002f1d14c8c1de24f47752807c759d10980ce0"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d774df2cbb1d7f784453756bbe9b104e60448d5b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZBUXCRC1aQ7uu5UhlAAA5lIQAJcrNgHK5FnYTZyOR7sVoO8M\nOm9HsRvV2t0hmKGSR4fqErfmWGATz4dyAIyDK4BxG1JSrtcr2lnezSCtvGmBxb0I\nJ7uqptb2QBRLDJofslLz+FOyaNbFvbKL1Ttn0lTs7YnZsXNKZMsUvtnMQ3gyTkEZ\nJ1Kh7zIVvwRzZAC/Dyev1x7bJ8lDTuxBUcK7bG81SExzmxqDkbRy4RHx+7BQ10iQ\nzwK3qUiLKwCs9b9g8kBwsBuxdKBNaZ0r6JL0+OQpDq7GGCcOBeyCl2C8iDY3sdzR\n2H5LZMgamo4TbKIIgOOM5QrutOSqQEu5Li3+8rJf5q4swycw3H6t/U399Wyjz7i+\njPDV6zKzBRyaNXCe4t6FdXIinCAUUw5X+cXiALiyev3HJgbx2/EdNsAqTsiPPguK\nU+IAitM7S8psp6xzxOQO8X0vFIlw7d8s0AMnWEvrjQMAvOw87K0lPSss6QHuovmB\n6XooWzQayVA9scsUvxMIkV4M+sFzZK3ahApgG/Ywiv2SYNVkwnofasZ8xGqv+Tid\nkDeo2uxxKeBN3N7PGSVYFk/XgBil0he5fWRAIFF8zX8BW4PFTgWq9l9xJcbMYCS/\nrJe4nEVNO1NeYz9rCJGbt/VWLlozNMtdgriFBf/dtAYKSVtWr4zk1aD1uecmf9XM\n5atHPv6L5pGSlaQFtgIY\n=DKFH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 77002f1d14c8c1de24f47752807c759d10980ce0\nparent d90f1d9b5e54a196e545d4c65cb3268e172cfeca\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751389463 +0000\ncommitter GitHub <noreply@github.com> 1751389463 +0000\n\nsakiさんの提案に基づき、福祉政策に住宅支援の強化を追記",
+          "verified_at": "2025-07-01T17:04:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d774df2cbb1d7f784453756bbe9b104e60448d5b",
+      "html_url": "https://github.com/team-mirai/policy/commit/d774df2cbb1d7f784453756bbe9b104e60448d5b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d774df2cbb1d7f784453756bbe9b104e60448d5b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d90f1d9b5e54a196e545d4c65cb3268e172cfeca",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d90f1d9b5e54a196e545d4c65cb3268e172cfeca",
+          "html_url": "https://github.com/team-mirai/policy/commit/d90f1d9b5e54a196e545d4c65cb3268e172cfeca"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-01T17:11:55.669330"
+}
