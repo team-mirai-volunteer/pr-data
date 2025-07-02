@@ -4,7 +4,7 @@
     "title": "オンライン投票の導入による投票率向上",
     "state": "open",
     "created_at": "2025-07-02T07:04:13Z",
-    "updated_at": "2025-07-02T07:04:14Z",
+    "updated_at": "2025-07-02T07:22:11Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/3258",
@@ -15,7 +15,53 @@
     }
   },
   "labels": [],
-  "comments": [],
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3026746854",
+      "html_url": "https://github.com/team-mirai/policy/pull/3258#issuecomment-3026746854",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/3258",
+      "id": 3026746854,
+      "node_id": "IC_kwDOOqTJvM60aH3m",
+      "user": {
+        "login": "nook42",
+        "id": 57973908,
+        "node_id": "MDQ6VXNlcjU3OTczOTA4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/57973908?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/nook42",
+        "html_url": "https://github.com/nook42",
+        "followers_url": "https://api.github.com/users/nook42/followers",
+        "following_url": "https://api.github.com/users/nook42/following{/other_user}",
+        "gists_url": "https://api.github.com/users/nook42/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/nook42/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/nook42/subscriptions",
+        "organizations_url": "https://api.github.com/users/nook42/orgs",
+        "repos_url": "https://api.github.com/users/nook42/repos",
+        "events_url": "https://api.github.com/users/nook42/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/nook42/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2025-07-02T07:22:11Z",
+      "updated_at": "2025-07-02T07:22:11Z",
+      "author_association": "NONE",
+      "body": "提案者本人です。\r\n「脅迫による投票強要の防止」について補足させていただきます。\r\n\r\n一般的に「**何度でも修正投票できる**」方式では脅迫投票のリスクを解決することはできないと考えています。なぜなら「投票期限ギリギリに投票を強制され、期限がすぎるまで監視される」という方法で投票を強制させることが可能だからです。投票期限を個々人でバラバラにすることで一定のリスク軽減にはなりますが、投票期限は少なくとも本人には明示する必要がある以上、完全な解決手段にはなりません。\r\n\r\nしかし、本提案の「**最初の一回のみを有効とする**」方式では完全な解決が可能だと思います。\r\nすでに投票済みかどうかはUX上わからないようにすれば、脅迫者が有効な投票かどうかを確認出来る術はありません。\r\nまた「投票開始時刻直後に投票を強制される」というリスクはありますが、これは「投票者本人にも開始時刻がランダムでわからない」ようにすることで解決できます。脅迫者は投票者を一日中監視しなければ投票を強制できないのでコスト合理性がありません。\r\n「脅迫者が投票者のスマホとマイナンバーカードを投票開始日に没収して投票する」という方法もありますが、それはすでに犯罪になるし、指紋認証・顔認証などを実装しておけば防止可能だと思います。",
+      "reactions": {
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3026746854/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null
+    }
+  ],
   "review_comments": [],
   "files": [
     {
@@ -197,5 +243,5 @@
       ]
     }
   ],
-  "collected_at": "2025-07-02T07:13:19.152899"
+  "collected_at": "2025-07-02T08:18:23.781808"
 }
