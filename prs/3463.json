@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 3463,
+    "title": "高機能な義肢への保険適用と購入支援制度の提案",
+    "state": "open",
+    "created_at": "2025-07-03T18:58:53Z",
+    "updated_at": "2025-07-03T18:58:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3463",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "13976b36fb9c26c2ec80318a0039ceac40c9d590",
+      "filename": "24_ステップ２医療.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "changes": 9,
+      "blob_url": "https://github.com/team-mirai/policy/blob/4fe061b9ef02b9ef58b60709199dc94225e26c3f/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/4fe061b9ef02b9ef58b60709199dc94225e26c3f/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=4fe061b9ef02b9ef58b60709199dc94225e26c3f",
+      "patch": "@@ -20,13 +20,16 @@\n * 一方で、OECDの報告では国際的に医療費のおよそ２割が健康成果に直結していない可能性を示しており、日本でも自然治癒が見込め重篤性の無い疾患に対しての処方や類似したい検査の重複など本質的な価値に乏しい医療が発生していることは否定できません。  \n * 2022年度に242の急性期病院を対象に行われた調査では30種を超える診療行為を健康成果に直結しない医療と定義し、それらによる医療費が同施設の医療費の0.23〜0.51％を占めるとされました。これは、同期間の医療費に単純換算すると約3,000〜7,000億円規模に達すると試算されています。  \n * 現在、国民医療費は2022年度に46兆円を超えましたが、少子高齢化と高度医療の進展により今後も増えていくことが予想されています。そのため、医療費全体を抑制する施策とともに医療の成果にも着目した財源配分の検討が必要です。\n+* 他方で、筋電義手のように生活の質を大きく向上させる高機能な義肢などが保険適用外となり普及が進まないといった課題も存在します。\n \n ### 政策概要\n \n * 診療行為のエビデンス、費用対効果や重症度に基づく自己負担割合の複数段階化を検討します  \n   * 現在の健康保険法や高齢者医療確保法では、年齢による自己負担割合が言及されていますが、医療価値に応じた負担区分の段階化が可能となるよう、これらの法改正を検討します  \n   * 現在の診療報酬システムでは、医療機関が審査支払機関に請求する診療報酬のみが設定されていますが、診療内容による自己負担割合の影響についても制度に組み込みます  \n-  * 上記の緻密な診療報酬制度を構築するため、全国医療データベース（NDB）に蓄えられた診療実績を解析し、柔軟に機動的に診療行為の有効性、費用対効果について議論するための基盤を整備します  \n+  * 上記の緻密な診療報酬制度を構築するため、全国医療データベース（NDB）に蓄えられた診療実績を解析し、柔軟に機動的に診療行為の有効性、費用対効果について議論するための基盤を整備します\n+* 生活の質（QOL）を大幅に向上させる高機能な義肢などについて、保険適用を積極的に検討します\n+* あわせて、高機能な義肢の購入を支援するため、低金利での融資制度や基金の設立を検討します\n * 制度の複雑化による医療の現場や審査機関での事務処理の複雑化を解消するための仕組みの開発および導入を支援します  \n   * 診療報酬制度の複雑化により、医療機関の窓口での計算もより複雑になります  \n   * 医療機関への負担、サービスの質の低下を避けるために、電子レセプトに連携し窓口で即時に自己負担額が算出できるAI、システムの開発を支援します  \n@@ -44,7 +47,7 @@\n ### 現状認識・課題分析\n \n * 日本では医療費の約3割が、糖尿病・COPD・心不全などの慢性疾患に費やされています  \n-* 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言い難い側面がある  \n+* 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言いがたい側面がある  \n   * 現行の医療制度は行われた処置・診察の回数に応じて診療報酬が設計されており、疾患コントロールが改善したことに対するインセンティブは設計されていない  \n   * 糖尿病や高血圧、脂質異常症などの慢性疾患の多くは重症化し、虚血性心疾患などのイベントが発生するまで、自覚症状に乏しいことも多く、患者サイドにも治療を強化し、積極的に状態をよくしようと動機づけしにくい場合がある  \n * 海外では、治療成果に応じて報酬が支払われる制度が導入され、一定の課題が示されつつも医療の最適化と費用削減を両立が期待されています\n@@ -58,4 +61,4 @@\n   * アウトカム評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます  \n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n-  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "4fe061b9ef02b9ef58b60709199dc94225e26c3f",
+      "node_id": "C_kwDOOqTJvNoAKDRmZTA2MWI5ZWYwMmI5ZWY1OGI2MDcwOTE5OWRjOTQyMjVlMjZjM2Y",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-03T18:57:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-03T18:57:58Z"
+        },
+        "message": "凪さんの提案に基づき、高機能な義肢の保険適用と購入支援に関する内容を追記",
+        "tree": {
+          "sha": "68237304b1feceaaf4b8a2cd79143382ca4d413e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/68237304b1feceaaf4b8a2cd79143382ca4d413e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/4fe061b9ef02b9ef58b60709199dc94225e26c3f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZtK2CRC1aQ7uu5UhlAAA0J4QAB03vhP72UVwLatrTrhKAxRM\nwLFmLBf2Z+HHHbS/GTBn8c1v0h9gc4ddoR38fFURrk39oQRiBkgeLdmhUynTi9VJ\nChUjF3mCDpzKxOYy6PBhMwm9lKsZXZDgDEocuccGvHvCGvOMSUkLim2sWcoVNqr4\nCgQDilOdPrkLaWWOzuXqgXFUXD8qDjXoJpccQyuIRWgastbYAQWSPBage+/QAcWT\nVSKUQJ0kRW/2J1jFlGbS53SGvibaB/UgM7lX8jafFgge4NxnSPJnghGcnO4KGIHt\n+88oM1RbUUkQO2cBoYcglYVsWWx6FYR0Oq2Veuo0Hiy1+nchKzDxZGiULrHwHAqK\n9gIDruIZdZ4wBYtQPEiC/1rfhdoJzlUwed/RC/CQpJGWuGdFc6G7isMhW8EXjtK/\nOGzLi2ocPZuDbef65dos2D4xRUaw3luPFZYbjUpDgSlQtFCfg4HeP9tgp8G82Trw\nY8wPPWIVTMAqHiVVho8twLmdcSAzCX2Hpqos9/rMkaKH/eSaqRtTkqn3vSp8XrEG\nneX8dYiMg+HGbH+n15I6RZjYRk+vNiZja04UIqtx0I0335XoFo9vHsYqu8fvCDbR\n17S6iifknE72I/IDyfFlcX17FDABKFNXNj4fvNiBapxWVUOvrQHDy3SiWK4J7KYM\nmeU3KQppBvHVJRcVz/Du\n=zD9X\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 68237304b1feceaaf4b8a2cd79143382ca4d413e\nparent 98db61b2cdd1f59b2eefcafa0c7d5c4f03cfcef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751569078 +0000\ncommitter GitHub <noreply@github.com> 1751569078 +0000\n\n凪さんの提案に基づき、高機能な義肢の保険適用と購入支援に関する内容を追記",
+          "verified_at": "2025-07-03T18:57:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/4fe061b9ef02b9ef58b60709199dc94225e26c3f",
+      "html_url": "https://github.com/team-mirai/policy/commit/4fe061b9ef02b9ef58b60709199dc94225e26c3f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/4fe061b9ef02b9ef58b60709199dc94225e26c3f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "98db61b2cdd1f59b2eefcafa0c7d5c4f03cfcef0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/98db61b2cdd1f59b2eefcafa0c7d5c4f03cfcef0",
+          "html_url": "https://github.com/team-mirai/policy/commit/98db61b2cdd1f59b2eefcafa0c7d5c4f03cfcef0"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-03T19:09:48.550584"
+}
