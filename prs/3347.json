@@ -1,0 +1,611 @@
+{
+  "basic_info": {
+    "number": 3347,
+    "title": "【sbbさん提案】科学技術分野：国産クラウドインフラの戦略的育成",
+    "state": "open",
+    "created_at": "2025-07-03T06:31:04Z",
+    "updated_at": "2025-07-03T06:31:05Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3347",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "d3cf7806abc49d68cb6bc6d6aade241d2acbc367",
+      "filename": "33_ステップ３科学技術.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 3,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/beb9e452ef0ab215b605c67c523ef4cfad019a0f/33_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/beb9e452ef0ab215b605c67c523ef4cfad019a0f/33_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/33_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md?ref=beb9e452ef0ab215b605c67c523ef4cfad019a0f",
+      "patch": "@@ -123,6 +123,7 @@\n * 特に、「技術的な強みがある」「将来の産業競争力の鍵である」「安全保障と直結する」を満たす技術については世界と競争可能な領域に達す可能性が十分にあり、集中的に支援する必要があります\n * AIによる研究の自動化（ラボオートメーション）の動きが加速する中、日本政府でも積極的にラボオートメーションへの投資を進めることで、研究の生産性を向上します\n   * 政府では2024年から科学研究向けＡＩ基盤モデルの開発・共用（ＴＲＩＰ－ＡＧＩＳ）を開始していますが、こうした動きをさらに加速し、現場導入を進める必要があります\n+* AI活用等の根幹であるクラウドインフラの海外依存は、経済安全保障やデータ主権の観点から大きなリスクである。\n \n ### 政策\n \n@@ -151,7 +152,8 @@\n   * サイバーセキュリティ  \n     * すべての産業において不可欠な基盤技術  \n     * 重要インフラ（電力、通信、金融など）防御が国益に直結  \n-    * 日系企業の海外展開において、セキュリティレベルの高さは競争優位性になりうる  \n+    * 日系企業の海外展開において、セキュリティレベルの高さは競争優位性になりうる\n+  * 国産クラウドインフラ：海外への過度な依存から脱却し、国内ベンダーのリソースを結集させ、インフラ（基盤）レイヤーで世界と競争できる企業を育成する。\n * 分野ごとに官民連携の「技術育成ファンド・成長会議」を設置し、技術評価、ロードマップ策定、投資優先順位付け、規制改革の議論を一体的に行います  \n * 安定的・継続的に資金が供給されるよう「戦略技術特化型予算枠」を中期財政計画に組み込みます  \n * 民の知的資本（人材・知財・設備）を集中投下できる技術特区を導入します  \n@@ -168,5 +170,4 @@\n * 大学・科学技術領域へ篤志家からの寄付を集める仕組みとして、アメリカのドナー・アドバイズド・ファンド（DAF）を参考に日本版DAFをつくることはできないか。\n * DAFは篤志家が自ら財団法人などを立ち上げることなく、寄付の運用や寄付先の選定に関与できる寄付の枠組みである。アメリカでは DAF を活用して大学へ寄附を行った場合にも税控除を受けることができる。\n * そのため、日本でも DAF を活用し、大学への寄附集めをできる制度を整えることで、より積極的に大学の教育・研究 へ市民からの資金を還元することができるのではないかと考えられる。\n-  * 参考：一般社団法人社会変革推進財団レポート　https://www.siif.or.jp/wordpress/wp-content/uploads/2021/02/%e3%80%90%e6%9c%ac%e7%b7%a8%e3%80%91%e6%96%b0%e3%81%97%e3%81%84%e3%83%95%e3%82%a3%e3%83%a9%e3%83%b3%e3%82%bd%e3%83%ad%e3%83%92%e3%82%9a%e3%83%bc%e3%82%92%e7%99%ba%e5%b1%95%e3%81%95%e3%81%9b%e3%82%8b%e3%82%a8%e3%82%b3%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%aa%bf%e6%9f%bb%ef%bd%9e%e5%af%8c%e8%a3%95%e5%b1%a4%e3%81%ae%e6%84%8f%e5%bf%97%e3%81%82%e3%82%8b%e8%b3%87%e7%94%a3%e3%82%92%e7%a4%be%e4%bc%9a%e3%81%ab%e7%94%9f%e3%81%8b%e3%81%99%ef%bd%9e.pdf\n-\n+  * 参考：一般社団法人社会変革推進財団レポート　https://www.siif.or.jp/wordpress/wp-content/uploads/2021/02/%e3%80%90%e6%9c%ac%e7%b7%a8%e3%80%91%e6%96%b0%e3%81%97%e3%81%84%e3%83%95%e3%82%a3%e3%83%a9%e3%83%b3%e3%82%bd%e3%83%ad%e3%83%92%e3%82%9a%e3%83%bc%e3%82%92%e7%99%ba%e5%b1%95%e3%81%95%e3%81%9b%e3%82%8b%e3%82%a8%e3%82%b3%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0%e3%81%ab%e9%96%a2%e3%81%99%e3%82%8b%e8%aa%bf%e6%9f%bb%ef%bd%9e%e5%af%8c%e8%a3%95%e5%b1%a4%e3%81%ae%e6%84%8f%e5%bf%97%e3%81%82%e3%82%8b%e8%b3%87%e7%94%a3%e3%82%92%e7%a4%be%e4%bc%9a%e3%81%ab%e7%94%9f%e3%81%8b%e3%81%99%ef%bd%9e.pdf\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "434262ec970fbabc5cbee337cf9602c358a858fd",
+      "node_id": "C_kwDOOqTJvNoAKDQzNDI2MmVjOTcwZmJhYmM1Y2JlZTMzN2NmOTYwMmMzNThhODU4ZmQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-03T06:10:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-03T06:10:33Z"
+        },
+        "message": "sbbさんの提案に基づき、国産クラウドインフラに関する課題と政策を追加",
+        "tree": {
+          "sha": "ef83122bf77290e06a7c8f69405ae9fa8a58b012",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ef83122bf77290e06a7c8f69405ae9fa8a58b012"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/434262ec970fbabc5cbee337cf9602c358a858fd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZh7ZCRC1aQ7uu5UhlAAA+FkQACz6MJeNAaeAl8LrRqB+EOHZ\nL2cmzD0TYpgsrnWyeXF5NFKWt0C7PwCET1JZiYltAtF2UEo4yqSg/Np2wKrvBQxm\nHLtsRhi4OTwqkwubVhV6zH1Kp0HGJOS/MkX9F3yvQ5QCLk8IM2RuQXXmYCO8h/BK\njT+a9yN1jTR8lC9uTTiXQyalBCFfEu9q+o9nc6eD6QuJ5iqT1WaXP4COgTZ36fqu\n+BA80VKEwBiPCOkhJEkL6QzqtgLtaFn0/4Knx+5P5WAoLFffGrwNH7kvY3Ki2mmR\nhyticnGKYi2H0woQs6bBMkRsZiNSO/bbsUavs4Be16VkDXif5PdIjb3frNFZATFK\n9PdMp3h0AGRi8JtlV17csAZDd2O63qr5c3mhSpFRz7fGWCh0J9V3M7aMgyLh1sgq\nSSDHJKaFWArlj/MUb6H7QazhwHRFFh8MgcZc+LUyrptEdCswC6DcqXaqwz8ibNep\n9bK0fqxKauqnQFobXP8pVFroH8JfF2YIUwJY7YkAuP+Rf2jISKoh6iJ15T44hXHe\n+Xrn25pIho324CcDrmbdE0R1MotGgZHllV+OOZGS7i78/IU9Wage5fHGQ8id/fJ4\nvSihuUMg2Msc1Umsth9UzJEXQ6VlebZUtHv5tKKEIIuWB11Sq+l+dEKqIk9rUCMn\nYgacs8kEWgTLYacn7YRz\n=FIQv\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ef83122bf77290e06a7c8f69405ae9fa8a58b012\nparent ee9f268a71ae4cd8f0685cc57afe2bb3ffc717ef\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751523033 +0000\ncommitter GitHub <noreply@github.com> 1751523033 +0000\n\nsbbさんの提案に基づき、国産クラウドインフラに関する課題と政策を追加",
+          "verified_at": "2025-07-03T06:10:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/434262ec970fbabc5cbee337cf9602c358a858fd",
+      "html_url": "https://github.com/team-mirai/policy/commit/434262ec970fbabc5cbee337cf9602c358a858fd",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/434262ec970fbabc5cbee337cf9602c358a858fd/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ee9f268a71ae4cd8f0685cc57afe2bb3ffc717ef",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ee9f268a71ae4cd8f0685cc57afe2bb3ffc717ef",
+          "html_url": "https://github.com/team-mirai/policy/commit/ee9f268a71ae4cd8f0685cc57afe2bb3ffc717ef"
+        }
+      ]
+    },
+    {
+      "sha": "1c6ee93e5e0912eb18adf21e62c2a16c62120b46",
+      "node_id": "C_kwDOOqTJvNoAKDFjNmVlOTNlNWUwOTEyZWIxOGFkZjIxZTYyYzJhMTZjNjIxMjBiNDY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-03T06:12:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-03T06:12:07Z"
+        },
+        "message": "sbbさんの提案に基づき、国産クラウドインフラに関する記述を追加",
+        "tree": {
+          "sha": "aca2dfedd7dafa2d0d12aa9b8d3d2eff5df27ce4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/aca2dfedd7dafa2d0d12aa9b8d3d2eff5df27ce4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1c6ee93e5e0912eb18adf21e62c2a16c62120b46",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZh83CRC1aQ7uu5UhlAAAL/oQAFrCKMOfGJWrwBr3JZH3nDgR\nnDApGEkcdf8+tCWCiG+QlH/w/YVSiShEX89IixkfyTi48TzlkD582wxuRjliGmL8\na81vr/4OeK7jelXUsj2V8XHKjiiHgxy6hznc9G+ZR9wKtXmjnhtPauTwA9ieRVe6\nuI70Cib1vln5/4wtzUAYzj1gCzG14+I0I9L0q+p40jn/gvFfe+Rkuvn4ryqy7FLw\nvt3MRCUlIZEWXi1uQtLe7jR9G9Q0DWcG11PW/IBPIusg74z4nNRvpMJea0KORiI/\nEtNVOQkgYXjz9WK6lEQZRngqC0hZvtXikD9f5cuTYFaxHVc2AvK5xuFyJvPEbGHf\nzSuJQ9yN5pKXOHOLcPtoheA2GWjNNI7wDWCGR6ImjURwITAH6S3VY4PtLNNvkFsw\n+u2zEQCWypoUg1oBS5p5NTbmvl/S3SsWLLEdvh0rv9PPCUxmGDnsmWp6HEv9w6Sg\nzkrcnrzZt4wQdrzi//wZYJiu7ZkO071pa4ZubHQG9241KGMAIIV7a2kgztjDH/o7\nGbRpb09y75GZxvCHqNB6B4k/ZsUd76iUsF614pQyXyQyNXY0RqQXh73KQt5hOM30\nqfypAZfaBgDb1CTxvrloILN5qPgPkpTUaFadiB+O43EPh9vJJPA/qmyYHPolg/9c\n6GaDWe9tP9ZjUUU8e2hW\n=MZga\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree aca2dfedd7dafa2d0d12aa9b8d3d2eff5df27ce4\nparent 434262ec970fbabc5cbee337cf9602c358a858fd\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751523127 +0000\ncommitter GitHub <noreply@github.com> 1751523127 +0000\n\nsbbさんの提案に基づき、国産クラウドインフラに関する記述を追加",
+          "verified_at": "2025-07-03T06:12:07Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1c6ee93e5e0912eb18adf21e62c2a16c62120b46",
+      "html_url": "https://github.com/team-mirai/policy/commit/1c6ee93e5e0912eb18adf21e62c2a16c62120b46",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1c6ee93e5e0912eb18adf21e62c2a16c62120b46/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "434262ec970fbabc5cbee337cf9602c358a858fd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/434262ec970fbabc5cbee337cf9602c358a858fd",
+          "html_url": "https://github.com/team-mirai/policy/commit/434262ec970fbabc5cbee337cf9602c358a858fd"
+        }
+      ]
+    },
+    {
+      "sha": "0a8046f56106f58517051f849bdb10ce5261e701",
+      "node_id": "C_kwDOOqTJvNoAKDBhODA0NmY1NjEwNmY1ODUxNzA1MWY4NDliZGIxMGNlNTI2MWU3MDE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-03T06:17:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-03T06:17:58Z"
+        },
+        "message": "sbbさんの提案に基づき、国産クラウドインフラに関する課題と政策を追記",
+        "tree": {
+          "sha": "2acf64ec09de69ff2f188b1a704491c57a0348ef",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2acf64ec09de69ff2f188b1a704491c57a0348ef"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0a8046f56106f58517051f849bdb10ce5261e701",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZiCWCRC1aQ7uu5UhlAAAihcQAJQBIz9aVq82XhltzYcFpgAN\nJKPOyiAbssXi2d9uVsrj87mO/kqUrTASeZ7tsJ7do9ViEIH0B85WqV9fh78889kC\nK69yJqohqS3JSI/u5FnEBogP7WunReBMpLFHfd0sTDs/rHGGmdrxECKNxcrxLm8Z\nK0wQ93gzadLq1pGyMam+YrNnue6vjipjs7/edf92uwiUqTFKTNAiJzYLXbwwkPdT\nyEBgyRb0f0yndFDFFfPYuJnI9S+HdqvBmigD4MtT1jJp6AFvIV6PpqSYC/EaHG/Q\n+QMXwu9tPr7fvbW+VslwhyNTHOosKSL274mLvdBBG5wV1rLBQ4GhovDvBtLi9o1x\n6vrU/0PeyLqwHmmUewXPbbRwsrIjQbl3D1QknKg30Sx7ZodMlgyUuZZ3EE5ACLJk\nkU4xPh3/EP5EQNFeUWAJzk7VPGnFjlLQ6NUPIBts08UVsHxgnOv9pDMGZQxEhSWT\nwuqX9e7YTip+1SRRQpCJZ9imbC5Zz0YGW6ODs3codqEursCttdsZA2C1hRiQzrSk\n+cjdIJ2Nq51oOno6FQuMmzAFWZJx4wexcGX41vsW52YVVOJk2e/V3Ppl9gW7Sl+O\naxjvhSapHSD8tOcMV0CvCA/hnGg6QExA5Z4EmJ7o3bBGP9aSQ/TbDvwRqD0k2HFP\ntF8/l0HvGwRzjxx9/Fz2\n=X4ei\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2acf64ec09de69ff2f188b1a704491c57a0348ef\nparent 1c6ee93e5e0912eb18adf21e62c2a16c62120b46\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751523478 +0000\ncommitter GitHub <noreply@github.com> 1751523478 +0000\n\nsbbさんの提案に基づき、国産クラウドインフラに関する課題と政策を追記",
+          "verified_at": "2025-07-03T06:17:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0a8046f56106f58517051f849bdb10ce5261e701",
+      "html_url": "https://github.com/team-mirai/policy/commit/0a8046f56106f58517051f849bdb10ce5261e701",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0a8046f56106f58517051f849bdb10ce5261e701/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1c6ee93e5e0912eb18adf21e62c2a16c62120b46",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1c6ee93e5e0912eb18adf21e62c2a16c62120b46",
+          "html_url": "https://github.com/team-mirai/policy/commit/1c6ee93e5e0912eb18adf21e62c2a16c62120b46"
+        }
+      ]
+    },
+    {
+      "sha": "53800fd37506e14f212a889eaa3f336a372d300e",
+      "node_id": "C_kwDOOqTJvNoAKDUzODAwZmQzNzUwNmUxNGYyMTJhODg5ZWFhM2YzMzZhMzcyZDMwMGU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-03T06:22:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-03T06:22:15Z"
+        },
+        "message": "sbbさんの提案に基づき、国産クラウドインフラに関する内容を追記",
+        "tree": {
+          "sha": "555bfe4a00173a2f4183d1df5c85226f912c3d64",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/555bfe4a00173a2f4183d1df5c85226f912c3d64"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/53800fd37506e14f212a889eaa3f336a372d300e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZiGXCRC1aQ7uu5UhlAAAgTMQAJgM8rU/cBF2VwN5AcSHXU2I\nNRTGeARl8l4f+w/FYDe0d6yX+ImthjnyYUaI/lKe2ylAqOeJYRqE7EG8ho6+7hzW\np5cJo49GpSHWJ2DZrM0YjeI/m1Gns8xNk9YFoG5WmyBE2xio4LiELfalVgPCNIjc\ngDYPqu3ryfQ8Gcm1kAwYo9Vtg0aSvcmz10Ib9L0HnpCHcQ2C/DdE3pNKb0fdFPeD\n4V/VyCwbK4UuaAQPPwnn85KnqVQk6RN6Yr4mufFe/QvJwKfcohI8ShLnXb8UdaJP\n1oHCYLjLD7mi0nGsgnxgKR626BNTa0PG9tktWIn0+vDcDqDYNHnyMXkE0mmb8VVU\nSd+8DfH8BNOS4EEJrUwq/O7JMVOoFKMLNn8FH/wlOoQ182s3RCm8GL5PkmsCQ+E0\nsABgO8Ukpl8z8lvf9p+UK3lGevY/BD+XsFbakT/f7tflKVLYAO0cVwxULJLoajgI\n1nDhn80+9uqXS8Y/3W3EreK1vsi0QxMzx9OwGWbUKRlDGYJGdN4lDWUuSCKzoppD\n8a9jHl0M9IujzTNLeorB0iZgLj/3bWMVrIMYtJweIlN4HyWccbpw30lOMMB/PJj2\nIJobX83dE++o9ykvK1NU7LhObVHW32wT8o9lLss498qJkKBeLvUUtJIJG9eIErCe\nYQnZjISeo82gfCkcFRkd\n=JEt5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 555bfe4a00173a2f4183d1df5c85226f912c3d64\nparent 0a8046f56106f58517051f849bdb10ce5261e701\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751523735 +0000\ncommitter GitHub <noreply@github.com> 1751523735 +0000\n\nsbbさんの提案に基づき、国産クラウドインフラに関する内容を追記",
+          "verified_at": "2025-07-03T06:22:15Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/53800fd37506e14f212a889eaa3f336a372d300e",
+      "html_url": "https://github.com/team-mirai/policy/commit/53800fd37506e14f212a889eaa3f336a372d300e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/53800fd37506e14f212a889eaa3f336a372d300e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0a8046f56106f58517051f849bdb10ce5261e701",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0a8046f56106f58517051f849bdb10ce5261e701",
+          "html_url": "https://github.com/team-mirai/policy/commit/0a8046f56106f58517051f849bdb10ce5261e701"
+        }
+      ]
+    },
+    {
+      "sha": "15eb6408d5bd35735a28582697c513001a4b9134",
+      "node_id": "C_kwDOOqTJvNoAKDE1ZWI2NDA4ZDViZDM1NzM1YTI4NTgyNjk3YzUxMzAwMWE0YjkxMzQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-03T06:25:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-03T06:25:32Z"
+        },
+        "message": "sbbさんの提案に基づき、国産クラウドインフラに関する項目を追加",
+        "tree": {
+          "sha": "555bfe4a00173a2f4183d1df5c85226f912c3d64",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/555bfe4a00173a2f4183d1df5c85226f912c3d64"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/15eb6408d5bd35735a28582697c513001a4b9134",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZiJcCRC1aQ7uu5UhlAAA0LMQACZZOF0y3oo6bJhCDS5osPLf\ni4SzTWHs8VQ7m5C+LNXvcOtbhv3j1xw7Y5kGKPVWgTiLe90vPhGbbMxHUjynJAKp\nwKyb4ris4PDoCGa0/TTdrfwqUEbd415HzJdhbboYRq8QoKzukagfIKX0/SKCuF5+\nFB3T4/UqDBmykcjGIsEu0MafifzlH5ZpUmR5sEp4lGhQk4VDg/rHeKoa40K1EmU0\nIMCNhSelEOgPka+pVM+dHqtWzUiYYRpXyTpm2h9uWsMj61M70OzXXmf9QjLz+pGU\nxSpgBqPIOCLZJ3Z6Cm7dQiHL7GKaVJcnfXlf7WB7K1/M8yITBr20Sc9kdMSO0lmO\nBkQ9ZZuLdJMAAR05LmXMMMsUjPBG+1HT3Oj7BMWj1LcDCjNhEVbGQrod2YwoRofZ\nb7Gbu6RZ0/i+9UiFMRcNLm7UHTiZPsvfJqqE/4vaI5whVxn79rkuVgz6WfBq2ueE\nhLL8PIFgv/3p1v6HOyn6EpjyxdES6zSBeUWDmxn2fIRyawzkMV2AcH0lhv1wOw3v\n0tvNRmcBuenByaLBvT9Tv9RYV/nMeNMnQrxW6SGnNVEFhgk/Cun6IVoF35CICjIq\n/obAqlQhpDj0tqCP9mxvvemptbMYgZ3IQ1MTrkvNBqjPyzgxZNiPnv4xoPqnVrgZ\n9xjVHgjil9gonObkrZXv\n=wkoi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 555bfe4a00173a2f4183d1df5c85226f912c3d64\nparent 53800fd37506e14f212a889eaa3f336a372d300e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751523932 +0000\ncommitter GitHub <noreply@github.com> 1751523932 +0000\n\nsbbさんの提案に基づき、国産クラウドインフラに関する項目を追加",
+          "verified_at": "2025-07-03T06:25:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/15eb6408d5bd35735a28582697c513001a4b9134",
+      "html_url": "https://github.com/team-mirai/policy/commit/15eb6408d5bd35735a28582697c513001a4b9134",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/15eb6408d5bd35735a28582697c513001a4b9134/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "53800fd37506e14f212a889eaa3f336a372d300e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/53800fd37506e14f212a889eaa3f336a372d300e",
+          "html_url": "https://github.com/team-mirai/policy/commit/53800fd37506e14f212a889eaa3f336a372d300e"
+        }
+      ]
+    },
+    {
+      "sha": "943f4e7074a192b1675e3de3d8c605611599296e",
+      "node_id": "C_kwDOOqTJvNoAKDk0M2Y0ZTcwNzRhMTkyYjE2NzVlM2RlM2Q4YzYwNTYxMTU5OTI5NmU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-03T06:26:33Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-03T06:26:33Z"
+        },
+        "message": "sbbさんの提案に基づき、国産クラウドインフラに関する記述を追加",
+        "tree": {
+          "sha": "006a17fd74d836b94ad712ba96c95dc6f52f2299",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/006a17fd74d836b94ad712ba96c95dc6f52f2299"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/943f4e7074a192b1675e3de3d8c605611599296e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZiKZCRC1aQ7uu5UhlAAAie0QACEQJBgv77hEvipp8aQor49l\nQ9vTnT3bOX2g5iD8zzYgv9Wxq3E2YkXl5EXRdE6h4Z4mX0Vb+PEmukvqORxy0nUT\nscUJYQGOO/zKN2uUjJkdbuiGdFLgaWe9WUL9AEjtagXQRxKMwA2l7d2cvzYt9qK8\nNKXNgvXUftgussWEi68Gf5bAphVzaaggKErAB5ZJWC+5fAkBrCOsYY99+V0WQiTF\npzEf7QvxadaY1R2pVhxb2nrAC1N8S+6dNmsv0ty4tRJBc4hP2CtGa5zJ6PadA+vQ\nDd/jxiLouZyvhra77MdgLYChLGIK2HxIaTgdCvZnehRhS+P5jln8AFI+XpuWujmK\n6tBp+SxI8jAguDp9Y2+0q+3yvq9qEmL//9cka5IfkFfrOmcAGQheWpR728FAQF/w\np2ybk2HJpAsC+1JmvsW6mBF6LkaJ5XMJGZwU+Abdh5ljDZLQ5iaPwcqsXaWtcoj1\nNFO9xADdt+E0lyJrIP87MbUFl+UNl2zidM2LDOBqFBbWxpKJgc0EQ1HnR0JexR0R\nskOmVRnIjX3saMJG3xxHZ2buClSP63jmJGWcySa1YUsRZoSxb1hr+XRXTHM9nOFJ\nzudnkcZBp09qh6RD1nzb+zDQiZI1ncQ6NXfBd+9eDhVD2DV2Y/1IQXMkj06bOdO5\ne+2Ts1JlBEpU8OjX4CvS\n=sG6h\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 006a17fd74d836b94ad712ba96c95dc6f52f2299\nparent 15eb6408d5bd35735a28582697c513001a4b9134\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751523993 +0000\ncommitter GitHub <noreply@github.com> 1751523993 +0000\n\nsbbさんの提案に基づき、国産クラウドインフラに関する記述を追加",
+          "verified_at": "2025-07-03T06:26:34Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/943f4e7074a192b1675e3de3d8c605611599296e",
+      "html_url": "https://github.com/team-mirai/policy/commit/943f4e7074a192b1675e3de3d8c605611599296e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/943f4e7074a192b1675e3de3d8c605611599296e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "15eb6408d5bd35735a28582697c513001a4b9134",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/15eb6408d5bd35735a28582697c513001a4b9134",
+          "html_url": "https://github.com/team-mirai/policy/commit/15eb6408d5bd35735a28582697c513001a4b9134"
+        }
+      ]
+    },
+    {
+      "sha": "beb9e452ef0ab215b605c67c523ef4cfad019a0f",
+      "node_id": "C_kwDOOqTJvNoAKGJlYjllNDUyZWYwYWIyMTViNjA1YzY3YzUyM2VmNGNmYWQwMTlhMGY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-03T06:31:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-03T06:31:03Z"
+        },
+        "message": "sbbさんの提案に基づき、国産クラウドインフラに関する項目を追加",
+        "tree": {
+          "sha": "555bfe4a00173a2f4183d1df5c85226f912c3d64",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/555bfe4a00173a2f4183d1df5c85226f912c3d64"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/beb9e452ef0ab215b605c67c523ef4cfad019a0f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZiOnCRC1aQ7uu5UhlAAAjYoQAC/FoonT37SPW9VZL3vic/hA\nRdR/NYaDJLcdGtSrpJEmCifcj4w0bPLUskksgPGRBQ8XvrSGP4+mNNJLcITeCuaT\nZrrRlPAbU+5TqkWQ+N7HnOSjql55SEwSOkQuleb9nGiH3O8x/1E97yKFFiBlc+g7\nxTyzJxeEDqJ6vQEzYxeNvUPi7jSABkYn3QaLsswPatj+RECQmiTbA/+D/wzwA1uK\niDzzF2BOc457zzNMpfZzHopVxDN4M2p1OfUKDhwrYAIQlhnhhwvhGhklthwKKOM2\nA7Rx5EwAfYM77a7suQoJszRhqqA1djVyBfuMvla7vs+bmTl0MKe3DCS8ZlWQSwUS\nJAhT8PzQP/UymVuvNtvBqAd3uq079zSOmiDp3WOugYzqdP11J3yZOlhH/Cabt7CP\n2nEM4KhYarWCvLGC2OF5XcHbOAmD59+vrw18w2w7dRT17zBoD11RUPkbghmzMHdB\nlvJdP5BsXIoVEXKGdqpDXw0fhuv1fSwdFef9XVOy3TXGMyLIRA1jIIYilX9e214J\niQpmVYTQJ0EFkUEGPWzfMCdo/rwqVgunk+S1O5BHzGTO258WI6MuoAA6vCkZkUsD\n0W1Ynf8ffLgC4OsM3i9w7iiraaUS15+RG0vEY4YHo2FNAC7FIY3iE2jwCsflKUJz\nqcH0OlYcG0t991N0Y2nq\n=OyMM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 555bfe4a00173a2f4183d1df5c85226f912c3d64\nparent 943f4e7074a192b1675e3de3d8c605611599296e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751524263 +0000\ncommitter GitHub <noreply@github.com> 1751524263 +0000\n\nsbbさんの提案に基づき、国産クラウドインフラに関する項目を追加",
+          "verified_at": "2025-07-03T06:31:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/beb9e452ef0ab215b605c67c523ef4cfad019a0f",
+      "html_url": "https://github.com/team-mirai/policy/commit/beb9e452ef0ab215b605c67c523ef4cfad019a0f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/beb9e452ef0ab215b605c67c523ef4cfad019a0f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "943f4e7074a192b1675e3de3d8c605611599296e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/943f4e7074a192b1675e3de3d8c605611599296e",
+          "html_url": "https://github.com/team-mirai/policy/commit/943f4e7074a192b1675e3de3d8c605611599296e"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-03T06:32:52.713103"
+}
