@@ -1,0 +1,389 @@
+{
+  "basic_info": {
+    "number": 3635,
+    "title": "エネルギー政策の改善案：電力・ガス小売自由化の見直し",
+    "state": "open",
+    "created_at": "2025-07-04T14:02:45Z",
+    "updated_at": "2025-07-04T14:02:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3635",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "19bb9d1f8d8b64a10d7626e287e3d0d64ccbf11a",
+      "filename": "35_ステップ３エネルギー.md",
+      "status": "modified",
+      "additions": 50,
+      "deletions": 36,
+      "changes": 86,
+      "blob_url": "https://github.com/team-mirai/policy/blob/64edba4cd8a6b8c74ef3a21a961fbc6752222c57/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/64edba4cd8a6b8c74ef3a21a961fbc6752222c57/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md?ref=64edba4cd8a6b8c74ef3a21a961fbc6752222c57",
+      "patch": "@@ -1,37 +1,51 @@\n-⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n-💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくはこちら\n-\n-# 5．エネルギー\n-\n-## ビジョン\n-\n-* AI を本格的に普及させるためには膨大な電力が不可欠であり、2030 年までの短期間でも世界全体で日本一国分に相当する追加電力が必要になると見込まれます。  \n-* 日本が AI を使いこなし、テクノロジーを成長の原動力とするためには、安定的かつ大量の電力を確保することが前提条件となります。  \n-* しかしながら、わが国は化石燃料資源に乏しく火力発電依存では、燃料費輸入による国富の海外流出が大規模となり、また平野部も限られていることから再生可能エネルギーの大規模導入にも地理的な制約があります。  \n-* そのため、国内に存在するあらゆるエネルギー資源を最大限に活用しつつ、大容量電源の確保とゼロエミッション社会の実現を両立させる技術開発・設備投資を加速させる必要があります。\n-\n-  ## 現状認識・課題分析\n-\n-* 『第 6 次エネルギー基本計画』（2021 年閣議決定）は、2030 年時点の電源構成を LNG 20％、石炭 19％、水力 11％、その他再エネ 25〜27％、原子力 20〜22％と設定していました。  \n-* 2023 年の実績は LNG 32％、石炭 29％、水力9％、その他再エネ約 23％、原子力 9％であり、目標との差は依然大きい状況です。  \n-* エネルギー目標として、2030年に向けて大きく増加が想定されている電力は、再エネ、原子力と水力です。  \n-　* 再エネの大幅な増加には、国民負担・現実性の両面から大きなチャレンジがあります。  \n-  　* 再エネ賦課金による国民負担は、2024年度見込みで2.7兆円に達しています。追加的な再エネ導入は国民負担の増加に繋がります。  \n-    * 太陽光の導入量は国土面積当たりで既に世界上位水準（ドイツと同程度）にあるため、大幅な追加余地は住宅や建物屋根などに限られます。  \n-    * 太陽光・風力が急増する場合は、蓄電池など調整力の同時整備を怠ると系統安定性が低下する懸念があります。  \n-  * 原子力は安全審査を経た再稼働が進んでいますが、2030年度の再稼働想定実現に向けては、手続きや地域合意プロセスに改善の余地があります。  \n-  * 水力は、日本にとって貴重な自然エネルギー資源です。現状は、 1957 年制定の多目的ダム法ベースの保守的運用が主流で、最新技術を活用した出力増強の余地があります。  \n-* 石炭、LNGの両火力発電は、縮小運用が前提となる中、老朽化による供給力低下が夏季ピーク時の需給逼迫を招いています。  \n-* LNG 輸入費は 2023 年で約 6.5 兆円に上り（輸入総額の約 6％）、2024 年通年の貿易赤字 5.3 兆円を上回る規模であることから、AIによる電力需要増大期に当たっても発電規模維持・拡大には慎重な判断が必要となります。\n-\n-  ## 政策概要\n-\n-  ### 1）大幅なエネルギー需要増に対応できるよう、2030 年に向けたエネルギーミックス目標を再設定し、実行します。 \n-  * **火力発電の一時的維持を明確化**し、無理な再エネ拡大による国民負担増と供給不足を回避します。  \n-  * **原子力比率 20〜22 ％の達成**を目指し、国主導で再稼働支援策を整備します。2030 年時点で 25 基以上の運転を実現できるよう、手続きの迅速化と地域支援を両立させます。  \n-  * **多目的ダム法を見直し、水力発電のポテンシャルを開放**します。既存ダムの再開発や揚水増強を推進し、水力比率 11 ％を堅持しつつ変動再エネの調整力を高めます。  \n-  ### 2）2050 年ゼロエミッション社会に向けて、革新技術開発と制度基盤構築を支援します。  \n-  * **核融合技術の研究開発投資を強化**し、長期的なエネルギー問題の抜本的解決に備えます。  \n-  * **次世代型原子力（SMR、高温ガス炉など）の技術開発と普及**を2030年代後半以降に見据えて支援します。  \n-  * **デマンドレスポンスや分散型リソースを活用した柔軟なグリッド運用**を推進し、AI 時代に適した高度な電力システムを構築します。\n+# ステップ３：５．エネルギー\n \n+## 【政策提案】エネルギー政策の抜本的見直し：電力・ガス小売自由化からの転換\n+\n+国民生活に不可欠なエネルギーの安定供給と公正な価格を実現するため、チームみらいは電力・ガス小売自由化政策を抜本的に見直し、「インフラの公共性回復」を目指します。\n+\n+---\n+\n+### Ⅰ. 現状の課題：電力・ガス小売自由化の共通問題点\n+\n+現行の自由化政策は、国民生活に多くの課題をもたらしています。\n+\n+1.  **価格の不安定化**: 市場価格の変動が直接消費者の負担となり、資源価格が高騰した際には事業者の経営破綻とそれに伴う契約中止が相次ぎました。\n+2.  **供給責任の希薄化**: 多くの新規事業者は自前のインフラを持たず、既存の大手企業に依存しています。これにより、災害時などの緊急対応における責任の所在が曖昧になっています。\n+3.  **非効率なコスト**: 電力やガスの品質に差がないにもかかわらず、事業者間の過剰な販促・営業競争が発生し、そのコストが料金に上乗せされています。\n+4.  **契約内容の複雑化**: 多様なセット割引やプランが登場したことで、消費者にとって最適な契約が分かりにくく、不利益な契約を結んでしまうリスクが高まっています。\n+\n+### Ⅱ. 解決策：小売部門の廃止・スリム化によるメリット\n+\n+これらの課題を解決するため、電力・ガスの小売部門を地域ごとに再統合し、インフラの管理・運営と供給責任を一体化させることを提案します。\n+\n+1.  **供給責任と危機管理の強化**: 地域の公益事業者に供給義務を集中させることで、災害時などにおける迅速な復旧対応や、将来を見据えたインフラ投資の判断がしやすくなります。\n+2.  **価格の安定性・予測可能性**: 料金体系を「基本料金＋従量料金」を基本とするシンプルな形に戻し、急激な価格変動から消費者を守ります。\n+3.  **スリムで効率的な制度設計**: 小売事業に費やされていた過剰な営業コストや人的資源を削減し、社会全体のエネルギーコストを低減します。\n+4.  **エネルギー政策との整合性**: 国や自治体の脱炭素政策やエネルギー転換戦略（例：水素への移行）と、現場のエネルギー供給システムを一体的に推進しやすくなります。\n+\n+### Ⅲ. 自由化からの転換で想定される懸念と対策\n+\n+小売部門の再統合は、自由化の理念であった「選択の自由」や「競争による効率化」を損なうとの懸念も想定されます。しかし、これらの価値は制度設計によって十分に担保可能です。\n+\n+**懸念1：「価値観に基づく選択（例：再エネ100%電力）ができなくなるのでは？」**\n+\n+*   **対策**:\n+    *   **グリーン電力オプションの導入**: 標準料金に上乗せすることで「再エネ100%」などを選択できる制度を設けます。\n+    *   **各種証書制度の活用**: 消費者が非化石価値証書などを購入することで、実質的に環境価値を消費電力に付加できます。\n+    *   **地域民主主義の導入**: 自治体単位で住民がエネルギー構成の目標（例：再エネ比率）を決定できる仕組みを導入します。\n+\n+**懸念2：「競争が失われ、非効率な独占体制に戻るのでは？」**\n+\n+*   **対策**:\n+    *   **公的規制・料金審査の強化**: 独立した規制委員会が料金を厳格に審査し、事業者に効率化を促すインセンティブ型の料金制度を導入します。\n+    *   **徹底した情報開示**: 事業のKPI（重要業績評価指標）の公開を義務付け、第三者機関が厳しく評価します。\n+    *   **市民参加型経営**: 事業者の経営に市民や消費者団体の代表が参加し、透明性と説明責任を確保します。\n+\n+### Ⅳ. 結論：公共性を回復し、安定したエネルギー供給を未来へ\n+\n+電力・都市ガスは、全ての国民にとって不可欠な基礎的インフラです。自由化によってもたらされた「競争」は、必ずしも国民の利益に結びつきませんでした。\n+\n+今、私たちは「再統合」と「公共性の最適化」へと舵を切るべきです。これにより、エネルギーコストの低減、危機対応力の強化、そして脱炭素社会への着実な移行を実現します。\n+\n+**「選択の自由」と「安定供給」は、市場競争に頼らずとも、優れた制度設計によって両立可能です。** チームみらいは、その実現に責任を持って取り組みます。\n\\ No newline at end of file"
+    },
+    {
+      "sha": "3b5d7ce782ac110176410d92b60a96758d0c2bb0",
+      "filename": "35a_エネルギー政策の見直し.md",
+      "status": "added",
+      "additions": 67,
+      "deletions": 0,
+      "changes": 67,
+      "blob_url": "https://github.com/team-mirai/policy/blob/64edba4cd8a6b8c74ef3a21a961fbc6752222c57/35a_%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E6%94%BF%E7%AD%96%E3%81%AE%E8%A6%8B%E7%9B%B4%E3%81%97.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/64edba4cd8a6b8c74ef3a21a961fbc6752222c57/35a_%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E6%94%BF%E7%AD%96%E3%81%AE%E8%A6%8B%E7%9B%B4%E3%81%97.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/35a_%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E6%94%BF%E7%AD%96%E3%81%AE%E8%A6%8B%E7%9B%B4%E3%81%97.md?ref=64edba4cd8a6b8c74ef3a21a961fbc6752222c57",
+      "patch": "@@ -0,0 +1,67 @@\n+# エネルギー政策の抜本的見直し：電力・ガス小売自由化からの転換\n+\n+## 概要\n+国民生活に不可欠なエネルギーの安定供給と公正な価格を実現するため、電力・ガス小売自由化政策を抜本的に見直し、「インフラの公共性回復」を目指します。\n+\n+*   **現状の課題**：自由化は価格不安定、供給責任の曖昧化、過剰な競争コスト、契約の複雑化といった問題を生んでいます。\n+*   **政策提案**：電力・ガスの小売部門を再統合し、インフラ管理と供給責任を一体化します。これにより、**①価格の安定**、**②責任の強化**、**③コストの削減**、**④脱炭素の推進** を図ります。\n+*   **懸念への対応**：「グリーン電力オプション」等で価値観に基づく選択肢を確保し、公的機関による料金審査や情報公開で独占の弊害を防ぎます。\n+\n+---\n+\n+以下は、匿名ユーザーから寄せられた提案の詳細です。\n+\n+## Ⅰ. 電力・ガス小売自由化の共通問題点\n+\n+1.  **価格の不安定化**: 電力・ガスともに市場価格変動の影響を受けやすくなり、契約者が価格リスクを直接負担。資源価格（LNG・石炭・原油など）の高騰時、原価調整ができず経営破綻→契約中止が発生（例：新電力・新ガス会社の撤退）。\n+2.  **供給責任の希薄化**: 発電所・ガス供給設備を持たず、インフラを持つ既存大手に依存したビジネスモデル。トラブル時の責任があいまいになり、災害・寒波時に緊急対応が困難。\n+3.  **販促・営業コストの浪費**: 同じパイプ（送電線・ガス導管）を使っているにもかかわらず、「安さ」や「セット割」で過剰な競争。電力やガスの質に差がない中での広告合戦は本質的に非効率で、営業コストが価格に上乗せされる。\n+4.  **契約内容の複雑化**: 「電力＋ガス＋通信セット」などの複合契約が急増。消費者が「どの契約が安いか」「途中解約で違約金がかかるか」を十分に判断できない構造が問題視。\n+\n+## Ⅱ. 小売部門廃止・スリム化によるメリット\n+\n+1.  **供給責任と危機管理の強化**: 地域の公益事業者（電力・ガス会社）に供給義務と責任を集中。災害時や需給逼迫時の迅速な復旧対応・設備投資の判断がしやすくなる。\n+2.  **価格の安定性・予測可能性**: ガスも電力同様、料金体系を一定の原価＋規制料金へ戻すことで、急激な値上げを防止。インフラ利用に対する**「基本料金＋従量料金」のシンプルな体系**を再確立。\n+3.  **スリムで効率的な制度設計**: 小売業者を多数設ける必要がなくなり、業務コスト・人的資源の無駄を削減。一体型のインフラ運営により、投資判断やメンテナンスの合理性が向上。\n+4.  **エネルギー政策と整合性が取りやすい**: 地域のエネルギー供給を担う組織に政策的指導をしやすく、脱炭素政策・地産地消型エネルギー転換との整合性が高まる。ガスから水素・電化への移行などのエネルギー転換戦略を一体的に進められる。\n+\n+## Ⅲ. 政策提案の方向性\n+\n+| 項目 | 現状（自由化） | スリム化・再統合後 |\n+| :--- | :--- | :--- |\n+| 料金体系 | 市場連動・複雑・多様 | 一元化・透明・安定 |\n+| 供給責任 | 事業者間で分散・責任あいまい | 地域単位で明確化 |\n+| 経営効率 | 営業コスト・ブランド競争の浪費 | インフラ主体の公共経営 |\n+| 消費者の理解負担 | プラン選択が困難・内容が分かりにくい | シンプルな料金構造 |\n+| 災害・危機対応 | 初動遅れ・責任所在が不明 | 統一された責任体制で迅速対応 |\n+\n+## Ⅳ. 結論：小売部門の廃止はインフラの公共性回復に資する\n+\n+電力・都市ガスは、「誰にとっても必要不可欠な基礎的インフラ」である以上、本来は公共性・安定供給・価格の公正性が最優先されるべきです。小売部門の廃止とインフラ管理者の一本化により、以下が期待できます。\n+\n+*   社会全体のエネルギーコストの低減\n+*   危機対応力の強化\n+*   脱炭素社会に向けた投資の一貫性\n+\n+自由化の理念であった「競争による効率化」は、本質的に同質なサービスには機能しないことが明らかになりつつあります。今後は「再統合」と「公共の最適化」に舵を切るべき時期にあります。\n+\n+---\n+\n+## 懸念事項と対策\n+\n+### 懸念1：「価値観に基づく選択」ができなくなるのでは？\n+\n+**対策：再統合体制でも制度設計で選択肢は確保可能**\n+*   **グリーン電力オプションの導入**: 地域独占事業者でも「再エネ由来電力の追加料金オプション」を制度化。\n+*   **再エネ購入証書**: 消費者が別途証書を購入し、電力に「環境価値」を付加。\n+*   **地域ごとのエネルギー選択**: 自治体が住民の意思に基づき、エネルギー構成を決定。\n+\n+### 懸念2：再統合による「非効率化」リスク\n+\n+**対策：「独占＋透明性＋民主的監視」の設計が不可欠**\n+*   **公的規制・料金審査制度の強化**: 総括原価方式ではなく「インセンティブ型規制」を導入し、効率改善を促す。\n+*   **情報開示義務とKPI評価**: 経営状況を公開し、第三者が評価。\n+*   **市民参加型経営の導入**: 理事会などに市民代表を参加させ、透明性を確保。\n+*   **民間との役割分担の明確化**: 発電や技術革新は民間主導で進める。\n+\n+**結論**: 小売の廃止は選択の放棄ではなく、「選択」は競争以外の制度設計で十分に実現可能です。\n\\ No newline at end of file"
+    },
+    {
+      "sha": "365e893c043ee19237656afbf5ec2e63e8b8f20f",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 2,
+      "changes": 12,
+      "blob_url": "https://github.com/team-mirai/policy/blob/64edba4cd8a6b8c74ef3a21a961fbc6752222c57/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/64edba4cd8a6b8c74ef3a21a961fbc6752222c57/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=64edba4cd8a6b8c74ef3a21a961fbc6752222c57",
+      "patch": "@@ -21,7 +21,7 @@\n * [ステップ２「変化に対応できる、しなやかな仕組みづくり」](20_ステップ２「変化に対応できるしなやかな仕組みづくり」.md)  \n   * [１．教育](21_ステップ２教育.md)  \n   * [２．くらしと行政](22_ステップ２くらしと行政.md)  \n-  * [３．産業](23_ステップ２産業.md)  \n+  * [３．産業](23_ステップ３産業.md)  \n   * [４．医療](24_ステップ２医療.md)  \n * [ステップ３「長期の成長に大胆に投資する」](30_ステップ３「長期の成長に大胆に投資する」.md)  \n   * [１．子育て](31_ステップ３子育て.md)  \n@@ -35,7 +35,7 @@\n \n ## このマニフェスト自身も、みんなの知恵を集めて改善していきます\n \n-　チームみらいは全てを決めた後にマニフェストを発表するのではなく、よりオープンにみなさんと一緒にマニフェストを育てていきたいと考えております。具体的には、AI熟議システムの『いどばた』や全国で開催するオフラインミーティング、独自に行う専門家へのインタビューなどを通じて、どんどん知恵を集めたいと思います。\n+　チームみらいは全てを決めた後にマనిフェストを発表するのではなく、よりオープンにみなさんと一緒にマニフェストを育てていきたいと考えております。具体的には、AI熟議システムの『いどばた』や全国で開催するオフラインミーティング、独自に行う専門家へのインタビューなどを通じて、どんどん知恵を集めたいと思います。\n \n 　「考えがまだまとまっていないではないか」とご批判を受けるリスクを積極的に取りながら、未熟なバージョンであっても公開に踏み切ります。なぜそうするかといえば、批判の目をたくさん入れ、意見を取り入れてゆくことが最も良い政策を作るやり方だと思うからです。また、これはシンプルな多数決のように「意見が多いものを取り入れる」ということではありません。意見は聞きますし、プロセスの透明化も行いますが、あくまで意思決定は既存政党と同様にチームみらいの人が行います。これは、責任を取れる『人』が主体となって判断をすることが重要であるという価値観に基づくものです。\n \n@@ -81,6 +81,14 @@\n * 禁止事項に違反する投稿が発見された場合、コメントを非表示にすることがあります。  \n * また、これらの禁止事項に違反した場合、このリポジトリへのアクセスをブロックすることがあります。\n \n+## 【政策案】エネルギー政策の抜本的見直し：電力・ガス小売自由化からの転換\n+\n+国民生活に不可欠なエネルギーの安定供給と公正な価格を実現するため、電力・ガス小売自由化政策を抜本的に見直し、「インフラの公共性回復」を目指します。\n+\n+*   **現状の課題**：自由化は価格不安定、供給責任の曖昧化、過剰な競争コスト、契約の複雑化といった問題を生んでいます。\n+*   **政策提案**：電力・ガスの小売部門を再統合し、インフラ管理と供給責任を一体化します。これにより、**①価格の安定**、**②責任の強化**、**③コストの削減**、**④脱炭素の推進** を図ります。\n+*   **懸念への対応**：「グリーン電力オプション」等で価値観に基づく選択肢を確保し、公的機関による料金審査や情報公開で独占の弊害を防ぎます。\n+\n ## 著作権について\n \n 本リポジトリは、クリエイティブ・コモンズ・ライセンスのCC BY 4.0の下で公開されています。  "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "506fbf292be9372c7b8ba0a2fbe43b81058bac09",
+      "node_id": "C_kwDOOqTJvNoAKDUwNmZiZjI5MmJlOTM3MmM3YjhiYTBhMmZiZTQzYjgxMDU4YmFjMDk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-04T13:56:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-04T13:56:49Z"
+        },
+        "message": "匿名ユーザーからのエネルギー政策に関する提案を追加",
+        "tree": {
+          "sha": "3b9324e3886404a3a881960015ae940a1c6bc94e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3b9324e3886404a3a881960015ae940a1c6bc94e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/506fbf292be9372c7b8ba0a2fbe43b81058bac09",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZ92hCRC1aQ7uu5UhlAAAONIQAIJYZC+c8nE//bzb8M5cDbHx\nu1C4PZoaNmxHAEB+pq4pVbDffoVKaJaf56chkfg8P4CugQVt9gkDeo9Hv9GxK3vI\nooQa7y3d9lr0wLENc9+xBdMrJm2Q0woyPXrvSWVwkrmniV0ZCyqSaAdO2jaxMblS\nFcTXlqNRN+STVlvl+hfiw9lGE/23EOO+bYEXx4Zpx6jjQVhHxGb/WGRFMTvWK+8B\nVmjBM0gBFg0Y0NWWGkMRo5lh/6feXinzFsAxELOwkMR6iXc2uEzxYoNKTLpcyhBm\n7H7M4OeEUN2ic9BQoToN/nLAZgT4AzMbyO0qe++rBMz7MRUL0QvcRbUzjS/jedcX\nHkZn/yotWp74keZqftfUxTNKTGg0pPDJyYHb8NNrcJ2EKMJy7LBLkjcRW2ERuKNq\nghHJCJVwaX9NuA+OWUWgEjYcoUaAUZaXAO0bN0XehTTWpUXEGBhmtFrSstvkYBh0\n1++oAtxk2G3ocfpnkvnjQB9cg3eVLxQ/KWWMHqWtwJGzNAjHBweZ/MtyOmV63C9o\ne3dFRFpcpvPUdCqBCBAeMjk4lgztrVVulQjum3+8kD9e9M5c92tOdJgd3bT0PY9V\n6nDOi+UKwVG74FLaSTvoqpMkbPL+hLvvWt9XoYCEl0xKCg4JYaXDg3IhtUMv/sL1\nNssww6YsDNiyQ9lyydJC\n=Ucvk\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3b9324e3886404a3a881960015ae940a1c6bc94e\nparent 30ac669a8b1951a2e38078f0948ba4c5e3fd2831\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751637409 +0000\ncommitter GitHub <noreply@github.com> 1751637409 +0000\n\n匿名ユーザーからのエネルギー政策に関する提案を追加",
+          "verified_at": "2025-07-04T13:56:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/506fbf292be9372c7b8ba0a2fbe43b81058bac09",
+      "html_url": "https://github.com/team-mirai/policy/commit/506fbf292be9372c7b8ba0a2fbe43b81058bac09",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/506fbf292be9372c7b8ba0a2fbe43b81058bac09/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "30ac669a8b1951a2e38078f0948ba4c5e3fd2831",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/30ac669a8b1951a2e38078f0948ba4c5e3fd2831",
+          "html_url": "https://github.com/team-mirai/policy/commit/30ac669a8b1951a2e38078f0948ba4c5e3fd2831"
+        }
+      ]
+    },
+    {
+      "sha": "c394fc2269b8d1134409d56badf0eb0da419dee3",
+      "node_id": "C_kwDOOqTJvNoAKGMzOTRmYzIyNjliOGQxMTM0NDA5ZDU2YmFkZjBlYjBkYTQxOWRlZTM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-04T13:57:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-04T13:57:26Z"
+        },
+        "message": "feat: 匿名ユーザーによるエネルギー政策の新規提案",
+        "tree": {
+          "sha": "e4f0d95205b2cd6e31a3a4ce695d48cb6de08b1f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e4f0d95205b2cd6e31a3a4ce695d48cb6de08b1f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c394fc2269b8d1134409d56badf0eb0da419dee3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZ93GCRC1aQ7uu5UhlAAAN5YQAEaLPNw4bbzfZ6357m9uQqYi\nKFYrFi4JqC0Aj5J1c5AUGZsUCQD0IMZeYRc7nS78eJSZ2V+oMkh/QqWnLCCNbnOf\n5KinORdlupvxNsUQtVFo41u50FT4nz9Q9D6AMxPwGqbrHIwy/JRxg7suy1rhyESF\nhlSZ+daD50mW1iUmpKljD0dOUAYrE6Kz9elTKA7LmPi89HPJ3juM+46Az8Ex+yYY\nk2kDL6l1BA+G0AP+WPwddlzY8NjZnDiAUJqQo8ezIDU6/FQWcRkDqd8CrrBIK/9W\nQpLQ+tJN4chEYvJExNYJI9xaA0mqJ/fD81xGPKh+f0k/a1gCYD3F04rbcTyXgbPb\nnuK5PMTX24+EwbwWG93xgh/ue1+grih+FuhjNwycU0MeRl0VIqXRzLQYfCOF8Xn1\nMaz8Z+XhRObJi3ZCmNoqJgcApX7RvkV1PqAuICeHWXrKxnyyDun9xbC5VGhx4RGA\nXx8d0z75QaXKdHrsdAEa9d9wsBHhbbtVlOvv2WbsJvqyl05rcoog7gI03VO5M56J\nRWB+NXj81ZwQeNr9uWMlsaVaNpRO1kbj8U5nnTYTr/xuuHwSzxHfYzMzEU97Lh0r\nKYcmV7wfcj74jCAc49wogsZMHIOGNRVKYhCtRYPEp7ovUtk8M8dcD/NVpqH2tmGb\nh7idq+LjF5jZbaD+yHjp\n=eneX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e4f0d95205b2cd6e31a3a4ce695d48cb6de08b1f\nparent 506fbf292be9372c7b8ba0a2fbe43b81058bac09\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751637446 +0000\ncommitter GitHub <noreply@github.com> 1751637446 +0000\n\nfeat: 匿名ユーザーによるエネルギー政策の新規提案",
+          "verified_at": "2025-07-04T13:57:27Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c394fc2269b8d1134409d56badf0eb0da419dee3",
+      "html_url": "https://github.com/team-mirai/policy/commit/c394fc2269b8d1134409d56badf0eb0da419dee3",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c394fc2269b8d1134409d56badf0eb0da419dee3/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "506fbf292be9372c7b8ba0a2fbe43b81058bac09",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/506fbf292be9372c7b8ba0a2fbe43b81058bac09",
+          "html_url": "https://github.com/team-mirai/policy/commit/506fbf292be9372c7b8ba0a2fbe43b81058bac09"
+        }
+      ]
+    },
+    {
+      "sha": "1d2a7d596f289d48a3306ca5fe98e83acebd81a1",
+      "node_id": "C_kwDOOqTJvNoAKDFkMmE3ZDU5NmYyODlkNDhhMzMwNmNhNWZlOThlODNhY2ViZDgxYTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-04T13:58:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-04T13:58:49Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、エネルギー政策案を追加",
+        "tree": {
+          "sha": "bb2d75d3a88440f1f915ae17818aaa370b37ad61",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bb2d75d3a88440f1f915ae17818aaa370b37ad61"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1d2a7d596f289d48a3306ca5fe98e83acebd81a1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZ94ZCRC1aQ7uu5UhlAAAGuIQAEQBVh9IJ1vMZn6vP7u38h/C\nXYJrkSHfTJx/SSEnATm/oNumMMazBCBTzGpKZPr9sKautjY7imxAPX34lohih50n\n+TkVjnHtycgdx8BAJ4TyNlawMh/aq+c0UvnikF/ZexUDID3VHsPhhrCBJgRE65zY\nANsqmtjsc7K/YMx17Fp23gd2tIUY5e6Bxy1Mzd7slJYZU9OCg4pIJnCiSOdtfr+N\nokAKbHtmCyGC0xG/9PUr4H0PV227wLZnRk8uhz5+SSP4myWqVMET22AA62FDJTve\n6yh+dXjQXrb1jjRPKWkyCjN1yQrUTxSGepOJsRS1k0THjawtGd/OSkpMhLw1zbIw\nls+MZ73zLtTJfCDwcQHQTt8T2+AaFN7HNC1Drn1U76JvXCteCHFuXjyzojbhh70F\n6NnvCwBhJMwm16C3h2XX40X6zacPxI6iYX1XKEXCgMX7wQyVF4yl3CUdEbvToAK0\nRVuJTcpnE0SnlcfL4O0Amk3kOwjo1RoP0C3hWV9wxJME7riWIc3xdVRaIAr5Y217\n7s8Jm0cVigj06ciijVn7dUfmrbao4fwrkv9NYmXocJn0mX9UfPZHGjyVjDRo3ajG\n8yR7xRFKMjSiBuySdi2aZreCSVzNZqSHWCW37gUul9vteoUcgEIJxXi76xmCJp8F\nB+nsXHfUo1Pdvp8UxeL3\n=G6sQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bb2d75d3a88440f1f915ae17818aaa370b37ad61\nparent c394fc2269b8d1134409d56badf0eb0da419dee3\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751637529 +0000\ncommitter GitHub <noreply@github.com> 1751637529 +0000\n\n匿名ユーザーの提案に基づき、エネルギー政策案を追加",
+          "verified_at": "2025-07-04T13:58:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1d2a7d596f289d48a3306ca5fe98e83acebd81a1",
+      "html_url": "https://github.com/team-mirai/policy/commit/1d2a7d596f289d48a3306ca5fe98e83acebd81a1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1d2a7d596f289d48a3306ca5fe98e83acebd81a1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c394fc2269b8d1134409d56badf0eb0da419dee3",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c394fc2269b8d1134409d56badf0eb0da419dee3",
+          "html_url": "https://github.com/team-mirai/policy/commit/c394fc2269b8d1134409d56badf0eb0da419dee3"
+        }
+      ]
+    },
+    {
+      "sha": "64edba4cd8a6b8c74ef3a21a961fbc6752222c57",
+      "node_id": "C_kwDOOqTJvNoAKDY0ZWRiYTRjZDhhNmI4Yzc0ZWYzYTIxYTk2MWZiYzY3NTIyMjJjNTc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-04T13:59:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-04T13:59:41Z"
+        },
+        "message": "匿名ユーザーによるエネルギー政策の提案: 電力・ガス小売自由化の見直し",
+        "tree": {
+          "sha": "128c8b269e88e77dcc3aa23c491180e7bea4b0cf",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/128c8b269e88e77dcc3aa23c491180e7bea4b0cf"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/64edba4cd8a6b8c74ef3a21a961fbc6752222c57",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZ95NCRC1aQ7uu5UhlAAAUgkQAInZEMpqz3mhoSTYLkdDSWaY\nyrH4noimv0+ZXqP+eioI75D2SWg/Me2uFCkfTtfunG5ywIMvyOronxItU2ixopx4\nB2EUwb8lOWw0y3lO+cCgelZAndceDRl82czVj7nr4MaZgdOMf2kJ29NkmSHUIZc+\ntlfVne16uzhzX87V0eFSp7glX0QJWa1ijd8FCuuXdiZ8IFJIZbrpC5bV6YIwfoRN\nEMcCPiNO/CPFJ2eEZ/jDrX/3MIOAGeV8yUmC5TDcN0cmmsmES6Dllm3sKJlOl6ls\nNssaNJR4fO0nKLOYw0H/Uujq0lnI3tuOrw6Kp54CHVzhJTtdcQYWAhzedvNHHODP\ncEkiR5Gr8z63ji3n+NEnGZLv16APLn9XPtR4mlq5EIlyPzXT5USTxH+e3rqlwCgM\nG5uryfPRls6/QFk/q0SU2ACWkZCMI06Pepb+i3XCD/bzrxQm97ElkWSTn/AFXwzL\njbgrNtDKXhE91tNkmGZ3jWEKGc5T2aFQ4RqMtI4OT7qIY3HfEJQE0ztMWXfnFPo8\nvfYFd38SecS0Ntp4cAZ9W+NLMpTjeQg8gM5jPxpzQRadOuxdj6BlyDDRa6K6MNNC\neRoTtoTq/FPN0zefgsDdEipJOuljBMuuZQ6wFmr9aLqfD94uumGnT/dDg1gQ9Xx9\nkAwoEMmYwR2UHPdbPuL1\n=uiU0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 128c8b269e88e77dcc3aa23c491180e7bea4b0cf\nparent 1d2a7d596f289d48a3306ca5fe98e83acebd81a1\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751637581 +0000\ncommitter GitHub <noreply@github.com> 1751637581 +0000\n\n匿名ユーザーによるエネルギー政策の提案: 電力・ガス小売自由化の見直し",
+          "verified_at": "2025-07-04T13:59:41Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/64edba4cd8a6b8c74ef3a21a961fbc6752222c57",
+      "html_url": "https://github.com/team-mirai/policy/commit/64edba4cd8a6b8c74ef3a21a961fbc6752222c57",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/64edba4cd8a6b8c74ef3a21a961fbc6752222c57/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1d2a7d596f289d48a3306ca5fe98e83acebd81a1",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1d2a7d596f289d48a3306ca5fe98e83acebd81a1",
+          "html_url": "https://github.com/team-mirai/policy/commit/1d2a7d596f289d48a3306ca5fe98e83acebd81a1"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-04T14:12:22.558464"
+}
