@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 3488,
+    "title": "画像診断AIの活用に関するルール整備の追記",
+    "state": "open",
+    "created_at": "2025-07-04T00:06:40Z",
+    "updated_at": "2025-07-04T00:06:40Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3488",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "f4bb401dbb3fea644b41d3405db86842e91fadc6",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/team-mirai/policy/blob/8561d3579e6003f69addc88f9ec7c94fd4590e68/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/8561d3579e6003f69addc88f9ec7c94fd4590e68/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=8561d3579e6003f69addc88f9ec7c94fd4590e68",
+      "patch": "@@ -82,6 +82,7 @@\n   - AI画像解析の運用コストについて一定の担保をするとともに、AI画像解析が行われた施設での読影効率や解析精度、時間外労働への影響を分析し、エビデンス構築を促します\n - 人とAIが協働する医療のルールづくりを進めます\n   - AIの精度が進化しても診断を行うのは医師である以上、最終責任は医師が行う必要があります\n+  - AIが検出した所見に対し、その臨床的な重要度を判断し、過剰な精密検査を防ぐための指針を定めます\n   - 一方で、AIが提示した異常や逆にAIが提示しなかった異常は医師の判断に影響を及ぼす以上、メーカーの責任や性能評価についても整理が必要となります\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "8561d3579e6003f69addc88f9ec7c94fd4590e68",
+      "node_id": "C_kwDOOqTJvNoAKDg1NjFkMzU3OWU2MDAzZjY5YWRkYzg4ZjllYzdjOTRmZDQ1OTBlNjg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-04T00:05:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-04T00:05:23Z"
+        },
+        "message": "たらさんの提案を反映：画像診断AI利用時の過剰検査を防ぐ指針について追記",
+        "tree": {
+          "sha": "799391244581b68fe6efb539b6539ff4acb54c2f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/799391244581b68fe6efb539b6539ff4acb54c2f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8561d3579e6003f69addc88f9ec7c94fd4590e68",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoZxrDCRC1aQ7uu5UhlAAAxrQQAC5N67xD/KYYQzF10x6evQ2O\nzP0wrc7EuQhXDzL02+c84Olr5fSMZuWet9v84V9mKNwIGh1kHvpzGiBQrQZS6XEX\nuXvmMOQ7iCEg2BE56PsPoM80C2XRSmNDld1jIV/vOp7lSqcpfFSq8m7VJsugZCH9\ng4ShFOYnF5sVaHgzW1X4PWZknGoI8ITQ64YYQOwQKx7eEcTIsDrWGsQbSnUweX9C\nHGcxF8shViYLrmIivNnfMDjIf/hB++b5Mu6vhWrlxpp5qctYBqZcLFaVMr6Gutlx\nYKZdzlaWZHh6qnp2dtcLeWD/g0KKj/ZXAVpROPAnh4qkOy6ZhYXriC1pC/ggbUSc\nug2r/MSqlutgnZPG56pPnVapXcocNNbiNF9jauvG1a/6nT7MW9rzjszNo+2LqK25\ni51NhaC0vS8gztiFymhBf3W6sOHBJ8FBoskoShe4a/kngEKoEQeA1/4tVV7gq8ru\nqksMxJ4opnSAvUCUHNVYac05odqmlrwcgdBl7JDc6ztNUROvRNf/uT0R3m6XTPYu\nysdIOsBAEUkmow2X4L9hNz37GwMQx2WmdJ2R6YNyDtAQ6ZrFVEChkq4026T9966g\nCcL2QTJ+m3d59ekKgMTZZv+gfs5TOAFI1s0TJu4Xl3txEbvFxhwyE/VzDt6QRLAZ\n/xfBWg1P7LjjRGxr4PQe\n=h1Ie\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 799391244581b68fe6efb539b6539ff4acb54c2f\nparent 98db61b2cdd1f59b2eefcafa0c7d5c4f03cfcef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751587523 +0000\ncommitter GitHub <noreply@github.com> 1751587523 +0000\n\nたらさんの提案を反映：画像診断AI利用時の過剰検査を防ぐ指針について追記",
+          "verified_at": "2025-07-04T00:05:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/8561d3579e6003f69addc88f9ec7c94fd4590e68",
+      "html_url": "https://github.com/team-mirai/policy/commit/8561d3579e6003f69addc88f9ec7c94fd4590e68",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8561d3579e6003f69addc88f9ec7c94fd4590e68/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "98db61b2cdd1f59b2eefcafa0c7d5c4f03cfcef0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/98db61b2cdd1f59b2eefcafa0c7d5c4f03cfcef0",
+          "html_url": "https://github.com/team-mirai/policy/commit/98db61b2cdd1f59b2eefcafa0c7d5c4f03cfcef0"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-04T01:00:00.789198"
+}
