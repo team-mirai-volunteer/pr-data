@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 3903,
+    "title": "生活保護制度を「生活立て直しのためのプラットフォーム」へと転換する改善提案",
+    "state": "open",
+    "created_at": "2025-07-05T21:02:47Z",
+    "updated_at": "2025-07-05T21:02:47Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/3903",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "70f07e81247311bc9e79a79ca7fd2ce722c93b16",
+      "filename": "18_ステップ１福祉.md",
+      "status": "modified",
+      "additions": 26,
+      "deletions": 2,
+      "changes": 28,
+      "blob_url": "https://github.com/team-mirai/policy/blob/1b9094f996ab1f89a7b661ecf025ad4705190924/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/1b9094f996ab1f89a7b661ecf025ad4705190924/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md?ref=1b9094f996ab1f89a7b661ecf025ad4705190924",
+      "patch": "@@ -58,7 +58,7 @@\n * 福祉制度の説明・申請のすべての段階において、情報へのアクセスを保障するための表現工夫を制度化します。具体的には以下の取り組みを推進します：\n   * 行政サイト、パンフレット、申請書類などに、**やさしい日本語・ルビ付き文章・図解・ピクトグラム**など、複数の表現手段を併記し、誰もが制度の内容を理解しやすくします。\n   * 情報発信において、**ふりがな（ルビ）をつけた文章の提供**を標準化し、読字に困難のある方や小学生程度の漢字力の方にも情報が届く設計にします。\n-  * オンライン申請や情報検索を支援する**AIチャットボット**に、**わかりやすい言葉への変換モードや、音声読み上げ・対話型案内との連携**を実装します。\n+  * オンライン申請や情報検索を支援する**AIチャットボتوى**に、**わかりやすい言葉への変換モードや、音声読み上げ・対話型案内との連携**を実装します。\n   * 各自治体のポータルサイトや申請窓口に「この説明をわかりやすく読む」ボタンを常設し、すぐに**やさしい表現やルビ付きのページに切り替えられる仕組み**を整備します。\n   * 表現整備の過程では、言語支援の専門家のみならず、実際に制度を使いにくかった当事者の声を反映させ、実効性のある「使える情報」を制作します。\n \n@@ -110,7 +110,7 @@\n ### 政策概要\n \n * 障害者手帳とマイナンバーを連携し、スマートフォンアプリで福祉サービスの申請から利用まで一元管理できる「ワンストップデジタル福祉パスポート」を提供します。民間サービスとの連携もできるようにします。  \n-* まずは、デジタル障害者手帳の普及と、デジタルの障害者手帳を受け付ける場所の拡充を行います。  \n+* まずは、デジタル障害者手帳の普及と、デジタルの障害者手帳を受け付ける場所の拡gruを行います。  \n * 福祉サービスの支給申請をオンラインで可能にし、各福祉施設での支援情報もワンストップデジタル福祉パスポートで管理できるようにします。受給者証等は、申請を元に対象者にデジタルで付与する仕組みを構築し、自治体に提供します。これにより、申請や受け取りの手間を省きます。  \n * 福祉サービスの利用スケジュールや受給者証更新手続きもパスポート内で一元管理し、必要な時期にプッシュ通知でお知らせできる仕組みを提供します。\n \n@@ -125,3 +125,27 @@\n ### 政策概要\n \n オンライン診療に関する詳細は[こちら](https://policy.team-mir.ai/view/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md)をご覧ください。\n+\n+## ７）生活保護制度を「最後のセーフティネット」から「生活立て直しのためのプラットフォーム」へ\n+\n+### 現状認識・課題分析\n+\n+*   真に助けを必要とする人がためらいなく利用でき、自立への道を歩み出せるはずの生活保護制度が、残念ながら社会からの偏見や誤解にさらされ、利用者に心理的負担を強いるだけでなく、社会の分断を助長する一因となっています。\n+*   「一度受給すると抜け出しにくい」という構造的な課題や、一部の不適切な利用事例が誇張されがちなことから、制度全体への不信感が生まれ、受給者に対する差別的な視線がなくなりません。\n+*   現行制度は、自立に向けたインセンティブが十分でなく、受給者が就労への意欲を維持し、実際に社会復帰を果たすまでの支援体制も万全とは言えません。就労や学習など、前向きな活動が収入認定によってかえって経済的損失につながるという矛盾も指摘されています。\n+\n+### 政策概要\n+\n+*   **生活保護からの「卒業」を応援する、ポジティブなインセンティブ制度を創設します**\n+    *   単なる「最低生活の保障」から脱却し、受給者の自立に向けた努力を積極的に後押しする制度へと転換します。\n+    *   就労準備活動、職業訓練、学習プログラム、健康増進活動への参加など、社会復帰に資する行動に対して、ポイントや一時金などのインセンティブを付与する仕組みを導入します。これにより、受給者一人ひとりの「頑張り」が報われ、自立への意欲が高まる環境を整えます。\n+    *   ハローワークや地域のNPO、企業と連携し、画一的なプログラムではなく、個々の能力や関心、心身の状態に合わせた多様な社会参加の選択肢（例：短期のボランティア、資格取得支援、リモートワーク体験）を提供します。\n+*   **ケースワーカーを「監督者」から「伴走者」へ。対話重視の自立プランを本人と共創します**\n+    *   威圧的・一方的な指導ではなく、受給者との対話を重ね、信頼関係に基づいた支援を基本とします。\n+    *   本人と共に、生活状況や心身の健康、将来の希望などを踏まえた無理のない「自立支援プラン」を策定し、目標達成までをケースワーカーが伴走者としてサポートします。\n+    *   医療費の適正化についても、罰則ありきではなく、ジェネリック医薬品の利用や重複受診の抑制に協力した場合にインセンティブを付与するなど、本人の納得と協力を引き出すアプローチを優先します。\n+*   **「脱却しやすい」制度設計で、誰もが再挑戦できる社会を目指します**\n+    *   生活保護受給中に得た収入の一部を、将来の自立資金として積み立てられる制度（仮称：みらい貯金）を創設し、就労意欲の向上を図ります。\n+    *   一度、生活保護を「卒業」した人が、再び予期せぬ困難に直面した際に、簡易な手続きで速やかに支援を再開できる仕組みを整え、再挑戦への心理的なハードルを下げます。\n+\n+これらの改革を通じて、生活保護制度を、困ったときに誰もが気兼ねなく頼ることができ、そして再び自分の足で歩き出す力を得られる、希望ある社会基盤へと進化させます。制度への信頼回復は、社会の分断を乗り越え、より寛容なコミュニティを築くための第一歩です。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "1b9094f996ab1f89a7b661ecf025ad4705190924",
+      "node_id": "C_kwDOOqTJvNoAKDFiOTA5NGY5OTZhYjFmODlhN2I2NjFlY2YwMjVhZDQ3MDUxOTA5MjQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-05T21:01:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-05T21:01:12Z"
+        },
+        "message": "匿名ユーザー：生活保護制度に関する提案を追記",
+        "tree": {
+          "sha": "ab0005204366bef7773ff813a2402d6420fe893a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ab0005204366bef7773ff813a2402d6420fe893a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1b9094f996ab1f89a7b661ecf025ad4705190924",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoaZKYCRC1aQ7uu5UhlAAAzcoQABZeq/Qz4De7HYuSyWYSSA+u\nYZawHvFRzij2pPcVurmQ+SMne3r8b9eafLqOwqltD793WNT231c8MRSb/4/xkAoj\nxaAsVfCc+YmBelXIIaGQE2wygzIFMBTdpNkTePHRUPWZp7PAzr+6RdYP+DeRtSEg\n3hGPuqKesJcG9wkmAeRNUq63tl5U8MxV+ME9wJAyFRsr0LdrYQRZdsIJwhjTG61m\nLC0O12awAelr26Llke3R9v0x0BBFGDuJSg77vAzPA9i69msdHmBcoxCfaWhXbHbq\nNOVfTTTz30Im/2rLvd88oPOOBUgOvEaneV7Jxyc3zKu7GV0z9W0zeVHOuk5bhJpb\nPfAw6aj1ygLNPcYQC80Dj7FVIfYKgGKQP6OJtxogyqTDz9NG3eTj0ETlgW4VFWp6\nGF48z3tNxK3g7KGoF0jo2s1HwXyBFlO/rW/7oNRDSkG5cDy4E283rIRbdZ+SrAvp\n7cW7J/xRacOAyTPPUqjZmGIWj5tQiGF2WjMsP2mZ/skpTtepp8rDXGUPAvdPX/uQ\nb7+nwe3FC+lQBmVLtleRw6qoTtAmZpezO9Kdkya3AaTk5M7sMdlFoz0BAXsOh7S5\nTdCaxRA/lAt6VLkamhHIw2yh2INWC324CJaBhnIZUnqzYIe1hHtvN1UQ1oaz+PwA\nO3P1RW15M9zkhjYy2duL\n=iwRj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ab0005204366bef7773ff813a2402d6420fe893a\nparent df65ae5293022c494abbd85260769a470411eeb4\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751749272 +0000\ncommitter GitHub <noreply@github.com> 1751749272 +0000\n\n匿名ユーザー：生活保護制度に関する提案を追記",
+          "verified_at": "2025-07-05T21:01:12Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1b9094f996ab1f89a7b661ecf025ad4705190924",
+      "html_url": "https://github.com/team-mirai/policy/commit/1b9094f996ab1f89a7b661ecf025ad4705190924",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1b9094f996ab1f89a7b661ecf025ad4705190924/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "df65ae5293022c494abbd85260769a470411eeb4",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/df65ae5293022c494abbd85260769a470411eeb4",
+          "html_url": "https://github.com/team-mirai/policy/commit/df65ae5293022c494abbd85260769a470411eeb4"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-05T21:11:55.404502"
+}
