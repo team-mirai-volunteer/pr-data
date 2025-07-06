@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 4068,
+    "title": "産業政策におけるAIシフトの実現に向けた実効性向上とリスク低減策の提案",
+    "state": "open",
+    "created_at": "2025-07-06T13:42:47Z",
+    "updated_at": "2025-07-06T13:42:48Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4068",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "ee97945a97aa474194a3d8154b6e3bd844a770b9",
+      "filename": "14_ステップ１産業.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/cee4cdae97eaee399feb2ecf4d1f6aaa588748cf/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/cee4cdae97eaee399feb2ecf4d1f6aaa588748cf/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md?ref=cee4cdae97eaee399feb2ecf4d1f6aaa588748cf",
+      "patch": "@@ -22,19 +22,21 @@\n   * また一方で、大企業を中心に多くの経営者がAIを最優先課題と捉えながら、多くのプロジェクトが PoC（概念実証）の段階で止まり、「効果が見えない」「組織が変われない」という“PoC の墓場”に陥っているという現状もあります。  \n     * こうした停滞の背後には深刻な人材不足があり、経済産業省の推計では、2030 年にデータ／AI 人材が約 79 万人不足する見込みとなっています。また、人材の質の面ではDX を牽引できる「AI プロダクトマネジャー」や「データエンジニア」が中小企業を中心にほとんど存在していません。  \n     * 加えて、多くの企業では、AI活用における情報セキュリティへの懸念やAIの能力・限界に関する正しい理解が不足していることにより、AIの活用・導入をためらうケースも見られます。  \n-    * また、AI需要の増加に合わせた計算資源の確保も課題であり、データセンターの容量や電力インフラの確保が必要です。さらに企業側ではレガシーシステムが足かせとなりクラウド移行や統制が遅れ、AI 活用の前提条件が十分に整備されていないという現状があります。\n+    * また、AI需要の増加に合わせた計算資源の確保も課題であり、データセンターの容量や電力インフラの確保が必要です。さらに企業側ではレガシーシステムが足かせとなりクラウド移行や統制が遅れ、AI 活用の前提条件が十分に整備されていないという現状があります。さらに、これらのクラウドサービスが海外製、特に米国製に大きく依存している現状は、経済安全保障の観点から潜在的なリスクを抱えています。\n \n   ### 政策概要\n \n     * AI導入に対する財政・税制上の支援  \n-      * 特に中小企業を中心とした企業によるAI関連投資(設備・ソフト・研修)について、特別償却または税額控除を導入することで、企業の負担感を産業全体のAIシフトを促します  \n+      * 特に中小企業を中心とした企業によるAI関連投資(設備・ソフト・研修)について、特別償却または税額控除を導入することで、企業の負担感を産業全体のAIシフトを促します。あわせて、現場の工数削減に直接的につながるAI導入を重点的に支援することで、リスキリングのための時間を創出します。\n       * 大規模な開発については、PoCから本格展開までのクラウド利用料や外部パートナー費用について、本格展開を条件に財政支援を行うことで、PoC以降の停滞を回避しつつ、AIシフトの加速を図ります。  \n     * AIその他のリスキリング支援  \n       * AI・データ人材の不足はAIシフトの大きなボトルネックとなっています。基金創設も念頭に、AI関連のリスキリングへの支援を実施。年間100万人規模の支援を目指します。  \n       * また、AI・データ人材以外にも、重点分野に関するリスキリング支援の強化を行います。  \n       * 特に中小企業や地方の企業の社員を中心的に支援することで、日本の産業全体の底上げを図ります。  \n     * AI導入時の情報管理体制構築支援  \n       * AI活用に伴って企業が直面するセキュリティ上のリスクに対応するため、情報管理ガイドラインの策定するとともに、セキュリティ対策の実施に対する支援を提供します。  \n+    * 国産クラウドサービスの開発・利用促進\n+      * 経済安全保障の観点から、国産クラウドサービスの開発を支援し、政府調達や補助金事業における利用を促進します。\n     * その他：インフラ、基盤整備など(ステップ３に記載)\n \n ## ２）AI・ITの活用により便利で効率的な産業支援を実現します\n@@ -52,3 +54,4 @@\n       * e-TAX やインボイスデータと連携し、申請書類の 90％以上を自動入力できる仕組みを整備します。  \n     * 海外展開支援のフルデジタル化  \n       * J-Bridge を拡張し、AI マッチングによる商談先リスト作成、自動翻訳、国別規制チェックを一つの画面で完結させるなど、利便性の工場を図ることで、中小企業も含めた幅広い対象の海外展開を支援します。\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0",
+      "node_id": "C_kwDOOqTJvNoAKDMwODFhZTg4NTNjMGRhMzRlN2E5ZDY5OTdhMDcwOWJhN2ViZDNmZTA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-06T13:31:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-06T13:31:29Z"
+        },
+        "message": "深谷英彦さんの提案に基づき、AI導入支援策に現場の工数削減の視点を追加",
+        "tree": {
+          "sha": "0a8fcfcfa191cd47ee6ae15c211ddaafb54163b9",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0a8fcfcfa191cd47ee6ae15c211ddaafb54163b9"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoanqxCRC1aQ7uu5UhlAAAsLMQACBnN29WZyoL/nBNKx4apvQB\n67Uuf3XVcbkB6pQT4FU0pDuTaiXPXvdCoW0MtjyflFCepZHAUUsKov3rmkWXBLyq\nCefLcTlQ4vfq5p4EPWaMOvTjtP/qCHsJrWXg0G2agkOnJ+M7KC4X4bpq28Ary/y3\nEep0KDubz9laHsADf0P33BgfER3gYEQLimQWi/xvmDmE7SlcldRE0XBR2ClScRxq\ncu272jeDITgrzuhuu6eNzSqgnud7QMYmR1U3wk4TmiaFrCdJ8SXoAoCjeFc6MW+c\nPdYO/yrsVu2Ofl0QJjxiEK3TabLVbB/sH8hHAuOSMgXVz5bBIL/vsvJm2ZBzhRgW\nhyzaTVUtgN7wqwcuHxtLpIoLHaER5jxZert+dafWQr+R7AO+ibxCUBMpWsn9Rte0\n/q295qQnsNMNmXiN9BBfW4vbEtGWATPnsXUI9lkiRhfoOdINNnwEnnBwLDb5b2Ca\nGpHHfxsBffXy18yepdq90BUmQmHlBmq3qDZxWmtT97wOSW1VW8ek1zk1ANhRvmKN\n8z+rrKb35D3rUMnvykqNyBce5dGwuJPcv+J0DyFiygTMC82uiPL1Yh76BrG75meO\nU3zupPRYT/L3pAS6maTMmyoGP40/51RfN71Qq3Tz50Nm5IOzHxa5i3vppErgOnFk\nOCRm00Skh4+uLYeB1W0G\n=HWuO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0a8fcfcfa191cd47ee6ae15c211ddaafb54163b9\nparent df65ae5293022c494abbd85260769a470411eeb4\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751808689 +0000\ncommitter GitHub <noreply@github.com> 1751808689 +0000\n\n深谷英彦さんの提案に基づき、AI導入支援策に現場の工数削減の視点を追加",
+          "verified_at": "2025-07-06T13:31:29Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0",
+      "html_url": "https://github.com/team-mirai/policy/commit/3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "df65ae5293022c494abbd85260769a470411eeb4",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/df65ae5293022c494abbd85260769a470411eeb4",
+          "html_url": "https://github.com/team-mirai/policy/commit/df65ae5293022c494abbd85260769a470411eeb4"
+        }
+      ]
+    },
+    {
+      "sha": "db85f75272574ff47beaf45ac8e80428d28bc5c0",
+      "node_id": "C_kwDOOqTJvNoAKGRiODVmNzUyNzI1NzRmZjQ3YmVhZjQ1YWM4ZTgwNDI4ZDI4YmM1YzA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-06T13:38:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-06T13:38:30Z"
+        },
+        "message": "深谷英彦さんの提案に基づき、現場の工数削減と国産クラウドに関する記述を追加",
+        "tree": {
+          "sha": "ce7f564f84eb645f2d8ac7a896b65fc08aa23c4f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ce7f564f84eb645f2d8ac7a896b65fc08aa23c4f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/db85f75272574ff47beaf45ac8e80428d28bc5c0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoanxWCRC1aQ7uu5UhlAAAUjwQADOuEjAb8TRMSKXa/29sFSAk\nfNxYAjRJa0SAsnNPQoB8p+sPeC/IVV6vFgy3WGup3HJEzjethQtDZimjx1uYLOvZ\ndhOQMPKsLrJIYD5V7CgZKaMP4dSGQVylNlsGGwQ5wWys3GkuZYNCBvxCwqUgs2HD\nNMYvVvShKtFFgJFDTpBsGL45RhoGD0fV0GLK6gjy/k+dGKFec7q678jqWRFptwx+\nAQFSn3S8gLe1XrMmW7IjLEd8cwJYCgoKXY2ZBQeO1DEvlzuJfHWsIzIqCMfS4Idf\nx/DSK8jQU/iEGYD85bSSyzUwOgYzMSIU9v9fTk7V9ENncZhBYYllszRdquEV7ob3\nR414qD8zZWBVONCM2wnh4CobQP/3pemUNXZoGPa5hOImOFbQugocd47Mmx95/dbk\nNCa395tg8w3tOM4Z8VD5owU8MyfHKH0WCt/l+xP686/c8srk4atQVVEQujlxPSab\n9DegczgArlXzDhnbRbvdyFORNJdwDDzuis6a1AXJlxJ006zK8anzVFh1s68Drlo4\ngkf5Uo1rlv+uGDfuV9CXS9brJIehfrgRjf9uke6CyiLs3+5kTuarFfwGJA/GZyQz\ns78ZRc981x8SqQ9FyOEEYoplBAtbrAzUK5kq2C3C2NIVKR1Raqg2piNDr9nnWqxt\nMzwL10Ak2vGFy32DLAV9\n=qSQh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ce7f564f84eb645f2d8ac7a896b65fc08aa23c4f\nparent 3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751809110 +0000\ncommitter GitHub <noreply@github.com> 1751809110 +0000\n\n深谷英彦さんの提案に基づき、現場の工数削減と国産クラウドに関する記述を追加",
+          "verified_at": "2025-07-06T13:38:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/db85f75272574ff47beaf45ac8e80428d28bc5c0",
+      "html_url": "https://github.com/team-mirai/policy/commit/db85f75272574ff47beaf45ac8e80428d28bc5c0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/db85f75272574ff47beaf45ac8e80428d28bc5c0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0",
+          "html_url": "https://github.com/team-mirai/policy/commit/3081ae8853c0da34e7a9d6997a0709ba7ebd3fe0"
+        }
+      ]
+    },
+    {
+      "sha": "cee4cdae97eaee399feb2ecf4d1f6aaa588748cf",
+      "node_id": "C_kwDOOqTJvNoAKGNlZTRjZGFlOTdlYWVlMzk5ZmViMmVjZjRkMWY2YWFhNTg4NzQ4Y2Y",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-06T13:41:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-06T13:41:48Z"
+        },
+        "message": "深谷英彦さんの提案に基づき、国産クラウドに関する記述を追加",
+        "tree": {
+          "sha": "22d1dd86e17d73096897419d0b05b11cde11fbf4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/22d1dd86e17d73096897419d0b05b11cde11fbf4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/cee4cdae97eaee399feb2ecf4d1f6aaa588748cf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoan0cCRC1aQ7uu5UhlAAAakwQADDDQO1utaPEEXp21DFVCqyW\nuiX+jsLkY5VVtf4XpiSTH3+RYrn3GzoZ2HCBWhfPbiAmMD0Ad4gu7Md6U9TmX99b\nOcdny2gDRyf8CauACoXQ6mMjfjMi6XeC64ok1mnPHp8FUspigL4MMFJ5HZv4VM5E\n/aZb5Jnbg0jqxA+5a9sdFzv3p1pms7Pgd/9xeqmdgMnhr87ulARkeI4ZelJOsT7h\nhg/fw0v5Yvx3Z38FFyvIImTXjj7AoECesWfjvpmuRzcHjiVMxsiP2WUUW4db7LRX\nfKoZWXLS8fCIj/QNvNgHZaUa6stp9OfYX2So5OkGwClwJjiv1dJr6NCLNy67PFMk\na7K3vjoUCCTBUmbTtVyQQLd4bJ/NjYMHwcCR4KrQXs8IYsAQ+UTxP7gQsiRa6keJ\n7ythkx7ExQS6FasO9mUCXul1z/Ga3QF4jwG0lRHqfLvhOxb9HQDQXtTJDidMcWED\nCbGttsGi1xUhA+L9b4ijcosWTDUO4GZq3NQGlfR2LJ/SgRLvtseWG0NliYnYsMER\nl5epE4uhB4LDF6ZUnYIn3pqCtNpbs3vUXOYLjKzxBKzbZ+F/5Kg4slcO030tt6cM\nHx2lBVswqAxjXVujdOhouv/ws+1ZtClWgx84ZPKaIiqb1d/CHmOe0ovxRI6/hsRT\nZTUQST1Jw/Rb0uEp7NM0\n=6bHf\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 22d1dd86e17d73096897419d0b05b11cde11fbf4\nparent db85f75272574ff47beaf45ac8e80428d28bc5c0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751809308 +0000\ncommitter GitHub <noreply@github.com> 1751809308 +0000\n\n深谷英彦さんの提案に基づき、国産クラウドに関する記述を追加",
+          "verified_at": "2025-07-06T13:41:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/cee4cdae97eaee399feb2ecf4d1f6aaa588748cf",
+      "html_url": "https://github.com/team-mirai/policy/commit/cee4cdae97eaee399feb2ecf4d1f6aaa588748cf",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/cee4cdae97eaee399feb2ecf4d1f6aaa588748cf/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "db85f75272574ff47beaf45ac8e80428d28bc5c0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/db85f75272574ff47beaf45ac8e80428d28bc5c0",
+          "html_url": "https://github.com/team-mirai/policy/commit/db85f75272574ff47beaf45ac8e80428d28bc5c0"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-06T14:10:43.851884"
+}
