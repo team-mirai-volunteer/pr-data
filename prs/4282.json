@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4282,
+    "title": "デニスさんによるAI政策原則の追記提案",
+    "state": "open",
+    "created_at": "2025-07-07T13:17:20Z",
+    "updated_at": "2025-07-07T13:17:21Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4282",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "8b59f48223be9958d515f418b4f9798d08e9ea9d",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "changes": 4,
+      "blob_url": "https://github.com/team-mirai/policy/blob/6775d1a59e19ad53c3b08abb620155f2f5578e39/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/6775d1a59e19ad53c3b08abb620155f2f5578e39/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=6775d1a59e19ad53c3b08abb620155f2f5578e39",
+      "patch": "@@ -40,6 +40,7 @@\n * 迅速なプロトタイプ作成\n   * 行政が発注しようとするデジタル案件に対して、エンジニアチームが迅速にプロトタイプを作成します  \n   * 発注前に要件定義の明確化や具体的なイメージをつかみやすくし、必要なときに必要なだけ予算を配分できる仕組みとするとともに、業者や行政の間で共通の理解を形成します  \n+* 開発する政策AIは、特定の思想や意図に偏らないよう、複数のAIで相互検証する仕組みを導入し、客観性と透明性を確保します。また、AIによる分析や提案はあくまで判断材料とし、最終的な意思決定は必ず人間が行うことを原則とします。\n * 他党や自治体と連携\n   * AI政策についてオープンかつ国民的な検討を進めるためのオープンな超党派議連を立ち上げます。  \n   * デジタル民主主義2030で構築したいどばたシステムや広聴AI、そしてオフラインでの議論を活用し、新しいオープンな政策立案プロセスを実現し、賛同を得られたものは法案提出を目指します  \n@@ -85,7 +86,7 @@\n         * 今後は、これらの仕組みをより一層拡張し、証券会社・金融機関・保険会社などの情報も含めた網羅的な所得・控除情報の事前集約を推進します。また、高齢者や体調不良等により自らの申告が困難な納税者については、税理士等の有資格者に限らず、家族等による代理提出やサポートがしやすくなる環境整備（例：電子委任状の標準化、代理人向け操作画面の整備）を進めます。\n         * これにより、最終的には、納税者があらかじめ集約された申告内容を確認し、ワンクリックで申告を完了できる「ワンクリック申告」の仕組みを実現します。本人の意思に基づいた安全な情報連携、透明性の高い運用、そして不正利用を防止する制度設計を徹底することで、誰にとっても使いやすく、安心できる確定申告制度への転換を図ります。\n         * この基盤を活かすことで、税や社会保障の控除・給付の“境界”をなめらかにし、より合理的な制度運用へと接続していくことが可能になります。確定申告の改革は、より本質的な制度の滑らかな設計——「なめらか税・社会保障」への移行に向けた第一歩でもあります。\n-        * なお、希望する納税者に対しては、マイナンバーカードに紐付けられた公金受取口座から、確定した税額が納税期限日に自動的に引き落とされるオプションも導入します。引き落としにあたっては、納税額の確定内容を事前にマイナポータル上で確認・同意できるようにし、利用者の不安や誤課税への懸念に対応します。\n+        * なお、希望する納税者に対しては、マイナンバーカードに紐付けられた公金受受口座から、確定した税額が納税期限日に自動的に引き落とされるオプションも導入します。引き落としにあたっては、納税額の確定内容を事前にマイナポータル上で確認・同意できるようにし、利用者の不安や誤課税への懸念に対応します。\n     * また、本人情報やマイナンバーに紐づく属性データ（年齢、所得、家族構成など）に加え、住民自身がマイナポータル等で登録した興味・関心分野（例：子育て、教育、住宅支援、起業支援など）をもとに、対象となる可能性のある補助金・制度を自動抽出し、アプリやメールで個別通知する仕組みを整備します。これにより、「制度を自分で探しに行く」のではなく、「必要な情報が向こうから届く」プッシュ型の情報提供が実現されます。\n       * すでに、マイナポータルの「ぴったりサービス」や一部年金手続きで先行実装されつつあり、今後は他制度にも横断的に拡張し、自動化の精度を高めていきます。\n       * 一定の要件を満たす給付金や手当については、本人への通知後、一定期間内に異議がなければ公金受取口座に自動的に振り込まれる「オプトアウト型自動給付」の仕組みを整備します。2024年の定額減税補足給付では、申請不要の給付が一部自治体で実施されており、これを皮切りに、恒久的な制度への段階的移行を進めていきます。\n@@ -210,3 +211,4 @@\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n \n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "6775d1a59e19ad53c3b08abb620155f2f5578e39",
+      "node_id": "C_kwDOOqTJvNoAKDY3NzVkMWE1OWUxOWFkNTNjM2IwOGFiYjYyMDE1NWYyZjU1NzhlMzk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T13:14:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T13:14:46Z"
+        },
+        "message": "複数のAIによる相互検証と人間の最終判断に関する原則を追記 (デニス)",
+        "tree": {
+          "sha": "2fdb49581ec61f8e7bf0c69722a1352414009b20",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2fdb49581ec61f8e7bf0c69722a1352414009b20"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6775d1a59e19ad53c3b08abb620155f2f5578e39",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa8hGCRC1aQ7uu5UhlAAAI+EQAJpNUTDDmFswM0Ab2wbqWJsl\n5KJ9azGF1X1osjkWX8J72XFm9wDXq6OHGiNA24Zx1nPwVZEQmhr2LrEh9+iohZ2m\nTWrpDuZbMz/6Bw35SfeUkkvbrjilzBfU2sYgEt/nE0b5EYc6FYhj2YAESX9+UoAc\n5YAElb4cCjs7iG58aRJeaYLqOKAorcjZYsdKf6jEyLrTBdJr2cTy77Gj5zSCU94u\nIe7jYBba0/8woYS8jvsAKGy5Mpc+dEiNYw8Bu3a8uVs7AeszqlqbvC8i3BdA/lEX\n4u0ibd69WIg6czubKu2qePK9YJk3xk8I7C+Sma7AcEM6ovNo2iBnbWJLYdvXQKuX\nk2AngwvByaHIIuKVP709hnCxw4oC5Hf2bqvuYMUj32w/HUIqnfSR6vQR5ljYNOzm\nBdCQ/5UREHUBd5p9sKWsJlt3K1wKrrrKu8kOnd6oSP0glhqAJkVM/WTwDAmu0Hwr\n9yr+H249BadhNeXsSqvmnVfgG6WtNe+k+sXIsMMHpcGxv42gnlcdjFc9kHCs1h8E\ngml+nzQcadUBcFELPaqFFAOOzgxrgQOl1A2KHY9BU9yrV6UfVsmWIs4OcQF9c5wH\nBGq8wICkSO/GJHDbQ9dyYX1Jto34yEU1r7rRaKdpr2R5C8c2rn9vyNkKfdTk1Fc0\neCBX562KjTKhFCbzOG9J\n=DSUh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2fdb49581ec61f8e7bf0c69722a1352414009b20\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751894086 +0000\ncommitter GitHub <noreply@github.com> 1751894086 +0000\n\n複数のAIによる相互検証と人間の最終判断に関する原則を追記 (デニス)",
+          "verified_at": "2025-07-07T13:14:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6775d1a59e19ad53c3b08abb620155f2f5578e39",
+      "html_url": "https://github.com/team-mirai/policy/commit/6775d1a59e19ad53c3b08abb620155f2f5578e39",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6775d1a59e19ad53c3b08abb620155f2f5578e39/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-07T13:28:26.626166"
+}
