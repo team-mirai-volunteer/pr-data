@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 4207,
+    "title": "現場の声を反映した医療政策の改善提案（まき）",
+    "state": "open",
+    "created_at": "2025-07-07T09:11:16Z",
+    "updated_at": "2025-07-07T09:11:17Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4207",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "32a824bd441c9a8d324c1b1d6f7dafa238c89ebd",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 32,
+      "deletions": 1,
+      "changes": 33,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ab67bbe3287789d3d3995365f409ede62151c32a/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ab67bbe3287789d3d3995365f409ede62151c32a/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=ab67bbe3287789d3d3995365f409ede62151c32a",
+      "patch": "@@ -75,7 +75,7 @@\n - システム導入費の補助による画像解析システムの導入推進を行います\n   - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n   - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n-  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n+  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n   - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n - 診断AIへの加算を制定し、継続利用を促すとともにAI画像解析の成果について評価を行います\n   - CT・MRI読影にAI画像解析を併用した場合に一定の診療報酬の加算を暫定的に設けます\n@@ -86,3 +86,34 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）医療資源の適正化と無駄の削減\n+\n+### 現状認識・課題分析\n+\n+- 在宅医療や介護施設などにおいて、患者の状態変化により、処方されたものの未使用となった医薬品が大量に廃棄されている現状があります。\n+- 特に、終末期の患者様に使用する点滴やインスリン製剤などが、未開封のまま大量に破棄されるケースが報告されています。\n+- これは、患者家族の経済的負担となるだけでなく、貴重な医療資源の損失であり、増大する医療費の観点からも大きな課題です。\n+- 現在の制度では、一度処方された医薬品の返品や再利用は、品質保証や安全性の観点から原則として認められておらず、このことが無駄の温床となっています。\n+\n+### 政策概要\n+\n+- 未使用医薬品の回収・再利用の仕組みづくり\n+  - 在宅医療や介護施設で発生する未使用医薬品について、薬局などが安全に回収し、品質を担保した上で再利用するための仕組みを検討します。\n+  - 例えば、未開封で適切に保管されていた特定の医薬品（点滴、インスリンなど）を対象に、薬剤師の専門的な判断のもとで回収・検品を行い、他の患者へ供給する実証事業を開始します。\n+- 返品・返金のルール整備\n+  - 回収された未使用医薬品について、患者家族への一部返金を可能にするなど、経済的負担を軽減するためのルールを整備します。\n+- 安全性確保のためのガイドライン策定\n+  - 医薬品の保管状況の確認方法や、再利用までのトレーサビリティ確保など、安全性と品質を最優先事項とした厳格なガイドラインを策定し、関係者への周知徹底を図ります。\n+- これらの施策により、医療費の無駄を削減するとともに、限りある医療資源を有効活用し、持続可能な医療制度の構築を目指します\n+\n+## 5）尊厳ある最期を迎えるための意思決定支援\n+\n+### 現状認識・課題分析\n+- 終末期において、本人の意思が不明なまま、家族の思いから胃ろうの造設などが選択されるケースが少なくありません。多くの国民は、死が目前に迫るまで、自身の終末期医療について深く考える機会を持てていません。その結果、家族が「かわいそうだから」という理由で延命治療を選択し、本人の尊厳が損なわれる可能性があります。\n+\n+### 政策概要\n+- **国民的な対話と教育の推進:**\n+学校教育の早い段階から「自分らしい最期」を考える機会を設けます。胃ろうなど終末期医療の実際について、国民が知る機会を創出します。\n+- **意思決定支援の体制強化:**\n+医療・介護現場で、本人と家族が納得して治療方針を決定できる相談支援体制を強化します。特に、単身の方や相談相手のいないご家族が孤立せず、精神的な負担や罪悪感を感じることなく意思決定できるよう、専門職による手厚いサポート体制を構築し、事前指示書の作成を推奨します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8",
+      "node_id": "C_kwDOOqTJvNoAKDc1YjFlOGNkZmU5MjViZjlhMDA5Y2NkMGIwYjJhZWI3ZWViODlkZTg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T08:57:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T08:57:08Z"
+        },
+        "message": "まきさんの提案に基づき、未使用医薬品の廃棄問題に関する項目を追加",
+        "tree": {
+          "sha": "9ba4077756072931ee083543bb103a847a3bff46",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/9ba4077756072931ee083543bb103a847a3bff46"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa4vkCRC1aQ7uu5UhlAAAOvYQAK3oy7ey6rDqzXAsKU2Fw5hW\nnn6nTChqffTTp/2J2DVhVo6G6UekAKoYqDf7kB/QZj7jo/lD2Ac3J1nq/6NZgYeR\neWiPXw+DbwV1WSOGjGejD+lokmB2RD0vB1m1cahChhMufJlxI8iLq4qGU3XJX7tK\nEb7R4LQNT+lFY7VR205AhTMeba6qYyQnckt0UxNU7dL73MyKXAT9yzOF4fjXxvzh\nheSAQNyDFypUdImOk6AH4M141rdA7goWSI4CRYhnWgUHEAyVhGhnSY9CpDiG9RML\n+sg2PDLXl//9MPJgPeaa3G4ATYemo7L+uMmj9alxJ2KEoUXs+pweeJpVGJOc+Gin\n2f/XMBlGhoBZSR+QqYNllhHG74qeI0igUjmkC4vCwvKtPZnXk34wPXLAH7j4HsQg\nqzhM3BjnxQwHVaC6cTBfh8aGsNFfbCPoiG3l6b1A72BFj1N8xgT4Dj6CqOItfUj4\n4qewWOzO+EExjXDz2VGFL+/Zyl+Oo244atfwTQwAfqxmkDb9TZZtdEHiLC+3sjRX\noP7xYlCdOvvfP/QLc9NxSN4lZWDMpsYgUFpTJCBYmH54NojjU4wlLfuwALvpTprF\nQiVvLcw/0/p60PYO1JZWs/IPHIpU6BeuEm4XipaAKp2g5WYiSUcNRUGlcpOjx6Di\nGL8WvIem2P2y4hNX0agu\n=osxr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9ba4077756072931ee083543bb103a847a3bff46\nparent 1be827ce3cbf6a22490ca4728a94d699d04d4014\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751878628 +0000\ncommitter GitHub <noreply@github.com> 1751878628 +0000\n\nまきさんの提案に基づき、未使用医薬品の廃棄問題に関する項目を追加",
+          "verified_at": "2025-07-07T08:57:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8",
+      "html_url": "https://github.com/team-mirai/policy/commit/75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1be827ce3cbf6a22490ca4728a94d699d04d4014",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1be827ce3cbf6a22490ca4728a94d699d04d4014",
+          "html_url": "https://github.com/team-mirai/policy/commit/1be827ce3cbf6a22490ca4728a94d699d04d4014"
+        }
+      ]
+    },
+    {
+      "sha": "ab67bbe3287789d3d3995365f409ede62151c32a",
+      "node_id": "C_kwDOOqTJvNoAKGFiNjdiYmUzMjg3Nzg5ZDNkMzk5NTM2NWY0MDllZGU2MjE1MWMzMmE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T09:09:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T09:09:23Z"
+        },
+        "message": "まきさんの提案に基づき、医療資源の適正化と意思決定支援の項目を追加",
+        "tree": {
+          "sha": "f4c59a1c2a106f0e7aba5ef485c766b9cc41019c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f4c59a1c2a106f0e7aba5ef485c766b9cc41019c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ab67bbe3287789d3d3995365f409ede62151c32a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa47DCRC1aQ7uu5UhlAAA6TgQAINHscTqPgKuBPYN4puPNWcq\nBjaqONxZrRtzYdE6NnGBB4KJWbr1K6qbFmDyKuETV49fbgI0wptSHOHVL1BObuG7\nT8P7EyjR+LaXbPD115jhvKofh/vnuP++9dvl9v7+UCpj3u1Fb3Jg0nnyGZWhI37L\nmN+4grSekFyIOz6Sjynwlo6GTZksuClKGJjZBj4JHB/XBpfwbbIHsTIm5xWUSBPr\nVAolUspE9CqBdFqVuPblRH+YsrDfKqRdd8ShZESNn+0uK6AyNex9g/Oi5Pda8uCC\n1YNPcg2SX9F1k8SKlVAqIEhak/ECHgrRJZKccu+IYHmCNUu8ms5xIIu219t0kIyb\nNDJM/yqzTBge2iVeHuHAB7eIaj+TqMvAptOuaR4NHFNdGUlxBj5Yr9t1jgNgTZLb\n9oiiiUnnVrCtnU19jiHq7X28lXni7dCsc7bDYvkvhLDREx3Lu0WvquDQf82K6bXA\nL5f2DD8MjmGRrsRrsrQ01F1J7VfFkv7l33BycCgW3xOLAwZPha1m60siBFHwTnCZ\nSimgpb5KMD4+SHhYm6Geb+cODiF2q8bt1AWr01Qpq74REfANsvudnQeGqU7toKU+\nqwTKU/q+BtA3Ix92VAAtmxucZn66PfdJZbosJBwmjEeTkCc3Q+fssmzOlKDuHBd8\nM7A8QfwFmhBDVUsuPBu9\n=PSaJ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f4c59a1c2a106f0e7aba5ef485c766b9cc41019c\nparent 75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751879363 +0000\ncommitter GitHub <noreply@github.com> 1751879363 +0000\n\nまきさんの提案に基づき、医療資源の適正化と意思決定支援の項目を追加",
+          "verified_at": "2025-07-07T09:09:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ab67bbe3287789d3d3995365f409ede62151c32a",
+      "html_url": "https://github.com/team-mirai/policy/commit/ab67bbe3287789d3d3995365f409ede62151c32a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ab67bbe3287789d3d3995365f409ede62151c32a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8",
+          "html_url": "https://github.com/team-mirai/policy/commit/75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-07T09:16:04.723782"
+}
