@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 4293,
+    "title": "制度の厳格化、政治改革、日本人学生支援の拡充に関する包括的提案",
+    "state": "open",
+    "created_at": "2025-07-07T13:56:42Z",
+    "updated_at": "2025-07-07T14:13:37Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4293",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "e1e01bf990c8e46b7d9410d043314649d4114d05",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "changes": 17,
+      "blob_url": "https://github.com/team-mirai/policy/blob/69d934cfff40599180ce8ad729714faa4994b0eb/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/69d934cfff40599180ce8ad729714faa4994b0eb/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=69d934cfff40599180ce8ad729714faa4994b0eb",
+      "patch": "@@ -97,6 +97,8 @@\n         * 既に成果を上げている自治体と民間企業の連携による現場サービス（例：出張講習、地域サークルと連動したIT体験会）などの優良事例を迅速に横展開し、全国での実装を加速させます。\n     * 政策情報や手続き案内を、AIや検索エンジンが解析しやすい機械可読なデータ形式（HTML, JSONなど）で提供。AI・アプリ・Web検索を活用した情報アクセス性を向上させます。\n     * 行政文書の日付表記を分かりやすく改善し、西暦を併記または主として使用することで、和暦の確認や年数の計算といった無駄な確認作業をなくし、利便性を向上させます。\n+* 公平な制度アクセスのための基盤整備  \n+    * マイナンバー制度の活用は、支援を届けるだけでなく、公平な負担を確保するためにも重要です。国籍を問わず、納税や社会保険料などの義務が果たされるよう、マイナンバーと在留資格情報を連携させ、状況を正確に把握します。義務を履行しない場合には、在留資格の更新を厳格に審査するなど、適正な対応を行います。また、短期滞在者に対しては、入国時に民間の医療保険加入をデジタルで確認する仕組みを導入し、日本の医療保険制度の持続可能性を守ります。\n \n \n ## ３）AI＆ITによる公務員の働き方改革を行います\n@@ -135,6 +137,12 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+  * 安全保障・入国管理体制の強化\n+    * 水際対策として、AIを活用した入国審査を高度化します。各国の犯罪歴データベース等と連携し、偽造品や禁制品の持ち込み、リスクの高い人物の入国を未然に防ぎます。\n+    * あわせて、安全確保と厳格な本人確認のため、入国を希望する外国人に対してDNA情報と指紋の登録を義務付けます。登録された情報は、プライバシーを厳重に保護し、目的外利用を禁じた上で、国内での重大犯罪捜査等に限定して活用します。\n+    * 入国時に一定額のデポジットを預ける制度を創設し、不法滞在や公費の未払い等を防ぐ仕組みを検討します。\n+    * 警察、裁判所、出入国在留管理庁の情報をデジタルで連携させ、犯罪歴と在留資格情報を正確に紐づけ、有罪判決が確定した者に対する国外退去などの法的手続きを迅速かつ厳正に執行します。オーバーステイについても、情報連携により正確に把握し、厳格に対処します。\n+    * 司法の透明性を高めるため、過去の判決データをAIで分析・可視化し、判断基準の公平性を国民が検証できる仕組みを構築します。\n    \n ## 4）決まる前に追える、届けられる――市民の声が届く法制度トラッカー\n \n@@ -209,4 +217,13 @@\n    * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n+## 6）日本人学生への支援拡充による未来への投資\n \n+* 学ぶ意欲のある誰もが家庭の経済状況に左右されず、高等教育を受けられる環境を整備します。国の未来への最も重要な投資は、次代を担う若者への教育です。経済的な理由で学びの機会が失われることがないよう、日本人学生への支援を最優先で拡充します。\n+* **優秀な日本人学生への授業料免除:** 学業やスポーツにおいて特に優秀な成績を収めた日本人学生に対し、授業料を全額免除する新たな制度を創設し、努力が正当に報われる環境を整備します。\n+\n+## 7）政治への信頼回復と活性化のための抜本改革\n+\n+* **政治の独立性の堅持:** 日本の政治が外国の資本や意思によって影響を受けることを断固として排除する基本方針を明確に打ち立てます。\n+* **独立した特別捜査機関の創設:** 政治資金の不正を専門的に捜査・摘発するため、内閣や他の行政機関から完全に独立し、強制捜査権を持つ強力な捜査機関を新たに設置します。特に、外国勢力からの献金の温床となりうる政治資金パーティーなどを徹底的に監視・調査します。\n+* **政治家の定年制の導入:** 政治の硬直化や癒着の構造を防ぎ、新陳代謝を促進するため、国会議員に65歳の定年を設けます。ただし、長年培われた貴重な経験や知見を国政に活かすため、定年後は数年間に限り「相談役」として活動できる仕組みも併せて導入し、世代交代と経験の継承を両立させます。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "1d499955d05b4947f4203be6d1f12b9cb2a83179",
+      "node_id": "C_kwDOOqTJvNoAKDFkNDk5OTU1ZDA1YjQ5NDdmNDIwM2JlNmQxZjEyYjljYjJhODMxNzk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T13:45:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T13:45:06Z"
+        },
+        "message": "ヨシアキさんの提案に基づき、外国人に関する公平な負担と厳格な法執行の視点を追加",
+        "tree": {
+          "sha": "e4eac4c347f89e625061b8cbea7c9ed87d48f49e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e4eac4c347f89e625061b8cbea7c9ed87d48f49e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1d499955d05b4947f4203be6d1f12b9cb2a83179",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa89iCRC1aQ7uu5UhlAAALO0QAJZjm0raGD98iN/yXDMN6eTP\ns2QeTH6xdxv9cGBrazF9EhRQ59INag7pu5RbC9ohByJND6CA3XHC+3FIjVJpbhDk\nYE2GcHy+bhLiKnR1p/+4spAxngvHVfg+peMFh9JNdJpDWw96KRuSI/C+0zgmiEN2\npWpo+Qf+n0dqUvPmYW7QoNxWQqVyPXwWNLxksCNZV8GM6j1ta7l0pasYFkzBQCAU\nQRrZpj4H2reZPCW7YhAydXqC16RwqAnweDC5g6w5fyiZumpqDYEbZn3r6HcRV9A8\nkMQjtayoRgYL3iR03uVe4C+pZcKItRkdn58+KG3jaNvwAwe5WzCt8C1m3C/uW6L4\nToPTZNgHhIr6u6akn/6loNO6Zfz/2m8ITlJFmKqGMMZRJEYQJSzeG0uk7dVR8ELv\nwDvalGW5wHQMa4tAMZSlsFsrsSyu+nPGWu2v+uSr2FqPngPeIruGZBNm1bVLTjli\nsKLX4o6aUfscgGGpW+cpKYJY2MaNXDYJaBKMue4BPT4kymVzb2ZCFpRmdHhounNq\nCYDxxAuNCgTpYizwlXDtcPlcG51YDKc4Pl2RB0zdrslqhZ+lS2O+ZDuRq1pkRqr+\n6nKKTgogXBce/vKKG2oBbGGI7PC2d82ZZdCA0wOuq6hWGEzUfv0lf/Tqez3Ynl7D\n6MZIKNn4cPDSTGclIx1S\n=Ia44\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e4eac4c347f89e625061b8cbea7c9ed87d48f49e\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751895906 +0000\ncommitter GitHub <noreply@github.com> 1751895906 +0000\n\nヨシアキさんの提案に基づき、外国人に関する公平な負担と厳格な法執行の視点を追加",
+          "verified_at": "2025-07-07T13:45:06Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1d499955d05b4947f4203be6d1f12b9cb2a83179",
+      "html_url": "https://github.com/team-mirai/policy/commit/1d499955d05b4947f4203be6d1f12b9cb2a83179",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1d499955d05b4947f4203be6d1f12b9cb2a83179/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    },
+    {
+      "sha": "8684d9518923b2ce3b649485f7da93d42f306aed",
+      "node_id": "C_kwDOOqTJvNoAKDg2ODRkOTUxODkyM2IyY2UzYjY0OTQ4NWY3ZGE5M2Q0MmYzMDZhZWQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T13:54:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T13:54:32Z"
+        },
+        "message": "ヨシアキさんの提案に基づき、外国人に関する規定と奨学金制度を追記",
+        "tree": {
+          "sha": "733d99efd883b752dfd99cea6766873c3628bfc4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/733d99efd883b752dfd99cea6766873c3628bfc4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8684d9518923b2ce3b649485f7da93d42f306aed",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa9GYCRC1aQ7uu5UhlAAA8UMQAH+A6tACWYReQShjvWo9p8t6\nuE20AeVN5sKF2+duucqbpHv0BO5nBiMqeAKD/3tKes4PUmV0L2mEwGOL2W0ukfxU\nitbLkUH7LbkfJrb73iYeb156ha2RdoodDoufgENtPJLcthLOKZ5NG+86EjfNaPcX\npevzSRHS5TkReVMXXyxBO5U7YwO24BRhnjBYxLHUpZE5mJStagzpVe45hnmV7WId\nuz0Pc+ySpcnEx02MvNx0ZKE0MGGsmM2pZpXFGSSf0GMrkWgkFMuEcbijokTxxn+t\nPtu4Xqg8AwHRN+YfM4JixLbS13CN+mhEZVHZdS2/YEF44MhcswjsLTgO69QUv1YX\npj4aSAyS0jKWYAQQ/tWQrcF+xXJgrxHn2Co1JdZ6mPx0DBltaIMrWYqO8FjHuYR1\nSO4u8E5oTqbZ0oQAx34GU0AAHIIfre8SF+hOSL3wGK48sgxbp2pHa2P06+H444lb\n6zrsEAZyfJagHTP4vrPkNB2X3eMPy3h46OfU6BBkiM6EmwxVurknVxp12GUtY1St\n+bx90TeJwV+NhJ5VINtCkB4sI4jCczm48Qt4bqn8JeHNvG/nxNO37vDudNl1OhjH\nWTaR6MDCL2cj8f9QGe/Sw0CQ0Shz49lco0env8Vv51byUqq7dxPST1y6dWS3aBZ0\nZ6lU8c4/4o/81gv0e2oQ\n=DeB/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 733d99efd883b752dfd99cea6766873c3628bfc4\nparent 1d499955d05b4947f4203be6d1f12b9cb2a83179\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751896472 +0000\ncommitter GitHub <noreply@github.com> 1751896472 +0000\n\nヨシアキさんの提案に基づき、外国人に関する規定と奨学金制度を追記",
+          "verified_at": "2025-07-07T13:54:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/8684d9518923b2ce3b649485f7da93d42f306aed",
+      "html_url": "https://github.com/team-mirai/policy/commit/8684d9518923b2ce3b649485f7da93d42f306aed",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8684d9518923b2ce3b649485f7da93d42f306aed/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1d499955d05b4947f4203be6d1f12b9cb2a83179",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1d499955d05b4947f4203be6d1f12b9cb2a83179",
+          "html_url": "https://github.com/team-mirai/policy/commit/1d499955d05b4947f4203be6d1f12b9cb2a83179"
+        }
+      ]
+    },
+    {
+      "sha": "69d934cfff40599180ce8ad729714faa4994b0eb",
+      "node_id": "C_kwDOOqTJvNoAKDY5ZDkzNGNmZmY0MDU5OTE4MGNlOGFkNzI5NzE0ZmFhNDk5NGIwZWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T14:13:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T14:13:36Z"
+        },
+        "message": "ヨシアキさんの提案に基づき、外国人関連制度の厳格化や日本人学生支援、政治改革に関する項目を追加",
+        "tree": {
+          "sha": "2d51f3e344c26fbc55d4f0158c2f26d3d2b3b295",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2d51f3e344c26fbc55d4f0158c2f26d3d2b3b295"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/69d934cfff40599180ce8ad729714faa4994b0eb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa9YQCRC1aQ7uu5UhlAAAHI8QADohX/tkc7Kprkhyn07u3s4x\n0CQ8l9SJAZu3H3Q3G3txOCE4Mjgrf8/CxOpw/KVmXvgzoEpSpftxSMpAepsmBIT3\nDvM6QfOg8WU9fHJ/Yp9ApU+2dCmn4OWPeGwwnd7mZw+Nhcy2VI6hpIXtPiIrbELe\ntLiFppHH1EDAR5lYIUEHT7blEKwkBABzKFbo+o2+4GOqKHzicdbZGXlrvwQ4DX52\n8tvR2kB++oCIC0yfDlWyriDDJO+wRGpTZIm7G6DlO3oKLkiFyYFvOKT0AQKdNU5q\n5ji6apvbuxeeYcuZ1n8oDgIlt8rTvB1dImmrkHxRAi5JP8Gix+3Xx08oOTXEZz/q\npJiUiO8TDjYyBUXa7mSHWb8hafpbcI9+Vjw5U90HbtWCR8gyd3A97jsIl5UFcKTy\nL4kOy+WVCjxft+rsmhC82e268af1RdPZH1BCb1nonGBIQDcDpHUzfcmwr/aEyyji\nMf8HypoXQpdBBLRYkSw70IvRWF7tVBc+Mf/Xzp596C8GmhhCCaOTn//+mo3d4ylQ\n+PreJt6LwwhW5W2ERQsuQEmR2oq/Xh/OOz10N4TV1HIxQjooWtJIK5pv10Qtbvqw\nx2680W9S/E4tdTNfWWUgq4+HgZVBPsHM4coB/cwJHl4KHQT0yNtqHIXxpHxYOQiy\nbwf9zGnuk0oG46dml+8G\n=Bp38\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2d51f3e344c26fbc55d4f0158c2f26d3d2b3b295\nparent 8684d9518923b2ce3b649485f7da93d42f306aed\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751897616 +0000\ncommitter GitHub <noreply@github.com> 1751897616 +0000\n\nヨシアキさんの提案に基づき、外国人関連制度の厳格化や日本人学生支援、政治改革に関する項目を追加",
+          "verified_at": "2025-07-07T14:13:36Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/69d934cfff40599180ce8ad729714faa4994b0eb",
+      "html_url": "https://github.com/team-mirai/policy/commit/69d934cfff40599180ce8ad729714faa4994b0eb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/69d934cfff40599180ce8ad729714faa4994b0eb/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "8684d9518923b2ce3b649485f7da93d42f306aed",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/8684d9518923b2ce3b649485f7da93d42f306aed",
+          "html_url": "https://github.com/team-mirai/policy/commit/8684d9518923b2ce3b649485f7da93d42f306aed"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-07T14:14:11.840811"
+}
