@@ -1,10 +1,10 @@
 {
   "basic_info": {
     "number": 4207,
-    "title": "現場の声を反映した医療政策の改善提案（まき）",
+    "title": "まきさん提案：医療資源の適正化と終末期意思決定支援の強化",
     "state": "open",
     "created_at": "2025-07-07T09:11:16Z",
-    "updated_at": "2025-07-07T09:11:17Z",
+    "updated_at": "2025-07-07T09:21:28Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/4207",
@@ -19,16 +19,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "32a824bd441c9a8d324c1b1d6f7dafa238c89ebd",
+      "sha": "01e77e98debe1aefdd0e81aa1bb73c722e8a65db",
       "filename": "17_ステップ１医療.md",
       "status": "modified",
-      "additions": 32,
+      "additions": 34,
       "deletions": 1,
-      "changes": 33,
-      "blob_url": "https://github.com/team-mirai/policy/blob/ab67bbe3287789d3d3995365f409ede62151c32a/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/ab67bbe3287789d3d3995365f409ede62151c32a/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=ab67bbe3287789d3d3995365f409ede62151c32a",
-      "patch": "@@ -75,7 +75,7 @@\n - システム導入費の補助による画像解析システムの導入推進を行います\n   - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n   - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n-  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n+  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n   - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n - 診断AIへの加算を制定し、継続利用を促すとともにAI画像解析の成果について評価を行います\n   - CT・MRI読影にAI画像解析を併用した場合に一定の診療報酬の加算を暫定的に設けます\n@@ -86,3 +86,34 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）医療資源の適正化と無駄の削減\n+\n+### 現状認識・課題分析\n+\n+- 在宅医療や介護施設などにおいて、患者の状態変化により、処方されたものの未使用となった医薬品が大量に廃棄されている現状があります。\n+- 特に、終末期の患者様に使用する点滴やインスリン製剤などが、未開封のまま大量に破棄されるケースが報告されています。\n+- これは、患者家族の経済的負担となるだけでなく、貴重な医療資源の損失であり、増大する医療費の観点からも大きな課題です。\n+- 現在の制度では、一度処方された医薬品の返品や再利用は、品質保証や安全性の観点から原則として認められておらず、このことが無駄の温床となっています。\n+\n+### 政策概要\n+\n+- 未使用医薬品の回収・再利用の仕組みづくり\n+  - 在宅医療や介護施設で発生する未使用医薬品について、薬局などが安全に回収し、品質を担保した上で再利用するための仕組みを検討します。\n+  - 例えば、未開封で適切に保管されていた特定の医薬品（点滴、インスリンなど）を対象に、薬剤師の専門的な判断のもとで回収・検品を行い、他の患者へ供給する実証事業を開始します。\n+- 返品・返金のルール整備\n+  - 回収された未使用医薬品について、患者家族への一部返金を可能にするなど、経済的負担を軽減するためのルールを整備します。\n+- 安全性確保のためのガイドライン策定\n+  - 医薬品の保管状況の確認方法や、再利用までのトレーサビリティ確保など、安全性と品質を最優先事項とした厳格なガイドラインを策定し、関係者への周知徹底を図ります。\n+- これらの施策により、医療費の無駄を削減するとともに、限りある医療資源を有効活用し、持続可能な医療制度の構築を目指します\n+\n+## 5）尊厳ある最期を迎えるための意思決定支援\n+\n+### 現状認識・課題分析\n+- 終末期において、本人の意思が不明なまま、家族の思いから胃ろうの造設などが選択されるケースが少なくありません。多くの国民は、死が目前に迫るまで、自身の終末期医療について深く考える機会を持てていません。その結果、家族が「かわいそうだから」という理由で延命治療を選択し、本人の尊厳が損なわれる可能性があります。\n+\n+### 政策概要\n+- **国民的な対話と教育の推進:**\n+学校教育の早い段階から「自分らしい最期」を考える機会を設けます。胃ろうなど終末期医療の実際について、国民が知る機会を創出します。\n+- **意思決定支援の体制強化:**\n+医療・介護現場で、本人と家族が納得して治療方針を決定できる相談支援体制を強化します。特に、単身の方や相談相手のいないご家族が孤立せず、精神的な負担や罪悪感を感じることなく意思決定できるよう、専門職による手厚いサポート体制を構築し、事前指示書の作成を推奨します。"
+      "changes": 35,
+      "blob_url": "https://github.com/team-mirai/policy/blob/c8492d1c2cc94b47f6ce97981ed15376a43b5b78/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/c8492d1c2cc94b47f6ce97981ed15376a43b5b78/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=c8492d1c2cc94b47f6ce97981ed15376a43b5b78",
+      "patch": "@@ -75,7 +75,7 @@\n - システム導入費の補助による画像解析システムの導入推進を行います\n   - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n   - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n-  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n+  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n   - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n - 診断AIへの加算を制定し、継続利用を促すとともにAI画像解析の成果について評価を行います\n   - CT・MRI読影にAI画像解析を併用した場合に一定の診療報酬の加算を暫定的に設けます\n@@ -86,3 +86,36 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）医療資源の適正化と無駄の削減\n+\n+### 現状認識・課題分析\n+\n+- 在宅医療や介護施設などにおいて、患者の状態変化により、処方されたものの未使用となった医薬品が廃棄されている現状があります。\n+- 特に、終末期の患者様に使用する点滴が未開封のまま大量に、またインスリン製剤などが数本単位で廃棄されるケースが報告されています。\n+- これは、患者家族の経済的負担となるだけでなく、貴重な医療資源の損失であり、増大する医療費の観点からも大きな課題です。\n+- 現在の制度では、一度処方された医薬品の返品や再利用は、品質保証や安全性の観点から原則として認められておらず、このことが無駄の温床となっています。\n+\n+### 政策概要\n+\n+- 未使用医薬品の回収・再利用の仕組みづくり\n+  - 在宅医療や介護施設で発生する未使用医薬品について、薬局などが安全に回収し、品質を担保した上で再利用するための仕組みを検討します。\n+  - 例えば、未開封で適切に保管されていた特定の医薬品（点滴、インスリンなど）を対象に、薬剤師の専門的な判断のもとで回収・検品を行い、他の患者へ供給する実証事業を開始します。\n+- 返品・返金のルール整備\n+  - 回収された未使用医薬品について、患者家族への一部返金を可能にするなど、経済的負担を軽減するためのルールを整備します。\n+- 安全性確保のためのガイドライン策定\n+  - 医薬品の保管状況の確認方法や、再利用までのトレーサビリティ確保など、安全性と品質を最優先事項とした厳格なガイドラインを策定し、関係者への周知徹底を図ります。\n+- これらの施策により、医療費の無駄を削減するとともに、限りある医療資源を有効活用し、持続可能な医療制度の構築を目指します\n+\n+## 5）尊厳ある最期を迎えるための意思決定支援\n+\n+### 現状認識・課題分析\n+\n+- 終末期において、本人の意思が不明なまま、胃ろうの造設などが選択されるケースは少なくありません。特に、加齢や病気により嚥下機能が低下し、誤嚥性肺炎を繰り返すような状態になった場合、本人の望まない延命治療に繋がることがあります。多くの国民は、死が目前に迫るまで終末期医療を自分事として考える機会が乏しく、結果として家族が本人の尊厳を思いながらも難しい判断を迫られる現状があります。\n+\n+### 政策概要\n+\n+- **国民的な対話と教育の推進:**\n+学校教育の早い段階から「自分らしい最期」を考える機会を設けます。胃ろうなど終末期医療の実際について、国民が知る機会を創出します。\n+- **意思決定支援の体制強化:**\n+医療・介護現場で、本人と家族が納得して治療方針を決定できる相談支援体制を強化します。特に、単身の方や相談相手のいないご家族が孤立せず、精神的な負担や罪悪感を感じることなく意思決定できるよう、専門職による手厚いサポート体制を構築し、事前指示書の作成を推奨します。"
     }
   ],
   "commits": [
@@ -195,7 +195,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/75b1e8cdfe925bf9a009ccd0b0b2aeb7eeb89de8"
         }
       ]
+    },
+    {
+      "sha": "c8492d1c2cc94b47f6ce97981ed15376a43b5b78",
+      "node_id": "C_kwDOOqTJvNoAKGM4NDkyZDFjMmNjOTRiNDdmNmNlOTc5ODFlZDE1Mzc2YTQzYjViNzg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T09:18:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T09:18:42Z"
+        },
+        "message": "まきさんのご意見に基づき、医療資源の適正化と尊厳死に関する項目を追加・修正",
+        "tree": {
+          "sha": "28dc2bf92d4a216f31d802fcf13ab90f26bf4a7c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/28dc2bf92d4a216f31d802fcf13ab90f26bf4a7c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c8492d1c2cc94b47f6ce97981ed15376a43b5b78",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa5DyCRC1aQ7uu5UhlAAAQoEQACyp7LtFZqBw6mubL/XgwzIw\n/NRCpLD+GxzXAQD5wZTdgXosJSHmuwz6uiLTCf5wo2AYy/MOOzDN8RUaogO2DiN3\nqGg+aDszuWNMumHSSMIn7pBoabXkZBcpCD2TdztsQURd+ZPu/q0nK+OZ7xnLt5VB\nyUZVdqtri0HtlJ/Qyn3g0NWSXxAPx1wbMUNbh6d6020l/XlNkjjqH1cwTuF4uVBo\na12J9BErEC0O4TY2NhjyUy9xrOF8H+F5fsQ0epxOVeNLTkx+n/7jiZwb4GaaN3FT\nxX3DJ28vtkyZ0SCO2ejxezinsJa838oaNq5N3vwaygOdcWvrpwbA1QazBibihT0p\nyF5anu2jah0U416c4V6ZOLh4sxmOr8ZLDf1YvHayMv5OqvzAlGHYNO560BLvZsSm\nsPZAV4Z58t7xVPKdZh9OPTaV2NroYzzTvwqrcSZKwLxIOnXtgEF5sBic7d7/pQx2\nwAThepv3izDCK8PbmDWrjvD1QFcAqFaQaWeuTU2+nboqLACs608Tj/xL44W49DFW\nNtAK01zVhMtavqLLW0ni/crvWYyl5RcoZuP2k/vPBCuB6jfn0ULvUeKXhIXStn7B\n8ckG8XGpadNfYxC7pUVCf5SLKk/Bun+GSMujiQFvbA+rMM9GmhwM7hV9W0KznSkc\nu3ctV94mxnuHRDftivbk\n=tn7s\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 28dc2bf92d4a216f31d802fcf13ab90f26bf4a7c\nparent ab67bbe3287789d3d3995365f409ede62151c32a\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751879922 +0000\ncommitter GitHub <noreply@github.com> 1751879922 +0000\n\nまきさんのご意見に基づき、医療資源の適正化と尊厳死に関する項目を追加・修正",
+          "verified_at": "2025-07-07T09:18:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c8492d1c2cc94b47f6ce97981ed15376a43b5b78",
+      "html_url": "https://github.com/team-mirai/policy/commit/c8492d1c2cc94b47f6ce97981ed15376a43b5b78",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c8492d1c2cc94b47f6ce97981ed15376a43b5b78/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ab67bbe3287789d3d3995365f409ede62151c32a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ab67bbe3287789d3d3995365f409ede62151c32a",
+          "html_url": "https://github.com/team-mirai/policy/commit/ab67bbe3287789d3d3995365f409ede62151c32a"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-07T09:16:04.723782"
+  "collected_at": "2025-07-07T10:16:21.434550"
 }
