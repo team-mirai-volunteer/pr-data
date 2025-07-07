@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4264,
+    "title": "「6）どこでも高精度な位置情報を使える環境を整備し、日本の産業競争力を高めます」の追加",
+    "state": "open",
+    "created_at": "2025-07-07T12:23:57Z",
+    "updated_at": "2025-07-07T12:23:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4264",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "190c5db99cc8048b02e54a582b926f614d8fa68f",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 19,
+      "deletions": 1,
+      "changes": 20,
+      "blob_url": "https://github.com/team-mirai/policy/blob/b15e24284f4499d752adc452fa8f87df8543c012/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/b15e24284f4499d752adc452fa8f87df8543c012/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=b15e24284f4499d752adc452fa8f87df8543c012",
+      "patch": "@@ -88,7 +88,7 @@\n         * なお、希望する納税者に対しては、マイナンバーカードに紐付けられた公金受取口座から、確定した税額が納税期限日に自動的に引き落とされるオプションも導入します。引き落としにあたっては、納税額の確定内容を事前にマイナポータル上で確認・同意できるようにし、利用者の不安や誤課税への懸念に対応します。\n     * また、本人情報やマイナンバーに紐づく属性データ（年齢、所得、家族構成など）に加え、住民自身がマイナポータル等で登録した興味・関心分野（例：子育て、教育、住宅支援、起業支援など）をもとに、対象となる可能性のある補助金・制度を自動抽出し、アプリやメールで個別通知する仕組みを整備します。これにより、「制度を自分で探しに行く」のではなく、「必要な情報が向こうから届く」プッシュ型の情報提供が実現されます。\n       * すでに、マイナポータルの「ぴったりサービス」や一部年金手続きで先行実装されつつあり、今後は他制度にも横断的に拡張し、自動化の精度を高めていきます。\n-      * 一定の要件を満たす給付金や手当については、本人への通知後、一定期間内に異議がなければ公金受取口座に自動的に振り込まれる「オプトアウト型自動給付」の仕組みを整備します。2024年の定額減税補足給付では、申請不要の給付が一部自治体で実施されており、これを皮切りに、恒久的な制度への段階的移行を進めていきます。\n+      * 一定の要件を満たす給付金や手当については、本人への通知後、一定期間内に異議がなければ公金受-R/gS4gA口座に自動的に振り込まれる「オプトアウト型自動給付」の仕組みを整備します。2024年の定額減税補足給付では、申請不要の給付が一部自治体で実施されており、これを皮切りに、恒久的な制度への段階的移行を進めていきます。\n       * 加えて、会社からの退職情報や介護・障害の認定など、個人のライフイベントの情報が行政に届いた時点で、国民健康保険の加入や保険料の減免申請といった関連手続きを行政側で一括処理し、本人にはその結果のみを「通知」として送付する仕組みも構築していきます。2025年度より始まる電子離職票のデジタル連携はその基盤となり、今後は国保・年金・雇用保険など複数制度を一体で処理する「ワンストップ型自動手続」への発展させていきます。\n       * 一方、守りの側面も重要で、制度の拡張とともに、AIを活用した不正受給リスクの自動検知モデルを導入し、高リスクケースを優先的に審査するリスクベースアプローチを採用します。東京都の特別区を中心に生活保護や児童扶養手当などで導入が始まっており、これを他の給付分野にも広げていく方針です。あわせて、マイナポータル上で給付履歴や本人への情報照会履歴を確認できるダッシュボード機能を拡充し、透明性とトレーサビリティの確保も図ります。\n     * ユーザーの質問や状況に応じて最適な窓口や手続きをナビゲート、代行するAIチャットボット、AIエージェント等の導入を加速させ、迷いなく必要な情報にたどり着ける環境を整備します。\n@@ -209,4 +209,22 @@\n    * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n+## 6）どこでも高精度な位置情報を使える環境を整備し、日本の産業競争力を高めます\n \n+### 現状認識・課題分析\n+\n+*   **経済的障壁:** 近年、スマート農業、インフラ維持管理、自律移動ロボット、防災・減災、ドローン物流などの分野でリアルタイムかつセンチメートル精度の測位データ（RTK補正情報）の重要性が急速に高まっています。しかし、現在のRTK補正情報は民間通信事業者が提供する有償サービス（月額数千〜数万円）に依存しており、中小農家や地域測量業者などにとって負担が重く、導入率の伸び悩みに直結しています。\n+*   **地域間格差:** 不採算地域では民間事業者が補正サービスを提供しておらず、測位精度に地域格差が生じています。サービス未提供地域や通信インフラが不十分な地域も存在し、全国的なDXの普及・平準化を妨げている状況です。\n+*   **デジタル公共財としての未整備:** RTK補正情報は、日本政府が推進する「デジタル田園都市国家構想」や「Society 5.0」の中核をなす基盤であるにもかかわらず、準公共財として国による体系的な整備・供給体制が存在しません。\n+*   **産業DXの遅滞:** 上記のような補正情報の未整備は、スマート農業や自律移動システムの普及を直接的に妨げる要因となっています。\n+*   **国際的な遅れ:** ドイツ（SAPOS）、スイス（swipos）、オーストリア（APOS）等ではすでに公共RTK配信が整備済みであり、米国でもNGS CORS網と民間補完の構成が一般化しています。日本のみが商用依存体制に偏重しており、構造的な遅滞リスクを抱えています。\n+\n+### 政策概要\n+\n+*   **高精度測位インフラの公的整備と無償RTK補正情報の配信**\n+    *   国土地理院の電子基準点網を高度化し、オープンな公共財として無償のRTK補正情報を全国に配信する体制を構築します。これにより、スマート農業、インフラ維持管理、ドローン物流など、多様な分野での高精度測位技術の利活用を促進します。\n+*   **推進体制の構築**\n+    *   国土地理院・総務省・農水省・NICT・内閣官房デジタル庁が中核を担い、産官学が連携して推進します。\n+    *   民間のビジネス機会を確保するため、補正情報の配信レイヤーは公的機関が担い、民間事業者はその情報を活用したアプリケーション開発やデータ解析といった、より付加価値の高いサービス層にビジネスをシフトできるよう、健全な分業体制の構築を目指します。\n+*   **オープンなガバナンスの確立**\n+    *   「高精度測位戦略会議（仮称）」を常設し、民間事業者、学術界、自治体など、多様なステークホルダーが参加するオープンな協議の場を設けます。技術仕様の標準化やデータの利活用ルールなどを、透明性の高いプロセスで決定していきます。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "b15e24284f4499d752adc452fa8f87df8543c012",
+      "node_id": "C_kwDOOqTJvNoAKGIxNWUyNDI4NGY0NDk5ZDc1MmFkYzQ1MmZhOGY4N2RmODU0M2MwMTI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T12:22:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T12:22:51Z"
+        },
+        "message": "ささくれさんの提案に基づき、高精度測位インフラに関する項目を追加",
+        "tree": {
+          "sha": "d5c1421484abef4f4c248ea11743049d9af07dd5",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d5c1421484abef4f4c248ea11743049d9af07dd5"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b15e24284f4499d752adc452fa8f87df8543c012",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa7wbCRC1aQ7uu5UhlAAAgRwQAJ8q7Lyp8RcgjXaVv8khkFsg\n6S2vFcfiOUr0aXiMztNyJHXfn6JnG1wCwdvChSHp0z+H2ithp0TTtZAzYqlwSV1s\n7rhmuNAXaCiroQRrr1nhPA/Zd/qOiEL8EZzXcuCmFRWeVjoke/VsfpsluMXprGmM\n7Lj/JNKI3kc6V0dpSiysjKsih5VLiYvrtWQ6sd6dMZ09s9/dF5mkSe+qY3kkPL5A\nssQ2O7eU5tJoAMg9zLTwhzQ0hneoSTf6BKL7H8j9ewkKg9+GAKv+DhPMg9szyeAt\nChQ9rTU7dnNIJhg4um8+CX64futy+P6F4dRDTx5mkDeQmPoTPp6zIq9eDqiSZY3s\nSpXEmbScwphsNoy4yYI4KGpAyrnXiYP8n7UqALV3opOU26+ssUI4g12GdoYqgJj6\nBLGGvU9MmfBoFGgdvSCcyoJU41HMQZ4nfRiEwC/4Ohbtaj3hKJ54aqdZ/RaoFJSx\nqzFvGajFYu7ViiEjWbEq3BbxzACxrDlgt5qlrnPTQj72/2dpiimkroPvTeIOp/Pj\nBx6oBCeJvLZ7DjeLwySzD2m+06Gama9xGtFtev8ghrxuOmsT2qBhnRAow5LYMdZj\nnaZitkHM7sAcMoRRnoUpEn+QOfpNe+/mOgiUJ54uFNljI4Yde5aTqlRKbBDt9sET\nV4Mj4xlekSGmOmiEEUvh\n=5qOW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d5c1421484abef4f4c248ea11743049d9af07dd5\nparent 1be827ce3cbf6a22490ca4728a94d699d04d4014\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751890971 +0000\ncommitter GitHub <noreply@github.com> 1751890971 +0000\n\nささくれさんの提案に基づき、高精度測位インフラに関する項目を追加",
+          "verified_at": "2025-07-07T12:22:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b15e24284f4499d752adc452fa8f87df8543c012",
+      "html_url": "https://github.com/team-mirai/policy/commit/b15e24284f4499d752adc452fa8f87df8543c012",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b15e24284f4499d752adc452fa8f87df8543c012/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1be827ce3cbf6a22490ca4728a94d699d04d4014",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1be827ce3cbf6a22490ca4728a94d699d04d4014",
+          "html_url": "https://github.com/team-mirai/policy/commit/1be827ce3cbf6a22490ca4728a94d699d04d4014"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-07T12:24:30.990937"
+}

@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 4254,
+    "title": "なまりさんによる医療政策の改善提案",
+    "state": "open",
+    "created_at": "2025-07-07T11:57:10Z",
+    "updated_at": "2025-07-07T11:57:10Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4254",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "0accb82b40324f96ce5a9f4a702f5b8d02ed87bb",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 3,
+      "changes": 23,
+      "blob_url": "https://github.com/team-mirai/policy/blob/bb2935ac0e42771652f8c58ec4af7640fb6c938c/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/bb2935ac0e42771652f8c58ec4af7640fb6c938c/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=bb2935ac0e42771652f8c58ec4af7640fb6c938c",
+      "patch": "@@ -20,7 +20,7 @@\n   - 風邪や花粉症などの軽い相談や慢性疾患で継続的に同じ服薬で経過観察している患者さんにとって、診療のために仕事や家事・育児を調整して対面で受診することはまだまだ負担が大きいと言えます  \n   - 僻地や島嶼部などの医療アクセスが難しい地域にお住まいの方々や一人で外出することが難しい方などの場合、医療機関で相談をしたくても受診控えをしている場合もあると思います  \n - オンライン診療が進まない要因の一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n-  - 現在の診療報酬制度ではオンライン診療が対面診療と比べて優遇されているとは言えず、医療機関側にとってシステム投資や運用構築を乗り越えてまで推し進める動機づけが不足しています  \n+  - 現在の診療報酬制度ではオンライン診療が対面診療と比べて優遇されているとは言えず、医療機関側にとってシステム投資や運用構築を乗り越えてまで推し- 進める動機づけが不足しています  \n   - また、オンライン診療で医師に相談をしても、受診後の医薬品の受け取りに調剤薬局を訪ねる必要があり、一連の受療行動をオンラインで完結できていない状況も多いかと思います\n \n ### 政策概要\n@@ -48,11 +48,11 @@\n - 医療機関で待ち時間が発生してしまう要因には、患者さんの急変などで想定よりも時間がかかる場合や優先順位を繰り上げて診察する場合があったりと避けられないものもあります  \n - 一方で、診察前後の処理を効率化することで、医療機関、患者双方の手続きを短縮し、診察前後の待機時間を圧縮する余地はあると考えます  \n - 例えば、病院でのクレジットカード決済対応は63％と普及が進みましたが、クリニックにおいては33%と遅れています。クレジットカード以外の決済手段については更に低い割合となります  \n-- キャッシュレス決済以外にも、医師の診察前の問診情報の入力や受付処理などはまだ施設での対面でのオペレーションによるところが多く、受付から会計までの一連の流れの隙間にそれぞれ待ち時間が発生している状況です\n+- キャッシュレス決済以外にも、医師の診察前の問診情報の入力や受付処理などはまだ施設での対面でのオペレーションによるところが多く、受付から会計までの一連の流れの隙間にそれぞれ待ち時間が発生している状況です。加えて、問診や簡単な疑問への回答などをAIで代替・支援することにより、医療スタッフがより人的なケアが必要な業務に集中できる環境を整備する必要性も指摘されています。\n \n ### 政策概要\n \n-- 上記の医療機関の待ち時間、施設の事務手続きを効率化するために医療機関のDX推進を支援するため、医療DX推進のための補助を設計します  \n+- 上記の医療機関の待ち時間、施設の事務手続きを効率化するために医療機関のDX推進を支援するため、医療DX推進のための補助を設計します。特に、問診業務を効率化するAI問診システムの開発・導入支援を重点的に行います。国が主導して共通のAI問診システム基盤を開発し、各医療機関が安価に利用できるだけでなく、医療機関ごとのシステムの乱立を防ぎ、転院時のデータ連携を容易にすることを目指します。\n   - 都市部を離れると人口減少などの影響も受け、窓口対応をするスタッフを潤沢に受け入れる経済的な余裕がなかったり、人手不足があったりと、人の手でオペレーションを回すことも難しい地域もあります  \n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n@@ -86,3 +86,20 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）信頼できる医療情報の提供と偽医療対策\n+\n+### 現状認識・課題分析\n+\n+- インターネットやSNSの普及により、誰もが簡単に情報を発信できるようになった一方で、科学的根拠の乏しい医療情報や民間療法が氾濫しています。\n+- これらの情報に惑わされ、本来受けるべき標準治療の機会を逃してしまったり、健康被害につながってしまったりするケースが後を絶ちません。\n+- 特に、不安を抱える患者さんやそのご家族が、藁にもすがる思いで誤った情報に飛びついてしまうことは想像に難くありません。アロマセラピーのように補完的な役割として利用されるものは良いですが、「これも医療だ」と誤認させ、標準治療から遠ざけてしまうような情報には対策が必要です。\n+\n+### 政策概要\n+\n+- 専門家と連携した正確な情報発信の強化\n+  - 国や地方自治体が、各専門分野の学会と緊密に連携し、一般の方向けに、病気の予防や治療に関する科学的根拠に基づいた情報を発信するプラットフォームを構築・運営します。\n+- 悪質な医療広告・情報への対策強化\n+  - 医療広告ガイドラインを遵守していないウェブサイトや、偽医療に誘導するような悪質な情報に対する監視体制を強化し、迅速な是正勧告や罰則適用を行えるように法整備を進めます。\n+- 専門家による警鐘を後押しする仕組みの構築\n+  - 専門家や学会が、特定の治療法や製品に対して科学的根拠に基づいた警鐘を鳴らす際に、不当な圧力や訴訟リスクから守られるような法的な支援体制を整備します。これにより、専門家が声を上げやすい環境を作り、市民が正確な情報に基づいて判断できるよう支援します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "c67b8656cb7e00583cd2906880266edac195c546",
+      "node_id": "C_kwDOOqTJvNoAKGM2N2I4NjU2Y2I3ZTAwNTgzY2QyOTA2ODgwMjY2ZWRhYzE5NWM1NDY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T11:30:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T11:30:25Z"
+        },
+        "message": "なまりさんの提案に基づき、AI問診システムの導入を追記",
+        "tree": {
+          "sha": "1bf54bdfd484f60093098a248917761094508e8c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1bf54bdfd484f60093098a248917761094508e8c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c67b8656cb7e00583cd2906880266edac195c546",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa6/RCRC1aQ7uu5UhlAAAucAQAGavnZFBMvzNDW4GbitNbMZi\nVwk6nQJ9cLHk3/Po5gO6j9uwxpirJ1gZ8/FgM7PhTsIuXdlBuzzdtaL/gZkezoQx\n50wIK8wiDL6JNREKwBxHiZagscrYYpoCNAtDFYztzF22LgJnBrhju5gwUymZXnY8\n+05uX9vQSPWprgl6ph9pc9BlShZ+6u3LsZ1b/TgRTRoiAZl00qfn516zlvdR31HX\nebaLqbNnUJty0o9HyvUDvqTZfR/0JizIeqUYDfqV/Kpiwj20XL5DOAqyuTB1vbO1\nnTawa7WnSb65itZQyQiE7cS0dxvl2Tn/vmebvylFESoT6fORkC9WdIApoujd3bet\nJH6zZeUqBP7wwSszZnW+wUL4EE8K/SraDQs76Me9RdJ3MAs9L+JigBfVPHvh1SvX\nrZavmdEfBG/G82CQkQ5taIq8jVVu+89lHb1n1FreunCnYY9YgB/wilsNqxdtTFc8\n8WNzpSnlDy/YGqWdB7TxEnznSKSk8p50rX0khxVB1B3j1JH6lJoMAxuHgrsOpne9\n+4zgtw8W1SvirDNw3lLSIVRKzHxty29Ti2k2eTdC5//nDFDaxMamBjh9FCNGb3cT\n+NL1L8x2zwCi4uYeGAXZIitEq1wyqlkIh98/Z25QA0zJBYOfH8hGHRIRU+rPSSM3\n0r6vYolSSXr7BhzfyRz+\n=9hWf\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1bf54bdfd484f60093098a248917761094508e8c\nparent 1be827ce3cbf6a22490ca4728a94d699d04d4014\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751887825 +0000\ncommitter GitHub <noreply@github.com> 1751887825 +0000\n\nなまりさんの提案に基づき、AI問診システムの導入を追記",
+          "verified_at": "2025-07-07T11:30:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c67b8656cb7e00583cd2906880266edac195c546",
+      "html_url": "https://github.com/team-mirai/policy/commit/c67b8656cb7e00583cd2906880266edac195c546",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c67b8656cb7e00583cd2906880266edac195c546/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1be827ce3cbf6a22490ca4728a94d699d04d4014",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1be827ce3cbf6a22490ca4728a94d699d04d4014",
+          "html_url": "https://github.com/team-mirai/policy/commit/1be827ce3cbf6a22490ca4728a94d699d04d4014"
+        }
+      ]
+    },
+    {
+      "sha": "bb2935ac0e42771652f8c58ec4af7640fb6c938c",
+      "node_id": "C_kwDOOqTJvNoAKGJiMjkzNWFjMGU0Mjc3MTY1MmY4YzU4ZWM0YWY3NjQwZmI2YzkzOGM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T11:55:05Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T11:55:05Z"
+        },
+        "message": "なまりさんの提案に基づき、AI問診システムの導入と偽医療対策に関する項目を反映",
+        "tree": {
+          "sha": "d57e98885e6913e03e3292dc5ad41adb197673e4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d57e98885e6913e03e3292dc5ad41adb197673e4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/bb2935ac0e42771652f8c58ec4af7640fb6c938c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoa7WZCRC1aQ7uu5UhlAAAXesQAHlZcwbfibh28QM3pdIE0T2I\nsE0fjdj7UuWI0Ayz8fyom/saLZFeu96IT3FABy743WnzpWAGIJmVaG1scIvu149/\nGsJMzaLlHWlknNzNzdyda33/O1BWI52ShMuj3g7Gad5LM2/z2fMoriWHGxPG5ZaJ\ntx9VDH+oV8yN4oG8bKm6YY+aDt1xHYQYfFRCvMuk9JPJynGD6p2lG9C71Lgp7xan\nTzED6iziv6ADDq/39kQukUhhaCsee5e+d6JLQFP1wJP56zxj8Tg1RGttftoPqQSv\nmNrDfIKC8+d5/84xVsUjtPFUBadgS6px8O+eorXWcDJVrhEmfIGB/qEzDm6RFQ8a\nT1NygpF2exTI/93426xyAGh1wrrjLpCjfow4M14UJ4hD2zqARWHek+OQ2RjeejHU\nN0UUqFb5jV90Zwgg6TfJ6OtCUUBNAgPmbI7qWsIpVtqD7wVcvmmGfb76ZfAe+31K\nMpzU9yi2pRMCOR8KjwDlI9FWSc4Jp6k1ojQamvJjajQLfiENsKqMOijYrVGPKJxA\n8QYwVegJLag9wynAIUDM2/CtkTXjCqbO8cL7H3H3v/UGIb+XSFm7Bj3rbBvlClrK\naWwfUst1/euwzwSmXyKCHp4mbLbAT5rjsvNP4hhe4CigKqeukkcE35l78IWPcbf7\naQy/WrRTxSRWtHlD8KNf\n=3XSa\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d57e98885e6913e03e3292dc5ad41adb197673e4\nparent c67b8656cb7e00583cd2906880266edac195c546\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751889305 +0000\ncommitter GitHub <noreply@github.com> 1751889305 +0000\n\nなまりさんの提案に基づき、AI問診システムの導入と偽医療対策に関する項目を反映",
+          "verified_at": "2025-07-07T11:55:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/bb2935ac0e42771652f8c58ec4af7640fb6c938c",
+      "html_url": "https://github.com/team-mirai/policy/commit/bb2935ac0e42771652f8c58ec4af7640fb6c938c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/bb2935ac0e42771652f8c58ec4af7640fb6c938c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c67b8656cb7e00583cd2906880266edac195c546",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c67b8656cb7e00583cd2906880266edac195c546",
+          "html_url": "https://github.com/team-mirai/policy/commit/c67b8656cb7e00583cd2906880266edac195c546"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-07T12:24:49.577769"
+}
