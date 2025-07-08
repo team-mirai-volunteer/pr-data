@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4458,
+    "title": "重度心身障がい者等医療費助成の所得制限に関する課題の追記",
+    "state": "open",
+    "created_at": "2025-07-08T04:48:23Z",
+    "updated_at": "2025-07-08T04:48:24Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4458",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "053d516de05eddbe06e856b9e487eb9ed9a80434",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/36e848aaee6f6ce7104187db6adfeca37416a817/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/36e848aaee6f6ce7104187db6adfeca37416a817/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=36e848aaee6f6ce7104187db6adfeca37416a817",
+      "patch": "@@ -19,6 +19,9 @@\n - オンライン診療には対面と比べて患者さんの状況、詳細が把握しにくかったり、体調が悪化した際に高度医療機関との連携導線が確立されていなかったりと一定の課題がある一方で、適切に普及すれば多くの方々にとってメリットの大きいシステムだと考えます  \n   - 風邪や花粉症などの軽い相談や慢性疾患で継続的に同じ服薬で経過観察している患者さんにとって、診療のために仕事や家事・育児を調整して対面で受診することはまだまだ負担が大きいと言えます  \n   - 僻地や島嶼部などの医療アクセスが難しい地域にお住まいの方々や一人で外出することが難しい方などの場合、医療機関で相談をしたくても受診控えをしている場合もあると思います  \n+- また、医療アクセスを困難にする要因は、地理的なものに限りません。例えば、重度心身障がい者医療費助成制度などにおいて設けられている所得制限も、深刻な課題の一つです。\n+  - 所得が基準をわずかに超えるだけで助成が打ち切られ、自己負担が0円から3割へと急増します。これにより、訪問看護や定期的な往診など、生命維持に不可欠な医療サービスさえも利用をためらわざるを得ない状況が生まれています。\n+  - こうした所得制限の基準は自治体ごとに異なっており、居住地によって受けられる支援に格差が生じていることも大きな問題です。\n - オンライン診療が進まない要因の一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n   - 現在の診療報酬制度ではオンライン診療が対面診療と比べて優遇されているとは言えず、医療機関側にとってシステム投資や運用構築を乗り越えてまで推し進める動機づけが不足しています  \n   - また、オンライン診療で医師に相談をしても、受診後の医薬品の受け取りに調剤薬局を訪ねる必要があり、一連の受療行動をオンラインで完結できていない状況も多いかと思います\n@@ -37,6 +40,9 @@\n   - 配送費用については、物流コストが自動運転やドローン技術の進化により引き下げられる可能性も考えられますが、現状では調剤薬局が担う状況となっており、費用負担が運用の壁となっています  \n   - 僻地に住む方や外出が困難な方など、受診が困難な方の医療アクセスの確保の観点でも、一定の枠組みでの物流コストの診療報酬での手当を検討します  \n - これらの施策により、オンライン診療による受診機会の格差の是正を進めるとともに、働き世代の受診による生産性低下の抑制を見込みます\n+- **重度心身障がい者等に対する医療費助成における所得制限の緩和・撤廃**\n+  - 所得制限によって必要な医療が受けられない状況を解消するため、国の責任において所得制限の緩和や撤却を検討します。\n+  - 自治体間の助成内容の格差をなくし、全ての重度心身障がい者が必要な医療を安心して受けられるための、公平な制度設計を目指します。\n \n ## 2）スマート受付とキャッシュレスで待ち時間のない受診を実現\n \n@@ -86,3 +92,4 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "36e848aaee6f6ce7104187db6adfeca37416a817",
+      "node_id": "C_kwDOOqTJvNoAKDM2ZTg0OGFhZWU2ZjZjZTcxMDQxODdkYjZhZGZlY2EzNzQxNmE4MTc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T04:46:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T04:46:55Z"
+        },
+        "message": "パピ子さんの意見を反映し、重度心身障がい者の医療費助成に関する所得制限の問題点を追加",
+        "tree": {
+          "sha": "6766789d21f594cd6e027c4753be56f810913515",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6766789d21f594cd6e027c4753be56f810913515"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/36e848aaee6f6ce7104187db6adfeca37416a817",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobKK/CRC1aQ7uu5UhlAAAD6gQADVAAH1hLrTAO5CuQ2NMRGb+\njNXk8m/C1IyuVfGL6s7F2F21lZGjSR++GsqVyjMPhN9HsBtCtLILZJhrTrJwk4/I\nLAnSjSSx4XeuvbN8UK6XQ4WWO0KjRLsPuUFw+YKZOJ23bShk7HYGWlq7Z/PenDpE\noJGH+NV4O36n5TREGz2nsroFF07hdFuqqCKCLCQC7ABJIs/+x/Q4oX2F+6cbdndM\n+g9bIBAAKP/T97EuvkqqYjlaLoCAfaGiixlEwbq5hI1d+LiU7M343Gsgx63qsAqB\nE7BFCcI8wtrEYKT56juHqY2CDRBsrgr7isJyAr4RZIWv0oiY+aa+sgt42050IrDj\nkjICvox2zxJkQYnw4Z7xodxD4Snnqx9QlBiX0IgS2XuwHrlqbMnu3y1Q3W4t1Y7+\nOtVZ6LkyqXUIXp0kS53dJMgjVRBQ3r28KT3WkXHwYeAy5uFedoBV2x7s9B3HEEjw\nKOGx2KB3OeH9vLiJm4yBcnzMasx+8EkaY9OaJA7PL9PgSYU0FGE3bMBZXQjkqfD2\ndx1lY+oZWFNndEt4ld0rXZYVBteMuKzwBCIhLbsKNHvzZPJV7oUgk4TuEfBfC8UW\nfuceQF+WMRlqxx0GXRZfYRtEV/3BoUV07qcbbAG9OcKEvEBYQuQzgNHxhLVTYDjR\nRELIwjCQPYiktfvuTbqy\n=7HRK\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6766789d21f594cd6e027c4753be56f810913515\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751950015 +0000\ncommitter GitHub <noreply@github.com> 1751950015 +0000\n\nパピ子さんの意見を反映し、重度心身障がい者の医療費助成に関する所得制限の問題点を追加",
+          "verified_at": "2025-07-08T04:46:55Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/36e848aaee6f6ce7104187db6adfeca37416a817",
+      "html_url": "https://github.com/team-mirai/policy/commit/36e848aaee6f6ce7104187db6adfeca37416a817",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/36e848aaee6f6ce7104187db6adfeca37416a817/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T05:15:20.025509"
+}
