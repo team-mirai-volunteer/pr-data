@@ -1,0 +1,365 @@
+{
+  "basic_info": {
+    "number": 4659,
+    "title": "デジタル母子パスポートの改善提案（匿名ユーザー様より）",
+    "state": "open",
+    "created_at": "2025-07-08T17:57:39Z",
+    "updated_at": "2025-07-08T17:57:40Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4659",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "e06fb03baa8032b2200ea3da4a558475d909a1d9",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "changes": 8,
+      "blob_url": "https://github.com/team-mirai/policy/blob/2fde4f663090b5452fd1caa98a0214a3b6ba97e1/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/2fde4f663090b5452fd1caa98a0214a3b6ba97e1/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=2fde4f663090b5452fd1caa98a0214a3b6ba97e1",
+      "patch": "@@ -1,4 +1,5 @@\n-\\\n+\n+\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -16,11 +17,11 @@\n \n * 現在の母子手帳は紙媒体が主流であり、妊娠中の体調が不安定な時期に受け取りに行く手間や、紛失のリスクがあり、それによってワクチン接種記録などが確認できず、適切な時期に必要な医療や予防接種が受けられなくなるケースがあります。  \n * また、妊婦健診の受診券・補助券の手続きや、産後の煩雑な予防接種のスケジュール管理、医療機関での予診票の都度記入など、アナログな手続きが保護者の負担となっています。体調がすぐれなかったり忙しい時期に何度も名前や住所を繰り返し書く作業は、負担として蓄積しています。  \n-* また、妊娠の経過によっては妊婦健診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* また、妊娠の経過によっては妊婦健HASの回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n \n ### 政策概要\n \n-* 母子健康手帳をデジタル化し、「デジタル母子パスポート」を創設します。その際、個人情報の保護を徹底し、アクセス制御や暗号化など万全なセキュリティ対策を講じます。\n+* 母子健康手帳の一部をデジタル化し、「デジタル母子パスポート」を創設します。予防接種の履歴や医療機関の受診記録といった、事務的な手続きに必要な情報に限定してデジタル化を進めます。これにより、保護者が子どもの成長を手書きで記録するような、紙ならではの温かみは残しつつ、デジタルの利便性を両立させます。その際、個人情報の保護を徹底し、アクセス制御や暗号化など万全なセキュリティ対策を講じます。\n   * 子ども家庭庁で検討されている母子保健DXの動きを強く推進します。\n   * 希望者には従来の紙の母子健康手帳も引き続き提供し、選択できるようにします。\n * これにより、スマートフォン等からいつでもアクセス可能となり、保護者はもちろん、その配偶者や他の家族も、本人の同意のもとで必要な情報を共有できるよう設定できます。また、つわりの時期などに無理して役所の窓口等へ行く必要がなくなります。  \n@@ -63,3 +64,4 @@\n * これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n * 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "d0c05110857c8903e9362b260ddbd9aeb55b7d1d",
+      "node_id": "C_kwDOOqTJvNoAKGQwYzA1MTEwODU3Yzg5MDNlOTM2MmIyNjBkZGJkOWFlYjU1YjdkMWQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T17:50:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T17:50:19Z"
+        },
+        "message": "匿名ユーザーからの提案：母子手帳のデジタル化範囲を限定",
+        "tree": {
+          "sha": "2e17930a7a2b2c6a2fc452dba9b2e0fc907674aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2e17930a7a2b2c6a2fc452dba9b2e0fc907674aa"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d0c05110857c8903e9362b260ddbd9aeb55b7d1d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobVpbCRC1aQ7uu5UhlAAA5vIQAJR4kVB9mYWoxV69QnIk0QyV\nf+4RCYSUSh5PGb7TpMNtTAfBALN7IUvs7CMGQfideQGWBO8JpWjukA70EEuQVS66\nbuutjAfU/F2ncnxXX+FZlPMk2/aqAGCBYbZeyGe17A1/n1giBS1NOzfpDct4LqQr\nv5drGN35Ne0BQJlWXWRAt+P1F9gdITd6fEqB6duXnlSyVjdacEXoPFC+ajJv56Kj\nP4/fm9CsSeTnTFJ0Q9ej5hou9Q6opbz1VnamBhEdnreq1yZnesYWOuRwpXGW7zbp\nRsQvpD8Njb5faDYXm/8XDjJUAw2Lb+/3PfwcASZ+FTIPOPV/ihS/Dn8YsrXsAMek\nHzi5jt14pouOCsTqnofUPne4F/Xnc98X85XSIsUdt4EwMl0w45wJcTg+97e0PjvJ\ns3dkbN4/sJdd5mNJtYsGQkpjwnfvWwTXFPohjQxJLIh6acgGIshtbwqWGWMqgRyO\nEmVHJqREsNBgkp/v2vd01y/AN1Ow13NGJsdKyC6IICnGi/t1V9yGc4mEA4Yh+iGi\nE14kqZArLsdkxQh8BUWLcUXdxD6r+TqDMphl1KpirbBINDbrAYk5Orjd1XfJ+kHW\nFpagGB2zpNWBl10I208eeNpdP+XEsDioofX+m8aXEmoExgROmZsTsfWbUzezGCGL\nBa1jkcAIQNV3rCH1RemH\n=ouam\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2e17930a7a2b2c6a2fc452dba9b2e0fc907674aa\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751997019 +0000\ncommitter GitHub <noreply@github.com> 1751997019 +0000\n\n匿名ユーザーからの提案：母子手帳のデジタル化範囲を限定",
+          "verified_at": "2025-07-08T17:50:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d0c05110857c8903e9362b260ddbd9aeb55b7d1d",
+      "html_url": "https://github.com/team-mirai/policy/commit/d0c05110857c8903e9362b260ddbd9aeb55b7d1d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d0c05110857c8903e9362b260ddbd9aeb55b7d1d/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    },
+    {
+      "sha": "6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d",
+      "node_id": "C_kwDOOqTJvNoAKDZmZDVkZGNhYTg5YWM3YTExNTI2NWE0NWYyY2VjOWNkOTFmMTFmNGQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T17:54:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T17:54:35Z"
+        },
+        "message": "匿名ユーザーからの提案：デジタル母子パスポートにおける、子どもの情報アクセス権についての記述を追加",
+        "tree": {
+          "sha": "b428e941fe4a84199f397a2ac9d7f9aed9485996",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b428e941fe4a84199f397a2ac9d7f9aed9485996"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobVtbCRC1aQ7uu5UhlAAA8OEQAEd4z7WGZ7/HbBSbtJA1M+EM\nlHKJ+rEy4mRI3v0wTMrrskmmn/EN0r2KZzTNYX/xBZszcV+IUeOKzSGvx56PcQ7W\ncint73/PzgWHiwiW4d6556uFN65fPdkqaHj9jajuJI+hRQAl6dV3ficjfXAFitol\n0txyHm8naSgwv3fCmGctRKqQ6MN21bbR5znLtqAA4rn+nJ2SWFLIXMn4WZ4d6nWi\nBemySA4I/cwNd40Q3yaXe0wvwGWiQqwLi9iLMRGSDNhU10aaBKBGYW5f/fd+c9ok\n2jSEQdpmu9ZW/7aj+Y8O1nmuJmtJmZQM4epwb3Ud/IIqz2MPrQKbh3XtKx6thdHF\nQbd3U2qLienFdFFLsKAtpNMyqKJY3n/t0wDOhKDbtkSCUgZr9QqVBMEhrNGtzPvN\nH9SYZebG1Ivhv5xJAuB94Wn/5VTVsVGTBT7h3kcB12uVcm/LjI/uybk0d4eOMdFv\nb4xDmQWBH/htrMVkgOf1Cyy7MvJDxAQcq0Gijn2KiH24QyWOuthxaxuvkvTbHFbv\n+C7lJaA9skBeoZRT7jSIIq91aXxlQBEstqN743ff+NNm/ROt4TqNeGkqJSBpfvjV\nO9tmSVAe8sHhreDyVgGF9J9ky7PO2XyIOU7hyIte4M+cxZzlBjN1n0jwiR7+WZZz\nN6f2AMjo1osN0rUAh9NP\n=BpjD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b428e941fe4a84199f397a2ac9d7f9aed9485996\nparent d0c05110857c8903e9362b260ddbd9aeb55b7d1d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751997275 +0000\ncommitter GitHub <noreply@github.com> 1751997275 +0000\n\n匿名ユーザーからの提案：デジタル母子パスポートにおける、子どもの情報アクセス権についての記述を追加",
+          "verified_at": "2025-07-08T17:54:35Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d",
+      "html_url": "https://github.com/team-mirai/policy/commit/6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d0c05110857c8903e9362b260ddbd9aeb55b7d1d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d0c05110857c8903e9362b260ddbd9aeb55b7d1d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d0c05110857c8903e9362b260ddbd9aeb55b7d1d"
+        }
+      ]
+    },
+    {
+      "sha": "77a07e81dbbc8b8713aa8f9637fd703e3cc9597b",
+      "node_id": "C_kwDOOqTJvNoAKDc3YTA3ZTgxZGJiYzhiODcxM2FhOGY5NjM3ZmQ3MDNlM2NjOTU5N2I",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T17:56:12Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T17:56:12Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、デジタル母子パスポートにおける子どもの情報アクセス権に関する記述を追加",
+        "tree": {
+          "sha": "4073793fdaafa7fc7cd56230b9770152030128ea",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/4073793fdaafa7fc7cd56230b9770152030128ea"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/77a07e81dbbc8b8713aa8f9637fd703e3cc9597b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobVu8CRC1aQ7uu5UhlAAA7zAQACB8KDx7YNnJgoBJfD/oqPij\nW6JOah+JnHsKLFaLzkprh40ErfLg8D11nP3CNgMqegon4zgZOp0IXeIywrjCa8Zk\n0EL2SdIHvDj6k2h8qMEhSj9UKZEV+N5WZP0pNx79rpSNrF3wcQODvfT3nkgLWRJf\nLjFvGn3belviHSwnvAuSwxN8BSp561cLH09EYyUBAh2qpQlP6R1mRCtiwWqmqZlI\nGMR0zZJL5g1ncJVfCW6cR2//1yXCkzd1la6HvdmxeogBm+PKuWaxZ0D5eUpqODv9\nvN7FVRRihmAQ4uESpnl4XAkjFOCCpNeMiiu9CPvX7lbmQzpJCqRG4EvkaaqhcFD4\ngoANX/VO81Q1tQGPeeM/t00uEFwUZIM2lgf59EOhH1lOH409/qEi5NGpNoC3CJKL\nnmuxp99X5DtWXOPXw4DHPEqGVqTPA7pqj/zG9dkzWJd2j1Ofu/G1jxSNMnq3Ac2I\nnNLb6avQ/Dq3MwGG4A1L7/uhdmUzSiwuvplHYEADlr3Wh6T9ZrMuGozJ7NSTYJnI\n8fOXJAZMnGRTppyL4j/M5mXBMQH1ZlCfOOJqJr0/uPKv2dblbErLN5aO1t9ffr9N\nyCE6kS4pLloW+usfUXKKCcQ9Ze5AksXsBuZ6dzBhksMD72F6F8fRSyEOtH1wmK75\ntCiMJXIxRUFQRCwL3St/\n=mhyX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4073793fdaafa7fc7cd56230b9770152030128ea\nparent 6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751997372 +0000\ncommitter GitHub <noreply@github.com> 1751997372 +0000\n\n匿名ユーザーの提案に基づき、デジタル母子パスポートにおける子どもの情報アクセス権に関する記述を追加",
+          "verified_at": "2025-07-08T17:56:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/77a07e81dbbc8b8713aa8f9637fd703e3cc9597b",
+      "html_url": "https://github.com/team-mirai/policy/commit/77a07e81dbbc8b8713aa8f9637fd703e3cc9597b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/77a07e81dbbc8b8713aa8f9637fd703e3cc9597b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d",
+          "html_url": "https://github.com/team-mirai/policy/commit/6fd5ddcaa89ac7a115265a45f2cec9cd91f11f4d"
+        }
+      ]
+    },
+    {
+      "sha": "2fde4f663090b5452fd1caa98a0214a3b6ba97e1",
+      "node_id": "C_kwDOOqTJvNoAKDJmZGU0ZjY2MzA5MGI1NDUyZmQxY2FhOThhMDIxNGEzYjZiYTk3ZTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T17:56:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T17:56:47Z"
+        },
+        "message": "匿名ユーザーからの提案を反映: デジタル母子パスポートにおける子どもの情報アクセス権について追記",
+        "tree": {
+          "sha": "ae5a85d7d62fe73fb62841fd10fc4395400e2fb6",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ae5a85d7d62fe73fb62841fd10fc4395400e2fb6"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2fde4f663090b5452fd1caa98a0214a3b6ba97e1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobVvfCRC1aQ7uu5UhlAAAMosQAE40PoepcWA1vkqlHVZGhQky\nJJ9KVrTPGUZ4qTr/u0KuicfdpgwAmHZhASHvUjbi6IyG5omJDTO2tihrpdta+cF4\nNZqBafpNRKfvGNCYAEpBRYuzzA4cFLOvn9+Nlb9a05zCMkLUEZ8An6dDWWciXp4l\nH1bEwLmKktdkxzA4M47Ev9tq1k1RZgXRUIjtPv4P381ZG3P9xaCo5aIylfEgfsWp\nc065aciBRjRVcJV2vAeDbvhGbjSC6+8onp84yh2eOm2Alv4ZSMn8u12gILTDtQfk\nO9grqDfpvgr9s17uTqEQAk35E/8DPdVjUI1SM4jsh/Dv0IX+sSBBx7lvgbwt31+4\nmtvEuUSIiC+BZrDjXKUzHdP/ppAxlF/fSqglts4HrSZ3wLwN9L5w7uajHXhtVgp8\nKugw5uj6E1w5lcBwlsWAzh3QezWyPiwIYAdkQ/5uRKofuEyf0cEd74+McskOnnH9\nr9RkGK80DmfJ6GXLQbS1/bij6GpEZHACCtK1F8MtUjfTQucAThWxn/gcKRAKrw87\nbPbaZOEiW8Cf86qUxRxA2ZbHLzr7F3EQdSZQwdZnV0ya+eH0OX73bDhEZRMna16h\n2ANrmoXSiQwmQALHSZGlMPvvs4uyH805JNGJpWXRAUJfw/0oHPOrzGctiUf/0fNo\nXzTVT8d999IE+5GAxF5C\n=FydD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ae5a85d7d62fe73fb62841fd10fc4395400e2fb6\nparent 77a07e81dbbc8b8713aa8f9637fd703e3cc9597b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751997407 +0000\ncommitter GitHub <noreply@github.com> 1751997407 +0000\n\n匿名ユーザーからの提案を反映: デジタル母子パスポートにおける子どもの情報アクセス権について追記",
+          "verified_at": "2025-07-08T17:56:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2fde4f663090b5452fd1caa98a0214a3b6ba97e1",
+      "html_url": "https://github.com/team-mirai/policy/commit/2fde4f663090b5452fd1caa98a0214a3b6ba97e1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2fde4f663090b5452fd1caa98a0214a3b6ba97e1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "77a07e81dbbc8b8713aa8f9637fd703e3cc9597b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/77a07e81dbbc8b8713aa8f9637fd703e3cc9597b",
+          "html_url": "https://github.com/team-mirai/policy/commit/77a07e81dbbc8b8713aa8f9637fd703e3cc9597b"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T18:18:03.144315"
+}
