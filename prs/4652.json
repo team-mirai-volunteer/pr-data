@@ -1,0 +1,365 @@
+{
+  "basic_info": {
+    "number": 4652,
+    "title": "【ほしのさん提案】市民の声が届く法制度トラッカーの改善",
+    "state": "open",
+    "created_at": "2025-07-08T17:02:08Z",
+    "updated_at": "2025-07-08T17:02:08Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4652",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "c7534a50eb8211331e7fb7c3e022bf23f2e984f1",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 3,
+      "changes": 18,
+      "blob_url": "https://github.com/team-mirai/policy/blob/284e943367e0c74316622198343378d0c91350fc/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/284e943367e0c74316622198343378d0c91350fc/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=284e943367e0c74316622198343378d0c91350fc",
+      "patch": "@@ -140,6 +140,8 @@\n \n ### 現状認識・課題分析\n \n+* **孤立し、可視化されない市民の声**\n+  * 現行の陳情・請願制度は、一人ひとりの声を個別に扱うため、同じ課題を抱える他の市民と連帯しにくい構造になっています。声は個人の意見として処理され、その後のプロセスも不透明なため、社会的な広がりを持つ「課題」として認識されにくいのが現状です。こうした制度の硬直性が、デジタル化の遅れと相まって、市民参加の機会を限定的にしています。\n * 気づいた時にはもう終わっているパブリックコメント\n   * 行政機関が実施するパブリックコメント（以下「パブコメ」）は、政策や規制の案を事前に公表し、広く国民から意見や情報を募集する重要な手続きです。しかしながら、その受付期間は原則30日以上とされている一方で、実際には短縮されるケースもあり、関係者が気づいたときには既に締切直前ということも少なくありません。\n   * また、パブコメが実施されるタイミングでは、政策の内容がおおむね固まっている場合が多く、提出された意見が必ずしも十分に反映されていないという指摘もあります。\n@@ -154,8 +156,14 @@\n   * さらに、附則に記された内容も施行期日が異なる場合が多く、「今まさに有効な条文がどれなのか」「いつ何が終了するのか」といった情報を追いかけるのは非常に困難です。こうした制度上の読みづらさは、法令への信頼や参加意識の妨げになっています。\n  \n ### 政策概要\n-* 「気づけない」「わかりづらい」から、「追える」「伝えられる」「反映される」へ。\n-  * 政策づくりの流れを早期かつ継続的に追いかけ、暮らしに直結する法律や制度に“自分の声”を確実に届けられる仕組みを整えます\n+* **「孤立した声」を「集合知」に変え、誰もが参加できる、見える政治へ。**\n+  * 台湾の事例も参考に、個別の声を社会的な課題として共有し、政策形成プロセスを透明化します。デジタルと対面の両方から参加できる経路を確保し、AI技術も活用して、市民一人ひとりの声が政策に反映される仕組みを構築します。\n+* **市民意見ダッシュボードの創設と賛同数連動型の対応制度**\n+  * 誰でも政策提案や意見を投稿できる「市民意見ダッシュボード」を創設し、すべての提案をオープンに公開します。\n+  * 市民は他の人の意見を閲覧し、賛同を示すことができます。一定数以上の賛同を得た提案については、行政および議会が公式に見解を発表し、対応を検討することを義務付けます。これにより、市民の関心が高い課題が確実に議論のテーブルに乗るようになります。\n+* **多様な参加チャネルの確保とAIによる論点可視化**\n+  * デジタルデバイドをなくすため、オンライン（Webサイト、アプリ）だけでなく、地域の公民館や図書館に設置された窓口や専用端末、さらには紙媒体での意見提出も可能にします。\n+  * 提出された多量の意見は、Pol.is（ポリス）のようなAIツールを用いて分析・可視化します。意見がどのようなグループに分かれているか、どこに合意形成の可能性があるかを直感的に把握できるようにし、建設的な議論を促進します。\n * 「知らないうちに終わってた」をなくす\n   * 関心テーマ（教育、福祉、税制など）を登録することで、関連するパブリックコメントの受付開始を事前にお知らせする仕組みを構築します。\n   * 開始前・開始時・締切前の３段階で通知し、「気づいたらもう締切」の機会損失を防ぎます。\n@@ -169,6 +177,8 @@\n * “みんなの声”が届くしくみ\n   * PDF で公開されている審議会資料や議事録を機械可読化し、検索も要点把握も簡単にします。\n   * また、「広聴AI」「いどばた」などの意見集約サービスと連携し、審議会段階から市民や現場の声を“ゆるやかに”政策づくりへ届ける場を設けます。\n+* **先行自治体での実証と全国展開**\n+  * 本格導入に先立ち、まずはモデル自治体と連携して市民意見ダッシュボードや多チャンネル参加の仕組みを試験的に導入します。そこで得られた知見や課題を分析・改善し、効果が実証されたものから全国の自治体へと展開していきます。\n \n ## 5） 選挙現場の負担に寄り添い届出手続をデジタル化します\n \n@@ -177,7 +187,7 @@\n * 立候補手続きが“紙と対面”に強く依存\n    * 立候補予定者は、事前説明会で各都道府県選挙管理委員会から膨大な届出書類を受け取り、記入・管理・提出に多大な労力を要しています。\n    * 提出にあたっては、押印済み原本を「厳封」のうえ庁舎に再度持参する必要があり、手続き全体が紙ベースで運用されています。\n-   * なお、参議院選挙など一部では総務省のように[Web上](https://www.soumu.go.jp/senkyo/senkyo_s/news/000182044.html)での資料提供が行われている例もあります。\n+   * なお、参議院選挙など一部では総務省のように[Web上](https.soumu.go.jp/senkyo/senkyo_s/news/000182044.html)での資料提供が行われている例もあります。\n * 供託金納付はオンラインでも“紙提出が慣行のまま”\n    * 法務省が提供する「供託ねっと」により、選挙供託金はオンラインで納付可能となっていますが、多くの選挙管理委員会では電子形式の預納証明書を受理しておらず、法務局で紙の原本を発行・提出する運用が依然として求められています。制度と現場運用の間に乖離が存在しています\n * CD-R提出やPDFでの書類作成など、古い慣行が温存\n@@ -210,3 +220,5 @@\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n \n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "6ea380f086880cb0df1940a30f8b0d4ab77df0da",
+      "node_id": "C_kwDOOqTJvNoAKDZlYTM4MGYwODY4ODBjYjBkZjE5NDBhMzBmOGIwZDRhYjc3ZGYwZGE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T16:57:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T16:57:24Z"
+        },
+        "message": "ほしのさんの提案に基づき、「4) 市民の声が届く法制度トラッカー」を更新",
+        "tree": {
+          "sha": "5d8c56e98120bccaaa92d16c38ee10355dc8257d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5d8c56e98120bccaaa92d16c38ee10355dc8257d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6ea380f086880cb0df1940a30f8b0d4ab77df0da",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobU30CRC1aQ7uu5UhlAAAw2AQAKfm4QWNfpUmiaW+VNmOrT9D\nDqgBht++DvET/+1X9275OcQ/rWgy5DCsI0t6ye2gk2zaPpl9wO9JmZ55jvqwSKWa\nOjfOpTzydS1EzFPTYKFKEZlLQLwW2k9EQZ4rTPrHA+JhUawpmwWDXcAohLzlwIwJ\njB/jPX7O4btFE1aAZP94svGIqtB7gYFgQBM+5i8f5TLyrlDYRActlTWd3AZEjfPZ\n2EYmYqX9Jp/ZQqRW6dQEN/2R5xY9D+TTmPs/Y/ADTSybpu6HoUF9kwcJY+2T0Ikz\n0koAXtpsVdzSGYcoYRtbvGGip8PREw+2hMQU0NILDP//4MLZK6bLlKMLsOtXPcd6\nsSmVT4dpwILPoh3wQuvmE7gC66kc0gqvm5JawbwxAkPXu4i7AK36nxys/YI2Kn3y\nsGhe3mg/c8CA4Ej39FFaXrITIj1xQc8laV0grqJj0Jx87QYXzZroDBvZ+TfzhYBa\nEAJxgIZmyk3WqJJhwwhjY/PX0DLEgiHmatznFLwalfxS9cXH79AGZ4vt3cfHtZ1P\nyc3VTKFzWSNEA+umb0sO47+PRP5j0PDhqt0EgbljI0a5zqhSMTtlOESeGXuweE15\nMJnEULT/DLeHpUlObDSaf1kIrpEy6gOmaGB12++u6gmmU0nEYr3r7SoFH7WMnxfJ\npB00ALV/kJUKpB+ZwrQ5\n=CbS2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5d8c56e98120bccaaa92d16c38ee10355dc8257d\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751993844 +0000\ncommitter GitHub <noreply@github.com> 1751993844 +0000\n\nほしのさんの提案に基づき、「4) 市民の声が届く法制度トラッカー」を更新",
+          "verified_at": "2025-07-08T16:57:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6ea380f086880cb0df1940a30f8b0d4ab77df0da",
+      "html_url": "https://github.com/team-mirai/policy/commit/6ea380f086880cb0df1940a30f8b0d4ab77df0da",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6ea380f086880cb0df1940a30f8b0d4ab77df0da/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    },
+    {
+      "sha": "e058a5c105185d1074f446325b6326464bda111c",
+      "node_id": "C_kwDOOqTJvNoAKGUwNThhNWMxMDUxODVkMTA3NGY0NDYzMjViNjMyNjQ2NGJkYTExMWM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T16:58:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T16:58:49Z"
+        },
+        "message": "ほしのさんの提案に基づき、「4）市民の声が届く法制度トラッカー」を更新",
+        "tree": {
+          "sha": "400f22485b8e0cedf5d60744b2b68a8674a9a57b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/400f22485b8e0cedf5d60744b2b68a8674a9a57b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e058a5c105185d1074f446325b6326464bda111c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobU5JCRC1aQ7uu5UhlAAAeJsQADbAkT9th+1YtFeiNVNsbEtG\nkLWWaf6KMtBrEPO+rFwYHlUNw991Z9VWM+H49McF3nMEOsfMIGJ8gzRNTBiEONjg\nBlGv1xBgCBBixCEJFS3tQrtG586fSwLqfu9GUJRN/ZzXYJWprr7l3iHBnydaQ413\n4K8hnIdjL526xKNmv1ncQyUGa3AIoAXT+qVqMx3ouNWClm8FdzvkavO0tFIeg7aY\nbGdf06JZD/L52kILUMbnmkXO78IUwm9fC3A/2BCx0LuPFSSq2LBD3nOjSdcZK1F3\nP6/y9wnp4ZEDEawRI1GbyYYrYAarXsFbVu0nhmfCotkn3Z8bkoJTUZQ6sA19//6M\n1qjgZgejAnEkkotmI0V4E3FPJ6jXeHPV35B/u/uX3xgczEUwTJU5J8lsi7n9YAWe\nXYN1e4f9xw+GL8O1YLMLo8qNUS9eoaj7czam/qtu23q+H1AP8/FUNrVgmdn2NKGd\nqNU8SPRbqL/zy4NG2vQfOSE3xYQMefPJ3wbU6Rnw1zctYAZAbPUIGbwWiC/h6HDM\n/Jgn8UlEqNo31T8A2Rrz8AI5GSFnzVoOxtxxvZqZ8MWXpZxGfVNCY8+WtFM0rJDR\nVOAdP5C77qWeO7vmUz28UonvP+LbEK3L75xaJsleeKTF0Vcd8L0ob3/fD7R0FCUs\nRqsl33Ss521jh68g1Z+I\n=On+/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 400f22485b8e0cedf5d60744b2b68a8674a9a57b\nparent 6ea380f086880cb0df1940a30f8b0d4ab77df0da\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751993929 +0000\ncommitter GitHub <noreply@github.com> 1751993929 +0000\n\nほしのさんの提案に基づき、「4）市民の声が届く法制度トラッカー」を更新",
+          "verified_at": "2025-07-08T16:58:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e058a5c105185d1074f446325b6326464bda111c",
+      "html_url": "https://github.com/team-mirai/policy/commit/e058a5c105185d1074f446325b6326464bda111c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e058a5c105185d1074f446325b6326464bda111c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6ea380f086880cb0df1940a30f8b0d4ab77df0da",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6ea380f086880cb0df1940a30f8b0d4ab77df0da",
+          "html_url": "https://github.com/team-mirai/policy/commit/6ea380f086880cb0df1940a30f8b0d4ab77df0da"
+        }
+      ]
+    },
+    {
+      "sha": "9e0e4f465d304fa7945727953f4cbcdb705bf2ba",
+      "node_id": "C_kwDOOqTJvNoAKDllMGU0ZjQ2NWQzMDRmYTc5NDU3Mjc5NTNmNGNiY2RiNzA1YmYyYmE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T16:59:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T16:59:00Z"
+        },
+        "message": "ほしのさんの提案に基づき、4章に市民の声を集合知に変える仕組みを追加",
+        "tree": {
+          "sha": "dc3372d227722b1c29db1d9cf4a6ab5de40dfb78",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/dc3372d227722b1c29db1d9cf4a6ab5de40dfb78"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9e0e4f465d304fa7945727953f4cbcdb705bf2ba",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobU5UCRC1aQ7uu5UhlAAAIL4QAEu+MmDzWp3CStbupWUko6vq\n6g8LRt+lY06oPbTrJDuktBpjBf0mj/Hq4rd0MZx4iREWsyrzRUXP3bGzcgrmwjql\nDX7im7z5OMP/DoO3mmLnjjmPkSFV5N41PaJYkepfz+fHRKZ0fO3W/mWsDJsx9dtX\n/8jHG6AOFWDjhzqGR+B+mWUvW3macDjBRbbCwOEYVSMXCNMau5IqN2lvghGPybd/\nFYyWFjhF0uNfaEH470S79EV7Ux7YMkXIFD7WGXZ+X7b1SARdj/8a2lVYI7d74Aof\nb6jynTDWQTGuJLLBCR6e9T/O927K9A6eMiJa/BExtwzeUTCYivBaNWsjLR/p2qCw\nm5Qn5/e9QFvbhHU/Xzlb+0NsPeSYVrvk9WXGpQuRPGzt7RPThQYoro9bwSHmPfUj\nZPilFljaP2EgZYftrorf4hHzT8810CKB+7ECB1lziOa4MKxdHMJkxE4rARID+3hQ\nnnvPnDc8Ny3pkKPS9+eWnmf5dP9sE6v3fkmHyYGLvvITw03FSDPMG2wsME2I1Wmy\nE/5QCMBY7PduhbjkiGr0bcSu1YE1AJqPeBkvmWPxwedJIseoMjv5wHMWtIbXl2ax\n+Puglv4tRDCtu8l56Ax4ogRzI0GrjjbtgCcD9YOc2MB6wmr43Z9MmCthmpUslRAo\nVrW83MwQ4ujfSTJvnBiB\n=w4HK\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dc3372d227722b1c29db1d9cf4a6ab5de40dfb78\nparent e058a5c105185d1074f446325b6326464bda111c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751993940 +0000\ncommitter GitHub <noreply@github.com> 1751993940 +0000\n\nほしのさんの提案に基づき、4章に市民の声を集合知に変える仕組みを追加",
+          "verified_at": "2025-07-08T16:59:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9e0e4f465d304fa7945727953f4cbcdb705bf2ba",
+      "html_url": "https://github.com/team-mirai/policy/commit/9e0e4f465d304fa7945727953f4cbcdb705bf2ba",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9e0e4f465d304fa7945727953f4cbcdb705bf2ba/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e058a5c105185d1074f446325b6326464bda111c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e058a5c105185d1074f446325b6326464bda111c",
+          "html_url": "https://github.com/team-mirai/policy/commit/e058a5c105185d1074f446325b6326464bda111c"
+        }
+      ]
+    },
+    {
+      "sha": "284e943367e0c74316622198343378d0c91350fc",
+      "node_id": "C_kwDOOqTJvNoAKDI4NGU5NDMzNjdlMGM3NDMxNjYyMjE5ODM0MzM3OGQwYzkxMzUwZmM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T17:02:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T17:02:07Z"
+        },
+        "message": "ほしのさんの提案を反映：市民の声が届く法制度トラッカーの改善",
+        "tree": {
+          "sha": "c54262a43794c62955bed88260d27c2ac02a28ed",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c54262a43794c62955bed88260d27c2ac02a28ed"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/284e943367e0c74316622198343378d0c91350fc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobU8PCRC1aQ7uu5UhlAAAMDwQAGN+Ex/57/Um1OfvDvz2KbPM\nhI81am72DJM2w9956Z0mjQ4sr5JJ4ke08vaFRq6K1K3OWC6rw4D96vuJxR1uj1z3\nl1+g6QQjPDINdNJiiG9nGYOk+74XQ4My9AbV9UxZoiIQJ/fuC6xQenkuIVKTF05N\nNNV+MLcxI8uaG/zv6l+YzJeltnmsMrHUyTC//A0lNsA/BcMKXcrxb3IhOCoESrPY\nCmTusOwC51RXv2dxJl+xm6Y6J+yB/c5CZJnagTar2DEjKGzRyEZR7CdCWMJB136d\nK1lZJ45OxDgXjTG8lkEPIk+HntMrTVlqNnUgPcZdZAULgjI2dwE1WdSE3oHxp2bR\nJAt7RgD0yCrzkRhrintwo64W1yKxPjo5+SS1YVQVKDNCjIc37Mh9W1BsJw14gDE1\nMcWHN/Qn1rbk9eQ42ypS4FvNsZ+oVCr9hOarHbQALFf2Mvo75UKG4iVJ0rAnIJ6V\nCAaqw4Nte6tXPrNi3Wlwza/aR2TKzNJ1MVM97KGBcdSaoHFz0xSXFkd2EXaYM26Q\nxhe4XM+zEBKSp1DVpHj/ggfERV9l45ldViRJPROREzB8Ur3gyFx8lHPy21CKBVYy\nuMll8jQKp8/4rPCs1rpIApsVzbucb8qaO+KdyMvsKLI7xKLhqcIFI4VafEupGzGb\nYHjLRDBqRw+2iX3ZcCUr\n=I/NC\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c54262a43794c62955bed88260d27c2ac02a28ed\nparent 9e0e4f465d304fa7945727953f4cbcdb705bf2ba\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751994127 +0000\ncommitter GitHub <noreply@github.com> 1751994127 +0000\n\nほしのさんの提案を反映：市民の声が届く法制度トラッカーの改善",
+          "verified_at": "2025-07-08T17:02:07Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/284e943367e0c74316622198343378d0c91350fc",
+      "html_url": "https://github.com/team-mirai/policy/commit/284e943367e0c74316622198343378d0c91350fc",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/284e943367e0c74316622198343378d0c91350fc/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9e0e4f465d304fa7945727953f4cbcdb705bf2ba",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/9e0e4f465d304fa7945727953f4cbcdb705bf2ba",
+          "html_url": "https://github.com/team-mirai/policy/commit/9e0e4f465d304fa7945727953f4cbcdb705bf2ba"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T17:12:46.534050"
+}
