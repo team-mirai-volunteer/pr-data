@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4625,
+    "title": "政策案5章の改善：AIによる自治体のあり方再設計と首都機能バックアップの提案",
+    "state": "open",
+    "created_at": "2025-07-08T15:13:16Z",
+    "updated_at": "2025-07-08T15:13:16Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4625",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "7b0f30e27a8a6de3f8d731d383f7b7e45b6431cb",
+      "filename": "22_ステップ２くらしと行政.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 7,
+      "changes": 17,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ca189363e9870b5ee61bf979e13ba625249e8fc6/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ca189363e9870b5ee61bf979e13ba625249e8fc6/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=ca189363e9870b5ee61bf979e13ba625249e8fc6",
+      "patch": "@@ -149,20 +149,22 @@\n     * デジタル庁ガイドライン準拠 API の徹底。  \n     * 現在の「公共データ利用規約」を 国際標準のCC‑BY‑4.0 相当へアップグレードします。\n \n-## ５）「スパゲティコード化した行政システム」を“引き算”と“整理”でわかりやすく使いやすい仕組みへ変更します\n+## ５）複雑化した行政システムや自治体のあり方を、テクノロジーで再設計します\n \n ### 現状認識・課題分析\n \n-* 日本の法律や制度は、時代の変化や社会課題への対応に応じて数多くの改正が重ねられてきましたが、多くの改正が都度の対応として実施されてきたために複雑化し、多くの人にとって理解が難しいものになっています。  \n-* 国民にとっては「自分が対象かどうかわからない」「知らないうちに法令違反をしていないか」という不安や申請断念につながり、行政の現場では「ミスの温床」「非効率な手続き」を生む要因になっています。  \n+* 日本の法律や制度は、時代の変化や社会課題への対応に応じて数多くの改正が重ねられてきましたが、多くの改正が都度の対応として実施されてきたために複雑化し、多くの人にとって理解が難しいものになっています。これは、国全体の行政システムだけでなく、各自治体の機能や役割にも当てはまります。\n+* 国民にとっては「自分が対象かどうかわからない」「知らないうちに法令違反をしていないか」という不安や申請断念につながり、行政の現場では「ミスの温床」「非効率な手続き」を生む要因になっています。\n+* 自治体レベルでは、隣接する自治体間でのインフラ重複投資や、過度な競争による非効率、人口減少下での行政サービス維持の困難化といった課題が顕在化しています。それぞれの歴史的経緯や政治的な力学が、地域全体の成長を阻害する「足の引っ張り合い」につながっている側面も否定できません。\n * 「制度の複雑さが国民への説明や事務作業の支障になっている」という声も現場からは聞こえ、運用者・利用者の双方にとって深刻な課題となっています。\n \n ### 政策概要\n \n-* 大規模言語モデル（LLM）などの自然言語処理技術をはじめとしたテクノロジーを活用し、既存制度の構造・手続き・フローを体系的に可視化・分析します。  \n-* 具体的には、法令・政省令・手続きフロー・ガイドライン等を解析し、制度上のルート・判断基準・申請要件を構造化するプロセスマイニングと制度マッピングを行い、冗長性や重複、理解困難な箇所を特定します。  \n-* その上で、対象制度に関与する省庁・自治体・実務者・受益者などの利害関係者を整理し、問題の法令を改正した場合にどの変更が誰にどう影響するかを整理します。  \n-* その後、特定の制度・分野で試験的にリファクタリング改正版の制度を試験的に導入し、実運用での改善点をフィードバックします。継続的な改善を繰り返しながら、本格導入の是非を評価します。\n+* 大規模言語モデル（LLM）などの自然言語処理技術をはじめとしたテクノロジーを活用し、既存の複雑な制度や、自治体間の関係性を体系的に可視化・分析します。\n+* 具体的には、まず国の法令・政省令・手続きフロー等を解析し、制度上の冗長性や重複、理解困難な箇所を特定します。\n+* これと並行し、人口動態、財政、産業構造、公共施設の配置などのデータを活用し、AIによる客観的なシミュレーションを実施。自治体ごとの最適な機能・役割分担や、広域連携、さらには統廃合のあり方について、政治力学を排した合理的な選択肢を複数提示します。これは「AIによる道州制」の検討にもつながるアプローチです。\n+* これらの分析・シミュレーション結果をもとに、対象制度・地域に関与する省庁・自治体・実務者・受益者などの利害関係者を整理し、制度や自治体のあり方を変更した場合の影響を多角的に評価します。\n+* その上で、特定の制度・分野で試験的にリファクタリング（再設計）版の制度を導入したり、モデル地域で新たな広域連携を試行したりするなど、実運用での改善点をフィードバックします。継続的な改善を繰り返しながら、本格導入の是非を評価します。\n \n ## ６）電子投票・ネット投票を推進します\n \n@@ -253,3 +255,4 @@\n   * 大規模災害・感染症流行時に限り、議員の遠隔出席と電子投票を許可する方向での検討を進めます。\n   * また、議長が定足数をシステム上で確認し、結果をスクリーン表示するとともに即時公表を目指します。\n \n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "ca189363e9870b5ee61bf979e13ba625249e8fc6",
+      "node_id": "C_kwDOOqTJvNoAKGNhMTg5MzYzZTk4NzBiNWVlNjFiZjk3OWUxM2JhNjI1MjQ5ZThmYzY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T15:07:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T15:07:54Z"
+        },
+        "message": "はた たかひろさんの提案に基づき、AIによる自治体のあり方シミュレーションの視点を追加",
+        "tree": {
+          "sha": "cdbcfe89f2bc16ef19e79db98be9c2c23ea459c1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/cdbcfe89f2bc16ef19e79db98be9c2c23ea459c1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ca189363e9870b5ee61bf979e13ba625249e8fc6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobTRKCRC1aQ7uu5UhlAAA/lUQACmwCWrlZ34h6OpIkqq4YmT3\nnmWl1azRrBrPQolD/pvzkMqenEk9DlqDL3I8I2kGHhdHunlEnC+x1Sl632Z9h1+Q\nbqIvcmq6ZOGaTGh6lLZPyMIkPO5WoTKWIRZ+jcoixfnH6JpGK3LG0a+9ZKqwjG/T\n7RM18dPo1qWMYHZunUpXq5TYhg0CMmKU4tUFu4pa39tjJWvAD+O/32VKKbouf+Nu\nIoQjlO3fPYrMWqQQRxGJ3ERZYYKou4zju1QzK1q6lz2fkY2OlEDAMlTibgXXNmWM\nSgtMl5Z0AFz1CxWN0/v5GKTmsFEUadV+IBZQyJo9JpShtAM35YbWY1m/2ZEYr1Tc\nE5JFquD3/+48ZlW53fpW6pMgyQ4ePgHKOHN5T9jf82kYLzQq990+g/pQxhtCE3Ug\nReXUR8rT/754ObVDrkW6OFNQYaV8FRtLXwdbsCpM561NPoVFBd1oE6dumBdhy5EA\nW3Yxg2hQUbq6KECH/XbaFGDXale5QLSuglEjq40sIKOiqJvuaYSyvM900FSJWSYu\nRS27liydqTkJcZaVRordXVdkj+jfs7XmnBA8zX/EQn1JmEVZ3I7NQIF9ecUFVXBs\nlkRwB0q2vdmPAW++W7dXG+8shFnaZK8kze89SyX+PXhnQauINcI4fbz+dbZLGITV\nn2Kw4kz5yAzDZr8YGf0/\n=zp2n\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cdbcfe89f2bc16ef19e79db98be9c2c23ea459c1\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751987274 +0000\ncommitter GitHub <noreply@github.com> 1751987274 +0000\n\nはた たかひろさんの提案に基づき、AIによる自治体のあり方シミュレーションの視点を追加",
+          "verified_at": "2025-07-08T15:07:55Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ca189363e9870b5ee61bf979e13ba625249e8fc6",
+      "html_url": "https://github.com/team-mirai/policy/commit/ca189363e9870b5ee61bf979e13ba625249e8fc6",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ca189363e9870b5ee61bf979e13ba625249e8fc6/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T15:13:36.830107"
+}
