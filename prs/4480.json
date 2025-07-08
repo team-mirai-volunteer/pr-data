@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4480,
+    "title": "政策の透明性を高め、クリーンな政治を実現するための構成変更",
+    "state": "open",
+    "created_at": "2025-07-08T06:19:47Z",
+    "updated_at": "2025-07-08T06:19:47Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4480",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "c5677eb819fb23c77ec82f8ef607b395dd880175",
+      "filename": "40_国政政党成立後100日プラン.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 7,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/9b93d6e5ecfbd89a5f3f36aa3fb5b51593128fc4/40_%E5%9B%BD%E6%94%BF%E6%94%BF%E5%85%9A%E6%88%90%E7%AB%8B%E5%BE%8C100%E6%97%A5%E3%83%97%E3%83%A9%E3%83%B3.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/9b93d6e5ecfbd89a5f3f36aa3fb5b51593128fc4/40_%E5%9B%BD%E6%94%BF%E6%94%BF%E5%85%9A%E6%88%90%E7%AB%8B%E5%BE%8C100%E6%97%A5%E3%83%97%E3%83%A9%E3%83%B3.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/40_%E5%9B%BD%E6%94%BF%E6%94%BF%E5%85%9A%E6%88%90%E7%AB%8B%E5%BE%8C100%E6%97%A5%E3%83%97%E3%83%A9%E3%83%B3.md?ref=9b93d6e5ecfbd89a5f3f36aa3fb5b51593128fc4",
+      "patch": "@@ -3,30 +3,31 @@\n \n # 国政政党成立後１００日プラン\n \n-* **1\\) 本格始動へ向けた組織づくり**  \n+* **1) 本格始動へ向けた組織づくり**  \n   * 10名規模の技術者集団（永田町エンジニアチーム）を組織する  \n     * 通常、選挙活動に費やされることの多い政党交付金を永田町のエンジニアチームを組織するために活用  \n     * 近年のソフトウェア開発環境では、AIの発展によりスモールチームであってもかなりの馬力が出るようになっている  \n       * CursorやDevinも10名規模のチームで運営されている  \n     * 加えて、100名規模のオープンソース・コミュニティを組織する  \n       * チームみらいが作るのはOSSであるため、通常のスタートアップと違って、多くの人たちの協力を更に仰ぐことができる  \n   * 3名規模の実務家集団（政策立案・情報発信チーム）を組織する  \n-* **2\\) ユーティリティ政党として、他党や自治体と連携を推進**  \n+* **2) ユーティリティ政党として、他党や自治体と連携を推進**  \n   * （政策面連携）AI政策についてオープンかつ国民的な検討を進めるためのオープンな超党派議連を立ち上げる  \n     * 本マニフェストの政策を含め、AIに関して他党と協調しながら洗練してゆく想定  \n       * デジタル民主主義2030で開発された『いどばたシステム』や『広聴AI』、そして永田町におけるオフラインの議論を中継するYouTubeチャンネルを運用しながら、オープンな政策立案プロセスを実現する  \n   * （技術面連携）他党や自治体の技術導入を中立的に支援  \n-* **3\\) スモールチームでも出来る”社会実装”を爆速で遂行**  \n+* **3) 徹底した情報公開で、クリーンな政治を実現**\n+  * 各省庁への情報開示請求の自動化によるパブリックコメントデータの大規模収集と可視化\n+  * 常設のいどばたシステムを活用した国会審議のオープン化：法案トラッカーを開発し、永田町の見える化を実施\n+* **4) スモールチームでも出来る”社会実装”を爆速で遂行**  \n   * 下記は一案。限られたリソースをどこに投下するべきかは検討の上意思決定する  \n-    * 各省庁への情報開示請求の自動化によるパブリックコメントデータの大規模収集と可視化  \n     * 認証機構付きの意見募集システムを実装し、政党や自治体での活用を進める  \n       * マイナンバーカード認証付きの意見募集プラットフォームがあればより多数派工作に対して頑健になる  \n       * 最終的にはe-Govでも同様の仕組みの採用を目指す  \n     * 政策立案能力向上のための予測市場（”Futarchy”）を実装すべく、サンドボックス規制緩和制度を政党として申請  \n     * 個人の情報に基づいて利用可能な行政サービスを通知・申請支援する、オープンソースの自治体スーパーアプリを開発  \n     * 発注前のシステムを高速に参照実装を行い、プロトタイプを公開してゆく  \n-    * 常設のいどばたシステムを活用した国会審議のオープン化：法案トラッカーを開発し、永田町の見える化を実施  \n     * パブリックコメント多数派攻撃手法の研究とその防衛策の開発  \n     * ネット上のファクトチェックや影響力工作に関する検知と対応のための技術開発  \n-* **4\\) 世界の技術者たちと独自の議員外交を開始**  \n-  * 各国のスタートアップ、技術者、研究者とのパイプを独自開拓\n+* **5) 世界の技術者たちと独自の議員外交を開始**  \n+  * 各国のスタートアップ、技術者、研究者とのパイプを独自開拓\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "9b93d6e5ecfbd89a5f3f36aa3fb5b51593128fc4",
+      "node_id": "C_kwDOOqTJvNoAKDliOTNkNmU1ZWNmYmQ4OWE1ZjNmMzZhYTNmYjViNTE1OTMxMjhmYzQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T06:05:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T06:05:17Z"
+        },
+        "message": "マニフェストの構成を修正し、情報公開の項目を独立させました by Mayumi Kubota",
+        "tree": {
+          "sha": "a3e1a860b3920ceac6d949499fc973c850d2e40d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a3e1a860b3920ceac6d949499fc973c850d2e40d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9b93d6e5ecfbd89a5f3f36aa3fb5b51593128fc4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobLUdCRC1aQ7uu5UhlAAAsh8QAEJLurLkaOJ/vw9y4U2bM82Y\nuuZeNsQloAA6x6kJXG0l+O0MSpBRzlhS+myYGwFWvnUv/K036IB0ZKqdAbKRmyjN\ndb4oaqDESVV8BzszGJpXhjv8uVfkUbP8HrLbxt46h2ZrZLKsN6VUtKS3F/0MLv0s\nY0Yn3hEz+aZb9tvLWpCR+H0xBwy+2M68Zxu4M+9hwwNTd7Gs+KkCyyho1cgjZ80L\nBKuAcWx2/Hsd9+9fTY/Mr0NUlj+SkE5esIQE8SPFL7U93tkw8KDMUovggghQCqNU\nmf86wrmtF1fMiNa6fObpy2YLTMkfKZ3+YWdAb/B0KtJmCYui+Je4hkeT1Hqr1vU5\nSFSC3l7a9ZiPydj6Pg/qSLmoKmK7+AwutkDcvaHuww4jtdwxoBJSzwRxEmXfFqbh\nRVz8uszWI3fpC/JZJRRV6SEc+GVmzsdxlTdM6WVNHIB6ilYvrLZ2diA6m3HgMtL9\n4iA0m9g231oUUJyPj+yi5JGcieb55XymIn9gmbT1wYsO92h1JT/yhAGE4bMh3GQ1\nlBOA78TY0f2ftgAovdRXNAfNXG+Mnj13VgUO/EqJFLa59k41ugT9I2A3ynKer3h1\n74zqwVZCH8CIGzNLeglhe5vKX6/h2/XixcMF7aLq3H7B2KpErILJMLcjv0Fq/02X\nJhuTWlLb1KrffYteiUGf\n=mHNG\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a3e1a860b3920ceac6d949499fc973c850d2e40d\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751954717 +0000\ncommitter GitHub <noreply@github.com> 1751954717 +0000\n\nマニフェストの構成を修正し、情報公開の項目を独立させました by Mayumi Kubota",
+          "verified_at": "2025-07-08T06:05:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9b93d6e5ecfbd89a5f3f36aa3fb5b51593128fc4",
+      "html_url": "https://github.com/team-mirai/policy/commit/9b93d6e5ecfbd89a5f3f36aa3fb5b51593128fc4",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9b93d6e5ecfbd89a5f3f36aa3fb5b51593128fc4/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T06:20:00.362209"
+}
