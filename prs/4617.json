@@ -4,7 +4,7 @@
     "title": "匿名ユーザーによる教育政策改善提案（教員支援、キャリアパス、大学評価、ジェンダー是正ほか）",
     "state": "open",
     "created_at": "2025-07-08T14:37:53Z",
-    "updated_at": "2025-07-08T14:57:27Z",
+    "updated_at": "2025-07-08T15:42:15Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/4617",
@@ -14,21 +14,31 @@
       "html_url": "https://github.com/apps/idobata-policy-app"
     }
   },
-  "labels": [],
+  "labels": [
+    {
+      "id": 8631770611,
+      "node_id": "LA_kwDOOqTJvM8AAAACAn5d8w",
+      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E6%95%99%E8%82%B2",
+      "name": "教育",
+      "color": "E57B81",
+      "default": false,
+      "description": ""
+    }
+  ],
   "comments": [],
   "review_comments": [],
   "files": [
     {
-      "sha": "e2e97cd8675274baf4468e599d080502456ba7bf",
+      "sha": "3cac9a8d378b7db4e3a7f1eacc494b7920e30f42",
       "filename": "21_ステップ２教育.md",
       "status": "modified",
-      "additions": 7,
-      "deletions": 4,
-      "changes": 11,
-      "blob_url": "https://github.com/team-mirai/policy/blob/60bdcb8c1b3281e9074f71c29e527c31178e3425/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/60bdcb8c1b3281e9074f71c29e527c31178e3425/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md?ref=60bdcb8c1b3281e9074f71c29e527c31178e3425",
-      "patch": "@@ -5,7 +5,7 @@\n \n ## ビジョン\n \n-* これまでの教育制度は「年齢」等、客観的で運用も比較的容易な変数に基づいてコントロールされていました。これからは、AIを活用することで、人間の手間を増やさすに、複数の変数を組み合わせた複雑なシステムも、運用可能な形で実装できます。  \n+* これまでの教育制度は、運用の容易さから「年齢」という単一の基準に頼ってきましたが、それは同時に画一的な教育しか提供できないという限界も意味していました。これからは、AIを活用することで、人間の手間を増やさすに、複数の変数を組み合わせた複雑なシステムも、運用可能な形で実装できます。  \n * 学習指導要領が10年に一度の改訂であることや、ジェンダーバイアスが制度的にも慣習的にも依然として残っていることなど、しなやかな変化を難しくしている課題を一つずつ丁寧に解決していきます。  \n * データをきめ細かく取得することで、教育効果の検証をできるようにします。\n \n@@ -22,8 +22,9 @@\n ### 政策概要\n \n * 一人ひとりの個性にあわせ、AIでオーダーメイドカリキュラムをつくり、柔軟に学んでいけるよう、標準授業時数の設定を大綱化することを目指します。  \n-* 同時に、義務教育として必要な教育の質は担保するよう、イギリスの教育水準局や、オランダの教育監査局が実施している義務教育段階終了時のテストなどを参考に、一人ひとりが義務教育で身につけるべき内容を習得できているかをチェックし、データを元に改善していきます。  \n+* 同時に、義務教育として必要な教育の質は担保します。そのために、柔軟な教育課程とデータに基づく質の保証を両立させているイギリスの教育水準局やオランダの教育監査局の仕組みを参考に、義務教育段階終了時の客観的な到達度評価を導入し、一人ひとりが身につけるべき内容を習得できているかをチェックし、継続的な改善に繋げます。  \n * あわせて、多様な学びの選択肢の一つとして、在宅学習の環境整備も推進します。在宅学習における学習評価や社会性を育む機会については、オンラインでの実施可能性を追求し、コロナ禍で得られた知見も参考にしながら、質の高いプログラムを構築します。\n+* AIの活用にあたっては、教員の負担増を避けることが重要です。そのため、国は実践的な研修プログラムを開発・提供するとともに、専門家でなくても直感的に使えるAIツールを導入し、教員のスキルアップを支援します。\n \n <p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/082ef1db-014a-4408-b548-e821b394d7ee\">\n@@ -71,6 +72,8 @@\n * 例えば、過去の試験問題をAIが活用しやすいように整備することで、AIの精度を飛躍的に向上させることが期待できます。これは、教育データの効果的な利活用の一例です。  \n * ステップ１の４）で述べたような支援の実施状況や効果についても、実際に子どもや家庭にどのような影響を与えているかを、データで追跡・可視化します。  \n   * AIによる効果測定と評価サイクルを導入し、支援内容の改善や制度の見直しに繋げます。これにより、支援が「積極的」かつ「必要十分」に届いているかを客観的に評価し、継続的な改善を図ります。\n+* また、高等教育における教育の質の低下という課題にも、データ活用で取り組みます。学生による授業評価だけでなく、学習管理システム（LMS）の利用データや課題の達成度といった客観的なデータを組み合わせた多角的な評価システムを導入することで、教員が不当な評価圧力に臆することなく、質の高い教育を提供できる環境を目指します。\n+* さらに、ジェンダーバイアスの是正にもデータ活用は不可欠です。特に、大学等における女性教員の少なさは深刻な課題であり、分野ごとの教員・学生の男女比、採用や昇進におけるデータを客観的に分析・公開することで、問題の所在を明確化します。これにより、科学的根拠に基づいた具体的な是正措置を講じ、多様性のある研究・教育環境の実現を目指します。\n \n ## ４）これらのしなやかな仕組みを活かした先進的モデル校を産官学が連携して設立し、その効果を測定します\n \n@@ -83,7 +86,7 @@\n \n ### 政策概要\n \n-* 義務教育学校と高等専門学校を連携させた「早期高密度教育パス」モデル校を設置します。教育の力で個人の可能性を最大限に引き出し、より早期に、より多様な自己実現を可能にします。これにより、個人のライフプランとキャリア形成の調和を図り、結果として、誰もが希望するタイミングで家庭を築ける環境の整備に貢献します。  \n+* 義務教育学校と高等専門学校を連携させた「早期高密度教育パス」モデル校を設置します。教育の力で個人の可能性を最大限に引き出し、早期の就労や起業など、より多様な形で社会で活躍できる道を拓きます。これにより、個人のライフプランとキャリア形成の調和を図り、結果として、誰もが希望するタイミングで家庭を築ける環境の整備に貢献します。  \n   * 義務教育学校（小中一貫校）での早期高密度教育  \n     * AIアダプティブラーニングを全面的に導入します。  \n     * 個々の習熟度に応じた柔軟な学習進度を可能にし、15歳で従来の高校卒業レベルの基礎知識・技能の完全習得を目指します。  \n@@ -106,4 +109,4 @@\n     * 社会的受容性  \n       * 保護者、大学、企業等への丁寧な説明と合意形成、段階的試行とその成果の透明な公開。  \n     * カリキュラム設計の複雑さ  \n-      * 学習科学の専門家、AI研究者、現場教員からなる専門チームによる継続的なカリキュラム開発・改善。\n\\ No newline at end of file\n+      * 学習科学の専門家、AI研究者、現場教員からなる専門チームによる継続的なカリキュラム開発・改善。"
+      "additions": 22,
+      "deletions": 5,
+      "changes": 27,
+      "blob_url": "https://github.com/team-mirai/policy/blob/50b8c3fef0b1ad9dee3dae5ab651a8170dd4091f/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/50b8c3fef0b1ad9dee3dae5ab651a8170dd4091f/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/21_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E6%95%99%E8%82%B2.md?ref=50b8c3fef0b1ad9dee3dae5ab651a8170dd4091f",
+      "patch": "@@ -5,7 +5,7 @@\n \n ## ビジョン\n \n-* これまでの教育制度は「年齢」等、客観的で運用も比較的容易な変数に基づいてコントロールされていました。これからは、AIを活用することで、人間の手間を増やさすに、複数の変数を組み合わせた複雑なシステムも、運用可能な形で実装できます。  \n+* これまでの教育制度は、運用の容易さから「年齢」という単一の基準に頼ってきましたが、それは同時に画一的な教育しか提供できないという限界も意味していました。これからは、AIを活用することで、人間の手間を増やさすに、複数の変数を組み合わせた複雑なシステムも、運用可能な形で実装できます。  \n * 学習指導要領が10年に一度の改訂であることや、ジェンダーバイアスが制度的にも慣習的にも依然として残っていることなど、しなやかな変化を難しくしている課題を一つずつ丁寧に解決していきます。  \n * データをきめ細かく取得することで、教育効果の検証をできるようにします。\n \n@@ -17,13 +17,14 @@\n * 現在は、「年齢」が唯一の変数になってカリキュラムが編成されています。  \n   * 日本の小学校・中学校では、学年軸・教科軸の双方に柔軟性がなく、各学年・各教科で何時間の授業が必要かが決まっています（標準授業時数）。  \n   * 日本なみに厳格な制度の韓国でも、２学年まとめた規定となっており、日本よりは柔軟です。もっとも制度が柔軟なオランダでは総学習時間だけ決まっており、何を何時間学ぶかは学校・子どもに合わせて決められます。  \n-* 日本の教育課程の基準である学習指導要領のコード化は完了しているものの、各社の教科書をはじめとした教育コンテンツと十分に紐づいているとは言えず、個々の児童生徒の学習履歴が残せるようにはなっていません。\n+* 日本の教育課程の基準である学習指導要領は、個々の学習項目に識別番号（コード）を割り振る作業が完了し、様々なデジタル教材と連携する準備は整っているものの、各社の教科書をはじめとした教育コンテンツと十分に紐づいているとは言えず、個々の児童生徒の学習履歴が残せるようにはなっていません。\n \n ### 政策概要\n \n * 一人ひとりの個性にあわせ、AIでオーダーメイドカリキュラムをつくり、柔軟に学んでいけるよう、標準授業時数の設定を大綱化することを目指します。  \n-* 同時に、義務教育として必要な教育の質は担保するよう、イギリスの教育水準局や、オランダの教育監査局が実施している義務教育段階終了時のテストなどを参考に、一人ひとりが義務教育で身につけるべき内容を習得できているかをチェックし、データを元に改善していきます。  \n+* 同時に、義務教育として必要な教育の質は担保します。そのために、柔軟な教育課程とデータに基づく質の保証を両立させているイギリスの教育水準局やオランダの教育監査局の仕組みを参考に、義務教育段階終了時の客観的な到達度評価を導入し、一人ひとりが身につけるべき内容を習得できているかをチェックし、継続的な改善に繋げます。  \n * あわせて、多様な学びの選択肢の一つとして、在宅学習の環境整備も推進します。在宅学習における学習評価や社会性を育む機会については、オンラインでの実施可能性を追求し、コロナ禍で得られた知見も参考にしながら、質の高いプログラムを構築します。\n+* AIの活用にあたっては、教員の負担増を避けることが重要です。そのため、国は実践的な研修プログラムを開発・提供するとともに、専門家でなくても直感的に使えるAIツールを導入し、教員のスキルアップを支援します。\n \n <p align=\"center\">\n  <img src=\"https://github.com/user-attachments/assets/082ef1db-014a-4408-b548-e821b394d7ee\">\n@@ -71,6 +72,8 @@\n * 例えば、過去の試験問題をAIが活用しやすいように整備することで、AIの精度を飛躍的に向上させることが期待できます。これは、教育データの効果的な利活用の一例です。  \n * ステップ１の４）で述べたような支援の実施状況や効果についても、実際に子どもや家庭にどのような影響を与えているかを、データで追跡・可視化します。  \n   * AIによる効果測定と評価サイクルを導入し、支援内容の改善や制度の見直しに繋げます。これにより、支援が「積極的」かつ「必要十分」に届いているかを客観的に評価し、継続的な改善を図ります。\n+* また、高等教育における教育の質の低下という課題にも、データ活用で取り組みます。学生による授業評価だけでなく、学習管理システム（LMS）の利用データや課題の達成度といった客観的なデータを組み合わせた多角的な評価システムを導入することで、教員が不当な評価圧力に臆することなく、質の高い教育を提供できる環境を目指します。\n+* さらに、ジェンダーバイアスの是正にもデータ活用は不可欠です。特に、大学等における女性教員の少なさは深刻な課題であり、分野ごとの教員・学生の男女比、採用や昇進におけるデータを客観的に分析・公開することで、問題の所在を明確化します。これにより、科学的根拠に基づいた具体的な是正措置を講じ、多様性のある研究・教育環境の実現を目指します。\n \n ## ４）これらのしなやかな仕組みを活かした先進的モデル校を産官学が連携して設立し、その効果を測定します\n \n@@ -83,7 +86,7 @@\n \n ### 政策概要\n \n-* 義務教育学校と高等専門学校を連携させた「早期高密度教育パス」モデル校を設置します。教育の力で個人の可能性を最大限に引き出し、より早期に、より多様な自己実現を可能にします。これにより、個人のライフプランとキャリア形成の調和を図り、結果として、誰もが希望するタイミングで家庭を築ける環境の整備に貢献します。  \n+* 産官学が連携し、義務教育学校を高等専門学校や協力企業とつなぐ「新たな教育モデル校」を設立します。これは、画一的な高校進学だけではない多様な選択肢（専門技術の習得、企業での実践的な訓練等）を構築することで、目的意識の低い「とりあえずの進学」を防ぐ狙いがあります。教育の力で個人の可能性を最大限に引き出し、早期の就労や起業など、より多様な形で社会で活躍できる道を拓きます。これにより、個人のライフプランとキャリア形成の調和を図り、結果として、誰もが希望するタイミングで家庭を築ける環境の整備に貢献します。  \n   * 義務教育学校（小中一貫校）での早期高密度教育  \n     * AIアダプティブラーニングを全面的に導入します。  \n     * 個々の習熟度に応じた柔軟な学習進度を可能にし、15歳で従来の高校卒業レベルの基礎知識・技能の完全習得を目指します。  \n@@ -106,4 +109,18 @@\n     * 社会的受容性  \n       * 保護者、大学、企業等への丁寧な説明と合意形成、段階的試行とその成果の透明な公開。  \n     * カリキュラム設計の複雑さ  \n-      * 学習科学の専門家、AI研究者、現場教員からなる専門チームによる継続的なカリキュラム開発・改善。\n\\ No newline at end of file\n+      * 学習科学の専門家、AI研究者、現場教員からなる専門チームによる継続的なカリキュラム開発・改善。\n+\n+## ５）教員の働き方改革を断行し、教育の質を高めます\n+\n+### 現状認識・課題分析\n+\n+*   教員の過重労働は、教育の質を低下させかねない深刻な問題です。特に、本来の業務ではない部活動の顧問業務が大きな負担となり、心身の健康を損なう教員が増えています。\n+*   外部指導者の導入が進められていますが、事故発生時の安全管理や責任の所在が学校に残るため、多くの現場で教員の帯同が必須となっており、根本的な負担軽減には至っていません。\n+\n+### 政策概要\n+\n+*   部活動の運営・管理を学校から切り離し、教員が授業や生徒指導といった本来の職務に専念できる環境を整備します。\n+*   そのために、部活動の運営を専門に担うNPOや地域団体等を「地域クラブ活動法人（仮称）」として認定し、国や自治体がその設立や運営を支援する制度を創設します。\n+*   学校と法人が契約することで、活動中の安全管理や事故対応の責任と権限を法人が一体的に担うことを可能にします。あわせて、国が支援する専用の損害賠償保険制度も創設し、万が一の事態に備えます。\n+*   これにより、教員を活動への帯同義務から完全に解放し、教員の心身の健康を守るとともに、教育の質の向上を目指します。"
     }
   ],
   "commits": [
@@ -277,7 +287,171 @@
           "html_url": "https://github.com/team-mirai/policy/commit/2ca10c220de1a663a435483d1b789f19d517862d"
         }
       ]
+    },
+    {
+      "sha": "e416365e6d881f0d39189b395bd7ca78cfc8557b",
+      "node_id": "C_kwDOOqTJvNoAKGU0MTYzNjVlNmQ4ODFmMGQzOTE4OWIzOTViZDdjYTc4Y2ZjODU1N2I",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T15:39:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T15:39:26Z"
+        },
+        "message": "匿名ユーザーによる提案：教員の働き方改革（部活動負担軽減）の項目を追加",
+        "tree": {
+          "sha": "bbe8738baa98cb9cbd330ad6776a35f10a019a95",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bbe8738baa98cb9cbd330ad6776a35f10a019a95"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e416365e6d881f0d39189b395bd7ca78cfc8557b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobTuuCRC1aQ7uu5UhlAAAQfQQADGRW9i31WAyVRpWh++dkThZ\nmMufBzcWIrceR+kwNH5VO8A25nwBI5MCcxUbfJuC3TdXdDxGqeIBQIUf27yV9RnZ\ntECdNwZHe5cOnWHUUMobK1bHPBufRRp/j45TMJtha449Yg+455s5wWNaRNeQl7VR\nxhlAOnmNMOMwx5VNXonxwhgHD5eV+sqUGOvo2mZpjzwlJoHB6NQMLQnbc8SPUrvU\nOLJM4O6BSAWXMrWGoRmtYXvsg7ki44JZJeDw7GyZMY0FUhe/FBICt1yCij1Aj/2R\nFx9tPNXyU7/0GXbTPfCMAhyD6W37Dn1ebAiGq81W/OtuYwZyXtzmf3qz97jwIENn\nzynnllx1Fdpv6iiWIQkwjT0BBimcdOP5wzhXSSi97FVCnYGZ3wYDQhFkiHlgc2MM\neKJ3O8uHkzXuWGtTx9aHl6vVeytg8qWvvb989CGlx5fbscMxyq57RnDw5b5acq+C\nr86KTtlOdoVdHIXP47JJzMlDK3I84KlMAOrUP/2uZHT9vLRDOxXSJnWsgQIfSQqp\nu+cPfrM/mKF3D+B8VUEcoCyp5XkHIxGjNz9B1QtioRPrx2nNLYkkPspiFiwXlHzC\nraR8yHib6qdzk8yljGdUtAg3EDjaa/5CIb0DJe4C8OuV2Qtg+AFyXG9rbrt+PPsd\nYtWHt5Raq5BBtX+pyLAP\n=8riV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bbe8738baa98cb9cbd330ad6776a35f10a019a95\nparent 60bdcb8c1b3281e9074f71c29e527c31178e3425\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751989166 +0000\ncommitter GitHub <noreply@github.com> 1751989166 +0000\n\n匿名ユーザーによる提案：教員の働き方改革（部活動負担軽減）の項目を追加",
+          "verified_at": "2025-07-08T15:39:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e416365e6d881f0d39189b395bd7ca78cfc8557b",
+      "html_url": "https://github.com/team-mirai/policy/commit/e416365e6d881f0d39189b395bd7ca78cfc8557b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e416365e6d881f0d39189b395bd7ca78cfc8557b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "60bdcb8c1b3281e9074f71c29e527c31178e3425",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/60bdcb8c1b3281e9074f71c29e527c31178e3425",
+          "html_url": "https://github.com/team-mirai/policy/commit/60bdcb8c1b3281e9074f71c29e527c31178e3425"
+        }
+      ]
+    },
+    {
+      "sha": "50b8c3fef0b1ad9dee3dae5ab651a8170dd4091f",
+      "node_id": "C_kwDOOqTJvNoAKDUwYjhjM2ZlZjBiMWFkOWRlZTNkYWU1YWI2NTFhODE3MGRkNDA5MWY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T15:42:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T15:42:14Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、教員の働き方改革に関する項目を新設、他多数の改善を反映",
+        "tree": {
+          "sha": "65cede777e08aa1991a1df4767fe7f5e4a933531",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/65cede777e08aa1991a1df4767fe7f5e4a933531"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/50b8c3fef0b1ad9dee3dae5ab651a8170dd4091f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobTxWCRC1aQ7uu5UhlAAAUmsQAK43b6BSWOBCurY7Uf98pepG\nh0hHH6DdbYZy83DbCFhra+umw8kfxwlXC/OWLV8YWOLPFux9okdNDYSIhr0Yl5YO\nxt4qjgdHmMRz3RCSYuh3C1/Q6/WHkIyS4DRAyLCfHLE/mv1NC9L3U8/OQiz7KXZH\nNX1A4ivKiDi2mlIYnUV8BIWB5Cjs8BgnXMzY162dkBCtSkxcnZTJmEryWdcccEkV\naL6zPlGHZFbDBnytG+D7S+PQtIufPQkttyNKetCvBeS6mTHssXUy2PJL3EqAOT4w\nf1mumNt+nCVd9bFU9ZjKqlQBszOzsgVUgW+0pPchwB3VJpkgPtXssXKEJq5XYGSQ\nRBJHiBvDAhQ9aUBX4n4LxE02CCumYVdwSxyAjqBzK6Kj+cla06vnqCDpRM2Uq2Vb\n7tQilDUkBhiEeTWV8JtIAMwoRVZebJQTaNrTXw6f83B2qo4ZyNJjhnPZpbZmnMqw\nowM6vKtX9xSyqfsqCcrX3tqmhawNL/WDNuCua2pjrROPknVjK8t1Igy6rkfqFYLu\nodhAy5fhTy22pKqfG9VjITDvXxS0MQPHgvuzmu+Li452YSfEhm2lB1YYsOLA2nVZ\noEOoAWZDveQLxmgmPg4HfeN3ss2mZ+Bg8gnXkcwwFrxL0xsCxiyShIGtcEIq/fc5\nNmKv6FbvooBDLkpf7eWq\n=JhK2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 65cede777e08aa1991a1df4767fe7f5e4a933531\nparent e416365e6d881f0d39189b395bd7ca78cfc8557b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751989334 +0000\ncommitter GitHub <noreply@github.com> 1751989334 +0000\n\n匿名ユーザーからの提案に基づき、教員の働き方改革に関する項目を新設、他多数の改善を反映",
+          "verified_at": "2025-07-08T15:42:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/50b8c3fef0b1ad9dee3dae5ab651a8170dd4091f",
+      "html_url": "https://github.com/team-mirai/policy/commit/50b8c3fef0b1ad9dee3dae5ab651a8170dd4091f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/50b8c3fef0b1ad9dee3dae5ab651a8170dd4091f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e416365e6d881f0d39189b395bd7ca78cfc8557b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e416365e6d881f0d39189b395bd7ca78cfc8557b",
+          "html_url": "https://github.com/team-mirai/policy/commit/e416365e6d881f0d39189b395bd7ca78cfc8557b"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-08T15:14:33.843136"
+  "collected_at": "2025-07-08T16:16:44.772432"
 }
