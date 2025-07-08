@@ -1,0 +1,365 @@
+{
+  "basic_info": {
+    "number": 4406,
+    "title": "公務員の働き方改革に関し、現場課題と具体的政策を追加（元公務員（中央省庁）提案）",
+    "state": "open",
+    "created_at": "2025-07-08T02:20:35Z",
+    "updated_at": "2025-07-08T02:20:36Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4406",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "63db35f07fba6160bba4fb6bfae7481b3d93d62d",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 2,
+      "changes": 8,
+      "blob_url": "https://github.com/team-mirai/policy/blob/4e02a20304691f09e58aa86811573edf50127cff/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/4e02a20304691f09e58aa86811573edf50127cff/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=4e02a20304691f09e58aa86811573edf50127cff",
+      "patch": "@@ -109,10 +109,12 @@\n   * 各省庁だけでなく、衆議院・参議院の法制局では、議員立法や政策分野の多様化により、法案作成・審査の業務が増大しています。膨大な審議記録や類似法案の調査を限られた人員でこなす現場はすでに限界に達しており、業務支援のための技術導入が不可欠です。   \n * 危機対応に必要な“余白”が消失  \n   * 人手不足・過重労働が常態化しているため災害やパンデミック時に臨機応変な動員が難しく、非常時に機動的な動きができない恐れがあります。  \n+* 職員が直接利用できない人事・経理システムにより、申請が紙ベースで行われ、職員による二重入力の手間が発生している省庁もある。結果として、休暇等の取得状況をタイムリーに可視化できず、適切な労務管理が困難になっている。\n \n ### 政策概要\n \n * FAXや紙の廃止を進めるとともに、行政機関に最新の業務ツールや柔軟な働き方を導入し、職員のデジタルリテラシーを高めます。こうした基盤整備により、現場の実態や社会の変化を的確に捉えた、現実に即した政策立案を可能にします。  \n+* すべての省庁において、各省員が利用可能で、ユーザビリティの高い人事・経理システムを導入し、各省員や人事・経理担当省員の業務負荷の低減、労務管理の向上を実現します。\n * 行政内部DX  \n   * AIアシスト型ワークフロー  \n     * パブリックコメントの分類、分析をAIで効率化します。  \n@@ -131,7 +133,7 @@\n   * 司法における書面準備作業などをAIを利用して効率化します。  \n   * AI“0審”モデル  \n     * オンライン上の名誉毀損など、発生件数が多いものについては、パターンを学習し、判決や賠償額を予測するAIを開発します。  \n-    * モデルをAPI経由で公開し、リスク警告の実装を可能にすることでそもそもの法律違反を減らすことを目指します  \n+    * モデルをAPI経経由で公開し、リスク警告の実装を可能にすることでそもそもの法律違反を減らすことを目指します  \n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n@@ -141,7 +143,7 @@\n ### 現状認識・課題分析\n \n * 気づいた時にはもう終わっているパブリックコメント\n-  * 行政機関が実施するパブリックコメント（以下「パブコメ」）は、政策や規制の案を事前に公表し、広く国民から意見や情報を募集する重要な手続きです。しかしながら、その受付期間は原則30日以上とされている一方で、実際には短縮されるケースもあり、関係者が気づいたときには既に締切直前ということも少なくありません。\n+  * 行政機関が実施するパブリックコメント（以下「パブコме」）は、政策や規制の案を事前に公表し、広く国民から意見や情報を募集する重要な手続きです。しかしながら、その受付期間は原則30日以上とされている一方で、実際には短縮されるケースもあり、関係者が気づいたときには既に締切直前ということも少なくありません。\n   * また、パブコメが実施されるタイミングでは、政策の内容がおおむね固まっている場合が多く、提出された意見が必ずしも十分に反映されていないという指摘もあります。\n * 国会提出後に話題になっても、修正の余地は限られている\n   * 法律案が社会的に注目されるのは、国会に提出される見込みとなった段階以降が多く、報道やSNS上での議論もこの時期に集中しがちです。\n@@ -210,3 +212,5 @@\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n \n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "872f63ecc2e358fd8bffda5638fe32555b64df14",
+      "node_id": "C_kwDOOqTJvNoAKDg3MmY2M2VjYzJlMzU4ZmQ4YmZmZGE1NjM4ZmUzMjU1NWI2NGRmMTQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T02:04:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T02:04:55Z"
+        },
+        "message": "元公務員（中央省庁）からの提案に基づき、３）の現状認識・課題分析に人事・経理システムの非効率性に関する記述を追加",
+        "tree": {
+          "sha": "3ab35d8f2cf6e87799cec5a62721c58bd3be5af8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3ab35d8f2cf6e87799cec5a62721c58bd3be5af8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/872f63ecc2e358fd8bffda5638fe32555b64df14",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobHzHCRC1aQ7uu5UhlAAAOecQADux3CepsIa1St86mQ3WpNfK\nM6cfcWrhskOYDk3aeJQ/Njdl6rFGptGPczYfefD7TpFN3I+doJ1IAHtJW4mUuXiC\nTJNioIEDnxjkfvhB+VKdLvRqiq4MaS3mM1L3bXiQxSWL1i97ctDmOTxdvIAXlJUJ\n+fUEflkDKS+q+voXpY/fghZgfKHNidE2OVfeETGUX4eVMTKUdu+bmh0UqDtFbcYL\n2451jjq+jtwRMD2PBKRIfBB549q5ZJkRkxZQb9HEWovmbfWkyajuud22V9qpM6vy\nKGOQryWuR6RYwXjmaxaXipiS62s00y9fh66CwdEkNGfnXup8DPIB3jBjHH+96Np3\nObo1dpjUC1kBYscpoAnex/EbwQIzEd6ESXagd8BQ3p/hvq0JEVEFSBpdrb6Cf5ah\nzlXQjsOa0nG09OyI3drehSOtVwkFEeKQ3TlTkAalIgjMIWWFCZ4JELPnTM2XZgCX\nUKOIMe3PVzub3ahxwhDa6nGwnKGhaeLWEMCyl2te7vtGq5D0AKjeytdmPCpKW8Pw\n5y7Cx/bfZsJeRrqItQkk4IYPQj6pDaI+AGMzBgcaBM5CgS11lKqjNC4cJ/0Co7xB\nOegg5P1Tiinz2vpPG/Ule+Xar8oO9g4jUexEsgYOV/X8WWZc8xRT7DlRs0xBGVxx\nfX2FC3isOb713LziAHjx\n=KRlA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3ab35d8f2cf6e87799cec5a62721c58bd3be5af8\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751940295 +0000\ncommitter GitHub <noreply@github.com> 1751940295 +0000\n\n元公務員（中央省庁）からの提案に基づき、３）の現状認識・課題分析に人事・経理システムの非効率性に関する記述を追加",
+          "verified_at": "2025-07-08T02:04:55Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/872f63ecc2e358fd8bffda5638fe32555b64df14",
+      "html_url": "https://github.com/team-mirai/policy/commit/872f63ecc2e358fd8bffda5638fe32555b64df14",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/872f63ecc2e358fd8bffda5638fe32555b64df14/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    },
+    {
+      "sha": "88ec0ed433050dd84c264c9b156769991cbc1787",
+      "node_id": "C_kwDOOqTJvNoAKDg4ZWMwZWQ0MzMwNTBkZDg0YzI2NGM5YjE1Njc2OTk5MWNiYzE3ODc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T02:05:55Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T02:05:55Z"
+        },
+        "message": "元公務員（中央省庁）からの提案に基づき、公務員の働き方改革に関する課題を追加",
+        "tree": {
+          "sha": "a14d5d7a776e664a81c393971aded0c83256ba90",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a14d5d7a776e664a81c393971aded0c83256ba90"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/88ec0ed433050dd84c264c9b156769991cbc1787",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobH0DCRC1aQ7uu5UhlAAADOIQAEi1z5sbRU6ciGw2FhHyIETq\nKtNAvKAivo74f8IaMKgDPSS8+ZYmYxcUvRYqVhljEVRm78YO5GT/YefIuYMLkMw5\nBMASe6j3qnDUCdv9YVjiYVIOP8jeK1SmO07yhntCbcdn6BWk6n+qZeXP2ubYnttw\nBIyKI3+LXe7K4cGzyI2/mDJEs3VNsl7wuGRiWYMwPu5fl8AHlTGhj9rJR2mRHjf+\nSs3si0BUFDIWFu7vRlyHSLt77yH42gWUROYgrTetpOLzMt9hlbSzoN9k/r/qXTge\ncnC62rBWsilJ3TY+doPzf4zVgN8ifzACxq+HysvS5OxXEFJiO0AogCVzTkcY8kG9\nn57/GIXCf5H9bM6Z03CAb7gcSM1aCViIinPS3L8dwLnX+SpNFx7P6FgXW+KuTwvY\nJuTWhVA04wfGZzCdjzjlcEnvhcKDxTEp6m/JTmDiLqxYG6UZkwoco76z90No5DW1\nopv8KRmqZJUECMyMg5BLHK2GJ6x0oKicpUlk86w49DJNxXLqga7cSy8GisxoeS4O\n7yjwN2k9ODe06xH7NRHw1G43ociVvX069XUCjlld/cRanJ/cpQobNs2fZKJWBMIO\nBFtFoX5AlrBLUC6t47MpJeRAd8wKfJYOw8B2/nGrKolWr0qPK+6fiMn2tfngzv6J\nQH48qGPHVJNjAMzcuQnh\n=uTdO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a14d5d7a776e664a81c393971aded0c83256ba90\nparent 872f63ecc2e358fd8bffda5638fe32555b64df14\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751940355 +0000\ncommitter GitHub <noreply@github.com> 1751940355 +0000\n\n元公務員（中央省庁）からの提案に基づき、公務員の働き方改革に関する課題を追加",
+          "verified_at": "2025-07-08T02:05:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/88ec0ed433050dd84c264c9b156769991cbc1787",
+      "html_url": "https://github.com/team-mirai/policy/commit/88ec0ed433050dd84c264c9b156769991cbc1787",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/88ec0ed433050dd84c264c9b156769991cbc1787/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "872f63ecc2e358fd8bffda5638fe32555b64df14",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/872f63ecc2e358fd8bffda5638fe32555b64df14",
+          "html_url": "https://github.com/team-mirai/policy/commit/872f63ecc2e358fd8bffda5638fe32555b64df14"
+        }
+      ]
+    },
+    {
+      "sha": "a91c42fa9c2decf43541838690b705a343a04d7b",
+      "node_id": "C_kwDOOqTJvNoAKGE5MWM0MmZhOWMyZGVjZjQzNTQxODM4NjkwYjcwNWEzNDNhMDRkN2I",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T02:08:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T02:08:31Z"
+        },
+        "message": "元公務員（中央省庁）からの提案に基づき、公務員の働き方改革に関する課題を追加",
+        "tree": {
+          "sha": "da4da7b1de1352359ef9bb9f104b611bf6577cd3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/da4da7b1de1352359ef9bb9f104b611bf6577cd3"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a91c42fa9c2decf43541838690b705a343a04d7b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobH2fCRC1aQ7uu5UhlAAAiI8QAKJFnNdBPlZwYO3eG4qXGZJw\nfr5aIeZsCSx4sZ0cZTTnsWDfDuKDyBus/iHRWboAGkCKkycRM2DJ9ZyAhWY8o8vK\nr0rrUx6C7QnVmrT5mYEVnD4yzuSvTuv2B/nzm787TYYfHKJj0aDFH1v2ZhGmyGlH\nhDt2qnST6x0MG6FlweGUCwGlcA36gDmiLDoydN8O7X8qUK09F934dFu2VAggy4ny\nBSOaGnySd8wICjED2hk+vjl+BC0scouX0kj9ESBkQlcuTstJN0dAkIC/63vJf+0N\nNnWEwJl/CPOB/OHVvjniD7Tp5nsDmcKu/N32G6HNHN5XpVxa/XF1MJUR0dsuyrSF\nS5fKbZdgyJrj9H3ddxYGzrLrBdAM4DwiDe0rcNZ1hS0MyL01wVJSOGuAIOD11LDr\nbqiov3fuGvrcoKFariHt69Z/BueB+0ReeA7+VZpxdtkheJwFr2npqZ4yd4AjjgOJ\nBwrJlu6Aol9woGvYTOC4dT0Zsay1Dks93XLh7k4cPswK4M2U/9kIEomkf3GvV12B\nzu2am49i8a8bocseU8v+2zs71ekhciifgQ9EsOiA6yzxTN63eZdA4MIgLnjkeFNL\nX+jIyks2T0vzZRfwjSwWMZxGpLtGAO2nr/maFFa7FnnAjgkbqUOhKGFFDlBKSADi\nnK764pmU7hAp0EAXotee\n=iJ9/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree da4da7b1de1352359ef9bb9f104b611bf6577cd3\nparent 88ec0ed433050dd84c264c9b156769991cbc1787\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751940511 +0000\ncommitter GitHub <noreply@github.com> 1751940511 +0000\n\n元公務員（中央省庁）からの提案に基づき、公務員の働き方改革に関する課題を追加",
+          "verified_at": "2025-07-08T02:08:31Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a91c42fa9c2decf43541838690b705a343a04d7b",
+      "html_url": "https://github.com/team-mirai/policy/commit/a91c42fa9c2decf43541838690b705a343a04d7b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a91c42fa9c2decf43541838690b705a343a04d7b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "88ec0ed433050dd84c264c9b156769991cbc1787",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/88ec0ed433050dd84c264c9b156769991cbc1787",
+          "html_url": "https://github.com/team-mirai/policy/commit/88ec0ed433050dd84c264c9b156769991cbc1787"
+        }
+      ]
+    },
+    {
+      "sha": "4e02a20304691f09e58aa86811573edf50127cff",
+      "node_id": "C_kwDOOqTJvNoAKDRlMDJhMjAzMDQ2OTFmMDllNThhYTg2ODExNTczZWRmNTAxMjdjZmY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T02:18:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T02:18:30Z"
+        },
+        "message": "公務員の働き方改革に具体的な政策を追加（元公務員（中央省庁）提案）",
+        "tree": {
+          "sha": "d43882b7914a439af8a7ad8070893c21bdfeada7",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d43882b7914a439af8a7ad8070893c21bdfeada7"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/4e02a20304691f09e58aa86811573edf50127cff",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobH/2CRC1aQ7uu5UhlAAA5JQQAJ/4Qd6BDw1ubhNei5+sdbXc\nOj9XgazK997QzFZ3sgtRzOqiY9GrjuTOp3iHBZkJ/nemiHrpVd202VEtcktD5MUE\n7+prDvI7jQyKgUKrDNI14heQINF6jZkwj0daOvK9os6/p/tuGkfJiQMT6G9n98GJ\n7Aq0eJoukL2Ll3+wbzZ1Q+j/Xl+PQKdLRQ0nThH5HoVgB9vCUbSaVJFeHReuhb81\nOUpro061wUV/mSbt/HrllH8fiwrGate+a87gKTxjtIoSMKBETBqbhyzJXqgAlZo6\nIiA8T9TcTOecZXx7z3QL7euzG6RaNDM9ZT021ZGrvGxPt/32au4Gy+2NFPSFQuzs\nBCCgBSuPaiOkxlT4m6CILK3Cz5g2yPNtG21aA/t5JGNHYFKZGcedUjvrTpB27txW\nPR11J9yilyGHpPePbl1yOjFBYW3NK3klqgX+bp9gm4pELY3TfrgA/H9zp70oj6nj\n8uErWH0IlKNfW7iXPuk4CcwD3iz2HSqfGhk3bfHZveoQIUSnMCOqnGJxNiFtj53Q\neLhO/14FmEeRStGe9jmO0JD87YD6IkKBfOk9DNQF2HZRwL6S6Ij8k8DvoN8rY1FQ\nS2ftrxtkGJ0OoYufK64Rbu02u2l3rxXB1r6bOwL/p2R/kFW7YQirW75Jsb9rS9An\nbhG9ghuKZiUxze41R+4M\n=cB7/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d43882b7914a439af8a7ad8070893c21bdfeada7\nparent a91c42fa9c2decf43541838690b705a343a04d7b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751941110 +0000\ncommitter GitHub <noreply@github.com> 1751941110 +0000\n\n公務員の働き方改革に具体的な政策を追加（元公務員（中央省庁）提案）",
+          "verified_at": "2025-07-08T02:18:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/4e02a20304691f09e58aa86811573edf50127cff",
+      "html_url": "https://github.com/team-mirai/policy/commit/4e02a20304691f09e58aa86811573edf50127cff",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/4e02a20304691f09e58aa86811573edf50127cff/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a91c42fa9c2decf43541838690b705a343a04d7b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a91c42fa9c2decf43541838690b705a343a04d7b",
+          "html_url": "https://github.com/team-mirai/policy/commit/a91c42fa9c2decf43541838690b705a343a04d7b"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T02:51:27.448146"
+}
