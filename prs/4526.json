@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4526,
+    "title": "[drive Yさん提案] AIとNDB活用による医療の質標準化の追加",
+    "state": "open",
+    "created_at": "2025-07-08T08:47:47Z",
+    "updated_at": "2025-07-08T08:50:12Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4526",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "945c8be6568806c2385500ac6f4c026ee38aa1af",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 0,
+      "changes": 16,
+      "blob_url": "https://github.com/team-mirai/policy/blob/90a92a84654f30357fad8a6042a7840dbfa7a604/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/90a92a84654f30357fad8a6042a7840dbfa7a604/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=90a92a84654f30357fad8a6042a7840dbfa7a604",
+      "patch": "@@ -86,3 +86,19 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）AIとNDBを活用したレセプト分析による医療の質の標準化\n+\n+### 現状認識・課題分析\n+\n+- 日本の医療はフリーアクセスが担保されており、国民皆保険制度のもとで誰もが平等に医療を受けられる一方、地域や医療機関によって提供される医療の質や内容にばらつきがあることが指摘されています。\n+- 例えば、同じような症状の患者さんであっても、ある病院ではすぐに詳細な検査が行われるのに対し、別の病院では経過観察となるなど、診療方針が異なる場合があります。\n+- また、患者が複数の医療機関を受診する際に、前の病院で行ったばかりの検査を新しい病院で再度行ってしまう「重複検査」も問題となっています。これは医療費の無駄遣いにつながるだけでなく、患者さんの身体的な負担を増やすことにもなります。\n+\n+### 政策概要\n+\n+- ナショナルデータベース（NDB）に蓄積された匿名化されたレセプト（診療報酬明細書）情報をAIで解析し、疾患や症状に応じた標準的な診療プロセスを確立します。\n+- この標準プロセスは、例えば「症状〇〇の訴えがあればAという検査を実施し、その結果に応じてBという治療に進む」といった具体的なガイドラインとして医療現場に提示されます。\n+- これにより、全国どこでも一定水準の医療を受けられる環境を整備し、医療の質のばらつきを是正します。\n+- 同時に、医療機関をまたいだ重複検査を抑制するためのルールも整備します。例えば、一定期間内に行われた特定の検査は、別の医療機関では原則として保険適用しない、といった仕組みを検討します。\n+- ただし、この標準化は画一的な医療を強いるものではありません。標準的な治療プロセスで症状の改善が見られない場合など、合理的な理由がある場合には、医師の専門的な判断に基づき、標準プロセスから外れた検査や治療を行う裁量を尊重します。これにより、個々の患者さんの状態に合わせた最適な医療の提供も担保します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "90a92a84654f30357fad8a6042a7840dbfa7a604",
+      "node_id": "C_kwDOOqTJvNoAKDkwYTkyYTg0NjU0ZjMwMzU3ZmFkOGE2MDQyYTc4NDBkYmZhN2E2MDQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T08:45:52Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T08:45:52Z"
+        },
+        "message": "drive Yさんの提案に基づき、「AIとNDBを活用したレセプト分析による医療の質の標準化」の項目を追加",
+        "tree": {
+          "sha": "3cfee3dca4358dbd685291337a889d8e06101dec",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3cfee3dca4358dbd685291337a889d8e06101dec"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/90a92a84654f30357fad8a6042a7840dbfa7a604",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobNrACRC1aQ7uu5UhlAAAnLIQADoyCzCPKaht/6EgTc8AtX8X\nvr/1xObg5ITRjX1Lw1c4YQgSD6KlJ9t6zKF6bhNgxKtVAn5epdttFMihTUER1nZg\nevVDccqobIGnfiGPz82NnJ261Fx+JcR0QiPnvoAeWAfjGwvyQzJxiB2VJ7GliAbV\n/6vtPOSjD8cU2zGKdkbILCQuNBFmObpsfvbwTsVAnng749PmearwmntWD7Nyo+kp\nmr4d7u667RkEERfVTxu/Ev8sA8OoyA+BduFETvqzShHe9Z+bmMuy7fbActfbpyPf\nzVhBXIQbqtJ4YpoA05e4hJvDzb8Tne7BAl+DGU0Km5k+e37byj/ghA4lW4Pr4ity\nrgaDLjG+DzWLMngP+gsuQ0k1bg6SDNxobj7lTF9AFPMK6mytPvAWX5OBckS9RM8R\nOkWw42GI4WGfL+Lht/IHadN9vruFa3aT4aGR36dUof5EsvOCAD4MwQ3f/ZBBj21A\npvQCwPaqvpi5ETH3XQ/g7LFM3nMVu7FKErITSfySD7vVg1BpDqSUjB7W8fRCSNfN\nMsAwkTQSyLM86BK1IOrXxTif/7N+5Pbqo6W+h544QOTwLolVwKPgSF5FEfkZvuAU\nKdIMQPtJUKe4PWTKH7TSDjS9xkYc5bktDR0PnJ1Vc0IktvzyJH4Hlc+VwxJB0lJF\nf+rvDm/ZRlQPm7dcpkgj\n=Wcxd\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3cfee3dca4358dbd685291337a889d8e06101dec\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751964352 +0000\ncommitter GitHub <noreply@github.com> 1751964352 +0000\n\ndrive Yさんの提案に基づき、「AIとNDBを活用したレセプト分析による医療の質の標準化」の項目を追加",
+          "verified_at": "2025-07-08T08:45:52Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/90a92a84654f30357fad8a6042a7840dbfa7a604",
+      "html_url": "https://github.com/team-mirai/policy/commit/90a92a84654f30357fad8a6042a7840dbfa7a604",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/90a92a84654f30357fad8a6042a7840dbfa7a604/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T09:15:21.498964"
+}
