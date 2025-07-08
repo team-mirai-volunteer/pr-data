@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 4356,
+    "title": "オンライン投票・双方向コミュニケーションPFの実現",
+    "state": "open",
+    "created_at": "2025-07-07T23:38:17Z",
+    "updated_at": "2025-07-07T23:38:18Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4356",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "f6a60e1dae6f279c4ca8759f67671b1566bd2feb",
+      "filename": "16_ステップ１デジタル民主主義.md",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 1,
+      "changes": 24,
+      "blob_url": "https://github.com/team-mirai/policy/blob/7cd8c4b708b2676feacd8d9ec6f5a61011245c28/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/7cd8c4b708b2676feacd8d9ec6f5a61011245c28/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=7cd8c4b708b2676feacd8d9ec6f5a61011245c28",
+      "patch": "@@ -43,11 +43,33 @@ AIを活用してパブリックコメントの取りまとめをすることに\n   <img src=\"https://github.com/user-attachments/assets/bf5de7d9-c5d6-4eea-8154-579693106340\">\n </p>\n \n+## ３）オンライン投票・双方向コミュニケーションPF（プラットフォーム）の実現\n+\n+### 現状認識・課題分析\n+\n+　現在の選挙制度や政治参加の仕組みは、多くの国民、特に若い世代にとって心理的なハードルが高く、投票率の低迷や政治への無関心の一因となっています。国民が自身の意見を政治に反映させる機会は、選挙や一部のパブリックコメントに限られており、継続的なプロセスに参加している実感を得にくい構造です。\n+\n+　一方で、スマートフォンやSNSの普及により、誰もが情報を発信し、双方向のコミュニケーションを行うことが日常的になっています。このデジタル技術のポテンシャルを最大限に活用し、国民と政治の距離を縮め、より開かれ、参加しやすい民主主義を実現する必要があります。\n+\n+### 政策概要\n+\n+　マイナンバーカード機能を搭載したスマートフォンを基盤とする、新たな「オンライン投票・双方向コミュニケーションプラットフォーム」を構築します。これは既存のマイナポータルをアプリ化・発展させたものです。e-Taxのような複雑さをなくし、SNSのような手軽さで誰もが直感的に使える、魅力的なUI/UXデザインを施します。実現にあたっては、国民、各政党、政府をはじめとする、あらゆるステークホルダーとの丁寧な対話を通じて、広く合意形成を図ることを重視します。\n+\n+*   **オンライン選挙の導入:**\n+    *   全ての国政選挙や地方自治体選挙において、アプリからのオンライン投票を可能にします。\n+    *   認証には、携帯端末に格納されたマイナンバー機能と生体認証、暗証番号を組み合わせ、なりすましを防止します。また、同一デバイスからの投票を1回に制限するなど、技術的な不正対策も講じます。\n+    *   スマートフォンを持たない方や操作に不慣れな方向けに、従来の紙による投票制度も並行して維持します。\n+*   **政策プロセスの全面的な見える化:**\n+    *   選挙後は各党・各議員の公約達成率をダッシュボードで公開します。\n+    *   国の全ての政策について、担当人員、予算、現在の進捗状況などをリアルタイムで見える化します。\n+*   **国民参加の促進:**\n+    *   台湾の「join」プラットフォームをモデルに、全ての政策に対して、いつでも国民が意見を投稿し、議論に参加できるパブリックコメント機能を設けます。\n+    *   SNSのような双方向コミュニケーション要素を取り入れ、国民と政治家・行政がより気軽に意見交換できる場を創出します。\n \n ## 補足：『デジタル民主主義2030』とは？\n \n デジタル民主主義2030は安野たかひろが2025年1月に立ち上げたオープンソース開発のコミュニティです。現在も政治的中立を保ちながら活動を進めていきます（中立性維持を構造上可能なようにすべく、安野貴博も2025年5月にボードメンバーを辞しています）。詳細は[こちら](https://dd2030.org/)のページをご確認ください。\n \n ## 補足：Plurality（多元性）について\n \n-Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n\\ No newline at end of file\n+Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "01f3c4712cb6aed19c0ff1873e7c08862c8361a7",
+      "node_id": "C_kwDOOqTJvNoAKDAxZjNjNDcxMmNiNmFlZDE5YzBmZjE4NzNlN2MwODg2MmM4MzYxYTc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T23:29:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T23:29:45Z"
+        },
+        "message": "Mochiさんの提案に基づき、「オンライン投票・双方向コミュニケーションPFの実現」の項目を追加",
+        "tree": {
+          "sha": "0ae8bb8013c4fd2c04acfe3dd03cb0c0442a4974",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0ae8bb8013c4fd2c04acfe3dd03cb0c0442a4974"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/01f3c4712cb6aed19c0ff1873e7c08862c8361a7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobFhpCRC1aQ7uu5UhlAAAbF4QAAD2edrI89LZuL9TN4+tFdEL\n2gGPFC15JEnRBUIV8ZkG4KQGxqRLdB+rHhl8HN523rtumUZt9zWFhIRP+Ky7ZtUB\n2mrFwDPDLBezjlySwFZBWsVKxxqL7G8XqXR9mOSLTb6QgCKAySjvvArqeUBKzHQj\n09z3Lq6wT0Gz7tiQZu+33EI8uYrrCG/pqd+Asq5s4o9MZj4KIS1Y1ESzJVWeW9to\nZo47Tl/BO9ZB6LVV18eX5wbezt153B7mr4uA54Um2YBhaffP8Gkln6xJIqnhuH64\n1YuHBDvUAA6fOzlxe4AAxvt0i70J83ESkJviF1wGkwOFALMy1z4hjNQpcIpvHZAq\nwJsCJYIpgLr+4nSnDR1etQjLyk3yL2J/fJqYKkCVsx4R7nywXA/HwOM3tfMAfJPp\nkLJBORL84I+rh92xSbEMsoBj9/yMGLFwJpT7W2Wz6+6V3GC4OW54zNzay6de7baq\nKtMwrrjWXAQ37sjcT7Nn89z378KVk9TiAicOeApfxN3UeBEbqai7VwxkRO5nTTFI\n1AHFCtqWTPty5OAqU8vFmW4g1IUUsFAqTLhhN9UO7e976vmzcPc2MCeF3ue9949A\nyIFxBjncJtlpFGPr1PYQuulFBFz+n5Zi0HyjR4/UQ2ZU8dETW/34QFe5jaAEckSt\nEj4n7V4BSzxxVTBR9sDZ\n=8E+v\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0ae8bb8013c4fd2c04acfe3dd03cb0c0442a4974\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751930985 +0000\ncommitter GitHub <noreply@github.com> 1751930985 +0000\n\nMochiさんの提案に基づき、「オンライン投票・双方向コミュニケーションPFの実現」の項目を追加",
+          "verified_at": "2025-07-07T23:29:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/01f3c4712cb6aed19c0ff1873e7c08862c8361a7",
+      "html_url": "https://github.com/team-mirai/policy/commit/01f3c4712cb6aed19c0ff1873e7c08862c8361a7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/01f3c4712cb6aed19c0ff1873e7c08862c8361a7/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    },
+    {
+      "sha": "7cd8c4b708b2676feacd8d9ec6f5a61011245c28",
+      "node_id": "C_kwDOOqTJvNoAKDdjZDhjNGI3MDhiMjY3NmZlYWNkOGQ5ZWM2ZjVhNjEwMTEyNDVjMjg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T23:33:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T23:33:36Z"
+        },
+        "message": "Mochiさんの提案に基づき、オンラインPF構想にUI/UXと合意形成の重要性を追記",
+        "tree": {
+          "sha": "f8f121e1f6c80f04786bb679c6f159b871e347e3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f8f121e1f6c80f04786bb679c6f159b871e347e3"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7cd8c4b708b2676feacd8d9ec6f5a61011245c28",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobFlRCRC1aQ7uu5UhlAAAN5AQAKPsSAC72HJ8ruJdAOe/seQ4\n2AUwx5YR9xeqe2f+uHQodEqWOP0/+AIuRyPdFYl7SzSiK/ySpFqusRvWiDckupca\n1P73a3pUBL0g3adQQwLwzEkcZ5KJLF/BPMLf/vlfQcMV/HwGZWphkDuXoVyPDxxs\nlT6xb9BeC/ESkBCTFL789axaGxpjCQFHBtQCIsyMTK8RCVPIbOfLb9ujaRTudhX7\nEfc4VmpRCTYav/SJxfy/HNZLoKDi0N6fKm7TT1UynUe7LruqQeCqF49hagDE/1vP\nXYd8H6ALjsXwNEhQWnMZ558ulHL2XBhRWq0Yq/uRjkTg21D/+MrX5k1goiZkwIgb\ns/lPUSzwYB1Wp+vLoQK1w9xaSOLA7oz/S51/kRovrU6ycx8lHxRAJGBF8YUfUEzh\nPsVIpY5X19YmBkgP0rX9WSAOLTdJ0/yCQqdJn4+0b+LY8xxjb/rMSazkzsOeuTTf\nb61D8m/hoyrkqaYfIXtytGZMF7fK11tEWjJ3RPv9jHJEJUhIDaampZizN+GcGLly\nCjgHFrwIoP66L6UfhpueWUVFKG4b0iMLtiFTMBQ4r7dBNFpT3Kyc8hrJALeVy4sB\n610ChaWRHIIEWELlzg4JAcL/FBUto29g4Vs6JmWAf3g/qLCWDWJqpCUqGiph/jNK\nLrMqFhyWKXoycwIWzvY5\n=WfZg\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f8f121e1f6c80f04786bb679c6f159b871e347e3\nparent 01f3c4712cb6aed19c0ff1873e7c08862c8361a7\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751931216 +0000\ncommitter GitHub <noreply@github.com> 1751931216 +0000\n\nMochiさんの提案に基づき、オンラインPF構想にUI/UXと合意形成の重要性を追記",
+          "verified_at": "2025-07-07T23:33:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7cd8c4b708b2676feacd8d9ec6f5a61011245c28",
+      "html_url": "https://github.com/team-mirai/policy/commit/7cd8c4b708b2676feacd8d9ec6f5a61011245c28",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7cd8c4b708b2676feacd8d9ec6f5a61011245c28/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "01f3c4712cb6aed19c0ff1873e7c08862c8361a7",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/01f3c4712cb6aed19c0ff1873e7c08862c8361a7",
+          "html_url": "https://github.com/team-mirai/policy/commit/01f3c4712cb6aed19c0ff1873e7c08862c8361a7"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T01:01:19.740951"
+}

@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 4360,
+    "title": "福祉政策における難病患者支援の明確化",
+    "state": "open",
+    "created_at": "2025-07-07T23:54:06Z",
+    "updated_at": "2025-07-07T23:54:07Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4360",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "387095c7d708b733d8e69f8651b6c0844f870daf",
+      "filename": "18_ステップ１福祉.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 5,
+      "changes": 11,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a0db7d2b0903125d5a37f53a9c81a613752116b0/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a0db7d2b0903125d5a37f53a9c81a613752116b0/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md?ref=a0db7d2b0903125d5a37f53a9c81a613752116b0",
+      "patch": "@@ -1,6 +1,6 @@\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。\n \n-💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n+💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェesto自身もみんなの知恵を集めて改善していきます)\n \n # ９．福祉\n \n@@ -32,6 +32,7 @@\n   * 現状は様々な支援策が国や市区町村のサイトに散らばっていて、必要とする支援の情報にたどり着けないことがあります。物理的にも縦割りで、一つの窓口では他の支援メニューの紹介が受けられないこともあります。  \n   * 年齢・障害・病気によって「外に出ることが難しい」「HPやパンフレットを読んでも分からない」「窓口に行ってもたらい回しにされる」「更新手続きの期限に気付かなかった」「手続きが複雑であきらめた」などの声も聞こえます。  \n   * 現在の行政は、申請を待って支援を開始するスタイルですが、渦中にいる福祉を必要とする国民は役所に行き時間をかけて支援の申請をすることが難しいことが多いです。  \n+  * 障害認定には至らないものの、難病などにより就労に困難を抱える人々が制度の狭間に置かれ、無理な就労による病状悪化と生活困窮の悪循環に陥り、社会的に孤立しているケースも少なくありません。\n     \n \n ### 政策概要\n@@ -43,9 +44,9 @@\n   * 福祉サービスを「探す・理解する・申請する」といった一連の行動において、当事者や家族が迷わずスムーズにたどり着ける仕組みを構築します。情報の分かりにくさや複雑さが申請意欲の喪失につながる現状を踏まえ、誰もが迷わず必要な支援にアクセスできる福祉を目指します。  \n   * 当事者や家族の質問や状況に応じて最適な窓口や手続きをナビゲートするAIチャットボット等を導入し、迷いなく必要な情報にたどり着ける環境を整備します。  \n   * 本人情報やあらかじめ登録した困りごとに基づき、対象となる制度をアプリやメールで自動通知する仕組みを構築し、自身が調べに行かなくても、必要な情報が「向こうから届く」プッシュ型の政策提供を実現します。  \n-* AIと専門家によるハイブリッド型障害福祉相談ポータルを設置します  \n-  * 障害のある方やご家族が抱えるあらゆる疑問や悩みに応える「AI障害福祉相談ポータル」を設置します。このポータルでは、個々の状況や障害特性に応じて利用できる公的制度や必要な手続きを、対話形式でわかりやすく案内します。プッシュ通知機能も組み合わせ、申請や手続きのし忘れを防ぎます。  \n-  * AIが相談内容から深刻なケースや専門的な支援が必要と判断した場合には、自治体の障害福祉担当職員や相談支援専門員、医療・心理の専門家などへスムーズに接続する仕組みを構築します。自治体と国が連携し、デジタルの即時性と専門家による的確なサポートを両立させ、支援が必要な方に確実にサービスが届く体制を整えます。\n+* AIと専門家によるハイブリッド型福祉相談ポータルを設置します  \n+  * 障害の有無にかかわらず、また難病患者など制度の狭間で悩む方も含め、あらゆる疑問や悩みに応える「AI福祉相談ポータル」を設置します。このポータルでは、個々の状況に応じて利用できる公的制度や必要な手続きを、対話形式でわかりやすく案内します。プッシュ通知機能も組み合わせ、申請や手続きのし忘れを防ぎます。  \n+  * AIが相談内容から深刻なケースや専門的な支援が必要と判断した場合には、自治体の福祉担当職員や相談支援専門員、医療・心理の専門家などへスムーズに接続する仕組みを構築します。自治体と国が連携し、デジタルの即時性と専門家による的確なサポートを両立させ、支援が必要な方に確実にサービスが届く体制を整えます。\n \n ## ２）誰ひとり取り残さない福祉情報へ：情報アクセシビリティの保障と表現の工夫を行います\n \n@@ -103,7 +104,7 @@\n \n ### 現状認識・課題分析\n \n-* 障害者や高齢者、生活困窮者など福祉サービスの利用者は、必要な支援や補助を受けるために複数の申請や証明書の提出が求められ、利用者と家族に大きな負担をかけています。  \n+* 障害者や高齢者、生活困窮者、難病患者など福祉サービスの利用者は、必要な支援や補助を受けるために複数の申請や証明書の提出が求められ、利用者と家族に大きな負担をかけています。  \n * 役所、医療機関、療育施設、放課後等デイサービス、介護事業所、グループホームなど様々な支援機関間の情報連携は紙ベースで行われていることが多く、情報共有に時間がかかり、適切なタイミングでの支援も困難になっています。  \n * また、デジタル障害者手帳の普及も進んでいるものの、依然として多くの場面で紙の手帳の提示が求められています。\n "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5",
+      "node_id": "C_kwDOOqTJvNoAKGE0OTk2ZTk0ZTU1ZjVhZWRmZWNiNzZkY2JjYzA1ZjUzZWQzZDVlZjU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T23:50:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T23:50:54Z"
+        },
+        "message": "ほしのさんの提案に基づき、難病患者への支援を拡充",
+        "tree": {
+          "sha": "878fffa1347db66ed08e61fb46181e3dbe0706fb",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/878fffa1347db66ed08e61fb46181e3dbe0706fb"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobF1eCRC1aQ7uu5UhlAAAaVUQAGUhKLBtabkP9JCDyBsssUjl\nDkSPWo42uw0WNPXbVjMojWbUuRt1uqLm8hlVV3p8oMilqKyGHdU766q6b6CdLP10\nMhJXmS9YjIJUw7F932zKokgNd1Hm6Jqz2h7tTtYtjAnDDOwna/r1z6+CofdEkXf0\nr36QaGCiQWJ6LhJ7T420ZVl67DYivaM7TR0SZJskqr7nqHgQ1QJQmQUDKAZDo/4s\nlr4iXIMDoT7YVgPlPDlKfl/ZuDw50kqwxVEKKqujP5em/r2x7JSlWqj0GKFW8SI7\nAFyWgxGBEVjooK9Bp7HEGOFv7Fehu8Djl3gFJK0X9J6AB1zFtExB58QFr9DPVYaj\neVM94NAiL5yAQ8HzvyFX2G+reXtdez4iwoDU6Y72fd/wGG+GKMrhn+RgnMGOfEln\n7AItSGZqsCAWJBbr6i506KdoQnC03RXHMtO1P52TqsfWAbhaKB9lNFv7Mx6FiJke\ni7mWFd3L+ib7fGJMmgiD8unjM6bwaNGwNJYEkytaQIByLxBdunQczP5juS0cGL6F\nXwtm2gdg7WKgFLDzDcQXt+vtux2z8V5xSCQkSkq6UglytLWsZREG4HpwMmhmQF9z\nWirqHXQ7xxE4OZgpXeKfB8b9947nsH+LIKCkaZy72nrVkbAmxHJPLdbdRiRKGubi\nlzlnVhxorBRh5/KgmRnm\n=8Mgp\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 878fffa1347db66ed08e61fb46181e3dbe0706fb\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751932254 +0000\ncommitter GitHub <noreply@github.com> 1751932254 +0000\n\nほしのさんの提案に基づき、難病患者への支援を拡充",
+          "verified_at": "2025-07-07T23:50:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5",
+      "html_url": "https://github.com/team-mirai/policy/commit/a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    },
+    {
+      "sha": "a0db7d2b0903125d5a37f53a9c81a613752116b0",
+      "node_id": "C_kwDOOqTJvNoAKGEwZGI3ZDJiMDkwMzEyNWQ1YTM3ZjUzYTljODFhNjEzNzUyMTE2YjA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-07T23:54:05Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-07T23:54:05Z"
+        },
+        "message": "（ほしのさんご提案）福祉政策に難病患者支援を明記",
+        "tree": {
+          "sha": "bce4d2df452bb1ed28dd4ae2fda400ee4c2340e4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bce4d2df452bb1ed28dd4ae2fda400ee4c2340e4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a0db7d2b0903125d5a37f53a9c81a613752116b0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobF4dCRC1aQ7uu5UhlAAAfzAQABkVSeT3somaDu90mJnhpTFk\nJiSdsqbBIEv0fj6VxHyKO6SRWV9oEerI3vzVA+NvvtsqdFImKmbgo0t/JGIaUrDY\nRvS9Iz+gkxk/fsrleIOcZ0pXSSdwZg4B4cfZoKeRWPDFWgwESUY5O7+oZNI5k6Pu\nfjzxpTzUvYQ1ZY0isvHNCPRXPCtEAj/AxUjiURChG6MrnUn4Im499alswBDT6LA/\nJ8TWmZ7y8OKrZ3d5hXbgfg52wP+FMvU3n2XjTz4JDz1uaLv/N6REn1cZFZxjLEvI\nvPxQa9kBphzxDFBIabaWaD4Yt7TMHoUcrcDU7eTBwdT1auy+XCjkFxqrBK2FbCUd\nxxi/M/DGbnU/QmbyR2lTyU958DrBRNDQ/rGy6PuqI4a2lM29+for92T+gHDQWOOW\nrYyeIkoNHRVq4BgrXJZBqR5jF68XY1f3sOayDTSvjKf6FLBYhBvN20KDLwBAN9lB\n3SJrgR6+18BSqTdlme/x/N69LQj1zIuqGw++8EPm7a2V2Wb3RsiL1Dlq6dOMBrXf\nhEW2Z1svfTkmvcb6SdkribHcX5r6rY/FthLjzFu6Kps9IXEQRPvE9Sge8V99JLSA\n0zo2ukXyH08iDKV6OF+/uquN5OuWLe9RVIeTBcNGhKtYbToKYPQ3hvFTOPwnDLVI\nldrnrHydVN0iBTAtabYF\n=xZAZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bce4d2df452bb1ed28dd4ae2fda400ee4c2340e4\nparent a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751932445 +0000\ncommitter GitHub <noreply@github.com> 1751932445 +0000\n\n（ほしのさんご提案）福祉政策に難病患者支援を明記",
+          "verified_at": "2025-07-07T23:54:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a0db7d2b0903125d5a37f53a9c81a613752116b0",
+      "html_url": "https://github.com/team-mirai/policy/commit/a0db7d2b0903125d5a37f53a9c81a613752116b0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a0db7d2b0903125d5a37f53a9c81a613752116b0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5",
+          "html_url": "https://github.com/team-mirai/policy/commit/a4996e94e55f5aedfecb76dcbcc05f53ed3d5ef5"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T01:01:11.971106"
+}

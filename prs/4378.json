@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4378,
+    "title": "産休期間の前倒しと費用助成の拡充",
+    "state": "open",
+    "created_at": "2025-07-08T01:06:16Z",
+    "updated_at": "2025-07-08T01:06:16Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4378",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "64e9612cae68729e3372a5cbbfac42ee70197b90",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "changes": 6,
+      "blob_url": "https://github.com/team-mirai/policy/blob/0ea9f99c78a1290e5e026862d44e6c7077212a12/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/0ea9f99c78a1290e5e026862d44e6c7077212a12/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=0ea9f99c78a1290e5e026862d44e6c7077212a12",
+      "patch": "@@ -1,4 +1,4 @@\n-\\\n+\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -16,7 +16,8 @@\n \n * 現在の母子手帳は紙媒体が主流であり、妊娠中の体調が不安定な時期に受け取りに行く手間や、紛失のリスクがあり、それによってワクチン接種記録などが確認できず、適切な時期に必要な医療や予防接種が受けられなくなるケースがあります。  \n * また、妊婦健診の受診券・補助券の手続きや、産後の煩雑な予防接種のスケジュール管理、医療機関での予診票の都度記入など、アナログな手続きが保護者の負担となっています。体調がすぐれなかったり忙しい時期に何度も名前や住所を繰り返し書く作業は、負担として蓄積しています。  \n-* また、妊娠の経過によっては妊婦健診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* また、妊娠の経過によっては妊婦健産診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* 加えて、現行の産休制度では対応しきれていない、妊娠後期（28週目以降）の就労継続の困難さや、産休を取得した際の収入減も大きな課題です。\n \n ### 政策概要\n \n@@ -26,6 +27,7 @@\n * これにより、スマートフォン等からいつでもアクセス可能となり、保護者はもちろん、その配偶者や他の家族も、本人の同意のもとで必要な情報を共有できるよう設定できます。また、つわりの時期などに無理して役所の窓口等へ行く必要がなくなります。  \n * 妊婦健診の受診券・補助券も、対象者に自動的にデジタル付与する仕組みを構築し自治体に提供することで、手続きの手間を省きます。医師の診断情報を基に、必要な人に必要な回数の補助がいきわたる仕組みを構築します。\n   *  なお、現在一部自治体のみにとどまっている「妊婦健診は原則全額公費負担」の拡大を目指し、必要財源の確保や国から自治体への交付の最適化を検討します。また、地域差や個々の状況によって大きく異なる出産費用についても実態把握を進め、必要に応じて出産育児一時金の金額や支給方法の見直しを含めた経済的支援策の充実を検討します。\n+* 産休期間を妊娠後期（妊娠28週目）から取得可能とし、その期間の収入減に伴う費用助成を拡充します。\n * 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n * 国が推進する医療DXとも連携し、マイナンバーカードを活用したお薬手帳とも連携します。これにより、より正確で迅速な情報共有を実現し、保護者の負担減・子どもの受ける医療の質向上を目指します。\n * また、医療機関での受診履歴や検査結果などの情報を保護者の同意のもとで行政と共有することにより、発達障害が認められる場合など、特定の条件を満たす家庭に対して、特別児童扶養手当や児童福祉手当などの経済的支援が自動的に届くようなプッシュ型の支援体制の構築を目指します。子育てや、何らかの困難を抱える保護者にとって、複雑で多岐にわたる申請手続きは、時に必要な支援策の存在に気づけない、あるいは申請を諦めてしまうといった事態を生み出すほどの大きな障壁となっています。こうした申請主義の課題を克服し、必要な支援が迅速かつ確実に届くようにします。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "0ea9f99c78a1290e5e026862d44e6c7077212a12",
+      "node_id": "C_kwDOOqTJvNoAKDBlYTlmOTljNzhhMTI5MGU1ZTAyNjg2MmQ0NGU2YzcwNzcyMTJhMTI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T01:03:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T01:03:46Z"
+        },
+        "message": "はるさんの提案に基づき、産休前倒しと費用助成に関する記述を追加",
+        "tree": {
+          "sha": "a27fec6d191d16263f1eb045cf513c319f63f812",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a27fec6d191d16263f1eb045cf513c319f63f812"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0ea9f99c78a1290e5e026862d44e6c7077212a12",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobG5yCRC1aQ7uu5UhlAAAJz4QAKGi8zeBtN5e38PeHTcVl3Uj\n1JozZXjB9pN2fLCAnDGJ3bHFoEWc9EUaVY1d+fga+bV6MJfbWboD228UFL/b0kUi\nbnGwH4B2lVzILrx42OKo+5IOAGPdHV9aU9WCBAC8JFp8Sa7ygVREBBH/zEg49fJQ\nkFeGqTe9qi8G3PAUlBmKDJyNSeU3+L/c96fOyomhS+HoDDmCTGkhTz76k1LWtNs3\nsq28SCs/YzhD3Nh/YJXKheNTdjyOxmiwoNkqKhNU+2ukXKbpOsWV4PWAmfKKfyeB\nh42JbU5mQn8vjFh0EdHdn5GABgnllFSav/HFK7DaTL6rr+Nx0hpPRoImTM7rrPDt\ncjdg6jzvJspKx72DDO2XapVzv7BkfbjvfE/Fo4+0TRRipMMunkg8gvbnWZHCEG04\nqCVvhXFP2D9rvGmMIvXGr8yZ5c9VUznpkLtRj3y9hDZECeS0eIiwOHdIPmPNS1xp\nXfvqHUdVNwCfZ4hX3C21so3WHv3bLYOafG7Zpy014mde3IPReceuqjxZnuCsmAGy\nGWA9jkgJIT3tRiuIpfPwz/Erha4vDWU1+y3js2lmP409RuVhH7Dq5Ruk61hwH2hX\nvE6Pw/wgoXLIw5WgK43X8mmkmyWK63ejlc1oaRWQPdfTp4a0RbwcQE3RUUwt8tAT\nTJFHfjz+eKAFNAp+eYnh\n=sOyU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a27fec6d191d16263f1eb045cf513c319f63f812\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751936626 +0000\ncommitter GitHub <noreply@github.com> 1751936626 +0000\n\nはるさんの提案に基づき、産休前倒しと費用助成に関する記述を追加",
+          "verified_at": "2025-07-08T01:03:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0ea9f99c78a1290e5e026862d44e6c7077212a12",
+      "html_url": "https://github.com/team-mirai/policy/commit/0ea9f99c78a1290e5e026862d44e6c7077212a12",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0ea9f99c78a1290e5e026862d44e6c7077212a12/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T01:21:50.492137"
+}

@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 4375,
+    "title": "科学技術政策の強化：国産OS開発の追加と構成の明確化",
+    "state": "open",
+    "created_at": "2025-07-08T00:58:12Z",
+    "updated_at": "2025-07-08T00:58:12Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4375",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "55e8b45f1a4b6b7425feada1389cd5881174886d",
+      "filename": "33_ステップ３科学技術.md",
+      "status": "modified",
+      "additions": 30,
+      "deletions": 24,
+      "changes": 54,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ec53b49a53a4469c33d1949a5f3ae4400075d4ea/33_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ec53b49a53a4469c33d1949a5f3ae4400075d4ea/33_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/33_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%A7%91%E5%AD%A6%E6%8A%80%E8%A1%93.md?ref=ec53b49a53a4469c33d1949a5f3ae4400075d4ea",
+      "patch": "@@ -172,35 +172,41 @@ https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/innovation/pdf/2025041\n     * すべての産業において不可欠な基盤技術  \n     * 重要インフラ（電力、通信、金融など）防御が国益に直結  \n     * 日系企業の海外展開において、セキュリティレベルの高さは競争優位性になりうる  \n-* 科学技術を活用して暮らしやすい社会を構築します\n-    * インクルーシブ社会の実現\n-      * 手話翻訳アプリの開発を推進します。\n-        * 手話通訳においては、地方部を中心に通訳者の高齢化が進んでいます。\n-        * また、医療情報などプライバシー性の高い情報を取り扱う際、人的通訳では情報共有の範囲に倫理的な課題が生じる場合があります。例えば、本人のみが知るべき病名などが、通訳者を介することで意図せず第三者に伝わるリスクがあります。\n-        * このアプリは以下の機能を持ちます。\n-          * ろう者・難聴者の手話を読み取り、音声や文字に変換する機能\n-          * 音声を文字に変換する機能（手話である必要はありません）\n-          * 利用者が「ろう者・難聴者」か「それ以外」かを選択し、適切な機能を利用できるインターフェース\n-    * 介護テックの開発促進（詳細は福祉政策を参照）\n-    * 防災(レジリエンス)\n-       * 2030年代前半までに「災害時ゼロダウン・ネットワーク」を実現し、いかなる大規模災害でも30分以内に通信を復旧できる社会基盤を築きます。\n-       * 低コスト衛星・再エネ自立型基地局・AIスペクトラム制御・耐災害ソフトの四領域を重点研究開発し、平時は農業DXなどで収益を確保するデュアルユースモデルにより投資回収を図ります。\n-       * 独立GEO網や巨大地上設備は、競争的資金・PPPファンド・公共調達を活用して技術革新と民需拡大を両立させます。\n-       * なお、内閣府のSIP事業では、災害情報の広域かつ瞬時把握・共有技術、流域内の貯留機能を最⼤限活⽤した被害軽減技術、衛星・IoT 等活用による災害対応オペレーションを開発しています。\n-          * http://www8.cao.go.jp/cstp/gaiyo/sip/sip_3/keikaku/08_smartbousai.pdf\n-      * このように、科学技術を活用することで、災害の予測力を高め、災害前の準備を高度化するとともに、災害発生時にも迅速かつ最適な対応をし、被害を最小化できます。\n-    * 食糧問題の解決\n-      * 乾田直播・節水灌漑（マイコスDDSR）の研究開発を促進します。\n-        * 水を張らずに稲を育てる栽培方法で、大幅な省力化・コスト削減を実現\n-        * メタンガス発生を抑制し、環境負荷低減にも貢献\n-        * 雑草管理や連作障害対策、安定的な生育のための技術開発が課題\n-    * 地方創生の実現\n+  * 国産OS（基本ソフトウェア）\n+    * 特定の海外製OSへの過度な依存は経済安全保障上のリスクであり、サイバー攻撃に対する脆弱性にも繋がります。OSの選択肢を確保し、国内で制御可能な基盤を持つことは国家のデジタル主権を守る上で不可欠です。\n+    * 過去の国産OS開発が普及に至らなかった反省を踏まえ、オープンソースOSを基盤としつつ、Windowsアプリケーションとの高い互換性を実現する開発アプローチを採用します。\n+    * 日本の強みである高品質な「ユーザビリティ」や「ホスピタリティ」を設計思想に組み込み、頻繁な強制アップグレードに頼らない、利用者が安心して長期間使える安定したOSを提供します。\n+    * AI技術を活用した高度なマーケティング戦略により、国内のみならずグローバル市場でのシェア獲得を目指し、日本のソフトウェア産業の新たな柱を育てます。\n * 分野ごとに官民連携の「技術育成ファンド・成長会議」を設置し、技術評価、ロードマップ策定、投資優先順位付け、規制改革の議論を一体的に行います  \n * 安定的・継続的に資金が供給されるよう「戦略技術特化型予算枠」を中期財政計画に組み込みます  \n * 民の知的資本（人材・知財・設備）を集中投下できる技術特区を導入します  \n   * 国家戦略技術に特化した産業集積拠点（たとえば、宇宙×筑波、再生医療×神戸など）を整備するとともに、税制優遇、規制緩和、外資誘致の特例措置などをセットで導入し、世界的な競争地位を確立します\n \n-## 5) 篤志家からの寄付を大学が集めやすくするように税制を改正します\n+## 5) 科学技術を活用して暮らしやすい社会を構築します\n+* インクルーシブ社会の実現\n+  * 手話翻訳アプリの開発を推進します。\n+    * 手話通訳においては、地方部を中心に通訳者の高齢化が進んでいます。\n+    * また、医療情報などプライバシー性の高い情報を取り扱う際、人的通訳では情報共有の範囲に倫理的な課題が生じる場合があります。例えば、本人のみが知るべき病名などが、通訳者を介することで意図せず第三者に伝わるリスクがあります。\n+    * このアプリは以下の機能を持ちます。\n+      * ろう者・難聴者の手話を読み取り、音声や文字に変換する機能\n+      * 音声を文字に変換する機能（手話である必要はありません）\n+      * 利用者が「ろう者・難聴者」か「それ以外」かを選択し、適切な機能を利用できるインターフェース\n+* 介護テックの開発促進（詳細は福祉政策を参照）\n+* 防災(レジリエンス)\n+   * 2030年代前半までに「災害時ゼロダウン・ネットワーク」を実現し、いかなる大規模災害でも30分以内に通信を復旧できる社会基盤を築きます。\n+   * 低コスト衛星・再エネ自立型基地局・AIスペクトラム制御・耐災害ソフトの四領域を重点研究開発し、平時は農業DXなどで収益を確保するデュアルユースモデルにより投資回収を図ります。\n+   * 独立GEO網や巨大地上設備は、競争的資金・PPPファンド・公共調達を活用して技術革新と民需拡大を両立させます。\n+   * なお、内閣府のSIP事業では、災害情報の広域かつ瞬時把握・共有技術、流域内の貯留機能を最⼤限活⽤した被害軽減技術、衛星・IoT 等活用による災害対応オペレーションを開発しています。\n+      * http://www8.cao.go.jp/cstp/gaiyo/sip/sip_3/keikaku/08_smartbousai.pdf\n+  * このように、科学技術を活用することで、災害の予測力を高め、災害前の準備を高度化するとともに、災害発生時にも迅速かつ最適な対応をし、被害を最小化できます。\n+* 食糧問題の解決\n+  * 乾田直播・節水灌漑（マイコスDDSR）の研究開発を促進します。\n+    * 水を張らずに稲を育てる栽培方法で、大幅な省力化・コスト削減を実現\n+    * メタンガス発生を抑制し、環境負荷低減にも貢献\n+    * 雑草管理や連作障害対策、安定的な生育のための技術開発が課題\n+* 地方創生の実現\n+\n+## 6) 篤志家からの寄付を大学が集めやすくするように税制を改正します\n \n ### 現状認識\n * アメリカをはじめとして、海外の大学では寄付金、及び寄付金を原資にした資金運用が収入の柱となっており、科学技術の発展を支えている。他方、日本の大学は、寄付金収入の規模で海外に遅れをとっている。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "7d412a71c230b089286e83a0c86903cf308cdbe1",
+      "node_id": "C_kwDOOqTJvNoAKDdkNDEyYTcxYzIzMGIwODkyODZlODNhMGM4NjkwM2NmMzA4Y2RiZTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T00:36:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T00:36:56Z"
+        },
+        "message": "らいおんまんさんの提案に基づき、戦略技術に国産OSの項目を追加",
+        "tree": {
+          "sha": "ecd7ed02b4d61c4ae311215379df165450ac5d23",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ecd7ed02b4d61c4ae311215379df165450ac5d23"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7d412a71c230b089286e83a0c86903cf308cdbe1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobGgoCRC1aQ7uu5UhlAAAI+oQAHFZecQNndY/UxdusXGhfsUX\nHK2XFKva/c/5qG746e1hJcMLAP9iFgSlHe00fhHno+AdgissiW/UlHufieNJx+CD\nZTV6T/A9nC7BeT3ej5YhlC8tBYxL20Xnl4HPp7aJ6PKBn1AYkmeuXj8jXMHwddcL\nghD83uVJfbmIZRIWyD9gA7GmSedn/6GUCIWYNljS40dIBfAFDiD0oIgkHn+rHLuw\nheejkL6zHF1m0CigA5c4lK6F41ggHmaEvtqmLFwFkfEanGEHkA9Ug8GD8AxQFCGR\nYQ0c5xQAI6sL1UVjK1Jpvv7fmWk0QxIbXtPo4mMIpeeay3jQPUhnr/JwtS3prN2Z\nFtD27x3b1i6CBRkUHrjjjxIOy3+P8puFOqPtPB0yKtsSGhWHpGgc+ytd6wu+ug0U\nbqr7rUBgT3FEYJnH+GQ7Sc47ipl4D/693QkbCuM8FjmIaJywF/wS2eh0ASZ6FRR0\nbvtPU1RyfP9Lkmzc2wO7uxYLWEG/y73XWmzpyLjpRQs+i3aedVg4O2vUbxOiwxiZ\nZ4cHhjVysJDjI4TOeSnvj10SfSoTyycJVxCaAcPa/3obOJlHhQhb7NOfPpH8wnw6\n22j4FniayNEEIGJlfBVRjuF3VQDX8ExoXVOydZAZu5bYdfxNGIIMNnsAfcGjPKjw\nRydbcW3Ov3XsofXIanZR\n=fG5u\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ecd7ed02b4d61c4ae311215379df165450ac5d23\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751935016 +0000\ncommitter GitHub <noreply@github.com> 1751935016 +0000\n\nらいおんまんさんの提案に基づき、戦略技術に国産OSの項目を追加",
+          "verified_at": "2025-07-08T00:36:56Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7d412a71c230b089286e83a0c86903cf308cdbe1",
+      "html_url": "https://github.com/team-mirai/policy/commit/7d412a71c230b089286e83a0c86903cf308cdbe1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7d412a71c230b089286e83a0c86903cf308cdbe1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    },
+    {
+      "sha": "aac9c57a7a11569556b77bef4863485e6dc7e9b0",
+      "node_id": "C_kwDOOqTJvNoAKGFhYzljNTdhN2ExMTU2OTU1NmI3N2JlZjQ4NjM0ODVlNmRjN2U5YjA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T00:44:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T00:44:43Z"
+        },
+        "message": "らいおんまんさんの提案に基づき、戦略技術に国産OSの項目を追加",
+        "tree": {
+          "sha": "e0185f7e8b7f489dd048a55c743f29b55927dede",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e0185f7e8b7f489dd048a55c743f29b55927dede"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/aac9c57a7a11569556b77bef4863485e6dc7e9b0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobGn7CRC1aQ7uu5UhlAAAWgEQADurhE7/cZPq4yfYoFNt67Ea\nqgTQZUF9qlfWssa0tq3t4G6szpncFsV9kwMR2y88wZN5sMXpBI+rJpJSWKFdtCYB\nRcSXa2FUubCKDRFnxrefrhat7f0eTOELE42WrC08CExpgq2DrGxY15wuFPq/eqhd\nrQ00XeuYGa3p2R0dwLOMh2MP3Xr+PiFVf+qzrdsOXkRyFuDrQmet1OThvJasf2/l\n0hM/JVAzTkx4fiLVDBLbfRR9xD3XhTRcSJgX9hzdES8d9uc0/1okPO9flM15JllJ\nSpPMzgWWXMdQYsaJL2upG1EvcQjZkPKP8JRO7rLnqvEd3dlXt+NZKqvJk7inrWna\nE4HEZ7FLfNJzC5fx7cteyrFlP3WH4riwBzVyscynjKGWd/gw5z60iKGHbb4D7kYU\n5xI2aCblmOuN0ev8HayRLlOja5ORHqc26y3krU0sJatDU9hHAf5vxhlVQ6Z0cR4Z\nEvFc3t31wElqNnXkNURv3ZwMfqnvkFnDn3qAGgULc69ScCExqrmzy0iFEKXcIPCj\nzlv3FXOSFlr0T3350vxJvYccuGya9/mey2CqgCjFpCqPABZdnhyQsi3MwiS6Pf5B\nVPGsww7coNaHffi1p0DPujcyTMg07TMKNZ/O9dBKv9RiE2AFP+NCVU+KDcfBJ+bW\nfWnC+y8Xhd5B9AGUXMat\n=gXOG\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e0185f7e8b7f489dd048a55c743f29b55927dede\nparent 7d412a71c230b089286e83a0c86903cf308cdbe1\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751935483 +0000\ncommitter GitHub <noreply@github.com> 1751935483 +0000\n\nらいおんまんさんの提案に基づき、戦略技術に国産OSの項目を追加",
+          "verified_at": "2025-07-08T00:44:43Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/aac9c57a7a11569556b77bef4863485e6dc7e9b0",
+      "html_url": "https://github.com/team-mirai/policy/commit/aac9c57a7a11569556b77bef4863485e6dc7e9b0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/aac9c57a7a11569556b77bef4863485e6dc7e9b0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7d412a71c230b089286e83a0c86903cf308cdbe1",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/7d412a71c230b089286e83a0c86903cf308cdbe1",
+          "html_url": "https://github.com/team-mirai/policy/commit/7d412a71c230b089286e83a0c86903cf308cdbe1"
+        }
+      ]
+    },
+    {
+      "sha": "ec53b49a53a4469c33d1949a5f3ae4400075d4ea",
+      "node_id": "C_kwDOOqTJvNoAKGVjNTNiNDlhNTNhNDQ2OWMzM2QxOTQ5YTVmM2FlNDQwMDA3NWQ0ZWE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T00:53:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T00:53:15Z"
+        },
+        "message": "らいおんまんさんの提案に基づき、国産OSの項目を追加し、政策の構成を整理",
+        "tree": {
+          "sha": "36407eeae3b0d3378ad58370f2c7a76982a6a366",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/36407eeae3b0d3378ad58370f2c7a76982a6a366"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ec53b49a53a4469c33d1949a5f3ae4400075d4ea",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobGv7CRC1aQ7uu5UhlAAAn2EQAAdC+KtjJ4m8PBbwuwmU+UbS\nkVEDrTxI8zxYfKQ5hECLZHWgOr7DtSTpCitEh6nh5fg8hCLJ/hWt+lAhcZ1k2Ep4\npt4M+neXlc6TdQxslq2WeuQQ6JHq8RB1d1nqHK8izz4PzWiJgdO7EqzhcjlH+Qxs\n6BfpR72gmtSEVlvgePzaiMJooPncfZt9NDC458zGIcr1PrhQiVQIEpP7xUqagjqX\nokwhaUya4JkkRnDzO7rh9vwY4WMFHqy5aIcks8JyOifd2X/ImeSBRRsmyHIroBrI\nW+xsShE1UK5D52SYbOrXqsmiUYBjFz5i1LY+WBMlzuIkBJBDQUfOptro0+f5a37n\npX8A+/A8yOuQ4F+Tu+rAPei8qdyKBiw6fOZHdYEEnNwcqORV3F2npEfM8PYBybeB\nuMzufDwVGk3VLVgUbBYb/EUlC6r5GKB4X22R4BCcqvMax67fI65aHwjTBaz5Jr1S\n4gW9NRxTv08Rk1wXPfmVp51glL4ZaimglTzaOuh1EM5UTPAxoqa24LQ9JjRQ9y75\nODXR+pe5QpVXznFyQIGVL500PeeMtm+vhCrU7Ewzyv7kQOFKB4wx20iPcG//+3Te\nJxVECggnQi28GOnwmipdcoOSQhaetxe9P2Yk6DkApcjMh9xFbfxZ/jcnDZe0fwBY\nvyR5LYUF8IULBzPGLrbe\n=jllW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 36407eeae3b0d3378ad58370f2c7a76982a6a366\nparent aac9c57a7a11569556b77bef4863485e6dc7e9b0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751935995 +0000\ncommitter GitHub <noreply@github.com> 1751935995 +0000\n\nらいおんまんさんの提案に基づき、国産OSの項目を追加し、政策の構成を整理",
+          "verified_at": "2025-07-08T00:53:15Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ec53b49a53a4469c33d1949a5f3ae4400075d4ea",
+      "html_url": "https://github.com/team-mirai/policy/commit/ec53b49a53a4469c33d1949a5f3ae4400075d4ea",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ec53b49a53a4469c33d1949a5f3ae4400075d4ea/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "aac9c57a7a11569556b77bef4863485e6dc7e9b0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/aac9c57a7a11569556b77bef4863485e6dc7e9b0",
+          "html_url": "https://github.com/team-mirai/policy/commit/aac9c57a7a11569556b77bef4863485e6dc7e9b0"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T01:00:45.305570"
+}
