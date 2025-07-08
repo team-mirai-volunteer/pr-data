@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4522,
+    "title": "医療の持続可能性と公平性のための自己負担制度の見直し",
+    "state": "open",
+    "created_at": "2025-07-08T08:20:30Z",
+    "updated_at": "2025-07-08T08:20:31Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4522",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "77f888f99794a214ad38e87c969d1bc31527973e",
+      "filename": "24_ステップ２医療.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 4,
+      "changes": 13,
+      "blob_url": "https://github.com/team-mirai/policy/blob/5e0c55c632ffa3d15f8c5da52d6daa17a8cd6b74/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/5e0c55c632ffa3d15f8c5da52d6daa17a8cd6b74/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=5e0c55c632ffa3d15f8c5da52d6daa17a8cd6b74",
+      "patch": "@@ -26,7 +26,12 @@\n * 診療行為のエビデンス、費用対効果や重症度に基づく自己負担割合の複数段階化を検討します  \n   * 現在の健康保険法や高齢者医療確保法では、年齢による自己負担割合が言及されていますが、医療価値に応じた負担区分の段階化が可能となるよう、これらの法改正を検討します  \n   * 現在の診療報酬システムでは、医療機関が審査支払機関に請求する診療報酬のみが設定されていますが、診療内容による自己負担割合の影響についても制度に組み込みます  \n-  * 上記の緻密な診療報酬制度を構築するため、全国医療データベース（NDB）に蓄えられた診療実績を解析し、柔軟に機動的に診療行為の有効性、費用対効果について議論するための基盤を整備します  \n+  * 上記の緻密な診療報酬制度を構築するため、全国医療データベース（NDB）に蓄えられた診療実績を解析し、柔軟に機動的に診療行為の有効性、費用対効果について議論するための基盤を整備します\n+* 救急車の利用について、重症度に応じた自己負担を導入することを検討します\n+  * 軽症での安易な利用を抑制するため、入院に至らない救急車の利用は一部自己負担を課し、重症者がためらうことなく利用できる体制の構築を目指します\n+* 全ての人が公平に負担を分かち合う観点から、自己負担制度を見直します\n+  * 生活保護受給者なども含め、医療費が無料となっている場合でも少額の自己負担を導入し、モラルハザードを防ぐことを検討します\n+  * その際、既存のセーフティネットに加え、対象者向けの新たな高額療養費制度を設けるなど、必要な医療へのアクセスを確保する仕組みを同時に整備します\n * 制度の複雑化による医療の現場や審査機関での事務処理の複雑化を解消するための仕組みの開発および導入を支援します  \n   * 診療報酬制度の複雑化により、医療機関の窓口での計算もより複雑になります  \n   * 医療機関への負担、サービスの質の低下を避けるために、電子レセプトに連携し窓口で即時に自己負担額が算出できるAI、システムの開発を支援します  \n@@ -44,18 +49,18 @@\n ### 現状認識・課題分析\n \n * 日本では医療費の約3割が、糖尿病・COPD・心不全などの慢性疾患に費やされています  \n-* 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言い難い側面がある  \n+* 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言いがたい側面がある  \n   * 現行の医療制度は行われた処置・診察の回数に応じて診療報酬が設計されており、疾患コントロールが改善したことに対するインセンティブは設計されていない  \n   * 糖尿病や高血圧、脂質異常症などの慢性疾患の多くは重症化し、虚血性心疾患などのイベントが発生するまで、自覚症状に乏しいことも多く、患者サイドにも治療を強化し、積極的に状態をよくしようと動機づけしにくい場合がある  \n * 海外では、治療成果に応じて報酬が支払われる制度が導入され、一定の課題が示されつつも医療の最適化と費用削減を両立が期待されています\n \n ### 政策概要\n \n * 「どれだけ診療が行われたか」だけでなく、「どれだけ良くなったか」にも報いる医療制度への転換を目指し、成果連動型の診療報酬制度を導入する  \n-  * 糖尿病、COPD、心不全など、アウトカム指標が整備され患者数・医療費規模の大きい慢性疾患の治療成果を「血糖値」「呼吸機能」「心不全マーカー」などの指標で評価  \n+  * 糖尿病、COPD、心不전など、アウトカム指標が整備され患者数・医療費規模の大きい慢性疾患の治療成果を「血糖値」「呼吸機能」「心不全マーカー」などの指標で評価  \n   * 治療の効果が高い医療機関に対しての報酬加算、患者に対しての還元を設計し、医療機関・患者の双方に動機づけを行う  \n * 診療データを匿名化し、全国医療データベース（NDB）で一元管理。AIを活用した公平で迅速な評価を行う仕組みを整えます  \n   * アウトカム評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます  \n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n-  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "5e0c55c632ffa3d15f8c5da52d6daa17a8cd6b74",
+      "node_id": "C_kwDOOqTJvNoAKDVlMGM1NWM2MzJmZmEzZDE1ZjhjNWRhNTJkNmRhYTE3YThjZDZiNzQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-08T08:18:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T08:18:47Z"
+        },
+        "message": "mimiさんの意見を反映し、救急車の利用と自己負担の見直しに関する提案を追記",
+        "tree": {
+          "sha": "f2087cb86090157908bce0203d27e1f9068f48dd",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f2087cb86090157908bce0203d27e1f9068f48dd"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/5e0c55c632ffa3d15f8c5da52d6daa17a8cd6b74",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobNRnCRC1aQ7uu5UhlAAAZ4IQAD2uz06J2ViXOrxDPv+BX2QL\n3k+DS9nKwFZtunCSw2HiNENaXXXtSTW7VVsE5z2dXLstbanGyphJr0SNKYKN/OSB\nUIPMeAiAu+oSOK/3g6cfgJXljuk7+Ev6w4NHqMvYAM4bsADlYtYRrq0Wj+84iLRL\n2bnKUeCRxq12pru0q+k3M3uuAjIme5CuFJR/qVj2t0IiJRksV4gBKKcGqVIFRxoO\ni9Q2f5L60iTQz7ZFB8mtas4k8P/JtIlGCsz6v9mvQZOkxtjYKMBL8fKn9SpIDhyx\nIK9BfVGmh3UpUtTXCknON5knfMrptsLFEjIrJQ2+6R3GTKGbJZAv/S4U4FQ3UjBi\nUDxwZ2wDJ/mpREF3IT0c3QVeuvwJ4wVOlgXrg99/qUnAiXlEWYEeA2W1Yb/SnH7C\np+jD26ZN4o/Y1QQ4dtmeuLDunrZ8pI3uMV3D6i3iUt+uNxGJlnztz8Vbbkmq04mj\nPE71Flmx7Bh2D0XYGlCUQdDLwiRhy5LVPReE3btHvXRuYwmo2LvmSah92ULO+iGe\nN4lrKGjj6jnRqoNVzhmyeKbIYFOoI7w2MAxmd/8DUMrFHM/e5v8Nf0M+zAIQQbuI\n+o3RxX2MPc6jxZY3k6Rm/7WvXGh2zzYQEvYeAxK0YhDbmFBq4tezgDfQmNLX8X23\naunsp+lROU7gomMcPPzY\n=vGVl\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f2087cb86090157908bce0203d27e1f9068f48dd\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1751962727 +0000\ncommitter GitHub <noreply@github.com> 1751962727 +0000\n\nmimiさんの意見を反映し、救急車の利用と自己負担の見直しに関する提案を追記",
+          "verified_at": "2025-07-08T08:18:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/5e0c55c632ffa3d15f8c5da52d6daa17a8cd6b74",
+      "html_url": "https://github.com/team-mirai/policy/commit/5e0c55c632ffa3d15f8c5da52d6daa17a8cd6b74",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/5e0c55c632ffa3d15f8c5da52d6daa17a8cd6b74/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-08T08:40:06.757082"
+}
