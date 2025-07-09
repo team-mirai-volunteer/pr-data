@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 4899,
+    "title": "医療分野の改善提案：人生の最終段階における意思決定支援の追加",
+    "state": "open",
+    "created_at": "2025-07-09T10:33:53Z",
+    "updated_at": "2025-07-09T10:33:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4899",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "80dc0e74e7b90c3b743b3ca0a59578da0d090cd6",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 1,
+      "changes": 14,
+      "blob_url": "https://github.com/team-mirai/policy/blob/b68a527ba9a4a2024ca3a0a7a1cd2ba2388b0456/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/b68a527ba9a4a2024ca3a0a7a1cd2ba2388b0456/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=b68a527ba9a4a2024ca3a0a7a1cd2ba2388b0456",
+      "patch": "@@ -53,7 +53,7 @@\n ### 政策概要\n \n - 上記の医療機関の待ち時間、施設の事務手続きを効率化するために医療機関のDX推進を支援するため、医療DX推進のための補助を設計します  \n-  - 都市部を離れると人口減少などの影響も受け、窓口対応をするスタッフを潤沢に受け入れる経済的な余裕がなかったり、人手不足があったりと、人の手でオペレーションを回すことも難しい地域もあります  \n+  - 都市部を離れると人口減少などの影響も受け、窓口対応をするスタッフを潤妥に受け入れる経済的な余裕がなかったり、人手不足があったりと、人の手でオペレーションを回すことも難しい地域もあります  \n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n - 受付、決済やオンライン診療の領域で医療DXが進み、安全に効率的に電子カルテと外部システムが接続できる環境が整うことで、新たな医療機関向けサービスの開発や導入が進展することも期待されます\n@@ -86,3 +86,15 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）人生の最終段階における意思決定の支援\n+\n+### 現状認識・課題分析\n+\n+- 人生の最終段階における医療の選択は、個人の尊厳に関わる重要な問題ですが、本人の意思が事前に明確に示されていない場合、家族が難しい判断を迫られたり、本人の望まない形で医療が継続されたりするケースがあります。人工呼吸器の装着など、一度開始すると中止が困難な治療も存在します。事前意思表示の仕組みはありますが、まだ十分に活用されていません。\n+\n+### 政策概要\n+\n+- マイナンバーカードや連携するスマートフォンアプリを活用し、人生の最終段階における医療に関する事前意思（アドバンス・ケア・プランニング）を手軽に登録・更新できるシステムを構築します。\n+- 登録された意思を、必要な時に医療関係者が安全に参照できる体制を整え、個人の尊厳が守られる医療の実現を目指します。\n+- あわせて、安楽死に関する国民的議論を促進し、法整備に向けた検討を進めます。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "21281fb756773b861eb31251880aaabc9b09b75c",
+      "node_id": "C_kwDOOqTJvNoAKDIxMjgxZmI3NTY3NzNiODYxZWIzMTI1MTg4MGFhYWJjOWIwOWI3NWM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T10:31:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T10:31:13Z"
+        },
+        "message": "三木雄斗さんの提案に基づき、「人生の最終段階における意思決定の支援」に関する項目を追加",
+        "tree": {
+          "sha": "ee4228ef3920b54ffb355dd26d8dbf19a59a9a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ee4228ef3920b54ffb355dd26d8dbf19a59a9a86"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/21281fb756773b861eb31251880aaabc9b09b75c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobkTxCRC1aQ7uu5UhlAAAYZ8QAIiauG/aB4vaT8dA7OVFm4cI\nyVrA9OcmONAoTdS/AXeCZ5cAZWhMiSBFzLwp3AFQExdMNLXwF6m0VNV3StmeZmV1\nI0YIn6xH5Cz94s9liMBT5oATacxkJtnDlAJOQdNL4Ae5e59T4K5On2o41/hkexQ6\nMMKSRh8cN1nR07ESUkBl+ZEe8ZRILVBa35pKdqvaL0NndDhsjoNYedKhd667YOf4\nZTcvuAsS9i6+N8NFHsOwa7gKQcrQwcwVudVJX4ahcz4a8dhMSBxix7hrmj+Ww/ZO\nnnR0ZnpEdQ6g397tGCT17EYjNz0zLNVtmKrswReqvlRqHj7H+BSFKIxMfMgSg17O\n8RepWBtcPa5LET69eomIBr45PmAPYnXgGqCcZ9S8S1FFRuNk6WdhZZ50DnXa8lvM\nHe5dOrrXZamCYwf+lCJ0FJG2HY+JrY8evvEap389+JWrnRS/9XP58/aQnl5E4Wmv\nduAygAytMsrTTSNp6cuvy2BoiCW2GQDVi+9OZJy8bkiIh4WSVD5UgkOMnFZh1vZ5\n/SSZ7LFRA1sFxpGhvr0MYGfvgnnwQjQ73ms4gO+wVYNhU8AZ2tjDpk/3u1D3BNkD\nN+/K+4v8AiFoo1OeR/YR6da7Jm1zYuHTe0K/XDgOrCEThPzEIfFgC8S0GeTClT4l\nUx1xU1Ujy3UgaP+uGE7L\n=frUS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ee4228ef3920b54ffb355dd26d8dbf19a59a9a86\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752057073 +0000\ncommitter GitHub <noreply@github.com> 1752057073 +0000\n\n三木雄斗さんの提案に基づき、「人生の最終段階における意思決定の支援」に関する項目を追加",
+          "verified_at": "2025-07-09T10:31:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/21281fb756773b861eb31251880aaabc9b09b75c",
+      "html_url": "https://github.com/team-mirai/policy/commit/21281fb756773b861eb31251880aaabc9b09b75c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/21281fb756773b861eb31251880aaabc9b09b75c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    },
+    {
+      "sha": "b68a527ba9a4a2024ca3a0a7a1cd2ba2388b0456",
+      "node_id": "C_kwDOOqTJvNoAKGI2OGE1MjdiYTlhNGEyMDI0Y2EzYTBhN2ExY2QyYmEyMzg4YjA0NTY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T10:32:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T10:32:23Z"
+        },
+        "message": "三木雄斗さんの提案に基づき、「人生の最終段階における意思決定の支援」の項目を追加",
+        "tree": {
+          "sha": "ee4228ef3920b54ffb355dd26d8dbf19a59a9a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ee4228ef3920b54ffb355dd26d8dbf19a59a9a86"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b68a527ba9a4a2024ca3a0a7a1cd2ba2388b0456",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobkU3CRC1aQ7uu5UhlAAA+/UQAEgl2TI6YIHwlvzumHNHvWbJ\ndZ6LWp1zhQhw7nugPSjS0qdQQrGydMSL0FT66ZFbjWp58oICoCitTT3h+roxRHm3\nCBJ/f6BrhD97E7b+fQiwixkTQGvgMJYEopJRsMx5r+bHsf+qhRepBIuhvOzLXmJo\nblL+JB+YVA17kKB7ysdGLOmAYseGmpS222xwy3w7zNgbfmb/fMOW4i4Lma7+/Uc7\nrm07/xOeuvRdxnLHROtjT9rWC7sVx0G5QC5Jq+Xsa68JpYPWehdgpHpBj+RXyIG9\n8tSox8alv5GlpR4QSYBoj3+jHTcX59UTbKfWl6jvDIV/Y+9ZojuB2KQJJE8Jzbfs\nUPQurg48NJ+Jeo1TIK223RtZOVsGHh4oedvh4ASL8/jdrkmdDScCJw5dyuUAu7rx\npDpdMdcD4fRghP2ErkQyJB9QU58oszfAiuVACdAXxUi4DQ/dqdUeo3UcuOBxtBg7\nmR4iskCPS2VvI3pxTTAUUpCSTuKRZyqLV4/MYPlEP+9b0DF6ZWT5vnTrL1WfUXIB\n41BbXoX4TCbcerUYpfECG/1yq2JctNw/tQkMIgbBJokoNPmE3jkLw7FQKmSzXwNz\nZfRErigr66cqRoa92HP4rqik714SsObZwwnivKNm6pqmAhRk+VQzpRFOMDA9D/OC\nLDPhnhOz8TwtZjVrYtiq\n=xh0R\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ee4228ef3920b54ffb355dd26d8dbf19a59a9a86\nparent 21281fb756773b861eb31251880aaabc9b09b75c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752057143 +0000\ncommitter GitHub <noreply@github.com> 1752057143 +0000\n\n三木雄斗さんの提案に基づき、「人生の最終段階における意思決定の支援」の項目を追加",
+          "verified_at": "2025-07-09T10:32:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b68a527ba9a4a2024ca3a0a7a1cd2ba2388b0456",
+      "html_url": "https://github.com/team-mirai/policy/commit/b68a527ba9a4a2024ca3a0a7a1cd2ba2388b0456",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b68a527ba9a4a2024ca3a0a7a1cd2ba2388b0456/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "21281fb756773b861eb31251880aaabc9b09b75c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/21281fb756773b861eb31251880aaabc9b09b75c",
+          "html_url": "https://github.com/team-mirai/policy/commit/21281fb756773b861eb31251880aaabc9b09b75c"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-09T10:40:23.843709"
+}
