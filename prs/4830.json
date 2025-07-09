@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4830,
+    "title": "医療情報連携の基盤整備に関する提案",
+    "state": "open",
+    "created_at": "2025-07-09T06:13:32Z",
+    "updated_at": "2025-07-09T06:13:33Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4830",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "cefb4da1d4fe06615b9c1c49294b180d76d3a1df",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/c1e0c0793c4a3141788eea80a20601f9ce62311a/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/c1e0c0793c4a3141788eea80a20601f9ce62311a/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=c1e0c0793c4a3141788eea80a20601f9ce62311a",
+      "patch": "@@ -44,7 +44,7 @@\n \n - 医療機関の受診に関する負担は対面かオンラインかどうか以外にもあります  \n - 厚生労働省が行う受療行動調査（2023年）では、診察までの待ち時間について40%超が30分超、20%超が1時間超と回答しています  \n-- こうした医療時間の待機時間は、忙しい生活の合間で受診をする方々にとっては時間が読みにくく、受診控えにもつながります。また、医療機関の待合室に人が滞留する状況はインフルエンザの時期など、感染管理リスクとしても課題となることがあります  \n+- こうした医療時間の待機時間は、忙しい生活の合間で受診をする方々にとっては時間が読みににくく、受診控えにもつながります。また、医療機関の待合室に人が滞留する状況はインフルエンザの時期など、感染管理リスクとしても課題となることがあります  \n - 医療機関で待ち時間が発生してしまう要因には、患者さんの急変などで想定よりも時間がかかる場合や優先順位を繰り上げて診察する場合があったりと避けられないものもあります  \n - 一方で、診察前後の処理を効率化することで、医療機関、患者双方の手続きを短縮し、診察前後の待機時間を圧縮する余地はあると考えます  \n - 例えば、病院でのクレジットカード決済対応は63％と普及が進みましたが、クリニックにおいては33%と遅れています。クレジットカード以外の決済手段については更に低い割合となります  \n@@ -86,3 +86,16 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）医療情報連携の基盤を整備し、データ活用を推進\n+\n+### 現状認識・課題分析\n+\n+- 医療DXを推進する上で、各医療機関で利用されている電子カルテの仕様が異なっていることは、病院間でのスムーズな情報連携を妨げる一因となっています。これにより、他の医療機関への紹介・逆紹介が円滑に進まなかったり、旅行先や引っ越し先で安心して医療を受けることが難しくなっています。\n+- また、お薬手帳や母子健康手帳といった個人の重要な医療情報が紙媒体で管理されていることが多く、医療機関側で情報を参照したり、電子カルテに入力したりする際に手間と時間がかかっています。\n+- これらの情報の非効率な管理は、患者の全体像を把握する上での障壁となるだけでなく、将来的には病院の統廃合などを円滑に進める上でも課題となります。\n+\n+### 政策概要\n+\n+- 全ての人々が、いつでもどこでも、自分自身の医療情報を安全かつ正確に共有し、質の高い医療を受けられる社会を目指し、全国で共有可能な標準化された電子カルテの普及を促進します。これにより、医療機関間の情報連携を円滑にし、紹介・逆紹介のスムーズ化や、旅行先・引っ越し先でも安心して質の高い医療を受けられる環境を整備します。将Lai的には、病院の統廃合のような医療体制の再編をスムーズに行える基盤を構築します。\n+- お薬手帳や母子健康手帳のデジタル化を強力に推進し、個人の同意のもとで、それらの情報を電子カルテシステムに安全かつ容易に集約できる仕組みを整備します。これにより、医療従事者は患者の情報をより包括的に把握できるようになり、診療の質の向上に繋がります。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "c1e0c0793c4a3141788eea80a20601f9ce62311a",
+      "node_id": "C_kwDOOqTJvNoAKGMxZTBjMDc5M2M0YTMxNDE3ODhlZWE4MGEyMDYwMWY5Y2U2MjMxMWE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T06:10:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T06:10:21Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、全国共有型の電子カルテに関するセクションを追加",
+        "tree": {
+          "sha": "f9dfd52de91995bb42fa88a15512a4533c39946f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f9dfd52de91995bb42fa88a15512a4533c39946f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c1e0c0793c4a3141788eea80a20601f9ce62311a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobgfNCRC1aQ7uu5UhlAAA6tEQAD/sRs6Oi/TBmOoyH84XM0Hz\nsu+D55h6g50xHza+fKgLUAdCHiNI3Ra2InwG1KwfK/+kEKhIwzhsktLM56tbhqT/\nqdRpH+IKu5eYGpkAE07utVbHMpzO1IvAKhNNHWzQxq4TxhtKAgvoy1rP14oqDeEw\nH3pI35a5gA1CRtpHk5EaASjOLi3qhGfBcU3BfaOtzjBSqkyAxoLjYTN6yqk7f+1U\n/tVHbjxlGrXY1tlWFNHzkaXUbGH8GFuHFZ4rsR3RzLq2gR4ki25i845a/fOvWpKo\n5X0pWQqXGa7eUSk7UsI55ca7hjOrBsxbYU0p/PJ6Uum3DKNVKE7oiWiYJNB7CjQJ\nGbhonmd2eSC8Qdc1v8QKWNqok6c8JRK5cqo0chR8KLqzspXDUn+d842Ti4T+kBr9\nQJtdVg2jZEUPNWEZ/dDL7p9T5K6aYQgn05z5+3rtspnC1Vp19ZEe549296NijV38\nN+oFngGlrvVF8bRcLPFlZd71LJp+RJ3SmkYFploGebM0At29+DkGat8W1xZGuUt1\nUQiPtIDZrrRlPMMBYv7Zo3637RxF4n1cMBFY5f5GD69Jk/ITvvyo8LKLXAqa7XH4\n8+0NmD2fbGxHhrPX5n9kjv14ec6SZousTcEyfjbMrC2q4YPlMoOpnYaQgCGVFQm+\njLmYR+kQgOwcltIDz35J\n=Qkkv\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f9dfd52de91995bb42fa88a15512a4533c39946f\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752041421 +0000\ncommitter GitHub <noreply@github.com> 1752041421 +0000\n\n匿名ユーザーからの提案に基づき、全国共有型の電子カルテに関するセクションを追加",
+          "verified_at": "2025-07-09T06:10:21Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c1e0c0793c4a3141788eea80a20601f9ce62311a",
+      "html_url": "https://github.com/team-mirai/policy/commit/c1e0c0793c4a3141788eea80a20601f9ce62311a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c1e0c0793c4a3141788eea80a20601f9ce62311a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-09T06:19:24.487171"
+}
