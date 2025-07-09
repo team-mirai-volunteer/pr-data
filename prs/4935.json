@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4935,
+    "title": "ビラ証紙の運用上の負担軽減策としてデジタル化を提案します",
+    "state": "open",
+    "created_at": "2025-07-09T12:38:40Z",
+    "updated_at": "2025-07-09T12:38:41Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4935",
+    "user": {
+      "login": "Taisho241",
+      "id": 58881155,
+      "html_url": "https://github.com/Taisho241"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "4e52ffd6a530a7e2a433d528426e199f4f14bb94",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 10,
+      "deletions": 1,
+      "changes": 11,
+      "blob_url": "https://github.com/team-mirai/policy/blob/2065e946e151e354a2c45093e54a0afc164037cc/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/2065e946e151e354a2c45093e54a0afc164037cc/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=2065e946e151e354a2c45093e54a0afc164037cc",
+      "patch": "@@ -170,7 +170,7 @@\n   * PDF で公開されている審議会資料や議事録を機械可読化し、検索も要点把握も簡単にします。\n   * また、「広聴AI」「いどばた」などの意見集約サービスと連携し、審議会段階から市民や現場の声を“ゆるやかに”政策づくりへ届ける場を設けます。\n \n-## 5） 選挙現場の負担に寄り添い届出手続をデジタル化します\n+## 5） 選挙現場の負担に寄り添い、届出手続・運用のデジタル化を進めます\n \n ### 現状認識・課題分析\n \n@@ -189,6 +189,10 @@\n    * このような短期集中・多重入力の負担は、特に参議院選挙のように全国を対象とする選挙では、地方に拠点を構えることが困難な新興政党にとって大きな障壁となっています。\n * 移動・時間・費用面での制約が候補者の多様性を阻害\n    * 庁舎への訪問や書類の郵送などにかかる時間や費用は、物理的・経済的な負担となっており、地方在住者、海外在住の日本人、平日に時間を取りづらい層にとって立候補の大きなハードルとなっています。その結果、立候補機会における地域・環境間の格差が生じ、候補者の多様性確保にも影響を与えています。\n+ * 証紙ビラなど“紙中心の運用”が人的・時間的リソースを圧迫\n+   * 選挙運動においても、証紙付きビラの貼付作業、ポスター掲示、ハガキの印刷・送付など、多くの工程が紙を前提としており、候補者・支援者にとって過大な物理作業となっています。\n+     * 特に証紙ビラは、規定枚数分に1枚ずつ証紙を貼る必要があり、告示後の限られた時間の中で人手と時間を大量に消費します。\n+   * そのため、新人候補や地方・若年層の立候補機会を制度的に制限している構造につながっています。\n \n ### 政策概要\n \n@@ -208,5 +212,10 @@\n * 運用現場に配慮した“併存フェーズ”の設計\n    * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n+* 選挙運動における“紙前提の制度”も段階的に見直します\n+   * 証紙ビラの手貼り制度については、ビラへのシリアル番号・電子署名の一体印刷などによって、作業負担の軽減と真正性の確保を両立する仕組みへの移行を検討します。\n+   * あわせて、法定枚数の上限制度を、ネット媒体と紙媒体を一体で管理できる費用上限制度へと再設計することも選択肢とします。\n+   * その際は、電子台帳による配布管理やログ保存を組み合わせることで、透明性を担保しつつ、現場の負担軽減と制度的信頼性の両立を図ります。\n+   * さらに、音声読み上げ・多言語対応などのアクセシビリティ施策を拡充することで、情報の届け方そのものを多様化し、「紙が前提」となっている現行制度を超えた、誰もがアクセスできる“開かれた選挙”の実現を目指します。\n \n "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "2065e946e151e354a2c45093e54a0afc164037cc",
+      "node_id": "C_kwDOOqTJvNoAKDIwNjVlOTQ2ZTE1MWUzNTRhMmM0NTA5M2U1NGEwYWZjMTY0MDM3Y2M",
+      "commit": {
+        "author": {
+          "name": "Taisho241",
+          "email": "58881155+Taisho241@users.noreply.github.com",
+          "date": "2025-07-09T12:38:06Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T12:38:06Z"
+        },
+        "message": "Update 13_ステップ１くらしと行政.md",
+        "tree": {
+          "sha": "3de41373b1f41556379088593e653ecc98e4160b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3de41373b1f41556379088593e653ecc98e4160b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2065e946e151e354a2c45093e54a0afc164037cc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobmKuCRC1aQ7uu5UhlAAA8ygQAHVlztXU959jnxtg21f3g9Bt\nTrEU5SsvI6h3Glnx3DC2f0tSGLReDfPwxxcGa/N4/OFj69/rM/cedWutU4+Y4FSN\nUWNcfqScIBvL0qB/30zCVYuoY8dgBt7K12/tJzz0LiuFPupXLEVCZ8Wpu26dDL5T\nk0EMgnwOKnUwqVLciE6hfOxhZIE54WZHXYAIpE88GZM6iF/+5cnZGW8xp54yclN5\nA+E9I6xVhs3d5CVtlp5mB30QW0qOG4dnMc1phgNoBKGzi+GYVWPqEEALGcx06zr+\nCKe7XDsnTKu+8SWubd3bB44/ROc+QFfZ1CWlLk3NbD/SHlVjhec8d3i7okO0vJd2\nyIvU2y/izL31x4gbj1a26byyEe9DmkDIjAFRdauhuO9ppjs4pd1rZjOjx2oVoshL\nCXAr1m7pdIKZlfZFH/6DvTZGgVXYso1pxQCfch/nSz7kNXH6AroBf4VjbWfTASC8\n/wWtnPwDaYfmr2IbkQlYmE/rKyvTr2Re2j9tx5cJ7B6RJr/ndqC8IHmeIXDtJcBQ\nkTxKTHIsE9R6kd5nzX392BM23nYFV2eVDnVqw5L+cT9QcquLgueHKqSpznZgDHWM\nyKkt6sZ8nD0zPR1CnIVRZlAicMlFGhKXpnfDnqkXJ9SsRmQxBLz3y4SWnYrkI73m\nZSy571i6MfyDpR2Ys6XS\n=fgBY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3de41373b1f41556379088593e653ecc98e4160b\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1752064686 +0900\ncommitter GitHub <noreply@github.com> 1752064686 +0900\n\nUpdate 13_ステップ１くらしと行政.md",
+          "verified_at": "2025-07-09T12:38:06Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2065e946e151e354a2c45093e54a0afc164037cc",
+      "html_url": "https://github.com/team-mirai/policy/commit/2065e946e151e354a2c45093e54a0afc164037cc",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2065e946e151e354a2c45093e54a0afc164037cc/comments",
+      "author": {
+        "login": "Taisho241",
+        "id": 58881155,
+        "node_id": "MDQ6VXNlcjU4ODgxMTU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58881155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Taisho241",
+        "html_url": "https://github.com/Taisho241",
+        "followers_url": "https://api.github.com/users/Taisho241/followers",
+        "following_url": "https://api.github.com/users/Taisho241/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Taisho241/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Taisho241/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Taisho241/subscriptions",
+        "organizations_url": "https://api.github.com/users/Taisho241/orgs",
+        "repos_url": "https://api.github.com/users/Taisho241/repos",
+        "events_url": "https://api.github.com/users/Taisho241/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Taisho241/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-09T12:51:50.177045"
+}
