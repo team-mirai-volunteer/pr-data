@@ -1,0 +1,471 @@
+{
+  "basic_info": {
+    "number": 4691,
+    "title": "やえさんによる改善案：マイナンバー制度の再設計と資産管理の高度化",
+    "state": "open",
+    "created_at": "2025-07-09T00:15:56Z",
+    "updated_at": "2025-07-09T01:01:42Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4691",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "a29f7173d182b942bccfc2b8520d4811b976044a",
+      "filename": "18_ステップ１マイナンバー制度の再設計.md",
+      "status": "added",
+      "additions": 134,
+      "deletions": 0,
+      "changes": 134,
+      "blob_url": "https://github.com/team-mirai/policy/blob/518123446ef213515b068d32099627f4eec665bb/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/518123446ef213515b068d32099627f4eec665bb/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md?ref=518123446ef213515b068d32099627f4eec665bb",
+      "patch": "@@ -0,0 +1,134 @@\n+# ステップ１-８．マイナンバー制度の再設計と資産管理の高度化\n+\n+## 1. 背景と目的\n+\n+**現状**: マイナ保険証への移行に伴う混乱を避けるため、期限切れ保険証の受診を2026年3月末まで可能にする暫定措置（国民健康保険中心）。しかし、マイナンバーシステムの根本的な設計には課題が残る。\n+\n+**目的**: マイナンバーを活用した効率的かつ安全なシステムを設計し、保険、免許、戸籍に加え、資産管理（徴税・脱税対策）を統合。国民が番号を意識せず、プライバシー保護と行政効率を両立する未来志向の仕組みを提案。\n+\n+## 2. システム設計の3方式と資産管理への適性\n+\n+以下の3方式を比較し、資産管理（銀行口座、投資、不動産、暗号資産）の統合を考慮した評価を行いました。\n+\n+### (1) マスターキー（マイナンバー）＋サブID方式\n+\n+*   **概要**: マイナンバーを中央のマスターキーとし、保険、免許、戸籍、資産管理ごとにサブIDを発行。用途ごとにデータを分離し、アクセス制御を強化。\n+*   **資産管理の適性**:\n+    *   資産IDを新たに発行し、銀行口座や投資データを紐づけ。税務署が資産IDでリアルタイム照会し、徴税・脱税対策を効率化。\n+    *   既存の金融システム（口座番号など）をサブIDとして流用可能で、移行が現実的。\n+    *   マイナンバー自体の露出を抑え、漏洩リスクを低減。\n+*   **メリット**:\n+    *   プライバシー保護（用途ごとのデータ分離）。\n+    *   既存システムとの互換性が高く、段階的導入が可能。\n+    *   資産管理の初期導入に適している。\n+*   **課題**:\n+    *   サブID管理の複雑さ（特に資産データの多様性）。\n+    *   金融機関や税務署のシステム改修コスト。\n+    *   国民のプライバシー懸念への対応が必要。\n+*   **徴税・脱税対策**:\n+    *   資産IDで取引を追跡し、異常（収入と資産の不一致など）を検出。\n+    *   海外資産や暗号資産の追跡には国際連携が必要。\n+\n+### (2) マイナンバーを唯一無二のキーにする方式\n+\n+*   **概要**: マイナンバーを唯一の識別子とし、保険、免許、戸籍、資産を一元管理。サブIDを廃止し、シンプルな構造。\n+*   **資産管理の適性**:\n+    *   マイナンバーで全資産（口座、投資、不動産など）を直接紐づけ。税務署が一括照会し、自動課税や申告不要を実現。\n+    *   徴税効率は高いが、漏洩リスクが致命的。\n+*   **メリット**:\n+    *   システムがシンプルで、データ統合が容易。\n+    *   リアルタイムの税務処理が可能。\n+*   **課題**:\n+    *   マイナンバー漏洩で全データ（資産含む）が危険に晒される。\n+    *   プライバシー懸念が強く、社会的受容性が低い。\n+    *   既存システムの完全改修が必要。\n+*   **徴税・脱税対策**:\n+    *   脱税検出が容易（全資産を一元監視）。\n+    *   暗号資産や現金取引の追跡には限界。\n+\n+### (3) 分散型ID（DID）＋コンテキストベースの認証\n+\n+*   **概要**: マイナンバーを中央管理せず、ユーザーがデジタルウォレットでデータを自己主権管理。検証可能なクレデンシャル（VC）を用途ごとに提供。\n+*   **資産管理の適性**:\n+    *   ユーザーが資産VC（口座残高、投資履歴など）を管理し、税務署に必要最低限の情報のみ提供。\n+    *   ゼロ知識証明（ZKP）でプライバシーを保護（例: 資産総額を証明しつつ詳細非公開）。\n+    *   中央データベースがないため、漏洩リスクが低い。\n+*   **メリット**:\n+    *   プライバシー保護とデータ主権が最大化。\n+    *   ブロックチェーンで透明性と改ざん防止を確保。\n+    *   国際資産や暗号資産の管理に適応可能。\n+*   **課題**:\n+    *   国民のデジタルリテラシーが必要。\n+    *   DID/VCインフラ（ブロックチェーンなど）の構築に時間とコスト。\n+    *   脱税対策にはVC提供拒否への強制力が必要。\n+*   **徴税・脱税対策**:\n+    *   ZKPで資産証明を効率化し、異常検知をブロックチェーン台帳で実施。\n+    *   国際標準化で海外資産追跡を強化。\n+\n+## 3. 推奨案\n+\n+*   **短期（～5年）: マスター＋サブID方式**\n+    *   **理由**: 既存システムとの互換性が高く、資産管理の初期導入に適している。金融機関の口座番号を資産IDとして流用し、税務署がリアルタイム照会可能。国民がマイナンバーを意識せず、従来のカード（保険証など）で利用できる。\n+    *   **実装例**:\n+        *   資産IDで銀行取引や不動産売買を追跡。税務署が異常検知（例: 申告漏れ）を自動化。\n+        *   クラウドDB（例: AWS Aurora）でマイナンバーを暗号化（AES-256）。API（RESTful）で金融機関と連携。\n+        *   認証はOAuth 2.0＋生体認証（Face IDなど）。\n+    *   **課題対応**:\n+        *   プライバシー懸念には、マイナンバー非公開運用とログ監査の透明性を徹底。\n+        *   金融機関のシステム改修を補助金や標準APIで支援。\n+*   **長期（10～20年）: 分散型ID（DID）＋AI**\n+    *   **理由**: プライバシー保護と徴税効率を両立。ユーザーが資産データを自己管理し、ZKPで必要最低限の情報のみ提供。ブロックチェーンとAIで国際資産や暗号資産の追跡も可能。\n+    *   **実装例**:\n+        *   ユーザーがスマホのデジタルウォレットで資産VCを管理。税務申告時にVCを税務署に送信。\n+        *   ブロックチェーン（例: Ethereumベース）で取引の真正性を検証。AIが匿名化台帳を分析し、脱税を検出。\n+    *   **課題対応**:\n+        *   国民リテラシー向上のため、DIDアプリを直感的に設計（例: LINE連携）。\n+        *   インフラ構築は国際標準（W3C DID/VC）に準拠し、段階的導入。\n+*   **非推奨: 単一キー方式**\n+    *   資産を含む全データがマイナンバーに集約され、漏洩リスクが致命的。社会的受容性が低い。\n+\n+## 4. AI活用による効率化手法\n+\n+AIを活用することで、徴税コスト削減、脱税対策、ユーザー体験向上を実現。以下は資産管理に特化した提案です。\n+\n+*   **異常検知と脱税対策**:\n+    *   **技術**: 機械学習（XGBoost、グラフニューラルネットワーク）で取引パターンを監視。異常値検出で脱税やマネーロンダリングを特定。\n+    *   **例**: 収入と資産増加の不一致をリアルタイム検出。暗号資産取引の異常パターンをグラフ分析で捕捉。\n+    *   **適用**: マスター＋サブIDでは資産IDごとの監視、DIDではブロックチェーン台帳の匿名分析。\n+*   **自動徴税と申告簡素化**:\n+    *   **技術**: NLP（Transformer）で取引データを解析。回帰モデルで税額を自動計算。\n+    *   **例**: 銀行取引や投資収益から確定申告書を生成。ユーザーに提案後、同意で税務署に送信。\n+    *   **適用**: マスター＋サブIDでは資産IDデータを統合、DIDではVCをAIが解析。\n+*   **プライバシー保護**:\n+    *   **技術**: 連合学習（Federated Learning）や差分プライバシーで、個人データを保護しつつAIモデルを訓練。\n+    *   **例**: 金融機関のローカルデータで異常検知モデルを学習。中央DBにデータを集めず分析。\n+    *   **適用**: DIDで特に有効（ユーザーデータをデバイス内で処理）。\n+*   **予測と最適化**:\n+    *   **技術**: 時系列分析（LSTM）や強化学習で税収予測や監査最適化。\n+    *   **例**: 資産変動を予測し、税務調査の優先順位を決定。ユーザー向けに節税アドバイスを生成。\n+    *   **適用**: 全方式で活用可能だが、DIDではパーソナライズが強み。\n+\n+## 5. 未来ビジョン（AI＋DID中心）\n+\n+*   **AIエージェント**: 各ユーザーにAI税務代理を割り当て、資産管理や申告を自動化（例: 「この投資は控除対象」と提案）。\n+*   **グローバル資産追跡**: 国際DID標準とAIで、海外資産や暗号資産を追跡。ブロックチェーン上の取引をAIが監視。\n+*   **リアルタイム徴税**: 取引ごとにAIが税額を計算し即時徴収。徴税コストをほぼゼロに。\n+*   **プライバシー保護AI**: ホモモーフィック暗号化やZKPをAIに統合し、匿名分析を強化。\n+*   **個人の呼称の自由化**: 国家は国民を非公開の番号で管理。名前など個人の呼称は、個人が自由に選択できる社会を目指す。これにより、最小コストでの管理と個人の自由の最大化を両立させ、夫婦別姓などの議論も乗り越える。\n+\n+## 6. アクションプラン\n+\n+*   **短期（2025～2030年）**:\n+    *   マスター＋サブID方式を採用。資産IDを金融機関に導入し、税務署のリアルタイム照会を開始。\n+    *   AI異常検知と自動申告システムをパイロット導入（例: 国税庁と大手銀行連携）。\n+    *   国民向けに、マイナンバー非公開運用をPR（例: 「番号を知らなくてもOK」キャンペーン）。\n+*   **長期（2030～2045年）**:\n+    *   DIDインフラを構築（ブロックチェーン＋5G）。スマホアプリでVC管理を標準化。\n+    *   AI＋ZKPでプライバシー保護と徴税効率を両立。国際標準化を推進。\n+    *   教育プログラムで国民のデジタルリテラシーを向上（例: 学校でのDID講座）。\n+\n+## 7. 結論\n+\n+*   **短期**: マスター＋サブID方式で、資産管理を効率化し、AIで徴税コストと脱税を削減。既存システムとの親和性が高く、実現性が高い。\n+*   **長期**: DID＋AIで、プライバシーと効率性を最大化。グローバル資産追跡やリアルタイム徴税を実現し、未来の税務システムを構築。\n+*   **AIの役割**: 異常検知、自動申告、プライバシー保護、予測最適化で、徴税プロセスを革命的に効率化。"
+    },
+    {
+      "sha": "403aa2bc12936521e69edce9b0f66914f2cad8e6",
+      "filename": "25_ステップ２社会保障.md",
+      "status": "added",
+      "additions": 21,
+      "deletions": 0,
+      "changes": 21,
+      "blob_url": "https://github.com/team-mirai/policy/blob/518123446ef213515b068d32099627f4eec665bb/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/518123446ef213515b068d32099627f4eec665bb/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md?ref=518123446ef213515b068d32099627f4eec665bb",
+      "patch": "@@ -0,0 +1,21 @@\n+# ステップ２-５．社会保障（ベーシックインカム構想）\n+\n+やえさんの提案に基づき、以下のベーシックインカム（BI）構想を提案します。\n+\n+## 概要\n+国民一人ひとりに対し、月額4万円のBIを支給します。この制度は、最小の行政コストで公平な最低保障を提供することを目的とします。\n+\n+## 給付の考え方\n+- **金額設定の前提**: 月額4万円という金額は、単身での生活を完全に保障するものではなく、親子、夫婦、ルームメイトなど、複数人での同居を基本とした場合の最低生活費を想定しています。これにより、財源の現実性を確保します。\n+- **資本主義との両立**: 一人暮らしを含む、より高い生活水準は、各自の就労等によって実現されるべきものと考えます。BIはあくまで最低保障であり、資本主義の枠組みは維持します。\n+- **新しいコミュニティの創出**: この制度は、人々が共に支え合って暮らす新しいコミュニティやビジネスの形成を促す可能性があります。\n+\n+## 財源\n+財源は主に消費税で賄います。現行の年金や各種手当などをBIに統合し、社会保険料は廃止することで、多くの国民にとって実質的な手取り増を目指します。\n+\n+## 給付方法\n+マイナンバーに紐づけられた銀行口座へ、政府から直接、自動的に振り込みます。これにより、給付に関する行政コストを大幅に削減します。\n+\n+## 現行制度からの移行\n+- **年金保険料**: これまで支払われた年金保険料については、公平性を期すため、一時金として清算・返還するなどの措置を検討します。\n+- **既存の年金受給者**: 既に年金を受給している方々については、不利益が生じないよう配慮します。"
+    },
+    {
+      "sha": "925cf77981e20a297fc641b9b02f37aa5aaf58d7",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/team-mirai/policy/blob/518123446ef213515b068d32099627f4eec665bb/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/518123446ef213515b068d32099627f4eec665bb/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=518123446ef213515b068d32099627f4eec665bb",
+      "patch": "@@ -18,11 +18,13 @@\n   * [５．科学技術](15_ステップ１科学技術.md)  \n   * [６．デジタル民主主義](16_ステップ１デジタル民主主義.md)  \n   * [７．医療](17_ステップ１医療.md)  \n+  * [８．マイナンバー制度の再設計と資産管理の高度化](18_ステップ１マイナンバー制度の再設計.md)\n * [ステップ２「変化に対応できる、しなやかな仕組みづくり」](20_ステップ２「変化に対応できるしなやかな仕組みづくり」.md)  \n   * [１．教育](21_ステップ２教育.md)  \n   * [２．くらしと行政](22_ステップ２くらしと行政.md)  \n   * [３．産業](23_ステップ２産業.md)  \n   * [４．医療](24_ステップ２医療.md)  \n+  * [５．社会保障（ベーシックインカム構想）](25_ステップ２社会保障.md)  \n * [ステップ３「長期の成長に大胆に投資する」](30_ステップ３「長期の成長に大胆に投資する」.md)  \n   * [１．子育て](31_ステップ３子育て.md)  \n   * [２．教育](32_ステップ３教育.md)  "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "af59d920814e14303c04ec47385f85b45889cff0",
+      "node_id": "C_kwDOOqTJvNoAKGFmNTlkOTIwODE0ZTE0MzAzYzA0ZWM0NzM4NWY4NWI0NTg4OWNmZjA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T00:05:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T00:05:58Z"
+        },
+        "message": "やえさんの提案に基づき、目次に社会保障（ベーシックインカム構想）の項目を追加",
+        "tree": {
+          "sha": "6c1b76d34894e5d8e18e5137dd649694bff2f40b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6c1b76d34894e5d8e18e5137dd649694bff2f40b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/af59d920814e14303c04ec47385f85b45889cff0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobbJmCRC1aQ7uu5UhlAAAjOkQABIamdlpf/m22OXbrYUQPpGZ\n4AyZ4ahp2SLOTzCckgj8RdUYibogzxT0mxDqndUVHQnuXNlu64AGcqeHPvLqH+7h\nWnvcvgF7vnyCx/pDrxQMqyb0VdW3gvEeugUMGFiANt/R/yHGd875z5sDZsfW57Uq\nrZbSxa3cbLhbQbhYYNBUYebeHi91ifAeYFuoRWL8MZ4/NpPhAWi6pePw4NasaRCi\nWFvwGKkLBOmptymqa1m8sb1yu+LOPeghinMWDM+QubhLjTXOjhI4+9iLmfdTCATl\nBC4Jyt8icrHV5hBNZlWCBXgRBe6DYfJ8iq+ly8RzVxlyP5eUwSU0RdfX+zLWH7rx\n9AFsfN0hQ/oPhy4FiY+t7phl/ehWuCP9WVqQCeZkApGSy+8GbAuHz+QoYjAdkHn/\ncGDjzs8ojKKyyqfE//4M3WRBkbHTI12o0M5v/p2ALfeLZjGjcOANsv+neVlCxUvR\naP7c4fTCg/z+y9n4CSbQJp1wXnIpUmWj2ddg/ewxwtXyhX8Lxxw4HJvQIdXKUlQu\nn+th9fwa/MCEzK1l7JhtvIqPYuEFC0jayTNdwWRAUbW9XFZCUDbezVp1tCXsQ8Y/\nQFMkYQ5SbTfRs33T5nMCF8nAhfPMbqgu7SfAsRLz+bS6SKQFuG1diBq6RMFzyH9u\nGKpZrcrNxGD4QzO6wEmq\n=j3o2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6c1b76d34894e5d8e18e5137dd649694bff2f40b\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752019558 +0000\ncommitter GitHub <noreply@github.com> 1752019558 +0000\n\nやえさんの提案に基づき、目次に社会保障（ベーシックインカム構想）の項目を追加",
+          "verified_at": "2025-07-09T00:05:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/af59d920814e14303c04ec47385f85b45889cff0",
+      "html_url": "https://github.com/team-mirai/policy/commit/af59d920814e14303c04ec47385f85b45889cff0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/af59d920814e14303c04ec47385f85b45889cff0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    },
+    {
+      "sha": "5e58703d6b05a05b65bbd28949bfb10d79545cdf",
+      "node_id": "C_kwDOOqTJvNoAKDVlNTg3MDNkNmIwNWEwNWI2NWJiZDI4OTQ5YmZiMTBkNzk1NDVjZGY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T00:10:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T00:10:43Z"
+        },
+        "message": "feat: やえさんの提案に基づき、目次に社会保障（BI）の項目を追加",
+        "tree": {
+          "sha": "3ca5281a626977ae4c22afaceb2488eccd71d37e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3ca5281a626977ae4c22afaceb2488eccd71d37e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/5e58703d6b05a05b65bbd28949bfb10d79545cdf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobbODCRC1aQ7uu5UhlAAA7LUQAGgZokuxiApPfYbw+iO6N9gE\nR/yhLJ0LrJjFWlFedkyVuU4IeuY3GAHRAkEGdulPT4M5qvnd++byttpVygDcVPVh\nlc94lIBbJkFYO2D0bJWILpDwYGbCtuIdOwTyW2jxaOZQm+8Qxtpk8kyCf6Az8Y6s\nnIIwrGUwBBaeF3/3j6y7WlY3wrgo4FbZuBiJwkexWujBl6hsbY1hL0Uvq6RTLonh\nFx+69pBmvEoZ87sruOOik6GffE8wqDm9FlRxkOFxYlTOmI2mH9CrzCx4uI2SqDmS\nyzr42+OA8TwzeuVS6uB4JTRnysSHV1FDrhXU23j44KfRX/Tu3qaApJfyVPUpsxe5\nrPTBWuPxlKjFg7nf7WZyZ4kT/VOAC8KyXH9ntSTMvUjrO2MhGn6krgd2+7rB5txs\n8a5emXvQlVa0hbkK0GgeL7ljlwfG5AifypyOnUahjXI3xsUJnptr0nRWNEFVHmz0\n/i30gjiUru6t87ijuIGgHeC/PZhMr25o8ZMYQyGI045KwLzMNDIkRCZLoVwJ2sQ+\nujwoANQ6mrSmA/h7BSh/+h5/aUpl2Moqs5yhpN9fGeh39ZaAA63AiUbnISoPrUrU\nddZEFbsbUSjcC8f9xuBS8Bw/k0dQo8niR2D65dv3w0oHaBitU+PS6m7okCx4So+J\n1GJyyksCxl0ZyaY5N1/I\n=gbvH\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3ca5281a626977ae4c22afaceb2488eccd71d37e\nparent af59d920814e14303c04ec47385f85b45889cff0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752019843 +0000\ncommitter GitHub <noreply@github.com> 1752019843 +0000\n\nfeat: やえさんの提案に基づき、目次に社会保障（BI）の項目を追加",
+          "verified_at": "2025-07-09T00:10:43Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/5e58703d6b05a05b65bbd28949bfb10d79545cdf",
+      "html_url": "https://github.com/team-mirai/policy/commit/5e58703d6b05a05b65bbd28949bfb10d79545cdf",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/5e58703d6b05a05b65bbd28949bfb10d79545cdf/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "af59d920814e14303c04ec47385f85b45889cff0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/af59d920814e14303c04ec47385f85b45889cff0",
+          "html_url": "https://github.com/team-mirai/policy/commit/af59d920814e14303c04ec47385f85b45889cff0"
+        }
+      ]
+    },
+    {
+      "sha": "46b85f91bcfed437b8b0b11c1a59b871f3804a2b",
+      "node_id": "C_kwDOOqTJvNoAKDQ2Yjg1ZjkxYmNmZWQ0MzdiOGIwYjExYzFhNTliODcxZjM4MDRhMmI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T00:10:44Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T00:10:44Z"
+        },
+        "message": "feat: やえさんの提案に基づき、社会保障（BI）の素案を追加",
+        "tree": {
+          "sha": "ff22271204ee7995b910414bace8aad21aeffbd0",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ff22271204ee7995b910414bace8aad21aeffbd0"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/46b85f91bcfed437b8b0b11c1a59b871f3804a2b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobbOECRC1aQ7uu5UhlAAAsfcQACitTbmFZ0bD1wnIbBTae9Be\n+Tcyjnqq1iO2wLRHS1jCCPCbCQQjm+mq3E/u671v8MsRgFomjfn2nWnxkT1C/QW+\nueRIzorxQqbZBmzW4hcLyreA54Ek5gh/gaBUFoE+V9NQSiFZCOzB6OIw5g7aWTpj\n11nK4E16WFq8ayDj8g6Vq/J3lizHA9vqVC1K5vTeKp82wRFj9HrEaGojBbMYrQSB\nQWJw5zjSBVZnG31bVwq7iqXkdr9YQiUyGGX4GEErg6mQASPY7akGAM8q5rrHgLE6\nPuaAgCxItTbiSUpcN5tWHtd6xa3jyWX2nV+wqtN1zK8T6yubUjAFKN6jIoR8oQgW\nMRTVS+/pcSqxVV7hQNAwpbBVtgoptQOlpSXSeLUJoiLLYnasXIEx/1KXjXytWSny\n2PEIIxMajYji7jXp7qTT+3ZkSyNhyc6j/ZjvCCEV2u5uRhEH9erEhHFmysPIGqrc\nknGGYkDKOlmVA2wyXJskU4viAjyVsm4zlagoQcNh3nNnwXZJbWRtfEnSFHyK9kR6\n5ZtncqSUGs4Uu8xICcgAWNON2aszwYocY8BLI/yjEdGPV4/DEudmLnZyWV2gyB8B\nD/QMPzWHHTGuwQi5BGnzLs8JrKiwjLwwrtCPCJ9462ARIjT94wgCkhUM3n7Ox4Jl\nQD9BxdBHp9Y0UG6Gj6w9\n=HMCS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ff22271204ee7995b910414bace8aad21aeffbd0\nparent 5e58703d6b05a05b65bbd28949bfb10d79545cdf\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752019844 +0000\ncommitter GitHub <noreply@github.com> 1752019844 +0000\n\nfeat: やえさんの提案に基づき、社会保障（BI）の素案を追加",
+          "verified_at": "2025-07-09T00:10:44Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/46b85f91bcfed437b8b0b11c1a59b871f3804a2b",
+      "html_url": "https://github.com/team-mirai/policy/commit/46b85f91bcfed437b8b0b11c1a59b871f3804a2b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/46b85f91bcfed437b8b0b11c1a59b871f3804a2b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5e58703d6b05a05b65bbd28949bfb10d79545cdf",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5e58703d6b05a05b65bbd28949bfb10d79545cdf",
+          "html_url": "https://github.com/team-mirai/policy/commit/5e58703d6b05a05b65bbd28949bfb10d79545cdf"
+        }
+      ]
+    },
+    {
+      "sha": "2c32993c646d9ac9dec45d330b05655df9c70e46",
+      "node_id": "C_kwDOOqTJvNoAKDJjMzI5OTNjNjQ2ZDlhYzlkZWM0NWQzMzBiMDU2NTVkZjljNzBlNDY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T00:28:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T00:28:16Z"
+        },
+        "message": "docs(ja): やえさんによる「マイナンバー制度の再設計」提案の目次追加",
+        "tree": {
+          "sha": "31067380b9d105e9e7596d4c58b0f6c7ed8fbaa6",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/31067380b9d105e9e7596d4c58b0f6c7ed8fbaa6"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2c32993c646d9ac9dec45d330b05655df9c70e46",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobbegCRC1aQ7uu5UhlAAAwTEQABfJy6Gf7TQCm1ZCUpD+UUs3\nyu/yoY6FygOtnUoxHbz923i3dLzz28jBzG5Nfhmd/taMhlWIFSHqoKtjbE8Y6G2s\nR0YP31LIa7et+uiX68IgyaSE+cUITgmONNYpZ1beEVJx4cJkRLrDM9CjPNXH7yLj\n7BkTMo/3JmqFWWgoJ+7YVNqYbRyl98hlbUzb9Ou7sb41mxcUgnB7igdk5GLejc3x\nAWluTr/RsSDeHXSLWa5zostMfVB7tTUYHlaF3OdTfZucUOrnQm3CggOpANF59eiB\nxTfMy9SlT9KV+E0P61pCKYviK0n8Lp4YAdsHEWlIyg57ZQGhaiS4T00ogpRyMp9A\nRyZWsvM8lWHrnRwqRx6j1Gmk9OeJk7W1/8q7NGl5yVhCELfd5S44gnNG3uQABzWl\nJ/xy/iAuhJfyngUWCn1M4F1WJlhoMTjzwkipiX4RzaErcJqSGW4RmjYKcaO5EU5c\neuYgm7U05AF4YPMyLF+M3h7EPXrKIFJu9Y/FGbvSGAwdb44ty1Qu8pTGufx7i1SK\nczOR6gDkRVOxGuhImPFSmJNYWPLn+9bl/uKwkUmGbMKvbvFw0DqjLgg38vSRLsOe\nxzusHWKgLKKwrqiRB3lgsQ9XXP8sJg8oIQXx/UGj++3U9M+oFIN0QzI79n3TbrPF\nHwZ75+FiEHxu7SKSN1eR\n=IVJ0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 31067380b9d105e9e7596d4c58b0f6c7ed8fbaa6\nparent 46b85f91bcfed437b8b0b11c1a59b871f3804a2b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752020896 +0000\ncommitter GitHub <noreply@github.com> 1752020896 +0000\n\ndocs(ja): やえさんによる「マイナンバー制度の再設計」提案の目次追加",
+          "verified_at": "2025-07-09T00:28:16Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2c32993c646d9ac9dec45d330b05655df9c70e46",
+      "html_url": "https://github.com/team-mirai/policy/commit/2c32993c646d9ac9dec45d330b05655df9c70e46",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2c32993c646d9ac9dec45d330b05655df9c70e46/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "46b85f91bcfed437b8b0b11c1a59b871f3804a2b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/46b85f91bcfed437b8b0b11c1a59b871f3804a2b",
+          "html_url": "https://github.com/team-mirai/policy/commit/46b85f91bcfed437b8b0b11c1a59b871f3804a2b"
+        }
+      ]
+    },
+    {
+      "sha": "518123446ef213515b068d32099627f4eec665bb",
+      "node_id": "C_kwDOOqTJvNoAKDUxODEyMzQ0NmVmMjEzNTE1YjA2OGQzMjA5OTYyN2Y0ZWVjNjY1YmI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T00:28:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T00:28:17Z"
+        },
+        "message": "feat(ja): やえさんによる「マイナンバー制度の再設計」提案の追加",
+        "tree": {
+          "sha": "cc754b15acb0b099839d205749d1ca0e7ffd1676",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/cc754b15acb0b099839d205749d1ca0e7ffd1676"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/518123446ef213515b068d32099627f4eec665bb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobbehCRC1aQ7uu5UhlAAADqUQADFRC2CtzPSKnvC3+F6G9nKW\nt0hXBokvd6iog8J3jocrey+zkjSf/vDBrw+l0Ic3tJXMwrTEFDfEUIOGNxvJWIG1\nhNrzqGQpqkXXFFGq77Fqh5jgBV66QXOkesxsLsrxU4ElMbY7tsvsCJ6Id9kWaRdO\nhiarlmEHzvou6Sm/0XbySUFomV+U77+1akWkzbot2vvpASrHZuOq+s6dcwuiTinJ\nyyqtpAWXxwteMcOXdD4KPmY3Rn43aERj9QsqcGF/OWgteQCBsWYy1jIwvDABjKoD\nIjoBf81VZpwwhQMEccXcjkuTrr0wCCNAR8cOQBsWWWGiMLAHeTy62gs6vjOlqUug\nZ46qwhRvDLRfM8tMuS0HwRu7dq9+CCUW4kUeoLD6wdHmompdkrPLBZ59eh82BexJ\n0BCUOfypTlQxy/YdOeejcNiFiiALsIJ36UhSptRjGiwYdQYt+DZbTgBfs8iI6SDa\nue+D/65og8kj9YKlszXKdoz12HE8PXCNse9gr8lrhFxNv1zPeNYWGflpK4rAcPnP\nDaBV85L1IfsbAIyIp5cQShjJ7itf4V4f3Zeii1xmVwgIWcYMRDTFM5e5vYHr6YKO\noHn2ejGn6uhz0sUXdGANj//SCMTOxQA7Ukzjxp+G//82TNXMPMJH73uveNNbTb4I\n6TOVBoWd78I6JDdbvBl/\n=IqyB\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cc754b15acb0b099839d205749d1ca0e7ffd1676\nparent 2c32993c646d9ac9dec45d330b05655df9c70e46\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752020897 +0000\ncommitter GitHub <noreply@github.com> 1752020897 +0000\n\nfeat(ja): やえさんによる「マイナンバー制度の再設計」提案の追加",
+          "verified_at": "2025-07-09T00:28:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/518123446ef213515b068d32099627f4eec665bb",
+      "html_url": "https://github.com/team-mirai/policy/commit/518123446ef213515b068d32099627f4eec665bb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/518123446ef213515b068d32099627f4eec665bb/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2c32993c646d9ac9dec45d330b05655df9c70e46",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2c32993c646d9ac9dec45d330b05655df9c70e46",
+          "html_url": "https://github.com/team-mirai/policy/commit/2c32993c646d9ac9dec45d330b05655df9c70e46"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-09T01:02:16.239814"
+}
