@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4784,
+    "title": "指定難病患者の負担軽減に関する政策の追加",
+    "state": "open",
+    "created_at": "2025-07-09T04:32:47Z",
+    "updated_at": "2025-07-09T04:32:48Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4784",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "a4ff370bc999aebbac2b2e10f9fa88ac18371ede",
+      "filename": "24_ステップ２医療.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "changes": 13,
+      "blob_url": "https://github.com/team-mirai/policy/blob/f2a2aeabfd592f387e83cc0349bb268c3455682a/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/f2a2aeabfd592f387e83cc0349bb268c3455682a/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=f2a2aeabfd592f387e83cc0349bb268c3455682a",
+      "patch": "@@ -59,3 +59,16 @@\n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n   * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+\n+## 3）指定難病患者の負担軽減\n+\n+### 現状認識・課題分析\n+\n+*   指定難病医療給付の継続申請は毎年必要ですが、その手続きは患者にとって大きな負担となっています。特に、体調が万全でない中で、申請のためだけに医療機関や役所に足を運ぶことは、身体的・時間的な制約が大きいのが現状です。\n+*   申請手続きの多くは、行政が既に保有している本人情報と、主治医が作成する「臨床調査個人票」の情報を紐づける作業であり、毎年患者本人が介在する必要性は低いと考えられます。\n+\n+### 政策概要\n+\n+*   指定難病医療給付の継続申請手続きについて、患者の負担を抜本的に軽減するため、プロセスのデジタル化と自動化を推進します。\n+*   医師が作成した「臨床調査個人票」のデータを、安全な形で行政機関とオンラインで共有できるシステムを構築します。\n+*   マイナンバーカードの活用などにより、オンラインで厳格な本人確認を完結させ、患者が医療機関や役所に赴くことなく、手続きが完了する仕組みを目指します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "f2a2aeabfd592f387e83cc0349bb268c3455682a",
+      "node_id": "C_kwDOOqTJvNoAKGYyYTJhZWFiZmQ1OTJmMzg3ZTgzY2MwMzQ5YmIyNjhjMzQ1NTY4MmE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T04:31:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T04:31:08Z"
+        },
+        "message": "feat(医療): yeeksさんの提案に基づき、指定難病患者の負担軽減に関する項目を追加",
+        "tree": {
+          "sha": "828c624c0c8ae1b1c47cd59ffe28c961f6899e4b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/828c624c0c8ae1b1c47cd59ffe28c961f6899e4b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f2a2aeabfd592f387e83cc0349bb268c3455682a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobfCMCRC1aQ7uu5UhlAAA/JUQAKSnddBmTksJfemONNU/6myN\nIejqJ80Z12btTfrHCRYQaeAnfblzo6kv3OznsJ/o3A/FzXgZEHG7QgyUSwxzNcuN\n0DM5ZrhyZ/6Nk8QjJ9ppnHlqc4Kr0fRlnecfHajcQ7idTIgEy2nTAovrHcqyUehz\n5NtN9ZiBEFgPdxPHkyd/Vav5Bu8LkNtwVb+18Cos/5OD5sHhN0f76TtAewVBIHzz\nD9WL6BcXUW7y8A0DreMutQ/h9wOjwcJr2blfvjXtPLX+FPkh5Bflgpf2MrSe16X5\nimI+2jmYoVk5nNzsrlyFz/57YfSiVXiX/Al13PbkR70PYDOqLASeQRtGR/FhVpXt\nPsB+yYmxWYscWFkzS2ZlR4aYwOAFWEHtXfaEAhSD2eiKKLmwqpK1sakZeUYF66n0\njZofnNHroe1axz4tH0Ll5sXdpR2zzTx0UPCnh60Ku+9F2fOFX6zhUCvnsJpUs0rt\nCWq7Hagw71Hr1M3Y5gOq38IfCZaulOxwOflhVXqTcKu0d4xK8wCZkVhc0ILRe1OA\nnubunuoPWBZeBmevSGMve+Es8QJ58NrTyX6sf/JsiZ++tIqofPdNJ/GjwmrDnbf5\n55kvbLlHzb4GsHmqLIOT/SpsBfo75cN32vbXWP143nlWF1Auhn5O53KweejfGNyn\nbcpB0QEBRJ53UHV4J6/S\n=V3fQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 828c624c0c8ae1b1c47cd59ffe28c961f6899e4b\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752035468 +0000\ncommitter GitHub <noreply@github.com> 1752035468 +0000\n\nfeat(医療): yeeksさんの提案に基づき、指定難病患者の負担軽減に関する項目を追加",
+          "verified_at": "2025-07-09T04:31:09Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f2a2aeabfd592f387e83cc0349bb268c3455682a",
+      "html_url": "https://github.com/team-mirai/policy/commit/f2a2aeabfd592f387e83cc0349bb268c3455682a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f2a2aeabfd592f387e83cc0349bb268c3455682a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-09T05:19:08.449878"
+}
