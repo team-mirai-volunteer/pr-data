@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 4949,
+    "title": "4章を追加：クラウドサービス活用による医療DX加速の提案",
+    "state": "open",
+    "created_at": "2025-07-09T13:34:17Z",
+    "updated_at": "2025-07-09T13:34:18Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/4949",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "6021695b6df8d13497a9b2fa4d8927212ab90cb2",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 12,
+      "deletions": 0,
+      "changes": 12,
+      "blob_url": "https://github.com/team-mirai/policy/blob/7c78658400a138d294dd7d46353544461b00b5e3/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/7c78658400a138d294dd7d46353544461b00b5e3/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=7c78658400a138d294dd7d46353544461b00b5e3",
+      "patch": "@@ -86,3 +86,15 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）クラウドサービス活用を促進し、医療DXを加速\n+\n+### 現状認識・課題分析\n+\n+- 医療現場の業務効率化に向け、SlackやNotionのような汎用クラウドサービスの活用が期待されますが、「3省2ガイドライン」により、海外サーバーを利用するサービスの導入が困難な状況です。\n+- 患者情報を守るセキュリティは重要ですが、過度な規制が医療DXの足かせとなり、業務効率化や情報連携の機会損失に繋がっています。\n+\n+### 政策概要\n+\n+- 医療現場の実態に合わせ、「3省2ガイドライン」の見直しを検討します。\n+- 明確なセキュリティ基準を満たす国内外のクラウドサービス利用を認めるルールを整備し、医療現場が柔軟にツールを選択できる環境を整え、医療DXを推進します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "7c78658400a138d294dd7d46353544461b00b5e3",
+      "node_id": "C_kwDOOqTJvNoAKDdjNzg2NTg0MDBhMTM4ZDI5NGRkN2Q0NjM1MzU0NDQ2MWIwMGI1ZTM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T13:32:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T13:32:01Z"
+        },
+        "message": "feat(医療): クラウドサービス活用の項目を追加 by am",
+        "tree": {
+          "sha": "a5c72d8f30bd809ada374f925e725bb53e214c8c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a5c72d8f30bd809ada374f925e725bb53e214c8c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7c78658400a138d294dd7d46353544461b00b5e3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobm9RCRC1aQ7uu5UhlAAAM+0QACnkb3DYUsCmfKxxh21E34gX\nSeyRdQddoaeOZaxrBXRvrHEsJl4uspxhlPPiZKEpkgGW32+f3HgUzZAlUOjLuni6\nNLVEtdB+1sONC3wGH9XUHziGE2An4ok1S+WVPzPkGamPvBPrMG4fcttcMFipSaMM\npm/6+58DurEfuQkqsgxjQnTBCoe+ZHdpqGLBcv6il+aAiljCf6ovH6mMGXOD5oEI\nRr5fQ6TkkmjdU4r0qWnnzcO6TYM2/azLtF/d76H+G3LdjfqA/EoPLtmKZdBDW5Ey\nYwfu0oISUKg/Arqq39W25du4LXr1/uej9vCdb00zta5zSy94bVw0xy7FZ7JHiW+C\nugrq/cmHn76uPTnfMSlW4GVjIPK6Y9dUWO8gxQn/0ps5PzC5cmvNA/dLYboou/D2\nnIVXyOXF9LdAktl7JuCORgLWWxjM7nbQyadunTAQBT+83Q5HbXPLmG1CD4hiRbQc\nWH51xq/kmFrDcIQM7N1S24ribg3rDZwOa/a6r5dwjHlvuwsTtOCT22NtP84P28IH\nz10uwI3ez57cJoRuroTEUWpOsaWUljnJcBgHAMHAMZEYlYO7JICXyBguQsPvvcQ2\nx47UyXb1LOpapsdQFHjTkPjSm6Jwt9uNhQ1xJpmikdjNpaoOmf04jPnHnZJE5VEx\n0jwPB8Y8gxw5u6vX6fya\n=XM/s\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a5c72d8f30bd809ada374f925e725bb53e214c8c\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752067921 +0000\ncommitter GitHub <noreply@github.com> 1752067921 +0000\n\nfeat(医療): クラウドサービス活用の項目を追加 by am",
+          "verified_at": "2025-07-09T13:32:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7c78658400a138d294dd7d46353544461b00b5e3",
+      "html_url": "https://github.com/team-mirai/policy/commit/7c78658400a138d294dd7d46353544461b00b5e3",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7c78658400a138d294dd7d46353544461b00b5e3/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-09T13:51:15.405649"
+}
