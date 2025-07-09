@@ -4,7 +4,7 @@
     "title": "やえさんによる改善案：マイナンバー制度の再設計と資産管理の高度化",
     "state": "open",
     "created_at": "2025-07-09T00:15:56Z",
-    "updated_at": "2025-07-09T01:01:42Z",
+    "updated_at": "2025-07-09T03:00:18Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/4691",
@@ -25,9 +25,9 @@
       "additions": 134,
       "deletions": 0,
       "changes": 134,
-      "blob_url": "https://github.com/team-mirai/policy/blob/518123446ef213515b068d32099627f4eec665bb/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/518123446ef213515b068d32099627f4eec665bb/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md?ref=518123446ef213515b068d32099627f4eec665bb",
+      "blob_url": "https://github.com/team-mirai/policy/blob/28a24bd133d51638709c0ae350b2626036381c84/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/28a24bd133d51638709c0ae350b2626036381c84/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E5%88%B6%E5%BA%A6%E3%81%AE%E5%86%8D%E8%A8%AD%E8%A8%88.md?ref=28a24bd133d51638709c0ae350b2626036381c84",
       "patch": "@@ -0,0 +1,134 @@\n+# ステップ１-８．マイナンバー制度の再設計と資産管理の高度化\n+\n+## 1. 背景と目的\n+\n+**現状**: マイナ保険証への移行に伴う混乱を避けるため、期限切れ保険証の受診を2026年3月末まで可能にする暫定措置（国民健康保険中心）。しかし、マイナンバーシステムの根本的な設計には課題が残る。\n+\n+**目的**: マイナンバーを活用した効率的かつ安全なシステムを設計し、保険、免許、戸籍に加え、資産管理（徴税・脱税対策）を統合。国民が番号を意識せず、プライバシー保護と行政効率を両立する未来志向の仕組みを提案。\n+\n+## 2. システム設計の3方式と資産管理への適性\n+\n+以下の3方式を比較し、資産管理（銀行口座、投資、不動産、暗号資産）の統合を考慮した評価を行いました。\n+\n+### (1) マスターキー（マイナンバー）＋サブID方式\n+\n+*   **概要**: マイナンバーを中央のマスターキーとし、保険、免許、戸籍、資産管理ごとにサブIDを発行。用途ごとにデータを分離し、アクセス制御を強化。\n+*   **資産管理の適性**:\n+    *   資産IDを新たに発行し、銀行口座や投資データを紐づけ。税務署が資産IDでリアルタイム照会し、徴税・脱税対策を効率化。\n+    *   既存の金融システム（口座番号など）をサブIDとして流用可能で、移行が現実的。\n+    *   マイナンバー自体の露出を抑え、漏洩リスクを低減。\n+*   **メリット**:\n+    *   プライバシー保護（用途ごとのデータ分離）。\n+    *   既存システムとの互換性が高く、段階的導入が可能。\n+    *   資産管理の初期導入に適している。\n+*   **課題**:\n+    *   サブID管理の複雑さ（特に資産データの多様性）。\n+    *   金融機関や税務署のシステム改修コスト。\n+    *   国民のプライバシー懸念への対応が必要。\n+*   **徴税・脱税対策**:\n+    *   資産IDで取引を追跡し、異常（収入と資産の不一致など）を検出。\n+    *   海外資産や暗号資産の追跡には国際連携が必要。\n+\n+### (2) マイナンバーを唯一無二のキーにする方式\n+\n+*   **概要**: マイナンバーを唯一の識別子とし、保険、免許、戸籍、資産を一元管理。サブIDを廃止し、シンプルな構造。\n+*   **資産管理の適性**:\n+    *   マイナンバーで全資産（口座、投資、不動産など）を直接紐づけ。税務署が一括照会し、自動課税や申告不要を実現。\n+    *   徴税効率は高いが、漏洩リスクが致命的。\n+*   **メリット**:\n+    *   システムがシンプルで、データ統合が容易。\n+    *   リアルタイムの税務処理が可能。\n+*   **課題**:\n+    *   マイナンバー漏洩で全データ（資産含む）が危険に晒される。\n+    *   プライバシー懸念が強く、社会的受容性が低い。\n+    *   既存システムの完全改修が必要。\n+*   **徴税・脱税対策**:\n+    *   脱税検出が容易（全資産を一元監視）。\n+    *   暗号資産や現金取引の追跡には限界。\n+\n+### (3) 分散型ID（DID）＋コンテキストベースの認証\n+\n+*   **概要**: マイナンバーを中央管理せず、ユーザーがデジタルウォレットでデータを自己主権管理。検証可能なクレデンシャル（VC）を用途ごとに提供。\n+*   **資産管理の適性**:\n+    *   ユーザーが資産VC（口座残高、投資履歴など）を管理し、税務署に必要最低限の情報のみ提供。\n+    *   ゼロ知識証明（ZKP）でプライバシーを保護（例: 資産総額を証明しつつ詳細非公開）。\n+    *   中央データベースがないため、漏洩リスクが低い。\n+*   **メリット**:\n+    *   プライバシー保護とデータ主権が最大化。\n+    *   ブロックチェーンで透明性と改ざん防止を確保。\n+    *   国際資産や暗号資産の管理に適応可能。\n+*   **課題**:\n+    *   国民のデジタルリテラシーが必要。\n+    *   DID/VCインフラ（ブロックチェーンなど）の構築に時間とコスト。\n+    *   脱税対策にはVC提供拒否への強制力が必要。\n+*   **徴税・脱税対策**:\n+    *   ZKPで資産証明を効率化し、異常検知をブロックチェーン台帳で実施。\n+    *   国際標準化で海外資産追跡を強化。\n+\n+## 3. 推奨案\n+\n+*   **短期（～5年）: マスター＋サブID方式**\n+    *   **理由**: 既存システムとの互換性が高く、資産管理の初期導入に適している。金融機関の口座番号を資産IDとして流用し、税務署がリアルタイム照会可能。国民がマイナンバーを意識せず、従来のカード（保険証など）で利用できる。\n+    *   **実装例**:\n+        *   資産IDで銀行取引や不動産売買を追跡。税務署が異常検知（例: 申告漏れ）を自動化。\n+        *   クラウドDB（例: AWS Aurora）でマイナンバーを暗号化（AES-256）。API（RESTful）で金融機関と連携。\n+        *   認証はOAuth 2.0＋生体認証（Face IDなど）。\n+    *   **課題対応**:\n+        *   プライバシー懸念には、マイナンバー非公開運用とログ監査の透明性を徹底。\n+        *   金融機関のシステム改修を補助金や標準APIで支援。\n+*   **長期（10～20年）: 分散型ID（DID）＋AI**\n+    *   **理由**: プライバシー保護と徴税効率を両立。ユーザーが資産データを自己管理し、ZKPで必要最低限の情報のみ提供。ブロックチェーンとAIで国際資産や暗号資産の追跡も可能。\n+    *   **実装例**:\n+        *   ユーザーがスマホのデジタルウォレットで資産VCを管理。税務申告時にVCを税務署に送信。\n+        *   ブロックチェーン（例: Ethereumベース）で取引の真正性を検証。AIが匿名化台帳を分析し、脱税を検出。\n+    *   **課題対応**:\n+        *   国民リテラシー向上のため、DIDアプリを直感的に設計（例: LINE連携）。\n+        *   インフラ構築は国際標準（W3C DID/VC）に準拠し、段階的導入。\n+*   **非推奨: 単一キー方式**\n+    *   資産を含む全データがマイナンバーに集約され、漏洩リスクが致命的。社会的受容性が低い。\n+\n+## 4. AI活用による効率化手法\n+\n+AIを活用することで、徴税コスト削減、脱税対策、ユーザー体験向上を実現。以下は資産管理に特化した提案です。\n+\n+*   **異常検知と脱税対策**:\n+    *   **技術**: 機械学習（XGBoost、グラフニューラルネットワーク）で取引パターンを監視。異常値検出で脱税やマネーロンダリングを特定。\n+    *   **例**: 収入と資産増加の不一致をリアルタイム検出。暗号資産取引の異常パターンをグラフ分析で捕捉。\n+    *   **適用**: マスター＋サブIDでは資産IDごとの監視、DIDではブロックチェーン台帳の匿名分析。\n+*   **自動徴税と申告簡素化**:\n+    *   **技術**: NLP（Transformer）で取引データを解析。回帰モデルで税額を自動計算。\n+    *   **例**: 銀行取引や投資収益から確定申告書を生成。ユーザーに提案後、同意で税務署に送信。\n+    *   **適用**: マスター＋サブIDでは資産IDデータを統合、DIDではVCをAIが解析。\n+*   **プライバシー保護**:\n+    *   **技術**: 連合学習（Federated Learning）や差分プライバシーで、個人データを保護しつつAIモデルを訓練。\n+    *   **例**: 金融機関のローカルデータで異常検知モデルを学習。中央DBにデータを集めず分析。\n+    *   **適用**: DIDで特に有効（ユーザーデータをデバイス内で処理）。\n+*   **予測と最適化**:\n+    *   **技術**: 時系列分析（LSTM）や強化学習で税収予測や監査最適化。\n+    *   **例**: 資産変動を予測し、税務調査の優先順位を決定。ユーザー向けに節税アドバイスを生成。\n+    *   **適用**: 全方式で活用可能だが、DIDではパーソナライズが強み。\n+\n+## 5. 未来ビジョン（AI＋DID中心）\n+\n+*   **AIエージェント**: 各ユーザーにAI税務代理を割り当て、資産管理や申告を自動化（例: 「この投資は控除対象」と提案）。\n+*   **グローバル資産追跡**: 国際DID標準とAIで、海外資産や暗号資産を追跡。ブロックチェーン上の取引をAIが監視。\n+*   **リアルタイム徴税**: 取引ごとにAIが税額を計算し即時徴収。徴税コストをほぼゼロに。\n+*   **プライバシー保護AI**: ホモモーフィック暗号化やZKPをAIに統合し、匿名分析を強化。\n+*   **個人の呼称の自由化**: 国家は国民を非公開の番号で管理。名前など個人の呼称は、個人が自由に選択できる社会を目指す。これにより、最小コストでの管理と個人の自由の最大化を両立させ、夫婦別姓などの議論も乗り越える。\n+\n+## 6. アクションプラン\n+\n+*   **短期（2025～2030年）**:\n+    *   マスター＋サブID方式を採用。資産IDを金融機関に導入し、税務署のリアルタイム照会を開始。\n+    *   AI異常検知と自動申告システムをパイロット導入（例: 国税庁と大手銀行連携）。\n+    *   国民向けに、マイナンバー非公開運用をPR（例: 「番号を知らなくてもOK」キャンペーン）。\n+*   **長期（2030～2045年）**:\n+    *   DIDインフラを構築（ブロックチェーン＋5G）。スマホアプリでVC管理を標準化。\n+    *   AI＋ZKPでプライバシー保護と徴税効率を両立。国際標準化を推進。\n+    *   教育プログラムで国民のデジタルリテラシーを向上（例: 学校でのDID講座）。\n+\n+## 7. 結論\n+\n+*   **短期**: マスター＋サブID方式で、資産管理を効率化し、AIで徴税コストと脱税を削減。既存システムとの親和性が高く、実現性が高い。\n+*   **長期**: DID＋AIで、プライバシーと効率性を最大化。グローバル資産追跡やリアルタイム徴税を実現し、未来の税務システムを構築。\n+*   **AIの役割**: 異常検知、自動申告、プライバシー保護、予測最適化で、徴税プロセスを革命的に効率化。"
     },
     {
@@ -37,22 +37,22 @@
       "additions": 21,
       "deletions": 0,
       "changes": 21,
-      "blob_url": "https://github.com/team-mirai/policy/blob/518123446ef213515b068d32099627f4eec665bb/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/518123446ef213515b068d32099627f4eec665bb/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md?ref=518123446ef213515b068d32099627f4eec665bb",
+      "blob_url": "https://github.com/team-mirai/policy/blob/28a24bd133d51638709c0ae350b2626036381c84/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/28a24bd133d51638709c0ae350b2626036381c84/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/25_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A4%BE%E4%BC%9A%E4%BF%9D%E9%9A%9C.md?ref=28a24bd133d51638709c0ae350b2626036381c84",
       "patch": "@@ -0,0 +1,21 @@\n+# ステップ２-５．社会保障（ベーシックインカム構想）\n+\n+やえさんの提案に基づき、以下のベーシックインカム（BI）構想を提案します。\n+\n+## 概要\n+国民一人ひとりに対し、月額4万円のBIを支給します。この制度は、最小の行政コストで公平な最低保障を提供することを目的とします。\n+\n+## 給付の考え方\n+- **金額設定の前提**: 月額4万円という金額は、単身での生活を完全に保障するものではなく、親子、夫婦、ルームメイトなど、複数人での同居を基本とした場合の最低生活費を想定しています。これにより、財源の現実性を確保します。\n+- **資本主義との両立**: 一人暮らしを含む、より高い生活水準は、各自の就労等によって実現されるべきものと考えます。BIはあくまで最低保障であり、資本主義の枠組みは維持します。\n+- **新しいコミュニティの創出**: この制度は、人々が共に支え合って暮らす新しいコミュニティやビジネスの形成を促す可能性があります。\n+\n+## 財源\n+財源は主に消費税で賄います。現行の年金や各種手当などをBIに統合し、社会保険料は廃止することで、多くの国民にとって実質的な手取り増を目指します。\n+\n+## 給付方法\n+マイナンバーに紐づけられた銀行口座へ、政府から直接、自動的に振り込みます。これにより、給付に関する行政コストを大幅に削減します。\n+\n+## 現行制度からの移行\n+- **年金保険料**: これまで支払われた年金保険料については、公平性を期すため、一時金として清算・返還するなどの措置を検討します。\n+- **既存の年金受給者**: 既に年金を受給している方々については、不利益が生じないよう配慮します。"
     },
     {
-      "sha": "925cf77981e20a297fc641b9b02f37aa5aaf58d7",
+      "sha": "57a05a4b64cbc1a2640ce5d63286b8e716d9262a",
       "filename": "README.md",
       "status": "modified",
-      "additions": 2,
+      "additions": 3,
       "deletions": 0,
-      "changes": 2,
-      "blob_url": "https://github.com/team-mirai/policy/blob/518123446ef213515b068d32099627f4eec665bb/README.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/518123446ef213515b068d32099627f4eec665bb/README.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=518123446ef213515b068d32099627f4eec665bb",
-      "patch": "@@ -18,11 +18,13 @@\n   * [５．科学技術](15_ステップ１科学技術.md)  \n   * [６．デジタル民主主義](16_ステップ１デジタル民主主義.md)  \n   * [７．医療](17_ステップ１医療.md)  \n+  * [８．マイナンバー制度の再設計と資産管理の高度化](18_ステップ１マイナンバー制度の再設計.md)\n * [ステップ２「変化に対応できる、しなやかな仕組みづくり」](20_ステップ２「変化に対応できるしなやかな仕組みづくり」.md)  \n   * [１．教育](21_ステップ２教育.md)  \n   * [２．くらしと行政](22_ステップ２くらしと行政.md)  \n   * [３．産業](23_ステップ２産業.md)  \n   * [４．医療](24_ステップ２医療.md)  \n+  * [５．社会保障（ベーシックインカム構想）](25_ステップ２社会保障.md)  \n * [ステップ３「長期の成長に大胆に投資する」](30_ステップ３「長期の成長に大胆に投資する」.md)  \n   * [１．子育て](31_ステップ３子育て.md)  \n   * [２．教育](32_ステップ３教育.md)  "
+      "changes": 3,
+      "blob_url": "https://github.com/team-mirai/policy/blob/28a24bd133d51638709c0ae350b2626036381c84/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/28a24bd133d51638709c0ae350b2626036381c84/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=28a24bd133d51638709c0ae350b2626036381c84",
+      "patch": "@@ -18,11 +18,14 @@\n   * [５．科学技術](15_ステップ１科学技術.md)  \n   * [６．デジタル民主主義](16_ステップ１デジタル民主主義.md)  \n   * [７．医療](17_ステップ１医療.md)  \n+  * [８．マイナンバー制度の再設計と資産管理の高度化](18_ステップ１マイナンバー制度の再設計.md)  \n+  * [９．国営データセンターと行政手続きの抜本改革](19_ステップ１国営データセンターと行政手続きの抜本改革.md)\n * [ステップ２「変化に対応できる、しなやかな仕組みづくり」](20_ステップ２「変化に対応できるしなやかな仕組みづくり」.md)  \n   * [１．教育](21_ステップ２教育.md)  \n   * [２．くらしと行政](22_ステップ２くらしと行政.md)  \n   * [３．産業](23_ステップ２産業.md)  \n   * [４．医療](24_ステップ２医療.md)  \n+  * [５．社会保障（ベーシックインカム構想）](25_ステップ２社会保障.md)  \n * [ステップ３「長期の成長に大胆に投資する」](30_ステップ３「長期の成長に大胆に投資する」.md)  \n   * [１．子育て](31_ステップ３子育て.md)  \n   * [２．教育](32_ステップ３教育.md)  "
     }
   ],
   "commits": [
@@ -465,7 +465,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/2c32993c646d9ac9dec45d330b05655df9c70e46"
         }
       ]
+    },
+    {
+      "sha": "28a24bd133d51638709c0ae350b2626036381c84",
+      "node_id": "C_kwDOOqTJvNoAKDI4YTI0YmQxMzNkNTE2Mzg3MDljMGFlMzUwYjI2MjYwMzYzODFjODQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-09T03:00:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-09T03:00:17Z"
+        },
+        "message": "やえさんによる改善案：国営データセンターと行政手続きの抜本改革の追加",
+        "tree": {
+          "sha": "b4b505aea07c53b8dd82c13937822e6332eaa758",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b4b505aea07c53b8dd82c13937822e6332eaa758"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/28a24bd133d51638709c0ae350b2626036381c84",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobdtBCRC1aQ7uu5UhlAAAJAYQAAvSjuC7ZS4hNKPra0k+Pw/1\nURSM8v33tkrzdSdwlqPgEJVb1OJherkJsKe4xQY9VrCGMCvoR2ZzVq3slOiflory\nIWfuN7cMqrhbI2qnvKS9vqXtEK8Ey/9ZC6m83VZ0xyVccz2c3Mib5bdKsyrgFupE\nP7C5SEf9oeJ8/e6/wRqcyjj8HPG9RO50gzlLzVUwzbG46SeB5cI+bC4pd3/Tw58t\n3f7koOPxYujhgjW8f8fQiUqiOm0ambnmZHI6GuOkr/3GhElWpW2qnL9Zvm6pNNrs\nJTrCnAsnEAfaItwYfLQKGQFd+vvZudJ/xfsKFFOxK7ZMPid5dhhD6XReraKYoBCO\n5c4EmsYdWQgPrqnkhXDYcMaxjRxtMG+o8lsQzCHSr71rsj28GpKh0ChYR3fUhEGo\nC64XnEJ+SkPScHm86IRX2jK9LjC+o43FWiBik9e9qO+I1OmYW4hioJE9bKhP4jBo\nrH5suZ302q31oy5UCo6IKHzRUsDlNvBkPsszV5zl/sC5YyG3UjwG6JLGkiVE+HIe\n9zCH6iltN5fdCMW4iKfZa9jw32w0Ku8FqHBcpH07Lumn4iUYmFAfAfIqIc83IXkS\nbjXkjbRraom6e+GQx193Ub1QYNF34OlsujIGePtkTWEPE7jJF6SkcSRMBPhxwqlg\njTL/alZQcRWV5ccgZ/Ia\n=ZL0c\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b4b505aea07c53b8dd82c13937822e6332eaa758\nparent 518123446ef213515b068d32099627f4eec665bb\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752030017 +0000\ncommitter GitHub <noreply@github.com> 1752030017 +0000\n\nやえさんによる改善案：国営データセンターと行政手続きの抜本改革の追加",
+          "verified_at": "2025-07-09T03:00:18Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/28a24bd133d51638709c0ae350b2626036381c84",
+      "html_url": "https://github.com/team-mirai/policy/commit/28a24bd133d51638709c0ae350b2626036381c84",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/28a24bd133d51638709c0ae350b2626036381c84/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "518123446ef213515b068d32099627f4eec665bb",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/518123446ef213515b068d32099627f4eec665bb",
+          "html_url": "https://github.com/team-mirai/policy/commit/518123446ef213515b068d32099627f4eec665bb"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-09T01:02:16.239814"
+  "collected_at": "2025-07-09T03:18:33.765898"
 }
