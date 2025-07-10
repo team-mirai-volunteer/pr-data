@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5158,
+    "title": "kindleさんによる新規政策提案：「確率的価格調整システム」の追加",
+    "state": "open",
+    "created_at": "2025-07-10T10:10:38Z",
+    "updated_at": "2025-07-10T10:10:39Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5158",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "02222fc18197f27ef404ba3cf35a6bd0a1d46902",
+      "filename": "18_ステップ１確率的価格調整システム.md",
+      "status": "added",
+      "additions": 49,
+      "deletions": 0,
+      "changes": 49,
+      "blob_url": "https://github.com/team-mirai/policy/blob/e162afdc4eb1b66f4dfad06f3b22126084582747/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A2%BA%E7%8E%87%E7%9A%84%E4%BE%A1%E6%A0%BC%E8%AA%BF%E6%95%B4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/e162afdc4eb1b66f4dfad06f3b22126084582747/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A2%BA%E7%8E%87%E7%9A%84%E4%BE%A1%E6%A0%BC%E8%AA%BF%E6%95%B4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A2%BA%E7%8E%87%E7%9A%84%E4%BE%A1%E6%A0%BC%E8%AA%BF%E6%95%B4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0.md?ref=e162afdc4eb1b66f4dfad06f3b22126084582747",
+      "patch": "@@ -0,0 +1,49 @@\n+# 確率的価格調整システム\n+〜POSとアプリで実現する、信頼性の高い小額硬貨レス決済モデル〜\n+\n+## 1. 背景と目的\n+日本では1円・5円硬貨の製造コストが額面を上回る非効率性が課題です。\n+また、キャッシュレス決済が普及する一方、依然として根強い現金利用における小銭の取り扱いは、消費者・事業者双方にとって物理的・時間的な負担となっています。\n+この課題を解決するため、信頼性と公平性を担保した「確率的価格調整システム」を導入し、1円・5円玉を使わない社会への円滑な移行を実現することを目的とします。\n+\n+## 2. システムの仕組み\n+会計の合計金額に対し、確率的な丸め処理を適用し、支払額を10円単位に調整します。\n+* 処理対象: 現金支払いにおける会計合計金額の下一桁（1〜9円）。\n+* 確率的調整: 端数に応じて、切り上げ・切り下げの確率を変動させます。これにより、長期的・統計的にみて特定の誰かが損も得もしない公平なバランスを保ちます。\n+  * 例：合計 2,863円 の場合\n+    * 2,860円で決済される確率：70%\n+    * 2,870円で決済される確率：30%\n+    * （支払額の期待値は 2,863円となり、元の合計金額と一致します）\n+* 調整額の分離: 税計算の基礎となる「商品合計価格」と、支払いを円滑にするための「調整額」は会計上明確に分離して扱います。\n+\n+## 3. 制度の信頼性を支える3本の柱\n+本システムの社会受容性を高めるため、以下の3つの柱で信頼性を担保します。\n+### ① アルゴリズムのオープンソース化\n+* アルゴリズムはオープンソースとして公開し、誰でもその公平性を検証できるようにします。これにより、特定の事業者や利用者に不利益が生じない、透明で公正な制度運営を保証します。\n+### ② POSとアプリによる自動実装\n+* POSレジ: 開発されたアルゴリズムを各社のPOSレジシステムに組み込み、計算・処理・記録を完全に自動化します。\n+* アプリ版: 高価なPOSレジを持たない小規模店舗、個人商店、フリーマーケット、移動販売などでも本システムを利用できるよう、専用のアプリを提供します。店舗側はアプリで金額を入力するだけで、調整後の支払額とQRコードなどを提示できます。これにより、導入のハードルを劇的に下げ、社会全体への普及を促進します。\n+### ③ 徹底した透明性と消費者保護\n+* レシート・画面への明記: 各取引の結果（本来の合計額、適用された確率、調整額、最終支払額）をレシートやアプリ画面に詳細に明記し、利用者がいつでも確認できるようにします。\n+* 監査可能な記録: 全ての取引履歴は暗号化されたログとして安全に保存され、後から第三者による監査が可能な状態を維持します。これにより、不正や誤りを防止し、万が一のトラブルにも対応できます。\n+\n+## 4. 法的・会計的整理\n+本システムは、現行法との整合性を図ることで導入可能です。\n+\n+### 1.「表示価格≠支払額」となり、消費者の誤認を招く恐れについて\n+「価格＝商品合計＋税」と「調整額」を明確に分離して表示。\n+送料や決済手数料と同様に、事前に告知し同意を得ることで、合法的な枠組みを構築する。\n+\n+### 2.消費税の算定基準が不明瞭になることについて\n+消費税は価格（調整前）に基づき算出し、調整額とは明確に分離。\n+帳簿上も調整額は記録管理\n+\n+### 3.支払額が変動することが有利誤認を招く可能性について\n+「調整は価格とは別個の仕組みである」と明示し、オープンソースのアルゴリズムによって統計的に不偏（有利でも不利でもない）であることを証明可能にする。\n+\n+\n+## 5. 結論\n+「確率的価格調整システム」は、\n+①オープンソース化、②POS・アプリによる容易な導入、③徹底した透明性という3つの柱に支えられ、\n+小額硬貨の廃止という課題に対する現実的な解決策です。\n+法的・会計的な整理を行うことで、社会全体の効率化に貢献できると思います。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "78b1032fba0b1daa4f2b8595317d2cf422b71423",
+      "node_id": "C_kwDOOqTJvNoAKDc4YjEwMzJmYmEwYjFkYWE0ZjJiODU5NTMxN2QyY2Y0MjJiNzE0MjM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T10:05:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T10:05:43Z"
+        },
+        "message": "feat(政策): kindleさん提案の確率的価格調整システムを追加 by kindle",
+        "tree": {
+          "sha": "f9e7a879c9a9168b7a42cce50685c98ab1453496",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f9e7a879c9a9168b7a42cce50685c98ab1453496"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/78b1032fba0b1daa4f2b8595317d2cf422b71423",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob5B3CRC1aQ7uu5UhlAAAeTYQAI9nayVzS37+xzJ6XtW4qI3U\nFgFhXGkdd0VgI0iayx3L4IF55RAy3Ks1gbvuLU7pRs9iBNnMhcZBPoVIYCMsR7Me\nxTxct+iHIz7w40f+RZZSSSLhzllPMQUjl5s+/z42ekIbn+Grjbc06LhQGwMATlK0\np3xyaa7MqeMklnQOssO633okCqrUoO94pQyV9lj4Dj0HxZP0RRVKOhj27SdEYlBk\nbNcfeSfGoMygVh/2G7D8Go44b4x1+LS1oiAYYe91GWVRyI8bwHi0wXZ9WJF4WtjQ\nbXjgcUe4JxpY32aYpoR9LZYxFOHxLzR9rOkX0XIRoxuQtLLOO4WoSA6ZgC3JSA/p\nHgFJbCpePy3NvDIaatWmNoKNuQ2AY29t2kOl3CJGFcB/7T0SSu3AK4NwWDo3Ztcm\nwQ7fVr1PDMHFc1jkQU2wYmI8pAx1xoh+QCxN5BniTojQ4jnzyjpxWZb+QuKwATbV\nfJSQFcsedr0f6eHAomlo04IZ1gkipfgb49nQqOKpyFLHTA+p1fYGwNCI5xe6rAUO\nXwbhsruvgRr0Ysq6AWOXwXYSTH/KzgVGHG+FfKHQt5KFRSVOTXLdklH8TL22Lxz6\ngxHbqPbpmGIg0GFp6MlGLsZmJFWg/lFbY1DVIZQDlCXLcIlaWA12aA0StTmBhe/A\n6oEC2YakokSgVixnQBJc\n=FJDY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f9e7a879c9a9168b7a42cce50685c98ab1453496\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752141943 +0000\ncommitter GitHub <noreply@github.com> 1752141943 +0000\n\nfeat(政策): kindleさん提案の確率的価格調整システムを追加 by kindle",
+          "verified_at": "2025-07-10T10:05:43Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/78b1032fba0b1daa4f2b8595317d2cf422b71423",
+      "html_url": "https://github.com/team-mirai/policy/commit/78b1032fba0b1daa4f2b8595317d2cf422b71423",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/78b1032fba0b1daa4f2b8595317d2cf422b71423/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    },
+    {
+      "sha": "e162afdc4eb1b66f4dfad06f3b22126084582747",
+      "node_id": "C_kwDOOqTJvNoAKGUxNjJhZmRjNGViMWI2NmY0ZGZhZDA2ZjNiMjIxMjYwODQ1ODI3NDc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T10:09:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T10:09:01Z"
+        },
+        "message": "feat: kindleさんによる新規政策「確率的価格調整システム」の追加",
+        "tree": {
+          "sha": "664caffb0b21337d7a765c6b4a9bab2e6c45f09d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/664caffb0b21337d7a765c6b4a9bab2e6c45f09d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e162afdc4eb1b66f4dfad06f3b22126084582747",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob5E9CRC1aQ7uu5UhlAAAbCgQACQ/VicOBPwvZ4ZZYgajmW+i\naKDpQpHmDQGDDYFSY8xTYcvWcJ6KVsEia0EfgObnRqlwKnuw6WAyV+QdgF2V0XTe\nFx20IHKs6uJ3GUaCLRmHGpn4gZo3e8xGw4gmxwjQIAZKfBpKEi5HKKgnvaM5VysP\nWiq6qegktTrxVfTxtGeRTaKg8AaSEKMtIGbXbogWETx+6D3aCa6OZgPiSuuNmk2S\nBAePKya+1O2VXK9woOjTKrcIr6Qg9AXeB3Yck/ZZIbfx/JHok3LxaRrilEsEL2lW\nmtv+GSjMROUlFpnYHQqvH8rlKeYRM1XHrR+hhWTaXcQugprJTdQWF/F5do8Ej+9w\nG98tbSY5kkVzrEZi0hbaZ+vOQdzrV4lDmuuta7HOBov7oFC+9//mZKsYlhYvPlMw\ntEch9UlikTU5qha7+3+nbJgiYED2jUnR/zxxcXeg+coefCLRSxRWS8fWXD+5d7FJ\n33HMpcpdQtj9v9prNMLjNeYpddODHvsti1UyzAlYinuXG+V/WhVtdg3n19zgHqh9\nhx0RYAZbei6vCJHDh4vpfJRYz/WwbdXnf0Lp3Y7KZskELZ68QGbM+1Fd+szyk+uu\njQRpjLBktaPUiF7aZZSEihuZdD1Bkef5QGYq5tF1mR9SBohX2LahXJ1SJ2GsOGVk\nIXpHav2DkeRcaht9BEeq\n=foic\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 664caffb0b21337d7a765c6b4a9bab2e6c45f09d\nparent 78b1032fba0b1daa4f2b8595317d2cf422b71423\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752142141 +0000\ncommitter GitHub <noreply@github.com> 1752142141 +0000\n\nfeat: kindleさんによる新規政策「確率的価格調整システム」の追加",
+          "verified_at": "2025-07-10T10:09:02Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e162afdc4eb1b66f4dfad06f3b22126084582747",
+      "html_url": "https://github.com/team-mirai/policy/commit/e162afdc4eb1b66f4dfad06f3b22126084582747",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e162afdc4eb1b66f4dfad06f3b22126084582747/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "78b1032fba0b1daa4f2b8595317d2cf422b71423",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/78b1032fba0b1daa4f2b8595317d2cf422b71423",
+          "html_url": "https://github.com/team-mirai/policy/commit/78b1032fba0b1daa4f2b8595317d2cf422b71423"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T10:14:21.397447"
+}
