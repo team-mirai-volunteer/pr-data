@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5283,
+    "title": "福祉政策の改定：地域包括支援センターの機能強化と障害者支援の長期視点の追加",
+    "state": "open",
+    "created_at": "2025-07-10T19:27:58Z",
+    "updated_at": "2025-07-10T19:27:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5283",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "2eba709b6c186c5945235e5554a4faceb628c4be",
+      "filename": "28_ステップ２福祉.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/573d690a981b696cf2f63c574fccad253bb42fa1/28_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A6%8F%E7%A5%89.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/573d690a981b696cf2f63c574fccad253bb42fa1/28_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A6%8F%E7%A5%89.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/28_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E7%A6%8F%E7%A5%89.md?ref=573d690a981b696cf2f63c574fccad253bb42fa1",
+      "patch": "@@ -63,7 +63,7 @@\n   * 個々の進捗や理解度に合わせて難易度や内容を調整するアダプティブ・ラーニング教材を提供します。  \n   * 支援施設におけるスケジュール管理、記録作成、報告業務などを自動化・効率化し、スタッフが直接的なケアにより多くの時間を割けるようにします。  \n * 自治体が実施する乳幼児健診の効率化、機関間情報連携により保護者負担を軽減  \n-  * 現在集団で実施されている乳幼児健診（3歳児健診等）に関して、待ち時間をなくす順番管理システムを導入し、保護者負担を減らします。  \n+  * 現在集団で実施されている乳幼児健M（3歳児健診等）に関して、待ち時間をなくす順番管理システムを導入し、保護者負担を減らします。  \n   * また、すでに療育施設など他の支援機関で支援を受けている子どもの情報を、事前にデジタルで自治体と連携できる仕組みを整備します。これにより、健診時に同じ内容を繰り返し聞かれることがなくなり、保護者・子どもの負担を減らします。  \n * 遠隔医療・療育推進、遠隔モニタリングと見守り支援  \n   * 遠隔地に住む家族や移動が困難な子どものために、専門的な療育（言語、作業、理学療法など）、カウンセリング、医療相談などをオンラインで提供するテレヘルスを普及させます。VR/AR技術を活用した遠隔リハビリやソーシャルスキルトレーニングの可能性も追求していきます  \n@@ -164,3 +164,16 @@\n * 就労支援者と企業・本人をつなぐ遠隔伴走支援システムを構築し、支援者が常駐せずとも継続的なフォローができる体制を実現します。\n * 障害者雇用の定着状況や支援の質を可視化し、「雇うこと」だけでなく「続けられる支援」を行う企業が評価される助成制度に見直します。\n * 地域の小規模企業が連携して障害者を雇用できる「シェア雇用モデル」を整備し、個社単独では難しい課題を地域ぐるみで支えられるようにします。\n+\n+## 9）テクノロジーで支える地域包括ケア：高齢者の尊厳と支援者のやりがいを守る\n+\n+### 現状認識・課題分析\n+* 地域包括支援センターは、ゴミ屋敷、虐待、劣悪な住環境での生活継続など、複雑で困難な課題を抱える高齢者を支える最前線です。\n+* 「自己決定の尊重」という理念は重要ですが、その実現のために、職員は何度も家庭訪問を重ね、多職種と連携し、膨大な時間を費やしています。福祉業界の慢性的な人手不足の中、現在の属人的・献身的な努力に頼る支援体制は限界に達しつつあります。\n+* さらに、個人情報保護などを理由にICTツールの利用が制限され、電話やFAXといったアナログな手段でのコミュニケーションが中心となり、職員の大きな負担となっています。高齢者からの「世間話」のような長時間の電話も、職員が対応せざるを得ない状況があり、本来注力すべき業務を圧迫しています。\n+\n+### 政策概要\n+* 対話AI技術を活用し、高齢者やその家族からの電話相談を自動で録音・テキスト化。相談内容の要約作成や、頻出の質問への自動応答（FAQ）機能を導入し、職員の電話対応業務を大幅に効率化します。\n+* AIが相談記録から重要なキーワードや課題を抽出し、関連する制度やサービス、過去の類似ケースなどをリコメンドすることで、ケアプラン作成を支援します。\n+* 自治体、医療機関、介護事業者などが、安全な環境でリアルタイムに情報を共有・連携できる「地域包括ケア・プラットフォーム」を構築します。これにより、電話での煩雑な伝達や確認作業をなくし、迅速で一体的な支援を実現します。\n+* これらのテクノロジー導入により、職員の方々が、記録作成や連絡調整といった間接業務から解放され、本来の専門性を活かした対面でのカウンセリングや、複雑なケースへの介入といった、人でなければできない、より質の高い支援に集中できる環境を整えます。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "573d690a981b696cf2f63c574fccad253bb42fa1",
+      "node_id": "C_kwDOOqTJvNoAKDU3M2Q2OTBhOTgxYjY5NmNmMmY2M2M1NzRmY2NhZDI1M2JiNDJmYTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T19:21:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T19:21:19Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、地域包括支援センターの業務効率化に関するセクションを追加",
+        "tree": {
+          "sha": "c1c4e50c5c0cb3c255d2d0d7b676344c85e3f7f2",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c1c4e50c5c0cb3c255d2d0d7b676344c85e3f7f2"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/573d690a981b696cf2f63c574fccad253bb42fa1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocBKvCRC1aQ7uu5UhlAAAbjUQAG7hN7GFpyY+OLub24E6a+rQ\nQ4VKeKEUk8/WOADc4Hsk+Ht/wz3+x5m+eLZbVWSpH5GOw7vV7tfmyyd2szDFwJ+N\nhKshs4IPsRSNko60rrsyM6ZZUXidRjkV7eo0jdDnhi+0111WioeZ0q2WJZE6HTCE\nERUeQ0PPP+Pup8P4boIcbfDKaaWhGBTYcacHj4pXBjxzAGmtG0okb57OLdOUcv+B\no+H20OxukajLvFqUtFi2DrUUVznBtLkXNPf8ttmN8t2v/CvnNUhaZtyE+2hlsbAg\nmdYHQI6s+rviRpH5HLBDwJ5+ZKhchHFPuAf6nVjkF/HgnzYzd4h28KYxxkgGg6um\nwlP2a0piY2m0+ni5/eORdcSAYn7TVCh5GbyTrd+OI7tK4PEaOfPhbI+6fD+BXRLh\n5k9hv0jdauhR5YJdUm2qdWo2haKgV2uikeff3oJFwuO+LWhGAAOJbbc9CdpeJbJU\nJjkhhbfJ4UYbDWZVA3hkQQDS9hsVuj/TiwpqhUUO2P5iF9Xcgap+2I0Wr7idcF9v\n2NpuoWruz8ZQAEi5+gsCNuOSCkUcgZbL/X759Ts3jciMueZqGcenwqojCIlkIjRK\nKJF93Cy8Xa+R4apWFOFrENuOzJY8BRK6y0s4RKQo2xSzmUV/lUuY3PftiNaK5ULe\nG7WbniDbVvn6o/tB7R7/\n=6O2R\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c1c4e50c5c0cb3c255d2d0d7b676344c85e3f7f2\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752175279 +0000\ncommitter GitHub <noreply@github.com> 1752175279 +0000\n\n匿名ユーザーからの提案に基づき、地域包括支援センターの業務効率化に関するセクションを追加",
+          "verified_at": "2025-07-10T19:21:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/573d690a981b696cf2f63c574fccad253bb42fa1",
+      "html_url": "https://github.com/team-mirai/policy/commit/573d690a981b696cf2f63c574fccad253bb42fa1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/573d690a981b696cf2f63c574fccad253bb42fa1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T20:14:24.514878"
+}
