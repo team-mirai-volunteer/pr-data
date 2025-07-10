@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5069,
+    "title": "「変更提案について」の表現修正（README.md）",
+    "state": "open",
+    "created_at": "2025-07-10T04:00:58Z",
+    "updated_at": "2025-07-10T04:00:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5069",
+    "user": {
+      "login": "aihojo",
+      "id": 142116248,
+      "html_url": "https://github.com/aihojo"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "0d11c7684dbc7de138df144d6145f96927e9be7c",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/team-mirai/policy/blob/34fef4cad44aee7430a71c5d50fa396f987d8f13/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/34fef4cad44aee7430a71c5d50fa396f987d8f13/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=34fef4cad44aee7430a71c5d50fa396f987d8f13",
+      "patch": "@@ -58,7 +58,7 @@\n 本マニフェストによる変更提案は２つの形で受付をしています。\n \n * [こちら](https://policy.team-mir.ai/view/README.md)のページから、チャットで政策要望を提出する  \n-* （玄人向け）[GitHub](https://github.com/team-mirai/policy/pulls)でPull Requestを提出する\n+* [GitHub](https://github.com/team-mirai/policy/pulls)でPull Requestを提出する\n \n 　頂いた変更提案は、チームみらいが責任をもって確認します。変更提案をマニフェストに反映させるかどうかについては、チームみらいが権限を持ちます。当初マニフェストとは異なる方向性の提案であっても、真剣に検討し、反映するかどうかを考えます。\n "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "34fef4cad44aee7430a71c5d50fa396f987d8f13",
+      "node_id": "C_kwDOPJ7hkdoAKDM0ZmVmNGNhZDQ0YWVlNzQzMGE3MWM1ZDUwZmEzOTZmOTg3ZDhmMTM",
+      "commit": {
+        "author": {
+          "name": "Ai.H",
+          "email": "142116248+aihojo@users.noreply.github.com",
+          "date": "2025-07-10T03:57:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T03:57:49Z"
+        },
+        "message": "「変更提案について」の表現修正（README.md）\n\n【修正前】\r\n本マニフェストによる変更提案は２つの形で受付をしています。\r\n\r\nこちらのページから、チャットで政策要望を提出する\r\n（玄人向け）GitHubでPull Requestを提出する\r\n\r\n【修正案】\r\n本マニフェストによる変更提案は２つの形で受付をしています。\r\n\r\nこちらのページから、チャットで政策要望を提出する\r\nGitHubでPull Requestを提出する\r\n\r\n【修正の意図】\r\nGitHubの前の（玄人向け）という表記を消しました。GitHubが「玄人向け」というのは同時に、チャット形式がその対義語として「素人」を連想させるように思います。GitHubが馴染みがない人が多いのでGitHubに注釈を加えたい意図は理解しますが、このような書き方はテクノロジーの「玄人」の「素人」に人を区分するようなニュアンスを感じるふさわしくないと感じます。むしろテクノロジーによって、技術テクノロジーの「素人」も「玄人」も分け隔てなくマニフェスト修正にアクセスできるというものがチームみらいのアピールすべき目指す社会の姿ではないでしょうか？そのためにこの表記は修正すべきです。",
+        "tree": {
+          "sha": "5650a284f7c2dcc50f3843adfeb8c8bec5fc4fa9",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5650a284f7c2dcc50f3843adfeb8c8bec5fc4fa9"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/34fef4cad44aee7430a71c5d50fa396f987d8f13",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobzo9CRC1aQ7uu5UhlAAAxEQQAA1V8/mcS5JMdt1gWWLiFQCi\nt2+QW1aLq5dEXnFNAbIlH0spdudmHkO02Ov96kQi/VSjC1rH6RoWpRyiRfEF6SFi\ntEJxRbKmC29/NxSJ6ab5hs3A41FwRIWqae9ZyELbmgf6P6KK0HlYzejGfWu/ZpPt\nD7i0kjwsJCZlK+QUfU0upQ1wwsSOO8kNLRlKU8mOklzS9+uiLvIDLTe9Gk7gLVpw\nsuwpWHjqD6rcNW8vuQt1DkIIXD0JJnBFDG+J5MELFtwu4dIhMwHwO5OvsD0auQhn\nSdTvQUVgx1tU8hbCzsNDHE2P3eP1qD84jS76OlbVNkJa2SyZmk6HZCcsNO0vfmvS\nbpOZi+6Z127PPbErJ2QGHHYIlWuh/R+DXAt6BxBvXgqZSXq8giuAxqM4sDtE8gIA\nRadfI9d/8/FyO9rIWePc8zJOeVF8+T9FHSe0PPnqGdiG7S0qd62bKQ4vxwSm6sRH\nAU5UKqrXZ7qisubIyUaffqPaJlj6P+Xr8ew3p5xRgpyH4J1fy4w8lhZGyor6msvM\nzl5KtaGMgyqOZ8mXXwPxp39iBFsANvwIfZGa+UthdDmO6cS7zhJyk9u26Zhe0ZkL\nk6aotqsi3oVNSH91oMTAjlZhw+8pxcjqBwAoiFspi9f1SRYOl3ksVljachUnT4Pt\n1WQjJ45JyjwPTnZBJiHq\n=gaeN\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5650a284f7c2dcc50f3843adfeb8c8bec5fc4fa9\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor Ai.H <142116248+aihojo@users.noreply.github.com> 1752119869 +0900\ncommitter GitHub <noreply@github.com> 1752119869 +0900\n\n「変更提案について」の表現修正（README.md）\n\n【修正前】\r\n本マニフェストによる変更提案は２つの形で受付をしています。\r\n\r\nこちらのページから、チャットで政策要望を提出する\r\n（玄人向け）GitHubでPull Requestを提出する\r\n\r\n【修正案】\r\n本マニフェストによる変更提案は２つの形で受付をしています。\r\n\r\nこちらのページから、チャットで政策要望を提出する\r\nGitHubでPull Requestを提出する\r\n\r\n【修正の意図】\r\nGitHubの前の（玄人向け）という表記を消しました。GitHubが「玄人向け」というのは同時に、チャット形式がその対義語として「素人」を連想させるように思います。GitHubが馴染みがない人が多いのでGitHubに注釈を加えたい意図は理解しますが、このような書き方はテクノロジーの「玄人」の「素人」に人を区分するようなニュアンスを感じるふさわしくないと感じます。むしろテクノロジーによって、技術テクノロジーの「素人」も「玄人」も分け隔てなくマニフェスト修正にアクセスできるというものがチームみらいのアピールすべき目指す社会の姿ではないでしょうか？そのためにこの表記は修正すべきです。",
+          "verified_at": "2025-07-10T03:57:50Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/34fef4cad44aee7430a71c5d50fa396f987d8f13",
+      "html_url": "https://github.com/team-mirai/policy/commit/34fef4cad44aee7430a71c5d50fa396f987d8f13",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/34fef4cad44aee7430a71c5d50fa396f987d8f13/comments",
+      "author": {
+        "login": "aihojo",
+        "id": 142116248,
+        "node_id": "U_kgDOCHiFmA",
+        "avatar_url": "https://avatars.githubusercontent.com/u/142116248?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/aihojo",
+        "html_url": "https://github.com/aihojo",
+        "followers_url": "https://api.github.com/users/aihojo/followers",
+        "following_url": "https://api.github.com/users/aihojo/following{/other_user}",
+        "gists_url": "https://api.github.com/users/aihojo/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/aihojo/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/aihojo/subscriptions",
+        "organizations_url": "https://api.github.com/users/aihojo/orgs",
+        "repos_url": "https://api.github.com/users/aihojo/repos",
+        "events_url": "https://api.github.com/users/aihojo/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/aihojo/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T04:26:10.935218"
+}
