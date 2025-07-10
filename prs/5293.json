@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5293,
+    "title": "【じゅんさん提案】保育園の連絡帳デジタル化による保護者・保育士の負担軽減",
+    "state": "open",
+    "created_at": "2025-07-10T22:40:50Z",
+    "updated_at": "2025-07-10T22:40:51Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5293",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "00ae73c891c90aaceaf9ee09cd017ff513c90004",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/team-mirai/policy/blob/f00541f053ba909a29c02064a8c82cb66069e879/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/f00541f053ba909a29c02064a8c82cb66069e879/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=f00541f053ba909a29c02064a8c82cb66069e879",
+      "patch": "@@ -1,4 +1,4 @@\n-\\\n+\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -16,7 +16,7 @@\n \n * 現在の母子手帳は紙媒体が主流であり、妊娠中の体調が不安定な時期に受け取りに行く手間や、紛失のリスクがあり、それによってワクチン接種記録などが確認できず、適切な時期に必要な医療や予防接種が受けられなくなるケースがあります。  \n * また、妊婦健診の受診券・補助券の手続きや、産後の煩雑な予防接種のスケジュール管理、医療機関での予診票の都度記入など、アナログな手続きが保護者の負担となっています。体調がすぐれなかったり忙しい時期に何度も名前や住所を繰り返し書く作業は、負担として蓄積しています。  \n-* また、妊娠の経過によっては妊婦健診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* また、妊娠の経過によっては妊婦健巡の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n \n ### 政策概要\n \n@@ -60,6 +60,6 @@\n \n * 全国の認可保育所、企業主導型保育、ベビーシッターなどの登録情報を集約し、空き状況をリアルタイムで可視化する「保育マッチングプラットフォーム」を構築します。  \n   * 出産施設を探す「出産なび」のような情報一元化を目指していきます  \n-* これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n+* これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。さらに、連絡帳のデジタル化も推進し、園での様子を写真や動画で共有できる機能も加えることで、保護者と園のコミュニケーションを円滑にし、双方の負担を軽減します。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n * 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "c941e42ae29af53154ab721f8ed77cf3beb29578",
+      "node_id": "C_kwDOOqTJvNoAKGM5NDFlNDJhZTI5YWY1MzE1NGFiNzIxZjhlZDc3Y2YzYmViMjk1Nzg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T22:28:34Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T22:28:34Z"
+        },
+        "message": "じゅんさんの提案に基づき、保育プラットフォームに連絡帳のデジタル化と写真・動画共有機能を追加",
+        "tree": {
+          "sha": "8ff8bfc4a9fffa2626f7454921f4f3afe6462acf",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/8ff8bfc4a9fffa2626f7454921f4f3afe6462acf"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c941e42ae29af53154ab721f8ed77cf3beb29578",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocD6SCRC1aQ7uu5UhlAAALMIQAKDkMH7JjrzT5FJ81zIcM+Bc\navMgwD6E8DG6zg9FVlx3i4invLzS5Ou1WYrwEoxPGUkxpwPh+Wc5HZjA+yjsa+/H\nhnZ6H6UbbNzl5ll7/jU/nIZuIZODT22quTAAhw2iRxAefhhk9Nw9VOIH2nNX8eyf\nlsQSiLfwSaVpHoQtdB/+/Vl4ssCnIJKo/F5FW+vvGFu0oy+TfjpEkjvmxZl/TyZg\npangKtbGDJEU3/ouIgatee+fU7fpKGkPW7iltXgZrb7hujzcP3iOTrDEfBK6l47A\nC8/fq3RFN1mtjpyFg+vz2g1WdtOx5gcsNXzfBTF7XTAUVFLEaAmzcgfLnSJ2/m8q\n550gsDRkp0i+ULnTfm4ctribks53rY8kSn9HYUbkT7Ie4OimVPNaaucfca7NSpUe\nRt/8E1B9YGALpk8lajpXySCmqcyqVdlX4uB02sPoQJGQOiD1jzvk1LkUeDm2SU8b\nfHgIE5tfVR7Gb0FXnXjgh6co/nN+Bz/nBwoTaNMEkEQ5gjFMnoEBuPvq+U652aNK\n9GYBLACpgPFyYhPM9P2fN50Lbc7XMszTxSzMUo1k35G1PWsDl05OkHRVMSTvg5Jp\nClHrFqke+6ltIbB+/GwwxMNVp34TGzf2co2nTppRSxqyGGdbaE20z1+eGMGj/xcS\nMCCKJweATs6LlgKN4Lsi\n=jp3c\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8ff8bfc4a9fffa2626f7454921f4f3afe6462acf\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752186514 +0000\ncommitter GitHub <noreply@github.com> 1752186514 +0000\n\nじゅんさんの提案に基づき、保育プラットフォームに連絡帳のデジタル化と写真・動画共有機能を追加",
+          "verified_at": "2025-07-10T22:28:34Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c941e42ae29af53154ab721f8ed77cf3beb29578",
+      "html_url": "https://github.com/team-mirai/policy/commit/c941e42ae29af53154ab721f8ed77cf3beb29578",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c941e42ae29af53154ab721f8ed77cf3beb29578/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    },
+    {
+      "sha": "f00541f053ba909a29c02064a8c82cb66069e879",
+      "node_id": "C_kwDOOqTJvNoAKGYwMDU0MWYwNTNiYTkwOWEyOWMwMjA2NGE4YzgyY2I2NjA2OWU4Nzk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T22:40:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T22:40:49Z"
+        },
+        "message": "じゅんさんの提案に基づき、連絡帳のデジタル化に関する記述を追加",
+        "tree": {
+          "sha": "8ff8bfc4a9fffa2626f7454921f4f3afe6462acf",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/8ff8bfc4a9fffa2626f7454921f4f3afe6462acf"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f00541f053ba909a29c02064a8c82cb66069e879",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocEFxCRC1aQ7uu5UhlAAAuPoQAB5rfz4zNxHPcppuM+z0E3Sd\n3XVWXwZqWd6u4NSnXEm8DNJBV+y/kEmtfhHQsv3nB7CkYPeoLjxJTvFSV9EhB5Nk\ncVZttxGyB9RQyK0SZcnNeLikNScYL2oA6YwqN49grH21rg2dWtdXWoUQ3vu7etdR\nmQN0R6wBMHzD9PKMuJYwEv4UQBzGwKLiBhSV+7Q7p8+V+04dSOHxpkMeGPkRKB+4\nEWLGH5/zYrMnXVxBXBAZk62Is+4SGVawepomBvc4QcipiwR6YkWSzbMBB5ZbtcTw\nee6hgcJNbIliaiLVgJ6j0IlEPoUbUmJNl5SnrN/3/Fmknx4Eus8fGIlSEn4XIPeA\n104i6gJ2qonDe4EmhcrytlmbJFGaVHReBPDaTtRg9N3dVJl2ZAUNIbal0i6+15CW\n8S2K9H1wrTy2OJoS0cJfb8SL14Ss6iH40qPnWAYywDE7NRVNE6Opor6cVkLfACwE\nlhVODc9d+R88hiFMEooHPCGoIyuSHUTpRmskSwGhPPqKc00JzlZjDr9mW8EJVxUj\n/PfI/w5ZNXICicq3n6TheQBIpegoD/XVvNtnMYKYmkWyz/Be7/f1C+YuIh1h5zyq\nZciUZO3zGxH3PuTQ+0LzRuTbYTfWb1zL/7XWpW40KcfkbmN/Z1vIztFfM+luoz34\nsl377/ZDIfj8sx7F9MBr\n=rB4V\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8ff8bfc4a9fffa2626f7454921f4f3afe6462acf\nparent c941e42ae29af53154ab721f8ed77cf3beb29578\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752187249 +0000\ncommitter GitHub <noreply@github.com> 1752187249 +0000\n\nじゅんさんの提案に基づき、連絡帳のデジタル化に関する記述を追加",
+          "verified_at": "2025-07-10T22:40:50Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f00541f053ba909a29c02064a8c82cb66069e879",
+      "html_url": "https://github.com/team-mirai/policy/commit/f00541f053ba909a29c02064a8c82cb66069e879",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f00541f053ba909a29c02064a8c82cb66069e879/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c941e42ae29af53154ab721f8ed77cf3beb29578",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c941e42ae29af53154ab721f8ed77cf3beb29578",
+          "html_url": "https://github.com/team-mirai/policy/commit/c941e42ae29af53154ab721f8ed77cf3beb29578"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T23:13:11.064631"
+}
