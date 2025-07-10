@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5270,
+    "title": "家庭の事情によらず、子ども自身の意思で支援を受けられる仕組みの追加",
+    "state": "open",
+    "created_at": "2025-07-10T16:34:04Z",
+    "updated_at": "2025-07-10T16:34:05Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5270",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "fb11cbdbb883f2f8b8d0d8f3ae8392f3406ef7bf",
+      "filename": "11_ステップ１教育.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "changes": 3,
+      "blob_url": "https://github.com/team-mirai/policy/blob/8576e0a9ed44fb444a1c7e885155cdb20131d177/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/8576e0a9ed44fb444a1c7e885155cdb20131d177/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=8576e0a9ed44fb444a1c7e885155cdb20131d177",
+      "patch": "@@ -133,7 +133,7 @@\n * AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができます（プッシュ型支援）。\n * 多機関連携型のデータプラットフォームを構築します。  \n   * 学校（出欠席、学習状況、面談記録など）、教育委員会（不登校相談、いじめ事案記録など）、福祉部局（生活保護、児童手当、子育て相談記録など）、医療機関（健診データ、発達相談記録など）、その他地域の子育て支援団体などが持つ匿名化・非識別化された関連データを、高いセキュリティ基準のもとで一元的に集約・連携するプラットフォームを構築します。  \n-  * 個人が特定できない形でのデータ連携を徹底し、プライバシー保護を最優先とします。必要な場合は、個人情報の利用目的を明確化し、保護者の同意を十分に得るプロセスを導入します。  \n+  * 個人が特定できない形でのデータ連携を徹底し、プライバシー保護を最優先とします。必要な場合は、個人情報の利用目的を明確化し、保護者の同意を十分に得るプロセスを導入します。ただし、子ども本人から強い支援の申し出があった場合や、虐待等が疑われる状況においては、専門機関が子どもの最善の利益を第一に判断し、保護者の同意がなくとも支援を開始できる仕組みを構築します。  \n   * 構築されたデータプラットフォーム上の情報（たとえば、欠席の増加、特定の科目での成績低下など）をAIが複合的に分析し、いじめや不登校の兆候、家庭内の変化、学習上の困難、心身の不調など、支援が必要となる可能性のある子どもや家庭を早期に抽出します。  \n     * AIの分析結果は、支援の必要性に関する参考情報として、関連する教職員や支援者にのみアラートとして通知され、その後の専門職による判断や具体的な介入につなげます。  \n * プッシュ型（情報お届け・提案型）の個別アプローチを強化します。  \n@@ -185,3 +185,4 @@\n * 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。  \n * 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。   \n   * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "8576e0a9ed44fb444a1c7e885155cdb20131d177",
+      "node_id": "C_kwDOOqTJvNoAKDg1NzZlMGE5ZWQ0NGZiNDQ0YTFjN2U4ODUxNTVjZGIyMDEzMWQxNzc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T16:23:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T16:23:10Z"
+        },
+        "message": "Yoshimiさんの提案に基づき、保護者の同意なく支援を開始できる例外規定を追加",
+        "tree": {
+          "sha": "57d0009a23d842ffd5cd4e851e2c799784d45c79",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/57d0009a23d842ffd5cd4e851e2c799784d45c79"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8576e0a9ed44fb444a1c7e885155cdb20131d177",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob+juCRC1aQ7uu5UhlAAAGwsQAAZcU0kKIjm3MuTnvS0GWDBQ\nqYUljWANhmr30HhHY4gium4tow/yRmOkmZyjIDO93MrrMdxJ8YuEc4YeU2LI2Jdd\n7pA+821nM5Szfz/8+4vAlj4EGPghSS7Ag4Xx5pO92/XdnM4y7X1sxkE3OzG4zw/q\nVjpyta5ltOg2x/bgKvtJIYdRr11yEoqMalijXlvpo63++Qf11gKzQBd3QQQNafgW\nNqF0XcQaX/giZXHKHcbowiLFxhRTUPrxW8bhQeYpM+BfuMnL4pkSpHejp5bqJXYY\nrBwzW0d4KqX3DfcbSA2UDXWOu/AH+mUmgfiOqXGaBEICsyAen8VBcRHFTIq+0iai\nt/bXkGUtygT/9SlMbi0SxCxje7wEXV/7n3iIyKlcA7BZVBWNTarDubijqHVG5GUQ\njLbiNTyp5V3eQlVva/bb+brR7xfUX/8/2n8QgxnsWQNvzumbN8KwqEDpPocDWTwe\nlHeN+JHhHR35kj9lt1ylUczXjtncYPZ4CP1aXtoS0bveLd3BhyDEmgUoenvmCcbM\nmEjOtIFjn0OAXTqCLMPp5jYmDaZbzIscBsxwxqdkzbi/cTjr66jJSD8uJ3fqkxjV\nf6BBruQfiYFSIaNG9vD+tlTjDjkxipewRH0DEH0GWCbz1/nG7UesQH0wjU3mPD/2\nBaoawWqaMeff7wkBMk69\n=isgQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 57d0009a23d842ffd5cd4e851e2c799784d45c79\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752164590 +0000\ncommitter GitHub <noreply@github.com> 1752164590 +0000\n\nYoshimiさんの提案に基づき、保護者の同意なく支援を開始できる例外規定を追加",
+          "verified_at": "2025-07-10T16:23:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/8576e0a9ed44fb444a1c7e885155cdb20131d177",
+      "html_url": "https://github.com/team-mirai/policy/commit/8576e0a9ed44fb444a1c7e885155cdb20131d177",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8576e0a9ed44fb444a1c7e885155cdb20131d177/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T17:14:42.093785"
+}
