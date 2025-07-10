@@ -1,10 +1,10 @@
 {
   "basic_info": {
     "number": 5138,
-    "title": "永井さんの提案：医療評価制度をプロセス評価へ転換し、世界標準の医療導入を促進",
+    "title": "医療制度の改善提案：EBM評価の導入とプライマリケア強化（永井様提案）",
     "state": "open",
     "created_at": "2025-07-10T08:35:31Z",
-    "updated_at": "2025-07-10T08:35:32Z",
+    "updated_at": "2025-07-10T08:55:37Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/5138",
@@ -19,16 +19,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "e03ba8f8a8226ff257ccbaf70c8c7c7bd525701d",
+      "sha": "e2b1b6815ed0d51aaf59935f8e89e73bda56e7d3",
       "filename": "24_ステップ２医療.md",
       "status": "modified",
-      "additions": 13,
-      "deletions": 14,
-      "changes": 27,
-      "blob_url": "https://github.com/team-mirai/policy/blob/a86b3c2801129efc22d704aef49a2af4b483e9de/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/a86b3c2801129efc22d704aef49a2af4b483e9de/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=a86b3c2801129efc22d704aef49a2af4b483e9de",
-      "patch": "@@ -39,23 +39,22 @@\n \n ## \n \n-## 2）治療成果に報いる医療アウトカム評価制度の導入\n+## 2）科学的根拠（EBM）に基づく医療を推進する評価制度の導入\n \n ### 現状認識・課題分析\n \n-* 日本では医療費の約3割が、糖尿病・COPD・心不全などの慢性疾患に費やされています  \n-* 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言い難い側面がある  \n-  * 現行の医療制度は行われた処置・診察の回数に応じて診療報酬が設計されており、疾患コントロールが改善したことに対するインセンティブは設計されていない  \n-  * 糖尿病や高血圧、脂質異常症などの慢性疾患の多くは重症化し、虚血性心疾患などのイベントが発生するまで、自覚症状に乏しいことも多く、患者サイドにも治療を強化し、積極的に状態をよくしようと動機づけしにくい場合がある  \n-* 海外では、治療成果に応じて報酬が支払われる制度が導入され、一定の課題が示されつつも医療の最適化と費用削減を両立が期待されています\n+* 日本では医療費の約3割が、糖尿病・COPD・心不全などの慢性疾患に費やされています\n+* 日本の現行制度は、行った診療行為の量（出来高）で評価されるため、医療の質が直接報酬に反映されにくい構造です。そのため、糖尿病や高血圧などの慢性疾患管理において、血糖値のような「代替アウトカム指標」の改善のみが追求され、心血管イベントの予防といった「真のアウトカム」に繋がらない医療が行われる懸念があります。実際に、患者の最終的な健康成果に繋がることが証明された医療プロセスが実践されているかを評価する仕組みは不十分です。\n+* 海外で導入されている成果連動型報酬も、評価指標の設定によっては本質的でない医療を誘発する課題が指摘されており、より質の高い医療プロセス自体を評価する重要性が高まっています。また、国際的なガイドラインで推奨される標準治療が、国内では保険未承認のため実施できないという「ドラッグ・ラグ／デバイス・ラグ」も存在し、患者が最善の医療を受ける上での障壁となっています。\n \n ### 政策概要\n \n-* 「どれだけ診療が行われたか」だけでなく、「どれだけ良くなったか」にも報いる医療制度への転換を目指し、成果連動型の診療報酬制度を導入する  \n-  * 糖尿病、COPD、心不全など、アウトカム指標が整備され患者数・医療費規模の大きい慢性疾患の治療成果を「血糖値」「呼吸機能」「心不全マーカー」などの指標で評価  \n-  * 治療の効果が高い医療機関に対しての報酬加算、患者に対しての還元を設計し、医療機関・患者の双方に動機づけを行う  \n-* 診療データを匿名化し、全国医療データベース（NDB）で一元管理。AIを活用した公平で迅速な評価を行う仕組みを整えます  \n-  * アウトカム評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます  \n-  * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n-  * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n-  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+* 「どれだけ診療が行われたか（量）」だけでなく、「どのような質の高い医療が実践されたか（プロセス）」がより報われる医療制度への転換を目指し、科学的根拠（エビデンス）に基づく医療プロセスを評価する診療報酬制度を導入します。\n+  * 国内外の利益相反に配慮した信頼性の高い診療ガイドラインを参考に、心血管イベントの予防など、真のアウトカム改善に繋がることが証明されている医療行為（検査、投薬、治療法の選択など）を評価します。\n+  * 治療の効果が高い医療機関に対しての報酬加算、患者に対しての還元を設計し、医療機関・患者の双方に動機づけを行う\n+* 世界標準の医療を迅速に届けるための体制を整備します。国際的に有効性が確立された医薬品や医療機器が、国内で速やかに保険適用されるよう、審査プロセスの透明化と迅速化を図る専門機関の設置を検討します。\n+* 診療データを匿名化し、全国医療データベース（NDB）で一元管理。AIを活用した公平で迅速な評価を行う仕組みを整えます\n+  * 評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます\n+  * 診療記録や検査結果をデータ化し、医療のプロセスと質を評価し、それに応じた加算が反映される仕組みを設計します\n+  * 評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します\n+  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n\\ No newline at end of file"
+      "additions": 32,
+      "deletions": 13,
+      "changes": 45,
+      "blob_url": "https://github.com/team-mirai/policy/blob/70961e94596baebb65944eaa1f51e805d02ff451/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/70961e94596baebb65944eaa1f51e805d02ff451/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=70961e94596baebb65944eaa1f51e805d02ff451",
+      "patch": "@@ -39,23 +39,42 @@\n \n ## \n \n-## 2）治療成果に報いる医療アウトカム評価制度の導入\n+## 2）科学的根拠（EBM）に基づく医療を推進する評価制度の導入\n \n ### 現状認識・課題分析\n \n-* 日本では医療費の約3割が、糖尿病・COPD・心不全などの慢性疾患に費やされています  \n-* 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言い難い側面がある  \n-  * 現行の医療制度は行われた処置・診察の回数に応じて診療報酬が設計されており、疾患コントロールが改善したことに対するインセンティブは設計されていない  \n-  * 糖尿病や高血圧、脂質異常症などの慢性疾患の多くは重症化し、虚血性心疾患などのイベントが発生するまで、自覚症状に乏しいことも多く、患者サイドにも治療を強化し、積極的に状態をよくしようと動機づけしにくい場合がある  \n-* 海外では、治療成果に応じて報酬が支払われる制度が導入され、一定の課題が示されつつも医療の最適化と費用削減を両立が期待されています\n+* 日本では医療費の約3割が、糖尿病・COPD・心不全などの慢性疾患に費やされています\n+* 日本の現行制度は、行った診療行為の量（出来高）で評価されるため、医療の質が直接報酬に反映されにくい構造です。そのため、糖尿病や高血圧などの慢性疾患管理において、血糖値のような「代替アウトカム指標」の改善のみが追求され、心血管イベントの予防といった「真のアウトカム」に繋がらない医療が行われる懸念があります。実際に、患者の最終的な健康成果に繋がることが証明された医療プロセスが実践されているかを評価する仕組みは不十分です。\n+* 海外で導入されている成果連動型報酬も、評価指標の設定によっては本質的でない医療を誘発する課題が指摘されており、より質の高い医療プロセス自体を評価する重要性が高まっています。また、国際的なガイドラインで推奨される標準治療が、国内では保険未承認のため実施できないという「ドラッグ・ラグ／デバイス・ラグ」も存在し、患者が最善の医療を受ける上での障壁となっています。\n \n ### 政策概要\n \n-* 「どれだけ診療が行われたか」だけでなく、「どれだけ良くなったか」にも報いる医療制度への転換を目指し、成果連動型の診療報酬制度を導入する  \n-  * 糖尿病、COPD、心不全など、アウトカム指標が整備され患者数・医療費規模の大きい慢性疾患の治療成果を「血糖値」「呼吸機能」「心不全マーカー」などの指標で評価  \n-  * 治療の効果が高い医療機関に対しての報酬加算、患者に対しての還元を設計し、医療機関・患者の双方に動機づけを行う  \n-* 診療データを匿名化し、全国医療データベース（NDB）で一元管理。AIを活用した公平で迅速な評価を行う仕組みを整えます  \n-  * アウトカム評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます  \n-  * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n-  * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n+* 「どれだけ診療が行われたか（量）」だけでなく、「どのような質の高い医療が実践されたか（プロセス）」がより報われる医療制度への転換を目指し、科学的根拠（エビデンス）に基づく医療プロセスを評価する診療報酬制度を導入します。\n+  * 国内外の利益相反に配慮した信頼性の高い診療ガイドラインを参考に、心血管イベントの予防など、真のアウトカム改善に繋がることが証明されている医療行為（検査、投薬、治療法の選択など）を評価します。\n+  * 治療の効果が高い医療機関に対しての報酬加算、患者に対しての還元を設計し、医療機関・患者の双方に動機づけを行う\n+* 世界標準の医療を迅速に届けるための体制を整備します。国際的に有効性が確立された医薬品や医療機器が、国内で速やかに保険適用されるよう、審査プロセスの透明化と迅速化を図る専門機関の設置を検討します。\n+* 診療データを匿名化し、全国医療データベース（NDB）で一元管理。AIを活用した公平で迅速な評価を行う仕組みを整えます\n+  * 評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます\n+  * 診療記録や検査結果をデータ化し、医療のプロセスと質を評価し、それに応じた加算が反映される仕組みを設計します\n+  * 評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します\n   * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+\n+## 3）プライマリケアの強化と医療機能の分化\n+\n+### 現状認識・課題分析\n+\n+*   救急医療、特に三次医療機関において、本来は地域の他の医療機関で対応可能なはずの患者からの救急要請が頻発しており、医療資源の逼迫と医療従事者の疲弊を招いています。\n+*   背景には、かかりつけ医と患者・家族との間でのACP（アドバンス・ケア・プランニング）が不十分であることや、夜間・休日に地域の二次救急病院が受け入れ困難となり、結果的に三次医療機関が軽症から重症まで全ての患者を受け入れざるを得ない構造的な問題があります。\n+*   このような不適切な救急車の利用や三次医療機関への負担集中は、不必要な医療費の増大を招くとともに、最前線で働く医師のモチベーションを著しく低下させています。\n+*   この問題の根底には、患者の人生に寄り添い、総合的に健康管理を担う「総合診療医」が、日本のプライマリケアの現場に絶対的に不足しているという現実があります。現在の開業医の多くは、特定の臓器の専門医としてキャリアを積んだ後に\"内科\"を標榜しており、専門外の領域において質の高い医療を提供することが困難なケースも少なくありません。\n+\n+### 政策概要\n+\n+*   質の高いプライマリケアを担う総合診療医を計画的に育成し、医療機関の機能分化を明確にすることで、持続可能な医療提供体制を構築します。\n+*   **専門医養成数の適正化（シーリング）の導入を検討します**:\n+    *   臓器別の専門医になれる医師の数を、社会の真のニーズに基づいて制限する「シーリング制度」の導入を検討します。\n+    *   これにより、多くの若手医師がキャリアパスとして総合診療を選択する流れを創出し、プライマリケアの担い手を量的に確保します。\n+*   **専門性に応じた公正な診療報酬体系を構築します**:\n+    *   現在の「開業医の所得が、高度な医療を担う病院専門医を上回る」といった報酬の逆転現象を是正します。\n+    *   心臓血管外科など、より高度で専門的な知識や技術を要する医師が正当に評価され、高い報酬を得られる制度設計を目指します。\n+    *   同時に、総合診療医の給与も、他職種と比較して十分に魅力的で、その重要な役割にふさわしい水準を確保し、質の高い人材が集まるキャリアとしての魅力を高めます。\n\\ No newline at end of file"
     }
   ],
   "commits": [
@@ -113,7 +113,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
         }
       ]
+    },
+    {
+      "sha": "70961e94596baebb65944eaa1f51e805d02ff451",
+      "node_id": "C_kwDOOqTJvNoAKDcwOTYxZTk0NTk2YmFlYmI2NTk0NGVhYTFmNTFlODA1ZDAyZmY0NTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T08:54:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T08:54:23Z"
+        },
+        "message": "永井さんの提案に基づき、プライマリケア強化に関するセクションを追加",
+        "tree": {
+          "sha": "8ae3a8a4e1a4042d9e6f0091126bfde98cb78049",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/8ae3a8a4e1a4042d9e6f0091126bfde98cb78049"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/70961e94596baebb65944eaa1f51e805d02ff451",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob3+/CRC1aQ7uu5UhlAAAC1IQAKCZuSnnOI4dA1HNCRt5JIsy\nDvU5pa7VE/ZUQiLVSBZ/VNk/AV+3DHwmB55LZtJZnrvb4EmcmXRGGWh8DG8Oa0WT\ng5NJkOqgYUFbtSDr/98gYyBNH9L5Iht7zUQs/4wOeZV7wPuSmgfx9m0RRTLNXaDJ\n55lGy9VENg+u/KThc6BbCLAZIqo3YLxUpJ2fUJf9NtSPDZ+tdzvXEKFayO/fpHF6\njRdABxeMGiXRjoZhHdV4s5lFRTDncRM00S2DFGddNOqTmfXUXdKlYC87bbhABSYU\nhee20y2uskV6mCOhN88gUS5c+oku245bhIUjQZmonkzhVfyOvE038Z8pG4Nympdc\ntgsy2iTsOqBBPdabZq2bT97cMBl49Xon8YGuR+wqcxU3HnBrUWUAm34UaAyymCz+\nhGFOL5PXXGkTQBZlyJBhlbhRZo8mqXHwTLWAF3PDbi55RSrbBOkMx1Gd49x5WLcq\nOBxBoWYORKlHEeySPtEzW5zAJEDWHsEUC/+B5aAumleGfslSUtkyPa+EEmXd9TU8\nosBTlxYUtdFY0FZ9kB1LPqXJVYI71UVE3vI+mq5Yz3HGuBe1Nrhv/94aZQMje9iB\nUMtT7DxrkBmyvi29OKYchb4Be58tdQheXB2N7SWihBhYKYX5byBU53Vg3l0+lHGJ\nk/WFkmhNI60qtx9nllBu\n=xkPr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 8ae3a8a4e1a4042d9e6f0091126bfde98cb78049\nparent a86b3c2801129efc22d704aef49a2af4b483e9de\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752137663 +0000\ncommitter GitHub <noreply@github.com> 1752137663 +0000\n\n永井さんの提案に基づき、プライマリケア強化に関するセクションを追加",
+          "verified_at": "2025-07-10T08:54:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/70961e94596baebb65944eaa1f51e805d02ff451",
+      "html_url": "https://github.com/team-mirai/policy/commit/70961e94596baebb65944eaa1f51e805d02ff451",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/70961e94596baebb65944eaa1f51e805d02ff451/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a86b3c2801129efc22d704aef49a2af4b483e9de",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a86b3c2801129efc22d704aef49a2af4b483e9de",
+          "html_url": "https://github.com/team-mirai/policy/commit/a86b3c2801129efc22d704aef49a2af4b483e9de"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-10T08:38:16.833806"
+  "collected_at": "2025-07-10T09:17:24.993737"
 }

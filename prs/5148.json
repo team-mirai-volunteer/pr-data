@@ -1,0 +1,365 @@
+{
+  "basic_info": {
+    "number": 5148,
+    "title": "原子力リスクと再エネのポテンシャルを反映したエネルギー政策への見直し",
+    "state": "open",
+    "created_at": "2025-07-10T09:34:51Z",
+    "updated_at": "2025-07-10T09:46:48Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5148",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "ef1a4d3a15291fdade2c7ff30652a6c5c580001c",
+      "filename": "35_ステップ３エネルギー.md",
+      "status": "modified",
+      "additions": 11,
+      "deletions": 8,
+      "changes": 19,
+      "blob_url": "https://github.com/team-mirai/policy/blob/9e056e268c11ab79ab4fc2d4ce389201647bdbeb/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/9e056e268c11ab79ab4fc2d4ce389201647bdbeb/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md?ref=9e056e268c11ab79ab4fc2d4ce389201647bdbeb",
+      "patch": "@@ -7,31 +7,34 @@\n \n * AI を本格的に普及させるためには膨大な電力が不可欠であり、2030 年までの短期間でも世界全体で日本一国分に相当する追加電力が必要になると見込まれます。  \n * 日本が AI を使いこなし、テクノロジーを成長の原動力とするためには、安定的かつ大量の電力を確保することが前提条件となります。  \n-* しかしながら、わが国は化石燃料資源に乏しく火力発電依存では、燃料費輸入による国富の海外流出が大規模となり、また平野部も限られていることから再生可能エネルギーの大規模導入にも地理的な制約があります。  \n+* しかしながら、わが国は化石燃料資源に乏しく火力発電依存では、燃料費輸入による国富の海外流出が大規模となります。また、平野部が限られていることから再生可能エネルギーの導入には地理的な制約がある一方、ペロブスカイト太陽電池のような新技術や、四方を海に囲まれた地理的条件を活かした洋上風力など、大きなポテンシャルも存在します。\n * そのため、国内に存在するあらゆるエネルギー資源を最大限に活用しつつ、大容量電源の確保とゼロエミッション社会の実現を両立させる技術開発・設備投資を加速させる必要があります。\n \n   ## 現状認識・課題分析\n \n * 『第 6 次エネルギー基本計画』（2021 年閣議決定）は、2030 年時点の電源構成を LNG 20％、石炭 19％、水力 11％、その他再エネ 25〜27％、原子力 20〜22％と設定していました。  \n * 2023 年の実績は LNG 32％、石炭 29％、水力9％、その他再エネ約 23％、原子力 9％であり、目標との差は依然大きい状況です。  \n-* エネルギー目標として、2030年に向けて大きく増加が想定されている電力は、再エネ、原子力と水力です。  \n+* エネルギー目標として、2030年に向けて大きく増加が想定されている電力は、再エ네、原子力と水力です。  \n 　* 再エネの大幅な増加には、国民負担・現実性の両面から大きなチャレンジがあります。  \n   　* 再エネ賦課金による国民負担は、2024年度見込みで2.7兆円に達しています。追加的な再エネ導入は国民負担の増加に繋がります。  \n     * 太陽光の導入量は国土面積当たりで既に世界上位水準（ドイツと同程度）にあるため、大幅な追加余地は住宅や建物屋根などに限られます。  \n     * 太陽光・風力が急増する場合は、蓄電池など調整力の同時整備を怠ると系統安定性が低下する懸念があります。  \n-  * 原子力は安全審査を経た再稼働が進んでいますが、2030年度の再稼働想定実現に向けては、手続きや地域合意プロセスに改善の余地があります。  \n+  * 原子力は、安全保障、経済性、災害・地政学リスクの観点から、多角的な課題を抱えています。\n+    * **放射性廃棄物問題:** 最終処分地が未定であることは、原子力を活用する上での根源的な課題です。処分地の選定や関連技術の開発には、莫大なコストと長い年月、そして国民的な合意形成が不可欠であり、プロセスの透明性確保も強く求められます。\n+    * **災害・地政学リスク:** 地震・津波が頻発する日本では、複合災害による過酷事故のリスクが常に存在します。また、紛争やテロの標的となる地政学的リスクも無視できません。\n+    * **経済合理性:** 上記のリスクに対応するための安全対策の高度化には、更なるコストと長期間の建設・審査期間が必要となります。これを踏まえると、初期投資は高いものの燃料費が不要で、分散型でもある再生可能エネルギーの方が、長期的に見て経済合理性の高い選択肢となる可能性があります。  \n   * 水力は、日本にとって貴重な自然エネルギー資源です。現状は、 1957 年制定の多目的ダム法ベースの保守的運用が主流で、最新技術を活用した出力増強の余地があります。  \n-* 石炭、LNGの両火力発電は、縮小運用が前提となる中、老朽化による供給力低下が夏季ピーク時の需給逼迫を招いています。  \n+* 石炭、LNGの両火力発電は、縮小運用が前提となる中、老朽化による供給力低下が需給逼迫の一因となっています。一方で、夏季の電力需要ピークは太陽光発電のピークと重なるにもかかわらず、送電網の制約や現行の運用ルールによって再エネの出力が抑制され、貴重なエネルギー源を最大限活用できていないという課題もあります。\n * LNG 輸入費は 2023 年で約 6.5 兆円に上り（輸入総額の約 6％）、2024 年通年の貿易赤字 5.3 兆円を上回る規模であることから、AIによる電力需要増大期に当たっても発電規模維持・拡大には慎重な判断が必要となります。\n \n   ## 政策概要\n \n   ### 1）大幅なエネルギー需要増に対応できるよう、2030 年に向けたエネルギーミックス目標を再設定し、実行します。 \n-  * **火力発電の一時的維持を明確化**し、無理な再エネ拡大による国民負担増と供給不足を回避します。  \n-  * **原子力比率 20〜22 ％の達成**を目指し、国主導で再稼働支援策を整備します。2030 年時点で 25 基以上の運転を実現できるよう、手続きの迅速化と地域支援を両立させます。  \n+  * **火力発電の一時的維持を明確化**し、無理な再エネ拡大による国民負担増と供給不足を回避します。\n+  * **再生可能エネルギーの優先接続を原則とし、送電網の運用ルールを抜本的に見直します。**出力抑制を最小限に抑え、クリーンエネルギーを最大限活用します。\n+  * **原子力比率 20〜22 ％の達成**という目標は、原発が抱える多様なリスクを直視した上で、その是非を国民全体で再議論します。再稼働は、自然災害や有事を想定した実効性ある防災・防護体制の再構築を大前提とします。同時に、放射性廃棄物の最終処分問題にも真摯に向き合い、国民的合意形成を丁寧に、かつ透明性の高いプロセスで進めるとともに、関連技術開発を推進します。\n   * **多目的ダム法を見直し、水力発電のポテンシャルを開放**します。既存ダムの再開発や揚水増強を推進し、水力比率 11 ％を堅持しつつ変動再エネの調整力を高めます。  \n   ### 2）2050 年ゼロエミッション社会に向けて、革新技術開発と制度基盤構築を支援します。  \n   * **核融合技術の研究開発投資を強化**し、長期的なエネルギー問題の抜本的解決に備えます。  \n   * **次世代型原子力（SMR、高温ガス炉など）の技術開発と普及**を2030年代後半以降に見据えて支援します。  \n-  * **デマンドレスポンスや分散型リソースを活用した柔軟なグリッド運用**を推進し、AI 時代に適した高度な電力システムを構築します。\n-\n+  * **デマンドレスポンスや分散型リソースを活用した柔軟なグリッド運用**を推進し、AI 時代に適した高度な電力システムを構築します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "bfa8590e7d7b930e6eb8b6af51538bce7de41783",
+      "node_id": "C_kwDOOqTJvNoAKGJmYTg1OTBlN2Q3YjkzMGU2ZWI4YjZhZjUxNTM4YmNlN2RlNDE3ODM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T09:24:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T09:24:28Z"
+        },
+        "message": "lapinさんの提案に基づき、放射性廃棄物に関する課題と対策を追記",
+        "tree": {
+          "sha": "4d87516823c73017a1fca1d152ebc9eef876e1b3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/4d87516823c73017a1fca1d152ebc9eef876e1b3"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/bfa8590e7d7b930e6eb8b6af51538bce7de41783",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob4bMCRC1aQ7uu5UhlAAAiaAQAIBwCjua0IdgdmTlpipGMqK8\nmmeMyGvUz2rTNsWQVQeUt4aAfBRg5NQmBbHnxlgr7W+JNj1UxOZZ/2Ssv9jLoK7R\nOISL0hEClOaFxuGNWLfsZOgq7NcuDiCxp2u5gqcYLzdYrBavLdgNan4XZQWav0G7\nRm6FSiG2TICGEvMpYKHRaKYes71h9n8eVlmqRqupylankzZRMKJwNpj4KENJxetV\nSBvhT/AL1q+Jl6fjbh+uEzmzgwCt2LHBXKhPt6iR5q/0lcWbKHzfeiJNi4M8FeBU\n6xNi0ZMV1Nf0ttOoFgbqhIRk1EFiiv72aRvJJ4KK+1kmJv811aVLcq9DWae9xsXQ\nQA9griwN0vebNArj3vbCTRnP+Ia/Bt+Ahe1p/YxzH61EgHHSDQDo190xRUcDJjyX\nU2wcJudEzj97Z47l5RQhWitA0QeKayoZEOK+FmukzEfOxyEuUsGYtnR+s9vnRND/\ni3emKL68b//87h3u87hpH4VvA5snn7Ljm+PWc4xRWQcH9aBxjz1oKxJujYwKBFRL\nZsYjYZzt+BThOtP2pwf3WVOZIFOXxwatFTAFiALPrUW6WRPvjJp3K7PUl9HTfTZa\n2we67w/K7klNwqFJyD42/MLFpLFKBZ88k1Fxa1zZXiPd+BksYXWC4YnVtEPSvoBL\nKhBA/qsw+adSGyTLmUo2\n=h2nF\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4d87516823c73017a1fca1d152ebc9eef876e1b3\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752139468 +0000\ncommitter GitHub <noreply@github.com> 1752139468 +0000\n\nlapinさんの提案に基づき、放射性廃棄物に関する課題と対策を追記",
+          "verified_at": "2025-07-10T09:24:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/bfa8590e7d7b930e6eb8b6af51538bce7de41783",
+      "html_url": "https://github.com/team-mirai/policy/commit/bfa8590e7d7b930e6eb8b6af51538bce7de41783",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/bfa8590e7d7b930e6eb8b6af51538bce7de41783/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    },
+    {
+      "sha": "2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1",
+      "node_id": "C_kwDOOqTJvNoAKDJkMjFiNWUyZGZkMTU2NmJmMjM1N2ZlZTk2YzVkMGU5ZmQxNWE1YjE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T09:33:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T09:33:35Z"
+        },
+        "message": "lapinさんの提案を反映し、原子力の課題（自然災害、地政学リスク、経済性）と前提条件を追記",
+        "tree": {
+          "sha": "e155ff92fa18aeece9d27fcefd93946694289300",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e155ff92fa18aeece9d27fcefd93946694289300"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob4jvCRC1aQ7uu5UhlAAAVfAQAE33eIrhJ9Yu65EXrgbVjLX6\ncnzgbhjZ5ubYPJ9UNjLZV9AZBmJ+iFoPWeXGOrSfVz6nXkBj/0XQtqFoCAok6i4q\naUyS7wenHEGdRogxY1aingpthtHKc+etfJDa6Pr6yhslCR2f4eYiTR/v7TKd6jTx\nyd8Q8bbPskgqr8+L90/wu2tBSGMKXk0QbiG4qFzek22TJxPlreQ1cMriwvX2+QuF\nR37IegnFQk73/H7v55tnfSQGdLy5atvBIObBBcFpyceSvfKCEV3oQG+9jl8lec9c\nfmbi/0RVSw1ERY4R7p1LzFfZG1r/V1kz/Zs5BlLzDDhJtBXCuZ6mgis7YNuUF4i9\nDLYCt4ngP0+/fQJb1coFJDmANfsINMflmsZJpMDxpZDQruaaLkK7Ih/lF5GdNCdc\nxCw4jpPIh4ZhtY4KWY4f7sAyE0Im6+nNf8+YCMamHUJ2vdUm1bNETz4bKMfbQgNY\nUL4wIfCKqQQ1QxWPvafy6V94c+yXanSjIcOAEGoTDWR0SYcvb9MTk6uqfEv7ReES\nlxh1fpCwMEzPY7jKv6W6WC9C0H4Yb39EhltWmHA7J1qn1cjOvtktUbFRXe30Wf/i\nBdQ6xssYQs5AgbTg91no4LXaXPQ+bk+ZrXBD8THA1MoUm9DwraGrx1Vq2Ngf/x50\nRjhpanp3evhCvL0Cnh2p\n=yyKI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e155ff92fa18aeece9d27fcefd93946694289300\nparent bfa8590e7d7b930e6eb8b6af51538bce7de41783\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752140015 +0000\ncommitter GitHub <noreply@github.com> 1752140015 +0000\n\nlapinさんの提案を反映し、原子力の課題（自然災害、地政学リスク、経済性）と前提条件を追記",
+          "verified_at": "2025-07-10T09:33:35Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1",
+      "html_url": "https://github.com/team-mirai/policy/commit/2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bfa8590e7d7b930e6eb8b6af51538bce7de41783",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/bfa8590e7d7b930e6eb8b6af51538bce7de41783",
+          "html_url": "https://github.com/team-mirai/policy/commit/bfa8590e7d7b930e6eb8b6af51538bce7de41783"
+        }
+      ]
+    },
+    {
+      "sha": "e934a28dd23b192b9f52966be2e592261af6e708",
+      "node_id": "C_kwDOOqTJvNoAKGU5MzRhMjhkZDIzYjE5MmI5ZjUyOTY2YmUyZTU5MjI2MWFmNmU3MDg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T09:43:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T09:43:16Z"
+        },
+        "message": "lapinさんの提案に基づき、原子力リスクと再エネのポテンシャルを反映",
+        "tree": {
+          "sha": "0a09f4ea0fb32f98a68c70ffe0d3ff6af3680644",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0a09f4ea0fb32f98a68c70ffe0d3ff6af3680644"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e934a28dd23b192b9f52966be2e592261af6e708",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob4s0CRC1aQ7uu5UhlAAAmhAQAEZ6JEzJql6ecl0ZVuHvVxnd\nolylwXhVShxJCl3T9xEET31lWyqVJn2MU1KmJRP3KrFZ7JnF6rbkKRUpagDgGoS5\nzXjqwzllsY1lhY7iQKB7YeQ8vVZ4me7uJr7BvBu/zgWJk4VDQKEEzOBjnhYEjtO1\nAQ3zb06VEM0q7zYNCzZVFwvUcUSIRXwaIuwhqRps23aBu5BQDRoLrgS7+XgAyzcm\nhdM9CU5Lha2dPTkVHQ3nBiva4eQRwuzLxt40dz0fDHOeWIve2SKERlQTiyVYe+9s\n64MQWjrPysV/BGeTy27/CfPZWnfgsSBpQC2O+zwtSHai3n7DgIbh3Je5DIypg0bP\nIRSNCWs0VhoOL37fAiSar1DfptGWtc+85FGHXHl6tZbKTGAcgGbqM27uJtLUyY/Q\nSep+MMnhEIomMPOnV7/1I85OjI/jU+DEKzLML4BztUNtaI6w+m0NzZZUa583r4Xz\nQ2IewhfOenvCersvcsK5UcijDDk09IaNGtdfq4BtOLlvneeDk77urbHOl8QSrPdz\nQ7qSOLFYqYlROnxRzT50E6OrnIpXMMEdie7K1R61LbFRTWBrjQVd+SnmoALBZBIH\neg4eM8vED+PtBH1RGWP3AEeKhzlcNWM2Ghblj3YZ0kY4uPpwzmnBMUHpkgsGRw81\nsWLdI23V99LE/rLNzqhM\n=zrF5\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0a09f4ea0fb32f98a68c70ffe0d3ff6af3680644\nparent 2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752140596 +0000\ncommitter GitHub <noreply@github.com> 1752140596 +0000\n\nlapinさんの提案に基づき、原子力リスクと再エネのポテンシャルを反映",
+          "verified_at": "2025-07-10T09:43:16Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e934a28dd23b192b9f52966be2e592261af6e708",
+      "html_url": "https://github.com/team-mirai/policy/commit/e934a28dd23b192b9f52966be2e592261af6e708",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e934a28dd23b192b9f52966be2e592261af6e708/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1",
+          "html_url": "https://github.com/team-mirai/policy/commit/2d21b5e2dfd1566bf2357fee96c5d0e9fd15a5b1"
+        }
+      ]
+    },
+    {
+      "sha": "9e056e268c11ab79ab4fc2d4ce389201647bdbeb",
+      "node_id": "C_kwDOOqTJvNoAKDllMDU2ZTI2OGMxMWFiNzlhYjRmYzJkNGNlMzg5MjAxNjQ3YmRiZWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T09:46:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T09:46:47Z"
+        },
+        "message": "lapinさんの提案に基づき、エネルギー政策に関する記述を更新",
+        "tree": {
+          "sha": "4c7c2336eb8b0588ea455453e55dc5dbbaa85164",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/4c7c2336eb8b0588ea455453e55dc5dbbaa85164"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9e056e268c11ab79ab4fc2d4ce389201647bdbeb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob4wHCRC1aQ7uu5UhlAAAW88QAEjyedvxDXqwyZ1sKBtqI7Nh\nKpUoagMeUTpmHyiAQ5zTP4mWlVKCcobAxXgR6raX3zwA096hpOW7IoPKjb6TWaak\n8Lkh2qII28w+PyxKZKr1Q10RK8FzJ+EY4TbwRF8h3q0qFpmJYt0P4HQ1hgJGosZr\nUSXRKZye3TgaL+/7Nn1ivaRe0Hc1phLGss/68QJ3n/kn65RjvXaF/+05lskFBI0y\nabEzNbB66cNfxx0bioSS1KgCsqIMpzJVmfEoU2/4sbh7B5W7K3SHwhzVj9qzLeOa\nQUYqi9buJjhr87gro6rP9fCusSuI+PHHT2GPVxTZUYZ5MpP7wVTo4qLwFNFpbEGL\nekWdKu0QRPUu3DajDMnNU9LWuUuGHM37VqwUKBYu+PYnL65cSWMUS1givX5o47j8\nu9y0JUVI6bkKekvSPql9Ziokvqm1div9j+EFflwUx32tkN6e/WTIeWKwWZSJUcBb\nhBfyg3Vc5XUSJecsmtZ8euhAluKG75/8GLTLXhBSLLFEBvgXdlBG+7Zku3gnsbd9\n/4wwYFIImzGs0u5eKTUHj0jn8Po+AAQNh4fj4jfISNX21H3xDMc7mPDyqSICXxA0\nwqaWoKJGPioqfbk2rehN3jBy9qEoLbnqFh2x5x0DarIq0NCqQ4iH+aaijlAEWLOM\nNlq0kSvQji6dsbXQ5Vqr\n=oYcQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4c7c2336eb8b0588ea455453e55dc5dbbaa85164\nparent e934a28dd23b192b9f52966be2e592261af6e708\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752140807 +0000\ncommitter GitHub <noreply@github.com> 1752140807 +0000\n\nlapinさんの提案に基づき、エネルギー政策に関する記述を更新",
+          "verified_at": "2025-07-10T09:46:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9e056e268c11ab79ab4fc2d4ce389201647bdbeb",
+      "html_url": "https://github.com/team-mirai/policy/commit/9e056e268c11ab79ab4fc2d4ce389201647bdbeb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9e056e268c11ab79ab4fc2d4ce389201647bdbeb/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e934a28dd23b192b9f52966be2e592261af6e708",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e934a28dd23b192b9f52966be2e592261af6e708",
+          "html_url": "https://github.com/team-mirai/policy/commit/e934a28dd23b192b9f52966be2e592261af6e708"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T09:46:58.544392"
+}
