@@ -1,0 +1,365 @@
+{
+  "basic_info": {
+    "number": 5163,
+    "title": "匿名ユーザーさん提案：スマホアプリ中心の行政へ、組織もデジタル前提に再編",
+    "state": "open",
+    "created_at": "2025-07-10T10:34:45Z",
+    "updated_at": "2025-07-10T11:03:14Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5163",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "975d0e1cd008c27e5ec82eebe13017f9ecfe74bd",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 10,
+      "changes": 27,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a2c2c32c9a649711a1ab50238e00a28a081f10ef/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a2c2c32c9a649711a1ab50238e00a28a081f10ef/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=a2c2c32c9a649711a1ab50238e00a28a081f10ef",
+      "patch": "@@ -18,7 +18,7 @@\n * 民間サービスのテクノロジー革新に対し、行政サービスの変化は遅れている  \n   * 民間企業はテクノロジーを活用して便利で効率的なサービスの提供が進む一方、行政サービスはその進展に追いつけていない状況です。  \n * 行政の発注は硬直的で、ソフトウェア開発との相性がよくない  \n-  * 政府がソフトウェア発注を行う場合、事前に決めた要件に厳格に適合することが求められるため、柔軟な仕様変更が行えず、かえって余計にコストが発生する可能性があります。  \n+  * 政府がソフトウェア発注を行う場合、事前に決めた要件に厳格に適合することが求められるため、柔軟な仕様変更が行えず、かえって余เกนินコストが発生する可能性があります。  \n * 国会におけるAI専門家の不足  \n   * 医療、産業、安全保障など、様々な分野でAIの活用が進み、専門的判断の重要性が増す中、立法・行政の場にAIの専門家は不足しています。\n \n@@ -69,7 +69,8 @@\n * 行かせない、書かせない、待たせない、迷わせない行政を実現  \n   * 行かせない  \n     * 行政手続のオンライン化をさらに推進する  \n-      * 書面・対面義務規定の更なる見直しを実施します。あわせて、マイナンバーカードと公的個人認証（JPKI）を活用し、本人確認と必要情報の自動取得を可能とすることで、原則として窓口来訪を不要にする行政手続きを拡大します。 \n+      * 書面・対面義務規定の更なる見直しを実施します。あわせて、スマートフォンアプリと公的個人認証を活用し、本人確認と必要情報の自動取得を可能とすることで、原則として窓口来訪を不要にする行政手続きを拡大します。 \n+      * 各種証明書はオンラインで発行し、QRコード等で提示・利用できるようにすることで、紙の証明書を原則不要にします。\n   * 書かせない  \n     * マイナンバーを活用して、利用可能な税・社会保障データの範囲を段階的に拡大し、自動連携することで申請時の住民による再入力を排除します。\n       * 各省庁と自治体のデータベース連携を推進することで、住民が同じ情報を何度も提出する必要を無くします。 \n@@ -80,23 +81,24 @@\n     * ただし、どうしても訪問が避けられない場合もあるため、そのような場合は混雑状況をリアルタイム配信することで待ち時間の平準化を図り、結果的に「待たされる」体験を改善します。  \n   * 迷わせない  \n     * 行政サービスを「探す・理解する・申請する」といった一連の行動において、住民が迷うことなくスムーズにたどり着ける仕組みを構築します。情報の分かりにくさや複雑さが申請意欲の喪失につながる現状を踏まえ、誰もが迷わず必要な支援にアクセスできる行政を目指します。\n-    * 例えば、確定申告については、その手続きの煩雑さがかねてより指摘されており、納税者の負担軽減が急務です。マイナンバー制度およびマイナポータルの基盤を活用し、給与・報酬・金融所得・社会保険料・医療費など、申告に必要な情報を関係機関から自動的に集約・連携する仕組みを段階的に整備します。\n+    * 例えば、確定申告（e-Taxなど）については、その手続きの煩雑さがかねてより指摘されており、納税者の負担軽減が急務です。スマートフォンアプリとマイナンバー制度の基盤を活用し、給与・報酬・金融所得・社会保険料・医療費・年金受給予定額など、申告や暮らしに関わる情報を関係機関から自動的に集約・連携・通知する仕組みを段階的に整備します。\n         * 現時点でも、医療費通知・社会保険料・ふるさと納税情報などについては、マイナポータル経由で取得し、e-Tax上に自動反映される機能が実装されています。また、家族の医療費についても、事前の代理設定により取得可能となるなど、代理による補助的な申告準備も技術的に整いつつあります。\n         * 今後は、これらの仕組みをより一層拡張し、証券会社・金融機関・保険会社などの情報も含めた網羅的な所得・控除情報の事前集約を推進します。また、高齢者や体調不良等により自らの申告が困難な納税者については、税理士等の有資格者に限らず、家族等による代理提出やサポートがしやすくなる環境整備（例：電子委任状の標準化、代理人向け操作画面の整備）を進めます。\n         * これにより、最終的には、納税者があらかじめ集約された申告内容を確認し、ワンクリックで申告を完了できる「ワンクリック申告」の仕組みを実現します。本人の意思に基づいた安全な情報連携、透明性の高い運用、そして不正利用を防止する制度設計を徹底することで、誰にとっても使いやすく、安心できる確定申告制度への転換を図ります。\n         * この基盤を活かすことで、税や社会保障の控除・給付の“境界”をなめらかにし、より合理的な制度運用へと接続していくことが可能になります。確定申告の改革は、より本質的な制度の滑らかな設計——「なめらか税・社会保障」への移行に向けた第一歩でもあります。\n-        * なお、希望する納税者に対しては、マイナンバーカードに紐付けられた公金受取口座から、確定した税額が納税期限日に自動的に引き落とされるオプションも導入します。引き落としにあたっては、納税額の確定内容を事前にマイナポータル上で確認・同意できるようにし、利用者の不安や誤課税への懸念に対応します。\n-    * また、本人情報やマイナンバーに紐づく属性データ（年齢、所得、家族構成など）に加え、住民自身がマイナポータル等で登録した興味・関心分野（例：子育て、教育、住宅支援、起業支援など）をもとに、対象となる可能性のある補助金・制度を自動抽出し、アプリやメールで個別通知する仕組みを整備します。これにより、「制度を自分で探しに行く」のではなく、「必要な情報が向こうから届く」プッシュ型の情報提供が実現されます。\n+        * なお、希望する納税者に対しては、アプリ等に紐付けられた公金受取口座から、確定した税額が納税期限日に自動的に引き落とされるオプションも導入します。引き落としにあたっては、納税額の確定内容を事前にアプリ上で確認・同意できるようにし、利用者の不安や誤課税への懸念に対応します。\n+    * また、本人情報やマイナンバーに紐づく属性データ（年齢、所得、家族構成など）に加え、住民自身がアプリ等で登録した興味・関心分野（例：子育て、教育、住宅支援、起業支援など）をもとに、対象となる可能性のある補助金・制度を自動抽出し、アプリやメールで個別通知する仕組みを整備します。これにより、「制度を自分で探しに行く」のではなく、「法改正などで利用可能になった新しい情報が向こうから届く」プッシュ型の情報提供が実現されます。\n       * すでに、マイナポータルの「ぴったりサービス」や一部年金手続きで先行実装されつつあり、今後は他制度にも横断的に拡張し、自動化の精度を高めていきます。\n       * 一定の要件を満たす給付金や手当については、本人への通知後、一定期間内に異議がなければ公金受取口座に自動的に振り込まれる「オプトアウト型自動給付」の仕組みを整備します。2024年の定額減税補足給付では、申請不要の給付が一部自治体で実施されており、これを皮切りに、恒久的な制度への段階的移行を進めていきます。\n       * 加えて、会社からの退職情報や介護・障害の認定など、個人のライフイベントの情報が行政に届いた時点で、国民健康保険の加入や保険料の減免申請といった関連手続きを行政側で一括処理し、本人にはその結果のみを「通知」として送付する仕組みも構築していきます。2025年度より始まる電子離職票のデジタル連携はその基盤となり、今後は国保・年金・雇用保険など複数制度を一体で処理する「ワンストップ型自動手続」への発展させていきます。\n-      * 一方、守りの側面も重要で、制度の拡張とともに、AIを活用した不正受給リスクの自動検知モデルを導入し、高リスクケースを優先的に審査するリスクベースアプローチを採用します。東京都の特別区を中心に生活保護や児童扶養手当などで導入が始まっており、これを他の給付分野にも広げていく方針です。あわせて、マイナポータル上で給付履歴や本人への情報照会履歴を確認できるダッシュボード機能を拡充し、透明性とトレーサビリティの確保も図ります。\n+      * 一方、守りの側面も重要で、制度の拡張とともに、AIを活用した不正受給リスクの自動検知モデルを導入し、高リスクケースを優先的に審査するリスクベースアプローチを採用します。東京都の特別区を中心に生活保護や児童扶養手当などで導入が始まっており、これを他の給付分野にも広げていく方針です。あわせて、アプリ上で給付履歴や本人への情報照会履歴を確認できるダッシュボード機能を拡充し、透明性とトレーサビリティの確保も図ります。\n     * ユーザーの質問や状況に応じて最適な窓口や手続きをナビゲート、代行するAIチャットボット、AIエージェント等の導入を加速させ、迷いなく必要な情報にたどり着ける環境を整備します。\n         * また、AIチャットボットでの対応が難しい場合には、速やかに専門の相談員へ引き継ぐ体制を構築します。デジタル機器の操作に不慣れな方でも安心して利用できるよう、人によるサポートの選択肢を常に用意します。\n-        * 特に高齢者の方々に対しては、デジタル庁の「[デジタル推進委員](https://www.digital.go.jp/policies/digital_promotion_staff)」の取組等と連携し、対面相談窓口の充実や、わかりやすい言葉づかい、大きな文字表示といったインターフェース配慮を徹底します。これには、日本産業規格（JIS）等に準拠したアクセシビリティ基準の採用を含みます。\n+        * 特に高齢者の方々に対しては、デジタル庁の「[デジタル推進委員](https://www.digital.go.jp/policies/digital_promotion_staff)」の取組等と連携し、対面相談窓口の充実や、わかりやすい言葉づかい、大きな文字表示といったインターフェース配慮を徹底します。これには、日本産業規格（JIS）等に準拠したアクセシビリティ基準の採用を含みます。スマートフォンを持たない方々に対しては、安価なデバイスの配布や貸与制度を検討し、誰もがデジタル化の恩恵を受けられる環境を目指します。\n         * 既に成果を上げている自治体と民間企業の連携による現場サービス（例：出張講習、地域サークルと連動したIT体験会）などの優良事例を迅速に横展開し、全国での実装を加速させます。\n     * 政策情報や手続き案内を、AIや検索エンジンが解析しやすい機械可読なデータ形式（HTML, JSONなど）で提供。AI・アプリ・Web検索を活用した情報アクセス性を向上させます。\n     * 行政文書の日付表記を分かりやすく改善し、西暦を併記または主として使用することで、和暦の確認や年数の計算といった無駄な確認作業をなくし、利便性を向上させます。\n+* 各省庁、自治体のウェブサイトを整理・統合し、重複する情報の排除と運営コストの削減を図ります。\n \n \n ## ３）AI＆ITによる公務員の働き方改革を行います\n@@ -113,6 +115,13 @@\n ### 政策概要\n \n * FAXや紙の廃止を進めるとともに、行政機関に最新の業務ツールや柔軟な働き方を導入し、職員のデジタルリテラシーを高めます。こうした基盤整備により、現場の実態や社会の変化を的確に捉えた、現実に即した政策立案を可能にします。  \n+* デジタルセンターを核とした未来のまちづくり\n+    * 事務系業務の大幅な集約・効率化のため、空き家の多い過疎地域に行政事務を集約した「デジタルシンクタンクセンター」を設置します。都心部の既存庁舎は簡素化・売却を進め、福祉・対人サービスなど現場本位の機能を持つ拠点のみを各市町村に再配置します。\n+    * センター設置は、万博やカジノのような利権目的の従来型公共事業とは一線を画し、地域再生と持続可能なコミュニティ創出を目的とします。\n+    * センターを核として、政府が荘園主となるスマート農園や、ものづくり事業者、リモートワーカーを誘致し、職住近接の新たなまちを創造します。\n+    * 住民や職員向けに、全戸スマートハウスの賃貸住宅や戸建て宅地を整備。子育て世帯向けに、1クラス20人までの少人数教育やネイティブ外国人教師による外国語教育を小学校から行う新しい学校を新設します。\n+    * 食料や楽しみも地域内で自給自足できる、憩いあふれるコミュニティを目指し、都市の喧騒から離れて豊かに暮らしたいと願う人々の新たな受け皿を創ります。\n+    * センターに勤務する公務員は、SEなどのデジタルスキルを必須とします。ビジネスや競争が中心の大都市とは異なる価値観を持つ、もう一つの魅力的な働き方・暮らし方の選択肢となります。\n * 行政内部DX  \n   * AIアシスト型ワークフロー  \n     * パブリックコメントの分類、分析をAIで効率化します。  \n@@ -197,7 +206,7 @@\n    * すでに可能となっている「供託ねっとによるオンライン納付」や「事前審査前のメール等での事前チェック」「事前審査のオンライン予約」など、実証済みの仕組みを全ての選挙管理委員会で共通運用できるよう整備します。\n    * これらの法改正が不要な部分については、例えば総務省通達や業務ガイドラインにより統一ルールを策定し、速やかな運用開始を目指します。\n    * 一方で、法改正が必要な手続きについては、法的な真正性とセキュリティなどの観点で慎重な対応が必要となるため段階的に進めます。\n-     *  例えば、「届出書類の電子署名・電子提出を紙と同等とみなすための法整備」、「マイナンバーカードを活用した本人確認プロセスの導入」、「書類一式のクラウド保存、タイムスタンプ運用による「厳封相当」措置の導入」については慎重な検証を通した上で段階的に対応します。\n+     *  例えば、「届出書類の電子署名・電子提出を紙と同等とみなすための法整備」、「スマートフォンアプリを活用した本人確認プロセスの導入」、「書類一式のクラウド保存、タイムスタンプ運用による「厳封相当」措置の導入」については慎重な検証を通した上で段階的に対応します。\n      *  その際、提出記録や操作ログを保存するなど、セキュリティ・訴訟耐性も確保する想定です。\n *  手続きの重複をなくし、全国で使いやすい様式へ\n    * 所・氏名・政党名・略歴などの繰り返しの同一の記載をなくすため、統合入力フォームを整備し、1回の入力で複数様式に自動展開します。\n@@ -208,5 +217,3 @@\n * 運用現場に配慮した“併存フェーズ”の設計\n    * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n-\n-"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "68a1626af16334fcacea74b9d8cf61bae04f817a",
+      "node_id": "C_kwDOOqTJvNoAKDY4YTE2MjZhZjE2MzM0ZmNhY2VhNzRiOWQ4Y2Y2MWJhZTA0ZjgxN2E",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T10:13:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T10:13:16Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、マイナンバーカードからスマホアプリ中心の行政サービスへ変更",
+        "tree": {
+          "sha": "77ef76927b821ff60934be901303998ac60a9834",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/77ef76927b821ff60934be901303998ac60a9834"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/68a1626af16334fcacea74b9d8cf61bae04f817a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob5I9CRC1aQ7uu5UhlAAAm98QAANiM3eCCtfKMt5/1f7pgx72\nvRMMbKIfo085WHNV0RnE6JgjjBOOJZhrXlyGTNpHmzIyKw5gNckLNYJBmBGRzYWW\nhKgzOy2Icn+Q8XLy+BhJ+dPtUtKkTfkjuUyJx3vf7uYUw/FEaRPlzBe2vgkI32AH\ny01BVddz9DMkpV3q9RfFCOBo0WCVbglCIHUF16eCpE6sGOEWDt7ujo5/31phtWf0\nXslKDgR7gMpPhLIJMtxf8oC1TO+R7k9k5fJZw3yXzUQ9vUab+83T7Qn4QraNV3k0\nMeyyHcWFHXzkPA6BAdwvPWnqHJOXheQZtTRXt+/YBwleKRUekiZa1deOGIZ8Xk7z\n6LakH6/mbJR/KdF6xCwBmyWrH+enHTnfrrcLo4B9fUbaCAVLQBs8LEECKcALJRWW\nZT+X4CYaKf9ONBA/Ujo1YlXFnJRpZvB4EaiKbkBFKeQcic/iC4p/WL8DM7vhB4Ni\nKvjvJRH4BuU8BzoCs7uHXFrKfzV7lD6cP7IrSVRBYmdlpmSme08svVslYAUCky9R\not2dGt4sW0c7aH5qIfIu8VhJlqO8xlt+pbifIEyTOuJutcSVAoznb5TIMpicGgzd\nFB9RKllcPtAdIKUF5r2QYQzEUYTrKkxEZ3WadjChxsJAPWaZHor2+N5gySVuQt8g\nl7H5To89Rj1NlMz3LxBi\n=Qp+R\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 77ef76927b821ff60934be901303998ac60a9834\nparent a35077e5ff36f8ed24d41610e522b786c69f1bd9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752142396 +0000\ncommitter GitHub <noreply@github.com> 1752142396 +0000\n\n匿名ユーザーの提案に基づき、マイナンバーカードからスマホアプリ中心の行政サービスへ変更",
+          "verified_at": "2025-07-10T10:13:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/68a1626af16334fcacea74b9d8cf61bae04f817a",
+      "html_url": "https://github.com/team-mirai/policy/commit/68a1626af16334fcacea74b9d8cf61bae04f817a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/68a1626af16334fcacea74b9d8cf61bae04f817a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a35077e5ff36f8ed24d41610e522b786c69f1bd9",
+          "html_url": "https://github.com/team-mirai/policy/commit/a35077e5ff36f8ed24d41610e522b786c69f1bd9"
+        }
+      ]
+    },
+    {
+      "sha": "57b108ea369a825e0bbf372aeaaeaa8b55963861",
+      "node_id": "C_kwDOOqTJvNoAKDU3YjEwOGVhMzY5YTgyNWUwYmJmMzcyYWVhYWVhYThiNTU5NjM4NjE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T10:31:36Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T10:31:36Z"
+        },
+        "message": "匿名ユーザーさんの提案に基づき、スマートフォンアプリ中心の行政サービス、組織再編などを反映",
+        "tree": {
+          "sha": "bdf3f29dadee2c1df67cd145265e76791baaddeb",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bdf3f29dadee2c1df67cd145265e76791baaddeb"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/57b108ea369a825e0bbf372aeaaeaa8b55963861",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob5aICRC1aQ7uu5UhlAAAivAQACf/5KyOwxzngP3rLZjJBfEf\nNnVEjSHP/Vjey3Zui4ruSbcuAM+ZtA+CaQ/jMwsOchImdCiHKTxcY+216LzL2fZC\nXul6yUAEjmoLHPadvIM4XORgHkPhVaVaOm5DtJYYCNDwf9FrFlHYXDW6sOdE4iG4\nu5QUfq2db8uQJ8iQZ3NAvpN6C9SFORngFQDWtCZGA0+oVRQYF++1xRBqqBbPxafU\nkZkujmf68yrvyBG274+b2Y3o423ATyPOvU3kZxm8NXt/odk3BygqU8HAdc0k2zjg\n2kfPtF+9tCYs6bL8h0JhQo+EHEn+Nffu16UPjzR3cjK2H94Afz5r0s07cT0f7pvI\n8x8xiHigQhEiKWR1nK3nWVjJyaqblf+YoH4OUz48jL1RHwqCETibtwz6S9m/3Hso\nxvI+oVMaLkCXyslGUVHYs2JNQIK7GcibEMnGUw0B3N3IpLomXGSY2sd78qQzSTXJ\n4eHoWz19K7lM4lwQppZoB5vod/9LCIkn/V97rO1kW5KRGVzOeZKlrjZat+Oa1vBk\nl8PgHvz2rexDY+3QohVItW9dil9/tcq/L338mE4APKq4Ti01dqTEkupPHomfh6wQ\n/kjxyUgg7KhtXE2+txxrBAXRASuXeQ9aaYtEMs7przTv6IGLDSOQJbsx/Li3cBYK\n3azu6AEXBzOgyfZb+OSY\n=DjBl\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bdf3f29dadee2c1df67cd145265e76791baaddeb\nparent 68a1626af16334fcacea74b9d8cf61bae04f817a\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752143496 +0000\ncommitter GitHub <noreply@github.com> 1752143496 +0000\n\n匿名ユーザーさんの提案に基づき、スマートフォンアプリ中心の行政サービス、組織再編などを反映",
+          "verified_at": "2025-07-10T10:31:36Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/57b108ea369a825e0bbf372aeaaeaa8b55963861",
+      "html_url": "https://github.com/team-mirai/policy/commit/57b108ea369a825e0bbf372aeaaeaa8b55963861",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/57b108ea369a825e0bbf372aeaaeaa8b55963861/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "68a1626af16334fcacea74b9d8cf61bae04f817a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/68a1626af16334fcacea74b9d8cf61bae04f817a",
+          "html_url": "https://github.com/team-mirai/policy/commit/68a1626af16334fcacea74b9d8cf61bae04f817a"
+        }
+      ]
+    },
+    {
+      "sha": "e8a6bfff6aebdd47b7a390946bc95ac9039b85b2",
+      "node_id": "C_kwDOOqTJvNoAKGU4YTZiZmZmNmFlYmRkNDdiN2EzOTA5NDZiYzk1YWM5MDM5Yjg1YjI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T10:49:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T10:49:26Z"
+        },
+        "message": "匿名ユーザーさんの提案に基づき、デジタルシンクタンクセンター構想と未来のまちづくりについて追記",
+        "tree": {
+          "sha": "a9f70b8cde0b493342321628eafa6b6c6f34ab94",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a9f70b8cde0b493342321628eafa6b6c6f34ab94"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e8a6bfff6aebdd47b7a390946bc95ac9039b85b2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob5q2CRC1aQ7uu5UhlAAA0ngQAAJS1VnNrfNer8SI29ix8JFT\ndANNIOemdqJ5/Ej7L3o4bdyV4T6t5eu0yJSWLsIC1ipi1JIWoPzjDWl7S4tjOe2j\niOWWZKY24Ogh1e3/aXJNbl5FYJXV3egjL5KUNJwYJTC13FFwQoT+jU9aB2GNp+VI\nAgFYJT/m7efqPUuTgNve4Bg2W5hocgubNaiz5m0UmKmCK1col6F7Q+/q+CuaH0vy\n0cxKw6B3NE8fFr+WaxvkeoRkpIg4tegbcOVbr7MQ2Gxo+DHfxalgjIUdubC/n3ip\nhsMvM3FvjnBpVO31uhNApK/6hcTOjURBu2pjPfACNVo5xse6X1knWK6Z+Uwv+Ydg\nWLlIb/rHEc3o2twpC1K6CpJbYIOdFvdDDmcQhkuaWtm5AqcDPi2AJCeSIjYg7nDh\nbCuBrToLxBCIMDDCnttrmy59o+TNmIuC+WTtDz4pTmWxg5jaf5yUKWTHDyrKdy2P\nm3MdQsf158seGA1jfKnvaWS9feRDRXRBWTOQTiYgwEi28PYWwx1Jrbyl0GH8Ylwr\nYG5nAmCq/be06hQBXx6emc6wOXtYmqb9gWTcuU7Cc9qjg6+xlQBBwDKPAE7f3KxX\npQHxNuMXMG9ey07zBpUE/FlGqjbdM+Qt8Q90rwQKO3noXdhgH1CXljZbe5IcEVpr\nxTUYHiIApq8w+Ib0Xq3w\n=7CRY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a9f70b8cde0b493342321628eafa6b6c6f34ab94\nparent 57b108ea369a825e0bbf372aeaaeaa8b55963861\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752144566 +0000\ncommitter GitHub <noreply@github.com> 1752144566 +0000\n\n匿名ユーザーさんの提案に基づき、デジタルシンクタンクセンター構想と未来のまちづくりについて追記",
+          "verified_at": "2025-07-10T10:49:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e8a6bfff6aebdd47b7a390946bc95ac9039b85b2",
+      "html_url": "https://github.com/team-mirai/policy/commit/e8a6bfff6aebdd47b7a390946bc95ac9039b85b2",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e8a6bfff6aebdd47b7a390946bc95ac9039b85b2/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "57b108ea369a825e0bbf372aeaaeaa8b55963861",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/57b108ea369a825e0bbf372aeaaeaa8b55963861",
+          "html_url": "https://github.com/team-mirai/policy/commit/57b108ea369a825e0bbf372aeaaeaa8b55963861"
+        }
+      ]
+    },
+    {
+      "sha": "a2c2c32c9a649711a1ab50238e00a28a081f10ef",
+      "node_id": "C_kwDOOqTJvNoAKGEyYzJjMzJjOWE2NDk3MTFhMWFiNTAyMzhlMDBhMjhhMDgxZjEwZWY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T11:03:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T11:03:13Z"
+        },
+        "message": "匿名ユーザーさんの提案に基づき、「未来のまちづくり構想」を追記",
+        "tree": {
+          "sha": "aaa4a31acb9b261d6348acd4d6dedaef105ce985",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/aaa4a31acb9b261d6348acd4d6dedaef105ce985"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a2c2c32c9a649711a1ab50238e00a28a081f10ef",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob53xCRC1aQ7uu5UhlAAAKVcQAJeUl3hirLDhhCCo8OWERLFk\n4Ao8CCMxv4pHGkf9BBmt1m+gm4QGJX3tuwbNO0ZQ+hRnC7ri85jeBIjQDUgbM7qX\nfaCZxTC8n0fCua61Qvx5xkcBPvNwJXin3Pzo3NBNKS/UClwiwsvKfzfUQWYKEFaX\nuo185d8LWlXFQEJ+An+q3DbsO2So+ElD0SFn7qjRpO0AJT1jJd6RWrneKiU74Vlh\n3aI8DvuGC1NrWM4BhQbClNLwHOKOG+GkvUHxZxXUEBOaRxYoRmFX3oZNLO2Psbna\nKZduxL4I74BiODE488sTXNumMowu6ccHlS4MR/yRlbJ8lE2l3qG6Eq144hMKYWuI\nLeC+wf58TUh1PJpTsQuMBdAHjC7YeyuqeyJvdzqmeuEYDXyXXmH/6keW1Bq/Behu\nofG1O0Qc6KhSm65/SNc8v9xqCRDu7R7v6jxmGg4V34kf3hdzZrpLMRaZLIQ0L9dM\n9L0RMK9a+jYnlkBesOTvDiF6MqlUaO463y6ZSLEIMeg2kZM9Z1GxI0+3Cq14wy/y\nkKRaAc+CDc43r4MNu4GZ1xJkPLV4BPPKgPb3Ajv8dpAB5j56Did+b1J0b/CZ4ZMq\nliWzg/0ELVfFurgJMpTdGnijEYFApfYI7Wzr639OAgFMUfMIWaLjqoH6GMMhTEyq\nxcs4eGev4LgfpZdXk3KT\n=SiYx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree aaa4a31acb9b261d6348acd4d6dedaef105ce985\nparent e8a6bfff6aebdd47b7a390946bc95ac9039b85b2\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752145393 +0000\ncommitter GitHub <noreply@github.com> 1752145393 +0000\n\n匿名ユーザーさんの提案に基づき、「未来のまちづくり構想」を追記",
+          "verified_at": "2025-07-10T11:03:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a2c2c32c9a649711a1ab50238e00a28a081f10ef",
+      "html_url": "https://github.com/team-mirai/policy/commit/a2c2c32c9a649711a1ab50238e00a28a081f10ef",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a2c2c32c9a649711a1ab50238e00a28a081f10ef/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e8a6bfff6aebdd47b7a390946bc95ac9039b85b2",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e8a6bfff6aebdd47b7a390946bc95ac9039b85b2",
+          "html_url": "https://github.com/team-mirai/policy/commit/e8a6bfff6aebdd47b7a390946bc95ac9039b85b2"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T11:11:45.621187"
+}

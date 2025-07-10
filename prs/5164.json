@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5164,
+    "title": "治療成果に報いる医療アウトカム評価制度の改善",
+    "state": "open",
+    "created_at": "2025-07-10T10:34:47Z",
+    "updated_at": "2025-07-10T10:34:48Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5164",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "d0853ab2e315adb6ecf3249abb997d6713100f99",
+      "filename": "24_ステップ２医療.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "changes": 9,
+      "blob_url": "https://github.com/team-mirai/policy/blob/feadb59df9c44d0f45e5da273f4f3b040faba7e1/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/feadb59df9c44d0f45e5da273f4f3b040faba7e1/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=feadb59df9c44d0f45e5da273f4f3b040faba7e1",
+      "patch": "@@ -46,16 +46,19 @@\n * 日本では医療費の約3割が、糖尿病・COPD・心不全などの慢性疾患に費やされています  \n * 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言い難い側面がある  \n   * 現行の医療制度は行われた処置・診察の回数に応じて診療報酬が設計されており、疾患コントロールが改善したことに対するインセンティブは設計されていない  \n-  * 糖尿病や高血圧、脂質異常症などの慢性疾患の多くは重症化し、虚血性心疾患などのイベントが発生するまで、自覚症状に乏しいことも多く、患者サイドにも治療を強化し、積極的に状態をよくしようと動機づけしにくい場合がある  \n+  * 糖尿病や高血圧、脂質異常症などの慢性疾患の多くは重症化し、虚血性心疾患などのイベントが発生するまで、自覚症状に乏しいことも多く、患者サイドにも治療を強化し、積極的に状態をよくしようと動機づけしにくい場合がある\n+* 加えて、現在の診療報酬制度は、各地方厚生局や審査官の判断にばらつきがあり、学会のガイドラインに沿った適切な医療が必ずしも評価されるとは限らないという課題があります。全国で統一された客観的な評価基準がなければ、新たな評価制度を導入することは困難です。\n * 海外では、治療成果に応じて報酬が支払われる制度が導入され、一定の課題が示されつつも医療の最適化と費用削減を両立が期待されています\n \n ### 政策概要\n \n+* **全国で統一された客観的な診療報酬体系の整備**\n+  * 本制度の導入に先立ち、厚生労働省が主体となり、各学会のガイドラインに準拠した医療が正当に評価されるよう、全国で統一された客観的な診療報酬の判断基準を整備します。これにより、地域や審査官による判断のばらつきをなくし、公平な評価基盤を構築します。\n * 「どれだけ診療が行われたか」だけでなく、「どれだけ良くなったか」にも報いる医療制度への転換を目指し、成果連動型の診療報酬制度を導入する  \n-  * 糖尿病、COPD、心不全など、アウトカム指標が整備され患者数・医療費規模の大きい慢性疾患の治療成果を「血糖値」「呼吸機能」「心不全マーカー」などの指標で評価  \n+  * 糖尿病、COPD、心不全など、アウトカム指標が整備されている疾患から段階的に導入。その際、例えばHbA1cのような指標については、数値を単に下げるだけでなく、低血糖のリスクや改善速度なども考慮した総合的な指標で治療成果を評価します。\n   * 治療の効果が高い医療機関に対しての報酬加算、患者に対しての還元を設計し、医療機関・患者の双方に動機づけを行う  \n * 診療データを匿名化し、全国医療データベース（NDB）で一元管理。AIを活用した公平で迅速な評価を行う仕組みを整えます  \n   * アウトカム評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます  \n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n-  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "feadb59df9c44d0f45e5da273f4f3b040faba7e1",
+      "node_id": "C_kwDOOqTJvNoAKGZlYWRiNTlkZjljNDRkMGY0NWU1ZGEyNzNmNGYzYjA0MGZhYmE3ZTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T10:32:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T10:32:57Z"
+        },
+        "message": "ややさんの提案に基づき、アウトカム評価制度の前提条件と評価指標の具体化を反映",
+        "tree": {
+          "sha": "067b0539efc5a5313fcec110ed5ecb70ac300eaf",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/067b0539efc5a5313fcec110ed5ecb70ac300eaf"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/feadb59df9c44d0f45e5da273f4f3b040faba7e1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob5bZCRC1aQ7uu5UhlAAAUKIQABdfSU24SNcC+xjPAdU5SCT5\nc8R4gBBc9QUmAaEIzU4vtlNcqGDdVeZb5YFqBalqUEvnhBy+RmYoSE1Q6e6kHsk7\nJdREwweQvHp7MXdsbUMvcHKVrHyOSg/NSbXSyv/wYbACY3e+0LUZnOM7Fv2aCJmE\nuVsYLsPa+Q2Ii6zhIeYIDiJkFDnslPGIjBpIVUzeMrJ2H6KsxDSJDEQJJ/O/zGJ2\nCtN4xejkfJDedgTzgROR3EkAa3ZpQjVpoBiCwanqOmGhu+do9D755TJyAwHxKMzo\nJT49KkGIUCFqDNHaqJDE+pDySko/BuY3oDYwz3N9I0ig4CMs/OjMtaxNkek44Z0R\nVjy2go3YQTXmx+2iuti+M0Clgwf0BFGBSr9WWmvd6csSvqrgVf77q8jr7cPJuyce\n7o+cNCfKdXmDD8/xNErYkaLDbPPrep54xI+WlPVGbZf0ltNMoXfp0izThzPwhuq2\npTUsrbiLhizrrk+JdlOPZKx0QDw1pmq4FeQjqedLMMbxo2jaQPZiVHbdO0nRHKi4\nPa/JHEixnrY1Lz/wWJmpIn4jIV3TZr83ck01E3f9TnHAfVLGWKaU79aq/gNnItxQ\ncHW4LdkAu0B/CcmeLhK1pOBbHGn7VRX/EIYOSb+Ab8H479ZvcufHf0OUzVSGPTDg\nA6u/vps1nCvwce/5ww/z\n=+fJt\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 067b0539efc5a5313fcec110ed5ecb70ac300eaf\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752143577 +0000\ncommitter GitHub <noreply@github.com> 1752143577 +0000\n\nややさんの提案に基づき、アウトカム評価制度の前提条件と評価指標の具体化を反映",
+          "verified_at": "2025-07-10T10:32:57Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/feadb59df9c44d0f45e5da273f4f3b040faba7e1",
+      "html_url": "https://github.com/team-mirai/policy/commit/feadb59df9c44d0f45e5da273f4f3b040faba7e1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/feadb59df9c44d0f45e5da273f4f3b040faba7e1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T11:11:56.982159"
+}
