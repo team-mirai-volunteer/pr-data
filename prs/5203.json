@@ -1,0 +1,365 @@
+{
+  "basic_info": {
+    "number": 5203,
+    "title": "ちぃまま@takosuke26さんによる、学生の妊娠・出産と学びの両立支援策の追加提案",
+    "state": "open",
+    "created_at": "2025-07-10T12:41:51Z",
+    "updated_at": "2025-07-10T12:44:08Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5203",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "6787f761bf17453b627eee8dbcafab9477127726",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 3,
+      "changes": 20,
+      "blob_url": "https://github.com/team-mirai/policy/blob/88fd14892c505eae3ff875276b037aec73db0b2d/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/88fd14892c505eae3ff875276b037aec73db0b2d/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=88fd14892c505eae3ff875276b037aec73db0b2d",
+      "patch": "@@ -1,4 +1,4 @@\n-\\\n+\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -16,7 +16,7 @@\n \n * 現在の母子手帳は紙媒体が主流であり、妊娠中の体調が不安定な時期に受け取りに行く手間や、紛失のリスクがあり、それによってワクチン接種記録などが確認できず、適切な時期に必要な医療や予防接種が受けられなくなるケースがあります。  \n * また、妊婦健診の受診券・補助券の手続きや、産後の煩雑な予防接種のスケジュール管理、医療機関での予診票の都度記入など、アナログな手続きが保護者の負担となっています。体調がすぐれなかったり忙しい時期に何度も名前や住所を繰り返し書く作業は、負担として蓄積しています。  \n-* また、妊娠の経過によっては妊婦健診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* また、妊娠の経過によっては妊婦健隠の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n \n ### 政策概要\n \n@@ -26,7 +26,7 @@\n * これにより、スマートフォン等からいつでもアクセス可能となり、保護者はもちろん、その配偶者や他の家族も、本人の同意のもとで必要な情報を共有できるよう設定できます。また、つわりの時期などに無理して役所の窓口等へ行く必要がなくなります。  \n * 妊婦健診の受診券・補助券も、対象者に自動的にデジタル付与する仕組みを構築し自治体に提供することで、手続きの手間を省きます。医師の診断情報を基に、必要な人に必要な回数の補助がいきわたる仕組みを構築します。\n   *  なお、現在一部自治体のみにとどまっている「妊婦健診は原則全額公費負担」の拡大を目指し、必要財源の確保や国から自治体への交付の最適化を検討します。また、地域差や個々の状況によって大きく異なる出産費用についても実態把握を進め、必要に応じて出産育児一時金の金額や支給方法の見直しを含めた経済的支援策の充実を検討します。\n-* 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n+* 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予信票送付などの事務工数削減にもつなげます。\n * 国が推進する医療DXとも連携し、マイナンバーカードを活用したお薬手帳とも連携します。これにより、より正確で迅速な情報共有を実現し、保護者の負担減・子どもの受ける医療の質向上を目指します。\n * また、医療機関での受診履歴や検査結果などの情報を保護者の同意のもとで行政と共有することにより、発達障害が認められる場合など、特定の条件を満たす家庭に対して、特別児童扶養手当や児童福祉手当などの経済的支援が自動的に届くようなプッシュ型の支援体制の構築を目指します。子育てや、何らかの困難を抱える保護者にとって、複雑で多岐にわたる申請手続きは、時に必要な支援策の存在に気づけない、あるいは申請を諦めてしまうといった事態を生み出すほどの大きな障壁となっています。こうした申請主義の課題を克服し、必要な支援が迅速かつ確実に届くようにします。\n * なお、デジタル母子パスポートの運用にあたっては、子ども自身の情報アクセス権を尊重し、成長段階に応じた情報共有のあり方について、関係者間で検討を深めます。\n@@ -63,3 +63,17 @@\n * これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n * 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n+\n+## ４）学生の妊娠・出産と学びの両立支援で、若者のライフプランの選択肢を拡大します\n+\n+### 現状認識・課題分析\n+\n+* 若い世代が妊娠・出産した場合、経済的な見通しの不安や、学業の継続が困難になることへの懸念から、中絶を選択したり、あるいはキャリア形成を優先して晩婚化・晩産化につながる傾向があります。\n+* 特に学生の場合、妊娠が発覚すると、周囲の無理解から「悪いこと」と見なされ、祝福されるべき新しい命の誕生が、本人の将来を閉ざしかねない事態につながっています。退学を余儀なくされ、結果的に低賃金の不安定な職に就かざるを得ず、親子ともに貧困に陥るという負の連鎖も指摘されています。\n+* これは個人の人権に関わる問題であると同時に、少子化という社会全体の課題にも深く関わっています。若者が早い段階で家庭を築くという選択肢を持ち、安心して子どもを産み育てながら学び続けられる環境がなければ、社会の活力は維持できません。\n+\n+### 政策概要\n+\n+* 妊娠・出産を理由に、学生に退学や休学といった不利益な取り扱いをすることを厳に禁じます。\n+* 学業と育児を両立する学生（10代だけでなく、学び直しを希望する社会人なども含む）を対象に、学費の減免措置や給付型奨学金の拡充に加え、生活費を保障する新たな給付制度を創設し、経済的な理由で学びや子育てを諦めることがないよう、国が力強く支援します。\n+* 全国の大学や専門学校等に、保育施設や親子で過ごせるスペースの設置を推進し、キャンパスが子育てフレンドリーな場所となるよう環境整備を支援します。これにより、学生だけでなく、教職員も安心して子育てができる環境を目指します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37",
+      "node_id": "C_kwDOOqTJvNoAKGE3YmM4N2NhOTJkM2Y4NmEyZTU5YmI0MzdkNGM4OGYzZjE0NDNmMzc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T12:22:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T12:22:43Z"
+        },
+        "message": "匿名ユーザーからの提案：学生の妊娠・出産と学びの両立支援の項目を追加",
+        "tree": {
+          "sha": "1a402300af677bc81150d13794e6e99d098da324",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1a402300af677bc81150d13794e6e99d098da324"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob7CTCRC1aQ7uu5UhlAAABXAQAI961oJM36zSB18E2WaPlEDf\ny+MkJApR29AwKeTx840XyrUAnGhz6rv1MGnk6L+xOvEigOGAiCkJ9bUX2KMsmnKf\nTT+J2PsYHxSe20mud/DM3dSmaOL6pRzdP3xWyl5ORlbvwlNn7SflMwXe2bQGT62B\noMkzkixVsekrr/APoeG3ppwJjaB3KeeNZ1XiqO7uwmB4bKfjsgl0y4zz5zRdsXxN\nzqD6cesjOpuXddOKpi2OBp57kzlVIyG6B3UNCpVjUVFtBWiEojBAD1e9N1LyyYF9\n7QhjSqiwPgCur6eVNu/AQwPtBQAvBwM9ien8j7E+JgogcOgjIMLbFFmegT+Fn7Ao\nNiW5C8eUsrNwq8kVHeE5nvwuCDOMxGF1zodBWDbGgi+/JL7kyrtyR1LFRHK4SZ4+\nzRWUCGVxhj+uxJYv6APkUy6FSgJKBSs2bfV8f+G34giQSMCXTLNRQ5yGZelE3VPU\nhmhczjKy98BwTdJOAR75Xzi89IHKKXsCJswYJh7tiDzNCDRlrZ/JuAtIWn/Tz+eq\n109pe+vCDp4FZR3AJ+MAuZxjp8pLDS6z94gMjiZkHDbqV0k9kC3PZEqH7TJ7HUs8\nJquIpoZdGo/T/rZjPcXz7aE+FSi6VJ/tp9ZahfeSyQ0EvY6iqvOFrqMKI1hhmw1q\nHjKy8q86jACr/ZGesHez\n=K/rq\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1a402300af677bc81150d13794e6e99d098da324\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752150163 +0000\ncommitter GitHub <noreply@github.com> 1752150163 +0000\n\n匿名ユーザーからの提案：学生の妊娠・出産と学びの両立支援の項目を追加",
+          "verified_at": "2025-07-10T12:22:43Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37",
+      "html_url": "https://github.com/team-mirai/policy/commit/a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    },
+    {
+      "sha": "0083610a15a162874e5a947232e049ecc3602cb2",
+      "node_id": "C_kwDOOqTJvNoAKDAwODM2MTBhMTVhMTYyODc0ZTVhOTQ3MjMyZTA0OWVjYzM2MDJjYjI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T12:34:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T12:34:16Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、「学生の妊娠・出産と学びの両立支援」の項目を追加",
+        "tree": {
+          "sha": "f0537d4e23854c6439e30a08b1cec15330b5aa85",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f0537d4e23854c6439e30a08b1cec15330b5aa85"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0083610a15a162874e5a947232e049ecc3602cb2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob7NICRC1aQ7uu5UhlAAAaCYQAEFTiKhLjUExsXpK7kHeQ4IK\ncvv3qM9vXTzXZauSsfxG6rJnRptspCLerSJlQhkjHxeGMyq0MNn3L5A47lYs+RIJ\nGkt5uUTlN67TopxrQ2KiURVPGK3X3iAIzXF6STFPlCsfLXJxwKWIFBQyWOCrN0NC\nr+P5NiqZvUuSNCTYdSa2n8iAtCOak7Sznxbgw16TSAvmXmS6GwJWll1v+jkR6sup\nLitQsusO+tYqvVXlxh2qbTELJufv83a4FOiulTGIvdg6V/8PMvkzyCiOqvBsU7id\no5DhKkQE4J/SizFL4AF7JQCvbpnSqODjqHtg3G1RRtOKVs9jSvKROx+1tJGhNqc/\nE0awOIDUMnHs7UW7Zy6QafmDYsiqRsTwtkIv4FGfTfX/YQs1eaLIpTA8BI/yZdCM\n74xRCznMoWeaoCBmR/rV73o9dWByjewAqPmbQIWnRRM0i6hQOXY3opjLurG5Aamg\nHFb/NLTUyQNrMqV5gHA2ViCYRGpeSeKvuyP4Hyl2k7YMQvjUnkocjti+PPEMCquE\ne0z/1kPAOLp7IGZrcrj2NqJeSjg+kxWKy/o44mZQPcm/w9cVYt9KKpHL8VXgzsRy\nOf2q1KA9PbNFlK7L16NKKRtJ+CE6gU6krW8zVfORQGKIbPchR1zTvTpisMlffzGW\nQEJ+wHCgb4lvxvGAYm7T\n=XQ9/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f0537d4e23854c6439e30a08b1cec15330b5aa85\nparent a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752150856 +0000\ncommitter GitHub <noreply@github.com> 1752150856 +0000\n\n匿名ユーザーの提案に基づき、「学生の妊娠・出産と学びの両立支援」の項目を追加",
+          "verified_at": "2025-07-10T12:34:16Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0083610a15a162874e5a947232e049ecc3602cb2",
+      "html_url": "https://github.com/team-mirai/policy/commit/0083610a15a162874e5a947232e049ecc3602cb2",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0083610a15a162874e5a947232e049ecc3602cb2/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37",
+          "html_url": "https://github.com/team-mirai/policy/commit/a7bc87ca92d3f86a2e59bb437d4c88f3f1443f37"
+        }
+      ]
+    },
+    {
+      "sha": "355ece35b64d1b6a6aaf929012df2dd3f54fb573",
+      "node_id": "C_kwDOOqTJvNoAKDM1NWVjZTM1YjY0ZDFiNmE2YWFmOTI5MDEyZGYyZGQzZjU0ZmI1NzM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T12:37:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T12:37:37Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、「学生の妊娠・出産と学びの両立支援」の章を追加",
+        "tree": {
+          "sha": "79dc3e95ab31572247383ec85eade535bbc89a1d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/79dc3e95ab31572247383ec85eade535bbc89a1d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/355ece35b64d1b6a6aaf929012df2dd3f54fb573",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob7QRCRC1aQ7uu5UhlAAAFrwQAEnA8yALuUDPPow+d19ShDZ3\nrHmQ/3XHj0RKMf8RgWyeBoath1JKTja8R4Shk8ruKU0Hw0+2T3SiG0IvTiUbmGx/\nc02ElaRRDBJGRyPLVYwFMHMAjQ4EIzqrnIzc5iYpl1+l3lzkelHP6TL+DzCbhANY\nigR1Rx1uIPDTZcQeFQmNo3J/TW9MpVAVUqOl3F24qjBQiwDQouuxjYXsGiug7ECu\n5zT2nyaYIkriBBSrZlBunIHiCDvwdHzzqlKb0sGx16HgqLHKvY7iJbFRKWZ9ECL9\nLlvcy4ZGFrwxRdOpOlv4MocPZdrLzU4dr8bHRNpDmOZgmvP0m5cehfV5S9xcSfk2\nho6jKCJBCHFOORtp5cikG33IxF5QndbpTUyktcFqq2pAV79+XINBcjEngZmrSbXw\nDImQBxcDQBq0nRYPTd8ZDEXWVV/edUBEVwAFkejgDZpn4L1aoFdvyg2kJ3s5aqh1\nv/CoUo61upa41/d5oZiPS3zpe/y7pV+tSja7dGIf//MWpBsbeRVpA8ky5yZ3QQ6Z\n+It/xMxjlSDpZrjN88njpciVMDtUzrPGq8lyqXmW01pkbfVqexg806bniw9fQZJN\nn0PFaRlJXe7W00fqXfMwRYTxSjN9yXqZKu4CvWe2obG3S8uH74fhRNcT1HFoFPur\n5MdKMGP5KoZ5fA7n8Rh3\n=VW0M\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 79dc3e95ab31572247383ec85eade535bbc89a1d\nparent 0083610a15a162874e5a947232e049ecc3602cb2\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752151057 +0000\ncommitter GitHub <noreply@github.com> 1752151057 +0000\n\n匿名ユーザーからの提案に基づき、「学生の妊娠・出産と学びの両立支援」の章を追加",
+          "verified_at": "2025-07-10T12:37:38Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/355ece35b64d1b6a6aaf929012df2dd3f54fb573",
+      "html_url": "https://github.com/team-mirai/policy/commit/355ece35b64d1b6a6aaf929012df2dd3f54fb573",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/355ece35b64d1b6a6aaf929012df2dd3f54fb573/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0083610a15a162874e5a947232e049ecc3602cb2",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0083610a15a162874e5a947232e049ecc3602cb2",
+          "html_url": "https://github.com/team-mirai/policy/commit/0083610a15a162874e5a947232e049ecc3602cb2"
+        }
+      ]
+    },
+    {
+      "sha": "88fd14892c505eae3ff875276b037aec73db0b2d",
+      "node_id": "C_kwDOOqTJvNoAKDg4ZmQxNDg5MmM1MDVlYWUzZmY4NzUyNzZiMDM3YWVjNzNkYjBiMmQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T12:40:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T12:40:45Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、「学生の妊娠・出産と学びの両立支援」の項目を追加",
+        "tree": {
+          "sha": "f0537d4e23854c6439e30a08b1cec15330b5aa85",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f0537d4e23854c6439e30a08b1cec15330b5aa85"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/88fd14892c505eae3ff875276b037aec73db0b2d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob7TNCRC1aQ7uu5UhlAAA/hQQAEXKYXdoo3tspK+4gGQxtkuD\nwc6+vnj6MEBc5q9bJJa4/68myGn14HHYpavBphcqGfH0S8CEozE+ljZ5ZzxZf1Zp\nZR0RaDohD3opX79T9vL6+j9iWAuOEz2S9RmWXHhq8DuC7SPX3sLo9g7tfG6NcbpV\nmw1+njWrJ90UZECjgQK9s/WqJ7IGRJTrZBk3+9YRsH79kRP0yza9a7iqHZBHjPCF\nJjp6Fm4jD5+8xKQEkjO6lB0I/+I/yngswQr1P61QW5+MWyTrt8n+VSjbnVTnaYZr\nRAVMjaE/GTI2p/dTfTS19nG9L5d9rIIBadgnYR6GMEkJnLXx0x4UlgizAfCdKnFU\nIjRVvaxaB2QCPgxWak8v3qUGmuwz7bSivlXzYogCoQWmx9hhjBmLZo5nPV34f+So\n9DMtDi8V3MEB9mtyuYCj0epoVyDymiV05SNnvHL5BUjNHJzaAZZhHXCPD1/QVH8l\nIP15npCtQibHwdELW8fIZWvrGxw8XcKUaJcgfpIg/JkU5W6ZEdq/yehHH4KMR9Kv\n4zwV7X/2MmTUSxqXnl5/RZL2hfjyD5xchHViy8fldTGIHRawYT4Hcor1eohCds6G\ng++5tHyBtDf9HbnB8tz8avC1XB5mZOYO20OTumfPTQEP/oB5fXVwLJMCIndB4Dv2\n33ZXBq6te/BIruM+NZH+\n=x89k\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f0537d4e23854c6439e30a08b1cec15330b5aa85\nparent 355ece35b64d1b6a6aaf929012df2dd3f54fb573\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752151245 +0000\ncommitter GitHub <noreply@github.com> 1752151245 +0000\n\n匿名ユーザーからの提案に基づき、「学生の妊娠・出産と学びの両立支援」の項目を追加",
+          "verified_at": "2025-07-10T12:40:45Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/88fd14892c505eae3ff875276b037aec73db0b2d",
+      "html_url": "https://github.com/team-mirai/policy/commit/88fd14892c505eae3ff875276b037aec73db0b2d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/88fd14892c505eae3ff875276b037aec73db0b2d/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "355ece35b64d1b6a6aaf929012df2dd3f54fb573",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/355ece35b64d1b6a6aaf929012df2dd3f54fb573",
+          "html_url": "https://github.com/team-mirai/policy/commit/355ece35b64d1b6a6aaf929012df2dd3f54fb573"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T12:54:34.840814"
+}

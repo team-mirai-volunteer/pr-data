@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5209,
+    "title": "【やじまさん提案】AI支援の具体化（学習範囲の柔軟化とメタバース活用）",
+    "state": "open",
+    "created_at": "2025-07-10T12:50:02Z",
+    "updated_at": "2025-07-10T12:50:02Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5209",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "5a698ec3df7b21fcf9a1cbb50e631fd682922bd9",
+      "filename": "11_ステップ１教育.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "changes": 6,
+      "blob_url": "https://github.com/team-mirai/policy/blob/89409c58b69e1811083420b5d38331ecb3aee253/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/89409c58b69e1811083420b5d38331ecb3aee253/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=89409c58b69e1811083420b5d38331ecb3aee253",
+      "patch": "@@ -31,6 +31,7 @@\n \n * AIを用いた「AI学習アシスタント」「AIメンタルアシスタント」を提供します。  \n   * AI学習アシスタントは、子ども一人ひとりの学習状況や興味関心を把握しながら、学びの個別最適化をサポートします。  \n+    * 学習指導要領の内容を基本としながらも、個々の興味や習熟度に応じて、その枠を超えた発展的な学習や、基礎に立ち返った学び直しを可能にします。  \n     * 計算練習や英単語学習などのドリル的な活動では、個々人の習熟度に合わせたものを効率よく学ぶことができます。  \n     * 答えのない探究的な活動では、AI学習アシスタントは答えを提示せず、子どもに対して問いかけたり関連する情報を提示したりしながら、子どもの自己決定や自己理解の深化を促します。  \n     * これらの学習情報を、必要に応じて、保護者や教員、さらには校種を越えて共有することで、より包括的なサポートが可能になります。  \n@@ -58,7 +59,7 @@\n \n ### 現状認識・課題分析\n \n-* 2024年度は、年度当初時点で2割の学校で教員不足が生じているなど、教員不足は全国的に深刻な問題です。  \n+* 2024年度は、年度 ursprünglich 時点で2割の学校で教員不足が生じているなど、教員不足は全国的に深刻な問題です。  \n * OECDのTALIS調査（2018年）によると、日本の教員の労働時間は長いにもかかわらず、授業にあてられる時間は短く、学校の先生が本質的なこと以外に時間を使ってしまっています。  \n   * 小学校では 54.4 時間/週（OECD平均は40.6時間/週）。中学校では56.0時間/週（OECD平均は38.3時間/週）。そのうち授業に充てられるのは、中学校で18 時間程度で世界最短水準です。  \n   * 参考：TALIS（OECD国際教員指導環境調査）[https://www.mext.go.jp/b\\_menu/toukei/data/Others/1349189.htm](https://www.mext.go.jp/b_menu/toukei/data/Others/1349189.htm)   \n@@ -142,7 +143,7 @@\n   * 情報提供に際しては、匿名性やプライバシー保護を最優先とし、情報を受け取る側が不安感・不快感を抱かないよう、情報提供の目的や利用されるデータの範囲について明確に説明します。  \n   * 特定の状況に応じて、学校の担任教員やスクールソーシャルワーカー、地域の民生委員など、信頼できる人物からの個別連絡をAIがレコメンドし、より丁寧なアプローチを促します。これにより、情報提供と人間による直接的な橋渡しを連携させます。  \n * 個別最適化された支援計画の立案をサポートします。  \n-  * AIが検知したニーズや、これまでの支援事例データを分析することで、子どもや家庭の状況に合わせた最適な支援メニューや支援機関を提案する機能を開発します。  \n+  * AIが検知したニーズや、これまでの支援事例データを分析することで、子どもや家庭の状況に合わせた最適な支援メニューや支援機関を提案する機能を開発します。たとえば、不登校の児童生徒に対しては、社会性の発達を支援するために、アバターを通じて他者と交流できるメタバース上の仮想教室への参加を提案するなど、多様な選択肢の中から個々の状況に応じた支援を提示します。  \n     * これにより、教職員や支援者が限られた時間の中で、膨大な支援情報の中から適切なものを探し出す手間を省き、より質の高い支援計画を迅速に立案できるよう支援します。  \n     * 過去の成功事例や類似ケースの支援経過をAIが提示することで、支援のノウハウを共有し、全体の支援レベルの向上を図ります。  \n   * AIによる情報集約、分析、提案機能は、教職員や支援者の事務的・情報収集の負担を大幅に軽減し、経験の浅い教職員でも質の高い支援を提供できるようになります。  \n@@ -185,3 +186,4 @@\n * 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。  \n * 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。   \n   * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "450f93502a80512e2415e492a5ba103c27b75c6d",
+      "node_id": "C_kwDOOqTJvNoAKDQ1MGY5MzUwMmE4MDUxMmUyNDE1ZTQ5MmE1YmExMDNjMjdiNzVjNmQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T12:36:51Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T12:36:51Z"
+        },
+        "message": "やじまさんの提案：AIアシスタントが学習指導要領の枠を超えた学習を可能にすることを明記",
+        "tree": {
+          "sha": "d69f89896bfb52fb19f8644bb6bd1c0aa6d5ce69",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d69f89896bfb52fb19f8644bb6bd1c0aa6d5ce69"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/450f93502a80512e2415e492a5ba103c27b75c6d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob7PjCRC1aQ7uu5UhlAAAas0QAAjq7tqDDQEbTIvikwIYp39E\ngTxYYs0m2HgSu7zR4+UfPjDG+XGyhJ8Vg0GpRRrvp4nWshX1ECqRkFeAThD/YHBq\ni46tx4bbZa5JziHGXld90V67Tn5bYGGMwFtUpUrInB9+Vcl+TRcA0oLBWsi1O5ec\n/wK9kXA1CxvCw8S6uSCHRhyq9XDm+s8Wbb7tEX+0zy2vjD1eF9WM4CIBVqZBVf1M\n3INPVzh5968wclk63rI0xfeQnSQ//gC2c24TnXOumwzpG2Et8I8Qz5Os9WajeoqR\n9Co7rGjJv0y9z1wDgdTFO4fWTL9CNkSiWJ38V1oCBKO8kQKV+OlF+7H9uSQx9vLF\nD2+BMAreK3qXNtl3bvzCKD4S2Fd0jynd9OZ2P5d96M4+hSMOteDCwHtU6ieSTk/s\naU2OLBtFZlclQhZl1NI9aBzaBIOsR7gwr3RFQ93NM3IFc23Ip/q3QNSqO271di7f\n86k+EIOVxbV8pxyFQ5geRDhXkFiRatTSvLibv8SOz/lZG+XKsB5FkzRmVpie0fQB\nduW6KP9Z9INgO/RgIBFb4+LKmnYV6i0dHIckXB5H5aW5+Zd48OXN96ap7KFfQC7f\nrO93PhU1UmCx0b48nNSr9qEqXb56BM7hfPmS9uPQsKSkWhvggSaC/zcx0KPJtegr\nw6L2nayf5Ht/0ZmVynOZ\n=N0kS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d69f89896bfb52fb19f8644bb6bd1c0aa6d5ce69\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752151011 +0000\ncommitter GitHub <noreply@github.com> 1752151011 +0000\n\nやじまさんの提案：AIアシスタントが学習指導要領の枠を超えた学習を可能にすることを明記",
+          "verified_at": "2025-07-10T12:36:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/450f93502a80512e2415e492a5ba103c27b75c6d",
+      "html_url": "https://github.com/team-mirai/policy/commit/450f93502a80512e2415e492a5ba103c27b75c6d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/450f93502a80512e2415e492a5ba103c27b75c6d/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    },
+    {
+      "sha": "89409c58b69e1811083420b5d38331ecb3aee253",
+      "node_id": "C_kwDOOqTJvNoAKDg5NDA5YzU4YjY5ZTE4MTEwODM0MjBiNWQzODMzMWVjYjNhZWUyNTM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-10T12:46:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-10T12:46:29Z"
+        },
+        "message": "やじまさんの提案に基づき、AIアシスタントの機能と不登校支援について更新",
+        "tree": {
+          "sha": "d8852a356e68f43d05fc9f908ce95a479f31d875",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d8852a356e68f43d05fc9f908ce95a479f31d875"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/89409c58b69e1811083420b5d38331ecb3aee253",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJob7YlCRC1aQ7uu5UhlAAAkAQQAFUp6NL91crh/EYcy1fcy/fK\nEadaRMWogu1/c4OHMdgoGAG4LAqVTZpDG84H8erqd6nQXvYGOnYCNevejEzabagI\nIVByei6wIYuMFAM95e5XPXsCSKcyo8FKCIuOAkr66cljguMpLDY2//RXEZSsITLC\n8uNUbK001dhCYz5bMsi9tWDSJI5G6mcxfdhyd1TQl+cAx0g+DqfgGs/nNlhewzAu\nB4qgCJ/YD1Qc0441JLHqYhbuoRNeEVof2NDUzNvIonHdRnA/qTVa5xSqkViFo0SQ\nxLbrALNjkw+t95Uu57qsq37BTbELbDvxByYXsNKw6KXNRLc2eu2AtQahiJ8drVqE\n7syH3EufQsoRBL0tjzXA32TZAkZK4zW5a8tfyr/TARaz+5ps/e9fYJxvi0TtO5GI\n7XCJ8D4tcURQ4bCkCx+m5RWog03EjbkYFOd/rvouYElsL/hjDESJHBJ2t5qF7eiP\nVuCuxqVbkJWvIcr1tlxFu4Fy/Wr6ZvJ7yOtqSQHVxCLmoa+wm1KcAxKgUKCjMgCP\nLL4n2YJdiyWosnQ+A6jwHv02WX+lTmw/OfRodpHWGC0BM8OZDgvnH7p9Jyk6kzeC\nuRI/itpVqqnPjrxpONsis5oNenXBNxGFpDgJrJXAsgJ22IFds6Q0nQtQOPWHtOau\nJ5tYedypara6PJ4n7PKt\n=0+EY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d8852a356e68f43d05fc9f908ce95a479f31d875\nparent 450f93502a80512e2415e492a5ba103c27b75c6d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752151589 +0000\ncommitter GitHub <noreply@github.com> 1752151589 +0000\n\nやじまさんの提案に基づき、AIアシスタントの機能と不登校支援について更新",
+          "verified_at": "2025-07-10T12:46:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/89409c58b69e1811083420b5d38331ecb3aee253",
+      "html_url": "https://github.com/team-mirai/policy/commit/89409c58b69e1811083420b5d38331ecb3aee253",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/89409c58b69e1811083420b5d38331ecb3aee253/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "450f93502a80512e2415e492a5ba103c27b75c6d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/450f93502a80512e2415e492a5ba103c27b75c6d",
+          "html_url": "https://github.com/team-mirai/policy/commit/450f93502a80512e2415e492a5ba103c27b75c6d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-10T12:54:47.475708"
+}
