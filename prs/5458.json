@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5458,
+    "title": "初診時の受診抑制リスクを考慮した自己負担割合の調整",
+    "state": "open",
+    "created_at": "2025-07-11T11:02:37Z",
+    "updated_at": "2025-07-11T11:02:37Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5458",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "db7794c5874090322c7fd594985c9c267913d7bc",
+      "filename": "24_ステップ２医療.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "changes": 3,
+      "blob_url": "https://github.com/team-mirai/policy/blob/dc3aaba6016efecb67561ad2332ef509bfb233da/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/dc3aaba6016efecb67561ad2332ef509bfb233da/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/24_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=dc3aaba6016efecb67561ad2332ef509bfb233da",
+      "patch": "@@ -24,6 +24,7 @@\n ### 政策概要\n \n * 診療行為のエビデンス、費用対効果や重症度に基づく自己負担割合の複数段階化を検討します  \n+  * ただし、自己負担割合の調整が受診抑制に繋がらないよう、初診時の負担には特に配慮します。例えば、重症な場合は初診から負担を軽減し、軽症な場合は診察の負担は据え置きつつ、継続的な投薬などで調整するといった柔軟な仕組みを目指します。\n   * 現在の健康保険法や高齢者医療確保法では、年齢による自己負担割合が言及されていますが、医療価値に応じた負担区分の段階化が可能となるよう、これらの法改正を検討します  \n   * 現在の診療報酬システムでは、医療機関が審査支払機関に請求する診療報酬のみが設定されていますが、診療内容による自己負担割合の影響についても制度に組み込みます  \n   * 上記の緻密な診療報酬制度を構築するため、全国医療データベース（NDB）に蓄えられた診療実績を解析し、柔軟に機動的に診療行為の有効性、費用対効果について議論するための基盤を整備します  \n@@ -58,4 +59,4 @@\n   * アウトカム評価の効率化と医療現場の負担軽減のため、電子カルテの標準化、相互運用性の確保を進めます  \n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n-  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+  * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "dc3aaba6016efecb67561ad2332ef509bfb233da",
+      "node_id": "C_kwDOOqTJvNoAKGRjM2FhYmE2MDE2ZWZlY2I2NzU2MWFkMjMzMmVmNTA5YmZiMjMzZGE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T11:00:38Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T11:00:38Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、初診時の自己負担に関する配慮を追記",
+        "tree": {
+          "sha": "9bc0dc729d191b0689588e44257aafc5a5704dd1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/9bc0dc729d191b0689588e44257aafc5a5704dd1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/dc3aaba6016efecb67561ad2332ef509bfb233da",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocO7WCRC1aQ7uu5UhlAAAfVsQAFcKGnq7uJJBacIeIhbIilMH\nSK9KmzalfO0vn3+s4DMhXBra6qhlKIrGlr0EfDN+SH2tZ+AfXMgpGSSC+TlduW9i\n6XJ8Hb9jK36nCzxDpHwEbtdRewU+HcKRG0lFUJZlcYopyc4dBKyG1+YvKj35uglv\nf8+mBWKM4ZS4saAucjueOyazPwpQ7+VMw9d0MZ7Lc4sZV1CRxPCxgy6gRs5QFWGl\naY+Ybw7cqWPOa+FTVXpOg3MotuLKnxSNPRIpYVd6UACWJHRnVjkkoWhS8+Mk3tu6\nvBoD3reM5zZ/FGB5ihRC1hCubDegSt5d15pFOg8cL4cG/tMu2OoFAaqdA38rPMi5\nGcW3Ii+k6mgFGg8rq9hjeQd2F/6oMLR/UJGONAE28pNdE68/dqythmF7on1X/F9S\nmYQIchSsOAHQWPZS3HRFmduCAsD5tc2/azzYYwb3XKqpAV0IiVndQowZUF3AI+7x\nN9ewe5rzg2Rb5CqUWOvuODnp+QgWKXXIBp+v2zwEh0wbtuQVgtSgsHmQa4gcon3V\nmWHVuXoiZvx37Dfa3tn8SarqRt+mcYt+tqZQL02uCZdBKzuS1vVy7VLw0lIS9cRa\nY9dho1a+l0lRxfye9uZjhWTEXTcYAsVjk1GpondguYbuG8/pOgr/RUBAtrFFxCXq\nRAhAJe5EqOXtSX496glG\n=a5M2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9bc0dc729d191b0689588e44257aafc5a5704dd1\nparent b2df4732f68af0d1b1d5ea90c0ab146470b8b808\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752231638 +0000\ncommitter GitHub <noreply@github.com> 1752231638 +0000\n\n匿名ユーザーの提案に基づき、初診時の自己負担に関する配慮を追記",
+          "verified_at": "2025-07-11T11:00:38Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/dc3aaba6016efecb67561ad2332ef509bfb233da",
+      "html_url": "https://github.com/team-mirai/policy/commit/dc3aaba6016efecb67561ad2332ef509bfb233da",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/dc3aaba6016efecb67561ad2332ef509bfb233da/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b2df4732f68af0d1b1d5ea90c0ab146470b8b808",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b2df4732f68af0d1b1d5ea90c0ab146470b8b808",
+          "html_url": "https://github.com/team-mirai/policy/commit/b2df4732f68af0d1b1d5ea90c0ab146470b8b808"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T11:12:17.433533"
+}
