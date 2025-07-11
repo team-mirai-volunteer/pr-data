@@ -1,0 +1,288 @@
+{
+  "basic_info": {
+    "number": 5398,
+    "title": "概算要求のウェブ版とXML版を作成すること",
+    "state": "open",
+    "created_at": "2025-07-11T06:42:09Z",
+    "updated_at": "2025-07-11T06:47:11Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5398",
+    "user": {
+      "login": "thomas-k-cameron",
+      "id": 68596478,
+      "html_url": "https://github.com/thomas-k-cameron"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "1c3ca72560dff74022bb15621f09f4742763b291",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "blob_url": "https://github.com/team-mirai/policy/blob/f2433f90779246a0b7e120a9f3d525b78cdc5239/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/f2433f90779246a0b7e120a9f3d525b78cdc5239/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=f2433f90779246a0b7e120a9f3d525b78cdc5239",
+      "patch": "@@ -22,6 +22,7 @@\n   * イギリスでは「UK Parliamentary Digital Service（PDS）」がこうした役割を担っており、日本でも常設の技術チームによる支援体制が急がれています。\n * 国民参加と熟議を支える基盤の未整備\n   * 政策形成に市民の声を活かすには、意見を集め・整理し・論点化する基盤が必要ですが、現在はその多くが未整備です。多様な意見を構造的に把握・分析するツールの整備が求められています。  \n+* 政府予算の内訳は極めて詳細に提供されているものの、PDF形式等、活用しづらい形式で提供されています。\n \n ### 政策概要\n \n@@ -44,6 +45,9 @@\n     * 各府省の資料、過去の国会・委員会の議事録などを横断的に収集・整理し、関連情報を自動的に集約・提示する機能を開発します。忙しい議員が短時間で必要な情報にアクセスできるようにします。\n  * 技術外交のハブ機能\n    * エンジニアチームだからこそ可能な“テック外交”を推進します。国内外の技術者コミュニティと連携し、政策立案に必要な知見を得ると同時に、日本発のガバメントテクノロジーのプレゼンスを高めていきます。\n+ * 概算要求明細表の公開方法を改善\n+   * 特に概算要求明細表には1000円単位で歳出の詳細が記載されており、新聞の購読料やボールペン1本の値段まで事細かに記載されていますが、PDFファイルで公開されており、省庁によっては1ファイルあたり1万ページを超えることもあり、せっかくの情報を活用することが難しくなっており、ひいては一般市民による政府を監視も難しくなっております\n+   * 国民の政府への不信感の払拭と事実に基づく議論を行っていくためにも、概算要求明細表のウェブ版を公開するほか、XML版（ないしは、parquetやNDJSON）も公開します\n \n ## ２）使いやすい行政を実現します\n "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "66907ac99820f74eecb8396b5a9047c8a31b0171",
+      "node_id": "C_kwDOPIuSo9oAKDY2OTA3YWM5OTgyMGY3NGVlY2I4Mzk2YjVhOTA0N2M4YTMxYjAxNzE",
+      "commit": {
+        "author": {
+          "name": "Thomas Cameron",
+          "email": "thomas.k.cameron.1218@gmail.com",
+          "date": "2025-07-08T03:15:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T03:15:10Z"
+        },
+        "message": "Update 13_ステップ１くらしと行政.md",
+        "tree": {
+          "sha": "adb26676d9a4bcc285f1a6c29ffe0d830cd9f1f4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/adb26676d9a4bcc285f1a6c29ffe0d830cd9f1f4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/66907ac99820f74eecb8396b5a9047c8a31b0171",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobI0/CRC1aQ7uu5UhlAAAQfIQACt6+NSW083WQqUpn517o5nI\nwBn1sVUvuoZTfOPpXtHQhuxEjfQPZMUXR1u4zQMvmMeP+LZNzj5YbxTsK+qhZhUk\nDtMTX35epAYHjIjZjgGs67Ne8tN+zFBduHxwwToxUEgZw85LnQlavbrVyCa9fUyE\ndGqviAcJzA+RmjwcMeW7EYrass9fzuW82e/eHmupCtbO7s//vDIplAhDExTmRnKh\nFro6IQoYmbI5V0Dizarrorg3Maxm9G7J9zUctqOllhyoqlNlXq18+VzO+dmCywzU\nr10qAhqgDvCT+ypLol6mOHus0LxIibm90b4IbyqxxgnMmLoMuZDw94tmFtVpLaGq\n0sn4wI6hHJu7YiEtQkQFwTmS8qG8NXTHOiXkFIBfFJSKVmlmYMQ8Clf9HBD8zgL3\nhkBoJKC3PsMsp6BF6glYnY081Y69guGh6qeEFPa7tGG8vd7AqQQmqcjxrlAVjbHG\neb3732J860Eb8rmRKYOg/AEhyhI1E6Jq/TEZSioXlLMc4d78aL3I6wzovxYUSKTP\nAe7ueVxYcyAtRUv932LlhldniV9dkfq/mvtWoZfb1T3r4PuiEbdpWOBSoQ27ZLgo\nNEV2aljrtYCkNBevURMD7uvc10KMkQMn1l6Om9qLXpCCFe05bHOyD8lR//dDMGMH\nR43ILpNoK3TZ21Y3g9mx\n=G48S\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree adb26676d9a4bcc285f1a6c29ffe0d830cd9f1f4\nparent d4c89ca9ba2d9f26602806ff03a6ffa355570f3d\nauthor Thomas Cameron <thomas.k.cameron.1218@gmail.com> 1751944510 +0900\ncommitter GitHub <noreply@github.com> 1751944510 +0900\n\nUpdate 13_ステップ１くらしと行政.md",
+          "verified_at": "2025-07-08T03:15:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/66907ac99820f74eecb8396b5a9047c8a31b0171",
+      "html_url": "https://github.com/team-mirai/policy/commit/66907ac99820f74eecb8396b5a9047c8a31b0171",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/66907ac99820f74eecb8396b5a9047c8a31b0171/comments",
+      "author": {
+        "login": "thomas-k-cameron",
+        "id": 68596478,
+        "node_id": "MDQ6VXNlcjY4NTk2NDc4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68596478?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomas-k-cameron",
+        "html_url": "https://github.com/thomas-k-cameron",
+        "followers_url": "https://api.github.com/users/thomas-k-cameron/followers",
+        "following_url": "https://api.github.com/users/thomas-k-cameron/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomas-k-cameron/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomas-k-cameron/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomas-k-cameron/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomas-k-cameron/orgs",
+        "repos_url": "https://api.github.com/users/thomas-k-cameron/repos",
+        "events_url": "https://api.github.com/users/thomas-k-cameron/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomas-k-cameron/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d",
+          "html_url": "https://github.com/team-mirai/policy/commit/d4c89ca9ba2d9f26602806ff03a6ffa355570f3d"
+        }
+      ]
+    },
+    {
+      "sha": "ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a",
+      "node_id": "C_kwDOPIuSo9oAKGFiNzBjZmE0ZWY0NWNiZTAxZTllM2JiODBiYmZmMmNlNjFmNjViNmE",
+      "commit": {
+        "author": {
+          "name": "Thomas Cameron",
+          "email": "thomas.k.cameron.1218@gmail.com",
+          "date": "2025-07-08T03:16:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-08T03:16:21Z"
+        },
+        "message": "Update 13_ステップ１くらしと行政.md",
+        "tree": {
+          "sha": "4805e8c10386572b60c858fe5973c3adc024680f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/4805e8c10386572b60c858fe5973c3adc024680f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJobI2FCRC1aQ7uu5UhlAAA08sQAAmKPU2/rP3jdehMjUFiNQrA\nRSVau+fYmtRk2h2rsDxuafcdZOp1sGEdaGF5bsiMMdJ5QiDdCclY8ET9f7y9e/EX\nH7bdmaC+2ArLDuQ/7lsXeESVSv5ohKhk41Ln90GvK9nZ9RDqdei8jSPeQDugRGMu\nsXPF6p5AQ/FHSmqAuWWpcWtZXz2a3Z9dHXxJ5uOF97W8pXRA2BDDNqtkNvbqoEq4\nuii93XZS89WcZphsz9RvB5MiwM+NW0obOjsXGyJ0qjBqCJu1aYYzEBJIfq7Ff/Vn\ntNImBdHwxjqWD1cRIxJEQXm8O0lKweUjj6zygSFc4vJVGKhIuI85EbwJqiSw8fTr\n/dCm/cb1ZfagwEYZj14N7eFhBbTxw61pb21PYgQIqgem9SmLi9oQ2eUgCrkCsSf6\nz20ntM8r8Cdlzy1yki62Zv9qvyFh1yPTlTHyAvqJ+5UM9BTfN2JQWOJXW4bQ6r4K\nVyE0dcG2bFYOtzxGa+Ya4Sold50W6K9V/Z6QflKnpqQqpjEp4wzvkOJ/vHkA6QsU\n3FfeLyiAr91XwsZf9n87EEDArWZjvusxCel6uqeJGcDoHuXTlVlqVR9tmvvNixkr\nt68r3+BWZagHQMn3F046YZeV6WEF4BXUHdTaSoeAvzhy2XoB4+Z+BLBBxXo7zKhR\nUmT4kEirNtJFUzvTxrau\n=CwYZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4805e8c10386572b60c858fe5973c3adc024680f\nparent 66907ac99820f74eecb8396b5a9047c8a31b0171\nauthor Thomas Cameron <thomas.k.cameron.1218@gmail.com> 1751944581 +0900\ncommitter GitHub <noreply@github.com> 1751944581 +0900\n\nUpdate 13_ステップ１くらしと行政.md",
+          "verified_at": "2025-07-08T03:16:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a",
+      "html_url": "https://github.com/team-mirai/policy/commit/ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a/comments",
+      "author": {
+        "login": "thomas-k-cameron",
+        "id": 68596478,
+        "node_id": "MDQ6VXNlcjY4NTk2NDc4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68596478?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomas-k-cameron",
+        "html_url": "https://github.com/thomas-k-cameron",
+        "followers_url": "https://api.github.com/users/thomas-k-cameron/followers",
+        "following_url": "https://api.github.com/users/thomas-k-cameron/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomas-k-cameron/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomas-k-cameron/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomas-k-cameron/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomas-k-cameron/orgs",
+        "repos_url": "https://api.github.com/users/thomas-k-cameron/repos",
+        "events_url": "https://api.github.com/users/thomas-k-cameron/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomas-k-cameron/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "66907ac99820f74eecb8396b5a9047c8a31b0171",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/66907ac99820f74eecb8396b5a9047c8a31b0171",
+          "html_url": "https://github.com/team-mirai/policy/commit/66907ac99820f74eecb8396b5a9047c8a31b0171"
+        }
+      ]
+    },
+    {
+      "sha": "f2433f90779246a0b7e120a9f3d525b78cdc5239",
+      "node_id": "C_kwDOPIuSo9oAKGYyNDMzZjkwNzc5MjQ2YTBiN2UxMjBhOWYzZDUyNWI3OGNkYzUyMzk",
+      "commit": {
+        "author": {
+          "name": "Thomas Cameron",
+          "email": "thomas.k.cameron.1218@gmail.com",
+          "date": "2025-07-11T06:47:09Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T06:47:09Z"
+        },
+        "message": "Merge branch 'main' into main",
+        "tree": {
+          "sha": "ef88695a4727364038493c2b087029bf8511308d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ef88695a4727364038493c2b087029bf8511308d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f2433f90779246a0b7e120a9f3d525b78cdc5239",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocLNtCRC1aQ7uu5UhlAAAEq8QADMaPGpV2rImU3cwsuZT4JKN\ncOdsdUF1Du5aj9GgpXRyXNk4QAeZLOElec0QViFwVzrKwP8NLDFiY2bgq5jyN0Hn\nad1Oo0leZxLBsMap9clfBDSUkVV92VTaRmRhanDnc6LzkJQgEcZBSpZLKL0zLHZy\n0oQGAMZOGMLUPJc/HD9nSsXOmSUTwusUBFrXO5O9mtzXe0Em9lEHOc3ALAb1iT3d\nnYd/vfpadGPlMz2okjCaZ8pWLFQ4xaKZ6Z6soDemBXrm1gBfu8K8jZWUoh9xKawd\nfhJYKd9pACXrNOLWCV7yaZXMqOX/jhtQmlQext7T3p18ReGUeQql5YUmF3Vtd+2B\nRGVx5Ks5Hzqet6HSJ1uA9mxr6RorNP8RewdmX7CObOI9j+OJgWikZilA7lqeDdNL\n/XQWVlZr9GEhb8NRt4NMa1Oxp7TgwkH/AvrLxDwiofl6gGIve2lpCfUMOnCaTU2h\nLfunaQzLmxx//dGzE75mLtDfHXAMxntd3dn9HYm1ivQ0a5K9Y3RWSwHtEjqiZ7G0\ngAT2zuSpkeD3YN7UgdGawHswOLQA5MDW1QkE1ZxF26TJ9ASvVqyfAvj4BJ/h5dtE\n60OL2aGP9h0rriGv7Y0oytmUrs1XSbrZGk/nDTUdlSpP3nIqK9+K0aSAIMtzr98i\n1PPd3KbVjmJ0qKOV/1bM\n=MQZy\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ef88695a4727364038493c2b087029bf8511308d\nparent ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor Thomas Cameron <thomas.k.cameron.1218@gmail.com> 1752216429 +0900\ncommitter GitHub <noreply@github.com> 1752216429 +0900\n\nMerge branch 'main' into main",
+          "verified_at": "2025-07-11T06:47:10Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f2433f90779246a0b7e120a9f3d525b78cdc5239",
+      "html_url": "https://github.com/team-mirai/policy/commit/f2433f90779246a0b7e120a9f3d525b78cdc5239",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f2433f90779246a0b7e120a9f3d525b78cdc5239/comments",
+      "author": {
+        "login": "thomas-k-cameron",
+        "id": 68596478,
+        "node_id": "MDQ6VXNlcjY4NTk2NDc4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/68596478?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/thomas-k-cameron",
+        "html_url": "https://github.com/thomas-k-cameron",
+        "followers_url": "https://api.github.com/users/thomas-k-cameron/followers",
+        "following_url": "https://api.github.com/users/thomas-k-cameron/following{/other_user}",
+        "gists_url": "https://api.github.com/users/thomas-k-cameron/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/thomas-k-cameron/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/thomas-k-cameron/subscriptions",
+        "organizations_url": "https://api.github.com/users/thomas-k-cameron/orgs",
+        "repos_url": "https://api.github.com/users/thomas-k-cameron/repos",
+        "events_url": "https://api.github.com/users/thomas-k-cameron/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/thomas-k-cameron/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a",
+          "html_url": "https://github.com/team-mirai/policy/commit/ab70cfa4ef45cbe01e9e3bb80bbff2ce61f65b6a"
+        },
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T06:51:13.993086"
+}

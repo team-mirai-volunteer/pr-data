@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5378,
+    "title": "AGIシナリオ：段階別KPIと自動発動型政策パッケージの追加",
+    "state": "open",
+    "created_at": "2025-07-11T05:32:26Z",
+    "updated_at": "2025-07-11T05:32:27Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5378",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "f61756948dc3413bb967d0656272b6e6d5344768",
+      "filename": "36_ステップ３経済財政.md",
+      "status": "modified",
+      "additions": 36,
+      "deletions": 22,
+      "changes": 58,
+      "blob_url": "https://github.com/team-mirai/policy/blob/2df4e4494d9abbcc8320cfbf3828049161df0390/36_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%B5%8C%E6%B8%88%E8%B2%A1%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/2df4e4494d9abbcc8320cfbf3828049161df0390/36_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%B5%8C%E6%B8%88%E8%B2%A1%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/36_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%B5%8C%E6%B8%88%E8%B2%A1%E6%94%BF.md?ref=2df4e4494d9abbcc8320cfbf3828049161df0390",
+      "patch": "@@ -19,7 +19,7 @@\n     * (4) その数値も､物価や所得連動の計算式ではなく固定値で定められており､経済の変化に対応していません\n     * (5) 所得制限や給付水準の多くが実質的に給与所得に紐づいているため､支援が必要な人に届かない･支援を必要としない人に給付されるといった事態が生じています\n       * 例: 高額療養費の自己負担限度額\n-  * このような状況を放置していれば､納税者の信認･制度のメンテナンスコストの両面で､将来の不確実性に対応できないと考えます｡ 各々の制度には現在の負担者･受益者が多く存在するため改革は全く容易ではありませんが､わたしたち現役世代の責任で解決する必要があります｡\n+  * このような状況を放置していれば､納税者の信認･制度のメンテナンスコストの両面で､将来の不確確実性に対応できないと考えます｡ 各々の制度には現在の負担者･受益者が多く存在するため改革は全く容易ではありませんが､わたしたち現役世代の責任で解決する必要があります｡\n * 方向性\n   * 将来世代の信認が得られ､今後の不確実性にも耐えられる税制･社会保障制度を目指します｡その際には､以下のようなシンプルでなめらかな制度設計を志向します: \n     * (1) 社会保険は制度内で収入と支出を完結できる形を目指す｡ 基礎年金については税方式を志向する\n@@ -63,27 +63,41 @@\n     * (2) 現状の追認や願望ではなく､悲観的な要素に強く眼を向ける｡ネガティブシナリオを想定する\n     * (3) 各リスクを独立した変数として捉えるのではなく､複合的リスクを加速する要素を正しく認識する\n     * (4) 責任主体や処方箋の不在によって議論が避けられている重要課題､いわば\"Elephant in the room\"にも目を向ける\n-## シナリオのイメージ: AGI(汎用人工知能)実現\n-* ポジティブなシナリオ例:\n-  * 想定される社会変化\n-    * AGI(汎用人工知能の出現)により労働力不足が打開され､企業の生産性が大幅に向上し､現在の見通しを大きく超える経済成長が実現される｡経済規模拡大により､税収が大幅に上昇する｡但し､その果実は一部の層に偏る\n-    * ホワイトカラーに対する需要の大幅な減少が生じる｡リスキリングによる労働移動には限界またはラグが生じ､数年以上に亘り労働需給の大幅なミスマッチが生じる｡結果として失業率は大幅に上昇する\n-    * このような所得格差の拡大や失業率上昇は､社会不安や政治的対立を生む｡それにより､ポピュリズム的な政治活動や反技術的なムーブメントの台頭に繋がる\n-    * 金利への影響は一方向ではないが､供給再度では生産コスト低下によりデフレ圧力が生じうる｡一方､所得増加による需要拡大はインフレ圧力にも繋がりうる\n-  * 政策対応\n-    * 介護の現場における自動化や自動運転等､AGIによる果実を最大限に享受できるような制度設計･インフラ投資を進める\n-    * 所得格差の拡大に対応するため､ユニバーサル･ベーシックインカムや給付付き税額控除等､広汎なセーフティネットを導入できる土台はAGI実現前に整えておく。AGIシナリオが実際に発動したときには速やかに対処する\n-    * 原資は､経済成長による果実､すなわち法人税･所得税の増収によって賄う｡但し､キャピタル･フライトを最小限とするよう､同様の状況にある諸外国との連携･強調を進める\n-    * 技術進化に伴う構造的失業に対しては､上記の再分配を旨としつつ､リ･スキリングと失業給付を組み合わせた手厚い支援を行う\n-* ネガティブなシナリオ例:\n-  * 想定される社会変化\n-    * AGI(汎用人工知能の出現)によるホワイトカラー層の失業増大に対して社会変革が追いつかず､破壊的な消費減退をもたらす｡それにより株価暴落･金融不安が生じる\n-    * 株価暴落･金融不安をきっかけに､ブロック経済化が進む｡それによって更に消費が冷え込む｡ また､経済やAGIにおける覇権をめぐって地政学的緊張が高まる\n-    * これらは強い社会不安を生み､急進的な勢力の台頭や社会分断が加速される\n-  * 政策対応\n-    * 中央銀行と連携し､迅速かつ十分な流動性供給を行う\n-    * 大規模かつ迅速な財政出動による需要下支えを行う｡当面は､困窮者への直接給付･雇用調整助成金･住宅確保支援といった既存の支援枠組みを活用する｡ 並行し､給付つき税額控除やベーシックインカムについても検討を進めておく\n-    * AIに関する国際協調･技術管理を進め､国際的な緊張を未然に防ぐ\n+## シナリオのイメージ: AGI(汎用人工知能)実現に向けた段階的対応計画\n+AGIの実現は社会に構造的な変化をもたらすため、「いつ」「誰が」「いくら」といった具体的な計画を事前に策定しておくことで、実装フェーズへの移行を円滑にします。\n+### AGI影響度を判定する客観的基準（AGIトリガー）\n+AGIによる社会経済への影響を客観的に評価し、政策発動のタイミングを判断するための仕組みを導入します。これにより、AGI以外の要因による経済変動との混同を避け、的確な対応を可能にします。\n+\n+| ステップ | 中身 | 担当 |\n+|:---|:---|:---|\n+| ① ベースライン予測の作成 | 内閣府と総務省統計局が毎年3月に「無AGIシナリオ」のマクロ推計（VARモデル＋労働需要弾性）を公表 | 内閣府 |\n+| ② AGI導入率スコア (ALR) を計測 | 企業のクラウドGPU使用量・LLM APIコール数・AI特許引用を統合→0〜100スコア化 | 経産省＋IPA |\n+| ③ 影響度 = (実績－予測) × ALR | ・失業率Δ×ALR が +0.7pt 相当を超えたら「AGIトリガー」発動<br>・GDPギャップΔ×ALR が 1%pt 超えも補助指標とする | 内閣府 |\n+\n+### P2（転換）フェーズ：急進的な社会変化への適応策\n+「AGIトリガー」が発動され、労働市場や所得格差に大きな構造変化が確認された場合に即時発動する政策パッケージです。\n+\n+| 区分 | 内容 | 条文／予算イメージ | 担当 |\n+|:---|:---|:---|:---|\n+| ① ベーシック・フロア給付 | 月6万円／成人、3万円／18歳未満を3年限定支給 | 国債30兆円枠（AIショック条項でPB凍結） | 財務省 |\n+| ② 法人AGI超過利益税 | AGI導入後5年間の超過利益に15%上乗せ | 年1.2兆円見込み→①の財源へリキャップ | 国税庁 |\n+| ③ トランジション休暇拡張 | 休暇給付率80→90%、期間12→18カ月 | 雇用保険＋交付金0.4兆円 | 厚労省 |\n+| ④ 地域AIワークス公社 | ドローン林業、道路点検など30万人雇用 | 予算0.8兆円（国50％、県30％、市町村20％） | 国交省＋林野庁 |\n+\n+### N（危機）フェーズ：金融・地政学リスクへの緊急対応\n+AGIによる技術バブル崩壊や、それを巡る地政学的リスクが顕在化した場合に発動する金融・安全保障パッケージです。\n+\n+| 区分 | 内容 | 条文／予算 | 担当 |\n+|:---|:---|:---|:---|\n+| ① 日銀・財務の協調QE | 長国＋社債合わせて年50兆円の臨時買い入れ | 「金融安定臨時特例法」発動 | 日銀＋財務 |\n+| ② スワップ・レポ網拡大 | AI関連VCファンドを直接対象、期限付資金供給1年 | 年10兆円枠 | 日銀 |\n+| ③ AI依存ストレステスト義務 | 該当銀行CET1 +1%バッファ／ハイリスクなら配当停止 | 金融庁ガイドライン改正 | 金融庁 |\n+| ④ 国際Compute Cap合意 | G7＋2 緊急外相会合→高性能GPU・光量子I/O輸出暫定規制 | 外為法・輸出貿易管理令を即日改正 | 外務＋経産＋内閣サイバー局 |\n+\n+### 実装に向けた補足\n+*   **AGIダッシュボード:** 各種指標データは「AGIダッシュボード」としてAPI経由で毎月公開し、民間・自治体もリアルタイムでトリガーを監視できる透明性の高い仕組みを構築します。\n+*   **財源試算の共有:** 財源試算シートはオープンなフォーマット（CSV等）で公開し、誰もが検証可能な形で共有します。\n+*   **法改正の準備:** 関連する法改正（「金融安定臨時特例法」、「法人税法」等）については、「第○○条△△を次のように改める」というレベルまで事前に条文案を作成し、有事の際に迅速な国会審議を可能にします。\n ## 5. 予測困難な危機に対応できる給付システム･税制を構築します\n * 現状認識\n   * 予測不可能な経済危機にあたっては､国民や中小企業に対して迅速な給付を行うべき局面が存在します｡しかし､現状では｢給付の事務手続きに莫大なコストや時間がかかる｣といった指摘があります｡"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "42f565dd82113274f4315342423e0295fce66da0",
+      "node_id": "C_kwDOOqTJvNoAKDQyZjU2NWRkODIxMTMyNzRmNDMxNTM0MjQyM2UwMjk1ZmNlNjZkYTA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T05:19:10Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T05:19:10Z"
+        },
+        "message": "feat: AGIシナリオへの段階的対応計画を反映 by 匿名ユーザー",
+        "tree": {
+          "sha": "2caed29ff8e4630fad25dcf4cae278f5a75754cb",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2caed29ff8e4630fad25dcf4cae278f5a75754cb"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/42f565dd82113274f4315342423e0295fce66da0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocJ7OCRC1aQ7uu5UhlAAAT04QAIUuUN2d7CqG1+iXbkmkOBFU\nsNSCguFkTa8jh5ENZmIba4iCX4/FVBapgAdRiOhAT+FD0O/TQ+ZK+gG6SgVI6sHw\nQPqfVfSwdWmg0cFhuVNiL/fmSvHKhTchYNApf7uLtvc+O14Z6wDl7gjZ3Qh2RTLI\nNb5ERw7BxkO4qfhzhoFZY2BzwO9aooPLXuD12nzqymA1SVvFWVgMhedO80VHLkOD\nvsZR21sUo776jG+GAP/p5fwUyMmwX2AAMiAyHuEN9xPwIigNwGz7+569X2vtSJV1\nQjzhwwL1PQ3R/0qbSkdVJikq5mJ2gEgB8DBPUWh2Xl4goo05s7s5RA4g5koHUVoW\n8TGjiU3nNRs1VnabLKKBniLSD4iuiWgPDlsEI/5l0Xbk1JjZNqRT4vlHHCCIdvYu\nakWICy9BROIcNXyeqPkj2lnKO+RJqSGCCXBxd8C7boyNMNr1QOwf310V5N2LyJyn\ndZcrE9Ueb20SS99PeETj7ZXHne4wGcYA4DAqg+XCNNX8SRljP/WraonEf4YJEnPN\nGdty+oJNCwBp1XDl9RwOwbIbEDXu6/dV4ArfPJBgwSVL/WsS2tDp3OtMh5DJb1zf\nwpoZpa1KpiQ4xSkJL/id6jBMjvM4oo5soBXmFIFyOOzDGJxARdz+6+ZAFH329L6p\nUFx3nU4KQifVuiY/GE7D\n=1GBh\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2caed29ff8e4630fad25dcf4cae278f5a75754cb\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752211150 +0000\ncommitter GitHub <noreply@github.com> 1752211150 +0000\n\nfeat: AGIシナリオへの段階的対応計画を反映 by 匿名ユーザー",
+          "verified_at": "2025-07-11T05:19:11Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/42f565dd82113274f4315342423e0295fce66da0",
+      "html_url": "https://github.com/team-mirai/policy/commit/42f565dd82113274f4315342423e0295fce66da0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/42f565dd82113274f4315342423e0295fce66da0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    },
+    {
+      "sha": "2df4e4494d9abbcc8320cfbf3828049161df0390",
+      "node_id": "C_kwDOOqTJvNoAKDJkZjRlNDQ5NGQ5YWJiY2M4MzIwY2ZiZjM4MjgwNDkxNjFkZjAzOTA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T05:32:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T05:32:26Z"
+        },
+        "message": "feat(経済財政): 匿名ユーザーの提案に基づきAGIシナリオを具体化",
+        "tree": {
+          "sha": "be68f31e6674d5ff24cf4d7f543f7253bec9e3a6",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/be68f31e6674d5ff24cf4d7f543f7253bec9e3a6"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2df4e4494d9abbcc8320cfbf3828049161df0390",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocKHqCRC1aQ7uu5UhlAAA6uoQALGU8TJGpAlJ/Dq7DVVAIXou\n4TYwprKxSey26KVP+FVBxIgah5W3WpK7uAhMIB+gkvgJLaOQ4mGtrT/t//rV5uz8\nUdsXcwwYv9wDJUObpK+i2HABSEu7wZTJd9FYG2jUDQOvZFnwcRdSYyEStozF/Vts\nE9nSi4EubyoidfrOZn/7SBH8FvKJxt7jJgEMyLUfFjkW9FmTkWawDbV1cZ1GvuF4\n7T8xxDcTN20PIptr9ngH+etqcgrIUq36kykJ/z8mFfABJ28VHNVygEtQCpZiNMa5\nPqL1NhGXkThlR11XkiWlQDWxTrv0rR22aqG5LaQzc3A8Hl4Lw8G1quBuanf/dIrW\nIBWmOj5S7a6u5M0OBUNIVuPJQcWqzoS6msWg9p7sS2fuCy7CJJ+LeS0o3fEztWJs\na7+pI1RNmS9Yx9kcIPJknheOKf18qUrhl9s2oJeMlQYoc56L04IS54Mxuq/+G3mj\nJzXRIUErzdKpIqpiRHZwHUJUHtEcjSBJVNC94SfrFFToqYViCNKuOLtkUkiXW9gv\njCSw/sgmKEPU8ufoegBQZSoeeEuVNOqu8/7N/s50Pf7JZvHPF5WWgLj+Tsv+Om0s\njcp//nunIJzB/3Gc+LCR+1+6IcZ407Q9GjUCJwNiWK4+/lF47fcKKHhJ6RfFTgJx\nUyQ4SIeCWqKz0SSB5nr5\n=6zBs\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree be68f31e6674d5ff24cf4d7f543f7253bec9e3a6\nparent 42f565dd82113274f4315342423e0295fce66da0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752211946 +0000\ncommitter GitHub <noreply@github.com> 1752211946 +0000\n\nfeat(経済財政): 匿名ユーザーの提案に基づきAGIシナリオを具体化",
+          "verified_at": "2025-07-11T05:32:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2df4e4494d9abbcc8320cfbf3828049161df0390",
+      "html_url": "https://github.com/team-mirai/policy/commit/2df4e4494d9abbcc8320cfbf3828049161df0390",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2df4e4494d9abbcc8320cfbf3828049161df0390/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "42f565dd82113274f4315342423e0295fce66da0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/42f565dd82113274f4315342423e0295fce66da0",
+          "html_url": "https://github.com/team-mirai/policy/commit/42f565dd82113274f4315342423e0295fce66da0"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T06:19:58.703008"
+}
