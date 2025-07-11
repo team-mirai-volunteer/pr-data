@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5340,
+    "title": "処方の質向上とポリファーマシー対策のための政策追加",
+    "state": "open",
+    "created_at": "2025-07-11T02:53:35Z",
+    "updated_at": "2025-07-11T02:53:36Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5340",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "ea155f2479c7c45d501e0f12ef54869436d4140f",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "changes": 13,
+      "blob_url": "https://github.com/team-mirai/policy/blob/352ba851b9f0864d4082092bd26674d2bed92c35/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/352ba851b9f0864d4082092bd26674d2bed92c35/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=352ba851b9f0864d4082092bd26674d2bed92c35",
+      "patch": "@@ -86,3 +86,16 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）薬価収載医薬品の最適化による処方の質の向上\n+\n+### 現状認識・課題分析\n+\n+- 高齢化に伴い複数の疾患を抱える患者が増加する中で、6種類以上の薬剤を服用する「ポリファーマシー」が深刻な問題となっています。ポリファーマシーは、薬剤の相互作用による副作用のリスクを高めるだけでなく、飲み残しによる薬剤廃棄や医療費の増大にも繋がっています。\n+- この一因として、薬価収載されている医薬品の種類が非常に多く、類似薬や効果が限定的な医薬品も少なくないことが挙げられます。医師が全ての医薬品の特性を詳細に把握し、個々の患者に最適な処方を選択することが困難な状況になっています。\n+\n+### 政策概要\n+\n+- 医薬品の有効性や経済性に関するデータを集積・評価し、定期的に薬価収載品目を見直す仕組みを強化します。\n+- 費用対効果が低いと判断される医薬品については、薬価の引き下げや、より効果の高い代替薬への切り替えを促す診療ガイドラインの整備などを通じて、処方の最適化を図ります。\n+- 医師や薬剤師が、患者の服薬履歴や類似薬の比較情報を容易に参照できるシステムを構築し、重複投薬の防止と質の高い処方選択を支援します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "352ba851b9f0864d4082092bd26674d2bed92c35",
+      "node_id": "C_kwDOOqTJvNoAKDM1MmJhODUxYjlmMDg2NGQ0MDgyMDkyYmQyNjY3NGQyYmVkOTJjMzU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T02:51:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T02:51:00Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、薬価収載医薬品の最適化に関する項目を追加",
+        "tree": {
+          "sha": "166e6f2e4905fb24553a644ddc2c85c6839e3acd",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/166e6f2e4905fb24553a644ddc2c85c6839e3acd"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/352ba851b9f0864d4082092bd26674d2bed92c35",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocHwUCRC1aQ7uu5UhlAAAWi8QAIaPdLoTWOApexr6we2S3Ths\nV2dfdaKWk5lluQFVB++/YY1wXqsy8lxxvyDc/7wjoYmyEmB6YG5s68h16dTV3B4A\nuh2TymMrFIsTVLKPiAkFcW6td93SqUPrOshQ0KKovHxpIlUJ2PpOaZ0IzBroxxNt\nlunkOVd3vPnB8aGnIC/BMcCcpB32l9Va6ZsP0VjMIVT3aE/tq3/3aqGANu+qNhqy\ncMXvro3oEFXavzZ2cHtKAoEuq9LAKJTYBeR2XFr9ZcdnaV24jHV+By6P7gDq0t8u\nSxQBLmtHm9CMcMUDGjehmQjtR5+71aVSqw8+RT9I2sx6tv9dqjYDr8T9LXg05bUm\n01rHLvUA2Q8bKfJURdo/7oZW4Pmxj75cTcNM9NQmUvl+L689bh97XdhNWGmRzhyc\nL/iU7yIrzFTGdYoHSasVB9rLq4zofACQz+3RbnizENnxQ/ugLqW2/D0W9AKTM140\nKOctlnzLVhKLb9POUoVL6LPBhOq73D9IwfQpGx3h/WT0SLlH8b89T5GkDduuEge8\n9j8H1YTR82a+NXHj/kcD/ZqOcDzZ9CWeMZzK/yNpul3TqQSzIS/PN8DeNvaXrdDZ\neP1yBC6Ve6aXE4CoYIcYrg4ip653HSLfUyXQf6DVa3wrVTfDC6mK6/BonGixOmyl\nLTB+TfCCqKcBACaWTGtU\n=Tdo1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 166e6f2e4905fb24553a644ddc2c85c6839e3acd\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752202260 +0000\ncommitter GitHub <noreply@github.com> 1752202260 +0000\n\n匿名ユーザーの提案に基づき、薬価収載医薬品の最適化に関する項目を追加",
+          "verified_at": "2025-07-11T02:51:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/352ba851b9f0864d4082092bd26674d2bed92c35",
+      "html_url": "https://github.com/team-mirai/policy/commit/352ba851b9f0864d4082092bd26674d2bed92c35",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/352ba851b9f0864d4082092bd26674d2bed92c35/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T03:22:41.905865"
+}

@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5324,
+    "title": "AIによる意見生成を考慮し、パブリックコメントの信頼性を向上させる提案",
+    "state": "open",
+    "created_at": "2025-07-11T01:30:00Z",
+    "updated_at": "2025-07-11T01:30:01Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5324",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "381eda439958ab68c105fb0cc853067b555036f3",
+      "filename": "16_ステップ１デジタル民主主義.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/team-mirai/policy/blob/53f203097dec8db26ee069044ebbab95cae8e529/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/53f203097dec8db26ee069044ebbab95cae8e529/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=53f203097dec8db26ee069044ebbab95cae8e529",
+      "patch": "@@ -17,11 +17,13 @@\n \n * 3月末より複数のメディアで、パブリックコメントにおいて提出される意見の数が「異常件数」であると報道があった。背景には、何個も同じ趣旨の投稿を繰り返す多数派工作などの存在があることがわかっている  \n * 本来パブリックコメントは意見の量ではなく意見の幅を見る仕組みであるが、意見の量が多くなりすぎることによって、職員の工数が大幅にとられてしまっている\n+* また、意見を提出する側もAIを活用し、多様な意見を意図的に大量生成することが可能です。これにより、本当に必要性があって出された意見と、AIで生成された意見を区別することが難しくなる懸念があります。\n \n   ### 政策概要\n \n AIを活用してパブリックコメントの取りまとめをすることにより、工数を削減し多数派工作にも対応できるようにする。その結果として、活用効率の向上を目指す\n \n+* 匿名性を維持しつつも同一人物による大量投稿を検知・抑止する仕組みを導入し、AIによって意図的に生成された意見への対策を講じます。\n * アメリカで2021年に発表された類似プロジェクトでは、コメントの重複削除で100件のコメントあたり約4.5時間の工数削減が、類似トピック集約機能で100件あたり約8時間の工数削減に成功している  \n * イギリスで2025年5月に発表された[類似プロジェクト](https://ai.gov.uk/blogs/evaluating-consult-an-ai-tool-for-enhanced-public-consultation-analysis/)では、AI toolの導入により1件のレビューは中央値で23秒、77%の回答が1分未満でレビュー出来るようになった。またテーマ抽出を自動化することで、分析に時間を割けるようになった。これにより、年間7.5万日、2,000万ポンドの削減効果を見込む  \n * 『デジタル民主主義２０３０』というOSSコミュニティでは「広聴AI」という意見の見える化ツールを開発している。これらの開発を支援する"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "53f203097dec8db26ee069044ebbab95cae8e529",
+      "node_id": "C_kwDOOqTJvNoAKDUzZjIwMzA5N2RlYzhkYjI2ZWUwNjkwNDRlYmJhYjk1Y2FlOGU1Mjk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T01:28:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T01:28:42Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、AIによる意見生成の課題と対策を追記",
+        "tree": {
+          "sha": "5b319df339e5f3fafdc2139eaa051b29f572a9aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5b319df339e5f3fafdc2139eaa051b29f572a9aa"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/53f203097dec8db26ee069044ebbab95cae8e529",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocGjKCRC1aQ7uu5UhlAAAODkQAHyslKQ7bGqJA/LtLwsBmDqZ\nGCfsX0JJkLY46XiFoo5q5lbScBWkPKfgvSONX0uczB0ymqAqi7yIUToEVRad6T3f\n9v891yvRqVRCCQZOgymKhLNkhlaMLfWDfoekHOrfCT6dR3mr6ohvNBWF6GUoSGDv\nztFLQ5fh0OWJ+ivl3cJgNDSL9q0ytoUbWAtTF816o1euTcv/2NKXgcl4LCwWc9gT\nchTwAquLkL9BLYET4nrnnHUYiZYDBchfE6rdkHchiDk2rJTiZA/nY3DnsTovjeJX\nhpyFO4Tkn2T8vp/x0yYlHuDNlN8I08BbGAiJZayTZWUwakC5R4+MqDDf0xIylKg6\nky3KEka4BYwVBX52xysKKDT55JVG+BokGWXfF8BEx8x80Z2sH8GVybYbYcxKJkvp\nKMX76z2eRwjDrJ/ri2EqE/jDNAkSbpDEi/wVoCsOzvJB+uh8xi+58c9J2UoM0vnS\nQI+TAShv+JsxLA85KvRBw8+rzfzYVEXqUvtn/nZdVsBsmt6J+Nb3ZSYV1EmUOB94\ncDsVFCTmim13td0F3crZ05CqsSyYOiu2E6b8F1uYcHsLcIcsUjr3ym7u7SFfYLpQ\n7xoIVVSJ5+Dydib6a40wo7k6J4DVqWaNlG4dH4wgmb8lz/HjZIn549LxqBZ8xGFm\n4N9tjNpPJmUVF3rbd6wq\n=848Z\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5b319df339e5f3fafdc2139eaa051b29f572a9aa\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752197322 +0000\ncommitter GitHub <noreply@github.com> 1752197322 +0000\n\n匿名ユーザーの提案に基づき、AIによる意見生成の課題と対策を追記",
+          "verified_at": "2025-07-11T01:28:43Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/53f203097dec8db26ee069044ebbab95cae8e529",
+      "html_url": "https://github.com/team-mirai/policy/commit/53f203097dec8db26ee069044ebbab95cae8e529",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/53f203097dec8db26ee069044ebbab95cae8e529/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T03:23:00.230576"
+}
