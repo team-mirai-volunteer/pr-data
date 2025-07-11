@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5554,
+    "title": "政策提案：全国医療情報連携ネットワークの構築",
+    "state": "open",
+    "created_at": "2025-07-11T16:33:54Z",
+    "updated_at": "2025-07-11T16:33:55Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5554",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "a0d60a1236c8f3d775b7b1ef38c3c15f677aaaa1",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 22,
+      "deletions": 0,
+      "changes": 22,
+      "blob_url": "https://github.com/team-mirai/policy/blob/d60fe94e492dc7d1ce9d374d7c18c03c10c183fc/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/d60fe94e492dc7d1ce9d374d7c18c03c10c183fc/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=d60fe94e492dc7d1ce9d374d7c18c03c10c183fc",
+      "patch": "@@ -86,3 +86,25 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）全国で医療情報を連携し、いつでもどこでも最適な医療を\n+\n+### 現状認識・課題分析\n+\n+- 救急搬送時や災害時、旅先での急な体調不良など、かかりつけ医以外を受診する機会は誰にでも起こり得ます\n+- こうした緊急時に、患者本人の意識がなかったり、動揺して十分に説明ができない状況で、過去の病歴やアレルギー、服用中の薬などの情報が正確に伝わらないことは、治療の遅れや医療過誤のリスクに繋がります\n+- マイナンバーカードの保険証利用は進みつつありますが、参照できる情報は限定的であり、真に「いつでもどこでも最適な医療」を受けられる環境には至っていません\n+- また、大規模災害時には、医療機関だけでなく、消防、警察、自衛隊、海上保安庁など、多様な組織が連携して救命活動にあたります。しかし、これらの組織間で要救助者の医療情報が円滑に共有される仕組みは、いまだ確立されていません\n+\n+### 政策概要\n+\n+- **マイナンバーカードを活用した全国医療情報連携ネットワークの構築**\n+  - マイナンバーカードを基盤として、個人の同意のもと、電子カルテ情報（病名、処方歴、アレルギー情報、画像診断結果など）を全国どの医療機関からでも参照できるセキュアなネットワークを構築します\n+  - これにより、重複投薬や不要な検査を削減し、より迅速で質の高い医療を提供します\n+- **救急・災害時における多機関連携の強化**\n+  - 平時から、救急搬送時にマイナンバーカード情報を活用し、搬送先の医療機関が迅速に患者情報を把握できる体制を整備します\n+  - 大規模災害などの有事の際には、人命救助を最優先とし、個人のプライバシーに配慮しつつも、消防、警察、自衛隊、海上保安庁などの救助機関が必要な医療情報にアクセスできる法整備とシステム運用を検討します。これにより、現場での的確な判断と、より多くの命を救うことに繋げます\n+- **情報セキュリティとプライバシー保護の徹底**\n+  - 国民の機微な情報を扱うため、最高レベルのサイバーセキュリティ対策を講じるとともに、不正アクセスや情報漏洩を防止するための厳格な罰則規定を設けます\n+  - 情報へのアクセス権限は必要最小限とし、誰が、いつ、どの情報にアクセスしたのかを記録・追跡できる透明性の高いシステムを設計します\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0",
+      "node_id": "C_kwDOOqTJvNoAKGZiYjk3ZTZiYzljYThjNzg1YzIzODQ4NmU3Zjc3YTcwNzBhNWRiZTA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T16:25:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T16:25:02Z"
+        },
+        "message": "Aさんの提案に基づき、全国医療情報連携に関するセクションを追加",
+        "tree": {
+          "sha": "559990a185bf7cf0fc69800e452966726a1ac707",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/559990a185bf7cf0fc69800e452966726a1ac707"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocTreCRC1aQ7uu5UhlAAAsVgQAH+ayzMK07n9Q56QEM9ej162\n3P8kGeYm5r/BGmDBEiG2DOlG+eBRUbmhWrDiY8Jxj0XcAohpeaPF96AasjRcM/BV\n64xS3w1JEn+wwodJH27AIZoLr1ccO+s5zk9V3QhQWm9qTiPf1ei8hyRFB8bJ28UL\noEzRHdgeIof3OaTBl+RSFcqthcmL9492Xj/cipMv800aS2OFLsz+sc8Y9miZtWdA\npOueI60d+dzbM2sWraqCMwca4Ye+gfngTX13xRuD7Wov68p25cxl80hlDklJLF52\nQdvhV7KOBKC2LnILdyW4bf8SQMxksxfLgTIcXpuErtpdxqrrrHC94NGMIvlxt9tZ\n0IBRb5nl4OGUJxltMtwKKzIQMdZqTEyuKJMSa4+i9AqaPScl36QiV6SJ+F6QH4Bt\ndp/KvVBYSA5SpywhAUN3OHywr5DHZy2yoPoJl+wVpwt9qYGMY5atHESvdfsDEfCb\n7eL9j7jOWXXHt7+hkR8vQtFmzbaHPQL+LnEgrmL4AcTruddpJWoqEGfDmhA4+sSs\nrLO9L0+zzXdk0/26baa+EJyyGJavYfrPU+h/jJhAfg+eRjajwXHefSITJcvMoVVA\n74vWWkarQxxedlD/KA9oTQg0ABcriNA92rDPXw9Zb+1L+FWKffXedIFz5++Xmebr\ntxxubbgZpiPm7JR0Te+0\n=x9uU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 559990a185bf7cf0fc69800e452966726a1ac707\nparent daaaeac18abd149ff57c6938e055ed813b00cd2c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752251102 +0000\ncommitter GitHub <noreply@github.com> 1752251102 +0000\n\nAさんの提案に基づき、全国医療情報連携に関するセクションを追加",
+          "verified_at": "2025-07-11T16:25:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0",
+      "html_url": "https://github.com/team-mirai/policy/commit/fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "html_url": "https://github.com/team-mirai/policy/commit/daaaeac18abd149ff57c6938e055ed813b00cd2c"
+        }
+      ]
+    },
+    {
+      "sha": "d60fe94e492dc7d1ce9d374d7c18c03c10c183fc",
+      "node_id": "C_kwDOOqTJvNoAKGQ2MGZlOTRlNDkyZGM3ZDFjZTlkMzc0ZDdjMThjMDNjMTBjMTgzZmM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T16:32:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T16:32:37Z"
+        },
+        "message": "Aさんの提案に基づき、医療情報連携に関する項目を追加",
+        "tree": {
+          "sha": "d81cea96866f33be54820a30e91bb4fac86e182a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d81cea96866f33be54820a30e91bb4fac86e182a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d60fe94e492dc7d1ce9d374d7c18c03c10c183fc",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocTylCRC1aQ7uu5UhlAAAb0UQAGoT9UlRQEsPVMbTVlB4G6pG\n0S4NI9VOHFRRM1uhNa+9YB/gTO016su2WhGbGWJ1NXriwi76DAN9G4qV10sYaP2O\nqJjAfm4yVIfudH0qEMSn0KAVLMNLxY51r7hW+3T8ABvw9EdMCS22BrK95mRSC64b\n5phAAmIWNUQimdTV2KCWSQrzvOH8cLZrQ04xXIhTtskVAdz+3aYB5Uq5EpGDTo9T\nMNTB6krgoHEusxoj57MGjOfBAgVj48571H/f1tEqWdbrq9eso5F34fZRqPUhUnuw\nrSKh57sWtisQBJvkAx5JLxcHj4giCoeFP8gGAJwTQ3eGLYVVqNm4e5Mp9eJlAPrB\n5/FJrNwsC5a2aYv361XOD9BFJRym06i5/8vn2yNqQ2p2GZn7dfY9QTr2kl7fjK2z\n8AYI0hSnWMzvUvJlEiF+0CMIT3MGtKi4KRL3bLUrTPnCMiq4zznzgok9k2Cz6Q+2\nK934kCkVSfbI7AVltHxspqSomK1t328dFcns7A3t1JH1sfhRX6NFlXi0Tl3STXZg\nuGUUY7G5nol6n5FHPH9CLZrFrcepwbtzWDv6jlpu2SbivKXj36boE4x6cFYWUVq4\n+IterB13ECpj5pdaTRERa6GXOJwk9/KXLSanmX+X2yAGiP2ybCe96K9t1thBaQN1\nKOLNZr4wOZQQpNPAOlCQ\n=iz0Z\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d81cea96866f33be54820a30e91bb4fac86e182a\nparent fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752251557 +0000\ncommitter GitHub <noreply@github.com> 1752251557 +0000\n\nAさんの提案に基づき、医療情報連携に関する項目を追加",
+          "verified_at": "2025-07-11T16:32:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d60fe94e492dc7d1ce9d374d7c18c03c10c183fc",
+      "html_url": "https://github.com/team-mirai/policy/commit/d60fe94e492dc7d1ce9d374d7c18c03c10c183fc",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d60fe94e492dc7d1ce9d374d7c18c03c10c183fc/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0",
+          "html_url": "https://github.com/team-mirai/policy/commit/fbb97e6bc9ca8c785c238486e7f77a7070a5dbe0"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T17:13:02.559135"
+}

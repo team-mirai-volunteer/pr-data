@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5562,
+    "title": "AI相談・母子パスポートの連携強化と、児童虐待対応の現実的課題の反映",
+    "state": "open",
+    "created_at": "2025-07-11T17:15:03Z",
+    "updated_at": "2025-07-11T17:15:03Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5562",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "0b9261affd872e5d34e067ee4ee83d4da8195c78",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 2,
+      "changes": 9,
+      "blob_url": "https://github.com/team-mirai/policy/blob/c0956c3bcfb31257d536498e7bfab49b4a9cc708/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/c0956c3bcfb31257d536498e7bfab49b4a9cc708/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=c0956c3bcfb31257d536498e7bfab49b4a9cc708",
+      "patch": "@@ -1,3 +1,4 @@\n+\n \\\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n@@ -16,7 +17,7 @@\n \n * 現在の母子手帳は紙媒体が主流であり、妊娠中の体調が不安定な時期に受け取りに行く手間や、紛失のリスクがあり、それによってワクチン接種記録などが確認できず、適切な時期に必要な医療や予防接種が受けられなくなるケースがあります。  \n * また、妊婦健診の受診券・補助券の手続きや、産後の煩雑な予防接種のスケジュール管理、医療機関での予診票の都度記入など、アナログな手続きが保護者の負担となっています。体調がすぐれなかったり忙しい時期に何度も名前や住所を繰り返し書く作業は、負担として蓄積しています。  \n-* また、妊娠の経過によっては妊婦健診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* また、妊娠の経過によっては妊婦健-診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n \n ### 政策概要\n \n@@ -29,6 +30,7 @@\n * 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n * 国が推進する医療DXとも連携し、マイナンバーカードを活用したお薬手帳とも連携します。これにより、より正確で迅速な情報共有を実現し、保護者の負担減・子どもの受ける医療の質向上を目指します。\n * また、医療機関での受診履歴や検査結果などの情報を保護者の同意のもとで行政と共有することにより、発達障害が認められる場合など、特定の条件を満たす家庭に対して、特別児童扶養手当や児童福祉手当などの経済的支援が自動的に届くようなプッシュ型の支援体制の構築を目指します。子育てや、何らかの困難を抱える保護者にとって、複雑で多岐にわたる申請手続きは、時に必要な支援策の存在に気づけない、あるいは申請を諦めてしまうといった事態を生み出すほどの大きな障壁となっています。こうした申請主義の課題を克服し、必要な支援が迅速かつ確実に届くようにします。\n+* また、このパスポートは、保護者ご自身の記録と、支援者間の情報共有という、二つの側面を併せ持ちます。保護者ご自身が入力・閲覧する情報とは別に、保健師や医師などの支援者のみがアクセスできる、申し送り事項や専門的な所見を記録・共有する電子カルテのような領域を設けます。これにより、保護者のプライバシーや感情に最大限配慮しつつ、支援者側では客観的な情報に基づいた切れ目のない連携体制を構築し、サポートの質を高めます。\n * なお、デジタル母子パスポートの運用にあたっては、子ども自身の情報アクセス権を尊重し、成長段階に応じた情報共有のあり方について、関係者間で検討を深めます。\n \n ## ２）AIと専門家によるハイブリッド型育児相談ポータルを設置します\n@@ -45,7 +47,10 @@\n * 子育て中のあらゆる疑問や悩みに応える「AI育児相談ポータル」を設置します。  \n * このポータルでは、個々の状況に合わせて利用可能な公的制度や必要な手続きを、対話形式で分かりやすく案内します。プッシュ通知も組み合わせることで、手続きし忘れを防ぎます  \n * また、育児に関する日常的な悩みは、専用のAIチャットボットが24時間365日対応します。最新の育児知識などを予め身につけ、相談者に寄り添うような自然な対話ができる仕組みを作ります  \n-* 相談内容から深刻なケースや専門的な支援が必要とAIが判断した場合には、保健師や心理士、ケアマネージャーなどの自治体の専門家へスムーズに接続する仕組みを構築します。特に、児童虐待が疑われるケースについては、AIが通報に必要な情報の整理を支援し、通報者の許可のもと、疑いのレベルに応じて児童相談所にレポートを自動で提出するシステムも検討します。これにより、通報の心理的・手続き的負担を軽減し、早期発見・介入を促進します。児童相談所側も、整理された情報に基づいて迅速に対応できるようになり、双方の負担軽減と連携強化を目指します。自治体と国とで密に連携し、デジタルの即時性と専門家による的確なサポートを両立させ、支援が必要な人に確実に届く体制を整えます。  \n+* 相談内容から深刻なケースや専門的な支援が必要とAIが判断した場合には、保健師や心理士などの専門家へスムーズに接続します。\n+* しかし、特に児童虐待が疑われるケースについては、単に通報を促すだけでは問題は解決しません。現在、通報を受け止めるべき児童相談所は、国による職員増員が進む一方で、その高い専門性に見合った研修体制、特に経験豊富な職員によるOJT（実務を通じた指導・育成）の機会が追いつかず、過酷な労働環境にあるとも言われています。この現実を無視してAIによる通報の件数だけを増やせば、かえって現場を疲弊させかねません。\n+* そこで私たちは、AIによる早期発見・通報支援と、それを受け止める現場の体制強化を「車の両輪」として、一体で改革します。具体的には、AIが整理した質の高い情報を、関係機関がリアルタイムで共有できるデジタル基盤を整備し、支援員の事務負担を大幅に軽減します。そして、そこで生まれた時間とリソースを、職員の専門研修や処遇改善、メンタルヘルスケアに重点的に再投資し、「人材の定着」を最優先で図ります。通報を確実に次の支援に繋げられる、持続可能なシステムを構築します。\n+* さらに、このAI相談ポータルは、虐待の早期発見という「点」の機能に留まりません。「デジタル母子パスポート」と連携することで、妊娠期から個々の家庭の状況を把握し、産後ケア事業などの予防的支援へとシームレスに繋ぎます。これにより、そもそも虐待に至る前の段階で、困難を抱えるご家庭を支えるセーフティネットを構築します。AIはあくまで、人と人、そして関係機関とを繋ぎ、一次予防から支援までを滑らかにするためのハブとなることを目指します。\n * 利用者は妊産婦だけでなく、そのパートナーも対象とします。男性の育児ノイローゼなど、これまで光が当たりにくかった問題にも対応し、子育てに関わる誰もがSOSを出しやすい環境を作ります。\n * 対応する専門家自身も、在宅でのチャットや電話対応など、柔軟な働き方で相談業務を行えるような環境整備も検討します。\n "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "4ef8070e86bd25d5fd966f3a30817b0c34618a91",
+      "node_id": "C_kwDOOqTJvNoAKDRlZjgwNzBlODZiZDI1ZDVmZDk2NmYzYTMwODE3YjBjMzQ2MThhOTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T17:13:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T17:13:19Z"
+        },
+        "message": "ユーザー（不明）の提案に基づき、AI育児相談ポータルとデジタル母子パスポートの連携を強化し、児童虐待対応の現実的な課題を反映",
+        "tree": {
+          "sha": "993408fe13eb7dd3e9edb6a899f95eea3e80ee23",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/993408fe13eb7dd3e9edb6a899f95eea3e80ee23"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/4ef8070e86bd25d5fd966f3a30817b0c34618a91",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocUYvCRC1aQ7uu5UhlAAAB6MQAIb7tjXzB5tmjo4TGrdCumHE\njXs0Llc/EvHetEUbY7aBAgkjSiIuQ6ZY3du41ys2coNhmp6UWqrd1J1PHUI3j9JF\nMJDOxn2f6wnGtfse1lG4eBfWzppyS+jeVZ/QxfvVu+y5Ws0Ead2P9tPf5B++GDV5\nZYE6gvEIwUbhEWd18xm83Dwto+c3WcYQEs6mPHPPoj9hPexov5YB55s1WA0I+9bN\n1Lv4eBNKucbKbnZsgm0I5QlZfaYBj+55r2b2qNY842DiaqkJvCLDVYpyEZAuzoPN\n1JCXsS1kfF4L9POTXL3p5Ev4/tRELvSgWZcKNRrsBga3B2AILJQTLuKRwN/D/u/O\nm3CmtDUYQW17hFPKzqOLh9MioMXXIURlLARsNl3UrWyrpyUe6F/UzUSOauQex/LU\n0QUXjE9vsdzd851JCAcYGQzy1vwYYlyyoXogMd3nLS6SQ+Bl98662mY5N1WmVGHg\nH5Na1yMQvohx/T9np0PPWi1Pi+cWPIfe/i69WbVepLbDnjuDY/2wUylpu/tZrN91\nsNpDSF6Aaq/eD2z2Wt+7iVMWSf0zODK8H/lJq10zPpV9VF3MOygjFLBodSPTlrfx\niv85839Ve2sLF/wcZu+y/xSaRL7zIuabr39R8NLIAUEcLWQJUysQQs2/ahY+Jm66\nyAOhunzs8ZAyF4oLm/7X\n=YNNg\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 993408fe13eb7dd3e9edb6a899f95eea3e80ee23\nparent daaaeac18abd149ff57c6938e055ed813b00cd2c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752253999 +0000\ncommitter GitHub <noreply@github.com> 1752253999 +0000\n\nユーザー（不明）の提案に基づき、AI育児相談ポータルとデジタル母子パスポートの連携を強化し、児童虐待対応の現実的な課題を反映",
+          "verified_at": "2025-07-11T17:13:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/4ef8070e86bd25d5fd966f3a30817b0c34618a91",
+      "html_url": "https://github.com/team-mirai/policy/commit/4ef8070e86bd25d5fd966f3a30817b0c34618a91",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/4ef8070e86bd25d5fd966f3a30817b0c34618a91/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "html_url": "https://github.com/team-mirai/policy/commit/daaaeac18abd149ff57c6938e055ed813b00cd2c"
+        }
+      ]
+    },
+    {
+      "sha": "c0956c3bcfb31257d536498e7bfab49b4a9cc708",
+      "node_id": "C_kwDOOqTJvNoAKGMwOTU2YzNiY2ZiMzEyNTdkNTM2NDk4ZTdiZmFiNDliNGE5Y2M3MDg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T17:15:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T17:15:02Z"
+        },
+        "message": "Rさんの提案に基づき、AI虐待対応と母子パスポートの機能を修正",
+        "tree": {
+          "sha": "bef7d5796d083b3c78085b0fcbdf4cb924e16540",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bef7d5796d083b3c78085b0fcbdf4cb924e16540"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c0956c3bcfb31257d536498e7bfab49b4a9cc708",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocUaWCRC1aQ7uu5UhlAAAah8QAJDEYx7nd8Bchhi/N8fGPm8P\nBHdHrmfrAidwy+3YME9NsNEclDWWQ0EcQqlCfwVa5kQr5cZsxa2470y1RLrlntfj\n3S34BKdyeXQHFws7HxBbPUe8wJBO6cv6HXDRhBKWZsoDlWJDLVXmzHh01FmY6Z/5\nm3XMVTVVQ6pVbQRKgacZoAGOzqAeXBJNV633dRp73rRPxhgJumIFQCSE/FzoZYGs\nhIIZli9QZilIUyaS3w7ysoNCiim57sE4OIJDUbEUf6K+pMg4cn9m5vs0oa5pBqhk\nMLbJxCVhTlm3HIbT30WPpyWYExL0SxX7n9oWQ8aTguO21Y3HXUl4eNJC57RQ1tMI\nHORfXrgXNDmXg2eEAyFSSyv9BfgacJP5JEKcqjY2CPTe1912ek/stl62Z/0+Djf2\nd7oic26j3vtuE+0g3sjrKZm5ZTLHGpnb0ZFBJ8Z4XEZuU1fvcT6AsEadj8Qkp+PT\nlyROdBwE9R0dm0YRSEmhgA9imjeoWhowJFy8vn9w3I0nx3XB7B8pf2j+JIvd3INq\ncjn7DkTN30D4aoMIi0ToY/6pt1YCRIj/0AlKw1DrXCrQu4MIIkrYHzQjaMcw9daz\nRNk6gWyengtaOzvfBHZh78rnfCNV6oFIY5AbbtmovC9bqCivuSR36ickJnDgVSOs\nqovnH1Y++nvf1ou1d9X5\n=biX3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bef7d5796d083b3c78085b0fcbdf4cb924e16540\nparent 4ef8070e86bd25d5fd966f3a30817b0c34618a91\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752254102 +0000\ncommitter GitHub <noreply@github.com> 1752254102 +0000\n\nRさんの提案に基づき、AI虐待対応と母子パスポートの機能を修正",
+          "verified_at": "2025-07-11T17:15:02Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c0956c3bcfb31257d536498e7bfab49b4a9cc708",
+      "html_url": "https://github.com/team-mirai/policy/commit/c0956c3bcfb31257d536498e7bfab49b4a9cc708",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c0956c3bcfb31257d536498e7bfab49b4a9cc708/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4ef8070e86bd25d5fd966f3a30817b0c34618a91",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/4ef8070e86bd25d5fd966f3a30817b0c34618a91",
+          "html_url": "https://github.com/team-mirai/policy/commit/4ef8070e86bd25d5fd966f3a30817b0c34618a91"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T17:15:37.943367"
+}
