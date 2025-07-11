@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5484,
+    "title": "子ども自身のSOSを起点とした具体的な支援ネットワークの構築",
+    "state": "open",
+    "created_at": "2025-07-11T12:20:13Z",
+    "updated_at": "2025-07-11T12:20:13Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5484",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "12eb34dddb34ab6aa68361af5d43edb34385cd5e",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 16,
+      "deletions": 10,
+      "changes": 26,
+      "blob_url": "https://github.com/team-mirai/policy/blob/225d4732bb5d596d1831e2f25947de97a09861c0/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/225d4732bb5d596d1831e2f25947de97a09861c0/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=225d4732bb5d596d1831e2f25947de97a09861c0",
+      "patch": "@@ -16,7 +16,7 @@\n \n * 現在の母子手帳は紙媒体が主流であり、妊娠中の体調が不安定な時期に受け取りに行く手間や、紛失のリスクがあり、それによってワクチン接種記録などが確認できず、適切な時期に必要な医療や予防接種が受けられなくなるケースがあります。  \n * また、妊婦健診の受診券・補助券の手続きや、産後の煩雑な予防接種のスケジュール管理、医療機関での予診票の都度記入など、アナログな手続きが保護者の負担となっています。体調がすぐれなかったり忙しい時期に何度も名前や住所を繰り返し書く作業は、負担として蓄積しています。  \n-* また、妊娠の経過によっては妊婦健診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* また、妊娠の経過によっては妊婦健吸の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n \n ### 政策概要\n \n@@ -31,22 +31,28 @@\n * また、医療機関での受診履歴や検査結果などの情報を保護者の同意のもとで行政と共有することにより、発達障害が認められる場合など、特定の条件を満たす家庭に対して、特別児童扶養手当や児童福祉手当などの経済的支援が自動的に届くようなプッシュ型の支援体制の構築を目指します。子育てや、何らかの困難を抱える保護者にとって、複雑で多岐にわたる申請手続きは、時に必要な支援策の存在に気づけない、あるいは申請を諦めてしまうといった事態を生み出すほどの大きな障壁となっています。こうした申請主義の課題を克服し、必要な支援が迅速かつ確実に届くようにします。\n * なお、デジタル母子パスポートの運用にあたっては、子ども自身の情報アクセス権を尊重し、成長段階に応じた情報共有のあり方について、関係者間で検討を深めます。\n \n-## ２）AIと専門家によるハイブリッド型育児相談ポータルを設置します\n+## ２）子どもも使えるAI支援ポータルを設置し、地域のSOS拠点と連携します\n \n ### 現状認識・課題分析\n \n-* 国や自治体が子育て支援を充実させる中、子育てに関する情報は氾濫しています。その中から自身に合った制度や手続きを正確に把握することは容易ではありません。  \n-* また、育児の悩みや不安を抱えていても、「誰に相談すれば良いかわからない」「些細なことかもしれない」と感じ、一人で抱え込んでしまう保護者は少なくありません。自治体では様々なサポート体制を構築していますが、相談窓口に行くまでの外出準備や子どもを連れて移動する負担などを考えると、なかなか一歩が踏み出せないケースも少なくありません。  \n-* また、男性の育児参加が進む一方で、男性特有の育児ストレスや悩みに対応する支援が不足しており、支援の狭間に落ちやすいという課題も指摘されています。  \n+* 国や自治体が子育て支援を充実させる中、子育てに関する情報は氾濫しています。その中から自身に合った制度や手続きを正確に把握することは容易ではありません。\n+* 育児の悩みや不安を抱えていても、「誰に相談すれば良いかわからない」「些細なことかもしれない」と感じ、一人で抱え込んでしまう保護者は少なくありません。また、男性の育児参加が進む一方で、男性特有の育児ストレスや悩みに対応する支援が不足しています。\n+* 加えて、子ども自身が虐待や貧困などの困難な状況について声を上げることは非常に困難です。家庭が安全な場所でない場合、子どもは学校の保健室や図書館、放課後教室、子ども食堂といった地域の中の身近な場所に安心を求めます。しかし、それらの場所が必ずしも子どものSOSを的確に受け止め、具体的な支援に繋げる体制が整っているとは限りません。性的虐待、睡眠剥奪、食事の欠如、学習機会の喪失など、多様な困難に対応できる、子どもを主軸に置いた支援ネットワークが求められています。\n * 地域では保健師等による全戸訪問などの取り組みもされていますが、日程調整難や家庭からの訪問拒否等により、訪問できない世帯がある自治体が半数程度あります。「問題はないため訪問は不要」などと保護者が主張するケースもあり、本当にリスクのある事象を取りこぼす恐れもあります。より効果・効率を上げるべく、テクノロジーの力も組み合わせたアプローチが必要と考えます。\n \n ### 政策概要\n \n-* 子育て中のあらゆる疑問や悩みに応える「AI育児相談ポータル」を設置します。  \n-* このポータルでは、個々の状況に合わせて利用可能な公的制度や必要な手続きを、対話形式で分かりやすく案内します。プッシュ通知も組み合わせることで、手続きし忘れを防ぎます  \n-* また、育児に関する日常的な悩みは、専用のAIチャットボットが24時間365日対応します。最新の育児知識などを予め身につけ、相談者に寄り添うような自然な対話ができる仕組みを作ります  \n-* 相談内容から深刻なケースや専門的な支援が必要とAIが判断した場合には、保健師や心理士、ケアマネージャーなどの自治体の専門家へスムーズに接続する仕組みを構築します。特に、児童虐待が疑われるケースについては、AIが通報に必要な情報の整理を支援し、通報者の許可のもと、疑いのレベルに応じて児童相談所にレポートを自動で提出するシステムも検討します。これにより、通報の心理的・手続き的負担を軽減し、早期発見・介入を促進します。児童相談所側も、整理された情報に基づいて迅速に対応できるようになり、双方の負担軽減と連携強化を目指します。自治体と国とで密に連携し、デジタルの即時性と専門家による的確なサポートを両立させ、支援が必要な人に確実に届く体制を整えます。  \n-* 利用者は妊産婦だけでなく、そのパートナーも対象とします。男性の育児ノイローゼなど、これまで光が当たりにくかった問題にも対応し、子育てに関わる誰もがSOSを出しやすい環境を作ります。\n+* 保護者と子どもの両方が、あらゆる疑問や悩みを相談できる「AI支援ポータル」を設置します。子どもが直感的に使えるようなデザインや対話形式を取り入れ、誰もがSOSを出しやすい環境を作ります。\n+* **【保護者向け支援】**\n+    * 個々の状況に合わせて利用可能な公的制度や必要な手続きを、対話形式で分かりやすく案内します。プッシュ通知も組み合わせることで、手続きのし忘れを防ぎます。\n+    * 育児に関する日常的な悩みは、専用のAIチャットボットが24時間365日対応します。最新の育児知識などを予め身につけ、相談者に寄り添うような自然な対話ができる仕組みを作ります。\n+* **【子ども向け支援と地域のSOS拠点との連携】**\n+    * 子どもからのSOSをAIが検知し、具体的な支援に繋げるため、地域の様々な施設を「子どものためのSOS拠点」として位置づけ、連携を強化します。\n+        * **性的虐待からの保護**: アプリが性的虐待を示唆するSOSを検知した場合、子どもの同意のもと、保健室の養護教諭など信頼できる大人に連携。緊急避妊薬へのアクセス支援など、迅速な医療的ケアに繋げます。\n+        * **安全な休息場所の確保**: 睡眠剥奪などネグレクトが疑われる状況を検知した場合、保健室や提携する安全な施設でゆっくりと休息できる場所を確保します。\n+        * **食事と学びの提供**: 貧困などにより食事が取れない状況を検知した場合、子ども食堂などと連携し、温かい食事だけでなく、調理などを通じて生きる力を育む機会を提供します。\n+        * **学習機会の保障**: 家庭や学校で安心して勉強できない子どものために、図書館や地域の学習支援センターと連携し、静かで安全な学習環境を提供します。\n+* 相談内容から深刻なケースや専門的な支援が必要とAIが判断した場合には、保健師や心理士などの専門家へスムーズに接続します。特に、児童虐待が疑われるケースについては、AIが通報に必要な情報の整理を支援し、通報者の許可のもと、児童相談所にレポートを自動で提出するシステムも検討します。これにより、通報の心理的・手続き的負担を軽減し、早期発見・介入を促進します。\n * 対応する専門家自身も、在宅でのチャットや電話対応など、柔軟な働き方で相談業務を行えるような環境整備も検討します。\n \n ## ３）全国版保育マッチングプラットフォームを構築します"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "225d4732bb5d596d1831e2f25947de97a09861c0",
+      "node_id": "C_kwDOOqTJvNoAKDIyNWQ0NzMyYmI1ZDU5NmQxODMxZTJmMjU5NDdkZTk3YTA5ODYxYzA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T12:18:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T12:18:23Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、子どもからのSOSに対応する仕組みを追記",
+        "tree": {
+          "sha": "852682d7cbdbc9967444c6c7443fca846838789e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/852682d7cbdbc9967444c6c7443fca846838789e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/225d4732bb5d596d1831e2f25947de97a09861c0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocQEPCRC1aQ7uu5UhlAAA5uAQAGX4cnSqkXuPoW0lBBWgi1ep\nxSCz7mT5rya5CCOhXjQKlV9WXgyvyshOtkKBpb4vSs0M1HmHNTHh84hs14zdOF7a\npEVzALebprr4/l6faEE/Ggei1Zue+6Tpd+gmAx0c7w0qNVtGA8Y7zxoBYampQIsB\nIipNtuDe5nFZHJkkPu+mj2blV+l9kx38hF8SLSN9vYAQn64qJIR+8u7b/N1YuzoC\n1AMdv/FirA/bgVgnzt6dCVq4RUU0Meb4Epdal5DgyCeFiX/vu3WCoOeZfLQzg3jA\nF4DMTRfPzdkvl6a/ZG397b89/BGXm+A+hJZh8mj7U6+5SGj+Wxdik/eyHLuBKPQB\n86CXy3vEYmfnC+4uW1baby/JPeIAEGoOWfc1HqKl6mvIn9JvDEqQl8FqGl3Nj8s8\ntDOPpxFuVg9E3LbV/YqQ3hjQVW67Ycf9xuit0Xb3V2OoGZN8/z3Tf939Yh4wBFJZ\nKfrFfFluNPrwEn4ss4BU9placq0Vi0Uq5sQbMLtob25rwGeE03mlUSsq9oElWhES\n2kIgDDF6ziRqf+GSh7I3dFB9HNKh8Dl/CcvxWEyqSUkjlY2B11jYusynxhUYt4zt\nkpVT7sphjNUdTB6AaOfpg0orTJma8sRSwsYhornLPqpe5rQ+0nyhnQk0yFkqQcZ5\nHnI5tl0PEeaVBYOerlrg\n=SulE\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 852682d7cbdbc9967444c6c7443fca846838789e\nparent daaaeac18abd149ff57c6938e055ed813b00cd2c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752236303 +0000\ncommitter GitHub <noreply@github.com> 1752236303 +0000\n\n匿名ユーザーからの提案に基づき、子どもからのSOSに対応する仕組みを追記",
+          "verified_at": "2025-07-11T12:18:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/225d4732bb5d596d1831e2f25947de97a09861c0",
+      "html_url": "https://github.com/team-mirai/policy/commit/225d4732bb5d596d1831e2f25947de97a09861c0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/225d4732bb5d596d1831e2f25947de97a09861c0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "html_url": "https://github.com/team-mirai/policy/commit/daaaeac18abd149ff57c6938e055ed813b00cd2c"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T12:23:57.766770"
+}

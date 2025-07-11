@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5486,
+    "title": "歳出情報の公開内容の充実にてついて情報公開の項目に追加",
+    "state": "open",
+    "created_at": "2025-07-11T12:24:04Z",
+    "updated_at": "2025-07-11T12:24:05Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5486",
+    "user": {
+      "login": "Taisho241",
+      "id": 58881155,
+      "html_url": "https://github.com/Taisho241"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "08609a5fd40e36b0b183cbc30e51b59cff6e3567",
+      "filename": "22_ステップ２くらしと行政.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 3,
+      "changes": 9,
+      "blob_url": "https://github.com/team-mirai/policy/blob/6d08159d932c54f020b30846ede381c1eb2c79a7/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/6d08159d932c54f020b30846ede381c1eb2c79a7/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=6d08159d932c54f020b30846ede381c1eb2c79a7",
+      "patch": "@@ -123,9 +123,11 @@\n | 気象庁 オープンデータ | CSV／XML ほか | **利用登録制** | [気象庁データ](https://www.data.jma.go.jp/developer/weatherdataguide/howto.html?utm_source=chatgpt.com) |\n \n * “PDF 一択”の公開が AI 利活用を阻害  \n-  * デジタル庁はオープンデータ基本指針で「機械可読な形式」を推奨する一方、多くの行政文書は依然 PDF で公開され、生成 AI や検索エンジンが解析しづらい現状が残っています。  \n-* 法律・行政情報のカバレッジ不足  \n-  * e‑Laws 法令 API は XML 形式で条文を提供していますが、告示・通達・ガイドライン等が未整備で、法令体系が網羅できていません。  \n+  * デジタル庁はオープンデータ基本指針で「機械可読な形式」を推奨する一方、多くの行政文書は依然 PDF で公開され、生成 AI や検索エンジンが解析しづらい現状が残っています。\n+  * 例えば、概算要求明細表は省庁別の巨大 PDF（1万ページ超）で公開されており、単価ベースまで詳細に記載されているにも関わらず、横断検索や集計・比較が極めて困難です。 \n+* 法律・行財政情報のカバレッジ不足  \n+  * e‑Laws 法令 API は XML 形式で条文を提供していますが、告示・通達・ガイドライン等が未整備で、法令体系が網羅できていません。\n+  * 財政情報も同様で、概算要求→予算案→執行→決算という歳出の流れが、一貫してデータで追える形にはなっていません。 \n * 法整備はあるが運用が追いつかない  \n   * 2016 年施行の「官民データ活用推進基本法」はオープンデータ推進を義務づけましたが、地方自治体を含む実装面ではデータ標準化や API 整備が遅れています。\n \n@@ -134,6 +136,7 @@\n * 行政の情報をわかりやすく、参加しやすく\n   * 情報公開は今でも取り組まれているが、内容が複雑、情報が分散している状況にある状況を解消するため、検索しやすく・読みやすく・選びやすい、誰でも使いやすい情報設計を実現します。さらに、AIによって利用者の属性や相談内容に応じた解説や制度案内を行い、誰にとっても“自分ごと”として理解できる行政を目指します。\n   * 新しい制度や予算の使い道について、「何がうまくいって」「何がダメだったのか」見える形で定期的に公表します。\n+    * 特に、概算要求、予算案、執行状況、決算までの歳出情報を、XML等の機械判読が可能な形式で公開します。\n   * これらを通じて、国民の皆様がより政治に参加しやすいよう基盤を整備していきます。\n * 情報公開をAPI経由で実施できるように  \n   * 現在の情報公開制度は書面やオンラインフォームが中心となっていますが、その選択肢を増やすと同時に、各省庁で異なるシステムやデータ形式についてAPIの標準化・一次公開の義務付けを進めます。  "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "6d08159d932c54f020b30846ede381c1eb2c79a7",
+      "node_id": "C_kwDOOqTJvNoAKDZkMDgxNTlkOTMyYzU0ZjAyMGIzMDg0NmVkZTM4MWMxZWIyYzc5YTc",
+      "commit": {
+        "author": {
+          "name": "Taisho241",
+          "email": "58881155+Taisho241@users.noreply.github.com",
+          "date": "2025-07-11T12:23:43Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T12:23:43Z"
+        },
+        "message": "歳出情報の公開内容の充実にてついて情報公開の項目に追加\n\n#5398 の提案の内容を予算、決算等まで含めて追記",
+        "tree": {
+          "sha": "d23dd7851664127155408e326605f7a1d0bd07a8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d23dd7851664127155408e326605f7a1d0bd07a8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6d08159d932c54f020b30846ede381c1eb2c79a7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocQJPCRC1aQ7uu5UhlAAADroQAFmwbEtKonSqGg5IC3llQkQt\n6j1u3Ab6thcIQjPJ4PUxuSpwPYk9riVVryqRIOmbdh5/N7yIbOy6FlqLOsauavqA\n9lOmip0GG0mxaaYXw3TqsIHvhA44V3NNfBBYJfgU5eKvxCaDBSrRy0XL/F/a0G4j\nQuozvDXrfoFNnqNzpJX2FOq3908twA2ZjNEBppYP866/YTc+9JiK1vHanCYLOM+o\n4mkJ0LsxHPkFzHhmNj8dLQ3KSqjBMJnmRefATjLF7yBm6hx1/ctruYhwC8pSalZo\nwX1P7KJgmRNi74YU1ZUcMZ4lTI+eFNGqqicjGhc+Kv9eCXaVf32rchx+Mnmg8dyX\nu9W2GaKN5JPymNmO+DUY0XibOF0jEvg13NPnmkQvAASRarEi/X1CZR8OXAeNfpTo\nXdR9L1wjLRGVFpGnRGEknZqLY4ZGXrjDAAQosHNRxOaAYWz7A6hW3dDdfgOA83b8\nGRWotZInLzf3YbYmeO3K3JjyaiQZv/oNZ12p92GHbSI58PGloQLPaSfxL40eu63f\nlYqVhB4lI1cshbIgD+KRsNNuuiKzyxs9w3Xft/tc9vnMNUtg+yix8oGeKJBfTlvO\nSQIXRFxk7uB8Sfm3QDmpcMOQvxH3tJRBDXD6ZPeIvSPxc4SGHCYDXkJZUhUVVv2p\nJTtXJ4t9mjYlyXGSbXXS\n=V2F7\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d23dd7851664127155408e326605f7a1d0bd07a8\nparent daaaeac18abd149ff57c6938e055ed813b00cd2c\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1752236623 +0900\ncommitter GitHub <noreply@github.com> 1752236623 +0900\n\n歳出情報の公開内容の充実にてついて情報公開の項目に追加\n\n#5398 の提案の内容を予算、決算等まで含めて追記",
+          "verified_at": "2025-07-11T12:23:44Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6d08159d932c54f020b30846ede381c1eb2c79a7",
+      "html_url": "https://github.com/team-mirai/policy/commit/6d08159d932c54f020b30846ede381c1eb2c79a7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6d08159d932c54f020b30846ede381c1eb2c79a7/comments",
+      "author": {
+        "login": "Taisho241",
+        "id": 58881155,
+        "node_id": "MDQ6VXNlcjU4ODgxMTU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58881155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Taisho241",
+        "html_url": "https://github.com/Taisho241",
+        "followers_url": "https://api.github.com/users/Taisho241/followers",
+        "following_url": "https://api.github.com/users/Taisho241/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Taisho241/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Taisho241/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Taisho241/subscriptions",
+        "organizations_url": "https://api.github.com/users/Taisho241/orgs",
+        "repos_url": "https://api.github.com/users/Taisho241/repos",
+        "events_url": "https://api.github.com/users/Taisho241/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Taisho241/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "html_url": "https://github.com/team-mirai/policy/commit/daaaeac18abd149ff57c6938e055ed813b00cd2c"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T12:24:49.342909"
+}
