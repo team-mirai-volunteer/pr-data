@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5400,
+    "title": "政策案改善提案：「国会エンジニアチーム」の具体化と実現性の向上",
+    "state": "open",
+    "created_at": "2025-07-11T06:52:29Z",
+    "updated_at": "2025-07-11T06:52:30Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5400",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "f0003dbb46d17daf8444e6b5528b607592e34f0b",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "changes": 10,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a11b3d783b9d78cce9a530316627fe0c9777f15d/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a11b3d783b9d78cce9a530316627fe0c9777f15d/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=a11b3d783b9d78cce9a530316627fe0c9777f15d",
+      "patch": "@@ -14,19 +14,20 @@\n ### \n \n ### 現状認識・課題分析\n-\n+* **既存システムの硬直化と運用の分断**\n+  * 衆参両院で異なるベンダーがシステムを運用し、連携が取れていない、システムが老朽化しているなどの問題があり、根本的な刷新が求められています。\n * 民間と行政で進む「技術活用のギャップ」\n   * 民間企業ではテクノロジーを活かしたサービスの高度化が進む一方、行政や立法分野では変化のスピードに課題があり、日常的な利便性の実感に差が出てきています。\n * 国会・立法府における技術人材の構造的不足\n-  * AIやオープンソースソフトウェア（ソースコードが公開され、誰でも自由に使用、改変、再配布が可能なソフトウェア。以下OSS）の活用が社会の基盤技術となる中、立法や政策設計においても専門的な技術知見が求められています。\n+  * AIやオープンソースソフトウェア（ソースコードが公開され、誰でも自由に使用、改変、再配布が可能なソフトウェア。以下OSS）の活用が社会の基盤技術となる中、立法や政策設計においても専門的な技術知見が求められています。加えて、議員やそのスタッフ、調査局・法制局職員が、膨大な資料や過去の議事録、判例を人手で調査しており、政策の質とスピードの向上を妨げる一因となっています。\n   * イギリスでは「UK Parliamentary Digital Service（PDS）」がこうした役割を担っており、日本でも常設の技術チームによる支援体制が急がれています。\n * 国民参加と熟議を支える基盤の未整備\n   * 政策形成に市民の声を活かすには、意見を集め・整理し・論点化する基盤が必要ですが、現在はその多くが未整備です。多様な意見を構造的に把握・分析するツールの整備が求められています。  \n \n ### 政策概要\n \n * 国会にエンジニアチームを設置\n-  * 政党交付金を活用し、10名程度のエンジニアからなる技術チームを国会に設置します。政治・行政向けのソフトウェアや分析ツールを迅速に開発・実装し、立法・政策プロセスの高度化を支援します。\n+  * 政党交付金を活用し、10名程度のエンジニアからなる技術チームを国会に設置します。政治・行政向けのソフトウェアや分析ツールを迅速に開発・実装し、立法・政策プロセスの高度化を支援します。国会法の改正も視野に入れ、チームの法的根拠を明確にします。既存の外部ベンダーとの協力体制を築き、安定運用が求められる大規模システムの開発・保守も連携して進めます。\n   * また、UK Parliamentary Digital Serviceのような先行モデルを参考にしつつ、AI・OSSの専門知見を立法府に常時インプットします。\n * 行政のデジタルツールをつくる・運用する\n   * ネット上で話し合える場づくり\n@@ -41,7 +42,7 @@\n  * プロトタイプによる仮説検証とOSS化\n     * デジタル政策の構想段階において、まずプロトタイプを開発し、実現性や運用上の課題を検証します。効果が認められたツールについては、公共的に再利用可能なOSSとして開発・公開します。\n  * 議員のための情報収集・分析支援機能\n-    * 各府省の資料、過去の国会・委員会の議事録などを横断的に収集・整理し、関連情報を自動的に集約・提示する機能を開発します。忙しい議員が短時間で必要な情報にアクセスできるようにします。\n+    * 各府省の資料、過去の国会・委員会の議事録などを横断的に収集・整理し、生成AI（GenAI）を用いて、論点整理や類似法案の検索、既存法への影響調査などを強力に支援する機能を開発します。忙しい議員や法制局・調査局職員が短時間で必要な情報にアクセスできるようにします。\n  * 技術外交のハブ機能\n    * エンジニアチームだからこそ可能な“テック外交”を推進します。国内外の技術者コミュニティと連携し、政策立案に必要な知見を得ると同時に、日本発のガバメントテクノロジーのプレゼンスを高めていきます。\n \n@@ -208,3 +209,4 @@\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n \n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "a11b3d783b9d78cce9a530316627fe0c9777f15d",
+      "node_id": "C_kwDOOqTJvNoAKGExMWIzZDc4M2I5ZDc4Y2NlOWE1MzAzMTY2MjdmZTBjOTc3N2YxNWQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T06:50:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T06:50:58Z"
+        },
+        "message": "さとりさんの提案に基づき、国会エンジニアチームの役割と生成AI活用について追記",
+        "tree": {
+          "sha": "08331a89fc55960dd91c0fd7427a5c7d5825009d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/08331a89fc55960dd91c0fd7427a5c7d5825009d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a11b3d783b9d78cce9a530316627fe0c9777f15d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocLRSCRC1aQ7uu5UhlAAApB4QAIsFjkVdYTI2HLs7a+m7HZqs\nXUXox7sVAviIL6tRis+p7StJcKMEpxNi3ZRwN6HE0RKkgiMYY0cWh2f+iK6T46Pi\nuhNHkTw3uI+2B+H0oJmx+yK4QUkBrmbvElbQS99IbmPhvrGWijkyC1nGkSikoLae\nKbUcRkcFQCuZkraSA+KtqULklmERaIAUgyEtrQXBPWFA4JxatYde+VxQ6ofTphLz\nneiKuwvHVZ/XnNtTP9KJYW9cHsam4qI3ijQvZdn3i1KDnlsniHuCl1RqtCEJdC/e\nSLPH8xSe8e/pLPcslR7DCX+5KzmJc2Vpg2sFgI7NnSMJuhP8KF4hZTQgb/xkTGnR\nV5LqaIvFOrQSf8+zAnMX27ZODTnNb+OpTeGaQgZOVY2LCJEEXUz9WJgsANVziNwg\nibe0picTTot6x78FcC0NMZyqXzfiyF0Jh6SK0sFBtzNCk8WLvykfasMOzNQos2sT\n+V2/mPiuG6O2GDoKYDGiP543dhTCcQC11oXLR7o0mDqhtAi2l+NtMig0eqIgpOHs\nUqvm5HJMZ3ytxOiVjescaBetgn0we9xqa1/D2GOnJ/fP0xmW1xJseyUTOoObmuum\nWPBLLeRrb9otwTnu0i4yJ+hbetfgGMpvyFOjCig+Lm5E5RfGJwF+dKhM1zEx5g/d\nY4RQ/X4OFGp3dw5/HkTo\n=Tz7Z\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 08331a89fc55960dd91c0fd7427a5c7d5825009d\nparent 19f8c43b2e711597d28abc290359fe868abb7a86\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752216658 +0000\ncommitter GitHub <noreply@github.com> 1752216658 +0000\n\nさとりさんの提案に基づき、国会エンジニアチームの役割と生成AI活用について追記",
+          "verified_at": "2025-07-11T06:50:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a11b3d783b9d78cce9a530316627fe0c9777f15d",
+      "html_url": "https://github.com/team-mirai/policy/commit/a11b3d783b9d78cce9a530316627fe0c9777f15d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a11b3d783b9d78cce9a530316627fe0c9777f15d/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "19f8c43b2e711597d28abc290359fe868abb7a86",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/19f8c43b2e711597d28abc290359fe868abb7a86",
+          "html_url": "https://github.com/team-mirai/policy/commit/19f8c43b2e711597d28abc290359fe868abb7a86"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T07:14:53.869900"
+}
