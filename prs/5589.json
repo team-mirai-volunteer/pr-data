@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5589,
+    "title": "【つきより改善提案】民間企業との連携を明確化し、民業圧迫の懸念を払拭",
+    "state": "open",
+    "created_at": "2025-07-11T23:28:55Z",
+    "updated_at": "2025-07-11T23:28:56Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5589",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "11e42c77286d2879ace212d8a040df4175dd8c5b",
+      "filename": "11_ステップ１教育.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "changes": 12,
+      "blob_url": "https://github.com/team-mirai/policy/blob/84c4248da7826e3e0ec5b0e0f7487a7d31098110/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/84c4248da7826e3e0ec5b0e0f7487a7d31098110/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=84c4248da7826e3e0ec5b0e0f7487a7d31098110",
+      "patch": "@@ -46,11 +46,10 @@\n   * 保護者向けの説明会や情報提供を積極的に行い、懸念や疑問に丁寧に答え、合意形成を図るプロセスを重視します。  \n   * また、AI開発の初期段階から、学習障害を含む様々な特性・学習ニーズを持つ子どもたちやその保護者、教育・福祉の専門家など、多様な関係者へのヒアリングを徹底し、具体的なニーズを詳細に把握することで、誰一人取り残さないAI活用を実現します。  \n   * 教師がAI出力の妥当性を判断・補完する必要があるため、教師向けのガイドラインやフィードバックツールを提供し、また教員研修を通じて、AI出力の正確性や信頼性の判断能力を向上します。  \n-* 中長期では、政府が基準を定め、民間のAI開発を支援することで普及を目指します。  \n-  * 既存のAIのデータセットには、日本の学校現場特有の概念（古典・日本史・靴箱・給食袋など）が十分に組み込まれていないので、日本の文脈にあったAIを開発します。  \n-  * 文科省とデジタル庁が連携して、義務教育で使うAIが満たすべき仕様を定め、民間で開発してもらい、仕様を満たしたものだけ学校に導入出来るようにします。初期の開発にはコストがかかるので、懸賞金型の研究開発補助金の導入も検討します。  \n-  * 開発したAIは、政府の保有するクラウドサーバー上で動かすことで、個人情報も含めて安全に扱えるようにします。  \n-    * 今後AIの性能が上がってきた場合には、特に秘匿性の高い情報については、オフライン環境でも扱えるような仕組みを構築することも検討します。  \n+* 中長期では、政府は公正な競争環境を整備し、民間企業による多様なAI開発を促進することで、学校現場への普及を目指します。\n+  * 日本の学校現場特有の文脈（古典・日本史・生活文化など）をAIが深く理解できるよう、政府は基準やデータセット整備の指針を示し、民間企業による開発を後押しします。\n+  * 文科省とデジタル庁が連携し、義務教育で使うAIが満たすべき仕様を明確に定めます。民間企業はこの仕様に基づき、自由な発想でAIツールを開発・提供します。学校は、仕様を満たしたツールの中から最も良いものを選べます。\n+  * AIが扱う個人情報等の重要なデータは、国が定める高いセキュリティ基準を満たした環境で安全に管理されることを徹底します。\n * 不適切なコンテンツへのアクセス制限、プライバシー保護などの懸念事項は、文部科学省とデジタル庁とが連携し、AIの仕様およびデータ使用のガイドラインを定めることで、子どもや保護者が安心して使える環境づくりに努めます。  \n   * 基本的な方針として、「危険性が完全に取り除けないからまったく使わない」ではなく、「安全に使える部分はどこなのか」「安全に使うためにどんなことを注意すべきなのか」を丁寧に分析・実装しながら、新たなテクノロジーを使いこなしていきます。\n \n@@ -71,7 +70,7 @@\n ### 政策概要\n \n * IT/AIツールや追加の人員配置により、教員の授業外業務を削減します。  \n-  * 補助金等を活用し、校務支援ツールを積極的に導入します。  \n+  * 補助金 Yönetmelikを活用し、校務支援ツールを積極的に導入します。  \n   * 各自治体の教育委員会にデジタル推進委員を配備し、各校への円滑なテクノロジー導入を支援します。  \n * 学校支援・先生支援AIを開発します。  \n   * 生徒の個人情報を安全に扱うことのできるAIを配布することで、教職員が広範な業務にAIを活用できるようにします。  \n@@ -185,3 +184,4 @@\n * 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。  \n * 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。   \n   * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "84c4248da7826e3e0ec5b0e0f7487a7d31098110",
+      "node_id": "C_kwDOOqTJvNoAKDg0YzQyNDhkYTc4MjZlM2UwZWM1YjBlMGY3NDg3YTdkMzEwOTgxMTA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-11T23:24:34Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-11T23:24:34Z"
+        },
+        "message": "つきさんの提案に基づき、民業圧迫を避けるため政府と民間の役割を明確化",
+        "tree": {
+          "sha": "e4a60fdfc2ed096e91b492fe68457c01407d41e4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e4a60fdfc2ed096e91b492fe68457c01407d41e4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/84c4248da7826e3e0ec5b0e0f7487a7d31098110",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocZ0yCRC1aQ7uu5UhlAAAPugQAI8bzZ9yezW8RKPqk0ny0ZXH\nNlhiP52HOoUu/P3e+fjkVoV4kLas6niEYHDrVkEJnFCSayI7a/hL603Y2Dh4Mdo5\nZkV8cKAyEH412guJwK9ZfE5dOPnVADyVLLRh6FGgJcHdiNZ8ehmB9FXxtLTfDntj\naXygGDk7nYXNAkBwGwUAQV6WcbcApFzbv8tQIvFYdw955Q07YpDcWe9M8qoYEwuH\naroYO3NT1464Gu7CYWJ0x7hCMQV+uXpCrdr1EYkrQCHi5bseXseSRKc3pA9tgfyB\n9kx+fIVOad0nBHjAWRP88HH5pQiKu+I+29pK9T8lt+o/GE9Lt7jdbcVlCXtwterT\ngbVjK6S2SQ025/ecQT+M7hmPWsRwopyjpTJtp2Qowy+mdjru4jfy8etMyCOBRbBG\nCGx8nEp8WeICmqPWC0fv2kRA+jJwlKA9EdDHmnAieqDTCsCzCPZF/0yZ6VVJMb4R\nw/0EtZJ5PWBcLmdJlPVhR/I9FuEIMjMvSVniyrhuSO14l21Ac/FQjNp1l2AShN9h\nLTK4GMPGPmHt0vjOStjrenbodBESDeYJtbRnfV5wgHjUY9dEvaw+TL/JlXuI2u2S\nm7KaUkuWuTseAY29OAYEUplCRLfarEbAIKQy438STUBWYCZHsTNeLX1MHQRZZaXW\n3fr0s/vpK0RwsBnn6S1f\n=LMJn\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e4a60fdfc2ed096e91b492fe68457c01407d41e4\nparent daaaeac18abd149ff57c6938e055ed813b00cd2c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752276274 +0000\ncommitter GitHub <noreply@github.com> 1752276274 +0000\n\nつきさんの提案に基づき、民業圧迫を避けるため政府と民間の役割を明確化",
+          "verified_at": "2025-07-11T23:24:34Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/84c4248da7826e3e0ec5b0e0f7487a7d31098110",
+      "html_url": "https://github.com/team-mirai/policy/commit/84c4248da7826e3e0ec5b0e0f7487a7d31098110",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/84c4248da7826e3e0ec5b0e0f7487a7d31098110/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "html_url": "https://github.com/team-mirai/policy/commit/daaaeac18abd149ff57c6938e055ed813b00cd2c"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-11T23:32:33.649444"
+}
