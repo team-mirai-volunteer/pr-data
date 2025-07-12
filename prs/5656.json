@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5656,
+    "title": "オンライン診療の項目の改善",
+    "state": "open",
+    "created_at": "2025-07-12T04:04:29Z",
+    "updated_at": "2025-07-12T04:04:29Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5656",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "d728e5291d32f2c445d195b67f2998547490b718",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 2,
+      "changes": 5,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ea9a5d9034eda0da3365b2206101d8ac3579958a/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ea9a5d9034eda0da3365b2206101d8ac3579958a/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=ea9a5d9034eda0da3365b2206101d8ac3579958a",
+      "patch": "@@ -17,7 +17,8 @@\n   - コロナ禍にあった2021年のデータでも外来診療全体におけるオンライン診療の割合はごくわずか（0.001%）に留まりました  \n   - 2023年に行われたアンケート調査でも回答者の9割がオンライン診療について知っていると回答しましたが、実際に自身・家族が利用したことがあると答えた人は1割弱に留まりました  \n - オンライン診療には対面と比べて患者さんの状況、詳細が把握しにくかったり、体調が悪化した際に高度医療機関との連携導線が確立されていなかったりと一定の課題がある一方で、適切に普及すれば多くの方々にとってメリットの大きいシステムだと考えます  \n-  - 風邪や花粉症などの軽い相談や慢性疾患で継続的に同じ服薬で経過観察している患者さんにとって、診療のために仕事や家事・育児を調整して対面で受診することはまだまだ負担が大きいと言えます  \n+  - 対面診療では、医師が視診や触診などを通じて得られる情報も多く、オンライン診療ではこれらが限定的になるという課題があります。一方で、症状が安定している慢性疾患の患者さんが、定期的な薬の処方のためだけに通院する負担は大きく、ご家族が代理で受診するケースも少なくありません。\n+  - 風邪や花粉症などの軽い相談や慢性疾患で継続的に同じ服薬で経過観察している患者さんにとって、診療のために仕事や家事・育- 児を調整して対面で受診することはまだまだ負担が大きいと言えます  \n   - 僻地や島嶼部などの医療アクセスが難しい地域にお住まいの方々や一人で外出することが難しい方などの場合、医療機関で相談をしたくても受診控えをしている場合もあると思います  \n - オンライン診療が進まない要因の一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n   - 現在の診療報酬制度ではオンライン診療が対面診療と比べて優遇されているとは言えず、医療機関側にとってシステム投資や運用構築を乗り越えてまで推し進める動機づけが不足しています  \n@@ -28,7 +29,7 @@\n - オンライン診療普及のための診療報酬、インセンティブの設計  \n   - オンライン診療を普及するための診療報酬の加算を検討します  \n   - オンライン診療の無軌道な拡大は、受診件数の爆発的な増大や不適切利用のリスクもあります  \n-  - 島嶼部や僻地医療、独力で受診の難しい要介護者の通院、生活習慣病などで病状の安定している状況での再診など、ユースケースを整備し、段階的にオンライン診療を普及するための枠組みを整備します  \n+  - 島嶼部や僻地医療、独力で受診の難しい要介護者の通院、生活習慣病などで病状の安定している状況での再診など、ユースケースを整備し、段階的にオンライン診療を普及するための枠組みを整備します。その際、オンライン診療は訪問診療などの在宅医療を代替するものではなく、あくまで補完するものであることを明確にします。\n - 安全性を担保するためのガイドライン整備  \n   - 本人確認、重症化時のバックアップ体制など、オンライン診療を安全に行い、標準的なサービスを担保するための規定を整備  \n   - セキュアに遠隔診療を提供するため医療機関のインフラ整備の支援を行います  "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "128a3f28094313004077768f936b7edff08cf543",
+      "node_id": "C_kwDOOqTJvNoAKDEyOGEzZjI4MDk0MzEzMDA0MDc3NzY4ZjkzNmI3ZWRmZjA4Y2Y1NDM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T04:01:47Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T04:01:47Z"
+        },
+        "message": "匿名ユーザーからの提案を反映: 対面診療の重要性と訪問診療との関係を明記",
+        "tree": {
+          "sha": "870a6660cdb87ae8511c7d329d24f4de9814181e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/870a6660cdb87ae8511c7d329d24f4de9814181e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/128a3f28094313004077768f936b7edff08cf543",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocd4rCRC1aQ7uu5UhlAAA3aIQAIyyNae4YZt+JA/kUReH840L\nBzKEv9/4RybzPP1qBPsy5rvTccG7IbffssefaO5PwOQ4UWs4Njm4v/Rzrrrq4hNE\nV1KiMiPZnZ9hQiNTvh619wjFtbkF0S4j1Tflw1rilKq6rDFrfNT7osRne7n9stLR\nGrv9LUkZ5Ev5kfNg3SYRxNz00VrosnvrCWyQRJADR00MFnxuExtSiUpbuwMz6Zky\nZoRpdlO1Mi/Q5loMPLUFnwLsnk7ZLsrLF3HbDBKUv4ntCXMGE/TOBb0dKSC7rAeo\nEf30rhHPZ2RwoQpPwMSXE2J6ATiN6jZULSC9C6HYZr4VEvP1UMm31QhHBDUPM03K\nucL6KPIDaeUQY3iq2cWNjPpirHRXrvAJys+wHV9lr9eTl8ED23SyN23adYcGw8nX\nBB/LOyL4v8AZ2ebv3TbqL6FSFjHiKE7YFCX7AyB2FnRX22mMrPfEVTRmq0qcqMzD\nArPVfYYMgRFmXNBSuHWxWJJSd+MgrgnSMGQInfUDLx5F5PduRYyiO1ZBn5yi2b//\nvHax9ewNgxwt1K0LgYb3IhaSU+YcforXuDFmwipHWbA/i3gFCBqMJShHuco/EyLt\n+mgqKpfaslsU2OGtrjIZeHSrTtr2TvY4/lEI0gUyfjwwYoaYeJ5papab51kPevft\nAjeR5yjfijNWHb1Sgt8M\n=uAH0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 870a6660cdb87ae8511c7d329d24f4de9814181e\nparent daaaeac18abd149ff57c6938e055ed813b00cd2c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752292907 +0000\ncommitter GitHub <noreply@github.com> 1752292907 +0000\n\n匿名ユーザーからの提案を反映: 対面診療の重要性と訪問診療との関係を明記",
+          "verified_at": "2025-07-12T04:01:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/128a3f28094313004077768f936b7edff08cf543",
+      "html_url": "https://github.com/team-mirai/policy/commit/128a3f28094313004077768f936b7edff08cf543",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/128a3f28094313004077768f936b7edff08cf543/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "html_url": "https://github.com/team-mirai/policy/commit/daaaeac18abd149ff57c6938e055ed813b00cd2c"
+        }
+      ]
+    },
+    {
+      "sha": "ea9a5d9034eda0da3365b2206101d8ac3579958a",
+      "node_id": "C_kwDOOqTJvNoAKGVhOWE1ZDkwMzRlZGEwZGEzMzY1YjIyMDYxMDFkOGFjMzU3OTk1OGE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T04:04:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T04:04:28Z"
+        },
+        "message": "匿名ユーザーからの提案に基づきオンライン診療の記述を修正",
+        "tree": {
+          "sha": "d3a05b7d7c43aec30a39618f5c14d5f871e4d029",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d3a05b7d7c43aec30a39618f5c14d5f871e4d029"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ea9a5d9034eda0da3365b2206101d8ac3579958a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocd7MCRC1aQ7uu5UhlAAAlbsQAHK+FXRvlgsEuJJuGMqKSlP0\nPk9XKUFq2c4cGhwfUdl9k8zvCYIV6hRQ6Cp7iA0O67Rd9Hn4HXBA1u0bY/VQqGd7\noRuhghlPFwCr5o4JDjX+4nwrArDDaljzJHsKCUrRQSrGnBUQ11qi611jxuR9pZPl\ntZ7xiJVlgAD6LixJKAgiQcm/FcFD2lSfIQjTCqiSXfyO2bPNEMrwq51r31sC0IeU\nbQX9xh7y2Mpd4YGlrKai2Pif/2TvqEjJqyPFiTJzufl4izLOe13FIy4DERQ9EbsC\nloJVqmLhkCuyrGISxuwZXwL7Q+C+84Gg4HxkoXH7DM0CeNHCn8c9d4ngP9oU0bpv\naCoMTzM2FgunGetTPiQP18v1XfNR+9cMLZxjm1hNAXmYtIY9EIttKISp5iy/4aHH\nJDdS7navVEJvxrO1H6IQlNX9oKahLo28o6UH40NRPjmtTw0zVb52lnGZaeH0n+Jk\nPWUIy5rJIpPt0hZ4i1HXLbA1GV1R53ydf/h3O5cv/2krtUaBgwwPcWeVRdVWI4SY\nzH0NHOz58IPmGmBD0IuP8MVVADssygE+90diAYb201DKIpT/Ds66Sx+G5rFUa21Q\ndxCWeXMmmGGgmPUhnOGw5ZDtrMpBkfJKx11qpTlPDY4idLqP/LN4gfOxcptkt/Ab\nkTmt/JbjXV3sEG3n7EK9\n=M+kb\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d3a05b7d7c43aec30a39618f5c14d5f871e4d029\nparent 128a3f28094313004077768f936b7edff08cf543\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752293068 +0000\ncommitter GitHub <noreply@github.com> 1752293068 +0000\n\n匿名ユーザーからの提案に基づきオンライン診療の記述を修正",
+          "verified_at": "2025-07-12T04:04:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ea9a5d9034eda0da3365b2206101d8ac3579958a",
+      "html_url": "https://github.com/team-mirai/policy/commit/ea9a5d9034eda0da3365b2206101d8ac3579958a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ea9a5d9034eda0da3365b2206101d8ac3579958a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "128a3f28094313004077768f936b7edff08cf543",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/128a3f28094313004077768f936b7edff08cf543",
+          "html_url": "https://github.com/team-mirai/policy/commit/128a3f28094313004077768f936b7edff08cf543"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T04:25:26.066468"
+}
