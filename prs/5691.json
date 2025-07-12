@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5691,
+    "title": "「なめらかな税・社会保障」における給付対象者の国籍要件の明確化",
+    "state": "open",
+    "created_at": "2025-07-12T05:58:54Z",
+    "updated_at": "2025-07-12T05:58:54Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5691",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "fe909d916a7236154ddd6577e139b70220188ca7",
+      "filename": "22_ステップ２くらしと行政.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a46259558e90b52fc05d9fb3b1207590d5b6947f/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a46259558e90b52fc05d9fb3b1207590d5b6947f/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=a46259558e90b52fc05d9fb3b1207590d5b6947f",
+      "patch": "@@ -29,7 +29,7 @@\n ### 政策概要\n \n * 所得に応じた「滑らかな課税・給付」  \n-  * 所得控除・給付・保険料率をロジスティック曲線等の連続関数で設計。制度境界による急変（崖）を排除し、合理的かつ予測可能な制度設計を実現。  \n+  * 所得控除・給付・保険料率をロジスティック曲線等の連続関数で設計。制度境界による急変（崖）を排除し、合理的かつ予測可能な制度設計を実現。なお、本政策における給付の対象は、原則として日本国籍を有するものとします。  \n * 指数連動の自動改定  \n   * 年金制度と同様、CPI・平均賃金指数に連動して各種金額（控除額・給付額・保険料率）を自動スライドさせます。  \n * 公式APIの提供  "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "a46259558e90b52fc05d9fb3b1207590d5b6947f",
+      "node_id": "C_kwDOOqTJvNoAKGE0NjI1OTU1OGU5MGI1MmZjMDVkOWZiM2IxMjA3NTkwZDViNjk0N2Y",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T05:54:31Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T05:54:31Z"
+        },
+        "message": "まさんの提案に基づき、「なめらかな税・社会保障」の給付対象を日本国籍保有者に限定",
+        "tree": {
+          "sha": "912ae84fa7de18c13173a0170193a4385b81d584",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/912ae84fa7de18c13173a0170193a4385b81d584"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a46259558e90b52fc05d9fb3b1207590d5b6947f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocfiXCRC1aQ7uu5UhlAAA24oQAF87JBYCqUkn1VGNrHfkZF8z\nejuEbw4O15OXTn502NNJDdNLiXVuwDbVML921MgQrjouj0ISHC3HRVJbCr4ATOHA\nVZueRJl5tAJKiwD0E3HbzgbK0AAe+NoJflIJ9OE0Izhc5pR6PpyacyCbgq07o30K\nLTEf6j2owdZHGM9r6crjex22Zjr2zD4pBck4m+v5UjzmIiGAwJnAWa9uS7ypZGl2\n3P9SVaTNN5dr8Kxmsc89NL/TXM3vKoYLRk80yqZ/Ku9GpT84BMVt657+cHHLSnNt\nB5j5pgSDyYriGXZ5xwif9BejFI6gIw2RkEXySdOheJDMrHMsnot0+Q2wR5BsvJHv\nx8c6XTkj/VYLnzcHR4DK9k/OfE64dR42yLI6b4xg+ofk5Np0pPcoWBEvYzPJBiMC\nbwCXOuRfDfk2mHLLGO0YZ4ebIIPQjzLuh0ky2JC3YTBaoRloP3GW/lvxc5ifCItR\nB1tLxTaAZAVL0Mh0TWUysRgo/4lWpUM53GP6OD1UlgZfpOjOaz4GgNhPrUaMBIgx\nnoCWIryUO9DNC+n95gH9bgibyWqpDxKatbGyBM++1QSbwxhV/NG+qCidupzrM8f9\nPPbdS/dCGcjiGknQB0D2cF8aFF9uIwvnrjV90uqfVwL1bp35qgwiuFMGEd01pCUe\nGRlyb3/u+s8dPLNyB1ts\n=+ttZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 912ae84fa7de18c13173a0170193a4385b81d584\nparent 1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752299671 +0000\ncommitter GitHub <noreply@github.com> 1752299671 +0000\n\nまさんの提案に基づき、「なめらかな税・社会保障」の給付対象を日本国籍保有者に限定",
+          "verified_at": "2025-07-12T05:54:32Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a46259558e90b52fc05d9fb3b1207590d5b6947f",
+      "html_url": "https://github.com/team-mirai/policy/commit/a46259558e90b52fc05d9fb3b1207590d5b6947f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a46259558e90b52fc05d9fb3b1207590d5b6947f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T06:18:10.683147"
+}
