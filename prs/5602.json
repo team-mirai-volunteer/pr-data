@@ -1,0 +1,411 @@
+{
+  "basic_info": {
+    "number": 5602,
+    "title": "【くろねこさん提案】マイナンバーカードを活用した「オンライン独身証明」機能の追加",
+    "state": "open",
+    "created_at": "2025-07-12T00:28:23Z",
+    "updated_at": "2025-07-12T00:59:44Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5602",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3064449729",
+      "html_url": "https://github.com/team-mirai/policy/pull/5602#issuecomment-3064449729",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/5602",
+      "id": 3064449729,
+      "node_id": "IC_kwDOOqTJvM62p8rB",
+      "user": {
+        "login": "kuroneko-tomato",
+        "id": 219652753,
+        "node_id": "U_kgDODReikQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/219652753?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kuroneko-tomato",
+        "html_url": "https://github.com/kuroneko-tomato",
+        "followers_url": "https://api.github.com/users/kuroneko-tomato/followers",
+        "following_url": "https://api.github.com/users/kuroneko-tomato/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kuroneko-tomato/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kuroneko-tomato/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kuroneko-tomato/subscriptions",
+        "organizations_url": "https://api.github.com/users/kuroneko-tomato/orgs",
+        "repos_url": "https://api.github.com/users/kuroneko-tomato/repos",
+        "events_url": "https://api.github.com/users/kuroneko-tomato/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kuroneko-tomato/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2025-07-12T00:59:44Z",
+      "updated_at": "2025-07-12T00:59:44Z",
+      "author_association": "NONE",
+      "body": "システム不具合につき、コメントにて失礼します。\n3.に以下を追加いただきたいです。\n↓↓↓\nあわせて、本人が希望する場合には、スマートフォンの画面上で独身証明を提示できる機能も整備します。その際、氏名の表記（例：漢字、ローマ字）など、画面に表示する情報の範囲は本人が事前に設定できるようにします。これにより、マッチングアプリ等を介さない対面の場でも、プライバシーに配慮した形で手軽に身元を証明でき、安心して関係を築くきっかけを増やします。",
+      "reactions": {
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3064449729/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null
+    }
+  ],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "5826c1ceb97f89586c26b58aec83aa0f9ad8d89f",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/c6edd23b610a81a500351ce292cc4531c8184d83/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/c6edd23b610a81a500351ce292cc4531c8184d83/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=c6edd23b610a81a500351ce292cc4531c8184d83",
+      "patch": "@@ -95,6 +95,11 @@\n         * 既に成果を上げている自治体と民間企業の連携による現場サービス（例：出張講習、地域サークルと連動したIT体験会）などの優良事例を迅速に横展開し、全国での実装を加速させます。\n     * 政策情報や手続き案内を、AIや検索エンジンが解析しやすい機械可読なデータ形式（HTML, JSONなど）で提供。AI・アプリ・Web検索を活用した情報アクセス性を向上させます。\n     * 行政文書の日付表記を分かりやすく改善し、西暦を併記または主として使用することで、和暦の確認や年数の計算といった無駄な確認作業をなくし、利便性を向上させます。\n+    *   **マイナンバーカード連携による「オンライン独身証明」で、安心な出会いを支援**\n+        *   少子化対策の一環として、また国民が安心して新たなパートナーシップを築ける社会を目指し、マイナンバーカードを活用した「オンライン独身証明機能」を導入します。これにより、本人が希望する場合に限り、民間のマッチングサービス等において、独身であることの公的な証明を安全かつ簡便に行えるようにします。\n+        *   この仕組みでは、利用者のプライバシーを最大限に保護します。サービス事業者には「証明が有効であるか（Yes/No）」という認証結果のみを返し、氏名や住所といった詳細な個人情報を渡さない設計を徹底します。情報の開示範囲は常に本人が選択できるようにし、安心して使える環境を整備します。\n+        *   現状、独身証明書の取得は本籍地の自治体へ出向く必要があり、手続きの煩雑さが安全なサービス利用の障壁となっています。本機能は、テクノロジーの力で悪意のある利用者を排除し、誠実な出会いや正当な婚姻・パートナーシップを後押しする一助となることを目指します。\n+        *   あわせて、本人が希望する場合には、スマートフォンの画面上で独身証明を提示できる機能も整備します。その際、氏名の表記（例：漢字、ローマ字）など、画面に表示する情報の範囲は本人が事前に設定できるようにします。これにより、マッチングアプリ等を介さない対面の場でも、プライバシーに配慮した形で手軽に身元を証明でき、安心して関係を築くきっかけを増やします。\n \n \n ## ３）AI＆ITによる公務員の働き方改革を行います\n@@ -208,3 +213,5 @@\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n \n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "094e6a17e157fc29b0a03049afe89a9f8b3dc5b9",
+      "node_id": "C_kwDOOqTJvNoAKDA5NGU2YTE3ZTE1N2ZjMjliMGEwMzA0OWFmZTg5YTlmOGIzZGM1Yjk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T00:20:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T00:20:50Z"
+        },
+        "message": "くろねこさんの提案に基づき、オンライン独身証明の項目を追加",
+        "tree": {
+          "sha": "12d3e942d78b1b5a4208122482f91ed9d89a6934",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/12d3e942d78b1b5a4208122482f91ed9d89a6934"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/094e6a17e157fc29b0a03049afe89a9f8b3dc5b9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocapiCRC1aQ7uu5UhlAAAMOUQAKvARhwJjmlq/6+Y7uN8CEf5\nDwS5Jd7Trtn8wxdpmuX9522z70ApRNvIE1J0URANquTEAh0qbmvWTXtgPiauQaQB\nr+HDyVhcoR9Q9pC/QRFXwEbuAchldUIc6TBFOixZ+8BHV06zgSwfRJkO+LkGSMwd\n0xKFXmOHS/J9RC9u73aaaucUUOzm9ORVby6UlAOzjo2Uhzhq+4iJTJs+foUyuRiP\njDUl3hwLGRR7h4n2XAHK0cxMoTWWzMFPbR86uyyhjMkdbikZl9OkWUXuV18DFYd5\nN7QrVL0lwr6VJraLwKQ3T15G+ZIdX42Q26kfJ1h9RCYWWSOYE2xFF4BNQSwXZBN/\npSaJyyIIfPCGSmExxkBEjKt0Qp3WBWq3s/bHddJ0sqvidyTfmX1td3k5q+xJdvDX\nfaWaWf+JljI6gRb3KG6xBpM2rQDKN5W1cvyaI69xYjJZyTFM7Ct9zFJmDpvGa16L\nrvVfoRmp11uDgK9qVyLJiml0UiSZXXL44srhqv/zcNFeNDDMDN9jdZWTcAVmHUec\nq7Qw4CGhKwX37jFuW2bL7C+KTIQLgsHOso1WmNlgXb+VBfSWNO/M6i+B0KgOujY2\nplw3d+a3ywRiIY0dhFEt+g5o5NKI7vtn3Ii6nQK2YH1PVz5zQdA9z4LWGrzszRk2\nfimetDKGofmKYJ+g8pjR\n=bwJl\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 12d3e942d78b1b5a4208122482f91ed9d89a6934\nparent daaaeac18abd149ff57c6938e055ed813b00cd2c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752279650 +0000\ncommitter GitHub <noreply@github.com> 1752279650 +0000\n\nくろねこさんの提案に基づき、オンライン独身証明の項目を追加",
+          "verified_at": "2025-07-12T00:20:50Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/094e6a17e157fc29b0a03049afe89a9f8b3dc5b9",
+      "html_url": "https://github.com/team-mirai/policy/commit/094e6a17e157fc29b0a03049afe89a9f8b3dc5b9",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/094e6a17e157fc29b0a03049afe89a9f8b3dc5b9/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "html_url": "https://github.com/team-mirai/policy/commit/daaaeac18abd149ff57c6938e055ed813b00cd2c"
+        }
+      ]
+    },
+    {
+      "sha": "cf571231940f8da7f9e3ccb688ad4f535b19b59b",
+      "node_id": "C_kwDOOqTJvNoAKGNmNTcxMjMxOTQwZjhkYTdmOWUzY2NiNjg4YWQ0ZjUzNWIxOWI1OWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T00:38:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T00:38:28Z"
+        },
+        "message": "【くろねこさん提案】スマホでの独身証明提示機能を追加（再実行）",
+        "tree": {
+          "sha": "3126f1022af1dbe2dedbb96334c960d4f85703f1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3126f1022af1dbe2dedbb96334c960d4f85703f1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/cf571231940f8da7f9e3ccb688ad4f535b19b59b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoca6ECRC1aQ7uu5UhlAAAupwQABd048Lw7fv8kPCIxHpX4g+o\nqElYB07jCIcJMO/K0S59Kcqer8h+x/iQ4KxgW0h9pcukMq4Qdxe71QpdofwnVVy3\nh/9kbZwtHBxz9Z3+HJ0YSVY7TBHSCkRWQlCpIlko10PIfhpV5JDMthkh8C4HW25W\nPWcm/TW+5MVjibwQHtTVctavOUaNKZRQm0UvVLsgmjzc49JqMXdZU5CmTdFlwq2n\nJnNb/q1hpDPfAvLkaH8TWbQ2FJolHPOibLSoj3646nNYDzTU9wilrZ0z1gSkbXVt\nHLfMDESFtPUmEMDRpq7SBfsBkZNFaS6yZE9ebbpT2qf2JmoDSMOPA1cPHnkyfw6q\nAWbwhCfVG/Kp/xMo+v3180sWDg4eY67gkEynCRL2gORoFoNn7pVNZGn6dmw1HL/q\nBk0WfNKv/NUOjlit5z4vyWo84HoVPL0iEPIQN0XKNn9C3bDDIfIig5DDMWkDOQrj\n97q0HeTa3hKEoVor7rj6Y1YB1pVP1Ey8rnS5qktS3JQq3jkbEC+kytjE0vg+aPGZ\nDjRXCyFPXj+wFw3X3Yd5/rzf1txfYFGOMbQBJqmJwfZZLAknLnCBl/xqHRgT4Lep\nyCmsE60WX4XM5HQ6QVdkVJUlZi+BWK4th6i6qaCrVnhZQ9Lpckpbvs9WxYyVDP0q\nkzHIwalBFiqto5p8nQTd\n=pfBa\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3126f1022af1dbe2dedbb96334c960d4f85703f1\nparent 094e6a17e157fc29b0a03049afe89a9f8b3dc5b9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752280708 +0000\ncommitter GitHub <noreply@github.com> 1752280708 +0000\n\n【くろねこさん提案】スマホでの独身証明提示機能を追加（再実行）",
+          "verified_at": "2025-07-12T00:38:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/cf571231940f8da7f9e3ccb688ad4f535b19b59b",
+      "html_url": "https://github.com/team-mirai/policy/commit/cf571231940f8da7f9e3ccb688ad4f535b19b59b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/cf571231940f8da7f9e3ccb688ad4f535b19b59b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "094e6a17e157fc29b0a03049afe89a9f8b3dc5b9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/094e6a17e157fc29b0a03049afe89a9f8b3dc5b9",
+          "html_url": "https://github.com/team-mirai/policy/commit/094e6a17e157fc29b0a03049afe89a9f8b3dc5b9"
+        }
+      ]
+    },
+    {
+      "sha": "342fdb44230a6af83496c61a92b43802c4ac324e",
+      "node_id": "C_kwDOOqTJvNoAKDM0MmZkYjQ0MjMwYTZhZjgzNDk2YzYxYTkyYjQzODAyYzRhYzMyNGU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T00:46:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T00:46:23Z"
+        },
+        "message": "くろねこさんの提案を反映：オンライン独身証明機能の追加（スマホ画面での提示を含む）",
+        "tree": {
+          "sha": "02c21c405667e00c08c86a6b9e54b7d1799b0223",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/02c21c405667e00c08c86a6b9e54b7d1799b0223"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/342fdb44230a6af83496c61a92b43802c4ac324e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocbBfCRC1aQ7uu5UhlAAAs+oQAAzGKyLGygg4Bs9KM/QwSl1d\n9HylBksnb0LYjWoMf8qFl410+xWLCis/hK/GEOLhmLDfYxe1K/6zIQlbMzSfP1ZW\neQVcr4S1FeOJfOQGhfaIxypamLZ0gXV83w46L0fXRQ0aMV6iDiC3r4mdgZh2q4JU\n7d52N2CTFFivk9SdAGQwiRhNDZNDf10mTVExOwNsU4LXvsQK1Or9WnaGu4HK5aKx\nKcelIynuGwQApvhh+qTQUX+jviUvXUzm5DkWg6ti37noerFCsPKUyeCue/ziG7wI\nUvTiVAc1xhjkdbZQwPNJCIpJUn/4FwMAmVZmAZ3lOEvsyRPJtHEU2shFE8C2Ur3/\n9wHkXHyr1xaanBxMsooLeFfxX9LPUipEl90dT1pjDNizf+dZW1GLbszyrT5ybeoc\n2EXMOI/Pv1R2R1+aG6YnBX7VxbI8L8KArCC9iFVDJVr/xv9G27U8/D7KOLX7LVEH\nT2+dNmsM80ZRdWdyHgjpdgm0Ua8YJMK1ZF0AE3AW+dBYBock92jBaaTpWHnyvmv0\nDoWGuU8I67pY/ql7ZPu1141Iaz7TSCUk4tpydEETTb3zMYlZfxlWW35F56QsRvMk\nyneF3EtA/+wh8yrzc+4hQGefwpsR2irFSH0YcUNoDZB9+DijaDzkXL+P6/5hCjq9\n9qRpw1acsu/OwXvnWoHM\n=E6Q0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 02c21c405667e00c08c86a6b9e54b7d1799b0223\nparent cf571231940f8da7f9e3ccb688ad4f535b19b59b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752281183 +0000\ncommitter GitHub <noreply@github.com> 1752281183 +0000\n\nくろねこさんの提案を反映：オンライン独身証明機能の追加（スマホ画面での提示を含む）",
+          "verified_at": "2025-07-12T00:46:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/342fdb44230a6af83496c61a92b43802c4ac324e",
+      "html_url": "https://github.com/team-mirai/policy/commit/342fdb44230a6af83496c61a92b43802c4ac324e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/342fdb44230a6af83496c61a92b43802c4ac324e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cf571231940f8da7f9e3ccb688ad4f535b19b59b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/cf571231940f8da7f9e3ccb688ad4f535b19b59b",
+          "html_url": "https://github.com/team-mirai/policy/commit/cf571231940f8da7f9e3ccb688ad4f535b19b59b"
+        }
+      ]
+    },
+    {
+      "sha": "c6edd23b610a81a500351ce292cc4531c8184d83",
+      "node_id": "C_kwDOOqTJvNoAKGM2ZWRkMjNiNjEwYTgxYTUwMDM1MWNlMjkyY2M0NTMxYzgxODRkODM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T00:54:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T00:54:46Z"
+        },
+        "message": "【くろねこさん提案】機能修正：オンライン独身証明にスマホ画面での提示機能を追加",
+        "tree": {
+          "sha": "ca591c4eb79299391e4bcbb0a21907845726cad6",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ca591c4eb79299391e4bcbb0a21907845726cad6"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c6edd23b610a81a500351ce292cc4531c8184d83",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocbJWCRC1aQ7uu5UhlAAATJQQAGpLXiktrdcg5qWYnoa0cq+Z\nvhjUxg2bht/noIaigaaPzDSB/96G75jFd+haInhvm1lDOMwMFckRbwiPbHbkGl2Q\n5RqPHLcpiQARNPyhMLg9jPAI0wJSIfkpRGOVPmX6p0HPRulv1ZW5MKdeHqPM1fys\nAkYFblUvOZHdhBcPqwFDGAKl4hbluKie8O6ZZ15qBILG/mCcSNfpRrj2b+7QwHao\ntYM3GBm3B0hg8gXYmNDKUTKIfQi5yDfsLfE8jaKRYXLDmqwNeSdQmPF6eoLbOEHI\nExIehH1mS0bnCLvQNIzwMUbZiPt22iAJYjSVMf8gLSh2eCRAm3tV/u2IuCzwgg2d\nfHR3fz2AIxvsSu6kzZq12w5GAzLwAC5rnd9z7sm6dBfrtJWALmSlAPkzLijAgFBJ\nt/cQamXEZbrMZHH/J2ht5XetUUlEWdMl2ZqYDWVhH+gnrKy7PdRbI+4H8JjCrZeL\nMRwvFzIYR3YUJFdKMGzxJAjFRFaJdrHdEnACIQ2Hfc/aeHh4It9QJ/ZJGEM089t9\nB0XPJ4BKfti2zrAcdPJOu02LXKwLln/hVcQZGxji+wxOzKExFTX3/Jx+ZqXxC6vY\nt5OE4slP+wR+FHjr0muOzdGg7mrcW0lkOKDQejnEy7OpSfZGGi8+HuuQ1g6cSsdo\n10ml8lIhm2lVlRyGyOCP\n=Tgi6\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ca591c4eb79299391e4bcbb0a21907845726cad6\nparent 342fdb44230a6af83496c61a92b43802c4ac324e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752281686 +0000\ncommitter GitHub <noreply@github.com> 1752281686 +0000\n\n【くろねこさん提案】機能修正：オンライン独身証明にスマホ画面での提示機能を追加",
+          "verified_at": "2025-07-12T00:54:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c6edd23b610a81a500351ce292cc4531c8184d83",
+      "html_url": "https://github.com/team-mirai/policy/commit/c6edd23b610a81a500351ce292cc4531c8184d83",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c6edd23b610a81a500351ce292cc4531c8184d83/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "342fdb44230a6af83496c61a92b43802c4ac324e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/342fdb44230a6af83496c61a92b43802c4ac324e",
+          "html_url": "https://github.com/team-mirai/policy/commit/342fdb44230a6af83496c61a92b43802c4ac324e"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T01:03:35.102347"
+}
