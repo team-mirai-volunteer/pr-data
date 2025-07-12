@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5894,
+    "title": "【角田さん提案】食料安全保障の強化に向けた政策の追記",
+    "state": "open",
+    "created_at": "2025-07-12T16:57:45Z",
+    "updated_at": "2025-07-12T16:57:46Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5894",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "d9e2dce1e446a308d5d38dadc78f68610f37ead3",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "changes": 8,
+      "blob_url": "https://github.com/team-mirai/policy/blob/f65b1529bb29311a48084e329582cf3259ca87aa/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/f65b1529bb29311a48084e329582cf3259ca87aa/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=f65b1529bb29311a48084e329582cf3259ca87aa",
+      "patch": "@@ -1,3 +1,4 @@\n+\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -37,7 +38,7 @@\n     * デジタル民主主義2030における「Polimoney」を活かし、国民が政治資金の流れを容易に追跡・分析できる仕組みを導入します。\n     * あわせて、企業・団体からの献金は受け取らず、将来的な制度見直しにも取り組みます。 政党自らがまず行動し、政治資金のあり方を少しずつ見直すことで、より透明で納得感のある政治の実現を目指します。 \n  * 自治体で使えるOSSツールの開発\n-    * デジタル庁が進める標準化や共通基盤と競合しないよう配慮しつつ、小規模な自治体でも導入しやすいツール群をOSSとして迅速に構築します。必要に応じてカスタマイズできる形で全国に展開します。\n+    * デジタル庁が進める標準化や共通基盤と競合しないよう配慮しつつ、小規模な自治体でも導入しやすいツール群をOSSとして迅速に構築します。必要に応じてカスタマイズできる形で全国に展開します。これには、スマート農業を支援する安価なセンサー技術やデータ分析ツールを含み、少ない労力で生産性を高められるよう、国内の食料生産基盤を技術面から支援します。\n  * プロトタイプによる仮説検証とOSS化\n     * デジタル政策の構想段階において、まずプロトタイプを開発し、実現性や運用上の課題を検証します。効果が認められたツールについては、公共的に再利用可能なOSSとして開発・公開します。\n  * 議員のための情報収集・分析支援機能\n@@ -83,6 +84,7 @@\n         * 今後は、これらの仕組みをより一層拡張し、証券会社・金融機関・保険会社などの情報も含めた網羅的な所得・控除情報の事前集約を推進します。また、高齢者や体調不良等により自らの申告が困難な納税者については、税理士等の有資格者に限らず、家族等による代理提出やサポートがしやすくなる環境整備（例：電子委任状の標準化、代理人向け操作画面の整備）を進めます。\n         * これにより、最終的には、納税者があらかじめ集約された申告内容を確認し、ワンクリックで申告を完了できる「ワンクリック申告」の仕組みを実現します。本人の意思に基づいた安全な情報連携、透明性の高い運用、そして不正利用を防止する制度設計を徹底することで、誰にとっても使いやすく、安心できる確定申告制度への転換を図ります。\n         * この基盤を活かすことで、税や社会保障の控除・給付の“境界”をなめらかにし、より合理的な制度運用へと接続していくことが可能になります。確定申告の改革は、より本質的な制度の滑らかな設計——「なめらか税・社会保障」への移行に向けた第一歩でもあります。\n+        * また、この仕組みを応用し、マイナンバーカードと連携した決済システムを通じて国産の食料品を購入した場合にポイント還元や税制上の優遇が受けられるようにするなど、消費者が国産品を選びやすくするインセンティブ設計も検討します。これにより、消費行動を通じて国内の食料自給率向上を後押しする環境を整備します。\n         * なお、希望する納税者に対しては、マイナンバーカードに紐付けられた公金受取口座から、確定した税額が納税期限日に自動的に引き落とされるオプションも導入します。引き落としにあたっては、納税額の確定内容を事前にマイナポータル上で確認・同意できるようにし、利用者の不安や誤課税への懸念に対応します。\n     * また、本人情報やマイナンバーに紐づく属性データ（年齢、所得、家族構成など）に加え、住民自身がマイナポータル等で登録した興味・関心分野（例：子育て、教育、住宅支援、起業支援など）をもとに、対象となる可能性のある補助金・制度を自動抽出し、アプリやメールで個別通知する仕組みを整備します。これにより、「制度を自分で探しに行く」のではなく、「必要な情報が向こうから届く」プッシュ型の情報提供が実現されます。\n       * すでに、マイナポータルの「ぴったりサービス」や一部年金手続きで先行実装されつつあり、今後は他制度にも横断的に拡張し、自動化の精度を高めていきます。\n@@ -121,6 +123,8 @@\n   * 音声AIによる一次問い合わせ窓口  \n     * 代表電話・コールセンター業務を集約し、職員が二次対応に専念できる環境を整備します。  \n   * 機密区分・個人情報のマスキング手順を標準化し、行政機関での安全な生成AI活用を進めます。    \n+  * **農業従事者の声も届く仕組み**\n+    * 日本の食料安全保障を支える国内農業の持続性を高めるため、農業従事者の声を政策に反映する仕組みを強化します。高齢化が進む現場の実情に配慮し、既存の電話やFAXでの意見受付に加え、地域の集会所などで「デジタル推進委員」が対面で意見を伺い、デジタルツールへの入力を補助します。これにより、現場の負担を増やすことなく、既存農家が抱える課題や新規就農希望者のニーズを的確に把握し、実効性のある支援策へつなげます。\n *  立法支援業務に向けたデジタルツールの整備\n   * 類似法案の検索、過去の審議記録の分析、条文案作成支援、影響範囲分析など、AI技術を活用したツールを開発します。  \n   * e-Gov法令APIの構造化強化（プレーンテキスト化、履歴管理、告示データの整備等）や、デジタル庁が進める法制事務のデジタル化の動きとも連携し、議員立法や修正案作成にも使いやすい支援ツールを整備します。  \n@@ -206,5 +210,3 @@\n * 運用現場に配慮した“併存フェーズ”の設計\n    * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n-\n-"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "f1c68d0293c2f285e20965d152e5c573b216cbc7",
+      "node_id": "C_kwDOOqTJvNoAKGYxYzY4ZDAyOTNjMmYyODVlMjA5NjVkMTUyZTVjNTczYjIxNmNiYzc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T16:40:49Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T16:40:49Z"
+        },
+        "message": "原稿を修正しました(角田さん):農業従事者の声に関する項目を追加",
+        "tree": {
+          "sha": "9e163acaaef241bfdbf3a44d6353efe01f520e43",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/9e163acaaef241bfdbf3a44d6353efe01f520e43"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f1c68d0293c2f285e20965d152e5c573b216cbc7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocpARCRC1aQ7uu5UhlAAAst4QAKiHER39GKRlcpOVTOpHWbsy\n+U3SVr8D7e7OIvdRnqLWrCvh6ShXvrQ8HUiqM46t43G+i1f8Y2wURHgZ5CF3CsK5\nH8NJ0Xnj2grZEX9XnQ0dEUWPPagYXyDoCxlT8QjfUIqL2lyWzj67bEqi78SsSHeD\naTXRnp8efGn0p3lIPGy0BhCxd2ALNAojJfDiP37XANFOQO4GZu59L/qUft2I1s1J\nbXGWtxdk72U6rpLcZYkeFV8tR1tuCb7kdwbcMi4QClp6/zHYKNw4aQ/eG4h3RSPS\ny0quRHpNuAOv5z7/MdEJhnjc1F7e1im1g9jxZ5XCx2MYfgXIXdTuQX3hLTs1XmY8\naoKPNR3DhpaVOOb5RSpdMwuCh2WvhmIrTPgEVfeUOo8SNWjxZJ6noJGQ9RpkV71R\nfBHnFfutP0F+v1hO3VlZHF0r13zIJ6XO7+4u4dSCoDxxk2q+Xv/53Km3wAF4P9Gs\nI2BBtaKivvZnDU9Y6SpWYH0MJl30IhcghKTR/bXtsq6QN/gWYMh3nfu4q56bOVwr\n3SimYZUeD8l/OFraTVfg+Iv+fWVu6itVNMCHAThHAXfVcpEzl9kq+sd8a6/M9J/P\nHPr3XopvjOhgRoqMB+tAQTpb+gLrp35qND0Ypnp67D8nSd+4dO2g0TuBRBrlsA8x\nAVRZXF6zJtwxKWBudTiS\n=1Bag\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9e163acaaef241bfdbf3a44d6353efe01f520e43\nparent 1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752338449 +0000\ncommitter GitHub <noreply@github.com> 1752338449 +0000\n\n原稿を修正しました(角田さん):農業従事者の声に関する項目を追加",
+          "verified_at": "2025-07-12T16:40:50Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f1c68d0293c2f285e20965d152e5c573b216cbc7",
+      "html_url": "https://github.com/team-mirai/policy/commit/f1c68d0293c2f285e20965d152e5c573b216cbc7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f1c68d0293c2f285e20965d152e5c573b216cbc7/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8"
+        }
+      ]
+    },
+    {
+      "sha": "f65b1529bb29311a48084e329582cf3259ca87aa",
+      "node_id": "C_kwDOOqTJvNoAKGY2NWIxNTI5YmIyOTMxMWE0ODA4NGUzMjk1ODJjZjMyNTljYTg3YWE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T16:56:11Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T16:56:11Z"
+        },
+        "message": "角田さんの提案を反映: スマート農業と国産品購入支援策を追記",
+        "tree": {
+          "sha": "6220de70fea61ff428deb26cce4341b12dd3d670",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6220de70fea61ff428deb26cce4341b12dd3d670"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f65b1529bb29311a48084e329582cf3259ca87aa",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocpOrCRC1aQ7uu5UhlAAAe28QAKbRZZWYdF/vsx46C+UAbKX/\nGZlG8bawR2ZJiz0mbCDK2jgFtGelIFI+SQVHk8hLtAONsg0o6vKI6+Jn0Ix8SzoF\n6i4gp6ykw48p1hJ9AJ3M6DYQrWm5nvgefhXEzZainxwg6BQ5wL4qZ/u/8Z8UKCMu\nQW7v2+6TuHe8kk0F9A+cIShUT7LvQ0dFll5NNLg1vtxyJi3R8sN/Ttjt4SX8ynxe\nMoXIuXPNr44ui9UWrVoAhsqleYKiJr9daoBXiCel5mnRZ7YCOgpaxNmrnS3SYiUz\nCEpUs1JzFTH90gAlFpFH/k+P7b/WwudMv38QYiwzN0drTcfTUkK3ft0BmccBBJZm\nrQIcWFCzh4DkPEr+ylAT3/c8KG2NE9OKp8IbMB/tDAWGFP12FPFjOHbGJx/b+Wwt\nhbcYVzE86w/w4tNqxZX2Spxk7ivdo6H6B6M1wH4t75/FaaAy3C1E0OfAmZjvTDAi\n1Zv1jxZh7A2Ej/H+meGoxtc/xcLK5xk95WMRLygHr5OP1lOUi4u0z6GC3j9wisx+\n8qxLFG6DuFLWl82h0zlx/r5f0isVeGmPabhtwMEb6DJVPD+Rq4jEicPwlKvZ1ONq\nwAqvyN6SjEmCELoNKGdZAQDk/sz9VwejbAExq6wZTdspEMyycnGzFbPQ+qQF0tvi\n8PIjCUKSWUiTb1DKghC8\n=EO0y\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6220de70fea61ff428deb26cce4341b12dd3d670\nparent f1c68d0293c2f285e20965d152e5c573b216cbc7\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752339371 +0000\ncommitter GitHub <noreply@github.com> 1752339371 +0000\n\n角田さんの提案を反映: スマート農業と国産品購入支援策を追記",
+          "verified_at": "2025-07-12T16:56:12Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f65b1529bb29311a48084e329582cf3259ca87aa",
+      "html_url": "https://github.com/team-mirai/policy/commit/f65b1529bb29311a48084e329582cf3259ca87aa",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f65b1529bb29311a48084e329582cf3259ca87aa/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "f1c68d0293c2f285e20965d152e5c573b216cbc7",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/f1c68d0293c2f285e20965d152e5c573b216cbc7",
+          "html_url": "https://github.com/team-mirai/policy/commit/f1c68d0293c2f285e20965d152e5c573b216cbc7"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T17:10:45.983306"
+}
