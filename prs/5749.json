@@ -1,10 +1,10 @@
 {
   "basic_info": {
     "number": 5749,
-    "title": "エネルギー政策：カーボンクレジット制度の整合性に関する提案",
+    "title": "匿名ユーザー様の提案に基づき、1.5度目標達成に向けた5つの柱でエネルギー政策を刷新",
     "state": "open",
     "created_at": "2025-07-12T09:04:20Z",
-    "updated_at": "2025-07-12T09:04:21Z",
+    "updated_at": "2025-07-12T09:38:44Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/5749",
@@ -19,16 +19,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "d5f33bcfa8f67e0613044de98703c0847a515074",
+      "sha": "3ca375236b526c11515de6a3478aded412a81518",
       "filename": "35_ステップ３エネルギー.md",
       "status": "modified",
-      "additions": 1,
-      "deletions": 1,
-      "changes": 2,
-      "blob_url": "https://github.com/team-mirai/policy/blob/cfac55513ddf58f093fb0748caf05575111b6957/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/cfac55513ddf58f093fb0748caf05575111b6957/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md?ref=cfac55513ddf58f093fb0748caf05575111b6957",
-      "patch": "@@ -34,4 +34,4 @@\n   * **核融合技術の研究開発投資を強化**し、長期的なエネルギー問題の抜本的解決に備えます。  \n   * **次世代型原子力（SMR、高温ガス炉など）の技術開発と普及**を2030年代後半以降に見据えて支援します。  \n   * **デマンドレスポンスや分散型リソースを活用した柔軟なグリッド運用**を推進し、AI 時代に適した高度な電力システムを構築します。\n-\n+  * **カーボンクレジット制度の整合性確保**：GXリーグ等でScope 1〜3におけるクレジット利用が広く認められているが、これはSBTiやVCMI、ICVCMが定める国際原則に反しており、「削減の代替」による信頼性の毀損リスクがある。Scope 1・2におけるオフセット利用を制限し、Scope 3においても「クライメート・コントリビューション」枠組みに限定する等、国際的に認められた整合性ある制度設計が必要である。\n\\ No newline at end of file"
+      "additions": 78,
+      "deletions": 36,
+      "changes": 114,
+      "blob_url": "https://github.com/team-mirai/policy/blob/8d81cf36d4135fcc4e8ee09c0a4dcefdfefc7bb9/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/8d81cf36d4135fcc4e8ee09c0a4dcefdfefc7bb9/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/35_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md?ref=8d81cf36d4135fcc4e8ee09c0a4dcefdfefc7bb9",
+      "patch": "@@ -1,37 +1,79 @@\n-⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n-💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくはこちら\n-\n-# 5．エネルギー\n-\n-## ビジョン\n-\n-* AI を本格的に普及させるためには膨大な電力が不可欠であり、2030 年までの短期間でも世界全体で日本一国分に相当する追加電力が必要になると見込まれます。  \n-* 日本が AI を使いこなし、テクノロジーを成長の原動力とするためには、安定的かつ大量の電力を確保することが前提条件となります。  \n-* しかしながら、わが国は化石燃料資源に乏しく火力発電依存では、燃料費輸入による国富の海外流出が大規模となり、また平野部も限られていることから再生可能エネルギーの大規模導入にも地理的な制約があります。  \n-* そのため、国内に存在するあらゆるエネルギー資源を最大限に活用しつつ、大容量電源の確保とゼロエミッション社会の実現を両立させる技術開発・設備投資を加速させる必要があります。\n-\n-  ## 現状認識・課題分析\n-\n-* 『第 6 次エネルギー基本計画』（2021 年閣議決定）は、2030 年時点の電源構成を LNG 20％、石炭 19％、水力 11％、その他再エネ 25〜27％、原子力 20〜22％と設定していました。  \n-* 2023 年の実績は LNG 32％、石炭 29％、水力9％、その他再エネ約 23％、原子力 9％であり、目標との差は依然大きい状況です。  \n-* エネルギー目標として、2030年に向けて大きく増加が想定されている電力は、再エネ、原子力と水力です。  \n-　* 再エネの大幅な増加には、国民負担・現実性の両面から大きなチャレンジがあります。  \n-  　* 再エネ賦課金による国民負担は、2024年度見込みで2.7兆円に達しています。追加的な再エネ導入は国民負担の増加に繋がります。  \n-    * 太陽光の導入量は国土面積当たりで既に世界上位水準（ドイツと同程度）にあるため、大幅な追加余地は住宅や建物屋根などに限られます。  \n-    * 太陽光・風力が急増する場合は、蓄電池など調整力の同時整備を怠ると系統安定性が低下する懸念があります。  \n-  * 原子力は安全審査を経た再稼働が進んでいますが、2030年度の再稼働想定実現に向けては、手続きや地域合意プロセスに改善の余地があります。  \n-  * 水力は、日本にとって貴重な自然エネルギー資源です。現状は、 1957 年制定の多目的ダム法ベースの保守的運用が主流で、最新技術を活用した出力増強の余地があります。  \n-* 石炭、LNGの両火力発電は、縮小運用が前提となる中、老朽化による供給力低下が夏季ピーク時の需給逼迫を招いています。  \n-* LNG 輸入費は 2023 年で約 6.5 兆円に上り（輸入総額の約 6％）、2024 年通年の貿易赤字 5.3 兆円を上回る規模であることから、AIによる電力需要増大期に当たっても発電規模維持・拡大には慎重な判断が必要となります。\n-\n-  ## 政策概要\n-\n-  ### 1）大幅なエネルギー需要増に対応できるよう、2030 年に向けたエネルギーミックス目標を再設定し、実行します。 \n-  * **火力発電の一時的維持を明確化**し、無理な再エネ拡大による国民負担増と供給不足を回避します。  \n-  * **原子力比率 20〜22 ％の達成**を目指し、国主導で再稼働支援策を整備します。2030 年時点で 25 基以上の運転を実現できるよう、手続きの迅速化と地域支援を両立させます。  \n-  * **多目的ダム法を見直し、水力発電のポテンシャルを開放**します。既存ダムの再開発や揚水増強を推進し、水力比率 11 ％を堅持しつつ変動再エネの調整力を高めます。  \n-  ### 2）2050 年ゼロエミッション社会に向けて、革新技術開発と制度基盤構築を支援します。  \n-  * **核融合技術の研究開発投資を強化**し、長期的なエネルギー問題の抜本的解決に備えます。  \n-  * **次世代型原子力（SMR、高温ガス炉など）の技術開発と普及**を2030年代後半以降に見据えて支援します。  \n-  * **デマンドレスポンスや分散型リソースを活用した柔軟なグリッド運用**を推進し、AI 時代に適した高度な電力システムを構築します。\n+【柱1】2030年までに実排出45％削減（2010年比）\n \n+■ 背景と課題\n+\t•\t日本の実排出削減ペースは国際整合目標（1.5°C）に届いていない。\n+\t•\tクレジットによる帳消しや目標未達の猶予が温存されている。\n+\n+■ 提案\n+\t•\t全セクター（電力、産業、建築、運輸、農業）で削減目標を明示。\n+\t•\t企業には実排出の対前年比削減率に基づく直接補助金・税優遇を導入。\n+\t•\t排出強度や削減効率に応じた成果報酬制度。\n+\n+⸻\n+\n+【柱2】化石燃料から再エネへの前倒しシフト（2035年完全廃止）\n+\n+■ 背景と課題\n+\t•\t日本の電源の60%以上が依然として化石燃料。\n+\t•\t再エネ導入のペース、蓄電・系統整備が追いついていない。\n+\n+■ 財源\n+\t•\t年間7〜8兆円必要。以下で十分カバー可能：\n+\t•\t化石燃料補助金廃止（約3.4兆円）\n+\t•\t炭素税（5,000円/tCO₂ → 約6兆円）\n+\n+■ 技術対応と制度設計\n+\t•\t洋上風力・屋根太陽光・地熱を中核に据え、導入義務化や優先給電を制度化。\n+\t•\t系統強化、再エネ主導の容量市場改革。\n+\t•\t蓄電・DR・スマートグリッドの導入加速。\n+\t•\t地域との合意形成のための再エネ収益還元制度。\n+\n+⸻\n+\n+【柱3】炭素価格制度の導入と公平な再分配\n+\n+■ 背景と課題\n+\t•\t日本は炭素税水準が国際的に極めて低く、排出の外部コストが価格に反映されていない。\n+\n+■ 提案\n+\t•\t2030年までに段階的にtCO₂あたり5,000円の炭素税を導入。\n+\t•\t全額を再エネ、省エネ、低炭素化設備、雇用転換支援に使途指定。\n+\t•\t中小企業・低所得世帯には炭素税還元型給付制度で逆進性を回避。\n+\n+⸻\n+\n+【柱4】CDR（炭素除去）技術の国家戦略化\n+\n+■ 背景と課題\n+\t•\t1.5°Cシナリオには必ずCDR（DACC、BECCS、バイオ炭など）が含まれる。\n+\t•\t日本はCDRに関する技術開発・市場設計が遅れている。\n+\n+■ 提案\n+\t•\t年間少なくとも500万t-CO₂相当のCDR導入を2030年までに目標化。\n+\t•\t国家主導で技術実証＋市場形成を支援。\n+\t•\tVCMやArticle 6.4市場との整合ルール整備。\n+\t•\tクレジット化ではなく「排出削減の後の貢献」として制度化。\n+\n+⸻\n+\n+【柱5】需要側の脱炭素化（電化・省エネ・ライフスタイル）\n+\n+■ 背景と課題\n+\t•\t建築・交通・食・消費などの「暮らしと産業」からの排出が固定化している。\n+\t•\t行動変容を促す制度・価格インセンティブが不十分。\n+\n+■ 提案\n+\t•\t住宅・建築：ZEB/ZEH義務化＋屋根置き太陽光設置義務化。\n+\t•\t自動車：2030年に新車販売100%電動化＋公共交通拡充。\n+\t•\t食：持続可能な食品表示制度とフードマイレージ可視化。\n+\t•\t金融：省エネ・電化設備導入に対するゼロ金利グリーンローン制度。\n+\n+⸻\n+\n+■ 結論\n+\n+1.5°C目標は、**科学が示す「行動のデッドライン」**である。今すぐに5つの柱すべてで動かなければ、将来の技術や制度では取り戻せない。\n+\n+本提言は、排出削減の量・質・速度のすべてを担保するための構造改革であり、クレジットや帳消しによる回避策ではなく、「本物の行動による脱炭素」を評価し報いる日本型制度への転換である。\n+\n+この道を進むことが、国際社会の信頼を得て、経済・雇用・環境の三位一体の未来を切り開く唯一の道である。\n\\ No newline at end of file"
     }
   ],
   "commits": [
@@ -277,7 +277,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/e4b9f95d2d46b042c00816475df625afeffd1ccd"
         }
       ]
+    },
+    {
+      "sha": "8d81cf36d4135fcc4e8ee09c0a4dcefdfefc7bb9",
+      "node_id": "C_kwDOOqTJvNoAKDhkODFjZjM2ZDQxMzVmY2M0ZThlZTA5YzBhNGRjZWZkZmVmYzdiYjk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T09:37:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T09:37:30Z"
+        },
+        "message": "匿名ユーザーさんの提案に基づき、エネルギー政策全体を1.5度目標達成に向けた5つの柱に全面的に書き換え",
+        "tree": {
+          "sha": "b43fd5e72b4111890594e7c3b26bff89f5550108",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b43fd5e72b4111890594e7c3b26bff89f5550108"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8d81cf36d4135fcc4e8ee09c0a4dcefdfefc7bb9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocizaCRC1aQ7uu5UhlAAARwUQAFvRi3rNVZrmXF5gJN+/TkB9\n4d84bsC2CyvM4AmSLtvUqZX/eirX2EbfB9cEe53Y4pPUcx17Ke/9VcasOA5VfZBj\nOb3KS9Wn01DOAtalRr7+5TLKyn1cLdssfBf8cZOTIvjJNI+uVedqLPN+KXDPZmEC\nK27pmFUZQ/2L4NsIGTjFKTXR8zhrLRCd8YIkt5qb6EzHyL0V9d5GCM7fIENhSWrl\noszIw9noCIWlvYmQZpu+qsdBWPrYDAc22KVw3HMg5GRJfeo0kP0BC7pnqwFGVpFI\neUA7GhtJC2I+hzgeAOKOFao8uk1xAnaSXAKHg8u5aIQFhmdYUNujmHKw4MYklmRz\nutwC+dT4Hxk6VSbuB3PiCANLVJglncuXxeItDV3ECYLrsYPX/0/HM/MrJApSytrK\nnRP/hMqqr/SNQVO7uU4uwABeilcJNy5/6GsayM17IFcKY3RTHmlxwtNbrFGoG+el\nXEUeq3y2cHFlEFk3IfmxTv1rwnx+ExYtJX4nSCrbjnEorDaQDsYjcAktGz0+jD88\nhVwvvsPJQ2pMfW+0at3wib6vsGdm1BhxOuBUhDMFer13Uri9GtjlovGi3vYtJGyd\nlwuzv2asJA3K5ZF5ySeeBBwHyWgZ/1JygAC2c46C9v7ntg8OIc15CZJGrF8DfKD4\nDNU6Z4dVI+52KNFNii+O\n=xWnO\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b43fd5e72b4111890594e7c3b26bff89f5550108\nparent cfac55513ddf58f093fb0748caf05575111b6957\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752313050 +0000\ncommitter GitHub <noreply@github.com> 1752313050 +0000\n\n匿名ユーザーさんの提案に基づき、エネルギー政策全体を1.5度目標達成に向けた5つの柱に全面的に書き換え",
+          "verified_at": "2025-07-12T09:37:30Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/8d81cf36d4135fcc4e8ee09c0a4dcefdfefc7bb9",
+      "html_url": "https://github.com/team-mirai/policy/commit/8d81cf36d4135fcc4e8ee09c0a4dcefdfefc7bb9",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8d81cf36d4135fcc4e8ee09c0a4dcefdfefc7bb9/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cfac55513ddf58f093fb0748caf05575111b6957",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/cfac55513ddf58f093fb0748caf05575111b6957",
+          "html_url": "https://github.com/team-mirai/policy/commit/cfac55513ddf58f093fb0748caf05575111b6957"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-12T09:12:47.788532"
+  "collected_at": "2025-07-12T10:13:25.700382"
 }
