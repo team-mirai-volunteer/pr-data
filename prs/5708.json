@@ -1,10 +1,10 @@
 {
   "basic_info": {
     "number": 5708,
-    "title": "医療データ連携におけるオプトアウト方式の導入とプライバシー保護の強化",
+    "title": "医療DX推進、患者の意思決定支援、AI診断の適正化に関する改善提案",
     "state": "open",
     "created_at": "2025-07-12T07:05:00Z",
-    "updated_at": "2025-07-12T07:05:00Z",
+    "updated_at": "2025-07-12T07:37:22Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/5708",
@@ -19,16 +19,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "95077571d5742fab2752c734d7d0ac83bff67d6d",
+      "sha": "889fac0791058735b8a9f7d535de13f0d4005786",
       "filename": "17_ステップ１医療.md",
       "status": "modified",
-      "additions": 3,
-      "deletions": 1,
-      "changes": 4,
-      "blob_url": "https://github.com/team-mirai/policy/blob/d04fa4c268f8821eaf14b777046aa5a238012273/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/d04fa4c268f8821eaf14b777046aa5a238012273/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=d04fa4c268f8821eaf14b777046aa5a238012273",
-      "patch": "@@ -56,6 +56,7 @@\n   - 都市部を離れると人口減少などの影響も受け、窓口対応をするスタッフを潤沢に受け入れる経済的な余裕がなかったり、人手不足があったりと、人の手でオペレーションを回すことも難しい地域もあります  \n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n+- 電子カルテ情報の標準化を推進し、安全なデータ連携を促進します。医療の質の向上を目的とし、データ連携は原則としてオプトアウト方式としますが、患者自身が共有範囲をいつでも確認・変更できる仕組みを整備します。また、特にプライバシーに関わる機微な医療情報については、個別の同意（オプトイン）を必須とします。\n - 受付、決済やオンライン診療の領域で医療DXが進み、安全に効率的に電子カルテと外部システムが接続できる環境が整うことで、新たな医療機関向けサービスの開発や導入が進展することも期待されます\n \n ## 3）画像診断AIで見逃しリスクと医師不足の解消を同時に\n@@ -75,7 +76,7 @@\n - システム導入費の補助による画像解析システムの導入推進を行います\n   - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n   - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n-  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n+  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n   - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n - 診断AIへの加算を制定し、継続利用を促すとともにAI画像解析の成果について評価を行います\n   - CT・MRI読影にAI画像解析を併用した場合に一定の診療報酬の加算を暫定的に設けます\n@@ -86,3 +87,4 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+"
+      "additions": 5,
+      "deletions": 2,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/3403e854c8812f2bc78d4f8eb594b1f6159fa6be/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/3403e854c8812f2bc78d4f8eb594b1f6159fa6be/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=3403e854c8812f2bc78d4f8eb594b1f6159fa6be",
+      "patch": "@@ -56,6 +56,7 @@\n   - 都市部を離れると人口減少などの影響も受け、窓口対応をするスタッフを潤沢に受け入れる経済的な余裕がなかったり、人手不足があったりと、人の手でオペレーションを回すことも難しい地域もあります  \n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n+- 電子カルテ情報の標準化を推進し、安全なデータ連携を促進します。医療の質の向上を目的とし、データ連携は原則としてオプトアウト方式としますが、患者自身が共有範囲をいつでも確認・変更できる仕組みを整備します。また、特にプライバシーに関わる機微な医療情報については、個別の同意（オプトイン）を必須とします。患者本人の同意を前提に、ACPやDNARなどの情報を医療機関間で安全に共有する仕組みを構築し、医療者の意思決定負担を軽減する\n - 受付、決済やオンライン診療の領域で医療DXが進み、安全に効率的に電子カルテと外部システムが接続できる環境が整うことで、新たな医療機関向けサービスの開発や導入が進展することも期待されます\n \n ## 3）画像診断AIで見逃しリスクと医師不足の解消を同時に\n@@ -72,11 +73,12 @@\n \n ### 政策概要\n \n+- 画像診断は、問診、診察、他の検査結果と合わせて総合的に判断されるべきものです。AI支援は、あくまで医師の診断を補助するツールとして位置づけます。\n - システム導入費の補助による画像解析システムの導入推進を行います\n   - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n   - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n-  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n-  - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n+  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n+  - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します。この仕組みは、かかりつけ医等の診察の結果、特に高度な読影が必要と判断された症例を主な対象とし、不要な検査の増加を防ぎます。\n - 診断AIへの加算を制定し、継続利用を促すとともにAI画像解析の成果について評価を行います\n   - CT・MRI読影にAI画像解析を併用した場合に一定の診療報酬の加算を暫定的に設けます\n   - AI画像解析の運用コストについて一定の担保をするとともに、AI画像解析が行われた施設での読影効率や解析精度、時間外労働への影響を分析し、エビデンス構築を促します\n@@ -86,3 +88,4 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+"
     }
   ],
   "commits": [
@@ -195,7 +195,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/dfdbb64826a2a0cbd51c4c19b783603edc303dd4"
         }
       ]
+    },
+    {
+      "sha": "3403e854c8812f2bc78d4f8eb594b1f6159fa6be",
+      "node_id": "C_kwDOOqTJvNoAKDM0MDNlODU0Yzg4MTJmMmJjNzhkNGY4ZWI1OTRiMWY2MTU5ZmE2YmU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T07:36:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T07:36:08Z"
+        },
+        "message": "佐藤壮さんの提案に基づき、画像診断AIに関する記述を修正",
+        "tree": {
+          "sha": "84e7f34fb40344623e279142967bfe2c06661773",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/84e7f34fb40344623e279142967bfe2c06661773"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3403e854c8812f2bc78d4f8eb594b1f6159fa6be",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJochBoCRC1aQ7uu5UhlAAAte8QAG/8kqw634l0lHFZFEwGS+fv\nErAt2Hk8P6yCiahh1tDqql8BGWp8hb7q174Qq34Mtxd3ezN77T3Kxa5T1W5pdL09\nZpk/Dd6EZigx/z9u5xYai2mcJA1zejXAlswow+XnTr6usJC2ecybH20IUMXYfp1P\nq9OaVz//nBcn4ruvNTt9/VJ64w/RwdZWrSHlLQQi8rT+Qbfp+Q3/Ir19pA4Sf8Qt\nRR9TCwEYvL7tkuT68jM9tz4sJWXXWHU4GvcYhGoWv4L2Jc2jOPAy3vSIU45EKnfi\nLHeX/+wBuNnfsLrhu5rOGjNmF2JP5NdS+kTCfQ+yUSWPKySPNHCVJ+F9IyZfO+Uy\n5pvPA0weCHR91EMXUptz08GoQ5Y/DTxkI7F4yIdCw4ISyahJw0Xka70jY7sMnmzQ\n7ybEJ0wnyhlyrqR0i2JIgp4F7Mr0bJdIYyGzp+2km0ZTgQGWa07YMItdZV/8uFn3\n7qf8GP9e+yjUjmoX6nShTda227B8Vr6G0IkhkY5zckKLlajrdKTVS7z62YvDgoGf\nFapSk2anr+fesPDWAllcQNISRcl+TPGyvcg6EdNIth2d/y1iKnJUJzE0Nt24GPOy\n4vDghCOVbgxuUzlDpmx8TufRvY3nbpYbPnEZQixkGTkB0R08+gongmdzfZNdUUx6\ngMbRI6kX49XfNoryBXl5\n=eFLL\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 84e7f34fb40344623e279142967bfe2c06661773\nparent d04fa4c268f8821eaf14b777046aa5a238012273\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752305768 +0000\ncommitter GitHub <noreply@github.com> 1752305768 +0000\n\n佐藤壮さんの提案に基づき、画像診断AIに関する記述を修正",
+          "verified_at": "2025-07-12T07:36:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3403e854c8812f2bc78d4f8eb594b1f6159fa6be",
+      "html_url": "https://github.com/team-mirai/policy/commit/3403e854c8812f2bc78d4f8eb594b1f6159fa6be",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3403e854c8812f2bc78d4f8eb594b1f6159fa6be/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d04fa4c268f8821eaf14b777046aa5a238012273",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d04fa4c268f8821eaf14b777046aa5a238012273",
+          "html_url": "https://github.com/team-mirai/policy/commit/d04fa4c268f8821eaf14b777046aa5a238012273"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-12T07:12:50.445814"
+  "collected_at": "2025-07-12T08:16:24.383259"
 }
