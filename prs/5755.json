@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 5755,
+    "title": ".34さんからの提案：くらしの手続きを抜本的に改善する3つのアイデア（戸籍・登記・妊婦健診）",
+    "state": "open",
+    "created_at": "2025-07-12T09:23:58Z",
+    "updated_at": "2025-07-12T09:35:19Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5755",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "78a984fa13a4d06c059181efce9c8d804cce05c6",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 15,
+      "deletions": 1,
+      "changes": 16,
+      "blob_url": "https://github.com/team-mirai/policy/blob/6411e722d20929841251b5f3bc60f9fcb6f05594/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/6411e722d20929841251b5f3bc60f9fcb6f05594/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=6411e722d20929841251b5f3bc60f9fcb6f05594",
+      "patch": "@@ -36,8 +36,9 @@\n  * 政治資金の流れを市民が追えるツールを活用\n     * デジタル民主主義2030における「Polimoney」を活かし、国民が政治資金の流れを容易に追跡・分析できる仕組みを導入します。\n     * あわせて、企業・団体からの献金は受け取らず、将来的な制度見直しにも取り組みます。 政党自らがまず行動し、政治資金のあり方を少しずつ見直すことで、より透明で納得感のある政治の実現を目指します。 \n- * 自治体で使えるOSSツールの開発\n+ * 自治体で使えるOSSツールの開発と標準化の推進\n     * デジタル庁が進める標準化や共通基盤と競合しないよう配慮しつつ、小規模な自治体でも導入しやすいツール群をOSSとして迅速に構築します。必要に応じてカスタマイズできる形で全国に展開します。\n+    * 将来的には、こうした標準化の流れを民間企業の業務システムにも広げ、業界や企業ごとに異なるシステムがもたらす非効率や利用者の不便を解消することを目指します。\n  * プロトタイプによる仮説検証とOSS化\n     * デジタル政策の構想段階において、まずプロトタイプを開発し、実現性や運用上の課題を検証します。効果が認められたツールについては、公共的に再利用可能なOSSとして開発・公開します。\n  * 議員のための情報収集・分析支援機能\n@@ -68,6 +69,7 @@\n   * 行かせない  \n     * 行政手続のオンライン化をさらに推進する  \n       * 書面・対面義務規定の更なる見直しを実施します。あわせて、マイナンバーカードと公的個人認証（JPKI）を活用し、本人確認と必要情報の自動取得を可能とすることで、原則として窓口来訪を不要にする行政手続きを拡大します。 \n+      * また、現在は市区町村の窓口や郵送での取得が基本となっている戸籍謄本についても、マイナンバーカードを利用してオンラインで申請・取得できる仕組みを整備します。\n   * 書かせない  \n     * マイナンバーを活用して、利用可能な税・社会保障データの範囲を段階的に拡大し、自動連携することで申請時の住民による再入力を排除します。\n       * 各省庁と自治体のデータベース連携を推進することで、住民が同じ情報を何度も提出する必要を無くします。 \n@@ -94,6 +96,8 @@\n         * 特に高齢者の方々に対しては、デジタル庁の「[デジタル推進委員](https://www.digital.go.jp/policies/digital_promotion_staff)」の取組等と連携し、対面相談窓口の充実や、わかりやすい言葉づかい、大きな文字表示といったインターフェース配慮を徹底します。これには、日本産業規格（JIS）等に準拠したアクセシビリティ基準の採用を含みます。\n         * 既に成果を上げている自治体と民間企業の連携による現場サービス（例：出張講習、地域サークルと連動したIT体験会）などの優良事例を迅速に横展開し、全国での実装を加速させます。\n     * 政策情報や手続き案内を、AIや検索エンジンが解析しやすい機械可読なデータ形式（HTML, JSONなど）で提供。AI・アプリ・Web検索を活用した情報アクセス性を向上させます。\n+    * 国税や社会保険料の納付書にQRコードを標準搭載し、スマートフォンアプリ等でいつでも簡単に支払いができるようにします。これにより、「国の機関なのに支払いが不便」といった課題を解消します。\n+    * 金融アクセスの簡素化のため、銀行を問わず利用できる公共ATMの設置を推進します。採算性の問題でATMが利用しづらい地域や、役所等の公共施設に設置を進め、利用可能なATMを探す手間や、手数料への不安を解消します。\n     * 行政文書の日付表記を分かりやすく改善し、西暦を併記または主として使用することで、和暦の確認や年数の計算といった無駄な確認作業をなくし、利便性を向上させます。\n \n \n@@ -107,6 +111,9 @@\n   * 各省庁だけでなく、衆議院・参議院の法制局では、議員立法や政策分野の多様化により、法案作成・審査の業務が増大しています。膨大な審議記録や類似法案の調査を限られた人員でこなす現場はすでに限界に達しており、業務支援のための技術導入が不可欠です。   \n * 危機対応に必要な“余白”が消失  \n   * 人手不足・過重労働が常態化しているため災害やパンデミック時に臨機応変な動員が難しく、非常時に機動的な動きができない恐れがあります。  \n+* 登記手続きのデジタル化の遅れと現場の負担増\n+  * 全国の登記所では、登記官の人員不足と手続きの集中により、登記完了までの時間が長期化しています。\n+  * 登記原因証明情報など、多くの手続きで紙の書類提出が依然として求められており、電子署名の活用も限定的です。この非効率なアナログ文化が、申請者と司法書士などの専門家の双方に大きな負担を強いています。\n \n ### 政策概要\n \n@@ -126,6 +133,11 @@\n   * e-Gov法令APIの構造化強化（プレーンテキスト化、履歴管理、告示データの整備等）や、デジタル庁が進める法制事務のデジタル化の動きとも連携し、議員立法や修正案作成にも使いやすい支援ツールを整備します。  \n   * 法令・規則・条約のデータを再利用可能なリソースとして統合し、立法過程全体の質とスピードを高めます。\n * 司法DX  \n+  * 登記手続きのフルオンライン化とAI活用\n+    * 登記所の混雑緩和と迅速化のため、登記手続きのDXを強力に推進します。\n+    * 登記原因証明情報や印鑑証明書など、紙で提出が求められる書類の電子化を進め、電子署名を活用したフルオンライン申請を実現します。\n+    * ネット上の登記情報を活用し、申請書をミスなく作成できる支援システムを開発・提供します。\n+    * 申請者、司法書士、行政が円滑に連携できるオンラインプラットフォームの構築を検討し、専門家の知見を活かせる仕組みを目指します。\n   * 司法における書面準備作業などをAIを利用して効率化します。  \n   * AI“0審”モデル  \n     * オンライン上の名誉毀損など、発生件数が多いものについては、パターンを学習し、判決や賠償額を予測するAIを開発します。  \n@@ -208,3 +220,5 @@\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n \n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "63b65da62710165bd1d1f833b1073fa115b671b6",
+      "node_id": "C_kwDOOqTJvNoAKDYzYjY1ZGE2MjcxMDE2NWJkMWQxZjgzM2IxMDczZmExMTViNjcxYjY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T08:58:34Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T08:58:34Z"
+        },
+        "message": "policy: .34さんの提案に基づき、戸籍謄本のオンライン取得と登記手続きのDXに関する項目を追加",
+        "tree": {
+          "sha": "cbffe44515e4c565af3ea44db6047bcfe1c5dac9",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/cbffe44515e4c565af3ea44db6047bcfe1c5dac9"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/63b65da62710165bd1d1f833b1073fa115b671b6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJociO6CRC1aQ7uu5UhlAAAhhEQACyh8ma6QotrrZudyr9ixXz3\nJ92JyB/+mnmO36A0XyOKrr7++WyeBcaKGdplKFV6udBHBv+97QwkHtwGuXd3IYuI\nOliV+/4sS5JrCGwwh+5KkEVs7WawySnZkpj10D147OAN24lv81tRdyryLfI4sHSG\nwg/OmjNNukPCZ5gdbQuk2XSM2m+jEam0j4DEFm5+TaAjK/yj/pP1+S/c/3EVWGKU\nb3TWZi5+MBkb9di6POdALMUJSYHvGpfXhM6EJJ71MsywKWKNb3e4j34Crk3pwnsD\ntX51T4gYc5gHlTAzCsHbkhaOJnkiRi/rpPPKZx8V5AmQUURy2EoXrmSec5kgb+F2\nZ45/D4g+fpoXV7wwBbKq5vXqm4tMmt2rWILDnZv933o7S1XUIwF9+zlyRL+WZyab\nUIJlPLO7i2R4T8f6JEkJ66TfBOgLHWCod8pQQdJc0pfLjNIy36Au2xSJZ6FTYjOK\nPsUACYbpdE5h3JP5Ch6i8BRglmcqE6toIgMTeqR4pnobrKDeujeaVhUWTTSHRIIy\nIQ+UPsfXejkLX/3mfl3E+fl6dWswWLMDdWMSfmiCBS8WNLbMTSqpvHs1MZG+EbCM\n/aFTpAb73FLWuKaR11UWwWeXpo4RnUhpMpdqUvqpqK883eyLLT68I67InWGRSwP7\n/j4i4U0jJs3duqlFP6tW\n=/eaU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree cbffe44515e4c565af3ea44db6047bcfe1c5dac9\nparent 1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752310714 +0000\ncommitter GitHub <noreply@github.com> 1752310714 +0000\n\npolicy: .34さんの提案に基づき、戸籍謄本のオンライン取得と登記手続きのDXに関する項目を追加",
+          "verified_at": "2025-07-12T08:58:34Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/63b65da62710165bd1d1f833b1073fa115b671b6",
+      "html_url": "https://github.com/team-mirai/policy/commit/63b65da62710165bd1d1f833b1073fa115b671b6",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/63b65da62710165bd1d1f833b1073fa115b671b6/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8"
+        }
+      ]
+    },
+    {
+      "sha": "0182329b816ed6577fc6bb097d50ab12d9a3e5c5",
+      "node_id": "C_kwDOOqTJvNoAKDAxODIzMjliODE2ZWQ2NTc3ZmM2YmIwOTdkNTBhYjEyZDlhM2U1YzU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T09:09:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T09:09:50Z"
+        },
+        "message": "「戸籍謄本オンライン化」「登記DX」「妊婦健診の窓口負担ゼロ化」の提案を反映 by .34",
+        "tree": {
+          "sha": "5a2bacd203f2d9ef0d309e4b028d4994e9078364",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5a2bacd203f2d9ef0d309e4b028d4994e9078364"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0182329b816ed6577fc6bb097d50ab12d9a3e5c5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJociZeCRC1aQ7uu5UhlAAA3l0QAEeTNBuvMJA0xl1hj9eAkJVp\n0oqVL7t7H79lHNI+Ulm5GTDeZabZcWnVSvCwRpaYxipwqOErVTWtB5KcFD60Nhzi\nl6pJZPmRu2nXhDeUSi9xNa1PpQCCblNhvwnd0knWX/X0GobftmCiIhNV+OOUQoMj\nf1OnU9ktu/N2XwJarcX/JYFxnlApS2KpvC7vYc05YKAPz/QqXtDZeKz6UE0Zl0mp\nNR0pmG2ECfxehDF+yRe3KwibFejWz8b+ma2VAbYxPOGnnH4LAjeGH5u3sNI9WHUV\npmir2UyXCI9dG3TeY7L73zODT8TDoxWVBQ9pLjZPH4lNXMQgR6/Ohf/+GwC0P7gc\nY+0gZNAF+qc8lWqW5jCGg0X4zSeh7yYCaXTMIUhysyXrqgfrYZ+TxCTgueuV/OU0\nHBx87zL7O+G7tpphz9teLVs52XtYBrB8ZTi7NaKbCeNOYpFfoTLBi0deZ9uLKNgY\n+x7C7AegNDIyvEvPybllTmO3pkDPLfdlNSSSGRR74rEqL7jSZ0kX+ocX8eeePAae\nzGKwFCnYrD/uPoirmUAoTxNcNqZl2XRXNdxlPZPKZS5rV7qVgwra+c0/l9IA3ZaH\n4fqx4rzamx3nZw2vcIarEg4P9Nhhtlzm/mtbCZBwmwcd0MXMa9jVUZHVLWQ6o5Lg\nzjA2dZbYFKAIWOrJB1wC\n=fyTN\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5a2bacd203f2d9ef0d309e4b028d4994e9078364\nparent 63b65da62710165bd1d1f833b1073fa115b671b6\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752311390 +0000\ncommitter GitHub <noreply@github.com> 1752311390 +0000\n\n「戸籍謄本オンライン化」「登記DX」「妊婦健診の窓口負担ゼロ化」の提案を反映 by .34",
+          "verified_at": "2025-07-12T09:09:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0182329b816ed6577fc6bb097d50ab12d9a3e5c5",
+      "html_url": "https://github.com/team-mirai/policy/commit/0182329b816ed6577fc6bb097d50ab12d9a3e5c5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0182329b816ed6577fc6bb097d50ab12d9a3e5c5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "63b65da62710165bd1d1f833b1073fa115b671b6",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/63b65da62710165bd1d1f833b1073fa115b671b6",
+          "html_url": "https://github.com/team-mirai/policy/commit/63b65da62710165bd1d1f833b1073fa115b671b6"
+        }
+      ]
+    },
+    {
+      "sha": "6411e722d20929841251b5f3bc60f9fcb6f05594",
+      "node_id": "C_kwDOOqTJvNoAKDY0MTFlNzIyZDIwOTI5ODQxMjUxYjVmM2JjNjBmOWZjYjZmMDU1OTQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T09:35:18Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T09:35:18Z"
+        },
+        "message": "ユーザー（.34）からの新提案3点を反映（システム標準化、国税QR、公共ATM）",
+        "tree": {
+          "sha": "86460025d4773dd94d4a5fab8c78cd6b2ff9c338",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/86460025d4773dd94d4a5fab8c78cd6b2ff9c338"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6411e722d20929841251b5f3bc60f9fcb6f05594",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocixWCRC1aQ7uu5UhlAAAuCYQABs5WPvsUVj3OMTdOu3yRsnI\nBx4lnz9p053DdAVU+YeNTa1NISfEknDpNalpv27n0JDl4kjab/6hAdExlOtB1Ovr\n4IKEZnirWLh7ITWtHrMLNeDzq/qvvnR9s84XO346ela+ov3MnnQRFB7Tp8D9fxTq\n9fiiDJOMX0pv2/5np2mBl9LOpDSdfI9wAE8sFe+6PfODJ073Y/+JSabkQJVyIqTE\npHVt3IFPsOgnoEDe1pFmCO/zpM17Sy4xdIeJ3xnbH0Z3UfSxBOVPyaoN+ttJLuf+\nqLPAYM9124ROQIx/VS/zduaP0m/1AtDfsxksbE6ubA/QmoNUGgtn3U6hYqzzYLng\ngOYmnbkaAStJNOpFp/5reNywA51ufvH91uOHIGZ6ArzOw24LLkOtmqL4d8SwnFMp\ntvbP3k3VPDthxoATUiFq6HGUjheZ++3h+QhqH7w+SSCzjKnHXM8xuuyG+xdVKaG8\nDslFsTtu6SJ7yvdUMyhOfYGcEmkLuF1oJc1+GtVMp+9mm73mYGNycuj9awpl1shY\ni++RA2rUKpXLtc+pD8xDww6/NIq5f1QgkQJYaU1Fwl6t5ybkFt7WtBBuIxgwm42B\n6jBLfvb1i+w10SWUfxK2FoA5MliPv2piCNO7MWXYzL9hT72p8SXq692TsrZ/hWRW\n+mI/2K38I4PTuUQQenlU\n=+u/V\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 86460025d4773dd94d4a5fab8c78cd6b2ff9c338\nparent 0182329b816ed6577fc6bb097d50ab12d9a3e5c5\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752312918 +0000\ncommitter GitHub <noreply@github.com> 1752312918 +0000\n\nユーザー（.34）からの新提案3点を反映（システム標準化、国税QR、公共ATM）",
+          "verified_at": "2025-07-12T09:35:18Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6411e722d20929841251b5f3bc60f9fcb6f05594",
+      "html_url": "https://github.com/team-mirai/policy/commit/6411e722d20929841251b5f3bc60f9fcb6f05594",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6411e722d20929841251b5f3bc60f9fcb6f05594/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0182329b816ed6577fc6bb097d50ab12d9a3e5c5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0182329b816ed6577fc6bb097d50ab12d9a3e5c5",
+          "html_url": "https://github.com/team-mirai/policy/commit/0182329b816ed6577fc6bb097d50ab12d9a3e5c5"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T09:36:16.146003"
+}

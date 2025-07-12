@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 5747,
+    "title": "「AI学習アシスタント」のハルシネーション対策の具体化と探究心を引き出す仕組みの提案",
+    "state": "open",
+    "created_at": "2025-07-12T09:00:44Z",
+    "updated_at": "2025-07-12T09:00:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5747",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "3829b57ab8bd64ace16ac1aa916903dc481db6d4",
+      "filename": "11_ステップ１教育.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 3,
+      "changes": 8,
+      "blob_url": "https://github.com/team-mirai/policy/blob/06ccc92e65748b0a0ca401bc5bf622fade90383b/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/06ccc92e65748b0a0ca401bc5bf622fade90383b/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=06ccc92e65748b0a0ca401bc5bf622fade90383b",
+      "patch": "@@ -32,7 +32,7 @@\n * AIを用いた「AI学習アシスタント」「AIメンタルアシスタント」を提供します。  \n   * AI学習アシスタントは、子ども一人ひとりの学習状況や興味関心を把握しながら、学びの個別最適化をサポートします。  \n     * 計算練習や英単語学習などのドリル的な活動では、個々人の習熟度に合わせたものを効率よく学ぶことができます。  \n-    * 答えのない探究的な活動では、AI学習アシスタントは答えを提示せず、子どもに対して問いかけたり関連する情報を提示したりしながら、子どもの自己決定や自己理解の深化を促します。  \n+    * 答えのない探究的な活動では、AI学習アシスタントは答えを提示せず、子どもに対して問いかけたり関連する情報を提示したりしながら、子どもの自己決定や自己理解の深化を促します。ここでAIが参照する情報源は、原則として学習指導要領に準拠した教科書や、政府・教育委員会が承認した教材・資料に限定し、回答の信頼性を担保します。これにより、教員の確認負担を軽減し、子どもが誤った情報に触れるリスクを最小化します。もし、その範囲を超える発展的な問いが子どもから投げかけられた場合、AIは「わからない」と応答するのではなく、「素晴らしい質問だね」とまず肯定的に受け止め、信頼できる情報の探し方や先生への質問の仕方を一緒に考える「探究のパートナー」として機能することで、子どもの知的好奇心をさらに引き出します。\n     * これらの学習情報を、必要に応じて、保護者や教員、さらには校種を越えて共有することで、より包括的なサポートが可能になります。  \n     * 多様な学習ニーズ（教科の得意不得意、発達障害、不登校、読字の困難さ、外国籍で日本語学習中の生徒など）を持つ生徒もサポートします。たとえば、教材への自動ふりがな機能は、読字に困難のある生徒や日本語学習中の生徒の読解を助け、学習内容の理解を促進します。  \n   * AIメンタルアシスタントは、より日常的な愚痴や相談が（匿名でも）24時間365日できる相手であり、内容の深刻度に応じて、具体的なアドバイスの提供や、関係する専門機関につなぐ窓口といった役割も果たします。  \n@@ -71,7 +71,7 @@\n ### 政策概要\n \n * IT/AIツールや追加の人員配置により、教員の授業外業務を削減します。  \n-  * 補助金等を活用し、校務支援ツールを積極的に導入します。  \n+  * 補助金acetoneを活用し、校務支援ツールを積極的に導入します。  \n   * 各自治体の教育委員会にデジタル推進委員を配備し、各校への円滑なテクノロジー導入を支援します。  \n * 学校支援・先生支援AIを開発します。  \n   * 生徒の個人情報を安全に扱うことのできるAIを配布することで、教職員が広範な業務にAIを活用できるようにします。  \n@@ -110,7 +110,7 @@\n     * 中学校に教科「情報」を新設します。  \n       * 中学校には技術・家庭科があり、情報に関する教育内容はそこに含まれています。  \n       * しかし中学校「技術・家庭科（情報分野）」は標準時数が3年間で70時間しかありません。  \n-      * 時間が圧倒的に不足しているため、教科として新設し、授業時間を増やします。  \n+      * 時間が圧倒的に不足しているため、教科として新説し、授業時間を増やします。  \n     * AIに特化した先進校的な高校（Super AI High Schools：SAIS）を確立します。  \n       * 高校は情報Iが２単位必修となっていますが、よりAIの利活用に特化した学校をつくり、そこに尖った才能や興味のある生徒を集めます。  \n       * 方法としては、学校現場と民間企業がタッグを組んで国に申請することを検討し、制度枠組みとしてはSSH（スーパーサイエンスハイスクール）を土台にします。\n@@ -185,3 +185,5 @@\n * 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。  \n * 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。   \n   * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924",
+      "node_id": "C_kwDOOqTJvNoAKDVmMWRmN2ZiNTViNTZmOGVmNDg3MWFlM2IwYjU5ZjVlZTc2ZDk5MjQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T07:08:57Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T07:08:57Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、AIのハルシネーション対策を具体化",
+        "tree": {
+          "sha": "6d4277852d12f9e3f6d584e4e9ebd5ab618c0324",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6d4277852d12f9e3f6d584e4e9ebd5ab618c0324"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocgoJCRC1aQ7uu5UhlAAAOyMQAFfFJ5LUMMpR+ld5KQzFVR8t\nwJ77Yo4RCDYTkCFfileTkwckL6lvnsovo7Y6a4vMVqI9sQeph2cbZzli+6HXaKOV\n/OrBiaSG5DqfaU8uGnUJa3X+WeaR6YirOj0F4sqUoxoTrLP9c+Ho6KQWGPnS3VVn\nIlerlTqcJok5ZbEOH3vajlUeJ/OHMfGlU2ajW37XiWtaqHakrmUGTSu0Ns2oFFwf\nk3XKGG+inTpjM4yOpoPNpfni2tY5+cXCh08pU6P+KEYAQHB0ho0dc1RboVSTIt9d\nuLaQ5er8UV03MblRoX6uoiwMJuboIC/Mh1pf1XpPDHjlYfLyVyepa0fBlUvmscJx\nKfMHBdl8u2d6jHsfO+UpdqxtPXoPpIQA+8nPpd3TnNm6Tc/plaS1agymoTWaUt4/\nyBSoUq6dBTOZCMWm78RkGThH3VIKWFHo/4HMIJJ2YSQhLl+H742tkTCqBQqddDLY\nMmk2qeVvKHkeXSYzBxs+U69NWE2wBFUNGbyveqpWKGNt3w0gUr+LpO1jPYDfEHE7\nwBSwKGf8li5MyNdOUr35Zxs96jD6ec+YdvM1Yi0sNVmeURotxIFQFaQ6s3RjT+ES\nN5jUPiF/mCwor+KsSsbEO4ZzCPjWoobRFsVwUgKoFI1nTh5xHu84OT9zFOFzeGqV\nRpBa79pnDFKSckdmHj5w\n=UQXG\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6d4277852d12f9e3f6d584e4e9ebd5ab618c0324\nparent 1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752304137 +0000\ncommitter GitHub <noreply@github.com> 1752304137 +0000\n\n匿名ユーザーの提案に基づき、AIのハルシネーション対策を具体化",
+          "verified_at": "2025-07-12T07:08:57Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924",
+      "html_url": "https://github.com/team-mirai/policy/commit/5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8"
+        }
+      ]
+    },
+    {
+      "sha": "96c1259da1e5f9860c15e5ed95f609a57450b230",
+      "node_id": "C_kwDOOqTJvNoAKDk2YzEyNTlkYTFlNWY5ODYwYzE1ZTVlZDk1ZjYwOWE1NzQ1MGIyMzA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T07:27:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T07:27:35Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、AI学習アシスタントのハルシネーション対策を具体化",
+        "tree": {
+          "sha": "6d4277852d12f9e3f6d584e4e9ebd5ab618c0324",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6d4277852d12f9e3f6d584e4e9ebd5ab618c0324"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/96c1259da1e5f9860c15e5ed95f609a57450b230",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocg5nCRC1aQ7uu5UhlAAA9vwQAFGKkjXw76Aaq+KUpmKaGbi8\nlGoL2Mn81t48yARfJlFTlaX98ZirRA4rD4nuVRPmoDHNKN84n9647xcPGoELNPVP\nUgPWdipmrMiDqCgXnKPd8AGI23bjQgBtaYGu7BhwSt/iQ3TOzL09g6RkzrAJJoPl\nJmSkKdCfKWZc9X7ZSkLaXE49+dVKyWPdOUuEkV+rOwC2rXzQpl9FBWrYrxjCH0Xo\nlJp1FLXc7m+OmTq48A9pOfqkpGvUCHTitluA28oANqp2O6mSW1mvS2hm3K2wpXzY\nyDqKSpd/2diLtGllZEzYEBETFRIuuomo5XRKiYXdArXRc40nOCgbxQWrT09IwNJ+\nfzTC30yoAWxckumpGdnWohMKscR0vw46bo5jy/v/gk5aZ+/UJ/iJJXLiMBTNEHpN\nvC4+Mhr2Q7x190z4COxVLFptzTlpJm3vMe4qDGm7zOhT75kdi+jjIq+OR4Tl981p\n8tQiC2NNnAmljyan1j9mi6XB8Fjf80lA8k5m+wZJfdKczs63MP0YB4kT7wnv9JLb\nrcuDTm9NMSxklrbmJftBiSBbUt9yHDTn0CT7RmhsLMp2wKWAtra94sURdA/1dFFk\ndEeXQ1OXAFyb4zW1HeImA9I/1yINuNDx1qNB/w6Q1LzwBGAItYGerZHWOqEWmgeX\nPIIjHlcCKHyy/ysjYB/S\n=5R5v\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6d4277852d12f9e3f6d584e4e9ebd5ab618c0324\nparent 5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752305255 +0000\ncommitter GitHub <noreply@github.com> 1752305255 +0000\n\n匿名ユーザーからの提案に基づき、AI学習アシスタントのハルシネーション対策を具体化",
+          "verified_at": "2025-07-12T07:27:36Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/96c1259da1e5f9860c15e5ed95f609a57450b230",
+      "html_url": "https://github.com/team-mirai/policy/commit/96c1259da1e5f9860c15e5ed95f609a57450b230",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/96c1259da1e5f9860c15e5ed95f609a57450b230/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924",
+          "html_url": "https://github.com/team-mirai/policy/commit/5f1df7fb55b56f8ef4871ae3b0b59f5ee76d9924"
+        }
+      ]
+    },
+    {
+      "sha": "06ccc92e65748b0a0ca401bc5bf622fade90383b",
+      "node_id": "C_kwDOOqTJvNoAKDA2Y2NjOTJlNjU3NDhiMGEwY2E0MDFiYzViZjYyMmZhZGU5MDM4M2I",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T07:29:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T07:29:25Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、AIのハルシネーション対策を具体化",
+        "tree": {
+          "sha": "21c7e794f8e661c2960c2f3810835ee0b7b8ae3f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/21c7e794f8e661c2960c2f3810835ee0b7b8ae3f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/06ccc92e65748b0a0ca401bc5bf622fade90383b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocg7VCRC1aQ7uu5UhlAAAVEkQABY9szibzTiEAvCTnqDfgrE/\nLtZGI5R1oTD4VbE+G0AiJkWTITQJCl5b4vmZIFOMdcGJV/PG9rZ/iGWOmF+DSwpb\n3+XY+vU8AzwyfcwqtPjaadGIgVqPbyccuRuKTndQ7mZ0kqRBzxX8qu2BQ/ZF748a\ndIwltOIQXbYbMsNCAHyWBjW/kxhCVpLpJNYZcQiS+5g9nYGIE+q88pZ81zw4YvX5\nxY41a0mzrL8RBQrD68pJfiSFTpW2bjIqNx30qfg/R/I4R9WCxE9vqkZXVIWlraov\n6GyBVUHfeWVl6j/dnJ8uced17qFIcanXLegoUkpnU8brc3WALbheu3+tfha14K66\nJYGBer8uEf1T6DYoORYH5fTXjQI66sFvAdHLJjg6okynmJLs+lUUjnUidYMDBvCE\nMCFMTnDwpfOsn4pvibGCdvoiG2E7k2MFX2/4vMzd6p8nrpXd4vtGZ1qkNwM8KyiC\nLpVbyhkpgB/sIBQW+uxcYt3LaRYVRtFgatKj8ZrbtsU7S3fds9K7SsoUG3PGNQ87\nfMo66z/enedngjdYmrf9Cz6XIOZ1bUSNHo4pHifSz3HVO++3tiAGF50kUnv6Klgt\n6h9HNPhw9ckKlykhM8MA9lseBi3EHgaThKng1BNBo3O6A7F7ej9dJKTPQ1DFWPdf\nw1N99s9oiDN8T8R30Fqf\n=CqLC\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 21c7e794f8e661c2960c2f3810835ee0b7b8ae3f\nparent 96c1259da1e5f9860c15e5ed95f609a57450b230\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752305365 +0000\ncommitter GitHub <noreply@github.com> 1752305365 +0000\n\n匿名ユーザーの提案に基づき、AIのハルシネーション対策を具体化",
+          "verified_at": "2025-07-12T07:29:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/06ccc92e65748b0a0ca401bc5bf622fade90383b",
+      "html_url": "https://github.com/team-mirai/policy/commit/06ccc92e65748b0a0ca401bc5bf622fade90383b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/06ccc92e65748b0a0ca401bc5bf622fade90383b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "96c1259da1e5f9860c15e5ed95f609a57450b230",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/96c1259da1e5f9860c15e5ed95f609a57450b230",
+          "html_url": "https://github.com/team-mirai/policy/commit/96c1259da1e5f9860c15e5ed95f609a57450b230"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T09:12:50.933245"
+}
