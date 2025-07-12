@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 5848,
+    "title": "mikaringさんの提案：医療現場の課題解決に向けた2つの重要な柱（電子カルテの標準化・診療報酬改革）",
+    "state": "open",
+    "created_at": "2025-07-12T14:42:18Z",
+    "updated_at": "2025-07-12T14:42:18Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5848",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "593085a204dc8f5b9b4b089718c05029058600d5",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 24,
+      "deletions": 1,
+      "changes": 25,
+      "blob_url": "https://github.com/team-mirai/policy/blob/d66158387f89b73a7a966f000c1e01d9cf1d6a55/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/d66158387f89b73a7a966f000c1e01d9cf1d6a55/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=d66158387f89b73a7a966f000c1e01d9cf1d6a55",
+      "patch": "@@ -74,7 +74,7 @@\n \n - システム導入費の補助による画像解析システムの導入推進を行います\n   - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n-  - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n+  - 日本では公적医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n   - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n   - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n - 診断AIへの加算を制定し、継続利用を促すとともにAI画像解析の成果について評価を行います\n@@ -86,3 +86,26 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4) 電子カルテの標準化と医療情報連携基盤で、シームレスな医療を実現\n+\n+### 現状認識・課題分析\n+- 全国の医療機関で導入されている電子カルテは規格が統一されておらず、医師は異動のたびに新しいシステムの操作を習得する必要があり、大きな負担となっている。\n+- また、医療機関ごとにシステムが分断されているため、患者さんが別の病院にかかる際に、過去の診療情報がスムーズに共有されない。これは、医療の質や安全性の観点からも、また、事務手続きの非効率性の観点からも大きな課題である。\n+- 数年ごとのシステム更新も、現場の負担増や非効率化を招いている。\n+\n+### 政策概要\n+- 全ての医療機関で利用できる統一規格の電子カルテシステムを、複数メーカーの共同開発なども視野に入れ、整備を推進する。\n+- 全ての患者情報をクラウド上で安全に管理・連携できる医療情報連携基盤を構築する。これにより、どの医療機関からでも必要な情報にアクセスでき、より質の高い医療を効率的に提供できる環境を目指す。\n+\n+## 5) 持続可能な医療制度のための診療報酬改革\n+\n+### 現状認識・課題分析\n+- 近年、物価や人件費は上昇し、医療技術も高度化・高価格化しているにも関わらず、診療報酬は長年にわたり据え置かれている。\n+- この構造的な問題により、保険診療を行うほど、特に先進医療を積極的に導入する病院ほど経営が赤字化し、全国で公立病院の倒産が相次ぐなど、医療提供体制そのものが危機に瀕している。\n+- 経営圧迫は、医療従事者の過酷な労働環境や人件費削減に直結し、疲弊を招いている。働き方改革が求められる一方で、少ない人数で質の高い医療を提供し続けなければならないという矛盾した状況に置かれている。\n+\n+### 政策概要\n+- 国民皆保険制度の持続可能性を確保するため、診療報酬体系の抜本的な見直しを行う。\n+- 診療報酬の改定にあたっては、国民に対してその必要性（医療の質の維持、安定した医療提供体制の確保）を丁寧に説明し、理解を求めるプロセスを重視する。\n+- 負担増が困難な方々に対しては、福祉制度の拡充など、適切なセーフティネットを同時に整備することで、誰もが必要な医療を受けられる体制を維持する。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b",
+      "node_id": "C_kwDOOqTJvNoAKDFmYmI3Yjg4MGFlOWYyN2U3N2M5ZDRiODZmNTE5MGFkYzM5ZmRiMWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T14:26:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T14:26:58Z"
+        },
+        "message": "mikaringさんの提案に基づき、電子カルテの標準化と診療報酬の見直しに関する項目を追加しました",
+        "tree": {
+          "sha": "1174863793586b274c808d163f51ae70be099fd2",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1174863793586b274c808d163f51ae70be099fd2"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocnCyCRC1aQ7uu5UhlAAA3wsQABSRTeNN7y6qinvxSz+uaIVy\nP1hDfj49sWcigC6cJQOyzueYbGraAl5jidWbE1NVIqerXZ52CBLjlHfG1XuH8XBF\nzWvHbIf59Xb+bD7BOqNiwmWjMfAcqvFbjANE67YR4plFzULronwjiCkMUuJCHNpN\nOOeSkkZ/YkyZOHENMQDz0GcmQSCQQO7QgLjJ3NG8X5Ii7Mb1xutj2gO9VZ5AWee/\ng0y7XnPDap4OxBhsNbCI8wfBMrrMaiwMUSVRPV0Y7jXxlkIQhR0kC/YBO17JZ1eV\nFUWj0+psEmKJrKxZ/wDylaZvh/CRGYEvQBTs3JGy4ANDnU4c1wpsE73KIwJFLg80\nnGqbX6MzMnruw6bCQERtiim8crpgSIGwXBxiXTtwCJfxislmKm5eozE/Vprb0Z3M\nbuyTZbWESmqMkX5+tANQ4aVg6kiJ3o3UGgKgqi0VNv5YaKG0YTlE2z+qImKFTnYT\nGGW/O7RxHXo/DhRyJkxgKzZhpHj+mIh5AmwAOrcjjHRV+G/8iyzQFJ3Ubqv4CqMZ\niY57PYYDUsehXumPAsksmMUd+KfnJ9AGXjP4CZLQVS9YMQFrgEaQs+IsBJLP5M1s\n9VYnwqS0jxTaGE6WNU5Fhy5rm5BncBp2bfHGVjTgZy6V0c/1xLb/1iJM+QQdamAa\nuaA+GHPlhJRr1bJMgBoX\n=BTKs\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1174863793586b274c808d163f51ae70be099fd2\nparent 1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752330418 +0000\ncommitter GitHub <noreply@github.com> 1752330418 +0000\n\nmikaringさんの提案に基づき、電子カルテの標準化と診療報酬の見直しに関する項目を追加しました",
+          "verified_at": "2025-07-12T14:26:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b",
+      "html_url": "https://github.com/team-mirai/policy/commit/1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8"
+        }
+      ]
+    },
+    {
+      "sha": "ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f",
+      "node_id": "C_kwDOOqTJvNoAKGVmMmE3YmRjMDJjNDQ2MDNkMmY2YWE5ZjJlMzViNDYxMjMxOWMwOWY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T14:36:39Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T14:36:39Z"
+        },
+        "message": "mikaringさんの提案に基づき、電子カルテの標準化と診療報酬改革の項目を追加",
+        "tree": {
+          "sha": "d34e54baa4737acc6135060d37e6abd98c7801c9",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d34e54baa4737acc6135060d37e6abd98c7801c9"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocnL3CRC1aQ7uu5UhlAAAwugQAGmjEzDxKr+sJ5FMtPxtrK1s\nOBMYeXqJVlTh1QrEuxAqmSEuqutulYlvB8zIMTzWexW7YV0k5FjmfI5DaznEGR7Q\n0shDcay3DqXuX1J9gAekaBxNE4p690zuX2xBphSl5brz2MtftxIpxxO+fjS9LR/o\n8dFcgxaq7nOOUSgpBV9N+8t/izWWdj9BXsmsPkYw95PLyJ0yrDdrboUujElpDpzY\nW9Xm9ppwH6DbmRDkxBIz9/r5iWQLZgyDooE5wJBXxcd8EdBrBuvu+9wyaSk6FYyQ\nCO0awDWRv/AaCuIL4DwH9vrs1riFgWR0KVcqCo1t9VZOn08OhDKYwhII2MYArOBI\ny13wOSzBJPOl6EiKJemvHhpgfh2XSsSUE4saTCMUR24DHHIUphPzufw4rI5oFaRN\nm1aNwpg9TlbQVXe+wvkIw4hi1mBClfYSI5XHORVVzvqO7+cr2roUzCdfhE1aCoec\n/p7a0fdQKVxdWMwSzJbBI1gVD5QdVq8UkKJWGC8abEJOm+d0dxMmf/WpuXIgVfm+\nMWu+llBRve5I9oe06CSX2i/X7Q84OU6lkoZyhqKAM00451WkZ/UxG6H8Gt7WrlSQ\n71eQnmwat835SSWFFpk8eKIdGPo0Vuomx+ICMxuajcYUYL1RDDzdmbxPQpGxPnxR\n0Btz4BQ2VtYsMD73E/ck\n=I6wb\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d34e54baa4737acc6135060d37e6abd98c7801c9\nparent 1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752330999 +0000\ncommitter GitHub <noreply@github.com> 1752330999 +0000\n\nmikaringさんの提案に基づき、電子カルテの標準化と診療報酬改革の項目を追加",
+          "verified_at": "2025-07-12T14:36:39Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f",
+      "html_url": "https://github.com/team-mirai/policy/commit/ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b",
+          "html_url": "https://github.com/team-mirai/policy/commit/1fbb7b880ae9f27e77c9d4b86f5190adc39fdb1b"
+        }
+      ]
+    },
+    {
+      "sha": "d66158387f89b73a7a966f000c1e01d9cf1d6a55",
+      "node_id": "C_kwDOOqTJvNoAKGQ2NjE1ODM4N2Y4OWI3M2E3YTk2NmYwMDBjMWUwMWQ5Y2YxZDZhNTU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T14:42:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T14:42:17Z"
+        },
+        "message": "mikaringさんの提案に基づき、「電子カルテの標準化」と「診療報酬改革」の項目を追加",
+        "tree": {
+          "sha": "132190c5bfbfb9fb459399a46a4a0bc7d44b11d5",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/132190c5bfbfb9fb459399a46a4a0bc7d44b11d5"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d66158387f89b73a7a966f000c1e01d9cf1d6a55",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocnRJCRC1aQ7uu5UhlAAAmJMQAGSZvauc1x3sS4Mttqhmk9L7\nWnKzUonq5Frnk3j+qiOkBPur+MD+SDXvEZWJ7sqwPeOznNCCdT2NJQ4Z8ua4wYRK\nwuEqjauh4E4IGcCMVJtPi78fNnre2iyAlYAdbhUF1dhkyvnPjCdgp9phH2jzemj0\nDwHO+kAgpCll9qKRMqD9rFyn7U/2BhK0TOIE99XOu513HabB5kdnYJ2KndeOUvci\nH26PFWsYhZ2luExf1dpaLRiapYj6TQ6bu9o0STbqBkBm+J6L+Gc5Ixy0AdJxyl2V\nlGdnX0yU/JUhtLfqP05uCe5yqLRf6qGQq8zBSwjOACYbpmMHUhzwaCo6dMIdHQDy\nwXjr1VSqOevAXzj1PNcVJ4y1z+DjYl4s3uWz4SbPJe41itIJBJEm3mT+iGFAZtxU\nM1VY2K7KwmaCtPaITGZpyfA/BFXDKagaNS3zXA78BExAa9vIwzJ2od6oZgBHJXDO\nnHT7HSZmEFH4YDUGpFP0dyQQ1kNuEk23QrqFvhyBOjwve7BFKRQ+DMoL1TIKypKo\nNEUVB+MNMXVP4sXgwLaXI96VjN4vtvrfWqKifRPA+qENxM8u4fWqeZYXCaYnNhU/\n3m88Fryarhqrrj2sqCvKPxrL8Y/n9AhkAnZ1jpq0Fzwy/XC3kz8pGRhWIIHJXe+3\nwVnAdt8zNNNvZhRyPhES\n=ZfxB\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 132190c5bfbfb9fb459399a46a4a0bc7d44b11d5\nparent ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752331337 +0000\ncommitter GitHub <noreply@github.com> 1752331337 +0000\n\nmikaringさんの提案に基づき、「電子カルテの標準化」と「診療報酬改革」の項目を追加",
+          "verified_at": "2025-07-12T14:42:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d66158387f89b73a7a966f000c1e01d9cf1d6a55",
+      "html_url": "https://github.com/team-mirai/policy/commit/d66158387f89b73a7a966f000c1e01d9cf1d6a55",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d66158387f89b73a7a966f000c1e01d9cf1d6a55/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f",
+          "html_url": "https://github.com/team-mirai/policy/commit/ef2a7bdc02c44603d2f6aa9f2e35b4612319c09f"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T15:12:36.758124"
+}
