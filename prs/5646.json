@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 5646,
+    "title": "AI導入支援の強化：専門家による伴走支援策の追加と課題分析の深化",
+    "state": "open",
+    "created_at": "2025-07-12T03:20:05Z",
+    "updated_at": "2025-07-12T03:20:05Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5646",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "a738ac9d2693b03a017b6997748e89a36257847e",
+      "filename": "14_ステップ１産業.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "changes": 10,
+      "blob_url": "https://github.com/team-mirai/policy/blob/0534e24f4e790fbd9c13d1a3828d534eae6b48ea/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/0534e24f4e790fbd9c13d1a3828d534eae6b48ea/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md?ref=0534e24f4e790fbd9c13d1a3828d534eae6b48ea",
+      "patch": "@@ -19,12 +19,12 @@\n ### 現状認識・課題分析\n \n * 日本企業は、生成 AI の登場により“第 3 の IT 革命”とも呼べる転換点に立たされています。しかし、2024年の帝国データバンクの調査によると生成 AI を実際に業務へ取り込んでいる企業はわずかであり、導入した企業の大半が「効果を実感できない」と答えるなど、熱気と成果の間には大きな隔たりがあるのが現状です。  \n-  * また一方で、大企業を中心に多くの経営者がAIを最優先課題と捉えながら、多くのプロジェクトが PoC（概念実証）の段階で止まり、「効果が見えない」「組織が変われない」という“PoC の墓場”に陥っているという現状もあります。  \n+  * また一方で、大企業を中心に多くの経営者がAIを最優先課題と捉えながら、多くのプロジェクトが PoC（概念実証）の段階で止まり、「効果が見えない」「組織が変われない」という“PoC の墓場”に陥っているという現状もあります。これらの問題の根底には、AI導入の目的やメリットが明確に定義されていなかったり、既存の社内規則や業務プロセスが足かせとなっていたりするケースが少なくありません。\n     * こうした停滞の背後には深刻な人材不足があり、経済産業省の推計では、2030 年にデータ／AI 人材が約 79 万人不足する見込みとなっています。また、人材の質の面ではDX を牽引できる「AI プロダクトマネジャー」や「データエンジニア」が中小企業を中心にほとんど存在していません。  \n     * 加えて、多くの企業では、AI活用における情報セキュリティへの懸念やAIの能力・限界に関する正しい理解が不足していることにより、AIの活用・導入をためらうケースも見られます。  \n     * また、AI需要の増加に合わせた計算資源の確保も課題であり、データセンターの容量や電力インフラの確保が必要です。さらに企業側ではレガシーシステムが足かせとなりクラウド移行や統制が遅れ、AI 活用の前提条件が十分に整備されていないという現状があります。\n \n-  ### 政策概要\n+### 政策概要\n \n     * AI導入に対する財政・税制上の支援  \n       * 特に中小企業を中心とした企業によるAI関連投資(設備・ソフト・研修)について、特別償却または税額控除を導入することで、企業の負担感を産業全体のAIシフトを促します  \n@@ -33,6 +33,8 @@\n       * AI・データ人材の不足はAIシフトの大きなボトルネックとなっています。基金創設も念頭に、AI関連のリスキリングへの支援を実施。年間100万人規模の支援を目指します。  \n       * また、AI・データ人材以外にも、重点分野に関するリスキリング支援の強化を行います。  \n       * 特に中小企業や地方の企業の社員を中心的に支援することで、日本の産業全体の底上げを図ります。  \n+    * AI導入プロセスへの伴走支援\n+      * AI導入の目的設定、メリットの可視化、開発手法の選定など、企業がつまずきがちな初期段階を支援するため、経験豊富なエンジニアや専門家による相談・助言体制を整備します。\n     * AI導入時の情報管理体制構築支援  \n       * AI活用に伴って企業が直面するセキュリティ上のリスクに対応するため、情報管理ガイドラインの策定するとともに、セキュリティ対策の実施に対する支援を提供します。  \n     * その他：インフラ、基盤整備など(ステップ３に記載)\n@@ -45,10 +47,10 @@\n   * 海外展開支援でも同様の課題があります。JETRO は J-Bridge などのデジタルツールを導入していますが、実際の手続きはメールや PDF 書類が中心で、AI 翻訳や自動書類作成といった最新技術の活用は限定的です。特に中小企業にとって、こうした手続きは大きな負担となっています。  \n     * また、支援の形態について、多くの場合では補助金の申請・受領でプロセスが完結しており、政府の支援が適切な成果に結びついているか、本来あるべき支援スケールだったのかという点については課題が残ります。\n \n-  ### 政策概要\n+### 政策概要\n \n     * 支援制度のデジタルワンストップ化  \n       * 政府・自治体・JETRO の支援メニューを API で統合し、AI が企業の財務データや事業計画を解析して最適な制度を提案します。  \n       * e-TAX やインボイスデータと連携し、申請書類の 90％以上を自動入力できる仕組みを整備します。  \n     * 海外展開支援のフルデジタル化  \n-      * J-Bridge を拡張し、AI マッチングによる商談先リスト作成、自動翻訳、国別規制チェックを一つの画面で完結させるなど、利便性の工場を図ることで、中小企業も含めた幅広い対象の海外展開を支援します。\n+      * J-Bridge を拡張し、AI マッチングによる商談先リスト作成、自動翻訳、国別規制チェックを一つの画面で完結させるなど、利便性の工場を図ることで、中小企業も含めた幅広い対象の海外展開を支援します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "0534e24f4e790fbd9c13d1a3828d534eae6b48ea",
+      "node_id": "C_kwDOOqTJvNoAKDA1MzRlMjRmNGU3OTBmYmQ5YzEzZDFhMzgyOGQ1MzRlYWU2YjQ4ZWE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T03:01:35Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T03:01:35Z"
+        },
+        "message": "(hykk) PoCの墓場の原因の明確化と伴走支援策の追加",
+        "tree": {
+          "sha": "bac36d40ae4a8669908a4d60289db8b72d812c48",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bac36d40ae4a8669908a4d60289db8b72d812c48"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0534e24f4e790fbd9c13d1a3828d534eae6b48ea",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocdAPCRC1aQ7uu5UhlAAA6zEQAHvBmjtjaDEGeFRzMo6WBDCR\nNSI2iunuA8pZIF2d9We1g+4tRF56tFWm6hJ4KZeqSejhya2J/X+vlrfSBgU/habm\niDeXWnT6WX+o2s5gOU3X2Wm3FaUwDBIDXpnXtgyvP+Canod1lHfqRnEeUVrrPkO3\nWFHiINm4Mb3aEGTaVIbEQwKnLJNek/vSlJVLxup/wwaIx6i+ebWQWFYkGVE/rafC\ngKTgwmf1xGFANxUfPyBcgGEP8rNaibdr/Z0iJHdG5r1un0q5HViZGt3Czu6wY4F7\nYONHCqyYA86bMrQK66ewljmoaX4KY/TIJ7Tzo59w+OPBdIa5P8UZfL4IGziwEWWP\nYgdQAz7h//cjauwLxg08K4aZw8nGQMJgAJaqutWE9xT27oOM5t6P8dI2F7ho93hW\ncC9hxftNFzigK58Pem2sR2tLVCRkKyjGosjPxfcyR/gPG9m9vwfk4eqsL/c8GUkP\nv2x0QLl68mPYKILS+ZWEgrSqPEeVTN9uncZL40iRKlRMao3LvAxkWHeLhd5fni7X\nLzv7be/kvF0oVorjzjVQzHl4clWFAx2+isiOB7ty8Co+Lt6IXYCczT5uUSOPG0px\nahScZeW+o2y+axhHyY+ksG51H9FalcvwB6UFGVAaQ5jDXB5lf4FLCfOkSNVGIv5G\nKeZS2tSOiBS6gmmbuQWV\n=NnKM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bac36d40ae4a8669908a4d60289db8b72d812c48\nparent daaaeac18abd149ff57c6938e055ed813b00cd2c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752289295 +0000\ncommitter GitHub <noreply@github.com> 1752289295 +0000\n\n(hykk) PoCの墓場の原因の明確化と伴走支援策の追加",
+          "verified_at": "2025-07-12T03:01:35Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/0534e24f4e790fbd9c13d1a3828d534eae6b48ea",
+      "html_url": "https://github.com/team-mirai/policy/commit/0534e24f4e790fbd9c13d1a3828d534eae6b48ea",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0534e24f4e790fbd9c13d1a3828d534eae6b48ea/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/daaaeac18abd149ff57c6938e055ed813b00cd2c",
+          "html_url": "https://github.com/team-mirai/policy/commit/daaaeac18abd149ff57c6938e055ed813b00cd2c"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T03:20:59.572747"
+}
