@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 5710,
+    "title": "子育て給付金、マイナンバー連携で子ども名義口座へ直接給付",
+    "state": "open",
+    "created_at": "2025-07-12T07:07:23Z",
+    "updated_at": "2025-07-12T07:07:24Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5710",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "fc6c1c3e778df5c46c66f817210e95467a2f9685",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/08256f5314aea514c4747f7994db7df205afa3f3/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/08256f5314aea514c4747f7994db7df205afa3f3/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=08256f5314aea514c4747f7994db7df205afa3f3",
+      "patch": "@@ -1,4 +1,5 @@\n-\\\n+\n+\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -25,7 +26,7 @@\n   * 希望者には従来の紙の母子健康手帳も引き続き提供し、選択できるようにします。\n * これにより、スマートフォン等からいつでもアクセス可能となり、保護者はもちろん、その配偶者や他の家族も、本人の同意のもとで必要な情報を共有できるよう設定できます。また、つわりの時期などに無理して役所の窓口等へ行く必要がなくなります。  \n * 妊婦健診の受診券・補助券も、対象者に自動的にデジタル付与する仕組みを構築し自治体に提供することで、手続きの手間を省きます。医師の診断情報を基に、必要な人に必要な回数の補助がいきわたる仕組みを構築します。\n-  *  なお、現在一部自治体のみにとどまっている「妊婦健診は原則全額公費負担」の拡大を目指し、必要財源の確保や国から自治体への交付の最適化を検討します。また、地域差や個々の状況によって大きく異なる出産費用についても実態把握を進め、必要に応じて出産育児一時金の金額や支給方法の見直しを含めた経済的支援策の充実を検討します。\n+  *  なお、現在一部自治体のみにとどまっている「妊婦健犬は原則全額公費負担」の拡大を目指し、必要財源の確保や国から自治体への交付の最適化を検討します。また、地域差や個々の状況によって大きく異なる出産費用についても実態把握を進め、必要に応じて出産育ति一時金の金額や支給方法の見直しを含めた経済的支援策の充実を検討します。さらに、児童手当やその他の子育て関連給付金について、世帯主の口座に一律で振り込まれる現状を抜本的に見直します。出生届と同時にマイナンバーカードと連携した子ども本人名義の公金受取口座が開設され、各種給付金が自動的にその口座へ振り込まれる仕組みを構築します。これにより、家庭の状況にかかわらず、支援が確実に子どものために確保・活用されることを目指します。\n * 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n * 国が推進する医療DXとも連携し、マイナンバーカードを活用したお薬手帳とも連携します。これにより、より正確で迅速な情報共有を実現し、保護者の負担減・子どもの受ける医療の質向上を目指します。\n * また、医療機関での受診履歴や検査結果などの情報を保護者の同意のもとで行政と共有することにより、発達障害が認められる場合など、特定の条件を満たす家庭に対して、特別児童扶養手当や児童福祉手当などの経済的支援が自動的に届くようなプッシュ型の支援体制の構築を目指します。子育てや、何らかの困難を抱える保護者にとって、複雑で多岐にわたる申請手続きは、時に必要な支援策の存在に気づけない、あるいは申請を諦めてしまうといった事態を生み出すほどの大きな障壁となっています。こうした申請主義の課題を克服し、必要な支援が迅速かつ確実に届くようにします。\n@@ -63,3 +64,5 @@\n * これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。  \n * 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n * 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "07f51e75854c22a279c66a6f2523ff19379659df",
+      "node_id": "C_kwDOOqTJvNoAKDA3ZjUxZTc1ODU0YzIyYTI3OWM2NmE2ZjI1MjNmZjE5Mzc5NjU5ZGY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T06:55:08Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T06:55:08Z"
+        },
+        "message": "匿名ユーザーからの提案: 児童手当の受取口座の柔軟化を追記",
+        "tree": {
+          "sha": "aa5f557c7aa352f644587ffb81b3dd8644c35482",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/aa5f557c7aa352f644587ffb81b3dd8644c35482"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/07f51e75854c22a279c66a6f2523ff19379659df",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocgbMCRC1aQ7uu5UhlAAAG8gQAI85CV+Td9nR5djRfovIeetF\n+R9x1bpB7+Sjvr56l1f36MA/j4N7EQo2jPpuROR38PeokwOEAEp6eICQL/ALRgeO\nTnUT7F+ich4OGei4gS3gV6ndhfmmfKtHUXtMHBpZ4lkRuAhnXkG1EF1jH0l2ZXT/\nY8UdZzl9c7OJU7G+cpRyZX5xtH6rGJ1Fjd4IK7B2uHRghP7a0QkPNhAVu+Svu5wz\ndcJ+WPCw3qmeWityC5vaWJqTlGGMuvkWDEZ+SM2AUUogYPd+qS6Gcd7nFtwfSAqm\nXHUrVf15JlhAU02xI/g46rh21D9QGvJGRlVH3ylQqoowb08UMDAdB4GJoaUWhC1k\nXRH33fOvxhZdas5X5QIuY7u1mRdyC+GwvDy8ElrSEyALB4tkeG1geqvg5sSSrnuQ\nyErbrTKFZVy871t5Lp2Tz+Uyjz3qETezOLxEC0Ny+GxOn/ZSftjh5vMJO8Pfg91A\neyDDras/pLVWjWtyOGhFjeZbQ/kY+Gx7hM2BpjQ4ndiHwCLcvmG6Bzd33h9wRB3+\nkyUwg8mo7+ouIPLTb7WhUZyPNbJN0XpNhr9i4B3NlGIHvivMYHjYsTImrInAcnva\n8YkeQN5pb/rmwOxAbFbbyu1P1hT6WU6RouOIheRElAGhIE/XOJnnwVGXwvmpnWc2\nzCrE0Cl7tP/YU7FbsEoN\n=1Zg0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree aa5f557c7aa352f644587ffb81b3dd8644c35482\nparent 1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752303308 +0000\ncommitter GitHub <noreply@github.com> 1752303308 +0000\n\n匿名ユーザーからの提案: 児童手当の受取口座の柔軟化を追記",
+          "verified_at": "2025-07-12T06:55:09Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/07f51e75854c22a279c66a6f2523ff19379659df",
+      "html_url": "https://github.com/team-mirai/policy/commit/07f51e75854c22a279c66a6f2523ff19379659df",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/07f51e75854c22a279c66a6f2523ff19379659df/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8"
+        }
+      ]
+    },
+    {
+      "sha": "fc40a1174373c6b54b10bb406e536c68d0bf1c1e",
+      "node_id": "C_kwDOOqTJvNoAKGZjNDBhMTE3NDM3M2M2YjU0YjEwYmI0MDZlNTM2YzY4ZDBiZjFjMWU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T06:59:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T06:59:21Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、子育て支援金の受取口座に関する記述を修正",
+        "tree": {
+          "sha": "5b296ff6b73186692212a21e503b348e65a96b4c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5b296ff6b73186692212a21e503b348e65a96b4c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/fc40a1174373c6b54b10bb406e536c68d0bf1c1e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocgfJCRC1aQ7uu5UhlAAA/90QAJdF+5um/nfg1h76QOzKTfzl\n1GaJDKKRpyF1rkM403/8aE2/G/13muaW6NcSyCyQaXxfGqdbm+XFlXQNDRGlYB7c\n8GYMSQZ8ppNTIF10FN6E2NDh2p7lH6MdGJmFdYzI6z9zjVmG28UgQoDIBbEgqzsB\ntpixfRHveD9yZuEiVuT9Fo3S2xnQYFNdA4flIhuP1C4kQADhN5GSExwxBuirGYA7\neAoNCTgPw8qDn6+XLtH5tmZTsQRLqyqT21nVKwrfvw6GcLEFTfGxcFb5W204FXWL\n9h4Rd3GpLRauO6uBvCR8ClyUNSAbGYYQjfHsuz8f7OCKNA5FVN79wDWWDE2+8x20\nJfW8WpL7OhS1XJTI4SrC9lDjY4rCsNSfX+Qt/hQ/2HoGUYOrP6qKiY4pgdh9xDUI\nE1F2MXSLR+rfIuXBtBpnfhNn0zapBfl3sumUYnKc3Iv4XGtVsMEVpKWXqfDMQqTA\nCE00yqeRmrSZLxC4APsr6pn1EiCbWZXxzR2swpS1fxmED+MPRSDzPogOh7Zuz4Kq\n0cpJhFZ+dM1G1qCtVuRbvFg+Z2mUEuwOxFOntRilTMuDapmktEwQ8rS0afwHXfql\n/9jQrf2gBNOdifmgEbFTjkTqCbwS/QD400reaDB2LxrbpgGi3nhj471AT2nHQFS1\nDIrGQx9PdZPnce1n8J5P\n=6SM1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5b296ff6b73186692212a21e503b348e65a96b4c\nparent 07f51e75854c22a279c66a6f2523ff19379659df\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752303561 +0000\ncommitter GitHub <noreply@github.com> 1752303561 +0000\n\n匿名ユーザーからの提案に基づき、子育て支援金の受取口座に関する記述を修正",
+          "verified_at": "2025-07-12T06:59:21Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/fc40a1174373c6b54b10bb406e536c68d0bf1c1e",
+      "html_url": "https://github.com/team-mirai/policy/commit/fc40a1174373c6b54b10bb406e536c68d0bf1c1e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/fc40a1174373c6b54b10bb406e536c68d0bf1c1e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "07f51e75854c22a279c66a6f2523ff19379659df",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/07f51e75854c22a279c66a6f2523ff19379659df",
+          "html_url": "https://github.com/team-mirai/policy/commit/07f51e75854c22a279c66a6f2523ff19379659df"
+        }
+      ]
+    },
+    {
+      "sha": "08256f5314aea514c4747f7994db7df205afa3f3",
+      "node_id": "C_kwDOOqTJvNoAKDA4MjU2ZjUzMTRhZWE1MTRjNDc0N2Y3OTk0ZGI3ZGYyMDVhZmEzZjM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T07:05:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T07:05:54Z"
+        },
+        "message": "匿名ユーザーさんの提案に基づき、児童手当等の給付金を子ども本人名義の口座で受け取れる仕組みを追記",
+        "tree": {
+          "sha": "6db1a390e3e4c86dc053e90b5077e8a4ea4a2ab5",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6db1a390e3e4c86dc053e90b5077e8a4ea4a2ab5"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/08256f5314aea514c4747f7994db7df205afa3f3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocglSCRC1aQ7uu5UhlAAAtGgQAJmNmI8qrWkxkx06YSLMe4rj\nR1E3kgt1KWoIW/N93m2deMmhFpGrkjjH9cS4LZ41XYgOAaevCbndTI4NUxM8mLNT\n2BZWIOtkq13Z09xfk0U5bL6avAw/B6F4nxCp6gKi5mReDCrb3MmgsbXLuPmaS9aN\nBB0CYT6qYFechtdUfxTSe5BVqtuQa9j2P4D6VIEejg26RcIS8bEEP17aXKUdeVSF\nV1xO24Ydx2XIwxTl0DnPXT7hHj5enmKeMlDn1mWAgxApN+Azp1de4bSsk11TUevd\nQz1J9iKfl1tjsGoz+9ER/wqjyJX3DXN5g6Cz88l/2Y2WsVs7jvUj6I+Cu3lINu1P\nmd8kOj9vwl7JrJX+9t9+omIRdQdFhys/VWmUgA6b4LM6oSHiBB6cRDrhkVxWrgrf\nRLs1k/UYtI36NcvO6RijDu18cOdNh2OrGKTAbbKDocyW8iZecRUJRjJj+A/7aucO\nZDD00wTmAueJUREFU5uK/TFREvxsYU/BYTq+0gqGopGV7RhXo0Lcg29XAW2cwLzb\n58Yd+INu0SaW8xfYHdyyZY6Uu3kZXWWfG6C7j+EIXlHjyyCVMsAfW4IKde4m1Mh7\ntlvOSUfMBeVYH6N8Adznct13mRPbM3bcdgupN6HUmJJhPLuyyc2Ok6lbL7w05gIV\nS1WdwKa92biXsu27/XE7\n=3wO3\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6db1a390e3e4c86dc053e90b5077e8a4ea4a2ab5\nparent fc40a1174373c6b54b10bb406e536c68d0bf1c1e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752303954 +0000\ncommitter GitHub <noreply@github.com> 1752303954 +0000\n\n匿名ユーザーさんの提案に基づき、児童手当等の給付金を子ども本人名義の口座で受け取れる仕組みを追記",
+          "verified_at": "2025-07-12T07:05:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/08256f5314aea514c4747f7994db7df205afa3f3",
+      "html_url": "https://github.com/team-mirai/policy/commit/08256f5314aea514c4747f7994db7df205afa3f3",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/08256f5314aea514c4747f7994db7df205afa3f3/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "fc40a1174373c6b54b10bb406e536c68d0bf1c1e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/fc40a1174373c6b54b10bb406e536c68d0bf1c1e",
+          "html_url": "https://github.com/team-mirai/policy/commit/fc40a1174373c6b54b10bb406e536c68d0bf1c1e"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T07:12:47.701600"
+}

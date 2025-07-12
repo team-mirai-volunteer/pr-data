@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 5708,
+    "title": "医療データ連携におけるオプトアウト方式の導入とプライバシー保護の強化",
+    "state": "open",
+    "created_at": "2025-07-12T07:05:00Z",
+    "updated_at": "2025-07-12T07:05:00Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/5708",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "95077571d5742fab2752c734d7d0ac83bff67d6d",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 1,
+      "changes": 4,
+      "blob_url": "https://github.com/team-mirai/policy/blob/d04fa4c268f8821eaf14b777046aa5a238012273/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/d04fa4c268f8821eaf14b777046aa5a238012273/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=d04fa4c268f8821eaf14b777046aa5a238012273",
+      "patch": "@@ -56,6 +56,7 @@\n   - 都市部を離れると人口減少などの影響も受け、窓口対応をするスタッフを潤沢に受け入れる経済的な余裕がなかったり、人手不足があったりと、人の手でオペレーションを回すことも難しい地域もあります  \n   - また、医療機関の収益構造は診療報酬制度によって定められており、その中でキャッシュレス決済に伴う決済手数料も医療機関の経営を圧迫する要因となります  \n   - こうした医療DXの推進、診療の効率化によって足元での医療機関の経営インパクトを推測しにくい中、医療機関、特に規模の小さなクリニックではDXのためのインフラ整備コストは大きな負担となります  \n+- 電子カルテ情報の標準化を推進し、安全なデータ連携を促進します。医療の質の向上を目的とし、データ連携は原則としてオプトアウト方式としますが、患者自身が共有範囲をいつでも確認・変更できる仕組みを整備します。また、特にプライバシーに関わる機微な医療情報については、個別の同意（オプトイン）を必須とします。\n - 受付、決済やオンライン診療の領域で医療DXが進み、安全に効率的に電子カルテと外部システムが接続できる環境が整うことで、新たな医療機関向けサービスの開発や導入が進展することも期待されます\n \n ## 3）画像診断AIで見逃しリスクと医師不足の解消を同時に\n@@ -75,7 +76,7 @@\n - システム導入費の補助による画像解析システムの導入推進を行います\n   - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n   - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n-  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n+  - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n   - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n - 診断AIへの加算を制定し、継続利用を促すとともにAI画像解析の成果について評価を行います\n   - CT・MRI読影にAI画像解析を併用した場合に一定の診療報酬の加算を暫定的に設けます\n@@ -86,3 +87,4 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "dfdbb64826a2a0cbd51c4c19b783603edc303dd4",
+      "node_id": "C_kwDOOqTJvNoAKGRmZGJiNjQ4MjZhMmEwY2JkNTFjNGMxOWI3ODM2MDNlZGMzMDNkZDQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T06:53:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T06:53:03Z"
+        },
+        "message": "佐藤壮さんの提案に基づき、電子カルテ標準化の項目を追加",
+        "tree": {
+          "sha": "c47ef545f352986b21f4bc805d1984d205a68c8c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c47ef545f352986b21f4bc805d1984d205a68c8c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/dfdbb64826a2a0cbd51c4c19b783603edc303dd4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocgZPCRC1aQ7uu5UhlAAAPaoQAEgqxI23cQAM9ZF+TUD3xttd\n1lDwN094TgtlKtXJ3NpTfEkxthmmW5Jp0cEZKPnbM68eNej2UhhWLQlFxzLaG8Tz\nWm4MoRhNEq11Gnrdbmhm8tKtJ48tAVtwBnHT7Uc/QQwW8XJDzzMrioy12g2ldQEc\nqh6KqDKPiFbMTctKWnYFyLMbZo0YUQavW0yvuv0mMtSuWwtVcna3vGV+PBUgoHCe\n5gs0x2FNa4bdJVAM6TSJNzuycNX6e5MsgeN8QwfZbx4XTx2SyhQ+BrV1hYYN2mvL\noTf0oWxZePYYLdPprzVr8LxH8NpZkGUtPHf6esn0+NxgNthEQOh/NngmJT9LWxrl\nZv5D4YilRCB/oO+t9mG+J2RVHeEPJBiwGOngr9mDcPY8L7qACaT2VifJDXnNo/l/\nGsQD+pi2G4mdLbYvYKZ9CngnbFSAlE2tpTZY26P6joZhrwG1jivh1tCcUGq5a/gw\ntWpIokwJ7gCk4RPsGpg3/fJD8gzjq1OeOwpHDYiZK0mCLWzeq2S9R2Gy0bmeGk+N\no8YcyoOG0WvoC3lKC2OswpU/kTthiIwoe/RR1iHgxbuj6TAHY3USS11rXSCeuRqs\nLUXFU+xjE2trTq6VUNHVkPPgKBAOSfgTvO7ILRRQJEBu1mo5AvU6fJAUqMxh9r6g\nP4V5/i7iBnRMnULeZG1U\n=td+9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c47ef545f352986b21f4bc805d1984d205a68c8c\nparent 1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752303183 +0000\ncommitter GitHub <noreply@github.com> 1752303183 +0000\n\n佐藤壮さんの提案に基づき、電子カルテ標準化の項目を追加",
+          "verified_at": "2025-07-12T06:53:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/dfdbb64826a2a0cbd51c4c19b783603edc303dd4",
+      "html_url": "https://github.com/team-mirai/policy/commit/dfdbb64826a2a0cbd51c4c19b783603edc303dd4",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/dfdbb64826a2a0cbd51c4c19b783603edc303dd4/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e2a87f1619c25f70093a33c6b4e04b19b1f8ad8"
+        }
+      ]
+    },
+    {
+      "sha": "d04fa4c268f8821eaf14b777046aa5a238012273",
+      "node_id": "C_kwDOOqTJvNoAKGQwNGZhNGMyNjhmODgyMWVhZjE0Yjc3NzA0NmFhNWEyMzgwMTIyNzM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-12T07:01:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-12T07:01:24Z"
+        },
+        "message": "佐藤壮さんの提案に基づき、電子カルテのデータ連携とプライバシー保護に関する記述を更新",
+        "tree": {
+          "sha": "c9278f8b9e4ffc0b0d7fd23d997dd775b44e9688",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c9278f8b9e4ffc0b0d7fd23d997dd775b44e9688"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d04fa4c268f8821eaf14b777046aa5a238012273",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJocghECRC1aQ7uu5UhlAAAvAAQABqry89USQVsHx1vYytnMzPD\niBGFenxqI/WPP6LZHAUfCZ1OFM6eDZFxb/UGCyy7pVJ8EyoFcyaYT9gBCg3yrDww\nqjmBoM+erigWN1HdG6MniGr5zBlEpVIk6nMn+ixv9BkuJYSKyMu9JqVzkzeY1NrA\nCcnWWpsv6IzOL3BMgjVnGvNY3jfEgSDdI0rRiWThsNUuN+jUefQlmYelKIfeVv0W\neavgKFncddto3ah6gOo1oY3RiB8CoiTVJlCYgCH4mf8vJuRymHGECYJu1hc6bDBv\nEC5lsjQ6vD+TLCEjxDgwrPsTHYLRWfsYQA7JUwWVubJm96r8F+P4z9WBEQjZlYbj\nnH2rVNsCugJTybJjJyvsYDMQO+fj+KwHSjlcKKvOyIABQiUUjIIETXDxdP0IaAFd\nxW6PdwwVM/NIdoBAgk21oBodIqK9D1I4+HKfFpepZRDq01kJyoGIwce3uNlTGlBa\n3ZBpNZcGFHivYHpVOAXRBP3LN3gv9fAeRGjOdbG8h1yeOApoWW+uGt6noc6sEJaq\nvPp8tNVirOOY00z8MvkpkS08wDXdA35P4jKLR8miSOgWV2PhEDSl0NmXatp/Zwum\new+JIJf8d3iKNlijT63McarIUyeFJNjtWPUfK6BGaEP9QLyWdXEJBYEIqIscJOqr\nAdkvDJxYKRKavi0APZcU\n=Jtny\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c9278f8b9e4ffc0b0d7fd23d997dd775b44e9688\nparent dfdbb64826a2a0cbd51c4c19b783603edc303dd4\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752303684 +0000\ncommitter GitHub <noreply@github.com> 1752303684 +0000\n\n佐藤壮さんの提案に基づき、電子カルテのデータ連携とプライバシー保護に関する記述を更新",
+          "verified_at": "2025-07-12T07:01:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d04fa4c268f8821eaf14b777046aa5a238012273",
+      "html_url": "https://github.com/team-mirai/policy/commit/d04fa4c268f8821eaf14b777046aa5a238012273",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d04fa4c268f8821eaf14b777046aa5a238012273/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dfdbb64826a2a0cbd51c4c19b783603edc303dd4",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/dfdbb64826a2a0cbd51c4c19b783603edc303dd4",
+          "html_url": "https://github.com/team-mirai/policy/commit/dfdbb64826a2a0cbd51c4c19b783603edc303dd4"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-12T07:12:50.445814"
+}
