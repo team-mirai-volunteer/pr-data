@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 6219,
+    "title": "国会議事堂のCO2濃度計測を100日プランに追加",
+    "state": "open",
+    "created_at": "2025-07-13T15:10:18Z",
+    "updated_at": "2025-07-13T15:10:19Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6219",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "3abb1ca3c0fe76c5af0a7e88bb37ad47a7ff5fdd",
+      "filename": "40_国政政党成立後100日プラン.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 5,
+      "changes": 12,
+      "blob_url": "https://github.com/team-mirai/policy/blob/8f21ae3a33e231434dee640f4c6e9f294156c115/40_%E5%9B%BD%E6%94%BF%E6%94%BF%E5%85%9A%E6%88%90%E7%AB%8B%E5%BE%8C100%E6%97%A5%E3%83%97%E3%83%A9%E3%83%B3.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/8f21ae3a33e231434dee640f4c6e9f294156c115/40_%E5%9B%BD%E6%94%BF%E6%94%BF%E5%85%9A%E6%88%90%E7%AB%8B%E5%BE%8C100%E6%97%A5%E3%83%97%E3%83%A9%E3%83%B3.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/40_%E5%9B%BD%E6%94%BF%E6%94%BF%E5%85%9A%E6%88%90%E7%AB%8B%E5%BE%8C100%E6%97%A5%E3%83%97%E3%83%A9%E3%83%B3.md?ref=8f21ae3a33e231434dee640f4c6e9f294156c115",
+      "patch": "@@ -3,30 +3,32 @@\n \n # 国政政党成立後１００日プラン\n \n-* **1\\) 本格始動へ向けた組織づくり**  \n+* **1) 本格始動へ向けた組織づくり**  \n   * 10名規模の技術者集団（永田町エンジニアチーム）を組織する  \n     * 通常、選挙活動に費やされることの多い政党交付金を永田町のエンジニアチームを組織するために活用  \n     * 近年のソフトウェア開発環境では、AIの発展によりスモールチームであってもかなりの馬力が出るようになっている  \n       * CursorやDevinも10名規模のチームで運営されている  \n     * 加えて、100名規模のオープンソース・コミュニティを組織する  \n       * チームみらいが作るのはOSSであるため、通常のスタートアップと違って、多くの人たちの協力を更に仰ぐことができる  \n   * 3名規模の実務家集団（政策立案・情報発信チーム）を組織する  \n-* **2\\) ユーティリティ政党として、他党や自治体と連携を推進**  \n+* **2) ユーティリティ政党として、他党や自治体と連携を推進**  \n   * （政策面連携）AI政策についてオープンかつ国民的な検討を進めるためのオープンな超党派議連を立ち上げる  \n     * 本マニフェストの政策を含め、AIに関して他党と協調しながら洗練してゆく想定  \n       * デジタル民主主義2030で開発された『いどばたシステム』や『広聴AI』、そして永田町におけるオフラインの議論を中継するYouTubeチャンネルを運用しながら、オープンな政策立案プロセスを実現する  \n   * （技術面連携）他党や自治体の技術導入を中立的に支援  \n-* **3\\) スモールチームでも出来る”社会実装”を爆速で遂行**  \n+* **3) スモールチームでも出来る”社会実装”を爆速で遂行**  \n   * 下記は一案。限られたリソースをどこに投下するべきかは検討の上意思決定する  \n-    * 各省庁への情報開示請求の自動化によるパブリックコメントデータの大規模収集と可視化  \n+    * 各省庁への情報開示請求の自動化によるパブリックコメントデータの大規模収集と可vis化  \n     * 認証機構付きの意見募集システムを実装し、政党や自治体での活用を進める  \n       * マイナンバーカード認証付きの意見募集プラットフォームがあればより多数派工作に対して頑健になる  \n       * 最終的にはe-Govでも同様の仕組みの採用を目指す  \n     * 政策立案能力向上のための予測市場（”Futarchy”）を実装すべく、サンドボックス規制緩和制度を政党として申請  \n     * 個人の情報に基づいて利用可能な行政サービスを通知・申請支援する、オープンソースの自治体スーパーアプリを開発  \n     * 発注前のシステムを高速に参照実装を行い、プロトタイプを公開してゆく  \n     * 常設のいどばたシステムを活用した国会審議のオープン化：法案トラッカーを開発し、永田町の見える化を実施  \n+    * 国会議事堂内のCO2濃度を計測・公開し、換気改善を促す  \n     * パブリックコメント多数派攻撃手法の研究とその防衛策の開発  \n     * ネット上のファクトチェックや影響力工作に関する検知と対応のための技術開発  \n-* **4\\) 世界の技術者たちと独自の議員外交を開始**  \n+* **4) 世界の技術者たちと独自の議員外交を開始**  \n   * 各国のスタートアップ、技術者、研究者とのパイプを独自開拓\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "9e0479ea225c529f5f5a19dcb7a6526a3c191a2d",
+      "node_id": "C_kwDOOqTJvNoAKDllMDQ3OWVhMjI1YzUyOWY1ZjVhMTlkY2I3YTY1MjZhM2MxOTFhMmQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T15:05:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T15:05:58Z"
+        },
+        "message": "くちばしさんの提案：国会議事堂のCO2濃度計測・公開を追加",
+        "tree": {
+          "sha": "4b022bd54153af9f98dfbe7922010b7f0f47cbf8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/4b022bd54153af9f98dfbe7922010b7f0f47cbf8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9e0479ea225c529f5f5a19dcb7a6526a3c191a2d",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc8tWCRC1aQ7uu5UhlAAAq+kQAKi1UnKeTpAjqpnM9W+6os2C\nUpzDJUag7PkIo3iR+bYFxZezpiTeI+wbY+OuE7qTXxWrnrov9f0qhrcZKRM89RgY\nHstCTJIAexbzAignvve14dt6gVEkyu8EUx0BbKSDmneDHrNg1k9Nfa04jb4Af3yp\nESWSByoMNEeuzJGWLkEHoff0tlpZwl7d4XE0PqD1b+/tHyNL3uMK3Ga/1cNITVbP\nAoqp23ocKugC5USvYoTLXuUww5SYUB2Kvdi0EOAh1LJu5M5Qei/wdABy5IejMcJF\nKy6QXgcIQT+xMttg9OqX5skRBIMcc/YpdaD43MD40Bw0IRDwKG32lyHbUjVw8Dyd\ncv3ocI7IkyyE1EoTcz060JLTUEfZYyEZCiLzs11SMVnmRl0nQXUtDYMtYBoiQsc1\nyBmk30+74M3pgAHCsASMfzpl5ueOMeD7xwbEJBUiJM+0aZzdTRsLsBILr7V1y/JA\nE/O8YrwZFgLQ+GSz45rqmR6yDySOs4XMg/mQ32/kCcLK1izJm0d5oZtKivKX8CAn\ng0LjhgzqYL1n3BD4wLtAEh9FDnWw8WSi4TDphvHA9fyWyrf5Z8vhrZH5GJ/CRH/a\nl01MHRybzaQVWll0UuFU4Zr74HRtweEECYCOHjqwYb9dNkuM0Z2PZfRs7vaIsA6T\nx/SwHJ1tohqT8ZeZ83hA\n=ruJ2\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 4b022bd54153af9f98dfbe7922010b7f0f47cbf8\nparent dd0dee376cb92c50a2339f570bc6b042d16a34f7\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752419158 +0000\ncommitter GitHub <noreply@github.com> 1752419158 +0000\n\nくちばしさんの提案：国会議事堂のCO2濃度計測・公開を追加",
+          "verified_at": "2025-07-13T15:05:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9e0479ea225c529f5f5a19dcb7a6526a3c191a2d",
+      "html_url": "https://github.com/team-mirai/policy/commit/9e0479ea225c529f5f5a19dcb7a6526a3c191a2d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9e0479ea225c529f5f5a19dcb7a6526a3c191a2d/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dd0dee376cb92c50a2339f570bc6b042d16a34f7",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/dd0dee376cb92c50a2339f570bc6b042d16a34f7",
+          "html_url": "https://github.com/team-mirai/policy/commit/dd0dee376cb92c50a2339f570bc6b042d16a34f7"
+        }
+      ]
+    },
+    {
+      "sha": "8f21ae3a33e231434dee640f4c6e9f294156c115",
+      "node_id": "C_kwDOOqTJvNoAKDhmMjFhZTNhMzNlMjMxNDM0ZGVlNjQwZjRjNmU5ZjI5NDE1NmMxMTU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T15:07:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T15:07:27Z"
+        },
+        "message": "マニフェスト「100日プラン」にCO2濃度計測の項目を追加 (くちばし)",
+        "tree": {
+          "sha": "7fe9f9967f00dff9992edb9b052a88be1c4e4734",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7fe9f9967f00dff9992edb9b052a88be1c4e4734"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8f21ae3a33e231434dee640f4c6e9f294156c115",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc8uvCRC1aQ7uu5UhlAAAdNQQAF4NvgXurmfs/Q4w7jVKW3Dw\nIP3gbIDzcDHYqTnxrskwAI55CD6l8be7LrLbNtFqNG+ECnQEI9IcUfmwfrUxFAgD\nBTktw7Fdb6QQJGHDo0ZMsaZDjlOKhJjyI5KwC6c3tFtX2Ch5aN8lNUkc47vfxb5i\n6TVPaYDU4DJZmdg5iIEU+wgYb71ZUZhHZjDCTk2xz0Q6QYXmG0b+HYEj/gAjlFr9\nbXwh09sqjBRpQ350SkhGnDIbam8uiASL+BhTqvoZL5Kus2gMkv7rOvzKYdkfuxgg\nzZhYROkyfvEOZmoUliAU8GdfVPFCfuv/bi9V7oYyFiIXrUuVLxJHNr9D4A5q/W4/\nmP6oGfWAFM8VPx+L491QkoumgxEptBZJrodo3nMDfHWvwb/Z6h4j3ISNHq6JEFJT\n4mfJAzksX5kV98K3Mm6cG3gmKDI7viEdZXRW28qZ6dD8jtL1RysWQA4VFo/VriL9\n0OmJ9k3cRiO5X04NzKZO9VE+q78kRbR852VgB9QJcBVeOrB+HhoeP02OKQ1b6hyQ\nFCuwCvgEdTtUt7cIyHYS3HLROYY2sfLBwp/h1gsWWa0teBCS6hlSsxksrSp5hWhW\nWKjOrBZ9jRqNKna/J5xKh4PwJJoP7GUejwU7LnHdiM1OjPY5EOI6KLngbH2+UuZv\nSrxx2LxweXmAsWNsuLRI\n=gXVx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7fe9f9967f00dff9992edb9b052a88be1c4e4734\nparent 9e0479ea225c529f5f5a19dcb7a6526a3c191a2d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752419247 +0000\ncommitter GitHub <noreply@github.com> 1752419247 +0000\n\nマニフェスト「100日プラン」にCO2濃度計測の項目を追加 (くちばし)",
+          "verified_at": "2025-07-13T15:07:27Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/8f21ae3a33e231434dee640f4c6e9f294156c115",
+      "html_url": "https://github.com/team-mirai/policy/commit/8f21ae3a33e231434dee640f4c6e9f294156c115",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8f21ae3a33e231434dee640f4c6e9f294156c115/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9e0479ea225c529f5f5a19dcb7a6526a3c191a2d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/9e0479ea225c529f5f5a19dcb7a6526a3c191a2d",
+          "html_url": "https://github.com/team-mirai/policy/commit/9e0479ea225c529f5f5a19dcb7a6526a3c191a2d"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-13T16:15:11.443505"
+}
