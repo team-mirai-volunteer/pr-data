@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 6042,
+    "title": "オンライン診療にコメディカル活用の視点を追加",
+    "state": "open",
+    "created_at": "2025-07-13T06:12:03Z",
+    "updated_at": "2025-07-13T06:12:04Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6042",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "48b846d765ff16dfcfffc65a61b5e41ee0c8ffaf",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 2,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/db8879388efcd0a8fdadb73f85aeef8450e638eb/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/db8879388efcd0a8fdadb73f85aeef8450e638eb/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=db8879388efcd0a8fdadb73f85aeef8450e638eb",
+      "patch": "@@ -22,6 +22,7 @@\n - オンライン診療が進まない要因の一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n   - 現在の診療報酬制度ではオンライン診療が対面診療と比べて優遇されているとは言えず、医療機関側にとってシステム投資や運用構築を乗り越えてまで推し進める動機づけが不足しています  \n   - また、オンライン診療で医師に相談をしても、受診後の医薬品の受け取りに調剤薬局を訪ねる必要があり、一連の受療行動をオンラインで完結できていない状況も多いかと思います\n+- 全ての相談や診療を医師が担うことは、医師の負担を増大させ、かえってオンライン診療の普及を妨げるボトルネックになり得ます。現状では、看護師や薬剤師などのコメディカルスタッフが、その専門性を活かして主体的にオンライン相談に応じることが制度的に難しい側面があります。\n \n ### 政策概要\n \n@@ -32,6 +33,8 @@\n - 安全性を担保するためのガイドライン整備  \n   - 本人確認、重症化時のバックアップ体制など、オンライン診療を安全に行い、標準的なサービスを担保するための規定を整備  \n   - セキュアに遠隔診療を提供するため医療機関のインフラ整備の支援を行います  \n+- コメディカルスタッフの活用と適切な権限移譲\n+  - 医師の監督のもと、看護師や薬剤師などのコメディカルスタッフが、オンラインでのトリアージ（緊急性の判断）や健康相談、服薬指導などをより主体的に行えるよう、タスクシフト/タスクシェアを推進します。そのための法改正やガイドライン整備を検討し、チーム医療によるオンラインでのサポート体制を構築します。\n - 薬の受け取りまでオンラインで完結するための枠組みの整備  \n   - オンライン服薬指導や僻地でのドローンによる医薬品配送などを行うためのガイドラインなどは整備が進みつつあります  \n   - 配送費用については、物流コストが自動運転やドローン技術の進化により引き下げられる可能性も考えられますが、現状では調剤薬局が担う状況となっており、費用負担が運用の壁となっています  \n@@ -73,7 +76,7 @@\n ### 政策概要\n \n - システム導入費の補助による画像解析システムの導入推進を行います\n-  - 画像解析システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n+  - 画像検査システムやレポート作成支援システムの導入が進まない背景の一つに、導入コストの正当化の難しさが挙げられます\n   - 日本では公的医療保険で画像検査を行った際の診療報酬は規定されており、画像検査システムの導入コストやシステム利用料の負担はそのまま医療機関の利益構造の悪化に繋がります\n   - 放射線科医が不足しており、慢性的に過重労働が発生している場合や検査の待機期間の遅延が生じている医療機関では、処理可能な検査件数の増加・効率化による経営上の便益も期待されますが、高額なシステムの導入の検討はなかなか難しい医療機関が多いと考えられます\n   - そうした状況を打破するために、時限措置として画像検査の補助システムを導入する医療機関に対し、初期導入費用の一定額補助を実施します\n@@ -85,4 +88,4 @@\n   - 一方で、AIが提示した異常や逆にAIが提示しなかった異常は医師の判断に影響を及ぼす以上、メーカーの責任や性能評価についても整理が必要となります\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n-  - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+  - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "db8879388efcd0a8fdadb73f85aeef8450e638eb",
+      "node_id": "C_kwDOOqTJvNoAKGRiODg3OTM4OGVmY2QwYThmZGFkYjczZjg1YWVlZjg0NTBlNjM4ZWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T06:11:03Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T06:11:03Z"
+        },
+        "message": ".(ドット)さんの提案に基づき、コメディカルの活用と権限移譲に関する記述をオンライン診療の項目に追記",
+        "tree": {
+          "sha": "0b2d9e2268e76bba42e35b7b6fbb11578786b6f6",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0b2d9e2268e76bba42e35b7b6fbb11578786b6f6"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/db8879388efcd0a8fdadb73f85aeef8450e638eb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc033CRC1aQ7uu5UhlAAAeW0QAF+ZdaAj/ZmPpiJGkOPEr91S\n8cQXm1sLLLRSN4nWJu62Zz3GKzE7Mf/DXVoehn8foWA96bhgkecDznosmRJOus2J\np20I6x8DmgInT3t8VuIhLSVDg17ZjyM5ZeLnVmobfqtVijZ9UjVNX3bqyLILf5JW\nPN5r76dwDzUBVXWGiMk3otULLpJcOI2pREGfbbkWgjLRWZB6e8HMrPROXjiR9vWS\nEFqCntxl/dgYBSTwUy25wy8rrQStq2vnmnRxJWcln13NFTBcnIDZ3ZJz04NMTOp9\nfk2AHlh7uPBLHu0tWMYV4k2Rm27RtFgvZGzoWTz7FyZdXzGgPkhK/HQ4F48nhIq0\naHmjZJX7uvQ6mbk1wUULdhWPwoDioM8BtrSqPt6znfZcb3OkW61J64pyRksMV9Oy\noYFdkuJsxDGVXc9/8boWS52yPyvN25MUguHtPnnqaUSdVGSoYeYiVDlrvTckY1iX\nS/Sey/SgcsMoOxsY1i3/uf0oZq2dHEkm2HMIcxR9YCOGyJIa6nESndj/f6mOgOWW\nz0q8yowyLsPsyBWOtP5QkrhyVWPAXVuE2HcSC7xjQiJtrOekjLoBb/eXAZcVgQwX\npKu/NhontwiKby58XSdFQG2+qoF+nI1crhoOd4CMwb1vhOE7TE9xsE8dD2gEBuat\nLDhMdD0uF3JW4DFChNmD\n=vDVM\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0b2d9e2268e76bba42e35b7b6fbb11578786b6f6\nparent e4c91e34bd5af8050954f7b724addd6085375ce5\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752387063 +0000\ncommitter GitHub <noreply@github.com> 1752387063 +0000\n\n.(ドット)さんの提案に基づき、コメディカルの活用と権限移譲に関する記述をオンライン診療の項目に追記",
+          "verified_at": "2025-07-13T06:11:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/db8879388efcd0a8fdadb73f85aeef8450e638eb",
+      "html_url": "https://github.com/team-mirai/policy/commit/db8879388efcd0a8fdadb73f85aeef8450e638eb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/db8879388efcd0a8fdadb73f85aeef8450e638eb/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e4c91e34bd5af8050954f7b724addd6085375ce5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e4c91e34bd5af8050954f7b724addd6085375ce5",
+          "html_url": "https://github.com/team-mirai/policy/commit/e4c91e34bd5af8050954f7b724addd6085375ce5"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-13T06:18:31.840346"
+}
