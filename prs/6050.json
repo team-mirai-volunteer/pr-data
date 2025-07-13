@@ -1,0 +1,365 @@
+{
+  "basic_info": {
+    "number": 6050,
+    "title": "医療政策の改善提案：予防医療と終末期における意思決定支援の拡充",
+    "state": "open",
+    "created_at": "2025-07-13T06:45:12Z",
+    "updated_at": "2025-07-13T06:45:13Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6050",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "1d5e9c4ce8fe131bb06c88c9d8c0afe4e6e474eb",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 17,
+      "deletions": 0,
+      "changes": 17,
+      "blob_url": "https://github.com/team-mirai/policy/blob/9164c7bfe7b4c1167154d68079b7f1defdaec7b5/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/9164c7bfe7b4c1167154d68079b7f1defdaec7b5/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=9164c7bfe7b4c1167154d68079b7f1defdaec7b5",
+      "patch": "@@ -8,6 +8,7 @@\n - 医療の現場をテクノロジーの力で支援することで、医療機関の経営および業務効率化を支援します  \n - 医療機関DXが進むことは医療機関の働き方をサステイナブルにするだけでなく、日常の診療の効率化、利便性など医療を受ける方々にもメリットが生じると考えます  \n - また、テクノロジーはITリテラシーの高い働き世代や若い方々のものだけではありません。一定の支援は必要となるかもしれませんがオンライン診療の普及や医療機関での待機時間の短縮は外出が困難な要介護者の方や僻地などで医療アクセスが困難な方々に対しての医療アクセス格差の是正にもつながります\n+- 高齢者の健康寿命を延伸し、誰もが最期まで自分らしく生きられる社会を目指すとともに、寝たきり状態になることを防ぐ予防医療とリハビリテーションの充実を図ります\n \n ## 1）オンライン診療 / 処方受け取り方法を充実し、通院のない通院を実現\n \n@@ -86,3 +87,19 @@\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります\n   - 国際的な潮流と協調し、機器開発を行う事業者と医療従事者の間で整合性を図りながら、国内制度を整備し、ルールのグレーゾーンを解消していく必要があります\n+\n+## 4）自分らしい最期を迎えるための意思決定支援\n+\n+### 現状認識・課題分析\n+- 超高齢社会を迎え、終末期医療にかかる費用は増大傾向にあります。本人が望まない形での延命措置は、個人の尊厳を損なうだけでなく、結果として長期的な医療・介護費用の増大を招き、社会全体の負担にも繋がっています。\n+- 多くの国民が「自分らしい最期を迎えたい」と望んでいますが、いざという時に本人の意思が不明なため、家族が重い決断を迫られたり、本人が望まない延命措置が行われたりするケースが少なくありません。\n+- 事前指示書（リビング・ウィル）の認知や普及は十分に進んでおらず、また、一度作成しても、その後の考えの変化を反映することが難しいのが現状です。\n+- 「延命しますか？」という単純な問いだけでは、本人の真の価値観や人生観に基づいた意思決定を促すことは困難です。どのような状態で生き続けたいのか、どのようなケアを望むのか、具体的な情報提供や熟慮の機会が不足しています。\n+\n+### 政策概要\n+- **「人生会議（ACP：アドバンス・ケア・プランニング）」の普及を、かかりつけ医等を中心に推進します。**\n+  - かかりつけ医や自治体の窓口、介護施設などが、市民が人生会議について学び、家族と話し合うきっかけとなる場づくりを支援します。\n+- **意思決定を支援するための、分かりやすい中立的な情報提供を強化します。**\n+  - 延命措置の具体的な内容や、それによってどのような生活が想定されるのかを、映像やパンフレットなどを用いて、誰もが理解できる形で提供します。\n+- **本人の意思を、安全かつ確実に医療・ケアチームに共有するデジタル基盤を整備します。**\n+  - マイナンバーカードなどを活用し、本人の意思をいつでも手軽に記録・更新できる仕組みを構築し、救急時や終末期において、医師やケアチームが迅速かつ正確に参照できるよう支援します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "ea53307d8681de9a4148e681769e7d596f6c5835",
+      "node_id": "C_kwDOOqTJvNoAKGVhNTMzMDdkODY4MWRlOWE0MTQ4ZTY4MTc2OWU3ZDU5NmY2YzU4MzU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T06:27:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T06:27:54Z"
+        },
+        "message": "Kさんの提案に基づき、ビジョンに健康寿命延伸と予防医療に関する記述を追加",
+        "tree": {
+          "sha": "d42e8d421379263e20f8e18271b88a2a220ae256",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d42e8d421379263e20f8e18271b88a2a220ae256"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ea53307d8681de9a4148e681769e7d596f6c5835",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc1HqCRC1aQ7uu5UhlAAA0gwQAJ/duVsSWA1LMF1LuquEGn5A\n6KExipLpUqaoXoAXJbWzqtP/IbhfFbktQ4AZztpBYa5MEGmIj6XKnDt1c8gAhxDK\nt4c8kVpYqsX6KU3cbYRtd/UDWvOGyCiZKUPnm5NlTCjWV9mDUmWDJpEjLCKB7cgk\njrgkQwjvhn5ULuyknEPUMvHGQ8Jq4I88wmsp8bcNJlYbqEf4PBelwt9H1i6z8Wwm\nbwv0VIrAb7nPapbs1zw1pNVtQn4WGZNKp5x/rIXO9Gkog7R8Dun8vlXRqO6xYm5i\nr2DlEbzUILjEY/Htd/Zhjke9cXc+jnz7kaRxRtmn6UYc8qZZ4Z9T4wMqKxSCCsv5\nVsRRiRdRVDt92vCFffKYZOt+BU1Cx7OXlyToHXedoJXPrhP49UEInWfBmlVATG4j\nwLaPoX0SZU71qHfAVkz7Jw5zQIDULNZ06a57HAG7x+dkWYwLXvU9aCEGuB+l5OAh\nEYp+PqSk+zcQw4UoLeomYDpKhhXb2/EarnPsdpIwjB1nqVzWp23YRzRQk62XXegZ\naSywrWwy4OQTv+JM8w89IhYxeGZbRaFr4TE8pJ4hQdGjMAMj419451WOMegHAwK4\n2XtIOXylCpJb8OWZveQylrj7gs9JlxWYVTvtWIwJbgTliN5qSWhjh/IU8TDEDrtO\nnsJGCtH8Puh0tGJqNJej\n=/WFY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d42e8d421379263e20f8e18271b88a2a220ae256\nparent e4c91e34bd5af8050954f7b724addd6085375ce5\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752388074 +0000\ncommitter GitHub <noreply@github.com> 1752388074 +0000\n\nKさんの提案に基づき、ビジョンに健康寿命延伸と予防医療に関する記述を追加",
+          "verified_at": "2025-07-13T06:27:54Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ea53307d8681de9a4148e681769e7d596f6c5835",
+      "html_url": "https://github.com/team-mirai/policy/commit/ea53307d8681de9a4148e681769e7d596f6c5835",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ea53307d8681de9a4148e681769e7d596f6c5835/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e4c91e34bd5af8050954f7b724addd6085375ce5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e4c91e34bd5af8050954f7b724addd6085375ce5",
+          "html_url": "https://github.com/team-mirai/policy/commit/e4c91e34bd5af8050954f7b724addd6085375ce5"
+        }
+      ]
+    },
+    {
+      "sha": "b610d8b61b6f48a970a91c70211e9097baa3f2f2",
+      "node_id": "C_kwDOOqTJvNoAKGI2MTBkOGI2MWI2ZjQ4YTk3MGE5MWM3MDIxMWU5MDk3YmFhM2YyZjI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T06:28:46Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T06:28:46Z"
+        },
+        "message": "Kさんの提案に基づき、「ビジョン」に健康寿命の延伸に関する記述を追加",
+        "tree": {
+          "sha": "d42e8d421379263e20f8e18271b88a2a220ae256",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d42e8d421379263e20f8e18271b88a2a220ae256"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b610d8b61b6f48a970a91c70211e9097baa3f2f2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc1IfCRC1aQ7uu5UhlAAAFT4QADXlFF9V8NLR85bfR+uU+DXM\nkbgQw3pZnV58QOGFDbolhdXBqSIgNTv9B0S1uZx5f+qmwzJswb71N27StXG/koIp\noq7SQkfVOgUolZ6h/lYy0p+f+pxQbkpz/Ls+FWd1KoPOvwSmst1QcvJjjzLmRK2S\nbPF5/sZDrTYmYtgJnmAETRw2q1hHvl7e3wraUvjNkaEc/O99T3mCn6ivJlPttx8r\npVDtkxicwkcGeigfMmTp0/bn1Ao+LFK0BH2Gr+rtDwp7Ovkgjwq+RN9QaFbHko5u\nkvlaBiY6GKkee7iZ6phZgAWui0QNgniNAmYP9QRwoTOTspUTN2mucm6JfDvDsMRc\nB/yR0U1zFJKmxZHfgYNjOxqnt4R4T0E52mP+V2A2gy8fnARmsvBL0whAkrX/YaNQ\nsRPAIsiDG2iWaKI61RhMbS//68G3px9GSkTyf+tFZFga/xhiROAhMmFAyaOMPaOp\nmzdXD1kflhVgDKTEzy9fTFYEW92uSvBS1zK0vGp0SfwBMUO8sbCijFUU4WoTkdN4\nQzsHlws6Ok3NwKdxYHWcT6RsjOcvLxEumUhEVVTw2taoj0DG2sWYWlVMB9wYIk9K\nf2y17CUSQWzcj6rSCxDok9HExbIUKr/4ItVw0tjjdIzGrICYXCQCeYWriS0kpo2P\nUbpQpXrGynfjo1vXryuF\n=065c\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d42e8d421379263e20f8e18271b88a2a220ae256\nparent ea53307d8681de9a4148e681769e7d596f6c5835\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752388126 +0000\ncommitter GitHub <noreply@github.com> 1752388126 +0000\n\nKさんの提案に基づき、「ビジョン」に健康寿命の延伸に関する記述を追加",
+          "verified_at": "2025-07-13T06:28:47Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b610d8b61b6f48a970a91c70211e9097baa3f2f2",
+      "html_url": "https://github.com/team-mirai/policy/commit/b610d8b61b6f48a970a91c70211e9097baa3f2f2",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b610d8b61b6f48a970a91c70211e9097baa3f2f2/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ea53307d8681de9a4148e681769e7d596f6c5835",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ea53307d8681de9a4148e681769e7d596f6c5835",
+          "html_url": "https://github.com/team-mirai/policy/commit/ea53307d8681de9a4148e681769e7d596f6c5835"
+        }
+      ]
+    },
+    {
+      "sha": "5af357060851fbb29408add61d239cf4faf83d77",
+      "node_id": "C_kwDOOqTJvNoAKDVhZjM1NzA2MDg1MWZiYjI5NDA4YWRkNjFkMjM5Y2Y0ZmFmODNkNzc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T06:40:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T06:40:13Z"
+        },
+        "message": "Kさんの提案に基づき、健康寿命延伸と意思決定支援に関する項目を追加",
+        "tree": {
+          "sha": "96dcea58f882d1b4f2d2c05db36d9db00764a3cc",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/96dcea58f882d1b4f2d2c05db36d9db00764a3cc"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/5af357060851fbb29408add61d239cf4faf83d77",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc1TOCRC1aQ7uu5UhlAAAvrQQAAIU+AEhuYmT9LV0DwiypwsK\nZml6qbh7tGCF1J/jzNdFaJIDLUKbBusPbz3UmZeJKqxilQWJBdl8AewGiejgGEw1\n9zl4FPiIqffme3SISJHUHe9l+P6FUiadEjx4hFI+O2nXDkvi07000lj2w5tyhgVm\n/oFKZ4hYLuccj2C5bmSY63tsuIhTQlHxOU84cjyXzpQXXYnUSiaDyJZU8aS2Coxf\nG5TBtmdxTRDRg7UUkSkD0aO+vDvqxn42wYpniN18vDaAZu/pyhAN941lOiZ6jUmW\nChaG2naydaNCgtV1N7WSfW/DKjSZNtKWdWjx2GRtUN0slP/xEGjJEjiYqFnRbw5r\nrq6zEAV8YaWbrColesI7SJRjszkRH4zua7/8peFNsMxSYozWOYGG3ykyr/GbMgyX\nJe9toPc2oJfmuR9EhHSPfkoCw9Kq8VmDplJDjsGqyXwowIeiWnv2KDvlG3r4Vtav\nfB894ydPV/rheLPnAJClPwi5ONu5Gii/wo1wHaxwAfXAANaZgJC6LWEKw0amhGph\n9ibj1cME8RoFQ5w2WcnRql1q5Wn9QqJJ/nR/jhba9ZIJcZ0+isqzujfdek8EDAra\nn5IIupkh3j1XWtEiR4+QF7pA7o4/1qLfq3y3o7zjTNgOlHnLUHp1h1CiHZDftW/y\nrbUjz5oLut1pGqvfVsi+\n=Exlu\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 96dcea58f882d1b4f2d2c05db36d9db00764a3cc\nparent b610d8b61b6f48a970a91c70211e9097baa3f2f2\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752388813 +0000\ncommitter GitHub <noreply@github.com> 1752388813 +0000\n\nKさんの提案に基づき、健康寿命延伸と意思決定支援に関する項目を追加",
+          "verified_at": "2025-07-13T06:40:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/5af357060851fbb29408add61d239cf4faf83d77",
+      "html_url": "https://github.com/team-mirai/policy/commit/5af357060851fbb29408add61d239cf4faf83d77",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/5af357060851fbb29408add61d239cf4faf83d77/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "b610d8b61b6f48a970a91c70211e9097baa3f2f2",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b610d8b61b6f48a970a91c70211e9097baa3f2f2",
+          "html_url": "https://github.com/team-mirai/policy/commit/b610d8b61b6f48a970a91c70211e9097baa3f2f2"
+        }
+      ]
+    },
+    {
+      "sha": "9164c7bfe7b4c1167154d68079b7f1defdaec7b5",
+      "node_id": "C_kwDOOqTJvNoAKDkxNjRjN2JmZTdiNGMxMTY3MTU0ZDY4MDc5YjdmMWRlZmRhZWM3YjU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T06:44:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T06:44:07Z"
+        },
+        "message": "Kさんの提案に基づき、「健康寿命の延伸」「自分らしい最期を迎えるための意思決定支援」に関する記述を追加",
+        "tree": {
+          "sha": "55204b4a556b3603f196f223d74a70ffd27964f1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/55204b4a556b3603f196f223d74a70ffd27964f1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9164c7bfe7b4c1167154d68079b7f1defdaec7b5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc1W3CRC1aQ7uu5UhlAAAjewQADTFgmmKgOjaW+py7D6RhDsF\nFAGKrpIUq7rd75H1KWdaUFbRmWcWdjircIIrfFueuu3A4VaKnAr1ChtpcxyKreCc\nztenuZ+ZiahuAlSp06RiCyJlqLf81GsTM7Ysw9X3s62t8gJ2X2KP1E3Pq3EhFiTw\nU1XWpZAmh7Xf+vMbpM5ugA3AVLoTY6qnpk9d9wLlME8qReChuNSAptEMWBnBLYvB\n1cQMrra/eNJHhUHJDfuAO1hPXu0CJv6MGgvMvaWwPSConeWI5id+W54uKh+3bs3s\nSKR6bmof5EaP1UZUebUG76OnGv0j5YuoPEhO1s8YeQ9xtaze8M29sV1xIfxqiWk6\nN8mNuaJkqMrdJYpc64hix2GQHN+yBVvE30wjSFg9+s98AXExS5yekLDHSW8t1JHS\nCKO20XQs7hRuVy4R7jVkGtnY7fMYoAz98tUl9Vnw3FQCV7PaHs8S1sJigWjEr3Ha\npt8EDpvdmt9tj3KuOqhpK8NFV0guXwtxo32pTdyEslN9G6Eo4m1ucQd8S+NSZYEc\npFxX1hnzLYuo0BG1Zt7yPu7b0pxQdi7K4wDNvQ4cPrF1V0bxTYg1q6SB9Trqvsgg\nwoUBiMkbUt2Fvku0YYHTH9QUDOorhHwrF1KguSTOE0a4QuocfUtiXlHG9INaq65S\ncmRzrH4A46b+MdRcok9f\n=MBqa\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 55204b4a556b3603f196f223d74a70ffd27964f1\nparent 5af357060851fbb29408add61d239cf4faf83d77\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752389047 +0000\ncommitter GitHub <noreply@github.com> 1752389047 +0000\n\nKさんの提案に基づき、「健康寿命の延伸」「自分らしい最期を迎えるための意思決定支援」に関する記述を追加",
+          "verified_at": "2025-07-13T06:44:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9164c7bfe7b4c1167154d68079b7f1defdaec7b5",
+      "html_url": "https://github.com/team-mirai/policy/commit/9164c7bfe7b4c1167154d68079b7f1defdaec7b5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9164c7bfe7b4c1167154d68079b7f1defdaec7b5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5af357060851fbb29408add61d239cf4faf83d77",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5af357060851fbb29408add61d239cf4faf83d77",
+          "html_url": "https://github.com/team-mirai/policy/commit/5af357060851fbb29408add61d239cf4faf83d77"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-13T07:14:03.659225"
+}
