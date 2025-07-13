@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 6085,
+    "title": "【福祉】介護認定の公平性と透明性を抜本的に向上させる改善提案",
+    "state": "open",
+    "created_at": "2025-07-13T08:42:48Z",
+    "updated_at": "2025-07-13T08:42:49Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6085",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "8a2faf079cce18dc637a3ec34e0678fb843915c2",
+      "filename": "18_ステップ１福祉.md",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 14,
+      "changes": 32,
+      "blob_url": "https://github.com/team-mirai/policy/blob/b420357b7b19b349edc65cdc6163b0430cee950e/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/b420357b7b19b349edc65cdc6163b0430cee950e/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md?ref=b420357b7b19b349edc65cdc6163b0430cee950e",
+      "patch": "@@ -82,44 +82,48 @@\n   *  テクノロジー活用推進に関しては、[ステップ３. 福祉](https://policy.team-mir.ai/view/38_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E7%A6%8F%E7%A5%89.md)の項目もご覧ください。\n \n \n-## ４）デジタル・AI活用により、障害年金・生活保護等の認定プロセスの効率化を実現、透明性と公平性を確保します\n+## ４）デジタル・AI活用により、障害年金・介護認定・生活保護等の認定プロセスの効率化を実現、透明性と公平性を確保します\n \n ### 現状認識・課題分析\n \n-* 福祉サービスを受けるための認定基準が自治体により異なることが指摘されています。障害年金の認定状況の調査によると、新規の不支給率が増加しています。特に精神障害は客観的指標による評価が難しく、障害等級の目安より下位等級に認定され不支給となってしまうケースがあります。  \n+* 福祉サービスを受けるための認定基準が自治体により異なることが指摘されています。特に介護認定においては、認知症の有無が重視されるあまり、身体的な困難さが十分に評価されにくい傾向があります。また、同居家族がいることを理由にサービス利用が制限されるなど、個々の実態にそぐわない画一的な基準が課題となっています。\n+* 現状の認定プロセスは、誰がどのような専門性をもって判断しているのか、なぜその結論に至ったのかという過程が利用者から見えにくく、「ブラックボックス」になっているとの指摘があります。判定理由が明確に開示されないため、利用者は結果に納得できず、不服申し立てを行う際にも困難が生じています。\n+* 障害年金の認定状況の調査によると、新規の不支給率が増加しています。特に精神障害は客観的指標による評価が難しく、障害等級の目安より下位等級に認定され不支給となってしまうケースがあります。\n * また、その認定に必要な書類や手続きの煩雑さから、職員の業務負荷が膨大になっています。特に生活保護業務は多様化・複雑化し、ケースワーカーの業務負担が大きく、人材確保や専門性の維持が課題となっています。\n \n ### 政策概要\n \n-* AI活用により、障害年金支給判定プロセスにおける透明性と公平性を確保します  \n-  * 特に客観的指標による判断が難しい精神障害に関して、AIを用いて判定基準を明確化、透明化します。  \n-  * AIを活用して一次判定を行うことで、審査の標準化や地域差の解消、バイアスの排除を行います。AIによるデータチェックや自動入力、計算ミスの防止など、審査業務の自動化によってヒューマンエラーを減らし、正確性が向上させます。  \n-  * AIによる認定結果や不支給事案の分析を継続的に行い、制度運用の課題や改善ポイントを可視化します。  \n-* 生活保護費の算定やデータ入力作業をデジタルで効率化し、職員やケースワーカーの業務負担を削減します  \n-  * 資産調査を電子化し、AIを導入して行うことで、職員の業務負担の削減と、迅速な支給認定手続きを実現します。  \n+* AI活用により、介護認定や障害年金支給判定プロセスにおける透明性と公平性を確保します\n+  * 介護認定において、認知症だけでなく身体機能や生活実態、家族の介護力などをAIが総合的に分析し、より実態に即した公平な判定を支援する仕組みを構築します。\n+  * AIによる判定プロセスと、その結論に至った判断理由を本人に分かりやすく開示する仕組みを構築します。これにより、利用者は自身の状況がどのように評価されたかを理解し、納得感の向上と、必要に応じた的確な不服申し立てを可能にします。\n+  * 特に客観的指標による判断が難しい精神障害に関して、AIを用いて判定基準を明確化、透明化します。\n+  * AIを活用して一次判定を行うことで、審査の標準化や地域差の解消、バイアスの排除を行います。AIによるデータチェックや自動入力、計算ミスの防止など、審査業務の自動化によってヒューマンエラーを減らし、正確性が向上させます。\n+  * AIによる認定結果や不支給事案の分析を継続的に行い、制度運用の課題や改善ポイントを可視化します。\n+* 生活保護費の算定やデータ入力作業をデジタルで効率化し、職員やケースワーカーの業務負担を削減します\n+  * 資産調査を電子化し、AIを導入して行うことで、職員の業務負担の削減と、迅速な支給認定手続きを実現します。\n   * ケースワーカーの生活保護業務に関しても紙媒体ではなく電子化を進め、事務の効率化、データを活用しより適切な支援を提案できる仕組みを構築します。\n \n ## ５）切れ目ない福祉支援を提供する、ワンストップデジタル福祉パスポートを実現します\n \n ### 現状認識・課題分析\n \n-* 障害者や高齢者、生活困窮者など福祉サービスの利用者は、必要な支援や補助を受けるために複数の申請や証明書の提出が求められ、利用者と家族に大きな負担をかけています。  \n-* 役所、医療機関、療育施設、放課後等デイサービス、介護事業所、グループホームなど様々な支援機関間の情報連携は紙ベースで行われていることが多く、情報共有に時間がかかり、適切なタイミングでの支援も困難になっています。  \n+* 障害者や高齢者、生活困窮者など福祉サービスの利用者は、必要な支援や補助を受けるために複数の申請や証明書の提出が求められ、利用者と家族に大きな負担をかけています。\n+* 役所、医療機関、療育施設、放課後等デイサービス、介護事業所、グループホームなど様々な支援機関間の情報連携は紙ベースで行われていることが多く、情報共有に時間がかかり、適切なタイミングでの支援も困難になっています。\n * また、デジタル障害者手帳の普及も進んでいるものの、依然として多くの場面で紙の手帳の提示が求められています。\n \n ### 政策概要\n \n-* 障害者手帳とマイナンバーを連携し、スマートフォンアプリで福祉サービスの申請から利用まで一元管理できる「ワンストップデジタル福祉パスポート」を提供します。民間サービスとの連携もできるようにします。  \n-* まずは、デジタル障害者手帳の普及と、デジタルの障害者手帳を受け付ける場所の拡充を行います。  \n-* 福祉サービスの支給申請をオンラインで可能にし、各福祉施設での支援情報もワンストップデジタル福祉パスポートで管理できるようにします。受給者証等は、申請を元に対象者にデジタルで付与する仕組みを構築し、自治体に提供します。これにより、申請や受け取りの手間を省きます。  \n+* 障害者手帳とマイナンバーを連携し、スマートフォンアプリで福祉サービスの申請から利用まで一元管理できる「ワンストップデジタル福祉パスポート」を提供します。民間サービスとの連携もできるようにします。\n+* まずは、デジタル障害者手帳の普及と、デジタルの障害者手帳を受け付ける場所の拡充を行います。\n+* 福祉サービスの支給申請をオンラインで可能にし、各福祉施設での支援情報もワンストップデジタル福祉パスポートで管理できるようにします。受給者証等は、申請を元に対象者にデジタルで付与する仕組みを構築し、自治体に提供します。これにより、申請や受け取りの手間を省きます。\n * 福祉サービスの利用スケジュールや受給者証更新手続きもパスポート内で一元管理し、必要な時期にプッシュ通知でお知らせできる仕組みを提供します。\n \n \n ## ６）オンライン診療 / 処方受け取り方法を充実させることで、どんな状況の方も適切な医療につながることをサポートします\n \n ### 現状認識・課題分析\n \n-* 障害や病気などにより一人でご自宅から出られない方にとって、通院はハードルが高いものとなっています。  \n+* 障害や病気などにより一人でご自宅から出られない方にとって、通院はハードルが高いものとなっています。\n * 地方では医師の数が限られており、複数の医療機関の中で自身に合うところを探すことが難しくなっています。「主治医に書類を書いてもらえなくなると困るから、言うことを聞かなくては」「セカンドオピニオンを聞いてみたいけど遠くには行けないし、主治医の気を悪くしてしまうかもしれない」という心理が働き、より良い医療を求めることが難しくなっているという声もあります。\n \n ### 政策概要"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "37dcf874e64e13d9671898ea24b54a085c9aee80",
+      "node_id": "C_kwDOOqTJvNoAKDM3ZGNmODc0ZTY0ZTEzZDk2NzE4OThlYTI0YjU0YTA4NWM5YWVlODA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T08:11:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T08:11:50Z"
+        },
+        "message": "はるさんの提案に基づき、介護認定の課題とAI活用策を追記",
+        "tree": {
+          "sha": "80ded3b221e63dee0946d2c0f7d94221cb8100f6",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/80ded3b221e63dee0946d2c0f7d94221cb8100f6"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/37dcf874e64e13d9671898ea24b54a085c9aee80",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc2pGCRC1aQ7uu5UhlAAAdSsQAASQJ9zMmps9z7HKtd1yvybj\nsvzuutTCcEm7QYx5tTjHI3XAMJ4yV3vqJPfGG+30JecxWMUvUl/G/2VK7c1CycZd\n9jbWZ5x3akRKsYUfcleR8bjpCNmGr7dTZRn7cRNIYNEOcssDPIoG+6rwnZfy9Gzs\nP+O5n2XSzd5NoEmYW6d1a6FrPRplfAc6fcq+cLl0qii6AzrX0ovjxTfCHyWTrrwG\nMm6un/1cFPWJQykD6fxqW/i+Khdn8vT/ZLM0nrKnioVymNrzrb1uxprdR8fZHvnm\n5brMcFh5GlP4R9Ea8BrK4TY6Gs6M7Jro0CbrVnZy3BMGg+Qbyk+2w8SIiquB2hsC\nAcXhFNNmkLxZcXgk3/VPvEYza5GreqyTiOUgiKhi1KrRvAac3rxS8Vhd/FBwitTN\nPR7/UMcjC2aHMMdoiuKArUQzJNZIjVq3iSqAPHDTqc6erzI+EL9RtSa146LM3oiq\nr8I5s1cURSCr3R+6J7tFvXvzX8kW9diaI9UAgDGtWMhnQfqIPxMN9O4Aih/Odj+m\nHQ6BhpH85JzpVXNhBWQ8UXxXUFWAcHCrYPE+lS8hmAWdkxQTXF7vhovSUBCorcNq\nEW75qSBlCJrOgNQdlMrSiCZOXo6nMv3ZoAsYSR+SsF1phdP80kj/qX+JkMgQ1mKg\npm6QOol5UCikM8dC3OWv\n=rsNV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 80ded3b221e63dee0946d2c0f7d94221cb8100f6\nparent e4c91e34bd5af8050954f7b724addd6085375ce5\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752394310 +0000\ncommitter GitHub <noreply@github.com> 1752394310 +0000\n\nはるさんの提案に基づき、介護認定の課題とAI活用策を追記",
+          "verified_at": "2025-07-13T08:11:51Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/37dcf874e64e13d9671898ea24b54a085c9aee80",
+      "html_url": "https://github.com/team-mirai/policy/commit/37dcf874e64e13d9671898ea24b54a085c9aee80",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/37dcf874e64e13d9671898ea24b54a085c9aee80/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e4c91e34bd5af8050954f7b724addd6085375ce5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e4c91e34bd5af8050954f7b724addd6085375ce5",
+          "html_url": "https://github.com/team-mirai/policy/commit/e4c91e34bd5af8050954f7b724addd6085375ce5"
+        }
+      ]
+    },
+    {
+      "sha": "b420357b7b19b349edc65cdc6163b0430cee950e",
+      "node_id": "C_kwDOOqTJvNoAKGI0MjAzNTdiN2IxOWIzNDllZGM2NWNkYzYxNjNiMDQzMGNlZTk1MGU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T08:31:20Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T08:31:20Z"
+        },
+        "message": "はるさんの意見を反映し、介護認定プロセスの透明性に関する課題とAI活用策を追記",
+        "tree": {
+          "sha": "aac36b5cc904e4ceeba4751d49786e6a91171433",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/aac36b5cc904e4ceeba4751d49786e6a91171433"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b420357b7b19b349edc65cdc6163b0430cee950e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc27YCRC1aQ7uu5UhlAAA+/gQABaZoJXaXzwQWFy32wjfMNo6\nzLUpuUakCT7LZEnMT9iHuPRLay7MwaE8zxPWltKk3Q9uViZkkGby+lvLrdkffonO\n7tA8dzASrhD23HJMLNBbOJRf8Vs+sF1IXiT3kxeFrotunZe3F6qHd+7QAv6jyg/x\nAo6arswzllMepK9p8VQ3lG/I4WB0tCTu7va/MOwU5A4qjaTPFgwo3QEnUq0hLxl6\n15kaoM2tYKkjTdy/pqkSd7gVp6VeI7bJrGaOLu8JWREjpNAuDhzR2B2wAwxkghw8\nVEksyAo/g1YX453OH5fx8w3G3P4Km4vCdy7n1AO0EcBq7sL82nKUCT7nFZGGcpZH\ndK5kwmS+e50tqFTDNDES9yL1mwGIiyXxFGt4R9Mk2cnzfO5BhLMsNCp3+Y/05h1f\nZmNwmWwjWoH12cvf6E5yhCRfNZD0x9gSjF7ATANPYRL5of/s3zjpxuSEo0orS0kV\nhv3kxN7TqJQlJGeu9dtbd28LrrCafdlQsgp1ibLlKtVGRHHQNjYMTgsQlQw57IRK\nBGt2ALVXyPOw7ayVHViSBWZ1Pd9yKl4r1NywtmItmwdZpvWgfmFgpp6mehg8U20r\n0JZeNGoncl4xmZnHX0y3YJhUrqZ8aa7h+rZwvXnBwdMESAAuQfkZAB00uhYN3Wm9\nFbwjBhyUn3obJsLdpMbj\n=giu6\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree aac36b5cc904e4ceeba4751d49786e6a91171433\nparent 37dcf874e64e13d9671898ea24b54a085c9aee80\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752395480 +0000\ncommitter GitHub <noreply@github.com> 1752395480 +0000\n\nはるさんの意見を反映し、介護認定プロセスの透明性に関する課題とAI活用策を追記",
+          "verified_at": "2025-07-13T08:31:20Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b420357b7b19b349edc65cdc6163b0430cee950e",
+      "html_url": "https://github.com/team-mirai/policy/commit/b420357b7b19b349edc65cdc6163b0430cee950e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b420357b7b19b349edc65cdc6163b0430cee950e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "37dcf874e64e13d9671898ea24b54a085c9aee80",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/37dcf874e64e13d9671898ea24b54a085c9aee80",
+          "html_url": "https://github.com/team-mirai/policy/commit/37dcf874e64e13d9671898ea24b54a085c9aee80"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-13T09:14:00.647792"
+}
