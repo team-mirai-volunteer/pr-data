@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 6165,
+    "title": "医療DXの推進：障害者手帳更新の自動化とデジタルお薬手帳の導入",
+    "state": "open",
+    "created_at": "2025-07-13T12:56:39Z",
+    "updated_at": "2025-07-13T12:56:39Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6165",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "8d4cb471201329fecc2f6c242ff4f8143c13d898",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "blob_url": "https://github.com/team-mirai/policy/blob/9d29913af951186abfebfbe9eab16465c8d02b87/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/9d29913af951186abfebfbe9eab16465c8d02b87/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=9d29913af951186abfebfbe9eab16465c8d02b87",
+      "patch": "@@ -73,6 +73,8 @@\n       * 各省庁と自治体のデータベース連携を推進することで、住民が同じ情報を何度も提出する必要を無くします。 \n     * さらに、国民健康保険料の算定や各種減免措置については、行政が既に保有している課税・所得情報を標準APIにより内部で自動参照・適用することを原則とし、国民に対して紙の書類提出を求めない運用を標準化します。すでに一部自治体で試行が始まっており、全国展開に向けた制度設計を加速させます。\n     * デジタル庁の推し進める「[自治体窓口DX](https://www.digital.go.jp/policies/cs-dx#local-governments)」を更に推進していくとともに、加えてIT\\&AIを活用したバックヤード改革を行い、入力内容の確認、窓口業務職員の負担軽減を図ります。  \n+    * また、障害年金や障害者手帳の更新手続きについても、マイナンバーと医療機関の電子カルテ情報を連携させることで、診断書の取得・提出を不要とし、更新手続きの自動化を目指します。\n+    * あわせて、お薬手帳の情報をマイナンバーと連携させ「デジタルお薬手帳」として標準化します。これにより、手帳の持参忘れを防ぎ、医療機関・薬局間での正確な情報共有を促進します。また、アプリ等を通じて服薬時間を通知するリマインダー機能も搭載し、日々の服薬管理を支援します。\n   * 待たせない  \n     * 前提として、オンライン化を推し進め、行政機関への訪問を不要にします。  \n     * ただし、どうしても訪問が避けられない場合もあるため、そのような場合は混雑状況をリアルタイム配信することで待ち時間の平準化を図り、結果的に「待たされる」体験を改善します。  \n@@ -208,3 +210,5 @@\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n \n \n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "419641585a02778cb926e05fe0df2b7836342c14",
+      "node_id": "C_kwDOOqTJvNoAKDQxOTY0MTU4NWEwMjc3OGNiOTI2ZTA1ZmUwZGYyYjc4MzYzNDJjMTQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T12:47:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T12:47:48Z"
+        },
+        "message": "YasuoHayamiさんの提案に基づき、障害年金・手帳更新の自動化を追記",
+        "tree": {
+          "sha": "133db6cc5ec5091d996ea89890900a8684b53a38",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/133db6cc5ec5091d996ea89890900a8684b53a38"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/419641585a02778cb926e05fe0df2b7836342c14",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc6r0CRC1aQ7uu5UhlAAAcQMQAA/ddIVUKHqDbH4ut7MJ51f7\nUcl7HoH0MaSUh7o4XJBpwJAfvfomfILE+0XGw+8GvC0benelVMUSfsMNw2B/u8Oz\nkPZ+uTX+mA0/f2LQssnL6tuaMs5jqh814wGt52+x+xBYqcejX6lmSCdRk5AnxNH4\nCQ8g27JXIzZGtMt3F1E20SPOJmTmSJd6DMeKYFKX0EWKa9FyEVsOv5OQFB1gXMoN\nORl4+oK5shgDHQAoRlRjjeZbHcFNa9IBU7KZua/rDkLOqi7+F9CleaRJ83wjM0BL\nrGKVjEtbiDZWlsNfcPTWMttmcDpwnflSCCD2NpbWIs4BxM5yTRwJSrz22Wh9Xrny\nL3kWcusd/IDoyXhCVD/mOyS5AWIMLT8rNTyz5Pa/byz46FXxH9kqx6u2ON+h7UM8\nl+VNJMqrWBa2sCf4BO6UwwiPwgoJr4uYHfBz3wvAleXTLtgAr3/YsBwMQsEgFJ1f\nGaNGtRVpGhOUh2gvaMntYF+Du28Uxo0LRUNvi0gVwagByiMr/wq/6euh1qyLmoZV\n6NugyymBQCADwSldbNNy21cJl5N0ivoYJeAqB92qGshtnx4DK4V133SdcKy406KF\nZ0EJn7r3xZJFZfcAK3LNr7lLugqglxFm4PCYGsK3eblBGKYAXEGZX31mnTzSENZT\nhS0+VNkfFFCAfhPJZdXx\n=V7zL\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 133db6cc5ec5091d996ea89890900a8684b53a38\nparent e4c91e34bd5af8050954f7b724addd6085375ce5\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752410868 +0000\ncommitter GitHub <noreply@github.com> 1752410868 +0000\n\nYasuoHayamiさんの提案に基づき、障害年金・手帳更新の自動化を追記",
+          "verified_at": "2025-07-13T12:47:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/419641585a02778cb926e05fe0df2b7836342c14",
+      "html_url": "https://github.com/team-mirai/policy/commit/419641585a02778cb926e05fe0df2b7836342c14",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/419641585a02778cb926e05fe0df2b7836342c14/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e4c91e34bd5af8050954f7b724addd6085375ce5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e4c91e34bd5af8050954f7b724addd6085375ce5",
+          "html_url": "https://github.com/team-mirai/policy/commit/e4c91e34bd5af8050954f7b724addd6085375ce5"
+        }
+      ]
+    },
+    {
+      "sha": "9d29913af951186abfebfbe9eab16465c8d02b87",
+      "node_id": "C_kwDOOqTJvNoAKDlkMjk5MTNhZjk1MTE4NmFiZmViZmJlOWVhYjE2NDY1YzhkMDJiODc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-13T12:54:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-13T12:54:48Z"
+        },
+        "message": "YasuoHayamiさんの提案に基づき、障害者手帳更新の自動化とデジタルお薬手帳の導入を追記",
+        "tree": {
+          "sha": "1c503ea5bec06ee71a5062ff42387f0eeb904cb8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1c503ea5bec06ee71a5062ff42387f0eeb904cb8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9d29913af951186abfebfbe9eab16465c8d02b87",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc6yYCRC1aQ7uu5UhlAAAr+QQACVJoeMsPh6+73VCEzKI58xJ\n4T871xm6qsPZYnNb/JTg1Ke9jWJtnNTsKgi52mXSJ2mwjsLUDAWvZnRmskimCCja\nFBiSbqzPsPSsFbWCApDccDe1GRb1mNnOID6mFKw3l7H9VCsKLx+q9z+a06KRpErT\nDeD1Q+Xvv6BWQR3QdHdoMHufBpzegxjB1XAOVwNgPimeomc2pVMT7qviUMaOg/e3\nzkwlYKyLz9DF16pX46B5YB41K3l/74IQOcsVDoKsDmHY8r/qxLXkDg/maZvsTksN\nWBL8fF7gQ/wHuSJY6IS1ikDDiJNqFfZ77nf+KuJ9oybH7LsIPyRcL9n7Or4lXz+c\nWhczLlJCNinr7lpoaAO7YNnPxF8I67iSDavPt5/M5bljdujByR5fxKfUUwiwlC7B\n2LRGEXKHdiCmDVjVBfa3fbY14qxNPd13vRqsv7LH8jW0SAWL6fJwv8s+Eico/Cjj\njWa/+fRT5H8ImL2ixI5u5Cp9MEBX0SgBI+oIA7E+lHKdxOO518ZJo3een2S6E4dD\n/2sd7htWPkKUmmTor03VNCh3WXCVFp/Thn16fT+rvXtMfWmPHnesGLLd9gkQbxw8\ni/fuFCx3v7jjLrXvrJxZSdj4YlhfZOvYWuayVmufPEk9PC7f2hkZU2F0ipsnPoqH\nRKAmOTKkyM6/7fRV5ofJ\n=lLe4\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1c503ea5bec06ee71a5062ff42387f0eeb904cb8\nparent 419641585a02778cb926e05fe0df2b7836342c14\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752411288 +0000\ncommitter GitHub <noreply@github.com> 1752411288 +0000\n\nYasuoHayamiさんの提案に基づき、障害者手帳更新の自動化とデジタルお薬手帳の導入を追記",
+          "verified_at": "2025-07-13T12:54:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9d29913af951186abfebfbe9eab16465c8d02b87",
+      "html_url": "https://github.com/team-mirai/policy/commit/9d29913af951186abfebfbe9eab16465c8d02b87",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9d29913af951186abfebfbe9eab16465c8d02b87/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "419641585a02778cb926e05fe0df2b7836342c14",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/419641585a02778cb926e05fe0df2b7836342c14",
+          "html_url": "https://github.com/team-mirai/policy/commit/419641585a02778cb926e05fe0df2b7836342c14"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-13T13:23:49.164553"
+}
