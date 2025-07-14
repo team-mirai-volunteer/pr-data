@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 6436,
+    "title": "選挙運動のデジタル化：ポスター掲示の負担軽減と情報アクセス向上",
+    "state": "open",
+    "created_at": "2025-07-14T10:51:10Z",
+    "updated_at": "2025-07-14T10:51:11Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6436",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "2a89963a4352c96b1b28f767c96a55d9f43918c9",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 4,
+      "changes": 10,
+      "blob_url": "https://github.com/team-mirai/policy/blob/00d84b73722d241feb0bccfeeaf1b15bfd1e1847/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/00d84b73722d241feb0bccfeeaf1b15bfd1e1847/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=00d84b73722d241feb0bccfeeaf1b15bfd1e1847",
+      "patch": "@@ -187,10 +187,12 @@\n    * このような短期集中・多重入力の負担は、特に参議院選挙のように全国を対象とする選挙では、地方に拠点を構えることが困難な新興政党にとって大きな障壁となっています。\n * 移動・時間・費用面での制約が候補者の多様性を阻害\n    * 庁舎への訪問や書類の郵送などにかかる時間や費用は、物理的・経済的な負担となっており、地方在住者、海外在住の日本人、平日に時間を取りづらい層にとって立候補の大きなハードルとなっています。その結果、立候補機会における地域・環境間の格差が生じ、候補者の多様性確保にも影響を与えています。\n- * 証紙ビラなど“紙中心の運用”が人的・時間的リソースを圧迫\n+* 証紙ビラなど“紙中心の運用”が人的・時間的リソースを圧迫\n    * 選挙運動においても、証紙付きビラの貼付作業、ポスター掲示、ハガキの印刷・送付など、多くの工程が紙を前提としており、候補者・支援者にとって過大な物理作業となっています。\n      * 特に証紙ビラは、規定枚数分に1枚ずつ証紙を貼る必要があり、告示後の限られた時間の中で人手と時間を大量に消費します。\n+     * また、公営掲示板へのポスター貼付作業も、特に広範囲の選挙においては候補者や陣営にとって大きな負担です。政党の規模や動員力によって掲示状況に差が生まれ、選挙戦の終盤でもポスターが貼られていない事態は、有権者の情報アクセス機会の不平等を生んでいます。\n    * そのため、新人候補や地方・若年層の立候補機会を制度的に制限している構造につながっています。\n+   * さらに、有権者にとっても、各候補者の政策や主張を一覧で比較・検討できる中立的な情報プラットフォームが不足しており、情報収集が分断されがちです。\n \n ### 政策概要\n \n@@ -212,8 +214,8 @@\n    * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n * 選挙運動における“紙前提の制度”も段階的に見直します\n    * 証紙ビラの手貼り制度については、ビラへのシリアル番号・電子署名の一体印刷などによって、作業負担の軽減と真正性の確保を両立する仕組みへの移行を検討します。\n+   * ポスター掲示については、候補者間の格差を是正するため、公営掲示板の運営を見直し、駅や公共施設のデジタルサイネージ（電子看板）活用や、地域ごとの候補者情報を一覧できる「デジタルポスター掲示板」の導入を検討します。\n    * あわせて、法定枚数の上限制度を、ネット媒体と紙媒体を一体で管理できる費用上限制度へと再設計することも選択肢とします。\n+   * さらに、有権者が各候補者の政策や経歴、実績などを横断的に検索・比較できる中立な情報プラットフォームの構築を支援し、分断されがちな情報へのアクセスを容易にすることで、有権者の主体的な政治参加を促します。\n    * その際は、電子台帳による配布管理やログ保存を組み合わせることで、透明性を担保しつつ、現場の負担軽減と制度的信頼性の両立を図ります。\n-   * さらに、音声読み上げ・多言語対応などのアクセシビリティ施策を拡充することで、情報の届け方そのものを多様化し、「紙が前提」となっている現行制度を超えた、誰もがアクセスできる“開かれた選挙”の実現を目指します。\n-\n-\n+   * さらに、音声読み上げ・多言語対応などのアクセシビリティ施策を拡充することで、情報の届け方そのものを多様化し、「紙が前提」となっている現行制度を超えた、誰もがアクセスできる“開かれた選挙”の実現を目指します。\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "30b4ecac20ca16fb02b722bcd225fa0c6f801e2b",
+      "node_id": "C_kwDOOqTJvNoAKDMwYjRlY2FjMjBjYTE2ZmIwMmI3MjJiY2QyMjVmYTBjNmY4MDFlMmI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T10:42:28Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T10:42:28Z"
+        },
+        "message": "エテモンキーさんの提案に基づき、選挙のポスター問題と情報アクセスに関する課題と対応策を追記。",
+        "tree": {
+          "sha": "fe6ab6612778b51390f131344388ea640fb58b24",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/fe6ab6612778b51390f131344388ea640fb58b24"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/30b4ecac20ca16fb02b722bcd225fa0c6f801e2b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodN8UCRC1aQ7uu5UhlAAApOoQAJGSyqI/IWozUxjfgQ+T1fso\nzheG/CoIKChZsP1yBQars/6i7ENRDhioabIp3RECF8RqFu9N4q+phhukBOkXZJ5R\nkt3W+2YbmL05NxxdbPbDGP0fmhQTh19hyWcmp5/xrJyFcNKB3fFP4Joe0eleHMso\nWFiPZadLFtit/TC9qlW4un/M72eyffuRPlrvDDsC3dPoLA/Hkibux44FxIJLmSOY\nMqnRmgLwY3UOpesoOZuZaTzBShuVOLUSzqxE01klm1MjkULk9kQh+t166g6fAP8v\nbPLhjiiYNenH62LBUwKh/xXj61mlrIoRQApPtPq4igZBEwWnDd0OVnrDUkvkMGvP\no+YE3cF06QErVNGt8wgN7PXWpd6qzvb0C23//xY7pjsre4hjyC6IFgJ10Rf0hdnV\n5/PQgdlSRsEjRvXLRVsGWinh/Hu+dy7irVOpBYvL79RoIV6CREXw0DzOO2ikcD7E\n7dPCgC4MRZjGm3KpPA3x2A56uXdGC6753rhKiXpN5RcHEu62/9KHQ5PAWTPGhTif\nErgJPX1pmp7v5cI2GJ+DXwbEurrWC2J0gCd9sxmUnutk89TorVgNZgS1MlMGl0KN\nirMsoU3joSL9xzO1CJ1ZIA5hpvMdC/bTuhLYelDrm5QGd1FWINCZUbcpEY7Xf4JT\n+3gTEQtsxId6RCiQrx6G\n=eV13\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree fe6ab6612778b51390f131344388ea640fb58b24\nparent 597ecb68716d1002f0c8be75385f39d5f5a2c0bc\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752489748 +0000\ncommitter GitHub <noreply@github.com> 1752489748 +0000\n\nエテモンキーさんの提案に基づき、選挙のポスター問題と情報アクセスに関する課題と対応策を追記。",
+          "verified_at": "2025-07-14T10:42:29Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/30b4ecac20ca16fb02b722bcd225fa0c6f801e2b",
+      "html_url": "https://github.com/team-mirai/policy/commit/30b4ecac20ca16fb02b722bcd225fa0c6f801e2b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/30b4ecac20ca16fb02b722bcd225fa0c6f801e2b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "597ecb68716d1002f0c8be75385f39d5f5a2c0bc",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/597ecb68716d1002f0c8be75385f39d5f5a2c0bc",
+          "html_url": "https://github.com/team-mirai/policy/commit/597ecb68716d1002f0c8be75385f39d5f5a2c0bc"
+        }
+      ]
+    },
+    {
+      "sha": "00d84b73722d241feb0bccfeeaf1b15bfd1e1847",
+      "node_id": "C_kwDOOqTJvNoAKDAwZDg0YjczNzIyZDI0MWZlYjBiY2NmZWVhZjFiMTViZmQxZTE4NDc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T10:49:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T10:49:01Z"
+        },
+        "message": "エテモンキーさんの提案に基づき、選挙運動のデジタル化に関する記述を更新",
+        "tree": {
+          "sha": "7a8735eeb6b64323ce6e3ae5d777561ba1ea9282",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7a8735eeb6b64323ce6e3ae5d777561ba1ea9282"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/00d84b73722d241feb0bccfeeaf1b15bfd1e1847",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodOCdCRC1aQ7uu5UhlAAA3c8QAA9+lh0v63mvuJ9hoBFQhLvD\nBRo4ebrMlILA0Dxcez7rP4uegYG8idRpPOGDM/9HMyzGdsCgbpEIz+VTOWBfNW3d\nSdAiU4ED/8Q6R8bGOELPk97MCLJ4ssYiV5g/Nb3oLyklH2vcA/VyTurvujpYZUw5\nEusXASSs627FdlgUOGpaqXFadWK2nkoAsJ+r52bXSAgKrm7UTIwkVhItk+kvfM8X\nc5e8csTdaLncf5Y6z/kkCBJCF0swpA0PgUQACw1JY1WPcAwN9fVKo/F4ZFUrL9WK\nCGZp29NFgF+AYFCetJg41gxIfVHbRIF4ln0ZXzRGKZZdEXX+a8SbA0+ZPds4Ry/M\niXpJSgZyiJtwIRuHX9vXkwnjhGw/laUicQofDXCbH17sT/Ul+4/RqpltA8bvzo2/\nBBZUe4+sOXuMq0Zm0hgOsPsUevqkvrwg+UshzxkVDlPhxI0FsAmHiQbvwIwhQsbI\nUjTNnpGhm6sLVJ2KsbjdM3j1GJkidaZoHVS0oLG1yilS7Ysg/03oiTFyCGoQAStc\npNA6zvlppZ19mjLNqLgpZvzOQ3lpPxAiKePGtqsKiMkXDhi24eh6If6uDJL61UAG\nf8KNd8y+8o/h/Zuf0O/iEpJ1F9ckEI9+fNHeJav9Vbs/POZ+trHK2Gu2i9xQUpoN\npMQ2HX/qJhHlUrJpxMD6\n=/Vya\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7a8735eeb6b64323ce6e3ae5d777561ba1ea9282\nparent 30b4ecac20ca16fb02b722bcd225fa0c6f801e2b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752490141 +0000\ncommitter GitHub <noreply@github.com> 1752490141 +0000\n\nエテモンキーさんの提案に基づき、選挙運動のデジタル化に関する記述を更新",
+          "verified_at": "2025-07-14T10:49:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/00d84b73722d241feb0bccfeeaf1b15bfd1e1847",
+      "html_url": "https://github.com/team-mirai/policy/commit/00d84b73722d241feb0bccfeeaf1b15bfd1e1847",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/00d84b73722d241feb0bccfeeaf1b15bfd1e1847/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "30b4ecac20ca16fb02b722bcd225fa0c6f801e2b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/30b4ecac20ca16fb02b722bcd225fa0c6f801e2b",
+          "html_url": "https://github.com/team-mirai/policy/commit/30b4ecac20ca16fb02b722bcd225fa0c6f801e2b"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T10:53:54.727262"
+}
