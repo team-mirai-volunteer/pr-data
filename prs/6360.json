@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 6360,
+    "title": "エリクルさんの提案：AI育児相談ポータルに地域の居場所づくりの項目を追加",
+    "state": "open",
+    "created_at": "2025-07-14T07:10:58Z",
+    "updated_at": "2025-07-14T07:10:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6360",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "6249e5d0dba2689a00e1a0b3d589b3a99d3b103d",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/team-mirai/policy/blob/f522f334b62afc2051f0980cb927dc576cd52aa5/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/f522f334b62afc2051f0980cb927dc576cd52aa5/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=f522f334b62afc2051f0980cb927dc576cd52aa5",
+      "patch": "@@ -1,4 +1,3 @@\n-\\\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -25,7 +24,7 @@\n   * 希望者には従来の紙の母子健康手帳も引き続き提供し、選択できるようにします。\n * これにより、スマートフォン等からいつでもアクセス可能となり、保護者はもちろん、その配偶者や他の家族も、本人の同意のもとで必要な情報を共有できるよう設定できます。また、つわりの時期などに無理して役所の窓口等へ行く必要がなくなります。  \n * 妊婦健診の受診券・補助券も、対象者に自動的にデジタル付与する仕組みを構築し自治体に提供することで、手続きの手間を省きます。医師の診断情報を基に、必要な人に必要な回数の補助がいきわたる仕組みを構築します。\n-  *  なお、現在一部自治体のみにとどまっている「妊婦健診は原則全額公費負担」の拡大を目指し、必要財源の確保や国から自治体への交付の最適化を検討します。また、地域差や個々の状況によって大きく異なる出産費用についても実態把握を進め、必要に応じて出産育児一時金の金額や支給方法の見直しを含めた経済的支援策の充実を検討します。\n+  *  なお、現在一部自治体のみにとどまっている「妊婦健 welchenは原則全額公費負担」の拡大を目指し、必要財源の確保や国から自治体への交付の最適化を検討します。また、地域差や個々の状況によって大きく異なる出産費用についても実態把握を進め、必要に応じて出産育児一時金の金額や支給方法の見直しを含めた経済的支援策の充実を検討します。\n   *  より頻回の健診が必要となる多胎児妊娠のケースでは、現在も「多胎妊娠の妊婦健康診査支援事業」で追加分の健診費用の一部助成をしていますが、デジタル母子パスポート上で自動で最適枚数が付与される仕組みを実装することで、自治体間の差をなくしていきます。\n * 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n * 国が推進する医療DXとも連携し、マイナンバーカードを活用したお薬手帳とも連携します。これにより、より正確で迅速な情報共有を実現し、保護者の負担減・子どもの受ける医療の質向上を目指します。\n@@ -49,6 +48,7 @@\n * 相談内容から深刻なケースや専門的な支援が必要とAIが判断した場合には、保健師や心理士、ケアマネージャーなどの自治体の専門家へスムーズに接続する仕組みを構築します。特に、児童虐待が疑われるケースについては、AIが通報に必要な情報の整理を支援し、通報者の許可のもと、疑いのレベルに応じて児童相談所にレポートを自動で提出するシステムも検討します。これにより、通報の心理的・手続き的負担を軽減し、早期発見・介入を促進します。児童相談所側も、整理された情報に基づいて迅速に対応できるようになり、双方の負担軽減と連携強化を目指します。自治体と国とで密に連携し、デジタルの即時性と専門家による的確なサポートを両立させ、支援が必要な人に確実に届く体制を整えます。  \n * 利用者は妊産婦だけでなく、そのパートナーも対象とします。男性の育児ノイローゼなど、これまで光が当たりにくかった問題にも対応し、子育てに関わる誰もがSOSを出しやすい環境を作ります。\n * 産後うつなどのリスクが高い層には、相談を受けるだけでなく、プッシュ型で状況確認を行います。多胎児や早産児を育てている方、持病をお持ちの方や未婚の母など、プライバシーに配慮した形で母子の情報を集約し、「待ち」ではない相談体制を構築します。\n+* 地域の公園や図書館と連携し、親子が安心して集える「地域の居場所」づくりを進めます。親子向けイベントの情報提供や、施設の設備改善の働きかけを通じて、気軽に立ち寄り、保護者同士が自然につながれる機会を創出します。\n * 対応する専門家自身も、在宅でのチャットや電話対応など、柔軟な働き方で相談業務を行えるような環境整備も検討します。\n \n ## ３）全国版保育マッチングプラットフォームを構築します"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "72f9ff13dedd3205ff4489ad6b348fd4f0050533",
+      "node_id": "C_kwDOOqTJvNoAKDcyZjlmZjEzZGVkZDMyMDVmZjQ0ODlhZDZiMzQ4ZmQ0ZjAwNTA1MzM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T07:05:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T07:05:42Z"
+        },
+        "message": "エリクルさんの提案に基づき、「地域の居場所づくり」に関する記述を追加",
+        "tree": {
+          "sha": "56d6e9f2c5a923a5dad56c16ca91fc9675804094",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/56d6e9f2c5a923a5dad56c16ca91fc9675804094"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/72f9ff13dedd3205ff4489ad6b348fd4f0050533",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodKxGCRC1aQ7uu5UhlAAAeOsQABsOTdEEeQsTMYKLFib48Ws7\nsq39W8qiDqoJD3ANpVn28yanuH1Z7qW9bLFWDTZMT79weP2URzJS7XVCq50oygCb\nMt6CWzj18uFP1v5WaOeNAPAh7YE3AFUvMTwQJyD/VknuRS9vAvZKQAFESxMeEqnO\nOpdWoSurxKK5wblWzRiKwx6TZiA0L/dVblEhepfqM0owXa85/yv/ti9UMQR6Vn5y\ncJRzpkk6tvAGOuyxgE5Mz5vC2ofNYEB1718nuiD2arBAuFUZFcsubzmcuIf+OXi3\nSupsZni1qvDni8sOY5Rzxn+pfsYy5ZdiG3QE1OJ27AlHV4nb1FBM0dv3CwZWs5Tz\nii5Mwf3bY30/C+EzyhaAArCBmveY/0ql2Q8ZXSKhM5Lhgb8bPVLk5vFFFUm+QJzM\n8+TRXHPfCwEsgMLmk7u1UTxVfnPse9Zi9C2OGyrV4uswwE2zkOM2mjPx6PUhuArB\n0lT21q0lbEUk5uW5MyhLiw0pY21ETImdr2ZhfhJc1DhfvkB6XjA3DJ8Bbrx22kU+\nowuvETUvcjfGgjwnzrGxXhClG66YmcOycAh4IJKIOjNC9xasr4pgEuikJ4CISAOx\nwEPicKmNO9/fcOX6gColQA7miy6tSe8Mk8P2cjkNGouwAYkjsDpsaKWxnCb6iQf/\n2kl9jySGl45x/YSfqnpz\n=9VuP\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 56d6e9f2c5a923a5dad56c16ca91fc9675804094\nparent 2a74b583f873842c85eb3fd6a849892f011cc4aa\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752476742 +0000\ncommitter GitHub <noreply@github.com> 1752476742 +0000\n\nエリクルさんの提案に基づき、「地域の居場所づくり」に関する記述を追加",
+          "verified_at": "2025-07-14T07:05:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/72f9ff13dedd3205ff4489ad6b348fd4f0050533",
+      "html_url": "https://github.com/team-mirai/policy/commit/72f9ff13dedd3205ff4489ad6b348fd4f0050533",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/72f9ff13dedd3205ff4489ad6b348fd4f0050533/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "html_url": "https://github.com/team-mirai/policy/commit/2a74b583f873842c85eb3fd6a849892f011cc4aa"
+        }
+      ]
+    },
+    {
+      "sha": "f522f334b62afc2051f0980cb927dc576cd52aa5",
+      "node_id": "C_kwDOOqTJvNoAKGY1MjJmMzM0YjYyYWZjMjA1MWYwOTgwY2I5MjdkYzU3NmNkNTJhYTU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T07:07:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T07:07:21Z"
+        },
+        "message": "エリクルさんの意見を反映し、「地域の居場所」に関する記述を追加",
+        "tree": {
+          "sha": "36785cab944a815cf0a0a47abf793d187f258943",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/36785cab944a815cf0a0a47abf793d187f258943"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f522f334b62afc2051f0980cb927dc576cd52aa5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodKypCRC1aQ7uu5UhlAAA4J0QAJp9tgfFlrvpQsHm/09G0cD3\nxyvXk9r3qTXGLzH9vb4bVQwLdrke0VGJAWqRiyIBO702QUcWE9UrAQY9SFWqCx81\nZlT79SuKTrLKqFQc69b4teqd6yNFSowpcsJ5vXyPOr5YfwZZNIs9jxqqtoj9pvCs\nfe4xK+JQvq+ioSw1fQZzThyZY4LwpBkcDmzXYSBni+HHyvVmQR1pdsq1wsiJjKOC\n2HqNMBaiqGk03XDK+FH5vfiemKZwFmwtZ9pYKsaAG5p/0mzg0cjNFGrTb8WM6Skf\npVkoeeiucSYGMSClUAydo3ac5yKVGlMBtAhGGxp0Si/NWTvaSZAkwnbbyuRm8VSN\nP9jwVWZYzwZGT4lOMcLOT0hxC713bRH10b3NgH+U3nL6GSDxLVxuUHJjw8Lw5Ms8\n0WVtzzsYmIsxRw8pKJM6MxOD+PNc2XfxMv/q0Jc9MyPohic6Ko/J4sQVMBqwfI66\nglCApP+/epp/mLIwaVy05NCnHg4uq15NnIj2W4sZFZR5BBG6NSf7k6FstvhxLzeG\nfXAiIWuZAbLy1KodzAYjxlEybXCql39loSyk2dtSr7hgqd2vzFc5xgWWpJPTwA/+\nsyCQJUo5ZGLEmEYgtP5Qfp+WtxjlsxC6s6Mj6Xkcc1wfyqg7kAQfL4xTs4v5W17v\ni9aSwVkKdxWG7yRNmgtk\n=ebjV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 36785cab944a815cf0a0a47abf793d187f258943\nparent 72f9ff13dedd3205ff4489ad6b348fd4f0050533\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752476841 +0000\ncommitter GitHub <noreply@github.com> 1752476841 +0000\n\nエリクルさんの意見を反映し、「地域の居場所」に関する記述を追加",
+          "verified_at": "2025-07-14T07:07:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f522f334b62afc2051f0980cb927dc576cd52aa5",
+      "html_url": "https://github.com/team-mirai/policy/commit/f522f334b62afc2051f0980cb927dc576cd52aa5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f522f334b62afc2051f0980cb927dc576cd52aa5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "72f9ff13dedd3205ff4489ad6b348fd4f0050533",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/72f9ff13dedd3205ff4489ad6b348fd4f0050533",
+          "html_url": "https://github.com/team-mirai/policy/commit/72f9ff13dedd3205ff4489ad6b348fd4f0050533"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T07:17:48.375676"
+}

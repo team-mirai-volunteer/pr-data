@@ -1,0 +1,365 @@
+{
+  "basic_info": {
+    "number": 6355,
+    "title": "【れあさん提案】「3歳まで育休選択制」の新設と、計画的な保育体制への転換",
+    "state": "open",
+    "created_at": "2025-07-14T06:50:21Z",
+    "updated_at": "2025-07-14T07:13:43Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6355",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "96b3d63a6b5c56478181d0ba84aaadc44b8984a1",
+      "filename": "12_ステップ１子育て.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 12,
+      "changes": 25,
+      "blob_url": "https://github.com/team-mirai/policy/blob/23bc95baffcd1a9bc3da20fc5faa8a053b625b42/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/23bc95baffcd1a9bc3da20fc5faa8a053b625b42/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/12_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=23bc95baffcd1a9bc3da20fc5faa8a053b625b42",
+      "patch": "@@ -1,4 +1,4 @@\n-\\\n+\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n@@ -16,7 +16,7 @@\n \n * 現在の母子手帳は紙媒体が主流であり、妊娠中の体調が不安定な時期に受け取りに行く手間や、紛失のリスクがあり、それによってワクチン接種記録などが確認できず、適切な時期に必要な医療や予防接種が受けられなくなるケースがあります。  \n * また、妊婦健診の受診券・補助券の手続きや、産後の煩雑な予防接種のスケジュール管理、医療機関での予診票の都度記入など、アナログな手続きが保護者の負担となっています。体調がすぐれなかったり忙しい時期に何度も名前や住所を繰り返し書く作業は、負担として蓄積しています。  \n-* また、妊娠の経過によっては妊婦健診の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n+* また、妊娠の経過によっては妊婦健隠の回数が増え、自治体から発行されている受診券・補助券の枚数が不足し全額自己負担となるケースがあり、経済的にも負担になっています。さらに、出産にかかる費用は、地域によって大きく異なるだけでなく、個々の妊娠経過（合併症の有無、帝王切開、入院期間の延長など）によっても大きく変動します。しかし、現在の出産育児一時金は一律支給であり、こうした個別の負担増に十分対応できていないという課題があります。\n \n ### 政策概要\n \n@@ -29,7 +29,7 @@\n   *  より頻回の健診が必要となる多胎児妊娠のケースでは、現在も「多胎妊娠の妊婦健康診査支援事業」で追加分の健診費用の一部助成をしていますが、デジタル母子パスポート上で自動で最適枚数が付与される仕組みを実装することで、自治体間の差をなくしていきます。\n * 産後の予防接種スケジュールも、厚生労働省が推奨する標準的なロードマップを基に、パスポート内で分かりやすく管理します。適切な接種時期が近づいた際のプッシュ通知はもちろん、ワクチンの種類ごとの接種間隔や同時接種の可否といった複雑な情報も明示します。また、保育園の行事など個別の予定を登録することで、それらと重複しないように接種計画の調整を助ける機能も提供します。さらに、予防接種の予診票もオンラインで事前入力可能とし、住所や氏名などの基本情報を毎回記入する手間をなくし、医療機関での待ち時間短縮・自治体の予診票送付などの事務工数削減にもつなげます。\n * 国が推進する医療DXとも連携し、マイナンバーカードを活用したお薬手帳とも連携します。これにより、より正確で迅速な情報共有を実現し、保護者の負担減・子どもの受ける医療の質向上を目指します。\n-* また、医療機関での受診履歴や検査結果などの情報を保護者の同意のもとで行政と共有することにより、発達障害が認められる場合など、特定の条件を満たす家庭に対して、特別児童扶養手当や児童福祉手当などの経済的支援が自動的に届くようなプッシュ型の支援体制の構築を目指します。子育てや、何らかの困難を抱える保護者にとって、複雑で多岐にわたる申請手続きは、時に必要な支援策の存在に気づけない、あるいは申請を諦めてしまうといった事態を生み出すほどの大きな障壁となっています。こうした申請主義の課題を克服し、必要な支援が迅速かつ確実に届くようにします。\n+* また、医療機関での受診履歴や検査結果などの情報を保護者の同意のもとで行政と共有することにより、発達障害が認められる場合など、特定の条件を満たす家庭に対して、特別児童扶養手当や児童福祉手当などの経済的支援が自動的に届くようなプッシュ型の支援体制の構築を目指します。子育てや、何らかの困難を抱える保護者にとって、複雑で多岐にわたる申請手続きは、時に必要な支援策の存在に気づけない、あるいは申請を諦めてしまうといった事態を生み出すほどの大きな壁になっています。こうした申請主義の課題を克服し、必要な支援が迅速かつ確実に届くようにします。\n * なお、デジタル母子パスポートの運用にあたっては、子ども自身の情報アクセス権を尊重し、成長段階に応じた情報共有のあり方について、関係者間で検討を深めます。\n \n ## ２）AIと専門家によるハイブリッド型育児相談ポータルを設置します\n@@ -51,18 +51,19 @@\n * 産後うつなどのリスクが高い層には、相談を受けるだけでなく、プッシュ型で状況確認を行います。多胎児や早産児を育てている方、持病をお持ちの方や未婚の母など、プライバシーに配慮した形で母子の情報を集約し、「待ち」ではない相談体制を構築します。\n * 対応する専門家自身も、在宅でのチャットや電話対応など、柔軟な働き方で相談業務を行えるような環境整備も検討します。\n \n-## ３）全国版保育マッチングプラットフォームを構築します\n+## ３）「育休か、保育園か」を3歳まで毎年選べる社会へ。時間と、お金と、安心を。\n \n ### 現状認識・課題分析\n \n-* 保護者にとって、希望する時期に子どもを預けられる保育所を見つける「保活」は、依然として大きな負担です。また、日常的な保育だけでなく、育児疲れをリフレッシュするための一時預かりなどのニーズも高まっていますが、空き状況の把握や予約が難しいのが現状です。  \n-* 一方で、保育現場では人手不足が深刻化しており、資格を持ちながらも様々な理由で現場を離れている「潜在保育士」の存在も課題となっています。\n+* 「可愛い盛りを、お金を払って他人に預けて自分は働かないといけないなんて残酷」「時間もお金もないのに子供が増えるわけがない」。これは、今の日本で子育てをする多くの親の、魂の叫びです。子育て世帯の8割で母親が働く現代、それは選択ではなく、「働かなければ生活できない」という現実です。\n+* 生後まもない子どもを長時間、集団で預けることは、子どもの心身に深刻な負担を及ぼすリスクがあります。繰り返す感染症により、滲出性中耳炎や肺炎、川崎病など、重症化するケースも後を絶ちません。それは親にとっても、看病による心身の疲弊、有給休暇の枯渇と欠勤による収入減、キャリアの断絶という、過酷な現実をもたらします。\n+* そんな状況で、どうして「次の子を産もう」と思えるでしょうか。働きながらの妊娠・出産は、つわりや切迫早産のリスクと隣り合わせの壮絶な戦いです。「キャパオーバー」で、二人目、三人目を諦めざるを得ない家庭が数多く存在することが、少子化の根本的な原因です。\n+* 加えて、保護者は理不尽な「保活」競争に疲弊し、生まれ月によって入園の有利不利が決まる「生まれ月ガチャ」に翻弄されています。「保育園に預けて働く」という一本道しかないかのような社会のあり方が、親子を追い詰めています。\n \n ### 政策概要\n \n-* 全国の認可保育所、企業主導型保育、ベビーシッターなどの登録情報を集約し、空き状況をリアルタイムで可視化する「保育マッチングプラットフォーム」を構築します。  \n-  * 出産施設を探す「出産なび」のような情報一元化を目指していきます  \n-* これにより、保護者は地域や条件に合わせて、スマートフォン等から簡単に預け先を探すことができ、「保活」の負担を大幅に軽減します。一時預かりや病児保育などの情報も集約し、必要な時にすぐにサポートへ繋がれる体制を整え、育児負担の軽減を図ります。\n-  * 多胎児家庭など育児の手が足りないことが想定される家庭には、仮に保育の希望がでていなくとも、プッシュ通知などで優先的に一時預かりやベビーシッター派遣の情報を届け、必要な支援につながれる仕組みを目指していきます  \n-* 同時に、保育士資格を持つ潜在保育士の皆さんに活躍して頂けるよう、柔軟な働き方の実現方法を検討します。例えば、所属する園を一つに絞らずに複数の園で状況に応じて支援をするマッチング機能を実装します。子どもとの継続的な関係構築を考慮し、担当業務を限定する、園の正保育士と必ずペアで行動するなど、慎重な制度設計を行います。  \n-* 潜在保育士の方を中心に、リモートで各園の事務業務を代行する保育事務アウトソース事業を国として推進します。自身の子育てなどで保育士の職を離職せざるを得なかった方々にも、保育士としてのご経験や知識を活かして異なる形で保育の現場を支える役割を担って頂けないかを対話を通じて検討し形にしていきたいと考えます。\n+* **「3歳までの育休選択制」を創設し、子育ての選択肢を国民の手に返します。** 保護者は毎年4月のタイミングで、「育児休業を延長する」か「保育園に入園する」かを、家庭の状況に合わせて自由に選択できる権利を保障します。\n+* **入園時期を「1歳・2歳・3歳の4月」に原則化します。** これにより、「生まれ月ガチャ」による不公平を完全に撤廃し、自治体や保育園は計画的な受け入れ体制を整備できます。「次に入れないかもしれないから」という不安から、無理に子どもを預ける必要はなくなります。熾烈な「保活」は、過去のものにします。\n+* **育休延長を支える、大胆な経済支援を行います。** これまで「0歳児保育」に投入されてきた莫大な公費（税金）を財源とし、育休を選択した家庭に十分な育児休業給付金を支給します。これにより、経済的な理由で「預ける」選択をせざるを得ない状況をなくし、家庭で子どもと過ごす時間を大切にしたいと願う全ての親を支えます。\n+* **保育士不足と待機児童問題を、根本から同時解決します。** この政策転換により、最も手厚い人員配置が必要な「0歳児保育」の需要が大幅に減少します。結果として保育士の絶対数が足りないという構造的な問題が解消に向かい、保育士一人ひとりの負担が軽減され、離職を防ぎます。生まれた人的リソースを1歳以上のクラスに振り分けることで、待機児童問題の解消にも繋がり、保育全体の質の向上を実現します。\n+* **多様な支援へのアクセスを確保します。** この新しい制度を土台としつつ、一時預かり、病児保育、ベビーシッターや家事代行サービスなど、必要な時に必要なサポートを選べる「保育マッチングプラットフォーム」の整備も進め、子育てに関わる全ての人の負担を軽減します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "d23a356e69a2d43f19801b4aa4bef68f11879e19",
+      "node_id": "C_kwDOOqTJvNoAKGQyM2EzNTZlNjlhMmQ0M2YxOTgwMWI0YWE0YmVmNjhmMTE4NzllMTk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T06:17:32Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T06:17:32Z"
+        },
+        "message": "れあさんの意見を元に、1歳4月入園を原則とする提案を追記",
+        "tree": {
+          "sha": "d28734a2767e854a5a7154b1d0b9d8f1aada1ee3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d28734a2767e854a5a7154b1d0b9d8f1aada1ee3"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d23a356e69a2d43f19801b4aa4bef68f11879e19",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodKD8CRC1aQ7uu5UhlAAAa48QAA2Ovvh1NFx5v9oWNw1Ks/WL\neUQLHh9dhX3Omp+GNIcW0PCLIeHQ5A/oidsA2FjDXycY4UEX6vfO2bTPC1n59zC+\nL/7upYuV8orF9YuGGLsbagG3e5DMMMOgYpYx5r6RMd8aWdeAUUBOyzoZnliOZvTL\nXAwWhIIu1htf0sLsUrNHtdsz7c7rQYQ1uMa1NoIyg4k1Nbjos/NnbEhQ4mN+KRHF\nFqgNo/CXmyilbXlVTjF5m5act/qaMDk6QsLGWhqpqRmu1EiHKdj8aTCbHWToeIx7\nY8ysiASrO+M8wEorMN6sqO6txWmWUZViDMsLoM5JXW/v6C1CsJDH+36+GfbdnRme\nlncUfbcautKyJlS0kWkHvnzPW6FcRY7dyoP54VTMHyndgWTcznBvp+fYWtCXuGoO\nN2rWjOKNq+sL2gy1cCQeD525sMokvRdL0rzXyXDoc2lCLz16wRzb1nvLVhLgmm6L\nKcAWwGqW5A3jtibminUXsSTaqGAfM4eLrC5r5t7t+oa1JF36JJL0ZMGlUHSkucCe\nhJ6pzy9BkuEM1SCPLYvtH/gnGjVCvH5IxXcxm7EjspCM2CbIHMAcnIxUAE9r7NX0\nNnb44erhCqwkmDl3KJBz7m1qoi/YundKOayuXGmiY+i96kc7JbKo6DPnsrZlA9D4\n+h5VJpl46dlLuk7CoOpo\n=vENK\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d28734a2767e854a5a7154b1d0b9d8f1aada1ee3\nparent 2a74b583f873842c85eb3fd6a849892f011cc4aa\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752473852 +0000\ncommitter GitHub <noreply@github.com> 1752473852 +0000\n\nれあさんの意見を元に、1歳4月入園を原則とする提案を追記",
+          "verified_at": "2025-07-14T06:17:33Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d23a356e69a2d43f19801b4aa4bef68f11879e19",
+      "html_url": "https://github.com/team-mirai/policy/commit/d23a356e69a2d43f19801b4aa4bef68f11879e19",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d23a356e69a2d43f19801b4aa4bef68f11879e19/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "html_url": "https://github.com/team-mirai/policy/commit/2a74b583f873842c85eb3fd6a849892f011cc4aa"
+        }
+      ]
+    },
+    {
+      "sha": "ab668087eb3f7bd8678cdc26577c4bd4041c3af0",
+      "node_id": "C_kwDOOqTJvNoAKGFiNjY4MDg3ZWIzZjdiZDg2NzhjZGMyNjU3N2M0YmQ0MDQxYzNhZjA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T06:35:15Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T06:35:15Z"
+        },
+        "message": "れあさんの提案を反映：3歳まで選択できる育休制度と計画的な保育体制の導入",
+        "tree": {
+          "sha": "aab3136c46d7ad566875518af3726c99636eb701",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/aab3136c46d7ad566875518af3726c99636eb701"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ab668087eb3f7bd8678cdc26577c4bd4041c3af0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodKUkCRC1aQ7uu5UhlAAAq3kQACsxNpuKOKb2UnOemDjFClyM\nhTWfH2GibEeqm9b3BZ31SUvAKbfgI2OS/jtxHRA7FbEfW+TLw3X4G3rk+1jAeWB4\nwtGLFRRrUk/fE0iZScwae47OWr6AxsK3oEJMCPKLeVBE4Jg9uWbiSDDrvW1t4m6U\nbdSsXlVJUNMsFafn+EQJSrWbBuqErd15DtM1EhMSbyg256VgyLPMDvQid9ScdOlV\npe6/7BLR8a4YDp07MupVQV/L/E7jJBXOOVLB5dYBUIulWqitbMRVu9D2vGzO+h/X\nws3j4XcTlLHHQMR+vomrOPYSm0+kCywrZtpeXkDLCZ9gd/nWgtJJ42nczehvGFic\nVXW4Lxj2yOfZur1PIxqFShgtu5qeTs6SjByhfoyDSRw2xlor5ahutYIJCoI/BPid\njfbEzZhZ2JSV/ZhV/3JpC555G2Zhn2BHABMAIUQah1KmhCBBOD8StpoD7KqQ2EvX\nFrRBTV58QtF/q3Y6491AcVTLlLGDpYhJebNa87UrhL6XwbuVMi2GAbAqPTlgAjVv\nXVqLvuRKzR3L+TWpb11BhF/Jz/ggZ8umHQdCkQ4/SM42deVRPMDJbj7lq91g6RJA\nA+CZkCmftb022Hc2OBFa6KIIxC1mx1jVWZa+MVDOtSFoguI5O1oSkUleDKYCghH/\n/OonMISTGMoTluCruUwW\n=wPdQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree aab3136c46d7ad566875518af3726c99636eb701\nparent d23a356e69a2d43f19801b4aa4bef68f11879e19\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752474915 +0000\ncommitter GitHub <noreply@github.com> 1752474915 +0000\n\nれあさんの提案を反映：3歳まで選択できる育休制度と計画的な保育体制の導入",
+          "verified_at": "2025-07-14T06:35:16Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ab668087eb3f7bd8678cdc26577c4bd4041c3af0",
+      "html_url": "https://github.com/team-mirai/policy/commit/ab668087eb3f7bd8678cdc26577c4bd4041c3af0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ab668087eb3f7bd8678cdc26577c4bd4041c3af0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d23a356e69a2d43f19801b4aa4bef68f11879e19",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d23a356e69a2d43f19801b4aa4bef68f11879e19",
+          "html_url": "https://github.com/team-mirai/policy/commit/d23a356e69a2d43f19801b4aa4bef68f11879e19"
+        }
+      ]
+    },
+    {
+      "sha": "71652e7a31f7a4da373af15a43a8e47b0071376f",
+      "node_id": "C_kwDOOqTJvNoAKDcxNjUyZTdhMzFmN2E0ZGEzNzNhZjE1YTQzYThlNDdiMDA3MTM3NmY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T06:37:48Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T06:37:48Z"
+        },
+        "message": "政策見出しと内容を更新 by れあ",
+        "tree": {
+          "sha": "6c77a29637cd9c6b5607b155f4a4299b2b6aaade",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6c77a29637cd9c6b5607b155f4a4299b2b6aaade"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/71652e7a31f7a4da373af15a43a8e47b0071376f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodKW8CRC1aQ7uu5UhlAAAVD0QAGjRC8+5KbE6mg5pVOA03uRl\n6KoEAN07prF44Xe9E/+Qysm8/d/43ISwo3L42IdRiz0HQdbfuBn7d4ZI3eWVSfzq\nC3kPzT9dDbLD4ccZkB3EeZghf2zQqlV2ijZxIeRkyQOwGlzqQk+0yKMJUmaPXztz\nr36G3JYuD6o3uayZAbRwX1i7VSH0iq5N357oOVmoKomVtI9i8ayqYqP4Ry8lJUNI\nKG4qeUwOV7ZKXtSSnHREQ8A/+24OJzS1pg7XdnGueJXAi451PlVf4i3My5k1mUD1\nGkjUQA+R9xTO+NWRTqkV9MM4IAAdNl0PFZkaNHF2aUq7B7r1igvTbjIH5iNC6cPA\nlhvRRewz+Y/Mwr4nY4hmetfKT0rd0c2MmDdBzv546/0iNTG4ri+otx7ZTjI69I5k\nK2j01CRdpcA7iVvzBI8jYwYlh3CkGao2ts3VAQ8bD/LtzJ//lT53LXxvjakVK8Cg\nLzathZx04TxONcO7s6nYYdIT/ftdJPJyQx7JcqFXDP/v1nMpMByTeUeaPoJhVuEz\nycODC9k6My6nUv46KhQwdmRRTVZpp8IrbiaustxWoXON8P60TEYvt8FDVCc2qaOU\n7QH82CLGT998asBbvLAYr/PGfGMNo2bevCODIv6xO9ERGyI7nnxX7q1hkM/Gugog\nppGin3UVzT1HBJ7O6Wy8\n=Nue0\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 6c77a29637cd9c6b5607b155f4a4299b2b6aaade\nparent ab668087eb3f7bd8678cdc26577c4bd4041c3af0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752475068 +0000\ncommitter GitHub <noreply@github.com> 1752475068 +0000\n\n政策見出しと内容を更新 by れあ",
+          "verified_at": "2025-07-14T06:37:48Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/71652e7a31f7a4da373af15a43a8e47b0071376f",
+      "html_url": "https://github.com/team-mirai/policy/commit/71652e7a31f7a4da373af15a43a8e47b0071376f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/71652e7a31f7a4da373af15a43a8e47b0071376f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "ab668087eb3f7bd8678cdc26577c4bd4041c3af0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/ab668087eb3f7bd8678cdc26577c4bd4041c3af0",
+          "html_url": "https://github.com/team-mirai/policy/commit/ab668087eb3f7bd8678cdc26577c4bd4041c3af0"
+        }
+      ]
+    },
+    {
+      "sha": "23bc95baffcd1a9bc3da20fc5faa8a053b625b42",
+      "node_id": "C_kwDOOqTJvNoAKDIzYmM5NWJhZmZjZDFhOWJjM2RhMjBmYzVmYWE4YTA1M2I2MjViNDI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T07:13:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T07:13:42Z"
+        },
+        "message": "れあさんの提案に基づき、3歳までの育休選択制と計画的保育体制の導入を反映。0歳児保育の財源を育休手当に振り分けるという核心的なアイデアを盛り込み、子育て政策を抜本的に見直しました。",
+        "tree": {
+          "sha": "e2bd7366bad314f17142ef0a2d49524993377fb3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e2bd7366bad314f17142ef0a2d49524993377fb3"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/23bc95baffcd1a9bc3da20fc5faa8a053b625b42",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodK4mCRC1aQ7uu5UhlAAAmIEQAJTxeEFbhcx6QXp3IlNMZ027\nrS7p0X7E0+YJ16nIJn26GU3RGPswwTfKxiS4ULatZIjIccCbMBBiyS9YwQSbjZlF\nd6BM8EcCj0535Pd6+cE9j3fEOEK2maT9Z2Eybn0L9F5ZgkUO6gOkW5G9+S4VGOoy\n/2egLrIhTxxf/6WEz1pR7andRXLvx0KpGDao+OSSWU3NIxV8gXmDG7lpNUwVJXyx\nbQXmLUEj2+5sF/8Uw7bofdMYWtfIwqEr1nJnEebKiOiFqFR1UHMCWChcXsC7TfQJ\n/eRf11wRFFdFFW3a92vld48NCpthZzQuiyGRb7aZAXNvH8/0P1IS+jLZheZRYpOt\nNtIMp3Oj0LSqK0GK0dx1Gb98TsR1mJQyjp7ZgVZS9Gj2JReTjgdtxxjiBcial0Xz\nO6becakK0BNNxehuLK3doeTMHRTLMR2UFX7Ir7Sb8akhFMXJnFxW66l8RlXuq9bh\npR3QfXH7Ail6Ybdwc5NMC3Rgpj/Q9q0Kjz7D+GJdrkRg8Xg1tWRK3iXx/G/qSjOL\n8PQm1QvyFyeAMjp8jZtnP/D7OGDP9TN0yRXkaZsWz3KDUxm5kAkLlzmt/vtJXAOZ\nEKoG8bodyv9Ae4GuN25/fbjkCL7sS7D1Kf74DZxuJq28DcaWomR0Q/0w8Zl0SYil\nbV9zgO7qD+zV5hoP10I9\n=Ja5P\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e2bd7366bad314f17142ef0a2d49524993377fb3\nparent 71652e7a31f7a4da373af15a43a8e47b0071376f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752477222 +0000\ncommitter GitHub <noreply@github.com> 1752477222 +0000\n\nれあさんの提案に基づき、3歳までの育休選択制と計画的保育体制の導入を反映。0歳児保育の財源を育休手当に振り分けるという核心的なアイデアを盛り込み、子育て政策を抜本的に見直しました。",
+          "verified_at": "2025-07-14T07:13:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/23bc95baffcd1a9bc3da20fc5faa8a053b625b42",
+      "html_url": "https://github.com/team-mirai/policy/commit/23bc95baffcd1a9bc3da20fc5faa8a053b625b42",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/23bc95baffcd1a9bc3da20fc5faa8a053b625b42/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "71652e7a31f7a4da373af15a43a8e47b0071376f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/71652e7a31f7a4da373af15a43a8e47b0071376f",
+          "html_url": "https://github.com/team-mirai/policy/commit/71652e7a31f7a4da373af15a43a8e47b0071376f"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T07:17:43.958930"
+}

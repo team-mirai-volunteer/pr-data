@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 6316,
+    "title": "改善: X投稿通知の条件を最適化",
+    "state": "closed",
+    "created_at": "2025-07-14T05:05:39Z",
+    "updated_at": "2025-07-14T05:17:50Z",
+    "closed_at": "2025-07-14T05:17:50Z",
+    "merged_at": "2025-07-14T05:17:50Z",
+    "html_url": "https://github.com/team-mirai/policy/pull/6316",
+    "user": {
+      "login": "chaspy",
+      "id": 10370988,
+      "html_url": "https://github.com/chaspy"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "d61875f81b09c98350c415d5daaa35ec95cf7ea2",
+      "filename": ".github/workflows/post-to-x.yml",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "changes": 12,
+      "blob_url": "https://github.com/team-mirai/policy/blob/d3db1c26618b6ad8a4ec2fb69779285e5e067a79/.github%2Fworkflows%2Fpost-to-x.yml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/d3db1c26618b6ad8a4ec2fb69779285e5e067a79/.github%2Fworkflows%2Fpost-to-x.yml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fworkflows%2Fpost-to-x.yml?ref=d3db1c26618b6ad8a4ec2fb69779285e5e067a79",
+      "patch": "@@ -4,16 +4,16 @@ on:\n   pull_request_target:\n     types: [closed]\n     branches: [main]\n-    paths-ignore:\n-      - '.github/**'\n-      - '.tools/**'\n-      - '.meta/**'\n+    paths:\n+      - '[0-9]*.md'\n \n jobs:\n   post-to-x:\n     runs-on: ubuntu-latest\n-    # マージされたPRのみX投稿を実行する\n-    if: github.event.pull_request.merged == true\n+    # マージされたPRのみX投稿を実行する（skip-notificationラベルがついていない場合）\n+    if: |\n+      github.event.pull_request.merged == true &&\n+      !contains(github.event.pull_request.labels.*.name, 'skip-notification')\n     steps:\n       - name: Checkout\n         uses: actions/checkout@v4"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "d3db1c26618b6ad8a4ec2fb69779285e5e067a79",
+      "node_id": "C_kwDOOqTJvNoAKGQzZGIxYzI2NjE4YjZhZDhhNGVjMmZiNjk3NzkyODVlNWUwNjdhNzk",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-14T05:04:36Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-14T05:04:36Z"
+        },
+        "message": "改善: X投稿通知の条件を最適化\n\n- 対象ファイルを政策ファイル（数字で始まるMarkdown）のみに限定\n- skip-notificationラベルがついたPRは通知対象から除外\n\nこれにより、軽微な修正やシステムファイルの変更が誤って通知されることを防ぎます。\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+        "tree": {
+          "sha": "6986a2d949b0d71128030b0fa1e80b474a169880",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6986a2d949b0d71128030b0fa1e80b474a169880"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d3db1c26618b6ad8a4ec2fb69779285e5e067a79",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d3db1c26618b6ad8a4ec2fb69779285e5e067a79",
+      "html_url": "https://github.com/team-mirai/policy/commit/d3db1c26618b6ad8a4ec2fb69779285e5e067a79",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d3db1c26618b6ad8a4ec2fb69779285e5e067a79/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4d5b6a1fee7b524440b222feeb57edca07725544",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/4d5b6a1fee7b524440b222feeb57edca07725544",
+          "html_url": "https://github.com/team-mirai/policy/commit/4d5b6a1fee7b524440b222feeb57edca07725544"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T07:18:52.876796"
+}
