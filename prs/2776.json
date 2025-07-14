@@ -2,10 +2,10 @@
   "basic_info": {
     "number": 2776,
     "title": "永田町エンジニアチームにUKの先行事例を参考に専門家の知見を導入する仕組みを追記",
-    "state": "open",
+    "state": "closed",
     "created_at": "2025-06-23T08:32:31Z",
-    "updated_at": "2025-07-10T01:05:42Z",
-    "closed_at": null,
+    "updated_at": "2025-07-14T13:04:22Z",
+    "closed_at": "2025-07-14T13:04:21Z",
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/2776",
     "user": {
@@ -25,26 +25,72 @@
       "description": ""
     }
   ],
-  "comments": [],
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3069545518",
+      "html_url": "https://github.com/team-mirai/policy/pull/2776#issuecomment-3069545518",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/2776",
+      "id": 3069545518,
+      "node_id": "IC_kwDOOqTJvM629Ywu",
+      "user": {
+        "login": "Taisho241",
+        "id": 58881155,
+        "node_id": "MDQ6VXNlcjU4ODgxMTU1",
+        "avatar_url": "https://avatars.githubusercontent.com/u/58881155?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/Taisho241",
+        "html_url": "https://github.com/Taisho241",
+        "followers_url": "https://api.github.com/users/Taisho241/followers",
+        "following_url": "https://api.github.com/users/Taisho241/following{/other_user}",
+        "gists_url": "https://api.github.com/users/Taisho241/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/Taisho241/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/Taisho241/subscriptions",
+        "organizations_url": "https://api.github.com/users/Taisho241/orgs",
+        "repos_url": "https://api.github.com/users/Taisho241/repos",
+        "events_url": "https://api.github.com/users/Taisho241/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/Taisho241/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2025-07-14T13:04:21Z",
+      "updated_at": "2025-07-14T13:04:21Z",
+      "author_association": "COLLABORATOR",
+      "body": "#5149 にて反映済みのためクローズ",
+      "reactions": {
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3069545518/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": null
+    }
+  ],
   "review_comments": [],
   "files": [
     {
       "sha": "1051cef197d7354baf17f0d5ff7798ac668eab43",
-      "filename": "13_ステップ１行政改革.md",
+      "filename": "13_ステップ１くらしと行政.md",
       "status": "modified",
-      "additions": 28,
-      "deletions": 28,
-      "changes": 56,
-      "blob_url": "https://github.com/team-mirai/policy/blob/ebb6889ea80ba96b772f8aa954692c99f66fab47/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/ebb6889ea80ba96b772f8aa954692c99f66fab47/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%8C%E6%94%BF%E6%94%B9%E9%9D%A9.md?ref=ebb6889ea80ba96b772f8aa954692c99f66fab47",
-      "patch": "@@ -15,37 +15,36 @@\n \n ### 現状認識・課題分析\n \n-* 民間サービスのテクノロジー革新に対し、行政サービスの変化は遅れている  \n-  * 民間企業はテクノロジーを活用して便利で効率的なサービスの提供が進む一方、行政サービスはその進展に追いつけていない状況です。  \n-* 行政の発注は硬直的で、ソフトウェア開発との相性がよくない  \n-  * 政府がソフトウェア発注を行う場合、事前に決めた要件に厳格に適合することが求められるため、柔軟な仕様変更が行えず、かえって余計にコストが発生する可能性があります。  \n-* 国会におけるAI専門家の不足  \n-  * 医療、産業、安全保障など、様々な分野でAIの活用が進み、専門的判断の重要性が増す中、立法・行政の場にAIの専門家は不足しています。\n+* 民間と行政で進む「技術活用のギャップ」\n+  * 民間企業ではテクノロジーを活かしたサービスの高度化が進む一方、行政や立法分野では変化のスピードに課題があり、日常的な利便性の実感に差が出てきています。\n+* 国会・立法府における技術人材の構造的不足\n+  * AIやオープンソースソフトウェア（ソースコードが公開され、誰でも自由に使用、改変、再配布が可能なソフトウェア。以下OSS）の活用が社会の基盤技術となる中、立法や政策設計においても専門的な技術知見が求められています。\n+  * イギリスでは「UK Parliamentary Digital Service（PDS）」がこうした役割を担っており、日本でも常設の技術チームによる支援体制が急がれています。\n+* 国民参加と熟議を支える基盤の未整備\n+  * 政策形成に市民の声を活かすには、意見を集め・整理し・論点化する基盤が必要ですが、現在はその多くが未整備です。多様な意見を構造的に把握・分析するツールの整備が求められています。\n+* 民間サービスのテクノロジー革新に対し、行政サービスの変化は遅れている    \n \n ### 政策概要\n \n-* エンジニアチームの設置  \n-  * 政党交付金を活用し、10名程度のエンジニアや調査員で構成されたチームを設置。政治や行政向けのソフトウェアを迅速に開発し、実装していきます。  \n-  * 世界には社員が数十名程度で企業評価額が10億ドル以上の企業も存在しており、小さなチームでも大きな価値を生み出す活動が可能な見込み  \n-* 行政デジタルツールの開発/運用  \n-  * オンライン熟議の場  \n-    * 市民がオンラインで意見を出し合うツール（例：いどばたシステム）を開発します  \n-  * 国民の声を効率的に集めるツール  \n-    * パブリックコメント等の大量の意見投稿を効率的に処理できるシステム（例：広聴AI）を開発し、意見の集約をスムーズにします  \n-* 政治資金の流れの公開  \n-  * 政治資金がどのように集まり、どのように使われているのかを、誰でも簡単に確認できる可視化ツールを開発・導入します。\n-  * あわせて、企業・団体からの献金は受け取らず、将来的な制度見直しにも取り組みます。 政党自らがまず行動し、政治資金のあり方を少しずつ見直すことで、より透明で納得感のある政治の実現を目指します。  \n-* 自治体向けアプリの開発支援  \n-  * 各自治体がカスタマイズして使うことができるアプリをオープンソースで開発し、全国的に導入できるように支援  \n-* 迅速なプロトタイプ作成\n-  * 行政が発注しようとするデジタル案件に対して、エンジニアチームが迅速にプロトタイプを作成します  \n-  * 発注前に要件定義の明確化や具体的なイメージをつかみやすくし、必要なときに必要なだけ予算を配分できる仕組みとするとともに、業者や行政の間で共通の理解を形成します  \n-* 他党や自治体と連携\n-  * AI政策についてオープンかつ国民的な検討を進めるためのオープンな超党派議連を立ち上げます。  \n-  * デジタル民主主義2030で構築したいどばたシステムや広聴AI、そしてオフラインでの議論を活用し、新しいオープンな政策立案プロセスを実現し、賛同を得られたものは法案提出を目指します  \n-  * デジタル民主主義2030の活動と同様の形で、他党や自治体の技術導入を中立的立場から支援します  \n-* 開発したツールをOSSとして公開  \n-  * エンジニアチームが開発したツールやシステムはオープンソースとして公開し、誰でも利用・改善できるようにします\n+* 国会にエンジニアチームを設置\n+  * 政党交付金を活用し、10名程度のエンジニアからなる技術チームを国会に設置します。政治・行政向けのソフトウェアや分析ツールを迅速に開発・実装し、立法・政策プロセスの高度化を支援します。\n+  * また、UK Parliamentary Digital Serviceのような先行モデルを参考にしつつ、AI・OSSの専門知見を立法府に常時インプットします。\n+* 行政のデジタルツールをつくる・運用する\n+  * ネット上で話し合える場づくり\n+    * デジタル民主主義2030で採用されている「いどばた」を活用し、市民が自由に意見を出し合えるオンラインの熟議の場を展開します。AIが内容を整理し、論点を明確にすることで建設的な議論を後押しします。\n+  * 声をきちんと受け止めるしくみ\n+    * すでに構築された「広聴AI」を基盤に、パブリックコメントやSNSなどから集まる意見を分類・整理し、政策検討に活かせるよう継続的に運用・改良します。\n+ * 政治資金の流れを市民が追えるツールを活用\n+    * デジタル民主主義2030における「Polimoney」を活かし、国民が政治資金の流れを容易に追跡・分析できる仕組みを導入します。\n+    * あわせて、企業・団体からの献金は受け取らず、将来的な制度見直しにも取り組みます。 政党自らがまず行動し、政治資金のあり方を少しずつ見直すことで、より透明で納得感のある政治の実現を目指します。 \n+ * 自治体で使えるOSSツールの開発\n+    * デジタル庁が進める標準化や共通基盤と競合しないよう配慮しつつ、小規模な自治体でも導入しやすいツール群をOSSとして迅速に構築します。必要に応じてカスタマイズできる形で全国に展開します。\n+ * プロトタイプによる仮説検証とOSS化\n+    * デジタル政策の構想段階において、まずプロトタイプを開発し、実現性や運用上の課題を検証します。効果が認められたツールについては、公共的に再利用可能なOSSとして開発・公開します。\n+ * 議員のための情報収集・分析支援機能\n+    * 各府省の資料、過去の国会・委員会の議事録などを横断的に収集・整理し、関連情報を自動的に集約・提示する機能を開発します。忙しい議員が短時間で必要な情報にアクセスできるようにします。\n+ * 技術外交のハブ機能\n+   * エンジニアチームだからこそ可能な“テック外交”を推進します。国内外の技術者コミュニティと連携し、政策立案に必要な知見を得ると同時に、日本発のガバメントテクノロジーのプレゼンスを高めていきます。\n \n ## ２）使いやすい行政を実現します\n \n@@ -131,3 +130,4 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n+"
+      "additions": 15,
+      "deletions": 101,
+      "changes": 116,
+      "blob_url": "https://github.com/team-mirai/policy/blob/8ac15c2c215f040885191f53ed9c4cad62cb65c0/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/8ac15c2c215f040885191f53ed9c4cad62cb65c0/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=8ac15c2c215f040885191f53ed9c4cad62cb65c0",
+      "patch": "@@ -1,7 +1,7 @@\n ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n \n-# ３．くらしと行政\n+# ３．行政改革\n \n ## ビジョン\n \n@@ -21,7 +21,8 @@\n   * AIやオープンソースソフトウェア（ソースコードが公開され、誰でも自由に使用、改変、再配布が可能なソフトウェア。以下OSS）の活用が社会の基盤技術となる中、立法や政策設計においても専門的な技術知見が求められています。\n   * イギリスでは「UK Parliamentary Digital Service（PDS）」がこうした役割を担っており、日本でも常設の技術チームによる支援体制が急がれています。\n * 国民参加と熟議を支える基盤の未整備\n-  * 政策形成に市民の声を活かすには、意見を集め・整理し・論点化する基盤が必要ですが、現在はその多くが未整備です。多様な意見を構造的に把握・分析するツールの整備が求められています。  \n+  * 政策形成に市民の声を活かすには、意見を集め・整理し・論点化する基盤が必要ですが、現在はその多くが未整備です。多様な意見を構造的に把握・分析するツールの整備が求められています。\n+* 民間サービスのテクノロジー革新に対し、行政サービスの変化は遅れている    \n \n ### 政策概要\n \n@@ -50,7 +51,7 @@\n ### 現状認識・課題分析\n \n * 住民にとって“体験の良さ”は依然として低水準  \n-  * 国民生活に直結する26手続きについて、オンラインで完結できる自治体は65.1％にとどまり、3 割強が依然として書面・窓口前提で、オンライン移行は道半ばです。（出典：デジタル庁「[データから見た成果：社会におけるデジタル活用の進捗](https://www.digital.go.jp/policies/report-202309-202408/progress)」）  \n+  * 国民生活に直結する26手続きについて、オンラインで完結できる自治体は65.1％にとどまり、3 割強が依然として書面・窓口前提で、オンライン移行は道半ばです。（出典：デジタル庁「[データから見た成果：社会におけるデジタル活用の進捗](https://www.digital.go.jp/policies/report-202309-202408/progress?utm_source=chatgpt.com)」）  \n   * 「オンライン手続きができない」「何度も同じことを書く必要がある」「窓口が明確じゃない」などの声も聞こえ、国民にとっての使いやすさにはまだまだ改善の余地があります。  \n   * 育児中のご家庭や、高齢の方、障害のある方、就業者など、全ての人にとっての使いやすさが重要ですが、「手続きが複雑であきらめた」事例が各種ヒアリング調査で報告されています。\n * 制度へのアクセス障壁がもたらす公平性の欠如\n@@ -60,7 +61,9 @@\n   * 統計調査や現地調査で「Excel→手入力→基幹系」などの多重入力が常態化し、調査漏れや職員二重配置が発生していると自治体現場からの声もあります。  \n   * デジタル化を進めることで、職員は書類の受け取りや書類の記載内容の確認から解放され、本来の対人支援・相談業務に注力できるようになります。  \n   * また、業務フローを標準化・再整備することで業務の属人性、二重入力を排除し、またシステムによる自動チェックや履歴管理によりヒューマンエラーを防ぐことができ、待ち時間の減少、迅速な給付など、行政サービスの質の向上に繋がります。  \n-  * 例えば、書面や対面を義務づけるアナログ規制をオンライン化しただけで、甲種防火管理講習では年間 16.7 億円のコスト削減効果が試算されており、同様の潜在効果が多数残存。（出典：デジタル庁「[アナログ規制の見直しによる経済効果（中間報告）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/8993b6ae-e3d2-4d34-afe1-5c722d8e516f/fc4e86f1/20231226_policies_manual-analog-regulation-review_outline_05.pdf)」）\n+  * 例えば、書面や対面を義務づけるアナログ規制をオンライン化しただけで、甲種防火管理講習では年間 16.7 億円のコスト削減効果が試算されており、同様の潜在効果が多数残存。（出典：デジタル庁「[アナログ規制の見直しによる経済効果（中間報告）](https://www.digital.go.jp/assets/contents/node/basic_page/field_ref_resources/8993b6ae-e3d2-4d34-afe1-5c722d8e516f/fc4e86f1/20231226_policies_manual-analog-regulation-review_outline_05.pdf?utm_source=chatgpt.com)」）\n+\n+\n \n ### 政策概要\n \n@@ -71,7 +74,7 @@\n   * 書かせない  \n     * マイナンバーを活用して、利用可能な税・社会保障データの範囲を段階的に拡大し、自動連携することで申請時の住民による再入力を排除します。\n       * 各省庁と自治体のデータベース連携を推進することで、住民が同じ情報を何度も提出する必要を無くします。 \n-    * さらに、国民健康保険料の算定や各種減免措置については、行政が既に保有している課税・所得情報を標準APIにより内部で自動参照・適用することを原則とし、国民に対して紙の書類提出を求めない運用を標準化します。すでに一部自治体で試行が始まっており、全国展開に向けた制度設計を加速させます。\n+    * さらに、国民健康保険料の算定や各種減免措置については、行政が既に保有している課税・所得情報を標準APIにより内部で自動参照・適用することを原則とし、国民に対して紙の書類提出を求めない運用を標準化します。すでに一部自治体で試行が始まっていますが、全国展開に向けた制度設計を加速させます。\n     * デジタル庁の推し進める「[自治体窓口DX](https://www.digital.go.jp/policies/cs-dx#local-governments)」を更に推進していくとともに、加えてIT\\&AIを活用したバックヤード改革を行い、入力内容の確認、窓口業務職員の負担軽減を図ります。  \n   * 待たせない  \n     * 前提として、オンライン化を推し進め、行政機関への訪問を不要にします。  \n@@ -81,9 +84,7 @@\n     * 例えば、確定申告については、その手続きの煩雑さがかねてより指摘されており、納税者の負担軽減が急務です。マイナンバー制度およびマイナポータルの基盤を活用し、給与・報酬・金融所得・社会保険料・医療費など、申告に必要な情報を関係機関から自動的に集約・連携する仕組みを段階的に整備します。\n         * 現時点でも、医療費通知・社会保険料・ふるさと納税情報などについては、マイナポータル経由で取得し、e-Tax上に自動反映される機能が実装されています。また、家族の医療費についても、事前の代理設定により取得可能となるなど、代理による補助的な申告準備も技術的に整いつつあります。\n         * 今後は、これらの仕組みをより一層拡張し、証券会社・金融機関・保険会社などの情報も含めた網羅的な所得・控除情報の事前集約を推進します。また、高齢者や体調不良等により自らの申告が困難な納税者については、税理士等の有資格者に限らず、家族等による代理提出やサポートがしやすくなる環境整備（例：電子委任状の標準化、代理人向け操作画面の整備）を進めます。\n-        * これにより、最終的には、納税者があらかじめ集約された申告内容を確認し、ワンクリックで申告を完了できる「ワンクリック申告」の仕組みを実現します。本人の意思に基づいた安全な情報連携、透明性の高い運用、そして不正利用を防止する制度設計を徹底することで、誰にとっても使いやすく、安心できる確定申告制度への転換を図ります。\n-        * この基盤を活かすことで、税や社会保障の控除・給付の“境界”をなめらかにし、より合理的な制度運用へと接続していくことが可能になります。確定申告の改革は、より本質的な制度の滑らかな設計——「なめらか税・社会保障」への移行に向けた第一歩でもあります。\n-        * なお、希望する納税者に対しては、マイナンバーカードに紐付けられた公金受取口座から、確定した税額が納税期限日に自動的に引き落とされるオプションも導入します。引き落としにあたっては、納税額の確定内容を事前にマイナポータル上で確認・同意できるようにし、利用者の不安や誤課税への懸念に対応します。\n+        * これにより、最終的には、納税者があらかじめ集約された申告内容を確認し、ワンクリックで申告を完了できる「申告不要型」の仕組みを実現します。本人の意思に基づいた安全な情報連携、透明性の高い運用、そして不正利用を防止する制度設計を徹底することで、誰にとっても使いやすく、安心できる確定申告制度への転換を図ります。    \n     * また、本人情報やマイナンバーに紐づく属性データ（年齢、所得、家族構成など）に加え、住民自身がマイナポータル等で登録した興味・関心分野（例：子育て、教育、住宅支援、起業支援など）をもとに、対象となる可能性のある補助金・制度を自動抽出し、アプリやメールで個別通知する仕組みを整備します。これにより、「制度を自分で探しに行く」のではなく、「必要な情報が向こうから届く」プッシュ型の情報提供が実現されます。\n       * すでに、マイナポータルの「ぴったりサービス」や一部年金手続きで先行実装されつつあり、今後は他制度にも横断的に拡張し、自動化の精度を高めていきます。\n       * 一定の要件を満たす給付金や手当については、本人への通知後、一定期間内に異議がなければ公金受取口座に自動的に振り込まれる「オプトアウト型自動給付」の仕組みを整備します。2024年の定額減税補足給付では、申請不要の給付が一部自治体で実施されており、これを皮切りに、恒久的な制度への段階的移行を進めていきます。\n@@ -102,29 +103,25 @@\n ### 現状認識・課題分析\n \n * 過重労働が常態化し、若手人材が敬遠。行政サービスの質・スピード双方が低下。  \n-  * パブリックコメントは案件によっては10万件超の意見が集まる事例もあり、職員が手作業で分類するなど、大きな事務負担が生じています。\n-* 立法支援機能の限界と現場の疲弊\n-  * 各省庁だけでなく、衆議院・参議院の法制局では、議員立法や政策分野の多様化により、法案作成・審査の業務が増大しています。膨大な審議記録や類似法案の調査を限られた人員でこなす現場はすでに限界に達しており、業務支援のための技術導入が不可欠です。   \n+  * パブリックコメントは案件によっては10万件超の意見が集まる事例もあり、職員が手作業で分類するなど、大きな事務負担が生じています。  \n * 危機対応に必要な“余白”が消失  \n   * 人手不足・過重労働が常態化しているため災害やパンデミック時に臨機応変な動員が難しく、非常時に機動的な動きができない恐れがあります。  \n+* 最新のツールや働き方を行政機関でも導入することで、行政職員のデジタルリテラシーを向上するとともに、現実に即した政策立案を推進します。\n \n ### 政策概要\n \n-* FAXや紙の廃止を進めるとともに、行政機関に最新の業務ツールや柔軟な働き方を導入し、職員のデジタルリテラシーを高めます。こうした基盤整備により、現場の実態や社会の変化を的確に捉えた、現実に即した政策立案を可能にします。  \n * 行政内部DX  \n   * AIアシスト型ワークフロー  \n     * パブリックコメントの分類、分析をAIで効率化します。  \n     * 紙のみで保存されている資料をOCRで検索可能にします。  \n-    * 告示・通知をデータベース化し、AI＋RAGで庁内文書横断検索を可能にします。\n+    * 告示・通知をデータベース化し、AI＋RAGで庁内文書横断検索を可能にします。  \n   * 「読み合わせ」から脱却  \n     * AI技術を活用して原稿のレビューを行うことで、口頭読み合わせを不要にします。  \n   * 音声AIによる一次問い合わせ窓口  \n     * 代表電話・コールセンター業務を集約し、職員が二次対応に専念できる環境を整備します。  \n-  * 機密区分・個人情報のマスキング手順を標準化し、行政機関での安全な生成AI活用を進めます。    \n-*  立法支援業務に向けたデジタルツールの整備\n-  * 類似法案の検索、過去の審議記録の分析、条文案作成支援、影響範囲分析など、AI技術を活用したツールを開発します。  \n-  * e-Gov法令APIの構造化強化（プレーンテキスト化、履歴管理、告示データの整備等）や、デジタル庁が進める法制事務のデジタル化の動きとも連携し、議員立法や修正案作成にも使いやすい支援ツールを整備します。  \n-  * 法令・規則・条約のデータを再利用可能なリソースとして統合し、立法過程全体の質とスピードを高めます。\n+  * 機密区分・個人情報のマスキング手順を標準化し、行政機関での安全な生成AI活用を進めます。  \n+* 国会業務の可視化・効率化  \n+  * 質問通告の時刻や動員人数を公開し、深夜待機ゼロを目指します。  \n * 司法DX  \n   * 司法における書面準備作業などをAIを利用して効率化します。  \n   * AI“0審”モデル  \n@@ -133,87 +130,4 @@\n       * 例：プラットフォーマーがSNS上の投稿前に名誉毀損に当たらないかチェックする機能も実装可能に  \n     * AIによる不当なバイアスが発生しないよう、認証/確認のプロセスを徹底\n     * また、AIの分析結果を理由として、法テラス等の公的支援を受ける権利や、その他の法的手段を不当に制限されることがないようにする。\n-   \n-## 4）決まる前に追える、届けられる――市民の声が届く法制度トラッカー\n-\n-### 現状認識・課題分析\n-\n-* 気づいた時にはもう終わっているパブリックコメント\n-  * 行政機関が実施するパブリックコメント（以下「パブコメ」）は、政策や規制の案を事前に公表し、広く国民から意見や情報を募集する重要な手続きです。しかしながら、その受付期間は原則30日以上とされている一方で、実際には短縮されるケースもあり、関係者が気づいたときには既に締切直前ということも少なくありません。\n-  * また、パブコメが実施されるタイミングでは、政策の内容がおおむね固まっている場合が多く、提出された意見が必ずしも十分に反映されていないという指摘もあります。\n-* 国会提出後に話題になっても、修正の余地は限られている\n-  * 法律案が社会的に注目されるのは、国会に提出される見込みとなった段階以降が多く、報道やSNS上での議論もこの時期に集中しがちです。\n-  * しかしその時点では、与党内の事前審査や省庁の内部調整を経て内容が固まっており、国会審議では野党修正や附帯決議が付くことはあっても、大きな修正がなされる可能性は低いのが実態です。\n-* 審議会など“政策の設計図”に市民の声が届きにくい\n-  * 例えば介護や医療などの分野においては、定期的な法律改正の前段階として、省庁が開催する審議会や部会で制度内容の検討が行われます。これらは実質的に政策の骨格を決める重要な場でありながら、パブコメの対象とはされておらず、一般には議事録が後日PDFで公開されるのみです。\n-  * そのため、審議会の段階で市民や現場の当事者が意見を届ける制度的な手段が整っておらず、政策形成の初期段階が“静かに”進行してしまう傾向があります。\n-* 今、効力を持っている条文がどれか分からない\n-  * 法令は、一般の市民にとって複雑で読みづらい構造になっているのが現状です。改正履歴や経過措置、時限措置といった要素が積み重なっており、特に改正法では条文ごとに異なる施行日が定められることも少なくありません。\n-  * さらに、附則に記された内容も施行期日が異なる場合が多く、「今まさに有効な条文がどれなのか」「いつ何が終了するのか」といった情報を追いかけるのは非常に困難です。こうした制度上の読みづらさは、法令への信頼や参加意識の妨げになっています。\n- \n-### 政策概要\n-* 「気づけない」「わかりづらい」から、「追える」「伝えられる」「反映される」へ。\n-  * 政策づくりの流れを早期かつ継続的に追いかけ、暮らしに直結する法律や制度に“自分の声”を確実に届けられる仕組みを整えます\n-* 「知らないうちに終わってた」をなくす\n-  * 関心テーマ（教育、福祉、税制など）を登録することで、関連するパブリックコメントの受付開始を事前にお知らせする仕組みを構築します。\n-  * 開始前・開始時・締切前の３段階で通知し、「気づいたらもう締切」の機会損失を防ぎます。\n-* 政策の立案プロセスが見えるタイムライン\n-  * 一例ではあるが、審議会 → 与党部会 → 法令案作成 → パブコメ → 閣議決定 → 国会提出 → 成立 → 公布・施行という政策審議から立案・成立までの一連のプロセスを可視化します。\n-  * また国会や委員会審議では、議員ごとの過去発言や関連法案へのスタンスを色分け等見やすい形で表示し、一目で分かる仕組みを用意します。\n-* 法令トラッカーで変更差分・履歴を可視化\n-  * 改正法令の新旧条文を色分け等で差分表示し、どこがどう変わったかを直感的に把握できるようにします。\n-  * また、条文ごとの公布日・施行日、時限・経過措置の終了予定日をカレンダー形式で整理し、「今効力を持っている条文」「次に変わる条文」を分かりやすく提示します。\n-  * さらに、企業や自治体向けには API で同じ情報を提供し、社内規程や業務マニュアルの自動更新にも活用できるようにします。\n-* “みんなの声”が届くしくみ\n-  * PDF で公開されている審議会資料や議事録を機械可読化し、検索も要点把握も簡単にします。\n-  * また、「広聴AI」「いどばた」などの意見集約サービスと連携し、審議会段階から市民や現場の声を“ゆるやかに”政策づくりへ届ける場を設けます。\n-\n-## 5） 選挙現場の負担に寄り添い、届出手続・運用のデジタル化を進めます\n-\n-### 現状認識・課題分析\n-\n-* 立候補手続きが“紙と対面”に強く依存\n-   * 立候補予定者は、事前説明会で各都道府県選挙管理委員会から膨大な届出書類を受け取り、記入・管理・提出に多大な労力を要しています。\n-   * 提出にあたっては、押印済み原本を「厳封」のうえ庁舎に再度持参する必要があり、手続き全体が紙ベースで運用されています。\n-   * なお、参議院選挙など一部では総務省のように[Web上](https://www.soumu.go.jp/senkyo/senkyo_s/news/000182044.html)での資料提供が行われている例もあります。\n-* 供託金納付はオンラインでも“紙提出が慣行のまま”\n-   * 法務省が提供する「供託ねっと」により、選挙供託金はオンラインで納付可能となっていますが、多くの選挙管理委員会では電子形式の預納証明書を受理しておらず、法務局で紙の原本を発行・提出する運用が依然として求められています。制度と現場運用の間に乖離が存在しています\n-* CD-R提出やPDFでの書類作成など、古い慣行が温存\n-   * 選挙公報などの提出書類では、CD-Rでの提出が求められる場合があります。\n-   * また、PDFファイルで様式が配布されることもあるため、専用ソフトによる加工や印刷・手書きによる記入が必要となることがあります。こうした非効率な形式依存が、事務作業の負担を増大させています。\n-* 短期間に集中する手続きと、情報の重複提出\n-   * 事前説明会から事前審査までわずか数日しかなく、その間に移動をしつつ、供託・戸籍取得・住民票・委任状・事務所届・政見放送などを同時並行で準備する必要があります。\n-   * 加えて、各選挙管理委員会により必要書類や記載ルールが異なり、同じ情報（例：候補者名や住所）を何度も転記させられる構造になっています。\n-   * このような短期集中・多重入力の負担は、特に参議院選挙のように全国を対象とする選挙では、地方に拠点を構えることが困難な新興政党にとって大きな障壁となっています。\n-* 移動・時間・費用面での制約が候補者の多様性を阻害\n-   * 庁舎への訪問や書類の郵送などにかかる時間や費用は、物理的・経済的な負担となっており、地方在住者、海外在住の日本人、平日に時間を取りづらい層にとって立候補の大きなハードルとなっています。その結果、立候補機会における地域・環境間の格差が生じ、候補者の多様性確保にも影響を与えています。\n- * 証紙ビラなど“紙中心の運用”が人的・時間的リソースを圧迫\n-   * 選挙運動においても、証紙付きビラの貼付作業、ポスター掲示、ハガキの印刷・送付など、多くの工程が紙を前提としており、候補者・支援者にとって過大な物理作業となっています。\n-     * 特に証紙ビラは、規定枚数分に1枚ずつ証紙を貼る必要があり、告示後の限られた時間の中で人手と時間を大量に消費します。\n-   * そのため、新人候補や地方・若年層の立候補機会を制度的に制限している構造につながっています。\n-\n-### 政策概要\n-\n-* 誰もが立候補しやすい選挙へ：“フルオンライン届出”を段階的に実現\n-* 電子手続を全国統一運用へ\n-   * すでに可能となっている「供託ねっとによるオンライン納付」や「事前審査前のメール等での事前チェック」「事前審査のオンライン予約」など、実証済みの仕組みを全ての選挙管理委員会で共通運用できるよう整備します。\n-   * これらの法改正が不要な部分については、例えば総務省通達や業務ガイドラインにより統一ルールを策定し、速やかな運用開始を目指します。\n-   * 一方で、法改正が必要な手続きについては、法的な真正性とセキュリティなどの観点で慎重な対応が必要となるため段階的に進めます。\n-     *  例えば、「届出書類の電子署名・電子提出を紙と同等とみなすための法整備」、「マイナンバーカードを活用した本人確認プロセスの導入」、「書類一式のクラウド保存、タイムスタンプ運用による「厳封相当」措置の導入」については慎重な検証を通した上で段階的に対応します。\n-     *  その際、提出記録や操作ログを保存するなど、セキュリティ・訴訟耐性も確保する想定です。\n-*  手続きの重複をなくし、全国で使いやすい様式へ\n-   * 所・氏名・政党名・略歴などの繰り返しの同一の記載をなくすため、統合入力フォームを整備し、1回の入力で複数様式に自動展開します。\n-   * 加えて、様式・記載要領・メタデータ設計を仕様として標準化し、自治体ごとの記載揺れや独自欄をなくし、公平性と審査効率、ミス削減の両立を図ります。\n-* デジタル庁・総務省と連携した技術基盤の構築\n-   * 行政手続標準化の共通API（GSS）に「公職選挙手続き」を追加し、住民票・税務情報と同様に各種選挙手続きをAPI経由で処理できる構造を検討します。\n-   * 導入に負担の少ない汎用的な業務テンプレートを整備し、予算や人材が限られる自治体でも安定的に運用できるよう配慮します。\n-* 運用現場に配慮した“併存フェーズ”の設計\n-   * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n-   * 現在の印刷・審査実務を理解したうえで、電子的に編集可能・自動チェック可能な汎用フォーマットへの段階的移行を進めます。\n-* 選挙運動における“紙前提の制度”も段階的に見直します\n-   * 証紙ビラの手貼り制度については、ビラへのシリアル番号・電子署名の一体印刷などによって、作業負担の軽減と真正性の確保を両立する仕組みへの移行を検討します。\n-   * あわせて、法定枚数の上限制度を、ネット媒体と紙媒体を一体で管理できる費用上限制度へと再設計することも選択肢とします。\n-   * その際は、電子台帳による配布管理やログ保存を組み合わせることで、透明性を担保しつつ、現場の負担軽減と制度的信頼性の両立を図ります。\n-   * さらに、音声読み上げ・多言語対応などのアクセシビリティ施策を拡充することで、情報の届け方そのものを多様化し、「紙が前提」となっている現行制度を超えた、誰もがアクセスできる“開かれた選挙”の実現を目指します。\n-\n "
     }
   ],
   "commits": [
     {
-      "sha": "676eda3f2b8df6f18131db428dc67d4d7855300e",
-      "node_id": "C_kwDOOqTJvNoAKDY3NmVkYTNmMmI4ZGY2ZjE4MTMxZGI0MjhkYzY3ZDRkNzg1NTMwMGU",
+      "sha": "888efa151568b7514e7fd2c08131a122b246ca2f",
+      "node_id": "C_kwDOOqTJvNoAKDg4OGVmYTE1MTU2OGI3NTE0ZTdmZDJjMDgxMzFhMTIyYjI0NmNhMmY",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
@@ -52,28 +98,28 @@
           "date": "2025-06-23T08:29:05Z"
         },
         "committer": {
-          "name": "GitHub",
-          "email": "noreply@github.com",
-          "date": "2025-06-23T08:29:05Z"
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-14T12:54:21Z"
         },
         "message": "tんさんの提案に基づき、UK Parliamentary Digital Serviceを参考に専門知識を導入する旨を追記",
         "tree": {
-          "sha": "c63b3694f6ec66580a8f8878252175874bb96db7",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c63b3694f6ec66580a8f8878252175874bb96db7"
+          "sha": "26635ca0ceb8e8ee35160ecbccd63efffdcd661a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/26635ca0ceb8e8ee35160ecbccd63efffdcd661a"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/676eda3f2b8df6f18131db428dc67d4d7855300e",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/888efa151568b7514e7fd2c08131a122b246ca2f",
         "comment_count": 0,
         "verification": {
-          "verified": true,
-          "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWRBRCRC1aQ7uu5UhlAAAp/MQAFzUE2sAAEEujbAl+eP+/sQa\neD4Ipq+aoZrX21qL9PgQ3+BjBpjPzFMh09BoGWnXgr9y+8CAgAJbvTKGTOIz52Bt\njiHUTfyLhkExX2ahd8XCFptyp00m2pd5SzSmf/rOG9XaMN9lxoxuGA1E/0Lqw3jU\nJJypqVHhyO2Vb0GCXLRel/2aP4q6g27uS8t8jiE1qYaii9OCzB6FvNMBT4k647vk\n32ikNo/oiPsAH0IKJL+GTcy7nwnZ/Ht+xfeqSdN5cJXB7bKtxP6yt4RAQM5PIZFt\nzJOf2ZlIGllAiHre470RJnp7XDAEWVJbepXmlLmbXmNLoI+llejSH9YOc9xvKPHN\nEXRitTsVNCCWnyDgbgwmyeMAFBeqeVC934ti4j3IqmVyXfC6sTgwgLdvrcHCnPJJ\nPB2cM8W2tBzwCKHUltSIVJ5KFc83TnymhI7PwIBMZONuCGVtRlTYhMx0jSJUNeSY\nkvngIG9/Ty/DCbRKlXlw892X5EjI831DHI89OY5B50ARd/oB7TgFe9H0P1AvYsZE\nZd8hetGEibXi26JCcgZ99pPXr91lE6ecTiCezjgagmiJKbl1qpTNnXoR9/RSzYfP\nmZxUyLT8akvWBCQ0BrH1/SFuleQnfpkzvGTH8aXNT8zkXOV7zf2EmJ4WZzPF4Cff\n8U2T3oQxDpMoTqkQeZtS\n=NdrR\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree c63b3694f6ec66580a8f8878252175874bb96db7\nparent f9ecf190707661f9ccbd255a2dd24e612ded3ef0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750667345 +0000\ncommitter GitHub <noreply@github.com> 1750667345 +0000\n\ntんさんの提案に基づき、UK Parliamentary Digital Serviceを参考に専門知識を導入する旨を追記",
-          "verified_at": "2025-06-23T08:29:06Z"
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/676eda3f2b8df6f18131db428dc67d4d7855300e",
-      "html_url": "https://github.com/team-mirai/policy/commit/676eda3f2b8df6f18131db428dc67d4d7855300e",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/676eda3f2b8df6f18131db428dc67d4d7855300e/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/888efa151568b7514e7fd2c08131a122b246ca2f",
+      "html_url": "https://github.com/team-mirai/policy/commit/888efa151568b7514e7fd2c08131a122b246ca2f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/888efa151568b7514e7fd2c08131a122b246ca2f/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -96,37 +142,37 @@
         "site_admin": false
       },
       "committer": {
-        "login": "web-flow",
-        "id": 19864447,
-        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
         "gravatar_id": "",
-        "url": "https://api.github.com/users/web-flow",
-        "html_url": "https://github.com/web-flow",
-        "followers_url": "https://api.github.com/users/web-flow/followers",
-        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-        "organizations_url": "https://api.github.com/users/web-flow/orgs",
-        "repos_url": "https://api.github.com/users/web-flow/repos",
-        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
       },
       "parents": [
         {
-          "sha": "f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/f9ecf190707661f9ccbd255a2dd24e612ded3ef0",
-          "html_url": "https://github.com/team-mirai/policy/commit/f9ecf190707661f9ccbd255a2dd24e612ded3ef0"
+          "sha": "8c2846a3b19dd4123776a068da5fc40641cb0173",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/8c2846a3b19dd4123776a068da5fc40641cb0173",
+          "html_url": "https://github.com/team-mirai/policy/commit/8c2846a3b19dd4123776a068da5fc40641cb0173"
         }
       ]
     },
     {
-      "sha": "d70cb0f9230551f26a3152df506f526afb74bd0b",
-      "node_id": "C_kwDOOqTJvNoAKGQ3MGNiMGY5MjMwNTUxZjI2YTMxNTJkZjUwNmY1MjZhZmI3NGJkMGI",
+      "sha": "e5930d6e3f474095c365df2605d685760b713c7a",
+      "node_id": "C_kwDOOqTJvNoAKGU1OTMwZDZlM2Y0NzQwOTVjMzY1ZGYyNjA1ZDY4NTc2MGI3MTNjN2E",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
@@ -134,28 +180,28 @@
           "date": "2025-06-23T08:30:14Z"
         },
         "committer": {
-          "name": "GitHub",
-          "email": "noreply@github.com",
-          "date": "2025-06-23T08:30:14Z"
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-14T12:54:21Z"
         },
         "message": "tんさんの提案に基づき、UK Parliamentary Digital Serviceを参考に専門知見をインプットする旨を追記",
         "tree": {
-          "sha": "c63b3694f6ec66580a8f8878252175874bb96db7",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c63b3694f6ec66580a8f8878252175874bb96db7"
+          "sha": "26635ca0ceb8e8ee35160ecbccd63efffdcd661a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/26635ca0ceb8e8ee35160ecbccd63efffdcd661a"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d70cb0f9230551f26a3152df506f526afb74bd0b",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e5930d6e3f474095c365df2605d685760b713c7a",
         "comment_count": 0,
         "verification": {
-          "verified": true,
-          "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWRCWCRC1aQ7uu5UhlAAA9NQQACMOR5WAra5tmFvNAora+e4g\nS8N8t9dUdivt9/oAybDzGMAqQAxJIRuiqc8t1naEg5nPsccrCB/CDDIWP8S0OkAl\n8noSOErQUL6Jx1ki91UCD+KFoR/YODKOqSVsDmJAMRx2ymIwS2lMzmgJUeJeQQ5Q\nAGXfWOkhKM7C2nmESPPfwm3IAmBxeY3o9cUXaf7DplKWtToF6p2pizovuhI7Ohxb\nGTmNXM4v9c6TRbErVgMNcNd3yHRUw+kwmH0+z5oa2oECmnXUY3Rl7KK+xMT0ZBT+\nKYZoNZD8fKb5zbZ4QELnBCEWwIaaWxK3nCPf5epRTI5RuaxP2arPdrFhoeVmL6iN\nYNshCl8h51chVKKn7aWri2McmAgBvFH77/DQoCP4boQFh9oE5hZnrgrpUDw9BuGH\npmTf3RJGkg5KPBMhUsTHQvTPWLMMBl7ngQinW9Lal+WGoEN9crplyfy9+bnfD+qA\nvsIbQdd8w8Cfwhs9/Ll7tv57+p1nvrlndQbbreXfh1+FuGEchXT2dyUScD9D0oTa\ngiR9pndePCE5XHoehBmaPvhPr8ckoOcEHR7cQaT8TVLMeY23eul6ota3VcXo8TQq\nhhgC2kgh3kUuIVv+B2siXRm0cPJAU+ohTG9mQUsKO6fAqJGw6rW7/Ze/xKomXVtw\ndbIqxUuBgZq+QNLde7+4\n=+0SH\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree c63b3694f6ec66580a8f8878252175874bb96db7\nparent 676eda3f2b8df6f18131db428dc67d4d7855300e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1750667414 +0000\ncommitter GitHub <noreply@github.com> 1750667414 +0000\n\ntんさんの提案に基づき、UK Parliamentary Digital Serviceを参考に専門知見をインプットする旨を追記",
-          "verified_at": "2025-06-23T08:30:15Z"
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/d70cb0f9230551f26a3152df506f526afb74bd0b",
-      "html_url": "https://github.com/team-mirai/policy/commit/d70cb0f9230551f26a3152df506f526afb74bd0b",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d70cb0f9230551f26a3152df506f526afb74bd0b/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e5930d6e3f474095c365df2605d685760b713c7a",
+      "html_url": "https://github.com/team-mirai/policy/commit/e5930d6e3f474095c365df2605d685760b713c7a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e5930d6e3f474095c365df2605d685760b713c7a/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -178,37 +224,37 @@
         "site_admin": false
       },
       "committer": {
-        "login": "web-flow",
-        "id": 19864447,
-        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
         "gravatar_id": "",
-        "url": "https://api.github.com/users/web-flow",
-        "html_url": "https://github.com/web-flow",
-        "followers_url": "https://api.github.com/users/web-flow/followers",
-        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-        "organizations_url": "https://api.github.com/users/web-flow/orgs",
-        "repos_url": "https://api.github.com/users/web-flow/repos",
-        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
       },
       "parents": [
         {
-          "sha": "676eda3f2b8df6f18131db428dc67d4d7855300e",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/676eda3f2b8df6f18131db428dc67d4d7855300e",
-          "html_url": "https://github.com/team-mirai/policy/commit/676eda3f2b8df6f18131db428dc67d4d7855300e"
+          "sha": "888efa151568b7514e7fd2c08131a122b246ca2f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/888efa151568b7514e7fd2c08131a122b246ca2f",
+          "html_url": "https://github.com/team-mirai/policy/commit/888efa151568b7514e7fd2c08131a122b246ca2f"
         }
       ]
     },
     {
-      "sha": "54b80917aebb89665f456238e8d919f80392e2ff",
-      "node_id": "C_kwDOOqTJvNoAKDU0YjgwOTE3YWViYjg5NjY1ZjQ1NjIzOGU4ZDkxOWY4MDM5MmUyZmY",
+      "sha": "75ddbff27a8b00ce29d72539071be252da595b82",
+      "node_id": "C_kwDOOqTJvNoAKDc1ZGRiZmYyN2E4YjAwY2UyOWQ3MjUzOTA3MWJlMjUyZGE1OTViODI",
       "commit": {
         "author": {
           "name": "Taisho241",
@@ -216,28 +262,28 @@
           "date": "2025-06-23T08:44:48Z"
         },
         "committer": {
-          "name": "GitHub",
-          "email": "noreply@github.com",
-          "date": "2025-06-23T08:44:48Z"
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-14T12:54:21Z"
         },
         "message": "Update 13_ステップ１行政改革.md",
         "tree": {
-          "sha": "bbf308f8cd0bf28b34aca7e7991a92ac82c09434",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bbf308f8cd0bf28b34aca7e7991a92ac82c09434"
+          "sha": "8d0b7e71fc4e49f8d66e404a4cdf1bd1b1e77c64",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/8d0b7e71fc4e49f8d66e404a4cdf1bd1b1e77c64"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/54b80917aebb89665f456238e8d919f80392e2ff",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/75ddbff27a8b00ce29d72539071be252da595b82",
         "comment_count": 0,
         "verification": {
-          "verified": true,
-          "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoWRQACRC1aQ7uu5UhlAAAk90QAGlLu9fyOJpepj1IfhHDy53+\nJgCUBoxMuwpsn4yGIsK4OOXsU0sdmL3RgWlAwxDvWeE80Ict2A9QuXNN7T8+gSOl\nr1RbCulAkbx7OlnyoMbPtOebKqK4+FE1bkib4K3Zx/ou5xbHLhMTpeT4dtNrQ8xe\npypZt2wmMER17eWTb1qhr78bfecIhS0dtacz2E2aBjHUO3UfhOPNryL1pBUxV10Z\n2smKaN6+Ptbk53emlIjNngJSJMbz1CyYzMGxwWd8vHt8D/DcCgZbQQonXo+LWGSe\naXaGnspnbFlNM8J0U5DPdbEMnsh3LOdq78ck08hDjWQ34CicndcKHK3MZbKH6J98\nAZY3glErQNq2EO4jA3pdmcgjXE4ByEJ9Ankqk5pdGI8xAibo/pQqXU9QL6cBxyo2\nqoAuJVZPuPF1qOUlyLwSVeY9A3p/r3aeMnuB55bfY6/NA8NujGmBbcWCa3smn2Vl\nYg43vkiG/PDtlatCzOSmcSg4pV/D7tx4cdc8oigbHldrpkud+QEDiZaLeEQVUb39\nGjmONCqPX04tnY8MY2Pf0DfViMiNUOpBHD7StjLSuZezlqPWqVC7L6qDMbOFUYdp\nNSQtSqPRGoSeB2qPTHb9u28fXvE+J7tewW1S74HoRhfdhr4y56EPlWJJcLWAWMvB\nNwgpoWUobdyEKkJWctok\n=hgCZ\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree bbf308f8cd0bf28b34aca7e7991a92ac82c09434\nparent d70cb0f9230551f26a3152df506f526afb74bd0b\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1750668288 +0900\ncommitter GitHub <noreply@github.com> 1750668288 +0900\n\nUpdate 13_ステップ１行政改革.md",
-          "verified_at": "2025-06-23T08:44:48Z"
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/54b80917aebb89665f456238e8d919f80392e2ff",
-      "html_url": "https://github.com/team-mirai/policy/commit/54b80917aebb89665f456238e8d919f80392e2ff",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/54b80917aebb89665f456238e8d919f80392e2ff/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/75ddbff27a8b00ce29d72539071be252da595b82",
+      "html_url": "https://github.com/team-mirai/policy/commit/75ddbff27a8b00ce29d72539071be252da595b82",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/75ddbff27a8b00ce29d72539071be252da595b82/comments",
       "author": {
         "login": "Taisho241",
         "id": 58881155,
@@ -260,37 +306,37 @@
         "site_admin": false
       },
       "committer": {
-        "login": "web-flow",
-        "id": 19864447,
-        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
         "gravatar_id": "",
-        "url": "https://api.github.com/users/web-flow",
-        "html_url": "https://github.com/web-flow",
-        "followers_url": "https://api.github.com/users/web-flow/followers",
-        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-        "organizations_url": "https://api.github.com/users/web-flow/orgs",
-        "repos_url": "https://api.github.com/users/web-flow/repos",
-        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
       },
       "parents": [
         {
-          "sha": "d70cb0f9230551f26a3152df506f526afb74bd0b",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/d70cb0f9230551f26a3152df506f526afb74bd0b",
-          "html_url": "https://github.com/team-mirai/policy/commit/d70cb0f9230551f26a3152df506f526afb74bd0b"
+          "sha": "e5930d6e3f474095c365df2605d685760b713c7a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e5930d6e3f474095c365df2605d685760b713c7a",
+          "html_url": "https://github.com/team-mirai/policy/commit/e5930d6e3f474095c365df2605d685760b713c7a"
         }
       ]
     },
     {
-      "sha": "ebb6889ea80ba96b772f8aa954692c99f66fab47",
-      "node_id": "C_kwDOOqTJvNoAKGViYjY4ODllYTgwYmE5NmI3NzJmOGFhOTU0NjkyYzk5ZjY2ZmFiNDc",
+      "sha": "4208a9529dbb9942448f150ef1dfa14aa8b8d6e7",
+      "node_id": "C_kwDOOqTJvNoAKDQyMDhhOTUyOWRiYjk5NDI0NDhmMTUwZWYxZGZhMTRhYThiOGQ2ZTc",
       "commit": {
         "author": {
           "name": "Taisho241",
@@ -298,28 +344,28 @@
           "date": "2025-06-30T07:28:21Z"
         },
         "committer": {
-          "name": "GitHub",
-          "email": "noreply@github.com",
-          "date": "2025-06-30T07:28:21Z"
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-14T12:54:21Z"
         },
         "message": "Update 13_ステップ１行政改革.md",
         "tree": {
-          "sha": "78fb583db22928fe9c25a62ce2578fd3636d0a54",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/78fb583db22928fe9c25a62ce2578fd3636d0a54"
+          "sha": "14d8c0f239f1bf72187e8b3cc9c8a49c5e0f71ec",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/14d8c0f239f1bf72187e8b3cc9c8a49c5e0f71ec"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ebb6889ea80ba96b772f8aa954692c99f66fab47",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/4208a9529dbb9942448f150ef1dfa14aa8b8d6e7",
         "comment_count": 0,
         "verification": {
-          "verified": true,
-          "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoYjyVCRC1aQ7uu5UhlAAADHkQAGBIjaqVh0Tl19MF/KFQg8qC\nHQC3HyRESzddsIK0FWQlzns5ba7NfZGOTa/qbS3d8fXx/3nMzLnqIe+YGEGnoqUJ\n2WoxEmyP1JHiPyyi5PN6iYi1jxryqM4LQvxPKDAIbo5jOAE0/e8sxNXhatpI+vQ9\nAlo/XLDkrNdQ3j9T2afyPXQPR4EO3k9nvgCl3B7KhzuxTJ9yJ/8/Pg5MmHfW/R0/\nJLL/LWdA6HMItnyNMYp8evYzjCO5DVMvS/qvksDCEfNZwjpw8GPoM7IRwRxRBc/7\nhxX17Tve4CaKG5AG3fD8+ZPHtu1C8FG1kHJx4EOtrBtDyTeIkXN5yTPAqy0xquRr\nwaSo588VGWJVsUE83kS+U8i1AUw7hzOgJVA72hDu8+HJQssptovddwH5B0v0MiIZ\nRcUCWzLe1pgqZqNz2nh7Ck4IsOr7rzNylQzwT5ZLMDy274fkzGfTkDURUfET3Lmw\nHfxBurY7C0V9Ttx75ABhxtQaVNtT+YhdmYg7yhbJiZMV2TGQTMQKe8+rHL0lvWmj\nT8+NzVswHxkxo7W2W3ABF9ZRmP/ROVPTjpVdH1uVHvZdMvOWJcWbbsmUPwq0Ufsq\njI4cDObzJSIWfXbLzrViLFAbzHXjecTRV2LthVcqId/MkfO88mu1q29uTCzCVYct\n2s9cif6naXw41zyGPRkA\n=dtxS\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 78fb583db22928fe9c25a62ce2578fd3636d0a54\nparent 54b80917aebb89665f456238e8d919f80392e2ff\nauthor Taisho241 <58881155+Taisho241@users.noreply.github.com> 1751268501 +0900\ncommitter GitHub <noreply@github.com> 1751268501 +0900\n\nUpdate 13_ステップ１行政改革.md",
-          "verified_at": "2025-06-30T07:28:22Z"
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/ebb6889ea80ba96b772f8aa954692c99f66fab47",
-      "html_url": "https://github.com/team-mirai/policy/commit/ebb6889ea80ba96b772f8aa954692c99f66fab47",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ebb6889ea80ba96b772f8aa954692c99f66fab47/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/4208a9529dbb9942448f150ef1dfa14aa8b8d6e7",
+      "html_url": "https://github.com/team-mirai/policy/commit/4208a9529dbb9942448f150ef1dfa14aa8b8d6e7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/4208a9529dbb9942448f150ef1dfa14aa8b8d6e7/comments",
       "author": {
         "login": "Taisho241",
         "id": 58881155,
@@ -342,34 +388,116 @@
         "site_admin": false
       },
       "committer": {
-        "login": "web-flow",
-        "id": 19864447,
-        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
-        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
         "gravatar_id": "",
-        "url": "https://api.github.com/users/web-flow",
-        "html_url": "https://github.com/web-flow",
-        "followers_url": "https://api.github.com/users/web-flow/followers",
-        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
-        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
-        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
-        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
-        "organizations_url": "https://api.github.com/users/web-flow/orgs",
-        "repos_url": "https://api.github.com/users/web-flow/repos",
-        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
-        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
         "type": "User",
         "user_view_type": "public",
         "site_admin": false
       },
       "parents": [
         {
-          "sha": "54b80917aebb89665f456238e8d919f80392e2ff",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/54b80917aebb89665f456238e8d919f80392e2ff",
-          "html_url": "https://github.com/team-mirai/policy/commit/54b80917aebb89665f456238e8d919f80392e2ff"
+          "sha": "75ddbff27a8b00ce29d72539071be252da595b82",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/75ddbff27a8b00ce29d72539071be252da595b82",
+          "html_url": "https://github.com/team-mirai/policy/commit/75ddbff27a8b00ce29d72539071be252da595b82"
+        }
+      ]
+    },
+    {
+      "sha": "8ac15c2c215f040885191f53ed9c4cad62cb65c0",
+      "node_id": "C_kwDOOqTJvNoAKDhhYzE1YzJjMjE1ZjA0MDg4NTE5MWY1M2VkOWM0Y2FkNjJjYjY1YzA",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-14T12:57:20Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-14T12:57:20Z"
+        },
+        "message": "Follow file renaming",
+        "tree": {
+          "sha": "5e99d2b30cd16777ae3c7f98a880e574582a4822",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5e99d2b30cd16777ae3c7f98a880e574582a4822"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8ac15c2c215f040885191f53ed9c4cad62cb65c0",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/8ac15c2c215f040885191f53ed9c4cad62cb65c0",
+      "html_url": "https://github.com/team-mirai/policy/commit/8ac15c2c215f040885191f53ed9c4cad62cb65c0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8ac15c2c215f040885191f53ed9c4cad62cb65c0/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4208a9529dbb9942448f150ef1dfa14aa8b8d6e7",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/4208a9529dbb9942448f150ef1dfa14aa8b8d6e7",
+          "html_url": "https://github.com/team-mirai/policy/commit/4208a9529dbb9942448f150ef1dfa14aa8b8d6e7"
         }
       ]
     }
   ],
-  "collected_at": "2025-07-10T03:18:40.344282"
+  "collected_at": "2025-07-14T13:33:53.275641"
 }
