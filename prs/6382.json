@@ -1,0 +1,143 @@
+{
+  "basic_info": {
+    "number": 6382,
+    "title": "fix: X通知APIを叩くように対応",
+    "state": "closed",
+    "created_at": "2025-07-14T08:01:41Z",
+    "updated_at": "2025-07-14T08:08:01Z",
+    "closed_at": "2025-07-14T08:07:58Z",
+    "merged_at": "2025-07-14T08:07:58Z",
+    "html_url": "https://github.com/team-mirai/policy/pull/6382",
+    "user": {
+      "login": "skanehira",
+      "id": 7888591,
+      "html_url": "https://github.com/skanehira"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "9a01e1320f4575e90a60751b8d3150ab33244efe",
+      "filename": ".github/scripts/post_to_x.ts",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 51,
+      "changes": 51,
+      "blob_url": "https://github.com/team-mirai/policy/blob/2a74b583f873842c85eb3fd6a849892f011cc4aa/.github%2Fscripts%2Fpost_to_x.ts",
+      "raw_url": "https://github.com/team-mirai/policy/raw/2a74b583f873842c85eb3fd6a849892f011cc4aa/.github%2Fscripts%2Fpost_to_x.ts",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fscripts%2Fpost_to_x.ts?ref=2a74b583f873842c85eb3fd6a849892f011cc4aa",
+      "patch": "@@ -1,51 +0,0 @@\n-import { TwitterApi } from 'twitter-api-v2';\n-import * as fs from 'fs';\n-\n-interface GitHubUser {\n-  login: string;\n-}\n-\n-interface GitHubPullRequest {\n-  title?: string;\n-  html_url?: string;\n-  user?: GitHubUser;\n-}\n-\n-interface GitHubEvent {\n-  pull_request?: GitHubPullRequest;\n-}\n-\n-// PR情報をGitHub Actionsのイベントから取得\n-const eventPath = process.env.GITHUB_EVENT_PATH;\n-let pr: GitHubPullRequest = {};\n-if (eventPath && fs.existsSync(eventPath)) {\n-  const event: GitHubEvent = JSON.parse(fs.readFileSync(eventPath, 'utf8'));\n-  pr = event.pull_request || {};\n-}\n-\n-const prTitle = pr.title ?? 'PRタイトル';\n-const prUrl = pr.html_url ?? 'PRリンク';\n-const prUser = pr.user?.login ?? 'ユーザー名';\n-\n-const text = `皆様の政策提案がマニフェストに取り込まれました🎉\\nご提案ありがとうございました🙇‍♂️\\nタイトル: ${prTitle}\\n詳細はこちら: ${prUrl}\\n引き続き皆様の政策提案、お待ちしております😊`;\n-\n-const client = new TwitterApi({\n-  appKey: process.env.TWITTER_API_KEY!,\n-  appSecret: process.env.TWITTER_API_SECRET!,\n-  accessToken: process.env.TWITTER_ACCESS_TOKEN!,\n-  accessSecret: process.env.TWITTER_ACCESS_TOKEN_SECRET!,\n-});\n-\n-(async () => {\n-  try {\n-    const tweet = await client.v2.tweet(text);\n-    console.log('Success:', tweet);\n-  } catch (e: unknown) {\n-    if (e instanceof Error) {\n-      console.error('Error:', e.message);\n-    } else {\n-      console.error('Unknown error:', e);\n-    }\n-    process.exit(1);\n-  }\n-})(); "
+    },
+    {
+      "sha": "d61875f81b09c98350c415d5daaa35ec95cf7ea2",
+      "filename": ".github/workflows/post-to-x.yml",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 38,
+      "changes": 38,
+      "blob_url": "https://github.com/team-mirai/policy/blob/2a74b583f873842c85eb3fd6a849892f011cc4aa/.github%2Fworkflows%2Fpost-to-x.yml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/2a74b583f873842c85eb3fd6a849892f011cc4aa/.github%2Fworkflows%2Fpost-to-x.yml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fworkflows%2Fpost-to-x.yml?ref=2a74b583f873842c85eb3fd6a849892f011cc4aa",
+      "patch": "@@ -1,38 +0,0 @@\n-name: Post PR Info to X\n-\n-on:\n-  pull_request_target:\n-    types: [closed]\n-    branches: [main]\n-    paths:\n-      - '[0-9]*.md'\n-\n-jobs:\n-  post-to-x:\n-    runs-on: ubuntu-latest\n-    # マージされたPRのみX投稿を実行する（skip-notificationラベルがついていない場合）\n-    if: |\n-      github.event.pull_request.merged == true &&\n-      !contains(github.event.pull_request.labels.*.name, 'skip-notification')\n-    steps:\n-      - name: Checkout\n-        uses: actions/checkout@v4\n-\n-      - name: Set up Node.js\n-        uses: actions/setup-node@v4\n-        with:\n-          node-version: '20'\n-\n-      - name: Run post script\n-        if: github.event.pull_request.merged == true\n-        env:\n-          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}\n-          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}\n-          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}\n-          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}\n-        run: |\n-          cd .github/scripts\n-          npm init -y\n-          npm install twitter-api-v2 typescript @types/node\n-          npx tsc post_to_x.ts --target ES2020 --module commonjs\n-          node post_to_x.js"
+    },
+    {
+      "sha": "e58e536324692463673e403110e1b9158d633dd3",
+      "filename": ".github/workflows/x-notify-on-merge.yaml",
+      "status": "added",
+      "additions": 23,
+      "deletions": 0,
+      "changes": 23,
+      "blob_url": "https://github.com/team-mirai/policy/blob/1c0c0d99d15edeeb83fbf4b7d58c38aea61efab8/.github%2Fworkflows%2Fx-notify-on-merge.yaml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/1c0c0d99d15edeeb83fbf4b7d58c38aea61efab8/.github%2Fworkflows%2Fx-notify-on-merge.yaml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fworkflows%2Fx-notify-on-merge.yaml?ref=1c0c0d99d15edeeb83fbf4b7d58c38aea61efab8",
+      "patch": "@@ -0,0 +1,23 @@\n+name: Post PR Info to X\n+\n+on:\n+  pull_request_target:\n+    types: [closed]\n+    branches: [main]\n+    paths:\n+      - '[0-9]*.md'\n+\n+jobs:\n+  post-to-x:\n+    runs-on: ubuntu-latest\n+    # マージされたPRのみX投稿を実行する（skip-notificationラベルがついていない場合）\n+    if: |\n+      github.event.pull_request.merged == true &&\n+      !contains(github.event.pull_request.labels.*.name, 'skip-notification')\n+    steps:\n+      - name: Post X\n+        if: github.event.pull_request.merged == true\n+        run: |\n+          curl -v -H 'Authorization: Bearer ${{ secrets.MANIFESTO_NOTIFY_API_TOKEN }}' \\\n+            --json '{\"githubPrUrl\": \"${{ github.event.pull_request.html_url }}\"}' \\\n+            ${{ secrets.MANIFESTO_NOTIFY_ENDPOINT }}"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "1c0c0d99d15edeeb83fbf4b7d58c38aea61efab8",
+      "node_id": "C_kwDOOqTJvNoAKDFjMGMwZDk5ZDE1ZWRlZWI4M2ZiZjRiN2Q1OGMzOGFlYTYxZWZhYjg",
+      "commit": {
+        "author": {
+          "name": "skanehira",
+          "email": "sho19921005@gmail.com",
+          "date": "2025-07-14T08:01:22Z"
+        },
+        "committer": {
+          "name": "skanehira",
+          "email": "sho19921005@gmail.com",
+          "date": "2025-07-14T08:01:22Z"
+        },
+        "message": "fix: PRのURLを動的に取得するように修正\n\n- ハードコードされていたPR URLを削除\n- github.event.pull_request.html_urlを使用してマージされたPRのURLを動的に取得\n- これにより、どのPRがマージされても正しいURLがX通知に含まれるようになる\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+        "tree": {
+          "sha": "7b58eaade3cb6eea7ccfc62eecf62c70ebe4ac70",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7b58eaade3cb6eea7ccfc62eecf62c70ebe4ac70"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/1c0c0d99d15edeeb83fbf4b7d58c38aea61efab8",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/1c0c0d99d15edeeb83fbf4b7d58c38aea61efab8",
+      "html_url": "https://github.com/team-mirai/policy/commit/1c0c0d99d15edeeb83fbf4b7d58c38aea61efab8",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/1c0c0d99d15edeeb83fbf4b7d58c38aea61efab8/comments",
+      "author": {
+        "login": "skanehira",
+        "id": 7888591,
+        "node_id": "MDQ6VXNlcjc4ODg1OTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7888591?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skanehira",
+        "html_url": "https://github.com/skanehira",
+        "followers_url": "https://api.github.com/users/skanehira/followers",
+        "following_url": "https://api.github.com/users/skanehira/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skanehira/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skanehira/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skanehira/subscriptions",
+        "organizations_url": "https://api.github.com/users/skanehira/orgs",
+        "repos_url": "https://api.github.com/users/skanehira/repos",
+        "events_url": "https://api.github.com/users/skanehira/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skanehira/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "skanehira",
+        "id": 7888591,
+        "node_id": "MDQ6VXNlcjc4ODg1OTE=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7888591?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/skanehira",
+        "html_url": "https://github.com/skanehira",
+        "followers_url": "https://api.github.com/users/skanehira/followers",
+        "following_url": "https://api.github.com/users/skanehira/following{/other_user}",
+        "gists_url": "https://api.github.com/users/skanehira/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/skanehira/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/skanehira/subscriptions",
+        "organizations_url": "https://api.github.com/users/skanehira/orgs",
+        "repos_url": "https://api.github.com/users/skanehira/repos",
+        "events_url": "https://api.github.com/users/skanehira/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/skanehira/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "html_url": "https://github.com/team-mirai/policy/commit/2a74b583f873842c85eb3fd6a849892f011cc4aa"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T09:21:33.396232"
+}

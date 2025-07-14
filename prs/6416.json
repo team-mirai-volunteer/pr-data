@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 6416,
+    "title": "子育て支援策の公平性を高めるための「給付付き税額控除」導入",
+    "state": "open",
+    "created_at": "2025-07-14T09:50:03Z",
+    "updated_at": "2025-07-14T09:50:03Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6416",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "862e975384e085adcbdc0f39a92e50716ea2d8dd",
+      "filename": "31_ステップ３子育て.md",
+      "status": "modified",
+      "additions": 9,
+      "deletions": 13,
+      "changes": 22,
+      "blob_url": "https://github.com/team-mirai/policy/blob/82fcb637c8b8c03f8bfaab1b1e095576de768b08/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/82fcb637c8b8c03f8bfaab1b1e095576de768b08/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=82fcb637c8b8c03f8bfaab1b1e095576de768b08",
+      "patch": "@@ -28,18 +28,14 @@\n * 児童手当は「貧困対策および次代を担う子どもの健やかな成長のための制度」として位置づけを明確化\n   * 少子化対策と混在させず、あくまで子育て世帯の生活基盤を支える給付として位置づけを明確化します。\n   * 煩雑化している給付事務については、給付条件の見直しや給付方法の効率化、国からの直接給付などに取り組み、地方自治体の給付事務にかかる工数を下げ、職員の方々の貴重なリソースはほかの子育て支援策に割いていただけるような仕組みを作ります。  \n-* 「子育て減税」による子育て世帯の所得税抜本引き下げ  \n-  * 児童手当とは別に、新たな少子化対策としての「子育て減税」を導入します。本政策は、「子育てをする親に対し行動変容につながるレベルのインパクトのある支援をする」ことをコンセプトにしています。\n-    * 「一律的な現金給付が低所得世帯以外に出生率向上効果を示さない」という研究結果は、現金給付額が所得に占める相対的な割合が低い場合、出産・子育てに関する行動への影響が限定的であることを示唆しています。この分析に基づき、私たちはより効果的なインセンティブ設計を検討しました。\n-    * 一律の金額ではなく、所得に応じて還元金額を調整し、子どもを育てる一人ひとりが「国が子育てを支援している」と感じられる制度を目指します。\n-  * 具体的には、「子どもの数に応じて親の所得税の税率を定率で下げていく」という制度を提案していきます。\n-    * 例えば、子ども1人で所得税率がマイナス5ポイント（例：23%→18%）、2人になるとマイナス10ポイント（例：23%→13%）、3人になるとマイナス20ポイント（例：23%→3%）というように、段階的に減らします。\n-    * 4人以降についても1人当たり5ポイントずつ上乗せするなど、多子世帯の負担がしっかりと軽減され、子どもを持つことへの不安を払拭するだけのインパクトを生み出すことを狙います。\n-  * 高所得者が青天井で税額還元とならないよう、所得が一定額を超えると緩やかに減税率が減少する仕組みを導入します。\n-    * 現金給付による動機づけ（インセンティブ）は、一定以上の所得水準を超えると効果が限定的になるという認識に基づいています。子育て世帯の世帯年収中央値付近など、ボリュームゾーンにあたる層をメインとし、大きく所得が上回る層には、適切な減税額となるよう調整します。\n-    * 所得制限のような崖を設けるのではなく、なめらかに漸減する関数とし、所得が高くなるにつれて一定の減税額に収束するような制度とします。\n-  * 「子育て減税」は、共働きの場合は両親の双方の所得税率に適用します。育児と仕事の両立の苦労が、しっかりとお子さん・家族に還元される仕組みを目指します。\n-  * 現時点での概算では、これによる税収減は年間3兆円ほどです。他政策と合わせて、持続可能な制度となるよう、財源については精査していきます。\n+* 給付付き税額控除（子育て支援控除）の創設\n+  * 児童手当とは別に、新たな少子化対策として「給付付き税額控除」を創設します。本政策の主目的は、子どもを望みながらも経済的負担からその一歩を踏み出せない世帯を支援することです。\n+  * 所得税率を引き下げる従来案が持つ、高所得層ほど恩恵が大きくなる逆進性の課題を解決するため、所得にかかわらず公平な支援を実現する本制度へと転換します。\n+  * 具体的には、所得税額から直接一定額を差し引く「税額控除」を基本とし、控除額が納税額を上回る場合はその差額を給付します。この方式は、子育て世帯全体への支援となるだけでなく、既存の研究で出生率向上に特に効果的とされる低所得世帯に対しては、実質的な現金給付として機能します。これにより、全ての所得層に支援を届けつつ、効率的な少子化対策を目指します。\n+  * 特に第一子への支援を手厚くすることで、「一人でも子どもがほしい」という切実な願いに応えます。\n+  * 高所得者が青天井で恩恵を受けないよう、所得が一定額を超えると緩やかに控除額が減少する仕組みを導入します。所得制限のような崖を設けるのではなく、なめらかに漸減する関数とし、所得が高くなるにつれて一定の支援額に収束するような制度とします。\n+  * この支援は、共働きの場合は両親の双方に適用することを検討し、育児と仕事の両立の苦労が、しっかりとお子さん・家族に還元される仕組みを目指します。\n+  * 現時点での概算では、これによる財政負担は年間3兆円ほどです。他政策と合わせて、持続可能な制度となるよう、財源については精査していきます。\n \n ## ２）住まいの安心を提供します\n \n@@ -226,4 +222,4 @@\n   * いずれの制度も電子申請などの活用で申請者の利便性を高め、同時に行政の事務負担も軽減していきます。  \n * 多様なパートナーシップの尊重と法的整備  \n   * 事実婚を選択するカップルに対し、税制、社会保障、相続、共同親権等で法律婚と同等の保護が受けられるよう法制度の整備を検討します。  \n-  * 結婚による苗字変更によっておこる不利益を解消する方策について、国民の声を集めて多角的に検討します。\n\\ No newline at end of file\n+  * 結婚による苗字変更によっておこる不利益を解消する方策について、国民の声を集めて多角的に検討します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "82fcb637c8b8c03f8bfaab1b1e095576de768b08",
+      "node_id": "C_kwDOOqTJvNoAKDgyZmNiNjM3YzhiOGMwM2Y4YmZhYWIxYjFlMDk1NTc2ZGU3NjhiMDg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T09:48:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T09:48:24Z"
+        },
+        "message": "匿名ユーザーの提案に基づき、「子育て減税」を逆進性のない「給付付き税額控除」に修正",
+        "tree": {
+          "sha": "2cd86efded58a24e1870e83f3858ae096894819f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2cd86efded58a24e1870e83f3858ae096894819f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/82fcb637c8b8c03f8bfaab1b1e095576de768b08",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodNJoCRC1aQ7uu5UhlAAAd5gQAAHsR17s3HxB+xHT1jdoP3Uj\n59dp2Hfw1PxyX0hbJ1cPger427Ccf+aJOsrDOqzuZAIIHZyyOFnIgWY259+LrWNr\n8icGLSN+GUnZ0gejdmeVAraDWHcacRY70U7C9jf0jcIpPc+ajSJOftxfa3AZMDos\nhOOdfCOkE1+oQdVsXAt/C89xNVW9VeeuNLE872SFbw8DcAtGY/CxaCLtPMNQCEug\nB6tndyeoKrSdLny55yO8wO9QbPPxpmXR4oAHcJVZRZkVUJyR1qusQq5ooHBsl/Vo\nlcIGH4Cx7rXk5ZLTR+8SP78YnTtAq/U4iWBQjo+ARcwIf6QpvwFtKKzFnCZkJ8Vz\nemsl1QdORAHsN0OaY0sqRLKDAi0u21I3mwGvEOn6vjEe6g4VNXirMa/gE5/XuAP7\nFerNm22Lg+OoXNC4SaJoN6mbulXXfu6wnNhiEkSVjVl/CO5OkuzKE1ktfFbfpD3n\nS/kYuCbMS4WSAqfxI8KpoDuXLCYjidu2BeDX2WzRgZDofmBLvTQKsAWwworWXKLE\nFTYe2X4qojdKBJqAFJoBl+UXl2+wEUUu7bbGDXiMs5q9D5t4UyEeq/kYWAvJCJQj\n3x6hyDPNlmbLzA5qkl7DIT3Oaf/xX1Xf1SC6nKhllC9WtEEUyRDDy4J113S2Lbvm\nOSnBDFGvHG8Q7keD6Pm8\n=/C1R\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2cd86efded58a24e1870e83f3858ae096894819f\nparent 597ecb68716d1002f0c8be75385f39d5f5a2c0bc\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752486504 +0000\ncommitter GitHub <noreply@github.com> 1752486504 +0000\n\n匿名ユーザーの提案に基づき、「子育て減税」を逆進性のない「給付付き税額控除」に修正",
+          "verified_at": "2025-07-14T09:48:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/82fcb637c8b8c03f8bfaab1b1e095576de768b08",
+      "html_url": "https://github.com/team-mirai/policy/commit/82fcb637c8b8c03f8bfaab1b1e095576de768b08",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/82fcb637c8b8c03f8bfaab1b1e095576de768b08/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "597ecb68716d1002f0c8be75385f39d5f5a2c0bc",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/597ecb68716d1002f0c8be75385f39d5f5a2c0bc",
+          "html_url": "https://github.com/team-mirai/policy/commit/597ecb68716d1002f0c8be75385f39d5f5a2c0bc"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T09:53:42.516215"
+}

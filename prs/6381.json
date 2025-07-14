@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 6381,
+    "title": "ビジョンに国民負担率の上限設定に関する項目を追加",
+    "state": "open",
+    "created_at": "2025-07-14T08:00:49Z",
+    "updated_at": "2025-07-14T08:00:50Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6381",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "bd908afdb335e8d0b7fee007ebf130c3b80afc99",
+      "filename": "13_ステップ１くらしと行政.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "changes": 5,
+      "blob_url": "https://github.com/team-mirai/policy/blob/ef096fd706afcfc08cd354b8e3d037dad23aa9ef/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/ef096fd706afcfc08cd354b8e3d037dad23aa9ef/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=ef096fd706afcfc08cd354b8e3d037dad23aa9ef",
+      "patch": "@@ -8,6 +8,7 @@\n * 政党自らが手を動かして、政治・行政にテクノロジーを実装し、情報公開や効率化を進め、国民が変化を実感できる政府をつくります。  \n * 誰もが迷わず、負担なく、支援や制度にアクセスできる使いやすさ最優先の公共サービスを実現します  \n * 政策・制度の設計段階から専門知と技術を活用し、機能する法制度・行政運営を支える仕組みをつくります\n+* 国民の可処分所得を守り、社会全体の活力を引き出すため、平時の国民負担率に上限を設定します。これにより、限られた財源の無駄遣いをなくし、その効果を最大化する財政運営を目指します。緊急時には、客観的データに基づき判断し、国民生活を守るために必要な財政出動を柔軟に行える仕組みを整えます。\n \n ## １）永田町にエンジニアチームを設置し、国会・行政のDXを推進します\n \n@@ -205,7 +206,7 @@\n    * 所・氏名・政党名・略歴などの繰り返しの同一の記載をなくすため、統合入力フォームを整備し、1回の入力で複数様式に自動展開します。\n    * 加えて、様式・記載要領・メタデータ設計を仕様として標準化し、自治体ごとの記載揺れや独自欄をなくし、公平性と審査効率、ミス削減の両立を図ります。\n * デジタル庁・総務省と連携した技術基盤の構築\n-   * 行政手続標準化の共通API（GSS）に「公職選挙手続き」を追加し、住民票・税務情報と同様に各種選挙手続きをAPI経由で処理できる構造を検討します。\n+   * 行政手続標準化の共通API（GSS）に「公職選挙手続き」を追加し、住民票・税務情報と同様に各種選挙手続きをAPI経由で処理できるできる構造を検討します。\n    * 導入に負担の少ない汎用的な業務テンプレートを整備し、予算や人材が限られる自治体でも安定的に運用できるよう配慮します。\n * 運用現場に配慮した“併存フェーズ”の設計\n    * これら全てを短期間で実現するのは無理であるため、例えば「紙・電子どちらも可」とする併存期間を3年程度設けるなど、現場が無理なく移行できる設計にします。\n@@ -217,3 +218,5 @@\n    * さらに、音声読み上げ・多言語対応などのアクセシビリティ施策を拡充することで、情報の届け方そのものを多様化し、「紙が前提」となっている現行制度を超えた、誰もがアクセスできる“開かれた選挙”の実現を目指します。\n \n \n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "7effc13fafc78b17b30080638a7c1e28589b6eae",
+      "node_id": "C_kwDOOqTJvNoAKDdlZmZjMTNmYWZjNzhiMTdiMzAwODA2MzhhN2MxZTI4NTg5YjZlYWU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T07:40:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T07:40:23Z"
+        },
+        "message": "通りすがりさんの提案に基づき、平時の国民負担率に上限を設定する方針をビジョンに追加",
+        "tree": {
+          "sha": "348335d8c73bc3c509029c7a35be1a3e95dda8bf",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/348335d8c73bc3c509029c7a35be1a3e95dda8bf"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7effc13fafc78b17b30080638a7c1e28589b6eae",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodLRoCRC1aQ7uu5UhlAAAGokQAHa2kZwCPRb0mLAhCjl8Usd5\nSDWhc6bEPrMeEeI3EvuTBc8s7hODa7UsHr0vftBUe6lyRkA7ixSvNA3JRqz6HOON\nW/3MFI+28iRNOeH09oZPRO5cS4hpoKjkNilhksNvGep5pgWkB5tpeX+LDMD3HQXH\nSXgAhprrIwnpuuIQAPkEvQW0CuzHWNv8F99ls7dEvMzV+gxhzGiaj76bF6tzvaT6\n08GIMt638ldOvLhAkkdIRMaPX8xBFobZG2yLXG2XOrjmhA8zZjYdtmX3oRq12cFR\nUY1HSZZUl9ECTOIhLGOHq+1lIR1x2WG1kmRvuYWlUzcHVcE5BfzAbLdj4azr7S0E\ndo31W+NE/x8hkeIUcR/pu41Xp/z+1/JnNa5yteMn+mwMoWyUt2pnEozTI+f/t/Jt\n69KH7N4ynJgFA6WeAs5bpKtRUYritYJtgi/IaKcNo+FMGwyN5z4GqS4AT9znuK8D\nVnDsurcgZHCbv3mdD70tiQo5BLAYb4VOxrL/DcDQ2v48BrdVetVLVPancTVBgxsK\nOsoljYA0yL7YVvrx4VIpLQ8w1JsjYU/rk8T8tnKKrAaPj2SzQCZ797OeE5amJNt2\ndrHZgWIbZVQxVwWH7/RfD4nw8JCcUx78S4F0K7begAkdDuPjPa5PwQpgLs42NXtP\nRcs+gk0pewQ3asJiR1Dw\n=EnZi\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 348335d8c73bc3c509029c7a35be1a3e95dda8bf\nparent 2a74b583f873842c85eb3fd6a849892f011cc4aa\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752478823 +0000\ncommitter GitHub <noreply@github.com> 1752478823 +0000\n\n通りすがりさんの提案に基づき、平時の国民負担率に上限を設定する方針をビジョンに追加",
+          "verified_at": "2025-07-14T07:40:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7effc13fafc78b17b30080638a7c1e28589b6eae",
+      "html_url": "https://github.com/team-mirai/policy/commit/7effc13fafc78b17b30080638a7c1e28589b6eae",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7effc13fafc78b17b30080638a7c1e28589b6eae/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "html_url": "https://github.com/team-mirai/policy/commit/2a74b583f873842c85eb3fd6a849892f011cc4aa"
+        }
+      ]
+    },
+    {
+      "sha": "ef096fd706afcfc08cd354b8e3d037dad23aa9ef",
+      "node_id": "C_kwDOOqTJvNoAKGVmMDk2ZmQ3MDZhZmNmYzA4Y2QzNTRiOGUzZDAzN2RhZDIzYWE5ZWY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T07:58:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T07:58:02Z"
+        },
+        "message": "通りすがりさんの提案に基づき、国民負担率に関するビジョンの表現を更新",
+        "tree": {
+          "sha": "163c7018a4d6da88d73da0b4c749327382ab22e1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/163c7018a4d6da88d73da0b4c749327382ab22e1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ef096fd706afcfc08cd354b8e3d037dad23aa9ef",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodLiKCRC1aQ7uu5UhlAAAFvwQAF8QOcKqoVFDIWWoFrLXHD1h\n6Xy5fp3qcL5L/7LFKgLwGzCTT6oipYdfuGl7N9tWPB4wPCbT1pU/sWf4/TH+ZSs9\n3TiJBEbEQJdLgAfA2U21eN9yxSMKMpeSvTXD0kcLLduyI49iNS9/7lepAFGVAr5L\n4ZBfaG3wsn3RbT9goFMME4tG/kYVGvbMOuJCsUAHftq1yXwIwNAy9bVaCIpNCT49\nI7aEFtoHwJ1n8CxNDvv1GUB5B7GE/mrvs5lUVa/EAu2ZT+Wxmh7x8nk8Jg/pQtMn\ngtwtbq8TBGGqM0LK5e+U8GX0TntF/JcNgaQA7IiUGFvcJqrjBCIc5h+78ilvGIMr\nS7Vw20PFGWm7eNSw3ZF/aSdko1dosFpXYYRiTesb6xw7RXhb1Cc6wH1aCFTdVmCC\ntHmGaWVC2wyUqzT8BjbrTjqvAjL3BZkOgn6kIe7APwbGTYNlSBIg6HtLsLejvdRv\nxs4bJj9yKPwwOITVuoPQpIkkLdUo7l6LjVBgD5+Zit2k6MF49PX8Kf3hKhyr20ba\nDpRE+zqw2Xr0zbDA/PR5Ml/hc+olmGPDuVm4ES4L3As/JJBHc4qEY957I651r0bY\nsMjCuKsxHUiqPqY3eEXY1TPSGBtpkSUVCzs21MdlY9QKe5m6h83hE5H5MkbRlsTv\nOKzazbchdjEFm10jOj5Z\n=Qr7n\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 163c7018a4d6da88d73da0b4c749327382ab22e1\nparent 7effc13fafc78b17b30080638a7c1e28589b6eae\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752479882 +0000\ncommitter GitHub <noreply@github.com> 1752479882 +0000\n\n通りすがりさんの提案に基づき、国民負担率に関するビジョンの表現を更新",
+          "verified_at": "2025-07-14T07:58:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/ef096fd706afcfc08cd354b8e3d037dad23aa9ef",
+      "html_url": "https://github.com/team-mirai/policy/commit/ef096fd706afcfc08cd354b8e3d037dad23aa9ef",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ef096fd706afcfc08cd354b8e3d037dad23aa9ef/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7effc13fafc78b17b30080638a7c1e28589b6eae",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/7effc13fafc78b17b30080638a7c1e28589b6eae",
+          "html_url": "https://github.com/team-mirai/policy/commit/7effc13fafc78b17b30080638a7c1e28589b6eae"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T09:21:34.920056"
+}

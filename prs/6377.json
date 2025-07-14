@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 6377,
+    "title": "政策設計の基本原則の追加",
+    "state": "open",
+    "created_at": "2025-07-14T07:46:21Z",
+    "updated_at": "2025-07-14T07:46:22Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6377",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "a7e5b2d442b739e442651e60b39f7913f8e263e3",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 8,
+      "deletions": 0,
+      "changes": 8,
+      "blob_url": "https://github.com/team-mirai/policy/blob/b14ee31dbdd5885a462b3681b807d1f5f7f55389/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/b14ee31dbdd5885a462b3681b807d1f5f7f55389/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=b14ee31dbdd5885a462b3681b807d1f5f7f55389",
+      "patch": "@@ -67,6 +67,14 @@\n \n 　頂いた変更提案は、チームみらいが責任をもって確認します。変更提案をマニフェストに反映させるかどうかについては、チームみらいが権限を持ちます。当初マニフェストとは異なる方向性の提案であっても、真剣に検討し、反映するかどうかを考えます。\n \n+## 政策設計の基本原則\n+\n+1.  **一つの政策には、一つの役割を（単一責任の原則）**：例えば、「子育て支援」という政策は、子育て世帯の経済的負担軽減に集中させ、所得の再分配など他の目的とは切り分けます。これにより、政策の意図が明確になります。\n+\n+2.  **政策同士をシンプルにつなげる（疎結合）**：ある政策の変更が、他の政策に複雑な影響を与えないようにします。例えば、子育て支援の給付額を、所得税の複雑な計算に頼らず、「子供の数」など単純な条件で決めます。\n+\n+3.  **同じ目的の制度は一つにまとめる（DRY原則）**：似たような目的の給付金や手続きが複数あると複雑です。これらを一つに統合し、シンプルにします。\n+\n ## 注意事項\n \n * お互いに敬意を持ったコミュニケーションをお願いします。  "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "7e20467530449e289c20a7e8061b1490d6c42f0f",
+      "node_id": "C_kwDOOqTJvNoAKDdlMjA0Njc1MzA0NDllMjg5YzIwYTdlODA2MWIxNDkwZDZjNDJmMGY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T07:33:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T07:33:22Z"
+        },
+        "message": "伊藤義章さんの提案に基づき、政策設計の基本原則を追加",
+        "tree": {
+          "sha": "5b4df85f20ecce99017524f7040c8c92e6c1e3d8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5b4df85f20ecce99017524f7040c8c92e6c1e3d8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7e20467530449e289c20a7e8061b1490d6c42f0f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodLLCCRC1aQ7uu5UhlAAAQjYQAB6fn2cZFOOslEfIf+D0sbnh\ncRQEm5m2/CW/G8Z3Adb33EwsfSRsl6dQqj/Oeq8jMUpgRknc+mVNEO6BbuwvPeIr\nqRtlpRN2QiDIlQm4FGeDKAVyy7BJHEqoYNhiPBMoyehf/rrgDoiabJj1PJWY2p+3\nyJoFEgKvQvpHvkqvWhNDx1nSSnOhFOxo74v/pbSJTrXbrduHZ2vE+f/vZOc+oPTs\nhnXFY9hTJjYAXp+dCXSXP/WVDQ07xUsGj9mrsBXxcA3WYJTBF8sJHZxJJf79gvY2\neGeFcajYGCfHArIc7p0OpimsXUILpkZfNbeAwm6kVfWbbq4kQLRdIRPa9appnLCC\nJHdCejsrL7rwdh+q81RnQ9E0DF65yZocMW7Hj5f4MA0JlnKPE193PYSVmbu0souf\n1LDRaTYb28S6/Io/zIsstg7JAw+uxAHGt9Q8GFDxKayhbZDQQt88KstiEo6EyfCO\nKIH+d00lGgg9iW7sYtOkRRf9pO8MjhiUoM880uMFuuDp5EqoLC97XT8eUrLhfjdj\ni0mvlm0nufpxyRLqSyiE4wqujd/Flj5+4+QCs8jIUxNxDeQ4RWwu4goPBSvvgZu7\n5eFu8M/HVXL5baroAoT6PjiNb9Rgwr9YMEF/YWlMqQp7uZF7No+tTG1qqiGitvlT\npG3b9ecZ24XkyE4/a0ET\n=3XdZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5b4df85f20ecce99017524f7040c8c92e6c1e3d8\nparent 2a74b583f873842c85eb3fd6a849892f011cc4aa\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752478402 +0000\ncommitter GitHub <noreply@github.com> 1752478402 +0000\n\n伊藤義章さんの提案に基づき、政策設計の基本原則を追加",
+          "verified_at": "2025-07-14T07:33:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7e20467530449e289c20a7e8061b1490d6c42f0f",
+      "html_url": "https://github.com/team-mirai/policy/commit/7e20467530449e289c20a7e8061b1490d6c42f0f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7e20467530449e289c20a7e8061b1490d6c42f0f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2a74b583f873842c85eb3fd6a849892f011cc4aa",
+          "html_url": "https://github.com/team-mirai/policy/commit/2a74b583f873842c85eb3fd6a849892f011cc4aa"
+        }
+      ]
+    },
+    {
+      "sha": "c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4",
+      "node_id": "C_kwDOOqTJvNoAKGM4NzE5ZjQyYmY3YWZkNDNlYjdiYmNkNDEyYmM4NGI0ZGViYjRhYjQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T07:39:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T07:39:02Z"
+        },
+        "message": "伊藤義章さんの提案に基づき、政策設計の基本原則を追加",
+        "tree": {
+          "sha": "5b4df85f20ecce99017524f7040c8c92e6c1e3d8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5b4df85f20ecce99017524f7040c8c92e6c1e3d8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodLQWCRC1aQ7uu5UhlAAAl70QABLhGb9zKnA7RPP9IReoD8VL\nPGoLBnTTe09RDTYtQmw6ISbbII2Z97I+cUE67c1eKxMucC3KV3oulptlKavnXw6G\nR+ItYD8lRgQHQDIx6l7LKXBiTPhrWY4JsAUi9VbZEmQqsf4l7V8iNA2Vjpb5oB9b\nxSlmflTJ5oPi/7X4LXIY3R/qLHiA/hX5CgX+L/Gq8V1fr8ylSWxhKMfyI1df9BsR\nrGrNXYPpS29cP+uh1j4WSWb1P45NxQ0KvZICJMoyCOSTYx17DoOnOx3L9qpFY0Ur\nYxS/ajhBgD92xor6m2tyCrThdWdY+gUrvghhFg71cBDE/EPqxJgegfE15U61Vsc5\ntmXUfI2ZyxWqhdNy8tHU5ugGK+944YaMqNs4mQUucGeLB2tABTI8Nw1q+abL7BEa\n2Co0XoEHSNWlyQSWg6trHFM/sizgMx3r/39Hh1uYEVO+wy0J+lt7TRcYlvwOceMs\nfNdaPabjcIGbxHvS4bru1VI5CBQTWZVQVVrftz1emavSi5n3O/qJSPmi9Cl9ZIy9\n7NYZ/j8hRdbzd+vNMZwiqVj4ZssBa8OtSe5gdogieEEeVOZx8NT+px0bbQD3ovoE\n6bFDqKUp5QLV8izL/+mNS+RhtvTO0tQnshhfgGhJmen7qT9zu82RspCEUJa4Of0B\nTa1NH0jRpRdwOuNBpyop\n=5fQj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5b4df85f20ecce99017524f7040c8c92e6c1e3d8\nparent 7e20467530449e289c20a7e8061b1490d6c42f0f\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752478742 +0000\ncommitter GitHub <noreply@github.com> 1752478742 +0000\n\n伊藤義章さんの提案に基づき、政策設計の基本原則を追加",
+          "verified_at": "2025-07-14T07:39:03Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4",
+      "html_url": "https://github.com/team-mirai/policy/commit/c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7e20467530449e289c20a7e8061b1490d6c42f0f",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/7e20467530449e289c20a7e8061b1490d6c42f0f",
+          "html_url": "https://github.com/team-mirai/policy/commit/7e20467530449e289c20a7e8061b1490d6c42f0f"
+        }
+      ]
+    },
+    {
+      "sha": "b14ee31dbdd5885a462b3681b807d1f5f7f55389",
+      "node_id": "C_kwDOOqTJvNoAKGIxNGVlMzFkYmRkNTg4NWE0NjJiMzY4MWI4MDdkMWY1ZjdmNTUzODk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T07:45:24Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T07:45:24Z"
+        },
+        "message": "政策設計の基本原則を追加 (提案者: 伊藤義章)",
+        "tree": {
+          "sha": "5b4df85f20ecce99017524f7040c8c92e6c1e3d8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/5b4df85f20ecce99017524f7040c8c92e6c1e3d8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b14ee31dbdd5885a462b3681b807d1f5f7f55389",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodLWUCRC1aQ7uu5UhlAAAAk8QABsfOuRnOlnjPhOuOLYwd/W1\nig4WrxssVLy9QJl2dNVyqs0x+Gh0G1Ybf9JnamQXFGQvCGk8qf6SK6MXp7PiOx3z\n2Mdd7agQa+JqkH8ENrNcrha7uqmMEQYPZRZ7mrfx0qKVV/9+CHX7ejcgTLNYBFDn\nmVkqrQEU7E+X2sPuzkwMtakC0k6TcZ9xkvsKl69jpyBX6hj/Io5N4VsV3fQtVik+\nkvq0YAevQeo1vyl1Uqvv/miZ69FXz2GLrRpUz4/E+C0MG+FPGTUJ8/Z8izVjWz9R\nk3eIVtiIT3ovWikcRqAcpoevXvXOGfPfontmoxRB83jgQnnv9RL626h0ZUWIWfg1\nkRdPrgwM6fCHysHTwDFPLYFAdAasM90oFEJnJgeNnCPHwfM4Do+CknSsN0r+IU11\nW7rmbcLZgfUaB86WXJ6FRqIMrpvVEHfOJdTd057d79a6ITFiVGQpRe0bwTPLtzL7\nLQTVCg9BLYPpRmrLLPUvuKkqfZCgl8Jpc1pXUjge1LCpVN2bE3au4sSlcCad2VuF\nAWQl0wC2rhL6zjVIEcFOC+c33FVgAZS3i8lECGdIx1AB9GczidVDKhHLFDxLhA47\nasfMa9XzNVsNwKJTKqRWgs3aeZao5ZK8fh24rk6EEvcQtRg/nv3yuaWdxywnfaal\naJ6BS2715AhI6PT5SvcO\n=UBYQ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 5b4df85f20ecce99017524f7040c8c92e6c1e3d8\nparent c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752479124 +0000\ncommitter GitHub <noreply@github.com> 1752479124 +0000\n\n政策設計の基本原則を追加 (提案者: 伊藤義章)",
+          "verified_at": "2025-07-14T07:45:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b14ee31dbdd5885a462b3681b807d1f5f7f55389",
+      "html_url": "https://github.com/team-mirai/policy/commit/b14ee31dbdd5885a462b3681b807d1f5f7f55389",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b14ee31dbdd5885a462b3681b807d1f5f7f55389/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4",
+          "html_url": "https://github.com/team-mirai/policy/commit/c8719f42bf7afd43eb7bbcd412bc84b4debb4ab4"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T09:21:41.425549"
+}

@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 6401,
+    "title": "ICUの質評価と再構築に関する政策提言",
+    "state": "open",
+    "created_at": "2025-07-14T09:04:19Z",
+    "updated_at": "2025-07-14T09:12:03Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6401",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "be247f2bc7c0e431878dfa26a76ce303306ce4eb",
+      "filename": "23_ステップ２医療.md",
+      "status": "modified",
+      "additions": 47,
+      "deletions": 0,
+      "changes": 47,
+      "blob_url": "https://github.com/team-mirai/policy/blob/9dcad5734e8eb3790dba902a1bdfadb357a9b261/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/9dcad5734e8eb3790dba902a1bdfadb357a9b261/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=9dcad5734e8eb3790dba902a1bdfadb357a9b261",
+      "patch": "@@ -59,3 +59,50 @@\n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n   * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+\n+## 3）ICUの質評価と再構築による医療資源の最適化\n+\n+### 現状認識・課題分析\n+\n+*   日本の集中治療室（ICU）は、心臓外科術後の管理や感染症パンデミック時の重症患者対応など、高度で不可欠な医療機能ですが、高コスト・低収益構造のため多くの病院で財務的な赤字部門となっています。\n+*   ICUにおける治療の質（妥当性や効果）を客観的に評価する仕組みが不十分です。例えば、重症度評価のSOFAスコアは導入されていますが、治療が本当に必要か、継続すべきかの判断材料としては限定的です。\n+*   結果として、効果の乏しい治療が継続されたり、医療資源が最適に配分されていなかったりする課題があります。\n+*   また、ICUが全国に分散しすぎているため、専門人材や教育、設備などの資源が非効率になっている面も指摘されています。\n+*   2024年度の診療報酬改定で、人員体制や遠隔支援に関する評価は導入されましたが、これらは「体制」の評価が主であり、提供される医療の「価値」そのものを問うには至っていません。\n+\n+### 政策概要\n+\n+*   **ICUの「価値」を可視化し、それに基づいた評価と資源配分を行う制度を構築します。**\n+*   **治療の質と妥当性を測る「ICUクオリティ指標」を創設**\n+    *   SOFAスコアに加え、費用対効果、予後改善、QOL（生活の質）などを組み合わせた多角的な指標を、AIや各種専門家の関与のもとで開発します。\n+    *   この指標に基づき、治療継続の妥当性を客観的に判断できる数値モデルを構築し、臨床現場を支援します。\n+*   **ICUの集約化と連携体制の強化**\n+    *   専門医や専門性の高い看護師・臨床工学技士などの人的要件を満たせない小規模なICUの再編・集約を促します。\n+    *   地域の中核となるICUに資源を集中させ、周辺病院からの患者受け入れや、専門家チームが他の病院を支援する（アウトリーチ）連携モデルを構築します。\n+*   **治療の必要性に応じた診療報酬制度への転換**\n+    *   治療の必要性や予後予測、治療への反応性（例：人工呼吸器への反応）などに応じて診療報酬を変動させる仕組みを導入します。\n+    *   効果が期待できない治療への報酬は下げ、個別化された効果的な治療への報酬は手厚くすることで、「価値に基づくICU」への転換を目指します。\n+\n+## 4）臓器移植医療の持続可能性を高めるための制度改革\n+\n+### 現状認識・課題分析\n+\n+*   臓器移植は心不全、肝不全、腎不全などに対する唯一の根治的治療法ですが、日本はその持続可能性において深刻な課題を抱えています。\n+*   **臓器提供者の不足:** 脳死ドナー数が年間約100件と、米国の9,000件超などと比べて著しく少なく、多くの患者が移植を待つ間に亡くなっています。臓器提供の意思表示率も低く、それを社会全体で後押しする仕組みが弱いのが現状です。\n+*   **不十分な診療報酬:** 高度な技術と多くの人員を要するにも関わらず、診療報酬体系が実態に見合っていません。特に、ドナーを管理する医療や、移植後の長期的なフォローアップに対する評価が低く、移植医療を行う施設の経済的負担が大きくなっています。\n+*   **専門人材の疲弊と流出:** 移植外科医、集中治療医、看護師、院内コーディネーターなどの専門人材の負担が極めて大きい一方、処遇は欧米に比べて低い水准にあり、若手の確保・定着が困難になっています。\n+*   **医療資源の分散:** 移植実施施設が各地に分散し、1施設あたりの症例数が少ないため、医療技術の維持・向上が難しくなっています。専門的な人材や設備などの資源を拠点病院に集約できていません。\n+\n+### 政策概要\n+\n+*   **臓器提供体制の国民的強化**\n+    *   マイナンバーカードと運転免許証を活用し、オンラインで完結する臓器提供意思登録制度を構築し、国民が意思表示しやすい環境を整備します。\n+    *   人生会議（ACP）のプロセスにおいて、臓器提供が自然な選択肢として話し合われる文化を醸成するとともに、脳死判定後の家族への選択肢提示を制度的に後押しします。\n+*   **「価値」に見合う診療報酬体系への刷新**\n+    *   術前の評価・準備から、ドナー管理、移植手術、術後の集中治療、長期フォローアップまでを包括的に評価する「臓器移植包括加算（仮称）」を創設し、移植医療の経済的基盤を安定させます。\n+*   **専門人材への投資と処遇改善**\n+    *   移植医療を支える外科医、集中治療医、コーディネーター、看護師など多職種チーム全体への経済的支援を強化します。\n+    *   海外の先進事例を参考に、移植専門医に対する研究支援や、若手医師が移植医療を目指せるような奨学金・留学支援制度を拡充します。\n+*   **拠点病院への集約化と機能強化**\n+    *   年間症例数や治療成績など、質の高い医療を提供できる施設を「ハイボリューム・トランスプラントセンター」として指定し、診療報酬、補助金、人材の面で重点的に資源を配分します。\n+    *   拠点病院を中心とした地域連携ネットワークを構築し、ドナー発生時の迅速な搬送・連携体制を強化します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "00aa1219bbf2acd123694b6eb23e51aced943f10",
+      "node_id": "C_kwDOOqTJvNoAKDAwYWExMjE5YmJmMmFjZDEyMzY5NGI2ZWIyM2U1MWFjZWQ5NDNmMTA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T09:01:45Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T09:01:45Z"
+        },
+        "message": "T.Hさんの提案に基づきICUに関する項目を追加",
+        "tree": {
+          "sha": "a1bf4822b047aab375b8a3e23ff02d5e2a7372cc",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a1bf4822b047aab375b8a3e23ff02d5e2a7372cc"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/00aa1219bbf2acd123694b6eb23e51aced943f10",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodMd6CRC1aQ7uu5UhlAAAPWkQAFdA5Yi2iULbVZ03TJqyX7is\nt5Y57qa/aFNiwVDq7YOHq1xOgR55lwgfRl+VScOli/Ifa3tsQj6tPv2dyw69kSMn\nCliKLWeOAN4GBY07MjPQZjFNYRMBw/0g4WPqkPGAWpzoWWdzIJnbgukEiP6eS0X6\nQi+Fb/5JYfKkMALFa3vFjbknIM0lbQ0n7b5rNiqbRwHD+lbVY+oW3Pya4wVepzTz\neNZXjk28ZEw7ZK4aekFsySzkSOfKFJOD0Bzm4SjUkOjLxA+tW8fuYZqgG7G8JXTr\nByUipvOyCkSxil++tLXSYxGKiOBo0mjbh+NR7dU3dVqYH8Ni7D7c12XQiYDAROxE\nL2IpgzWO5W6xQYMI0Os5PUI3OK7Zp/qRkpRQwcAPTw2Xs6uZmh+3RKTS/W53qqfC\nqpPfrsVaAh8/mzShxntnIRA7tRsBN4MhSHu52XzpBdLxqcax0vkyNT42fHieKMZ+\nr5KrJIePTYpXP9t1BcoHGObmrI4iNh2jxIEBKjzBXb5AnwrDz9dF4272Acc9FaKg\nhfEnHjLIL9oPS7U3Fl7My7JtHTpAjupf5cpkE1FBb5kNuczdpIxkMUBWnsp2nZ+X\nNWOKL7gTEC+R20ghH1C+HV7cW+81FsNpm4aPykuuLR8q9UdANNzSd5kQAmKWxpJ4\n5Sk3srNksouP//QX84wI\n=zkcW\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a1bf4822b047aab375b8a3e23ff02d5e2a7372cc\nparent 597ecb68716d1002f0c8be75385f39d5f5a2c0bc\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752483705 +0000\ncommitter GitHub <noreply@github.com> 1752483705 +0000\n\nT.Hさんの提案に基づきICUに関する項目を追加",
+          "verified_at": "2025-07-14T09:01:46Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/00aa1219bbf2acd123694b6eb23e51aced943f10",
+      "html_url": "https://github.com/team-mirai/policy/commit/00aa1219bbf2acd123694b6eb23e51aced943f10",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/00aa1219bbf2acd123694b6eb23e51aced943f10/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "597ecb68716d1002f0c8be75385f39d5f5a2c0bc",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/597ecb68716d1002f0c8be75385f39d5f5a2c0bc",
+          "html_url": "https://github.com/team-mirai/policy/commit/597ecb68716d1002f0c8be75385f39d5f5a2c0bc"
+        }
+      ]
+    },
+    {
+      "sha": "9dcad5734e8eb3790dba902a1bdfadb357a9b261",
+      "node_id": "C_kwDOOqTJvNoAKDlkY2FkNTczNGU4ZWIzNzkwZGJhOTAyYTFiZGZhZGIzNTdhOWIyNjE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T09:12:02Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T09:12:02Z"
+        },
+        "message": "feat: 臓器移植に関する政策提案を追加 (T.H.)",
+        "tree": {
+          "sha": "c9d1450628649c9dcdf68fadc66adb6c1579651b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c9d1450628649c9dcdf68fadc66adb6c1579651b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9dcad5734e8eb3790dba902a1bdfadb357a9b261",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodMniCRC1aQ7uu5UhlAAAvIAQAG6E3Pw5Trnrgd85dw+ypGIG\nJUUYIXCZE4OKE5YUzzMzUpEkpttFveLrc564xY7dBsGc/Qj2MKAORZwQbUmY9RWl\nPHM8hzy/EjNRQ1bbjz+3StKbDRo0/21ZfHVcTjpBxQitcYFKUyUs+LoXMOmr/LXt\n8iCaoyYh/utpOHcFxXSzaDJDs9YEuWCr+RvhgosJ88V2X+elz5i5Wq0VyUrqQfGc\nkDWbDZISC5KnLGjBBlQDjuwSlw5CrulUjUQzoH8/xr1MxZu+E59pp+t/P/yRZTyr\nGYe7E0GhXN6MyvX8v4zfn6bs7riXRz9V5gFYcT0mFyusixN15TAuMw2uE0X5ckKm\nVEoc17CaRYrPDop3S8owk40LSZEJdCnHzxPuUQyN8r1vYu8ONzu7w5VRnG3X7M1u\nrcOKPQWcXzzO+GPqA/jozt8LdNAIEs0hhDaVH2tJJtzamF5jPJZqouz7UJZ+ILSz\nOHmy9TiiQBh/RcipgMHIQlM6mvmsPy3eWIZ7Y1Qma0xl/lxZXubmVdReSa4KGgXN\n0kYP0lBUUBwJeA0cp5Qdu12zJr0iFvdbHk04zsLJY1vJFAo9OeK+fWZbnDRTCQT7\n6wgp4HoO8DN1O/QXGotE+7zxZh+L+dtxEl9aoOz4PoZqepqaWtdjRJOHww/X8MpS\njwcRModGlbmnlM2IQ8hW\n=T1Mj\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c9d1450628649c9dcdf68fadc66adb6c1579651b\nparent 00aa1219bbf2acd123694b6eb23e51aced943f10\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752484322 +0000\ncommitter GitHub <noreply@github.com> 1752484322 +0000\n\nfeat: 臓器移植に関する政策提案を追加 (T.H.)",
+          "verified_at": "2025-07-14T09:12:02Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9dcad5734e8eb3790dba902a1bdfadb357a9b261",
+      "html_url": "https://github.com/team-mirai/policy/commit/9dcad5734e8eb3790dba902a1bdfadb357a9b261",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9dcad5734e8eb3790dba902a1bdfadb357a9b261/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "00aa1219bbf2acd123694b6eb23e51aced943f10",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/00aa1219bbf2acd123694b6eb23e51aced943f10",
+          "html_url": "https://github.com/team-mirai/policy/commit/00aa1219bbf2acd123694b6eb23e51aced943f10"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T09:21:02.971203"
+}
