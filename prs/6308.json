@@ -1,0 +1,447 @@
+{
+  "basic_info": {
+    "number": 6308,
+    "title": "【らいおんまんさん提案】AIによる行政の引継ぎ支援策を追加",
+    "state": "open",
+    "created_at": "2025-07-14T04:49:18Z",
+    "updated_at": "2025-07-14T04:49:19Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/6308",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "c15666658cb95a2fe57a2815f57fab6b165bd8b7",
+      "filename": "22_ステップ２くらしと行政.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 6,
+      "changes": 20,
+      "blob_url": "https://github.com/team-mirai/policy/blob/924637ac0e840a8053e029647b2882edaa66d79a/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/924637ac0e840a8053e029647b2882edaa66d79a/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=924637ac0e840a8053e029647b2882edaa66d79a",
+      "patch": "@@ -156,16 +156,24 @@\n \n ### 現状認識・課題分析\n \n-* 日本の法律や制度は、時代の変化や社会課題への対応に応じて数多くの改正が重ねられてきましたが、多くの改正が都度の対応として実施されてきたために複雑化し、多くの人にとって理解が難しいものになっています。  \n-* 国民にとっては「自分が対象かどうかわからない」「知らないうちに法令違反をしていないか」という不安や申請断念につながり、行政の現場では「ミスの温床」「非効率な手続き」を生む要因になっています。  \n+* 日本の法律や制度は、時代の変化や社会課題への対応に応じて数多くの改正が重ねられてきましたが、多くの改正が都度の対応として実施されてきたために複雑化し、多くの人にとって理解が難しいものになっています。\n+* 国民にとっては「自分が対象かどうかわからない」「知らないうちに法令違反をしていないか」という不安や申請断念につながり、行政の現場では「ミスの温床」「非効率な手続き」を生む要因になっています。\n * 「制度の複雑さが国民への説明や事務作業の支障になっている」という声も現場からは聞こえ、運用者・利用者の双方にとって深刻な課題となっています。\n+* **職員の短期異動が業務の属人化と停滞を招く**\n+    * 2～3年ごとの人事異動は、癒着防止等のメリットがある一方、担当者の知識やノウハウが十分に引き継がれず、異動のたびに業務が停滞・後退する大きな原因となっています。\n+    * 人員削減が進む中で個々の職員が担う業務は複雑化しており、短期間での十分な引継ぎが困難な状況が生まれています。これは行政サービスの質の低下に直結し、市民にとっての不利益にもつながります。\n \n ### 政策概要\n \n-* 大規模言語モデル（LLM）などの自然言語処理技術をはじめとしたテクノロジーを活用し、既存制度の構造・手続き・フローを体系的に可視化・分析します。  \n-* 具体的には、法令・政省令・手続きフロー・ガイドライン等を解析し、制度上のルート・判断基準・申請要件を構造化するプロセスマイニングと制度マッピングを行い、冗長性や重複、理解困難な箇所を特定します。  \n-* その上で、対象制度に関与する省庁・自治体・実務者・受益者などの利害関係者を整理し、問題の法令を改正した場合にどの変更が誰にどう影響するかを整理します。  \n-* その後、特定の制度・分野で試験的にリファクタリング改正版の制度を試験的に導入し、実運用での改善点をフィードバックします。継続的な改善を繰り返しながら、本格導入の是非を評価します。\n+* **AIによる制度と業務の可視化・リファクタリング**\n+    * 大規模言語モデル（LLM）などのテクノロジーを活用し、既存制度の構造・手続き・フローを体系的に可視化・分析します。\n+    * 法令・手続き・ガイドライン等を解析し、制度上のルートや判断基準を構造化するプロセスマイニングと制度マッピングを行い、冗長性や重複、理解困難な箇所を特定します。\n+    * その上で、対象制度に関与する省庁・自治体・実務者・受益者などの利害関係者を整理し、問題の法令を改正した場合にどの変更が誰にどう影響するかを整理します。\n+* **AIによる引継ぎ支援で、”人に依存しない”行政へ**\n+    * 各職員の業務内容や判断基準、ノウハウをAIが整理・構造化して共有するシステムを導入します。\n+    * これにより、異動時の引継ぎコストを大幅に削減し、担当者が変わっても業務がスムーズに継続できる体制を構築します。異動は職員のキャリア形成に活かしつつ、業務の停滞は防ぎます。\n+* **試験導入と継続的な改善**\n+    * 特定の制度・分野で試験的にリファクタリング改正版の制度を試験的に導入し、実運用での改善点をフィードバックします。継続的な改善を繰り返しながら、本格導入の是非を評価します。\n \n ## ６）電子投票・ネット投票を推進します\n "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "99556b0dbe600b1c0faa2d876e2597a01640833b",
+      "node_id": "C_kwDOOqTJvNoAKDk5NTU2YjBkYmU2MDBiMWMwZmFhMmQ4NzZlMjU5N2EwMTY0MDgzM2I",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T04:35:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T04:35:16Z"
+        },
+        "message": "らいおんまんさんの提案を反映し、AIによる引継ぎ支援に関する政策を追加しました。",
+        "tree": {
+          "sha": "e8048911438fe87b3c7d604073dd1493a672dea1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e8048911438fe87b3c7d604073dd1493a672dea1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/99556b0dbe600b1c0faa2d876e2597a01640833b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodIkECRC1aQ7uu5UhlAAAhb0QACdRpWenTEwWHMuqQ/NnZDmP\nl1M9KJaYsqWHvwFvTmEm82KiQ2Zp6DAJv/uu0q8Y2Ew7DMT2y30etc6a9vSEGLbA\nyBKLXAzBvV4ChLaJlppi1f8OymMseKTDhgKnjb1RhzoOGsta/xbe7BlPkSN8rH4d\n71vxTapyq4s8yww6u8F+Pas6YxANqNz0FMXdiE1u+mX06XCf1zwIYsEHgkPTDUB9\nEs4ZI17Tp2/bvw110ZaoxB4EVqf7JXXjONBGgiRvoCut2poJPW680vW3MsVVKmqu\n6i8/hQJxekTte/RpggXtPnRpxR18y+LOXK8WPAKZs9HIj5gbi6WPEU2gkqW4AaFU\nHTKttE6OyN4PK05fZ9eKQ/3RzoQzTmek7KTwBlIPpJoiGrZ9rpXvrEidYdQnNWwu\naAVY2Vcqx8ZaBMiq6O9eSg4LofDsXHw+KQG+EWrote9kpF5i+1+pzzmywtQu4tmt\nSRAAp/MPD7VEGb2YXuzTWJY41mVedoSEuBLZPodJsKxIkrAV2CaFZK8dq5phWIzl\njWUQTolytWXB02q7lWSPH4M1FRNHlLu2LC5kARO4is6XkAIclr+Z5mMR2OXhJlTV\nOeG/dwcefpr9tKONhLOkFb0FFzTk+fjsfR+wn6JwvHme/O/PNTGKu1ZiAL9HY8Rj\nbOUbYx4N+bnXRgfG2nCd\n=9jBg\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e8048911438fe87b3c7d604073dd1493a672dea1\nparent 4d5b6a1fee7b524440b222feeb57edca07725544\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752467716 +0000\ncommitter GitHub <noreply@github.com> 1752467716 +0000\n\nらいおんまんさんの提案を反映し、AIによる引継ぎ支援に関する政策を追加しました。",
+          "verified_at": "2025-07-14T04:35:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/99556b0dbe600b1c0faa2d876e2597a01640833b",
+      "html_url": "https://github.com/team-mirai/policy/commit/99556b0dbe600b1c0faa2d876e2597a01640833b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/99556b0dbe600b1c0faa2d876e2597a01640833b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "4d5b6a1fee7b524440b222feeb57edca07725544",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/4d5b6a1fee7b524440b222feeb57edca07725544",
+          "html_url": "https://github.com/team-mirai/policy/commit/4d5b6a1fee7b524440b222feeb57edca07725544"
+        }
+      ]
+    },
+    {
+      "sha": "3cb9b573c396661d72d6c15989ceb66311c4f8a1",
+      "node_id": "C_kwDOOqTJvNoAKDNjYjliNTczYzM5NjY2MWQ3MmQ2YzE1OTg5Y2ViNjYzMTFjNGY4YTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T04:38:56Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T04:38:56Z"
+        },
+        "message": "らいおんまんさんの提案に基づき、AIによる行政の引継ぎ支援策を追加",
+        "tree": {
+          "sha": "9472c6abc2b1a61618c8b885425b025477bff0cf",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/9472c6abc2b1a61618c8b885425b025477bff0cf"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3cb9b573c396661d72d6c15989ceb66311c4f8a1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodIngCRC1aQ7uu5UhlAAALJcQAH3a+MK+XkBbkuJ1zEoZh/2p\nvPzE8WpbWTkFAOnEtLcd6mqNH+9A43ar/7VDwJ+2hra5+Shr7i4Sydx1ICccLJFm\njSA/3eGjhI0qz/I3byWnedAFporpWXYFxD3Q9PssMk65ppUuRJh++ahou1/mBZ3o\nueDUr80cIjc3+vWuab7lcHy6tzZYyvqon5G5kwaWcqBDApyozBHN9dqkWgn4OBkx\nG+d7fLzPOBTYVvIjnak7HrC5sunBhx9jMy9A6wRQRRSWw7PZXqNdgFu/ANM9IUV3\nVkddU84v6TRH1wZvXbLOy7KQHEZR9wSby/QZ1H/zSrJSKBCyvscCeW+qAtdCHjsn\n6fk2qAFhpco/oQxGXAeJCJu3njMqTHKIz7WIuhoxpXWJ+syW+/Sln7fPWTOYJGs0\n+U6p3UBunT53MLZaLXq/Td1TImA19p2i+uFrXibyx+kJmrZP6fskE8bRl6sAtLVN\nQA5q3tXYJw/uufIMug/wFrVuigY2nvRI1YTQXE6SUViCDgHN9XjBH2KcKmxmLdn2\nbudXM8AT779zzerb5vdqUnV2FFo2PXQNqUDCR9WAyMjWXdUIklxByRYzoiJL0V6x\nyYxqPYp4X7ROZ8sl3zGPFzlPJlU3Ru2fyTZVP3Fbb0qmP3hH00/u/EUwe370P3cC\nEJCNcJqV/h8KV6qSr6/3\n=llBo\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 9472c6abc2b1a61618c8b885425b025477bff0cf\nparent 99556b0dbe600b1c0faa2d876e2597a01640833b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752467936 +0000\ncommitter GitHub <noreply@github.com> 1752467936 +0000\n\nらいおんまんさんの提案に基づき、AIによる行政の引継ぎ支援策を追加",
+          "verified_at": "2025-07-14T04:38:57Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3cb9b573c396661d72d6c15989ceb66311c4f8a1",
+      "html_url": "https://github.com/team-mirai/policy/commit/3cb9b573c396661d72d6c15989ceb66311c4f8a1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3cb9b573c396661d72d6c15989ceb66311c4f8a1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "99556b0dbe600b1c0faa2d876e2597a01640833b",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/99556b0dbe600b1c0faa2d876e2597a01640833b",
+          "html_url": "https://github.com/team-mirai/policy/commit/99556b0dbe600b1c0faa2d876e2597a01640833b"
+        }
+      ]
+    },
+    {
+      "sha": "7d4fdf03abec965ccf0fd9c73a633d45b92baedd",
+      "node_id": "C_kwDOOqTJvNoAKDdkNGZkZjAzYWJlYzk2NWNjZjBmZDljNzNhNjMzZDQ1YjkyYmFlZGQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T04:43:00Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T04:43:00Z"
+        },
+        "message": "らいおんまんさんの提案に基づき、AIによる行政の引継ぎ支援策を追加",
+        "tree": {
+          "sha": "e8048911438fe87b3c7d604073dd1493a672dea1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e8048911438fe87b3c7d604073dd1493a672dea1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7d4fdf03abec965ccf0fd9c73a633d45b92baedd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodIrUCRC1aQ7uu5UhlAAAPcgQAGKNdf8lO4PltQjoAZGjV9wU\n5aNB0vnAihudRrFThOBE93Hw+NeCasRShd3Pv8Dbb/YAb8L3jierZOPkPqStUG/1\ninVE+r4BmogP1pavtcsxacF+KTS+b9gpP/crP5QHSFhe5Z2QBvdtW7PUjkloEMUj\nfXpna/U7BzZHjIUih1CK/LY3srYM35zXuOS9+1WEyexWZ+GqHNiXAX6Kce/lLAhf\nH5+Lq4itvIbYlTWH4jNC6ooGMdr9flhdz7Y0tFqYiiL7Rs1keZYT3t/+uX2lEVag\nrV2YWtGhd38FWJ784QtVOvFr0nCsVhk42ZHOTiVt1Cj/xS81xs9/ov7+zgVNudbN\n5BABicZRqlrwvPPbJtknc0DJ7qHLh5gl9S7ATj9Jn9/NjNTvj5VQlTvstm0Y2DVV\nDi8Ucf681YUUi2HqRECyTeYEWFYzjzDnFY09VS1pFC5uM+i2WOST6yZh9iu/ICk1\nz9I/PMy+jbPh33CiQ4+IM0zFR9GPQ/5SS3VieZnmnY91XYFYm5W1uGMmuBd3u3lM\njfFzyg2gBHCpzfSat29xiUOx/RFjwXx6lVetUW7sMcwM7iQiX/j6E/xxe6/zM7Dl\n+hkbR6xWhEsDQnzi5n3zH1GV/QZQgPl66A1AWr2zBMc/xI8e+I9y9FbYh/3irnjw\n/9LEWAvlY7AkDvxAXtAv\n=JhzD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e8048911438fe87b3c7d604073dd1493a672dea1\nparent 3cb9b573c396661d72d6c15989ceb66311c4f8a1\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752468180 +0000\ncommitter GitHub <noreply@github.com> 1752468180 +0000\n\nらいおんまんさんの提案に基づき、AIによる行政の引継ぎ支援策を追加",
+          "verified_at": "2025-07-14T04:43:00Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7d4fdf03abec965ccf0fd9c73a633d45b92baedd",
+      "html_url": "https://github.com/team-mirai/policy/commit/7d4fdf03abec965ccf0fd9c73a633d45b92baedd",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7d4fdf03abec965ccf0fd9c73a633d45b92baedd/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "3cb9b573c396661d72d6c15989ceb66311c4f8a1",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/3cb9b573c396661d72d6c15989ceb66311c4f8a1",
+          "html_url": "https://github.com/team-mirai/policy/commit/3cb9b573c396661d72d6c15989ceb66311c4f8a1"
+        }
+      ]
+    },
+    {
+      "sha": "d7ab45de7c5f933de83beb03925c7027ac777cab",
+      "node_id": "C_kwDOOqTJvNoAKGQ3YWI0NWRlN2M1ZjkzM2RlODNiZWIwMzkyNWM3MDI3YWM3NzdjYWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T04:46:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T04:46:04Z"
+        },
+        "message": "【らいおんまんさん提案】AIによる行政の引継ぎ支援策を追加",
+        "tree": {
+          "sha": "e8048911438fe87b3c7d604073dd1493a672dea1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e8048911438fe87b3c7d604073dd1493a672dea1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d7ab45de7c5f933de83beb03925c7027ac777cab",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodIuMCRC1aQ7uu5UhlAAAErMQABxiPCC5ig4cwxgNMNUfd16o\nWv0x+6cGNBAbHv75RvUfSG27bFbGs+jpx1/yk3sown3yhASchpEZDH496qYe25xN\nWyE6mwE16d8o3IOpITZo/JRpPJ5iW319udKdwh8+Abw/tZSkZGx8lCua9M6clBvg\n04EOYzfmGLVmhmCCo6asVNcAGvjI+NmVY2/h0fT5VdhscX2XQaITwKMvqK55NL42\nHMEMFdErlBeuSKXWRJ9DavMAUy7cu6EHrR+KrAg3vWHs8CwATQtZbcWdBs6X8WUi\n5nlgDDcHelRV2iXq7LKqXzLOloRy7YwucCsw8L6L1kzwi7NzIOTnZ++nMIXjyCuq\nhAwSgWCbtNthAWmZO15g1uF6XpfhJzMyalOoxAf2r++F+IB//GqXaJyS6EJAeZnj\nJhtpKxCDo+r2ago+IKUuFT60dDLjCHhEcwfYXyvDqeaPVxB1/bXGYWOy1JRjTzKA\ngOOYwFlNuGgtamXW4YNapiN9jMn0H/LN/qyDqyojcyWNrA9txibuLBJ1NUKqCCHB\nJA7ZmQ96kwM7ZN3DtJzgiNzmPgz8IsuweoEnmS/VlDzoIvGY+NgvtdB+uRbN7lak\ngi131dnaUH1xk+H++L7kbT+9QADcM8o3k3W6RrboCQx9Kw/diwBQW7EwGCogdgpN\nywLRBcVDESs4t+ykB1YS\n=I1Ku\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e8048911438fe87b3c7d604073dd1493a672dea1\nparent 7d4fdf03abec965ccf0fd9c73a633d45b92baedd\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752468364 +0000\ncommitter GitHub <noreply@github.com> 1752468364 +0000\n\n【らいおんまんさん提案】AIによる行政の引継ぎ支援策を追加",
+          "verified_at": "2025-07-14T04:46:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d7ab45de7c5f933de83beb03925c7027ac777cab",
+      "html_url": "https://github.com/team-mirai/policy/commit/d7ab45de7c5f933de83beb03925c7027ac777cab",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d7ab45de7c5f933de83beb03925c7027ac777cab/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7d4fdf03abec965ccf0fd9c73a633d45b92baedd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/7d4fdf03abec965ccf0fd9c73a633d45b92baedd",
+          "html_url": "https://github.com/team-mirai/policy/commit/7d4fdf03abec965ccf0fd9c73a633d45b92baedd"
+        }
+      ]
+    },
+    {
+      "sha": "924637ac0e840a8053e029647b2882edaa66d79a",
+      "node_id": "C_kwDOOqTJvNoAKDkyNDYzN2FjMGU4NDBhODA1M2UwMjk2NDdiMjg4MmVkYWE2NmQ3OWE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-14T04:49:17Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T04:49:17Z"
+        },
+        "message": "【らいおんまんさん提案】AIによる行政の引継ぎ支援策を追加",
+        "tree": {
+          "sha": "e8048911438fe87b3c7d604073dd1493a672dea1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e8048911438fe87b3c7d604073dd1493a672dea1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/924637ac0e840a8053e029647b2882edaa66d79a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodIxNCRC1aQ7uu5UhlAAARVUQAASmi60NZA1Q3731H58vujL6\nXO9tcl9G+5PgWg0rz7skT4+LP4AmdYeU94doGq46pnFAJLKD4Qukc+LFXSl55kmQ\nbyJyqdA5scrBtKu8UWVHcT9DzwMS3r6ngJdig1wNW5gajV3o3XWBLXQVMl6TAtvb\nU4VPUiakWwkzr1nqYz2Jby+tSi2e9e1weSpiDr5MCxBU4zNIc2V7bpFZeAQZkhiD\neMK9aRd86y+F4to3YDrF4P3bNVZ+DyJAt54/Sul9CiAkhVZ3U7lTOczQG6RLT093\nddjJu5SHSFah1hKtsJURwuzYxrs6LaEuG4TkXXhvWV1IK68D3ysU3sMNdO8BvK+S\nn7fdsWHYVTu9+bNDLsSQKY/qhxNgs7PVlwMFYFbJHF34CcveTeamlqFe4Vt+6X44\njt1VJ0y1zNRTVNz0iEOQqVH5WHrJIKetxo96zkRiqRgHEt017pXAjiWBx0H7w5jm\nVCI/mbbZ2O/W4OmlSbCYMHL0OhDaXIOXjpIUnljUPP3+tqlLGkrtSnMPW6H4eNXn\n2eTPDglMuvotbASEPqzwrYIjDD5ImnI/U1kbQZ42Fi8KUVgg9PzJoqDVp1tGBsiV\ns7BpQwVbFSju0HTQy9ZfDLhs00OeCfxVpsLFebLApnmoZSgxjQ4oFKj9mkZWEqlC\niNiYdgBQMXztPdlRTEfp\n=uJ0s\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e8048911438fe87b3c7d604073dd1493a672dea1\nparent d7ab45de7c5f933de83beb03925c7027ac777cab\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752468557 +0000\ncommitter GitHub <noreply@github.com> 1752468557 +0000\n\n【らいおんまんさん提案】AIによる行政の引継ぎ支援策を追加",
+          "verified_at": "2025-07-14T04:49:18Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/924637ac0e840a8053e029647b2882edaa66d79a",
+      "html_url": "https://github.com/team-mirai/policy/commit/924637ac0e840a8053e029647b2882edaa66d79a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/924637ac0e840a8053e029647b2882edaa66d79a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d7ab45de7c5f933de83beb03925c7027ac777cab",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d7ab45de7c5f933de83beb03925c7027ac777cab",
+          "html_url": "https://github.com/team-mirai/policy/commit/d7ab45de7c5f933de83beb03925c7027ac777cab"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-14T05:01:43.822222"
+}
