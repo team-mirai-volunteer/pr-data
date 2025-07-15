@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 6893,
+    "title": "fix: フォークからのPRでコメント通知が失敗する問題を修正",
+    "state": "closed",
+    "created_at": "2025-07-15T13:53:03Z",
+    "updated_at": "2025-07-15T13:59:33Z",
+    "closed_at": "2025-07-15T13:59:33Z",
+    "merged_at": "2025-07-15T13:59:33Z",
+    "html_url": "https://github.com/team-mirai/policy/pull/6893",
+    "user": {
+      "login": "chaspy",
+      "id": 10370988,
+      "html_url": "https://github.com/chaspy"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "ebb507337bbb8845dc19732ba7f395428c53f94a",
+      "filename": ".github/workflows/pr-comment-notification-info.yml",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/team-mirai/policy/blob/18ffd1e7a872cce6cd5d3d4ae28d362bddd140f3/.github%2Fworkflows%2Fpr-comment-notification-info.yml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/18ffd1e7a872cce6cd5d3d4ae28d362bddd140f3/.github%2Fworkflows%2Fpr-comment-notification-info.yml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fworkflows%2Fpr-comment-notification-info.yml?ref=18ffd1e7a872cce6cd5d3d4ae28d362bddd140f3",
+      "patch": "@@ -1,7 +1,7 @@\n name: PR Comment for Notification Info\n \n on:\n-  pull_request:\n+  pull_request_target:\n     types: [opened, synchronize]\n     paths:\n       - '[0-9]*.md'"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "18ffd1e7a872cce6cd5d3d4ae28d362bddd140f3",
+      "node_id": "C_kwDOOqTJvNoAKDE4ZmZkMWU3YTg3MmNjZTZjZDVkM2Q0YWUyOGQzNjJiZGRkMTQwZjM",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-15T13:52:18Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-15T13:52:18Z"
+        },
+        "message": "fix: フォークからのPRでコメント通知が失敗する問題を修正\n\npull_request イベントを pull_request_target に変更することで、\nフォークされたリポジトリからのPRでもコメント投稿の権限を持つように修正\n\n🤖 Generated with [Claude Code](https://claude.ai/code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>",
+        "tree": {
+          "sha": "caa0c44d1b74f6bbfd20e48b8cba6acacec004f1",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/caa0c44d1b74f6bbfd20e48b8cba6acacec004f1"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/18ffd1e7a872cce6cd5d3d4ae28d362bddd140f3",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/18ffd1e7a872cce6cd5d3d4ae28d362bddd140f3",
+      "html_url": "https://github.com/team-mirai/policy/commit/18ffd1e7a872cce6cd5d3d4ae28d362bddd140f3",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/18ffd1e7a872cce6cd5d3d4ae28d362bddd140f3/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "78a26104c38e26b44895bf22458b085919c7a9bc",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/78a26104c38e26b44895bf22458b085919c7a9bc",
+          "html_url": "https://github.com/team-mirai/policy/commit/78a26104c38e26b44895bf22458b085919c7a9bc"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-15T14:14:29.532690"
+}
