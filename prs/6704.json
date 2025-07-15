@@ -1,0 +1,300 @@
+{
+  "basic_info": {
+    "number": 6704,
+    "title": "医療政策の誤字・脱字の修正、表現の軽微な見直し",
+    "state": "closed",
+    "created_at": "2025-07-15T04:07:33Z",
+    "updated_at": "2025-07-15T04:18:35Z",
+    "closed_at": "2025-07-15T04:18:35Z",
+    "merged_at": "2025-07-15T04:18:35Z",
+    "html_url": "https://github.com/team-mirai/policy/pull/6704",
+    "user": {
+      "login": "hsuzuki-md",
+      "id": 212373147,
+      "html_url": "https://github.com/hsuzuki-md"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "c6dcc3f960ad4016e81e58a3bbcbe07839530fa3",
+      "filename": "17_ステップ１医療.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "changes": 12,
+      "blob_url": "https://github.com/team-mirai/policy/blob/6283204ab3b627a11f511d9ec5673f91229e555f/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/6283204ab3b627a11f511d9ec5673f91229e555f/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/17_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8C%BB%E7%99%82.md?ref=6283204ab3b627a11f511d9ec5673f91229e555f",
+      "patch": "@@ -9,14 +9,14 @@\n - 医療機関DXが進むことは医療機関の働き方をサステイナブルにするだけでなく、日常の診療の効率化、利便性など医療を受ける方々にもメリットが生じると考えます  \n - また、テクノロジーはITリテラシーの高い働き世代や若い方々のものだけではありません。一定の支援は必要となるかもしれませんがオンライン診療の普及や医療機関での待機時間の短縮は外出が困難な要介護者の方や僻地などで医療アクセスが困難な方々に対しての医療アクセス格差の是正にもつながります\n \n-## 1）オンライン診療 / 処方受け取り方法を充実し、通院のない通院を実現\n+## 1）オンライン診療 / 処方受け取り方法を充実し、通院のない受診を実現\n \n ### 現状認識・課題分析\n \n - リモートワークやECサイトの利用などは広く生活に普及してきましたが、オンライン診療についてはまだ十分に普及しているとは言い難い状況かと思います  \n   - コロナ禍にあった2021年のデータでも外来診療全体におけるオンライン診療の割合はごくわずか（0.001%）に留まりました  \n   - 2023年に行われたアンケート調査でも回答者の9割がオンライン診療について知っていると回答しましたが、実際に自身・家族が利用したことがあると答えた人は1割弱に留まりました  \n-- オンライン診療には対面と比べて患者さんの状況、詳細が把握しにくかったり、体調が悪化した際に高度医療機関との連携導線が確立されていなかったりと一定の課題がある一方で、適切に普及すれば多くの方々にとってメリットの大きいシステムだと考えます  \n+- オンライン診療には対面と比べて患者さんの状況、所見が把握しにくかったり、体調が悪化した際に高度医療機関との連携導線が確立されていなかったりと一定の課題がある一方で、適切に普及すれば多くの方々にとってメリットの大きいシステムだと考えます  \n   - 風邪や花粉症などの軽い相談や慢性疾患で継続的に同じ服薬で経過観察している患者さんにとって、診療のために仕事や家事・育児を調整して対面で受診することはまだまだ負担が大きいと言えます  \n   - 僻地や島嶼部などの医療アクセスが難しい地域にお住まいの方々や一人で外出することが難しい方などの場合、医療機関で相談をしたくても受診控えをしている場合もあると思います  \n - オンライン診療が進まない要因の一つとして、医療制度・診療報酬体制の整備、システム・インフラの整備、医療の質や安全対策の整備、利用者側の利便性の課題などがあります  \n@@ -26,9 +26,9 @@\n ### 政策概要\n \n - オンライン診療普及のための診療報酬、インセンティブの設計  \n-  - オンライン診療を普及するための診療報酬の加算を検討します  \n-  - オンライン診療の無軌道な拡大は、受診件数の爆発的な増大や不適切利用のリスクもあります  \n-  - 島嶼部や僻地医療、独力で受診の難しい要介護者の通院、生活習慣病などで病状の安定している状況での再診など、ユースケースを整備し、段階的にオンライン診療を普及するための枠組みを整備します  \n+  - オンライン診療を普及させるための診療報酬の加算を検討します  \n+  - 他方で、オンライン診療の無軌道な拡大は、受診件数の爆発的な増大や不適切利用のリスクもあります  \n+  - 島嶼部などの僻地医療、要介護者など独力で受診の難しい方々の受診、生活習慣病などで病状の安定している状況での再診など、ユースケースを整備し、段階的にオンライン診療を普及させるための枠組みを整備します  \n - 安全性を担保するためのガイドライン整備  \n   - 本人確認、重症化時のバックアップ体制など、オンライン診療を安全に行い、標準的なサービスを担保するための規定を整備  \n   - セキュアに遠隔診療を提供するため医療機関のインフラ整備の支援を行います  \n@@ -81,7 +81,7 @@\n   - CT・MRI読影にAI画像解析を併用した場合に一定の診療報酬の加算を暫定的に設けます\n   - AI画像解析の運用コストについて一定の担保をするとともに、AI画像解析が行われた施設での読影効率や解析精度、時間外労働への影響を分析し、エビデンス構築を促します\n - 人とAIが協働する医療のルールづくりを進めます\n-  - AIの精度が進化しても診断を行うのは医師である以上、最終責任は医師が行う必要があります\n+  - AIの精度が進化しても診断を行うのは医師である以上、最終責任は医師が負う必要があります\n   - 一方で、AIが提示した異常や逆にAIが提示しなかった異常は医師の判断に影響を及ぼす以上、メーカーの責任や性能評価についても整理が必要となります\n   - また、医薬品や従来の医療機器は製品の製造販売が承認され、市場に展開されてから製品そのものが変化することは基本的にありませんが、ソフトウェアやAIでは継続的に改修やAIの学習が行われる場合があります\n   - こうした過程でAIの出力結果が変化していく可能性があるため、医療システムの性能評価や学習するデータの品質管理を行う必要があります"
+    },
+    {
+      "sha": "883e87b180911e18bd657c85ab91df61a764de06",
+      "filename": "23_ステップ２医療.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 6,
+      "changes": 12,
+      "blob_url": "https://github.com/team-mirai/policy/blob/6283204ab3b627a11f511d9ec5673f91229e555f/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/6283204ab3b627a11f511d9ec5673f91229e555f/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=6283204ab3b627a11f511d9ec5673f91229e555f",
+      "patch": "@@ -8,7 +8,7 @@\n - 誰もが安心して医療へアクセスできる国民皆保険制度は日本が世界に誇る医療制度です  \n - しかし、少子高齢化や医療技術の進化による社会保障費の増加は急速に進んでおり、今の状況では継続的に制度を維持することへの不安もあります  \n - そうした状況の中でも、必要な方に必要な医療を届けるためにも医療制度も進化する必要があります  \n-- テクノロジーとデータを使い、より緻密なシステムを構築することで医療の非効率を減らし、より費用対効果の高い医療が報われる制度を目指します  \n+- テクノロジーとデータを使い、より緻密なシステムを構築することで医療制度の非効率を減らし、より質の高い医療が報われる制度を目指します  \n - そして、人口構造、疾病構造の急変や増えていく変数にも対応するためのしなやかな制度、検討体制にアップグレードします\n \n ## 1）医療の有効性・重要度に応じたきめ細やかな自己負担へ\n@@ -17,9 +17,9 @@\n \n * 我が国の医療保険制度では主に年齢と所得により個々の自己負担割合が決定され、受ける医療の内容や重症度に応じた調整は行われていません。  \n * そのため、保険適用の範囲においては非常に安価に医療を受けることができ、これが本邦の公衆衛生上、重要な意味合いをもっていることは疑う余地がありません。  \n-* 一方で、OECDの報告では国際的に医療費のおよそ２割が健康成果に直結していない可能性を示しており、日本でも自然治癒が見込め重篤性の無い疾患に対しての処方や類似したい検査の重複など本質的な価値に乏しい医療が発生していることは否定できません。  \n+* 一方で、OECDの報告では国際的に医療費のおよそ２割が健康成果に直結していない可能性を示しており、日本でも自然治癒が見込め、重篤性の無い疾患に対しての処方や類似した検査の重複など本質的な価値に乏しい医療が発生していることは否定できません。  \n * 2022年度に242の急性期病院を対象に行われた調査では30種を超える診療行為を健康成果に直結しない医療と定義し、それらによる医療費が同施設の医療費の0.23〜0.51％を占めるとされました。これは、同期間の医療費に単純換算すると約3,000〜7,000億円規模に達すると試算されています。  \n-* 現在、国民医療費は2022年度に46兆円を超えましたが、少子高齢化と高度医療の進展により今後も増えていくことが予想されています。そのため、医療費全体を抑制する施策とともに医療の成果にも着目した財源配分の検討が必要です。\n+* 現在、国民医療費は2022年度に46兆円を超えましたが、少子高齢化と高度医療の進展により今後も増えていくことが予想されています。そのため、医療費の増加を抑制する施策とともに医療の成果にも着目した財源配分の検討が必要です。\n \n ### 政策概要\n \n@@ -31,7 +31,7 @@\n   * 診療報酬制度の複雑化により、医療機関の窓口での計算もより複雑になります  \n   * 医療機関への負担、サービスの質の低下を避けるために、電子レセプトに連携し窓口で即時に自己負担額が算出できるAI、システムの開発を支援します  \n   * 併せて、医療DXを推進する支援の枠組みについても整備します  \n-* これらの仕組みにより、医療の質、家計への負担を維持したまま、医療財政への負担軽減を目指します。実際にフランスでは医薬品について医療上の有用性評価を行い、自己負担割合が設定されるという仕組みが導入されています（国民医療費をxx-xx％減らしたという実績もあります）  \n+* これらの仕組みにより、医療の質、家計への負担を維持したまま、医療財政への負担軽減を目指します。実際にフランスでは医薬品について医療上の有用性評価を行い、自己負担割合が設定されるという仕組みが導入されています\n   * フランスでは医薬品ごとに有効性や副作用、代替治療の有無などの位置づけ、対象となる疾患の重篤度、公衆衛生上の意義などで区分されます  \n   * この評価に基づいて、外来用医薬品の自己負担割合が段階的に設定されます  \n   * 評価が不十分な医薬品は自己負担割合が高くなることもありますが、一方で、抗がん剤など代替の効かない医薬品については自己負担割合を0%としています  \n@@ -44,10 +44,10 @@\n ### 現状認識・課題分析\n \n * 日本では医療費の約3割が、糖尿病・COPD・心不全などの慢性疾患に費やされています  \n-* 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言い難い側面がある  \n+* 日本では慢性疾患のアウトカム指標（HbA1c、FEV1、BNPなど）については医学的に整理がなされ、学会を中心にガイドラインの整備が進められているものの、医療制度の中で医療の質の向上を促す仕組みが十分に設計されているとは言い難い側面があります\n   * 現行の医療制度は行われた処置・診察の回数に応じて診療報酬が設計されており、疾患コントロールが改善したことに対するインセンティブは設計されていない  \n   * 糖尿病や高血圧、脂質異常症などの慢性疾患の多くは重症化し、虚血性心疾患などのイベントが発生するまで、自覚症状に乏しいことも多く、患者サイドにも治療を強化し、積極的に状態をよくしようと動機づけしにくい場合がある  \n-* 海外では、治療成果に応じて報酬が支払われる制度が導入され、一定の課題が示されつつも医療の最適化と費用削減を両立が期待されています\n+* 海外では、治療成果に応じて報酬が支払われる制度が導入され、一定の課題が示されつつも医療の最適化と費用削減の両立が期待されています\n \n ### 政策概要\n "
+    }
+  ],
+  "commits": [
+    {
+      "sha": "287bc5a93ac6b3c6123d373853c54a5f3b5a94bd",
+      "node_id": "C_kwDOO3HYCtoAKDI4N2JjNWE5M2FjNmIzYzYxMjNkMzczODUzYzU0YTVmM2I1YTk0YmQ",
+      "commit": {
+        "author": {
+          "name": "hsuzuki-md",
+          "email": "hikaru.1985utc@gmail.com",
+          "date": "2025-07-14T10:11:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T10:11:30Z"
+        },
+        "message": "Update 17_ステップ１医療.md\n\n誤字・脱字の修正および軽微な表現の見直し",
+        "tree": {
+          "sha": "96a77cd9976658546e3e61f83139263e6a68e496",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/96a77cd9976658546e3e61f83139263e6a68e496"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/287bc5a93ac6b3c6123d373853c54a5f3b5a94bd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodNfSCRC1aQ7uu5UhlAAA10QQAFxB5HXeZfskV11yOFA3v+nq\n9icbwbdQcuUo0deUXQdlpmLNJnHCg5pCN3iKjl4XBQioPaeSlNEGQsmOxfXqmd2l\nb3PNpDH9RCX776/aHarCZqlyes0ZKaaXqFz5lsd+BZR4jnPNPQNBcbnf4xU9u3/G\ncdNYMbUv8dWnDSHBe+CMAEvq0BBakORZwaLyP2Mm6lKeieLWDpHLlukfzWrVb7W8\nW/C0o5KWmT4KZgsrFdqEY1HD1uwMw9m69NhZO7f9AuDFXdumbF98MlYmCJKZW5oe\nWsmXWvvJsorQYyp+7MLXRf8hAhjnVQOiyaIO4TQ2Mr8+yn5iNUyKR/jjl2P+2McP\n2HPx2j9nMMqvFl8rFzmOHbwNxeDafWKv9HFmrYKux3X1AL7ti6B5qnJcXdDuFgNF\nzJ58mgydthlJbh2kWHwNJnJtnEBbICRH/ZGBo9gi7PDISjLKCNKTCZ9Kt8BW2Jws\nxcacQ581DowrVE69+bpOItmgLcx1rFuiVsiAok9Al+zJNePFkLDEx7u7vLs8fzdt\nuXer8cemFPJaABsY4FL/rLgSsAOy3QFtKcHd/LWeb2SBd4g4s3okxlHxA/7Oowua\ns1J4XPeZMLffYDq75FhWynL4NN2aEXZooZtf9ApW8hUu7wzpN2egoVkc6PfWv2SR\nIEEijbxYFSW+Aq8hFvwp\n=xLHv\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 96a77cd9976658546e3e61f83139263e6a68e496\nparent 597ecb68716d1002f0c8be75385f39d5f5a2c0bc\nauthor hsuzuki-md <hikaru.1985utc@gmail.com> 1752487890 +0900\ncommitter GitHub <noreply@github.com> 1752487890 +0900\n\nUpdate 17_ステップ１医療.md\n\n誤字・脱字の修正および軽微な表現の見直し",
+          "verified_at": "2025-07-14T10:11:31Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/287bc5a93ac6b3c6123d373853c54a5f3b5a94bd",
+      "html_url": "https://github.com/team-mirai/policy/commit/287bc5a93ac6b3c6123d373853c54a5f3b5a94bd",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/287bc5a93ac6b3c6123d373853c54a5f3b5a94bd/comments",
+      "author": {
+        "login": "hsuzuki-md",
+        "id": 212373147,
+        "node_id": "U_kgDODKiOmw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/212373147?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hsuzuki-md",
+        "html_url": "https://github.com/hsuzuki-md",
+        "followers_url": "https://api.github.com/users/hsuzuki-md/followers",
+        "following_url": "https://api.github.com/users/hsuzuki-md/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hsuzuki-md/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hsuzuki-md/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hsuzuki-md/subscriptions",
+        "organizations_url": "https://api.github.com/users/hsuzuki-md/orgs",
+        "repos_url": "https://api.github.com/users/hsuzuki-md/repos",
+        "events_url": "https://api.github.com/users/hsuzuki-md/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hsuzuki-md/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "597ecb68716d1002f0c8be75385f39d5f5a2c0bc",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/597ecb68716d1002f0c8be75385f39d5f5a2c0bc",
+          "html_url": "https://github.com/team-mirai/policy/commit/597ecb68716d1002f0c8be75385f39d5f5a2c0bc"
+        }
+      ]
+    },
+    {
+      "sha": "71a19ac0a06cef93f218796024e8efc429b7d623",
+      "node_id": "C_kwDOO3HYCtoAKDcxYTE5YWMwYTA2Y2VmOTNmMjE4Nzk2MDI0ZThlZmM0MjliN2Q2MjM",
+      "commit": {
+        "author": {
+          "name": "hsuzuki-md",
+          "email": "hikaru.1985utc@gmail.com",
+          "date": "2025-07-14T10:28:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-14T10:28:27Z"
+        },
+        "message": "Update 23_ステップ２医療.md\n\n誤字・脱字の修正、一部表現の見直し",
+        "tree": {
+          "sha": "93a5cbff99a8e6c4aa55878c252f1e57b56f320a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/93a5cbff99a8e6c4aa55878c252f1e57b56f320a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/71a19ac0a06cef93f218796024e8efc429b7d623",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodNvLCRC1aQ7uu5UhlAAAy/MQAJjzgV1zlfXb84lIpdH/WgJJ\n2sZJtAIuyMQS6WRTe69+QvkADDgm8z23r/MVvnJ78jNQkNEx57WnltI2CVotvOM4\n1TFtEmDMJNTQh+qOpDYcrUremzK00E7rurz2VED0C1FrLtTJr4ouWWAWWSlPiQ5M\nAgZhM3mmUPTkipmdShSoKv8fH8WAcIRS1BnXopn3QJpi0YCOj9ujR87DVVNhqR8d\nIiqt2YVBPp+7EbLailxW+GXycGewp9EWNgTCDe0sfrME6eqmKXcsspFJN5vMKm3C\ny4P9c5R0sbfRQas4WW5ZKl+cVSEjH43VmzhbsUBt6uFx6FQnrtOUgjh/n7fHCHIB\nY2fcjKc6kpmbznZ0JvbDkBvQGulAuLIiKy2EBz009U7lPab3rklmVt/Xne5PQ2kI\n8O0DRjBKPOvtDbla89CRYsLVAvlxatB83nhkAjQhSZhWy3Yz//zmxFf2USj8+1+H\nQXMtb3MElguFPHoYiY66ZthKIbGMPyRW9I1P4v6BJuLqJ1Y6X0UTuHrjTOpaMUXf\nShfz38d6c++hNRpbmDI8wm1+LnVMZ9QuuSR/8aBMEjVfLPqVvquuZNoJjBEOgnx4\nvCVrrC3iMcoP4L94tkussDDQe4RhDX3eQSdlOk/iD1noi6G/shiPudI6KwFCjSUP\n58sslkyzi3Hb4fa8WxHy\n=Y3G1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 93a5cbff99a8e6c4aa55878c252f1e57b56f320a\nparent 287bc5a93ac6b3c6123d373853c54a5f3b5a94bd\nauthor hsuzuki-md <hikaru.1985utc@gmail.com> 1752488907 +0900\ncommitter GitHub <noreply@github.com> 1752488907 +0900\n\nUpdate 23_ステップ２医療.md\n\n誤字・脱字の修正、一部表現の見直し",
+          "verified_at": "2025-07-14T10:28:27Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/71a19ac0a06cef93f218796024e8efc429b7d623",
+      "html_url": "https://github.com/team-mirai/policy/commit/71a19ac0a06cef93f218796024e8efc429b7d623",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/71a19ac0a06cef93f218796024e8efc429b7d623/comments",
+      "author": {
+        "login": "hsuzuki-md",
+        "id": 212373147,
+        "node_id": "U_kgDODKiOmw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/212373147?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hsuzuki-md",
+        "html_url": "https://github.com/hsuzuki-md",
+        "followers_url": "https://api.github.com/users/hsuzuki-md/followers",
+        "following_url": "https://api.github.com/users/hsuzuki-md/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hsuzuki-md/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hsuzuki-md/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hsuzuki-md/subscriptions",
+        "organizations_url": "https://api.github.com/users/hsuzuki-md/orgs",
+        "repos_url": "https://api.github.com/users/hsuzuki-md/repos",
+        "events_url": "https://api.github.com/users/hsuzuki-md/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hsuzuki-md/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "287bc5a93ac6b3c6123d373853c54a5f3b5a94bd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/287bc5a93ac6b3c6123d373853c54a5f3b5a94bd",
+          "html_url": "https://github.com/team-mirai/policy/commit/287bc5a93ac6b3c6123d373853c54a5f3b5a94bd"
+        }
+      ]
+    },
+    {
+      "sha": "6283204ab3b627a11f511d9ec5673f91229e555f",
+      "node_id": "C_kwDOO3HYCtoAKDYyODMyMDRhYjNiNjI3YTExZjUxMWQ5ZWM1NjczZjkxMjI5ZTU1NWY",
+      "commit": {
+        "author": {
+          "name": "hsuzuki-md",
+          "email": "hikaru.1985utc@gmail.com",
+          "date": "2025-07-15T04:05:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-15T04:05:53Z"
+        },
+        "message": "Merge branch 'team-mirai:main' into update_medical-typo-20250714",
+        "tree": {
+          "sha": "85e441b7e7391c455d788b71f8446a2758d8c0aa",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/85e441b7e7391c455d788b71f8446a2758d8c0aa"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6283204ab3b627a11f511d9ec5673f91229e555f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoddOhCRC1aQ7uu5UhlAAAAFQQAEzCI5AZsfZo5Ce30FvCPKTo\nH5je4xRZumoSJHAv7oY+Hf91h/uoB1eLRZicQDlzjdeMy56K4U+3Iq+mE+/x6Mil\nyEd2h60SoKPTfdt4qU1HTAdfwCJXBSNTzeDKRitjuh/KJeJeKWhpnoSFa/1I9BhX\nsVCS1jn/wPhJBsIenU4t6+LTJA+mnLpSlCVZaaYh1wzM7YECffu0NQd3bEHpIVTC\n24qL8Vd12EA548nXoi5w/S7PZqySQQ/o1xwrh0dFaEWowe45Pqv5sGMK8gFJYgCf\nuHykk3hx1TjSDrudcjGLLrzS5DdNYiOfF0SW0I9a/eEVKqyeEscqL9TgUwOGn51f\nhGlFEHvUun6Wp2DlANnQezB6HojAdzLknZMnG60JVBau6D/a/c3Kljmqz6ZR8dTH\nQqGXpQ8v7C/sf02/XK9wi+U79VensaO71yXNwqp3vc1NWa6AvejV06gvhTqz7xq5\nn/xrtwcQ8uKReKNh5QTk6RhX7/lHWmun4dowgsevlrp3fzmA4OMf1brPnUYftOMm\nIzpMAFq27MQQdWOA7RHoSf+WJ/4gvaDypHVMZ3QdpnFYrUj82V/p+wS7bhyt6HwZ\n82evwSsD4p5rWoJDmR+NgvRVWztwInxRLvVsSxIsxSB+ZibPVSO1+nj1NKb3SiiY\n5ByotCG/R4GCDk7uG0Hp\n=wAT1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 85e441b7e7391c455d788b71f8446a2758d8c0aa\nparent 71a19ac0a06cef93f218796024e8efc429b7d623\nparent 6f5b1fbe80948ef716a897fb689d072cd1a196b5\nauthor hsuzuki-md <hikaru.1985utc@gmail.com> 1752552353 +0900\ncommitter GitHub <noreply@github.com> 1752552353 +0900\n\nMerge branch 'team-mirai:main' into update_medical-typo-20250714\n",
+          "verified_at": "2025-07-15T04:06:14Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6283204ab3b627a11f511d9ec5673f91229e555f",
+      "html_url": "https://github.com/team-mirai/policy/commit/6283204ab3b627a11f511d9ec5673f91229e555f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6283204ab3b627a11f511d9ec5673f91229e555f/comments",
+      "author": {
+        "login": "hsuzuki-md",
+        "id": 212373147,
+        "node_id": "U_kgDODKiOmw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/212373147?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/hsuzuki-md",
+        "html_url": "https://github.com/hsuzuki-md",
+        "followers_url": "https://api.github.com/users/hsuzuki-md/followers",
+        "following_url": "https://api.github.com/users/hsuzuki-md/following{/other_user}",
+        "gists_url": "https://api.github.com/users/hsuzuki-md/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/hsuzuki-md/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/hsuzuki-md/subscriptions",
+        "organizations_url": "https://api.github.com/users/hsuzuki-md/orgs",
+        "repos_url": "https://api.github.com/users/hsuzuki-md/repos",
+        "events_url": "https://api.github.com/users/hsuzuki-md/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/hsuzuki-md/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "71a19ac0a06cef93f218796024e8efc429b7d623",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/71a19ac0a06cef93f218796024e8efc429b7d623",
+          "html_url": "https://github.com/team-mirai/policy/commit/71a19ac0a06cef93f218796024e8efc429b7d623"
+        },
+        {
+          "sha": "6f5b1fbe80948ef716a897fb689d072cd1a196b5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6f5b1fbe80948ef716a897fb689d072cd1a196b5",
+          "html_url": "https://github.com/team-mirai/policy/commit/6f5b1fbe80948ef716a897fb689d072cd1a196b5"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-15T04:33:42.107151"
+}
