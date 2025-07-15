@@ -1,13 +1,13 @@
 {
   "basic_info": {
-    "number": 6818,
-    "title": "電子投票・ネット投票推進策の具体化と現実的代替案の追記",
+    "number": 6829,
+    "title": "AIによる支援の役割を明確化し、最終判断は人間が行うことを強調する修正",
     "state": "open",
-    "created_at": "2025-07-15T09:51:32Z",
-    "updated_at": "2025-07-15T10:26:10Z",
+    "created_at": "2025-07-15T10:35:00Z",
+    "updated_at": "2025-07-15T10:35:09Z",
     "closed_at": null,
     "merged_at": null,
-    "html_url": "https://github.com/team-mirai/policy/pull/6818",
+    "html_url": "https://github.com/team-mirai/policy/pull/6829",
     "user": {
       "login": "idobata-policy-app[bot]",
       "id": 211775619,
@@ -17,11 +17,11 @@
   "labels": [],
   "comments": [
     {
-      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3072953417",
-      "html_url": "https://github.com/team-mirai/policy/pull/6818#issuecomment-3072953417",
-      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/6818",
-      "id": 3072953417,
-      "node_id": "IC_kwDOOqTJvM63KYxJ",
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3073086589",
+      "html_url": "https://github.com/team-mirai/policy/pull/6829#issuecomment-3073086589",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/6829",
+      "id": 3073086589,
+      "node_id": "IC_kwDOOqTJvM63K5R9",
       "user": {
         "login": "github-actions[bot]",
         "id": 41898282,
@@ -43,12 +43,12 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "created_at": "2025-07-15T09:51:42Z",
-      "updated_at": "2025-07-15T09:51:42Z",
+      "created_at": "2025-07-15T10:35:09Z",
+      "updated_at": "2025-07-15T10:35:09Z",
       "author_association": "NONE",
       "body": "## 📢 X（旧Twitter）通知について\n\nこのPRがマージされると、自動的にX（旧Twitter）に投稿されます。\n\nもし以下のような政策内容の実質的な変更を含まないPRの場合、X通知をスキップすることができます：\n- タイポや誤字脱字の修正\n- マークダウンのフォーマット調整\n- リンク切れの修正\n- その他、政策内容に実質的な変更を含まない修正\n\n### 通知をスキップする方法\nPRに `skip-notification` ラベルを追加してください。\n1. 右側のLabelsセクションをクリック\n2. `skip-notification` を選択\n\n※ Slack通知は内部進捗管理のため、引き続き送信されます。",
       "reactions": {
-        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3072953417/reactions",
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3073086589/reactions",
         "total_count": 0,
         "+1": 0,
         "-1": 0,
@@ -153,51 +153,51 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "14c799fa1564aeaaa6f9e5e8e98e61a4bfc52291",
-      "filename": "22_ステップ２くらしと行政.md",
+      "sha": "b105f387f1ac972dfd49eaac79e1ede55ba4ebc8",
+      "filename": "11_ステップ１教育.md",
       "status": "modified",
-      "additions": 5,
+      "additions": 4,
       "deletions": 3,
-      "changes": 8,
-      "blob_url": "https://github.com/team-mirai/policy/blob/c91728b9d70f82a9c4d35a8479eccc987786636a/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/c91728b9d70f82a9c4d35a8479eccc987786636a/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/22_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=c91728b9d70f82a9c4d35a8479eccc987786636a",
-      "patch": "@@ -209,12 +209,14 @@\n   * また、今後の制度設計に向けては、投票済み情報をマイナンバーカードなどの電子証明書側に記録する仕組みについても検討を進め、信頼性の高い本人識別と投票履歴管理の両立を図ります。\n * 投票の自由とプライバシーの確保\n   * 投票内容はすべて暗号化・匿名化され、個人情報と切り離して安全に記録されるようにし、「秘密投票」の保証を目指します。\n-  * 家庭や職場などでの集団投票や強制的な誘導の懸念に対しては、インターネット投票特有の対策として「再投票（上書き投票）」の可能性も含めて検討します。\n-   * ただし、現行の紙投票・郵便投票では再投票が制度上認められておらず、投票手段間の公平性を保つことが前提となり、さらに、再投票を許容する場合、投票済みステータスの厳密な管理や匿名性の維持など運用面での複雑性が高くなり、システム障害リスクの増加にも留意が必要となります。この点については、有識者・技術者を交えた段階的な検証を経て、制度的・技術的に現実的な形を探っていきます。\n+  * 家庭や職場などでの集団投票や強制的な誘導への対策が課題となります。対策として「再投票（上書き投票）」も議論されますが、一度投じられた票と個人を紐づけずに上書きを実現することは秘密投票の原則と矛盾する可能性があり、技術的・制度的なハードルが極めて高いのが現状です。このため、有識者・技術者を交えた慎重な検証を要します。\n * 公平性・アクセシビリティへの対応\n   * 高齢者や障がいのある方にも配慮し、音声読み上げ、フォントサイズ調整、色覚対応、キーボード操作などのアクセシビリティ機能を備えた投票画面を提供します。\n   * また、候補者が多い選挙でも、検索・五十音順・政党別表示などの見せ方の工夫を通じて直感的かつ誤選択のない公平感の持てるUI設計を行います。\n-  * スマホを持たない人や操作に不安がある方への配慮として、紙投票との併用を基本としつつ、公的施設での操作支援やサポート窓口等による導入促進策も講じます。\n+  * ネット投票の技術的・制度的課題の補完・代替策として、物理的な投票所の利便性向上やコスト削減策も並行して推進します。\n+    * 無人投票所の設置：警察署や消防署など24時間稼働している公共施設に、期日前投票用の「無人投票所」を設置します。カメラによる入室管理で投票干渉を防ぎつつ、個別の投票ブースで秘密投票を確保します。\n+    * マークシート方式・タブレット投票の導入：開票コストを大幅に削減できる「マークシート方式」の導入を進めます。これは、投票用紙に候補者名や政党名を記載せず番号のみを印刷し、投票ブースに掲示された候補者一覧を見て有権者がマークする方式です。これにより、現行制度と同様に記載順による有利・不利の問題を防いで公平性を担保しつつ、候補者確定を待たずに投票用紙を準備できるため、選挙準備の負担も軽減します。また、GIGAスクール構想で配備済みのタブレット端末等を活用した「タブレット投票」の導入もあわせて検討し、自治体の負担軽減を図ります。\n+    * 操作支援の充実：スマホを持たない人や操作に不安がある方への配慮として、紙投票との併用を基本としつつ、公的施設での操作支援やサポート窓口等による導入促進策も講じます。\n * 投票制度への信頼の再構築\n   * 模擬投票体験、ユーザーインターフェースの公開テスト、コード開示(OSS化)などを通じて、国民が自ら「使って納得できる」投票体験を得られるよう設計します。\n    "
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/4123749830387933fedf3efcf1a1f64287366394/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/4123749830387933fedf3efcf1a1f64287366394/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=4123749830387933fedf3efcf1a1f64287366394",
+      "patch": "@@ -71,7 +71,7 @@\n ### 政策概要\n \n * IT/AIツールや追加の人員配置により、教員の授業外業務を削減します。  \n-  * 補助金等を活用し、校務支援ツールを積極的に導入します。  \n+  * 補助金 Yönetmeliği に基づき、校務支援ツールを積極的に導入します。  \n   * 各自治体の教育委員会にデジタル推進委員を配備し、各校への円滑なテクノロジー導入を支援します。  \n * 学校支援・先生支援AIを開発します。  \n   * 生徒の個人情報を安全に扱うことのできるAIを配布することで、教職員が広範な業務にAIを活用できるようにします。  \n@@ -135,15 +135,15 @@\n   * 学校（出欠席、学習状況、面談記録など）、教育委員会（不登校相談、いじめ事案記録など）、福祉部局（生活保護、児童手当、子育て相談記録など）、医療機関（健診データ、発達相談記録など）、その他地域の子育て支援団体などが持つ匿名化・非識別化された関連データを、高いセキュリティ基準のもとで一元的に集約・連携するプラットフォームを構築します。  \n   * 個人が特定できない形でのデータ連携を徹底し、プライバシー保護を最優先とします。必要な場合は、個人情報の利用目的を明確化し、保護者の同意を十分に得るプロセスを導入します。  \n   * 構築されたデータプラットフォーム上の情報（たとえば、欠席の増加、特定の科目での成績低下など）をAIが複合的に分析し、いじめや不登校の兆候、家庭内の変化、学習上の困難、心身の不調など、支援が必要となる可能性のある子どもや家庭を早期に抽出します。  \n-    * AIの分析結果は、支援の必要性に関する参考情報として、関連する教職員や支援者にのみアラートとして通知され、その後の専門職による判断や具体的な介入につなげます。  \n+    * AIの分析結果は、あくまで支援の必要性を示唆する参考情報として、関連する教職員や支援者にのみアラートで通知されます。AI自身が子どもへの支援方針を判断・決定することはなく、通知を元にした最終的な判断と具体的な対応は、必ず子どもを直接見守る教職員や専門家などの「人」が行います。\n * プッシュ型（情報お届け・提案型）の個別アプローチを強化します。  \n   * AIによる分析結果に基づき、支援のニーズが推定される子どもや保護者に対し、個別化された情報を提供します。  \n     * たとえば、子どもの学習面での支援が推定される場合、地域の子ども向け学習支援教室の情報やオンライン教材の紹介を、保護者向けには経済的支援制度や子育て相談窓口の情報を、最適なタイミングでデジタルツール（例：保護者向けアプリ、LINE公式アカウント）を通じて自動配信します。  \n   * 情報提供に際しては、匿名性やプライバシー保護を最優先とし、情報を受け取る側が不安感・不快感を抱かないよう、情報提供の目的や利用されるデータの範囲について明確に説明します。  \n   * 特定の状況に応じて、学校の担任教員やスクールソーシャルワーカー、地域の民生委員など、信頼できる人物からの個別連絡をAIがレコメンドし、より丁寧なアプローチを促します。これにより、情報提供と人間による直接的な橋渡しを連携させます。  \n * 個別最適化された支援計画の立案をサポートします。  \n   * AIが検知したニーズや、これまでの支援事例データを分析することで、子どもや家庭の状況に合わせた最適な支援メニューや支援機関を提案する機能を開発します。  \n-    * これにより、教職員や支援者が限られた時間の中で、膨大な支援情報の中から適切なものを探し出す手間を省き、より質の高い支援計画を迅速に立案できるよう支援します。  \n+    * これにより、教職員や支援者が限られた時間の中で、膨大な支援情報の中から適切なものを探し出す手間を省き、より質の高い支援計画を迅速に立たんできるよう支援します。  \n     * 過去の成功事例や類似ケースの支援経過をAIが提示することで、支援のノウハウを共有し、全体の支援レベルの向上を図ります。  \n   * AIによる情報集約、分析、提案機能は、教職員や支援者の事務的・情報収集の負担を大幅に軽減し、経験の浅い教職員でも質の高い支援を提供できるようになります。  \n     * これにより、教職員はデータの分析や書類作成に費やす時間を減らし、子どもや家庭との直接的な関わり、個別支援の実践、専門的な判断といった、人間ならではの業務に集中できるようになります。\n@@ -185,3 +185,4 @@\n * 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。  \n * 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。   \n   * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n+"
     }
   ],
   "commits": [
     {
-      "sha": "ee5b76d2f2627bfdd7e884e0f717efc17fedf20b",
-      "node_id": "C_kwDOOqTJvNoAKGVlNWI3NmQyZjI2MjdiZmRkN2U4ODRlMGY3MTdlZmMxN2ZlZGYyMGI",
+      "sha": "b1e6ad8e145753c80bd7b823a50c4f240ee82307",
+      "node_id": "C_kwDOOqTJvNoAKGIxZTZhZDhlMTQ1NzUzYzgwYmQ3YjgyM2E1MGM0ZjI0MGVlODIzMDc",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-15T09:46:06Z"
+          "date": "2025-07-15T10:30:56Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-15T09:46:06Z"
+          "date": "2025-07-15T10:30:56Z"
         },
-        "message": "匿名希望さんの提案に基づき、電子投票の代替案（無人投票所、マークシート方式等）を追記",
+        "message": "（鈴木紅璃さん）AIの役割を明確化",
         "tree": {
-          "sha": "e44e752f2a56478cb79d47552d763311c30f8a60",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e44e752f2a56478cb79d47552d763311c30f8a60"
+          "sha": "86eef95dd54148b3e5979d5dc208734e128769d3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/86eef95dd54148b3e5979d5dc208734e128769d3"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/ee5b76d2f2627bfdd7e884e0f717efc17fedf20b",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b1e6ad8e145753c80bd7b823a50c4f240ee82307",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodiNeCRC1aQ7uu5UhlAAA62EQAKaiEHgPrpTwHBr7475oa8uN\nHv2O1ZfGBJsE6E/edv7A5K8UlDO9jqP/i/kC+gKg2a38HShyi2Af5/Q6h1ipw1/J\nqd7N1SAvV98Yoy4jpw7hemQh5yDkrQ8TQ7qJQbJVKT4nUamDaPIdra75t7rm254O\nKJsNoCdcmSscxum9G8JYaNOiUHbI44bxuZem6atDMYsZW1m8tdzgjiANE5lBSlLB\ni1cz6+Q6r9MTlh2OiOjvq6HZF9HeA4RtvMM84albdIBUnVlRUXZxJhobBukXg5/y\nfzw3oplLgCMXa3/GYWeDtjhCADtPSNFYTXpGD2lannyUSiEbWKtkDW/7ZZP78Byj\n8xAJGrRwd96oSA8tmiyVZcnzp4YBPobcPeUHSm+yzbLZKVmFynqCH6FrHq7AKjk+\nDvORx5G1qcpUbpRkTqf3VzlJWLIUSN//yNHcSZdsgM334pKzo7EkpqfbDy/Us0Mc\n9d3PaPj1rSZlwGLOujLpwANBuX+BYiQrjsrME+Uj7B6OQNG+GrGdUtnsjxjlOus3\nOjmvb49YR4//SHGwjI/KzhBKEbjpn2qDotos09Sb3gIgFEoiWsUDUf5l9SJ5PMme\nOsSUOtTApBQYQwQcF5Z/lc7L6cxniFadUF6ErWG+LNT4Ok1/L3tLtwOXI7iQd9Jr\nOzAH8ETGbeLglz6r2IAb\n=TqoU\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree e44e752f2a56478cb79d47552d763311c30f8a60\nparent 78a26104c38e26b44895bf22458b085919c7a9bc\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752572766 +0000\ncommitter GitHub <noreply@github.com> 1752572766 +0000\n\n匿名希望さんの提案に基づき、電子投票の代替案（無人投票所、マークシート方式等）を追記",
-          "verified_at": "2025-07-15T09:46:07Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodi3gCRC1aQ7uu5UhlAAALx8QAEdlaETtNRuGs7SQCMuP6qQ5\nOHy/bKQ5X07gDHG2LyHTjROi96knrvRJX3F95vBrPd56qV4fwQ28Nro0wCM7idaK\nLB0sSPl2oGy/6rkduaBFWH6vhesWlTbgiBvnl3td3W+H4/yV4jzsdps8xSOijyWg\n/DbXcRmY+yrAfFD7+aCQlStQBTTHjmTulH/iUY3dv7/zqxBGE48PUXw1vPqD7Vc+\nxIqWlcFMiDqLd/subcjEdxEJ2cRn4vdlPMqHYbIAP/t8yJOfOs+jYz9LMyy6z1yj\nSXo8cgbZHUULf1U2FalzqiZ+9+506TQ8bPw3SRFyNmWIG85tGLE0dhVTKhH0Egm9\nQflWuKrNm41OC4w1/o1LwSUsG2Q24ATs42s7naTXHEIAEMhT+gLtcFNkOiDrCY01\nhI9oQ/qq4CP8RWSL5T1PtVQH6Fn2PxQmYNPqLCBzMFMMBBObC/RMRi0YUAzRFE1g\nMJr40AYCh/UjdE0FRx7aQVsdYLFJOzvx9tIrQJ3rWtk7GsbzXaV4R6IKkuedQ94q\n9lQP5dxBkQDLx9jWCBRPQlXOjAFXcwfiG9Ett9g7RlAZcZ8w3wUqlW5xyydM4jNZ\nmm0LVd/xm8ORvNi4ppqtjavtPZFiCc40Kkelekriz+wqPBpzGMF4421kTQVc2Xb0\n/osJP+KXutKsjOaoP4+d\n=QDXn\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 86eef95dd54148b3e5979d5dc208734e128769d3\nparent 78a26104c38e26b44895bf22458b085919c7a9bc\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752575456 +0000\ncommitter GitHub <noreply@github.com> 1752575456 +0000\n\n（鈴木紅璃さん）AIの役割を明確化",
+          "verified_at": "2025-07-15T10:30:56Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/ee5b76d2f2627bfdd7e884e0f717efc17fedf20b",
-      "html_url": "https://github.com/team-mirai/policy/commit/ee5b76d2f2627bfdd7e884e0f717efc17fedf20b",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/ee5b76d2f2627bfdd7e884e0f717efc17fedf20b/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b1e6ad8e145753c80bd7b823a50c4f240ee82307",
+      "html_url": "https://github.com/team-mirai/policy/commit/b1e6ad8e145753c80bd7b823a50c4f240ee82307",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b1e6ad8e145753c80bd7b823a50c4f240ee82307/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -249,37 +249,37 @@
       ]
     },
     {
-      "sha": "c91728b9d70f82a9c4d35a8479eccc987786636a",
-      "node_id": "C_kwDOOqTJvNoAKGM5MTcyOGI5ZDcwZjgyYTljNGQzNWE4NDc5ZWNjYzk4Nzc4NjYzNmE",
+      "sha": "4123749830387933fedf3efcf1a1f64287366394",
+      "node_id": "C_kwDOOqTJvNoAKDQxMjM3NDk4MzAzODc5MzNmZWRmM2VmY2YxYTFmNjQyODczNjYzOTQ",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-15T10:21:40Z"
+          "date": "2025-07-15T10:33:03Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-15T10:21:40Z"
+          "date": "2025-07-15T10:33:03Z"
         },
-        "message": "匿名希望さんの提案を反映：マークシート方式の具体化と利点の追記",
+        "message": "AIの役割を明確化（鈴木紅璃さん）",
         "tree": {
-          "sha": "88f486df9820acf5d4d16ba37b70e7008eb1aa5f",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/88f486df9820acf5d4d16ba37b70e7008eb1aa5f"
+          "sha": "e279eb82c549b5796a1104230b81347ea67e8588",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/e279eb82c549b5796a1104230b81347ea67e8588"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c91728b9d70f82a9c4d35a8479eccc987786636a",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/4123749830387933fedf3efcf1a1f64287366394",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodiu0CRC1aQ7uu5UhlAAAbQMQAJ/VgYRr3are1HwHxObG9NMl\nukIzpV3ERK7ZvyE+g7W9FzRZf5b/7JI9dghg1IMj62oJ1vmXcb/tXiV7yqxpSEKc\n5MnPgtVf97Vj4V2V+NLtrJmj7tIzkgfF1lv1MXvL6kMqd4L3unJIizRnxwDsgyh2\nFeLEHIF2bA8K4H+0BlzCF5SDcQjtQRQl1p0ps5VkyhmHc9C0K8QX2oKMQmL4exTb\nh9EIPv+yAxY9GLz/MBV4lmBDIS9zWEWaLuiERUJoHw+/U3CGyo2uUfy9a0lUQp8K\nY65XgZHXkSU/pGmMQ/3zK4SKUjBJu0kW0uZxwfnWK91qZFl5TMeyxkCnlQYGvfDN\nx1q4bKotpHe8LPIgBdJxYHVcbzPsyTQfBIxO3mHs+gFIh5TyaVhQqNqisnI4NqjS\nv+aOOJDLvS87L5pQqGVX2dLqdoVr3YPKkwf1ZIKQgaBktPNFEuNGSa/VK7BtKirz\ne6O+HEZWJanSC0lcogtkj+FxI4914ZdMIoHbDeGOzx1QrfLgTpepWeEIWzqpegca\n9qAd6JwqXBR0vIBeTDkX7TSsI7bzhCcnnhg2Xi+qyE+9tMZOg1FwWfE3Ar+rY6P/\nnfwAM+ejLbAxkkYo3D5zx5ubAS5WF2KkSDc9/dIQ2Buxpu3IIFk3MZQQ3YINfgbU\nlaGDrnRTG6uJRTnZOjLO\n=tlxe\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 88f486df9820acf5d4d16ba37b70e7008eb1aa5f\nparent ee5b76d2f2627bfdd7e884e0f717efc17fedf20b\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752574900 +0000\ncommitter GitHub <noreply@github.com> 1752574900 +0000\n\n匿名希望さんの提案を反映：マークシート方式の具体化と利点の追記",
-          "verified_at": "2025-07-15T10:21:40Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodi5fCRC1aQ7uu5UhlAAAUboQADW8RMQ51OVqo/9bQVs0OjvK\nbscgUlLp7EjQkhpWnt5w6aWK0/9D/dRhBGRnsmkMFZuIkVfQYbr3elbG5jsTPnh4\n+xPTmJViEZB2YlDfzmfOk/kQvBQ7bUf/3PWgTcsPld1MBH1IIcMDm4oNSBzdK0Uh\nNL3wWabtaVfmHtMnpX4iYXxd8x6eVM2Ni/qwnS1grRoWNhfCbPxqM5YF1a5Xkgg1\nOpw5jw8w8mPTbe6E0KAeuDl6J+awTLR6jeKp9ScIKkE/O49/+OjJhBXDj1CUdWBs\n4V8iO8kWLPYlTiNvOvoltVxdejVrdo9LcI+nMXah3kdgLIJM7J56W/LWtPZkh5b2\n5mNMeNhwn0osCZzkYENkUF5N8N/ZefqCoIS8MxgUt/Tc+XVi7KYdiVmanb+rX8Mw\n944qjSL203d4hYkBRNNtdPjLPA7htvPBQ7eFzeeLN+URqwc8MyBiFXli+j/o8Gfv\n2uPX0SgOpFrSJmZsnczeGz6O+mLZIju8lxoR+IdE/EyQyI8ojzJAgfUc/VCeCc7V\nPEVVfK0B0JOlYsLgRZT7KyehudmHShcUVyUHf3bQ5xrxNJXqdb4Y4uMfYR1Sgtd0\njcLV3nnJd9UzcwuNpLkZxLlcGoiSuaOKkvq68eJDGdD7Pnv14Kn2lqBo9aazhjbz\ntQspcHgWyUTByRdDg+Aj\n=+Y7y\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree e279eb82c549b5796a1104230b81347ea67e8588\nparent b1e6ad8e145753c80bd7b823a50c4f240ee82307\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752575583 +0000\ncommitter GitHub <noreply@github.com> 1752575583 +0000\n\nAIの役割を明確化（鈴木紅璃さん）",
+          "verified_at": "2025-07-15T10:33:04Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/c91728b9d70f82a9c4d35a8479eccc987786636a",
-      "html_url": "https://github.com/team-mirai/policy/commit/c91728b9d70f82a9c4d35a8479eccc987786636a",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c91728b9d70f82a9c4d35a8479eccc987786636a/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/4123749830387933fedf3efcf1a1f64287366394",
+      "html_url": "https://github.com/team-mirai/policy/commit/4123749830387933fedf3efcf1a1f64287366394",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/4123749830387933fedf3efcf1a1f64287366394/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -324,12 +324,12 @@
       },
       "parents": [
         {
-          "sha": "ee5b76d2f2627bfdd7e884e0f717efc17fedf20b",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/ee5b76d2f2627bfdd7e884e0f717efc17fedf20b",
-          "html_url": "https://github.com/team-mirai/policy/commit/ee5b76d2f2627bfdd7e884e0f717efc17fedf20b"
+          "sha": "b1e6ad8e145753c80bd7b823a50c4f240ee82307",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b1e6ad8e145753c80bd7b823a50c4f240ee82307",
+          "html_url": "https://github.com/team-mirai/policy/commit/b1e6ad8e145753c80bd7b823a50c4f240ee82307"
         }
       ]
     }
   ],
-  "collected_at": "2025-07-15T11:13:22.767122"
+  "collected_at": "2025-07-15T11:12:29.388921"
 }
