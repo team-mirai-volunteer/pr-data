@@ -1,37 +1,27 @@
 {
   "basic_info": {
-    "number": 6761,
-    "title": "女性の健康課題に対応する検診制度の追加",
+    "number": 6966,
+    "title": "【aiaiさん提案】AIによる能動的な活用提案の追加",
     "state": "open",
-    "created_at": "2025-07-15T06:37:12Z",
-    "updated_at": "2025-07-15T15:21:28Z",
+    "created_at": "2025-07-15T18:55:33Z",
+    "updated_at": "2025-07-15T18:55:41Z",
     "closed_at": null,
     "merged_at": null,
-    "html_url": "https://github.com/team-mirai/policy/pull/6761",
+    "html_url": "https://github.com/team-mirai/policy/pull/6966",
     "user": {
       "login": "idobata-policy-app[bot]",
       "id": 211775619,
       "html_url": "https://github.com/apps/idobata-policy-app"
     }
   },
-  "labels": [
-    {
-      "id": 8631778033,
-      "node_id": "LA_kwDOOqTJvM8AAAACAn568Q",
-      "url": "https://api.github.com/repos/team-mirai/policy/labels/%E5%8C%BB%E7%99%82",
-      "name": "医療",
-      "color": "D3DAE8",
-      "default": false,
-      "description": ""
-    }
-  ],
+  "labels": [],
   "comments": [
     {
-      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3072211647",
-      "html_url": "https://github.com/team-mirai/policy/pull/6761#issuecomment-3072211647",
-      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/6761",
-      "id": 3072211647,
-      "node_id": "IC_kwDOOqTJvM63Hjq_",
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3075057520",
+      "html_url": "https://github.com/team-mirai/policy/pull/6966#issuecomment-3075057520",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/6966",
+      "id": 3075057520,
+      "node_id": "IC_kwDOOqTJvM63Sadw",
       "user": {
         "login": "github-actions[bot]",
         "id": 41898282,
@@ -53,12 +43,12 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "created_at": "2025-07-15T06:37:19Z",
-      "updated_at": "2025-07-15T06:37:19Z",
+      "created_at": "2025-07-15T18:55:40Z",
+      "updated_at": "2025-07-15T18:55:40Z",
       "author_association": "NONE",
       "body": "## 📢 X（旧Twitter）通知について\n\nこのPRがマージされると、自動的にX（旧Twitter）に投稿されます。\n\nもし以下のような政策内容の実質的な変更を含まないPRの場合、X通知をスキップすることができます：\n- タイポや誤字脱字の修正\n- マークダウンのフォーマット調整\n- リンク切れの修正\n- その他、政策内容に実質的な変更を含まない修正\n\n### 通知をスキップする方法\nPRに `skip-notification` ラベルを追加してください。\n1. 右側のLabelsセクションをクリック\n2. `skip-notification` を選択\n\n※ Slack通知は内部進捗管理のため、引き続き送信されます。",
       "reactions": {
-        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3072211647/reactions",
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3075057520/reactions",
         "total_count": 0,
         "+1": 0,
         "-1": 0,
@@ -163,51 +153,51 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "850684c7c2c17a23548aefa46a44b42e01b7ef1f",
-      "filename": "23_ステップ２医療.md",
+      "sha": "c1490fac8d4687a677e36cb5889c319be048b282",
+      "filename": "14_ステップ１産業.md",
       "status": "modified",
-      "additions": 11,
-      "deletions": 0,
-      "changes": 11,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0042158542857c66421f4126a5fbc9e4235212a3/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0042158542857c66421f4126a5fbc9e4235212a3/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=0042158542857c66421f4126a5fbc9e4235212a3",
-      "patch": "@@ -59,3 +59,14 @@\n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n   * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+\n+## 3）女性特有の健康課題に応える検診制度の構築\n+\n+### 現状認識・課題分析\n+* 月経困難症などで多くの女性が悩んでいる一方、自覚症状がなければ超音波検査などを受ける機会が限られています。\n+* また、特に地方では産婦人科が少なかったり、全くなかったりするため、そもそも医療へのアクセスが困難な地域が存在します。\n+\n+### 政策概要\n+* 子宮頸がん検診の対象者が希望すれば、追加負担なく超音波検査を受けられる制度を導入します。\n+* オンライン診療や、検診設備を乗せた車両が各地を回る「移動検診車」の導入を支援し、どこに住んでいても専門的な医療相談や検診を受けられる体制を整えます。\n+"
+      "additions": 4,
+      "deletions": 2,
+      "changes": 6,
+      "blob_url": "https://github.com/team-mirai/policy/blob/18e0f8f0396077bc84652face1527c610961155e/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/18e0f8f0396077bc84652face1527c610961155e/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/14_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%94%A3%E6%A5%AD.md?ref=18e0f8f0396077bc84652face1527c610961155e",
+      "patch": "@@ -5,7 +5,7 @@\n \n ## ビジョン\n \n-* 日本の産業は大きな転換点に直面しています。AIや量子技術をはじめとするデジタルによる変革の波が、産業構造を根底から揺さぶっているほか、脱炭素・SDGsなど新たな価値の軸が生まれ、国際競争条件が塗り替えられつつあります。  \n+* 日本の産業は大きな転換点に直面しています。AIや量子技術をはじめとするデジタルによる変革の波が、産業構造を根底から揺り動かしているほか、脱炭素・SDGsなど新たな価値の軸が生まれ、国際競争条件が塗り替えられつつあります。  \n * また、地政学的リスクの高まりにより、国際貿易の構造にも変革が訪れ、サプライチェーンのあり方にも見直しが迫られています。  \n * さらに国内に目を向けると、人口減少・少子高齢化により、労働力の確保に困難が生じ始めています。  \n * そうした中、日本の産業が競争力を取り戻していくためには、産業構造の大幅な転換が必要です。  \n@@ -33,6 +33,8 @@\n       * AI・データ人材の不足はAIシフトの大きなボトルネックとなっています。基金創設も念頭に、AI関連のリスキリングへの支援を実施。年間100万人規模の支援を目指します。  \n       * また、AI・データ人材以外にも、重点分野に関するリスキリング支援の強化を行います。  \n       * 特に中小企業や地方の企業の社員を中心的に支援することで、日本の産業全体の底上げを図ります。  \n+    * AIによる能動的な活用提案\n+      * AIが多様な業界の成功事例を学習し、各企業の状況に合わせて具体的なAI活用法と期待される効果を提案するプラットフォームを構築します。これにより、「AIを何に使えるかわからない」という企業の初期段階の課題を解決します。\n     * AI導入時の情報管理体制構築支援  \n       * AI活用に伴って企業が直面するセキュリティ上のリスクに対応するため、情報管理ガイドラインの策定するとともに、セキュリティ対策の実施に対する支援を提供します。  \n     * その他：インフラ、基盤整備など(ステップ３に記載)\n@@ -51,4 +53,4 @@\n       * 政府・自治体・JETRO の支援メニューを API で統合し、AI が企業の財務データや事業計画を解析して最適な制度を提案します。  \n       * e-TAX やインボイスデータと連携し、申請書類の 90％以上を自動入力できる仕組みを整備します。  \n     * 海外展開支援のフルデジタル化  \n-      * J-Bridge を拡張し、AI マッチングによる商談先リスト作成、自動翻訳、国別規制チェックを一つの画面で完結させるなど、利便性の工場を図ることで、中小企業も含めた幅広い対象の海外展開を支援します。\n+      * J-Bridge を拡張し、AI マッチングによる商談先リスト作成、自動翻訳、国別規制チェックを一つの画面で完結させるなど、利便性の工場を図ることで、中小企業も含めた幅広い対象の海外展開を支援します。\n\\ No newline at end of file"
     }
   ],
   "commits": [
     {
-      "sha": "f51b6591d37deb5d2ef1e0c230baef7652f1b453",
-      "node_id": "C_kwDOOqTJvNoAKGY1MWI2NTkxZDM3ZGViNWQyZWYxZTBjMjMwYmFlZjc2NTJmMWI0NTM",
+      "sha": "b2d44bfe6754fc1b293df06baf64afc4156bd049",
+      "node_id": "C_kwDOOqTJvNoAKGIyZDQ0YmZlNjc1NGZjMWIyOTNkZjA2YmFmNjRhZmM0MTU2YmQwNDk",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-15T06:35:02Z"
+          "date": "2025-07-15T18:49:21Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-15T06:35:02Z"
+          "date": "2025-07-15T18:49:21Z"
         },
-        "message": "匿名ユーザーの提案に基づき、女性検診に関する項目を追加",
+        "message": "aiaiさんの提案に基づき、AIによる能動的な活用提案の仕組みを追加",
         "tree": {
-          "sha": "923c555a1b75a1be76ed52c96f1ef21c3dcaafed",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/923c555a1b75a1be76ed52c96f1ef21c3dcaafed"
+          "sha": "f5f74644f63afc4e8a6860bedea838651bbb17c5",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f5f74644f63afc4e8a6860bedea838651bbb17c5"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f51b6591d37deb5d2ef1e0c230baef7652f1b453",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/b2d44bfe6754fc1b293df06baf64afc4156bd049",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodfaWCRC1aQ7uu5UhlAAAx1sQAB2Hk6VqJtqNTz/6nneeR/Ty\nASul3lTB820XTvkbwvNSKXjm7td6vDYdoNK2Fv4My0mMRL9x/UdslXmndlzAi9FN\nFGOhmfKpnapbrfpdZZje+1BbqTY0GpnHoDBbXqSlHj9j7Vc9AK4tiE/GCSngCOD+\n2lZyugnRz0WjYkVvUXu7RFAp8qQu/ma48z+hxCBuzNrBfKxTeoGNpOrO0TWrzyAA\nDR3LXmXDKmW28CEwmoPPPZKrU55yMQT2NP6m6T4pcVM5c2S/K+7oFeNhpC9QaQjP\neOhJxbPI+mMgi/kRxyBrHyTttVnqHXRzaTgGKQHH/TOboy484igcNAVF0KTcEWDf\nx1Ti1BjTc1QYt+zrDGDhj9sP4GB/HiOSQRyjDvFLo3a5iyaEVDi5Ezn2sen/61hh\nOih9idlzGjuY5rw0CC7pX1BWlq99g2j7wALoyd0DezrrNEWXKPhSoIywpqxJ5aRy\nlXHnr2SnxWPWIgMfukPbi9drYgsqgv0s9Gd+KtEckvQ46IiBValgAIW33ffeurKT\ndnTdblTdxmmA4EgcjVaAEkzqdsVJ/PLapfQuCXLIYVhih83nDb0U19mRqzgBYLJP\nOzmE0chZ9yK+/07yeZSFXF06QLbPEGsP5ZbpnzEv42sY91e/53TcxNEnMv930rPP\n5TcPPaAJNCvPjHGc+mcE\n=YmSv\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 923c555a1b75a1be76ed52c96f1ef21c3dcaafed\nparent 5daede60f11999bffe9e35d8d7423a38be484fb3\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752561302 +0000\ncommitter GitHub <noreply@github.com> 1752561302 +0000\n\n匿名ユーザーの提案に基づき、女性検診に関する項目を追加",
-          "verified_at": "2025-07-15T06:35:02Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodqKxCRC1aQ7uu5UhlAAAkZQQAIeFemORw5BJ7sA6MKL12M6G\nvCsL+oYm/RaVWw8gt5WchVVqjieSHMlrllDLk7G9JpAMAB+UPX0XovFgXDeyCbfN\nYjvzroVszNwKDharRUlB1TQYtMrpnvAgLh0A5veY8GSyMpoGzu8/nAJiDLXqxMDk\nKO00fw3FC9HKN1NgW8niWpRDj1rZI0Uvp4yMEfGjRYr5QIwjQ3ve02BacMSjDOwH\nenRfBkFPALGIIKOJq1DBibaMc9UY+OPRrV6Ca7EPORZ9P/IUUMNZvLybWZUB7deL\n2NrntbAzg6leoNip65jzaCwtMsi/eJlgbieEa7+v5vfBCq4TC+/guzuCznIvgw4m\nYMqjHaedGcYUYvleDWqtsLy5/kuH5Uptr/2fIIjtx4MmGRSSG2CHZJZFzYu9dVzU\npBT9pVODGfHbHigiytoZ1mw8xNrOF+m+2C6xb05LpUsdjGVaB+TrFTlLcJ3fjrad\nmv+1PyLCtRlA0jjBFKKcdzPTTCyLZLjgn8dR+aknmVK3mVHnEBtKLD8ELFlz5am3\n6MseM7E+9Nya5eCLa0lOOz36OmfyuMB9q49Mednlmh13ZLIhnogOnc1ZwyTQ9OqW\n9YPoUdNbdD7zt0tuN3VIpbmwx+wl+pFpIfGpiKGmO8OGKwvCzU0GTZdSYfy2GZ7g\n5mMdaNnW8PBfNUoBtlYe\n=gGx/\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f5f74644f63afc4e8a6860bedea838651bbb17c5\nparent 092cc7b64e606d42d9c548dbae21223393a13652\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752605361 +0000\ncommitter GitHub <noreply@github.com> 1752605361 +0000\n\naiaiさんの提案に基づき、AIによる能動的な活用提案の仕組みを追加",
+          "verified_at": "2025-07-15T18:49:22Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/f51b6591d37deb5d2ef1e0c230baef7652f1b453",
-      "html_url": "https://github.com/team-mirai/policy/commit/f51b6591d37deb5d2ef1e0c230baef7652f1b453",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f51b6591d37deb5d2ef1e0c230baef7652f1b453/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/b2d44bfe6754fc1b293df06baf64afc4156bd049",
+      "html_url": "https://github.com/team-mirai/policy/commit/b2d44bfe6754fc1b293df06baf64afc4156bd049",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/b2d44bfe6754fc1b293df06baf64afc4156bd049/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -252,44 +242,44 @@
       },
       "parents": [
         {
-          "sha": "5daede60f11999bffe9e35d8d7423a38be484fb3",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/5daede60f11999bffe9e35d8d7423a38be484fb3",
-          "html_url": "https://github.com/team-mirai/policy/commit/5daede60f11999bffe9e35d8d7423a38be484fb3"
+          "sha": "092cc7b64e606d42d9c548dbae21223393a13652",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/092cc7b64e606d42d9c548dbae21223393a13652",
+          "html_url": "https://github.com/team-mirai/policy/commit/092cc7b64e606d42d9c548dbae21223393a13652"
         }
       ]
     },
     {
-      "sha": "0042158542857c66421f4126a5fbc9e4235212a3",
-      "node_id": "C_kwDOOqTJvNoAKDAwNDIxNTg1NDI4NTdjNjY0MjFmNDEyNmE1ZmJjOWU0MjM1MjEyYTM",
+      "sha": "18e0f8f0396077bc84652face1527c610961155e",
+      "node_id": "C_kwDOOqTJvNoAKDE4ZTBmOGYwMzk2MDc3YmM4NDY1MmZhY2UxNTI3YzYxMDk2MTE1NWU",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-15T06:37:11Z"
+          "date": "2025-07-15T18:54:17Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-15T06:37:11Z"
+          "date": "2025-07-15T18:54:17Z"
         },
-        "message": "匿名ユーザーさんの提案に基づき、女性の健康課題に関するセクションを追加",
+        "message": "aiaiさんの提案に基づき、AIによる能動的な活用提案の項目を追加",
         "tree": {
-          "sha": "923c555a1b75a1be76ed52c96f1ef21c3dcaafed",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/923c555a1b75a1be76ed52c96f1ef21c3dcaafed"
+          "sha": "0b3453aff3586906be5117f398d93c95adc8c927",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0b3453aff3586906be5117f398d93c95adc8c927"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/0042158542857c66421f4126a5fbc9e4235212a3",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/18e0f8f0396077bc84652face1527c610961155e",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodfcXCRC1aQ7uu5UhlAAAWx4QALEKVlhujfjzkFcC/of1CNAB\nbTOF/1F7mjA6ZY/lttx35tzaZRRzTnV0nWHCkVumQCcPhyj5+P+ArHQTdr2BHK/b\nblfvcBgLf3L9CVYVubwb58hz6xWK1aKBBFc7UKh+MIHedsT/kJWNesoYVRC8uske\nnhvKVN32oYuQ/dHkYyaQbFqGZ91SjCT9FiaTgtZA7D/ziMZKoXWqN4/JnEvZWS7W\nFLRFe0/5KJpkzcYA1ajEJKIVNMI0MBPs6pA73N17a28/PKY54fG7a1NnoBC0BhxU\n7Z3CZEwABmeL9FG+R6HTiG6+9qNY6lh+cZw3s3Wqnuug5OEpTZN6IHjiGVXhd/DY\nX0sEd1bdZ033rx9Qha9K4IUaVLhUVw3kQRbh4EPjelY2BWaSIsR8c8w0Zdbc9V9w\nOu+5l/LEtDoUuAZpg1GIePHPFGCSd309f2yARDzDZEu3mnhWHGn8qx+je0VlcNvV\negCWZKW1SPq/DFVieJygGa2AywSnOvsK92NoswVhIg8QG1jL6uP4Mc9GnHaCmLt+\nw0BTISM95QXV1f4Fi2UWETSp3Fj061Mf4M/MGOa4xZcVDLqQG3spMRzZM4wDA85E\nap+xcypVli4VoI+HXLnztAN0MzE4hhrDt7K4ncVVzhToqKO0Nwmry59RL4Fl7tTS\nb/ExiKIEv+O5as9jUGL8\n=cVec\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 923c555a1b75a1be76ed52c96f1ef21c3dcaafed\nparent f51b6591d37deb5d2ef1e0c230baef7652f1b453\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752561431 +0000\ncommitter GitHub <noreply@github.com> 1752561431 +0000\n\n匿名ユーザーさんの提案に基づき、女性の健康課題に関するセクションを追加",
-          "verified_at": "2025-07-15T06:37:11Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJodqPZCRC1aQ7uu5UhlAAAdd0QALG1+0/lVP9YlV23pr7eIOvH\nV94pRh2fpjMjItYDrX2HxACHWXK+BKtH6o+lG5TrtH4sBUWle7OJiyiRzQxhbZKQ\nndAplsv/NaaAZTyWea96CcL7mMTTujwNjFs09S9bJbpqvb23Yk1BtXWZoA4hEbhj\n/mA3SZpylAg4fUrpIujMG7NDmFVyTvjtWbYZ/n9I+7jhpkHUdRCKnksK6+6d8Ifg\nHQbfS43oGNCT0QfRgwgknlC+2r+kdd4Y2/8MDF05o6Ki6VpXEhmj4lUokxMRdrGW\nWmtmZuXyKKvsl4K304ch4njTNTa6cQZ4ixamLz48zQop8RBphFy3AAIEYYhVPbyH\n1Dz7/jLGxUsUCXIXqaIj+05fnSJyZcrnC4CFn9+/R9xoIxfvdqQHaT4QPyzNWNXJ\nddV7Alvc/NoFv6GWqvF0qHzctP2IAkbFqJ04REcsYRPgndTKBiUW5TNz44cP6fA5\ntZb+wmnVQ5YpgboiZZV/WI2UpDzm2vv8+teTBMPtvnKPREdDSo0TaWNJoPfDc8af\nJtjHa8s088C9YK6PqoighRbkbrCo3gze+KIGtxAsoFkEiQChkGTLH2OC8pG1gJzv\npbiWHD57h51ftnroitRh6RzQydh1qoJC+04MprgoVRiwx9RPQDXGmd8pm6Gh6epT\nGBJ4Il2yEDB1GOXBn9kL\n=6Oyz\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0b3453aff3586906be5117f398d93c95adc8c927\nparent b2d44bfe6754fc1b293df06baf64afc4156bd049\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752605657 +0000\ncommitter GitHub <noreply@github.com> 1752605657 +0000\n\naiaiさんの提案に基づき、AIによる能動的な活用提案の項目を追加",
+          "verified_at": "2025-07-15T18:54:18Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/0042158542857c66421f4126a5fbc9e4235212a3",
-      "html_url": "https://github.com/team-mirai/policy/commit/0042158542857c66421f4126a5fbc9e4235212a3",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/0042158542857c66421f4126a5fbc9e4235212a3/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/18e0f8f0396077bc84652face1527c610961155e",
+      "html_url": "https://github.com/team-mirai/policy/commit/18e0f8f0396077bc84652face1527c610961155e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/18e0f8f0396077bc84652face1527c610961155e/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -334,12 +324,12 @@
       },
       "parents": [
         {
-          "sha": "f51b6591d37deb5d2ef1e0c230baef7652f1b453",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/f51b6591d37deb5d2ef1e0c230baef7652f1b453",
-          "html_url": "https://github.com/team-mirai/policy/commit/f51b6591d37deb5d2ef1e0c230baef7652f1b453"
+          "sha": "b2d44bfe6754fc1b293df06baf64afc4156bd049",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/b2d44bfe6754fc1b293df06baf64afc4156bd049",
+          "html_url": "https://github.com/team-mirai/policy/commit/b2d44bfe6754fc1b293df06baf64afc4156bd049"
         }
       ]
     }
   ],
-  "collected_at": "2025-07-15T19:16:37.041076"
+  "collected_at": "2025-07-15T19:13:17.982458"
 }
