@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 7314,
+    "title": "【岸様ご提案】日本円ステーブルコインによる個人政治献金の実現",
+    "state": "open",
+    "created_at": "2025-07-16T15:22:07Z",
+    "updated_at": "2025-07-16T15:28:25Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/7314",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "acffe8416eca58f1cd8f7072bbd163529418da82",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 114,
+      "deletions": 1,
+      "changes": 115,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a7ba900318068e5d41b7dfb47c3f62dbce1010b7/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a7ba900318068e5d41b7dfb47c3f62dbce1010b7/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=a7ba900318068e5d41b7dfb47c3f62dbce1010b7",
+      "patch": "@@ -47,6 +47,118 @@\n \n 　なお今後も議論の結果、これらのマニフェストの内容がまだ変わる可能性がある点はご理解いただけますと幸いです。\n \n+### 岸様からのご提案：日本円ステーブルコインによる個人政治献金の実現に向けて\n+\n+■ はじめに\n+\n+政治への献金は、国民一人ひとりが自らの意思を表明し、政治参加を果たす重要な手段です。特に、特定の団体や資本からの影響力を抑え、個人による自発的な小口献金を促進することは、健全な民主主義の発展に不可欠です。\n+\n+ところが現行制度では、政治献金の支払い手段が現金や銀行振込などに限定されており、暗号資産、特に日本円ステーブルコインによる献金は認められていません。これは、デジタル化が進んだ現代において不合理な制約であり、政治参加の多様性を著しく制限していると考えます。\n+\n+本提案では、日本円ステーブルコインを用いた個人政治献金の合法化と制度整備について、以下のとおり提言いたします。\n+\n+\n+---\n+\n+■ 現状の課題\n+\n+現行の政治資金規正法では、献金の支払い方法は日本円による現金・振込等に限られており、暗号資産（特に法定通貨連動型のステーブルコイン）による献金は想定されていません。\n+\n+この制度的制限には、以下のような問題点があります。\n+\n+民主主義の基本である「政治参加の自由」に対する制約\n+支払い手段が限定されていることは、実質的に個人の政治参加の形を狭めており、選択肢の少なさは特に若年層や非銀行口座保有者（unbanked）などの新たな層の参入障壁となっています。\n+\n+非居住者・海外在住日本人の参加制限\n+銀行口座を通じた振込のみが許容されている現行制度では、海外からの個人献金が非常に困難であり、国境を越えて政治に関心を持つ日本人の参加を妨げています。\n+\n+現金や振込による献金の実務的な不便さ\n+都市部以外の地域や現金を扱いにくい世代にとって、オンラインでの手続きができないのは大きなハードルです。電子化が進んだ社会において、手段の限定は時代遅れであり、効率の悪さも否めません。\n+\n+実は不透明な現金献金との比較\n+ステーブルコインはブロックチェーンに記録されるため、現金献金よりも透明性が高く、履歴の改ざんも困難です。現在の制度が必ずしも「清潔な資金」を担保しているとは言えません。\n+\n+\n+\n+---\n+\n+■ 提案の具体的内容\n+\n+本提案では、以下のような制度的対応を要望します。\n+\n+法制度への追加\n+政治資金規正法における「金銭」の範囲に、日本円建てステーブルコイン（例：JPYCや他の資金決済法上の前払式支払手段等）を含め、政治献金の手段として明示的に合法化すること。\n+\n+利用条件の明確化\n+利用可能なステーブルコインは、日本円と1:1で連動し、ボラティリティが極小であること、および発行元によるKYCが義務付けられていることを条件とする。\n+\n+スマートコントラクトによる透明性確保\n+・年間上限額の自動管理\n+・献金記録のオンチェーン自動公開\n+・匿名献金禁止機構の実装\n+などの機能を技術的に実装することで、透明性とコンプライアンスを両立する。\n+\n+NFT等による支援の可視化\n+NFTやトークンを通じて支援証明を付与することで、若年層の政治意識の喚起やコミュニティ形成につなげる。\n+\n+\n+\n+---\n+\n+■ 期待される効果\n+\n+本提案が実現された場合、次のような社会的・政治的効果が期待されます。\n+\n+若年層・デジタルネイティブ層の政治参加を促進\n+　オンライン上で容易に政治献金が可能となることで、これまで献金に関心がなかった層が関与しやすくなり、政治への関心が高まります。\n+\n+小口献金の活性化による資金の民主化\n+　少額で手軽に献金できる手段の導入は、特定の大口献金者に依存しない、自立した政治活動の基盤を築くことにつながります。\n+\n+資金流通の透明化・信頼性向上\n+　全ての取引がブロックチェーン上に記録され、公開情報として確認できることで、資金の流れの不正を防止し、透明性の高い政治資金運用が可能になります。\n+\n+日本のWeb3民主主義の先進モデル化\n+　世界に先駆けてデジタル通貨を取り入れた民主主義運営を行うことで、日本の政治制度が国際的な注目を集め、テクノロジーと法制度の融合モデルとして評価される可能性があります。\n+\n+\n+\n+---\n+\n+■ 考えられる懸念・リスクとその対応策\n+\n+日本円ステーブルコインを用いた政治献金の導入にあたっては、いくつかの懸念や課題が想定されます。以下にそれらの主な懸念点と、それに対する現実的な対応策を記載します。\n+\n+1. 資金の出所が不明瞭になるのではないかという懸念\n+　暗号資産は匿名性が高いという誤解が広まっていますが、日本円ステーブルコインは、発行体によるKYC（本人確認）を経たユーザーにのみ提供されるケースが一般的です。さらに、政治献金に用いる場合は、KYC済ウォレットに限定し、送金元・送金先ともに実名情報の紐付けを義務付けることにより、資金の透明性を確保することが可能です。むしろ、現金献金よりもトレース可能性は高いと言えます。\n+\n+\n+2. 高齢者や非ITリテラシー層にとって使いづらいのではという懸念\n+　本提案は、既存の現金・銀行振込による献金手段を廃止するものではなく、あくまで新たな選択肢を追加するものです。これにより、デジタル世代を中心とした新たな支持層の政治参加を促進しつつ、既存の支援者にとっての使い勝手を損なうことはありません。選択肢の多様化は、民主主義の深化に寄与すると考えます。\n+\n+\n+3. 法制度との整合性や、導入に伴う制度設計の難しさ\n+　政治資金規正法および資金決済法など、複数の法律にまたがる議論となる可能性がありますが、まずは「日本円建てで価値変動がなく、前払式支払手段に該当するステーブルコインに限定して認可する」など、範囲を絞った試験的導入から始めることが現実的です。必要に応じてガイドラインや通達による柔軟な対応も可能と考えられます。\n+\n+\n+4. 不正な献金やマネーロンダリングの温床になるのではないかという懸念\n+　ステーブルコインのトランザクションはブロックチェーン上に記録され、恒久的に可視化されるため、むしろ不正の抑止力になります。一定額以上の献金については、KYC済口座・実名公開・ウォレットアドレスの登録義務などを制度化することで、法令遵守と透明性を両立させることができます。\n+\n+\n+\n+以上のように、技術的・法的な懸念に対しては十分に対応可能であり、それらを上回る社会的メリットがあると考えます。\n+\n+\n+---\n+\n+■ 結びに\n+\n+私たちは今、Web3時代の入り口に立っています。従来の制度に固執するのではなく、新しい技術を正しく取り入れ、公正・自由・透明な政治の実現を目指すべき時期です。\n+\n+真に開かれた民主主義とは、思想や表現だけでなく、「献金という手段」においても自由であるべきです。日本円ステーブルコインによる個人政治献金の合法化は、テクノロジーを味方につけた次世代民主主義の第一歩であると確信しています。\n+\n+どうかご検討のほど、よろしくお願いいたします。\n+\n ## チームみらいについて\n \n チームみらいは、AIエンジニアの安野たかひろによって設立された政治団体です。テクノロジーで誰も取り残さない日本を掲げ、本マニフェストの政策を推進しています。\n@@ -116,7 +228,7 @@\n \n ### 通知のスキップ機能\n \n-政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキップできます。\n+政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキロップできます。\n \n #### 使い方\n \n@@ -134,3 +246,4 @@\n ## おしゃべりできるシステム『いどばたシステム』について\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "a7ba900318068e5d41b7dfb47c3f62dbce1010b7",
+      "node_id": "C_kwDOOqTJvNoAKGE3YmE5MDAzMTgwNjhlNWQ0MWI3ZGZiNDdjM2Y2MmRiY2UxMDEwYjc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-16T15:20:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-16T15:20:25Z"
+        },
+        "message": "岸様からの提案を反映：日本円ステーブルコインによる個人政治献金",
+        "tree": {
+          "sha": "b74aa2bdb891239b2df83ca324509f32b360d727",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b74aa2bdb891239b2df83ca324509f32b360d727"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a7ba900318068e5d41b7dfb47c3f62dbce1010b7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod8M5CRC1aQ7uu5UhlAAAzgMQAIC5KeTODjf8kJ4f58JgXlXH\niG1qASc5nFnKMiy7SuxA/yOW7kRl2jGA3yxGzQ/xLXRnpHYiwJbj40YdacJo+qIR\nMDN1K6c1rfKOts5hib3YvUCuOEDmTBv3CDldhk4TTK7zH1/nFZtos+RkXrT1/EvR\nDZ4xHkP3HHKVkgSoe09I3RI2Zudh170CX4b7YiD9i4bcoY6EIsIacHJCV5I/+vN/\nDAj9jmyxxdO4k+fAS5StNvc4oVp1TLqAwv8gMyXll7LV3vVEzNCmwMFgmds8Sjzr\nqlaSO/wzuCmlivp7qJKHZhl5ESGOHqLua32D76egyXS5adU80jjRW68JNJEdKDrx\nUnmRbjtiR0z0KDCcJ4ebI0K7aZhxBWs7j4Sh1rEwlfELKD1v3pwylTNySXSakEB2\nHqOoINOfvB1bs0Vk29kcR3UJjKAMlpGj+3XHaIgyLN9FimiVrYxtCKbYR5C36deL\npH65Ay+qUvj2ERkYBpUTypUAolq4wZgkQFjN2hhRM81TXIMJxzErXkL1OdgAshyj\nAr0XfbkSl69xyMLjmMTcLfSeOdLpFM6uS+JWyJ7KgQpkH9g916O/SpsmuD/DBOKT\nXfngUpTnVl1S8DSaHO+V1gPFQXmsObjbiL1wnWyTzc6X1GtpsfuS3YBK/J2mXDes\n/F3t7YVQiIaHd58+0r9Q\n=wmPA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b74aa2bdb891239b2df83ca324509f32b360d727\nparent 5405954461b790307959053275242e79fdd9ab91\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752679225 +0000\ncommitter GitHub <noreply@github.com> 1752679225 +0000\n\n岸様からの提案を反映：日本円ステーブルコインによる個人政治献金",
+          "verified_at": "2025-07-16T15:20:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a7ba900318068e5d41b7dfb47c3f62dbce1010b7",
+      "html_url": "https://github.com/team-mirai/policy/commit/a7ba900318068e5d41b7dfb47c3f62dbce1010b7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a7ba900318068e5d41b7dfb47c3f62dbce1010b7/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5405954461b790307959053275242e79fdd9ab91",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5405954461b790307959053275242e79fdd9ab91",
+          "html_url": "https://github.com/team-mirai/policy/commit/5405954461b790307959053275242e79fdd9ab91"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-16T16:17:39.592325"
+}
