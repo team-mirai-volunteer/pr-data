@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 7269,
+    "title": "期日前投票におけるマイナンバーカード活用の検討",
+    "state": "open",
+    "created_at": "2025-07-16T13:54:19Z",
+    "updated_at": "2025-07-16T13:54:20Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/7269",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "fa28658a6a2f738c2af8de13fc2aafde5a104ecd",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "changes": 5,
+      "blob_url": "https://github.com/team-mirai/policy/blob/6cbed985be6597ed031e5af75dea848c73344b33/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/6cbed985be6597ed031e5af75dea848c73344b33/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=6cbed985be6597ed031e5af75dea848c73344b33",
+      "patch": "@@ -47,6 +47,9 @@\n \n 　なお今後も議論の結果、これらのマニフェストの内容がまだ変わる可能性がある点はご理解いただけますと幸いです。\n \n+### 検討中の課題：期日前投票におけるマイナンバーカード活用\n+現在、期日前投票における本人確認の厳格化と効率化について議論しています。マイナンバーカードを本人確認に活用することで、なりすまし投票のリスクを低減し、将来的には投票所入場券（ハガキ）の郵送コスト削減にも繋がる可能性があります。一方で、カードを持っていない方への配慮や、有権者の利便性を損なわないための丁寧な制度設計が不可欠です。みなさんのご意見をいただきながら、より良い選挙のあり方を検討していきます。\n+\n ## チームみらいについて\n \n チームみらいは、AIエンジニアの安野たかひろによって設立された政治団体です。テクノロジーで誰も取り残さない日本を掲げ、本マニフェストの政策を推進しています。\n@@ -118,7 +121,7 @@\n \n 政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキップできます。\n \n-#### 使い方\n+#### 使い方のヒント\n \n 1. Pull Requestを作成後、右側のLabelsセクションから `skip-notification` ラベルを選択して追加\n 2. このラベルが付いているPRは、マージされてもX通知が送信されません"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "6cbed985be6597ed031e5af75dea848c73344b33",
+      "node_id": "C_kwDOOqTJvNoAKDZjYmVkOTg1YmU2NTk3ZWQwMzFlNWFmNzVkZWE4NDhjNzMzNDRiMzM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-16T13:52:29Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-16T13:52:29Z"
+        },
+        "message": "キッドさんの提案：期日前投票でのマイナンバーカード活用を検討",
+        "tree": {
+          "sha": "39deaeaab89317d824e9a4354f7500c3e7991874",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/39deaeaab89317d824e9a4354f7500c3e7991874"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6cbed985be6597ed031e5af75dea848c73344b33",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod66dCRC1aQ7uu5UhlAAATdYQAEyoxm6BCJugEnHVXH4Crm1d\n78pttYukryf6D+Z40oV01kzSe6G99yUticmlFRVpa1fLmyJWtNpqU38pEvNPJuEr\n/cw5vw341JXRBBYiQC8PAjUxhXaH0WSEepau21XpRC+iNpXnEZ0OW47Cxa/a06f+\nJq/6yPrgCAxVdXl7k/bYjEJjiLxGgDY8Fgg8NWdfoeI2Txad6O2l3JfXYeMexSbn\nAUDM0c8OM/TL0RdeMK0llZ7jGnVr1bXiXc9MSyn34lw0qZb8YibHUDyqunCqSQfw\nBgIZUBatQMRimP9dTULeXYSs0xFWW66VnkSizC4O5MMh3rCz9CcuceySIlKUkcxM\neSRy7qB0v0Xm7FhHLhaZbFC0Z7c2ZWBdvjDaEtECO2vfYhtLhKTDlF/oi5MFiK+d\nxVEUoSJNVZpEAyohd/0QY8JsndI8gSEtVC8gVk6kg6Kc87KTA5q8/5e7htnujRHH\n4i9fH/eJFxZWJYF1uYsOuo12T267diS2DXBHT54VM9LMF5pkfX8mJEJH8gTesVGk\nn1QPDBM3VgwxPbrn2Ael7MDpMT0N8NfkBDoV79u8an+ly3/2WIijR508vZNVwQBb\nT6fgtexbFTWv7wOT3e9xxK6y3C4AN6XUeAtrzDTWK1HJiEYIpdcqEcQbkjLgnTBt\nWqzN3xFVDmSxG+wi5Vy0\n=N13d\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 39deaeaab89317d824e9a4354f7500c3e7991874\nparent 5405954461b790307959053275242e79fdd9ab91\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752673949 +0000\ncommitter GitHub <noreply@github.com> 1752673949 +0000\n\nキッドさんの提案：期日前投票でのマイナンバーカード活用を検討",
+          "verified_at": "2025-07-16T13:52:29Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6cbed985be6597ed031e5af75dea848c73344b33",
+      "html_url": "https://github.com/team-mirai/policy/commit/6cbed985be6597ed031e5af75dea848c73344b33",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6cbed985be6597ed031e5af75dea848c73344b33/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5405954461b790307959053275242e79fdd9ab91",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5405954461b790307959053275242e79fdd9ab91",
+          "html_url": "https://github.com/team-mirai/policy/commit/5405954461b790307959053275242e79fdd9ab91"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-16T15:16:50.296098"
+}

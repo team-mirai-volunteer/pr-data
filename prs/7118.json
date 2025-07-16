@@ -4,7 +4,7 @@
     "title": "障害年金の制度運用改善（初診日要件の見直し、実態に即した判定基準の反映）",
     "state": "open",
     "created_at": "2025-07-16T05:53:45Z",
-    "updated_at": "2025-07-16T05:54:10Z",
+    "updated_at": "2025-07-16T14:07:27Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/7118",
@@ -153,16 +153,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "d6c0eb58886a6351284469a9cbcc4d8f5d07812c",
+      "sha": "bbe3eda4bdbcc1d1df3c5a036ffb69bb28d52610",
       "filename": "18_ステップ１福祉.md",
       "status": "modified",
       "additions": 4,
-      "deletions": 2,
-      "changes": 6,
-      "blob_url": "https://github.com/team-mirai/policy/blob/d237450e8f521875a64501c3691a238db72719b5/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/d237450e8f521875a64501c3691a238db72719b5/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md?ref=d237450e8f521875a64501c3691a238db72719b5",
-      "patch": "@@ -93,8 +93,10 @@\n \n * AI活用により、障害年金支給判定プロセスにおける透明性と公平性を確保します  \n   * 特に客観的指標による判断が難しい精神障害に関して、AIを用いて判定基準を明確化、透明化します。  \n-  * AIを活用して一次判定を行うことで、審査の標準化や地域差の解消、バイアスの排除を行います。AIによるデータチェックや自動入力、計算ミスの防止など、審査業務の自動化によってヒューマンエラーを減らし、正確性が向上させます。  \n-  * AIによる認定結果や不支給事案の分析を継続的に行い、制度運用の課題や改善ポイントを可視化します。  \n+  * AIを活用して一次判定を行うことで、審査の標準化や地域差の解消、バイアスの排除を行います。AIによるデータチェックや自動入力、計算ミスの防止など、審査業務の自動化によってヒューマンエラーを減らし、正確性を向上させます。  \n+  * AIによる認定結果や不支給事案の分析を継続的に行い、制度運用の課題や改善ポイントを可視化します。\n+  　　*「初診日」要件の見直し、就労実態・生活実態に即した判定基準の改定の検討を行います。\n+ \n * 生活保護費の算定やデータ入力作業をデジタルで効率化し、職員やケースワーカーの業務負担を削減します  \n   * 資産調査を電子化し、AIを導入して行うことで、職員の業務負担の削減と、迅速な支給認定手続きを実現します。  \n   * ケースワーカーの生活保護業務に関しても紙媒体ではなく電子化を進め、事務の効率化、データを活用しより適切な支援を提案できる仕組みを構築します。"
+      "deletions": 5,
+      "changes": 9,
+      "blob_url": "https://github.com/team-mirai/policy/blob/452e50f2cce8070f89ca57750d0aa38459a35dfe/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/452e50f2cce8070f89ca57750d0aa38459a35dfe/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/18_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E7%A6%8F%E7%A5%89.md?ref=452e50f2cce8070f89ca57750d0aa38459a35dfe",
+      "patch": "@@ -86,15 +86,14 @@\n \n ### 現状認識・課題分析\n \n-* 福祉サービスを受けるための認定基準が自治体により異なることが指摘されています。障害年金の認定状況の調査によると、新規の不支給率が増加しています。特に精神障害は客観的指標による評価が難しく、障害等級の目安より下位等級に認定され不支給となってしまうケースがあります。  \n+* 障害年金の認定状況の調査によると、新規の不支給率が増加しています。特に精神障害は客観的指標による評価が難しく、障害等級の目安より下位等級に認定され不支給となってしまうケースがあります。  \n * また、その認定に必要な書類や手続きの煩雑さから、職員の業務負荷が膨大になっています。特に生活保護業務は多様化・複雑化し、ケースワーカーの業務負担が大きく、人材確保や専門性の維持が課題となっています。\n \n ### 政策概要\n \n-* AI活用により、障害年金支給判定プロセスにおける透明性と公平性を確保します  \n-  * 特に客観的指標による判断が難しい精神障害に関して、AIを用いて判定基準を明確化、透明化します。  \n-  * AIを活用して一次判定を行うことで、審査の標準化や地域差の解消、バイアスの排除を行います。AIによるデータチェックや自動入力、計算ミスの防止など、審査業務の自動化によってヒューマンエラーを減らし、正確性が向上させます。  \n-  * AIによる認定結果や不支給事案の分析を継続的に行い、制度運用の課題や改善ポイントを可視化します。  \n+* AI活用により、障害年金支給判定プロセスにおける透明性と公平性を確保します   \n+  * 障害年金の支給判定プロセスをデジタル・AIで効率化し、透明性と公平性のある判定を行える仕組みを構築します。\n+  * 審査の標準化を推進するほか、 AIによる認定結果や不支給事案の分析を継続的に行い、制度運用の課題や改善ポイントを可視化します。「初診日」要件の見直しや、実態に即した判定基準の改定についても検討を行います。\n * 生活保護費の算定やデータ入力作業をデジタルで効率化し、職員やケースワーカーの業務負担を削減します  \n   * 資産調査を電子化し、AIを導入して行うことで、職員の業務負担の削減と、迅速な支給認定手続きを実現します。  \n   * ケースワーカーの生活保護業務に関しても紙媒体ではなく電子化を進め、事務の効率化、データを活用しより適切な支援を提案できる仕組みを構築します。"
     }
   ],
   "commits": [
@@ -329,7 +329,171 @@
           "html_url": "https://github.com/team-mirai/policy/commit/3f9905a76730ea0dabd6a0d75905c7fcea2a8a5c"
         }
       ]
+    },
+    {
+      "sha": "6f4533d6badb495881ccc07f6969f83858567143",
+      "node_id": "C_kwDOOqTJvNoAKDZmNDUzM2Q2YmFkYjQ5NTg4MWNjYzA3ZjY5NjlmODM4NTg1NjcxNDM",
+      "commit": {
+        "author": {
+          "name": "kasumiiwase",
+          "email": "iwase.kasumi@gmail.com",
+          "date": "2025-07-16T13:50:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-16T13:50:16Z"
+        },
+        "message": "Update 18_ステップ１福祉.md",
+        "tree": {
+          "sha": "d37cf5737febe098de5a1fb09d4eed28f1ede56e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d37cf5737febe098de5a1fb09d4eed28f1ede56e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/6f4533d6badb495881ccc07f6969f83858567143",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod64YCRC1aQ7uu5UhlAAAx0EQADBPidXKUFMQ6ObBdZ8O3Uz6\nZ6WsYrmXzRfIj7YnX831J+DrAqiFk0dufGAkiRQWaXDlyryVwGg6MkufRPuWSNAW\nq4GOewaS0tlSUECFncPHSx+NrIKK+B0FQ43HsSr+Gk281HumYbt45eeyq9NntwYY\noSxT/np2w2f3O6bQnHVEH+1TFTg8OU1D6/S8CK1EfZwookx9KKQLI3rtxd/OXvfK\nYAe0WZQq9gwGyOvLUwnxrcVbAMNAJVfCAPiGRw7jQy2a5HeZmos+nwf43Efzt01o\n7vUoS0iLLfEu5Hi9B30Shhf1mCAbroAqTB/sQUpIaxsq6NN1hmc0eDFOmq9UfoQP\nRhVz5hdNx5Ea/rUKzb6QWOLTKpMvGCQ3b7kMFCQz+7E0ocxyqEhxtiq+UA7mrlpQ\nCcgc5uL6iz2tvn2g77oz/M3U4LoF73PrQRZWwal/tN588/Lw2yUQT+xZsk1/rGjT\n1Meb5wMUnhwk4EKauR2RxF839mB8/izWwiv6VWEhp4bjjBzEiBrnv5GsxIGs/wAq\nDeueLaRuYozZfrauevZlfss2tiSxWpUgX6bN6tITJD5Bez0mbh/m5NyCQBVY93og\nUhv2EmM96PdpKRVPDOT4IqRnvQuZyVuT1BIr73WwqvpUYdipTNXAmDJgohES8kYq\nm4BPkJwLRstKU15ecrO1\n=zwAx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d37cf5737febe098de5a1fb09d4eed28f1ede56e\nparent d237450e8f521875a64501c3691a238db72719b5\nauthor kasumiiwase <iwase.kasumi@gmail.com> 1752673816 +0900\ncommitter GitHub <noreply@github.com> 1752673816 +0900\n\nUpdate 18_ステップ１福祉.md",
+          "verified_at": "2025-07-16T13:50:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/6f4533d6badb495881ccc07f6969f83858567143",
+      "html_url": "https://github.com/team-mirai/policy/commit/6f4533d6badb495881ccc07f6969f83858567143",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/6f4533d6badb495881ccc07f6969f83858567143/comments",
+      "author": {
+        "login": "kasumiiwase",
+        "id": 174220419,
+        "node_id": "U_kgDOCmJkgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174220419?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kasumiiwase",
+        "html_url": "https://github.com/kasumiiwase",
+        "followers_url": "https://api.github.com/users/kasumiiwase/followers",
+        "following_url": "https://api.github.com/users/kasumiiwase/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kasumiiwase/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kasumiiwase/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kasumiiwase/subscriptions",
+        "organizations_url": "https://api.github.com/users/kasumiiwase/orgs",
+        "repos_url": "https://api.github.com/users/kasumiiwase/repos",
+        "events_url": "https://api.github.com/users/kasumiiwase/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kasumiiwase/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "d237450e8f521875a64501c3691a238db72719b5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/d237450e8f521875a64501c3691a238db72719b5",
+          "html_url": "https://github.com/team-mirai/policy/commit/d237450e8f521875a64501c3691a238db72719b5"
+        }
+      ]
+    },
+    {
+      "sha": "452e50f2cce8070f89ca57750d0aa38459a35dfe",
+      "node_id": "C_kwDOOqTJvNoAKDQ1MmU1MGYyY2NlODA3MGY4OWNhNTc3NTBkMGFhMzg0NTlhMzVkZmU",
+      "commit": {
+        "author": {
+          "name": "kasumiiwase",
+          "email": "iwase.kasumi@gmail.com",
+          "date": "2025-07-16T14:07:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-16T14:07:04Z"
+        },
+        "message": "Update 18_ステップ１福祉.md",
+        "tree": {
+          "sha": "dd0b6057c1cc8f764ae0bf5bc82400beb765cedb",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/dd0b6057c1cc8f764ae0bf5bc82400beb765cedb"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/452e50f2cce8070f89ca57750d0aa38459a35dfe",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJod7IICRC1aQ7uu5UhlAAAWrgQAAyeSsGrD3Sy74x25DCqC0Rq\n7Z2XydbGEM5ICI7FTzAe10G9N7HfpTvkcHya5TC3nTjBmOUYrv0TsaIA+XaJ+SDf\njA7SB4/TGnUyWNqcmPoseqhrnadnU8ec3l/7kRimRldIixIOnatSBkYgek6iXQ8B\neQbR0jV1jGUsYEI0qdU+yOntT7EyU/5Z6X2UhUSx351urZb5VfpFOTUuK346yxDo\nnYTVrJZ1/EQnKwqF1dvGnvs9LmqY43QWjvB3lfHKGzaKgO7gXl+kHAuiHNA3BUcU\n6eiRCWCeEsbv9MAqXp3fGXMpn9j/yyT4TjthsUeHbWIW7T9RLmxAdlCDK8XyBrqh\n/8Sf0YIu+IjIpKWAvBUuyvBxRs3FP7JrFbJXSa0eCTzcBzfUz/Ktyfb2j4YfETqL\n7eY1rab4ls2pc1N5Sg4GpjN0jsQCncvlprBc2uuMYmDXjvTrhz+mTcxU06Wi8smG\nUm2C3HdyEYWJwpxpAanKprzxl4Mh4ZoALqZzC0Nsxycf8AGzf/PMx0OGHhsDJyua\nC3VtIq+e/L6RVwNBQabv5eTIWDrGbirmr6T6ugWIgAggmuvkVSug+DPZ6+EKGQiV\n7mXT/ZyFQVSriD7KTSyM0/JN09tgfLn8FQ8MWZi7QqLpOx0c8RnotgJUdymzrHDv\nMhLWAkHxQ6dGmGkxAIQV\n=DPLA\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dd0b6057c1cc8f764ae0bf5bc82400beb765cedb\nparent 6f4533d6badb495881ccc07f6969f83858567143\nauthor kasumiiwase <iwase.kasumi@gmail.com> 1752674824 +0900\ncommitter GitHub <noreply@github.com> 1752674824 +0900\n\nUpdate 18_ステップ１福祉.md",
+          "verified_at": "2025-07-16T14:07:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/452e50f2cce8070f89ca57750d0aa38459a35dfe",
+      "html_url": "https://github.com/team-mirai/policy/commit/452e50f2cce8070f89ca57750d0aa38459a35dfe",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/452e50f2cce8070f89ca57750d0aa38459a35dfe/comments",
+      "author": {
+        "login": "kasumiiwase",
+        "id": 174220419,
+        "node_id": "U_kgDOCmJkgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/174220419?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/kasumiiwase",
+        "html_url": "https://github.com/kasumiiwase",
+        "followers_url": "https://api.github.com/users/kasumiiwase/followers",
+        "following_url": "https://api.github.com/users/kasumiiwase/following{/other_user}",
+        "gists_url": "https://api.github.com/users/kasumiiwase/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/kasumiiwase/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/kasumiiwase/subscriptions",
+        "organizations_url": "https://api.github.com/users/kasumiiwase/orgs",
+        "repos_url": "https://api.github.com/users/kasumiiwase/repos",
+        "events_url": "https://api.github.com/users/kasumiiwase/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/kasumiiwase/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "6f4533d6badb495881ccc07f6969f83858567143",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/6f4533d6badb495881ccc07f6969f83858567143",
+          "html_url": "https://github.com/team-mirai/policy/commit/6f4533d6badb495881ccc07f6969f83858567143"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-16T06:20:05.195063"
+  "collected_at": "2025-07-16T15:17:40.003638"
 }
