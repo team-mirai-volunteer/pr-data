@@ -1,0 +1,827 @@
+{
+  "basic_info": {
+    "number": 7575,
+    "title": "【税制改善】世帯・個人単位課税の有利な方を自動適用し、全世帯の税負担を最適化",
+    "state": "open",
+    "created_at": "2025-07-17T08:58:39Z",
+    "updated_at": "2025-07-17T10:14:06Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/7575",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [
+    {
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3083239517",
+      "html_url": "https://github.com/team-mirai/policy/pull/7575#issuecomment-3083239517",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/7575",
+      "id": 3083239517,
+      "node_id": "IC_kwDOOqTJvM63xoBd",
+      "user": {
+        "login": "github-actions[bot]",
+        "id": 41898282,
+        "node_id": "MDM6Qm90NDE4OTgyODI=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+        "html_url": "https://github.com/apps/github-actions",
+        "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "created_at": "2025-07-17T08:58:48Z",
+      "updated_at": "2025-07-17T08:58:48Z",
+      "author_association": "NONE",
+      "body": "## 📢 X（旧Twitter）通知について\n\nこのPRがマージされると、自動的にX（旧Twitter）に投稿されます。\n\nもし以下のような政策内容の実質的な変更を含まないPRの場合、X通知をスキップすることができます：\n- タイポや誤字脱字の修正\n- マークダウンのフォーマット調整\n- リンク切れの修正\n- その他、政策内容に実質的な変更を含まない修正\n\n### 通知をスキップする方法\nPRに `skip-notification` ラベルを追加してください。\n1. 右側のLabelsセクションをクリック\n2. `skip-notification` を選択\n\n※ Slack通知は内部進捗管理のため、引き続き送信されます。",
+      "reactions": {
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3083239517/reactions",
+        "total_count": 0,
+        "+1": 0,
+        "-1": 0,
+        "laugh": 0,
+        "hooray": 0,
+        "confused": 0,
+        "heart": 0,
+        "rocket": 0,
+        "eyes": 0
+      },
+      "performed_via_github_app": {
+        "id": 15368,
+        "client_id": "Iv1.05c79e9ad1f6bdfa",
+        "slug": "github-actions",
+        "node_id": "MDM6QXBwMTUzNjg=",
+        "owner": {
+          "login": "github",
+          "id": 9919,
+          "node_id": "MDEyOk9yZ2FuaXphdGlvbjk5MTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/9919?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/github",
+          "html_url": "https://github.com/github",
+          "followers_url": "https://api.github.com/users/github/followers",
+          "following_url": "https://api.github.com/users/github/following{/other_user}",
+          "gists_url": "https://api.github.com/users/github/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/github/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/github/subscriptions",
+          "organizations_url": "https://api.github.com/users/github/orgs",
+          "repos_url": "https://api.github.com/users/github/repos",
+          "events_url": "https://api.github.com/users/github/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/github/received_events",
+          "type": "Organization",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "name": "GitHub Actions",
+        "description": "Automate your workflow from idea to production",
+        "external_url": "https://help.github.com/en/actions",
+        "html_url": "https://github.com/apps/github-actions",
+        "created_at": "2018-07-30T09:30:17Z",
+        "updated_at": "2025-03-07T16:35:00Z",
+        "permissions": {
+          "actions": "write",
+          "administration": "read",
+          "attestations": "write",
+          "checks": "write",
+          "contents": "write",
+          "deployments": "write",
+          "discussions": "write",
+          "issues": "write",
+          "merge_queues": "write",
+          "metadata": "read",
+          "models": "read",
+          "packages": "write",
+          "pages": "write",
+          "pull_requests": "write",
+          "repository_hooks": "write",
+          "repository_projects": "write",
+          "security_events": "write",
+          "statuses": "write",
+          "vulnerability_alerts": "read"
+        },
+        "events": [
+          "branch_protection_rule",
+          "check_run",
+          "check_suite",
+          "create",
+          "delete",
+          "deployment",
+          "deployment_status",
+          "discussion",
+          "discussion_comment",
+          "fork",
+          "gollum",
+          "issues",
+          "issue_comment",
+          "label",
+          "merge_group",
+          "milestone",
+          "page_build",
+          "project",
+          "project_card",
+          "project_column",
+          "public",
+          "pull_request",
+          "pull_request_review",
+          "pull_request_review_comment",
+          "push",
+          "registry_package",
+          "release",
+          "repository",
+          "repository_dispatch",
+          "status",
+          "watch",
+          "workflow_dispatch",
+          "workflow_run"
+        ]
+      }
+    }
+  ],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "d7661ce9eeadc895c4f947e2ab752e14c8f9fe1c",
+      "filename": "31_ステップ３子育て.md",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 0,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/c0b10bcf5f08f0fbe9a99e54c0cb449a9f0480c6/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/c0b10bcf5f08f0fbe9a99e54c0cb449a9f0480c6/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/31_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%93%E5%AD%90%E8%82%B2%E3%81%A6.md?ref=c0b10bcf5f08f0fbe9a99e54c0cb449a9f0480c6",
+      "patch": "@@ -226,6 +226,13 @@\n   * 結婚に伴う新生活の費用を補助する「結婚新生活支援事業補助金」は、所得制限の緩和または撤廃、助成金額の引き上げを検討します。  \n   * 祖父母や親から子や孫へ結婚・子育て資金を一括贈与する場合の贈与税非課税措置は、制度の恒久化と非課税枠の拡大を検討します。  \n   * いずれの制度も電子申請などの活用で申請者の利便性を高め、同時に行政の事務負担も軽減していきます。  \n+* 世帯単位課税と個人単位課税の有利な方を自動適用\n+  * 現状の個人単位の課税制度では、世帯の合計所得が同額であっても、夫婦それぞれの収入によって所得税・住民税の合計額が異なるケースがあり、不公平感を生んでいます。\n+  * こうした構造的な課題を解決し、働き方を柔軟に選択できるよう、世帯の所得を合算して課税する「世帯単位課税」と従来の「個人単位課税」を常に比較し、納税者にとってより有利な（税負担が低い）方が自動的に適用される仕組みを導入します。\n+  * この制度は特定の働き方を推奨するものではなく、納税者が複雑な計算や申請をすることなく、誰もが自動的に最適な税制の恩恵を受けられるようにするものです。これにより、いわゆる「年収の壁」を意識した就労調整の必要性をなくし、誰もが能力を最大限に発揮できる社会を目指します。\n * 多様なパートナーシップの尊重と法的整備  \n   * 事実婚を選択するカップルに対し、税制、社会保障、相続、共同親権等で法律婚と同等の保護が受けられるよう法制度の整備を検討します。  \n   * 結婚による苗字変更によっておこる不利益を解消する方策について、選択的夫婦別姓導入を有力な考え方としつつ、国民の声を集めて多角的に検討します。  \n+\n+\n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "dfc62c9e940b427e11610a7f96a5d3ec161019eb",
+      "node_id": "C_kwDOOqTJvNoAKGRmYzYyYzllOTQwYjQyN2UxMTYxMGE3Zjk2YTVkM2VjMTYxMDE5ZWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T08:51:30Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T08:51:30Z"
+        },
+        "message": "feat(policy): himkyさんの提案に基づき、世帯単位課税の選択制に関する項目を追加",
+        "tree": {
+          "sha": "98f3f972e99397301c285ff7d0276800c4d63ab5",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/98f3f972e99397301c285ff7d0276800c4d63ab5"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/dfc62c9e940b427e11610a7f96a5d3ec161019eb",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeLmSCRC1aQ7uu5UhlAAA3WoQAIP3LtA4BYrSfpyIy6BCNbfD\nMsY1xXPNQ4yIyuvsOwFAUUZx0LDWL5/FNsw2zixZ8UeByHxEWUIs7h4HjaSN8sX+\nBAWy8s5//fcc99METFp2Ov8R/7BsnPIKsiD4zkBeRYZWNi5jV6DVwy/bLkEf5Gw/\nSkpC4HlcGxZ8rA5+ZHw/qTnW/RI6qGuNJk2VIudlXYp1PlOMiD9aO/PIzuD7GNne\nFLvE/8TDOauvU/+7FKH46EnPJdKq8DB6xIxW5rDsT62ZKogAPJon3i7KH9zj+aTQ\n/TPe7bbMtS1rcamsbA/qAMVSD3JEccTbSlpWmse8iZPZV4wOGVlFMUE5ToaNwZ6Y\nuM6bpkxbuzmR8mPnxXLnGTJHmIEKwzk7S/lKa3bpSGQD1rzfIkOGYFBtIDckvWpj\n1Z4GdChgQiyS76SpVgIfligwwnNTQYxrpPxkW85SN/8CWId5WgTtcwtDcXPToYnz\ndZhGXl0ax0lc6y4xsrvaF4riGKpydXnw0w7xj1iy3Apm/vfB1Oxd/DbOOPzvfnG5\nyYETxhWP73B+RoeniZPg3GPQXV0nb6w5qMs7FVHQ4SSHbe5hwL9VyYzutuixC1BS\n87winUYWrxWQdo7727+VLdMnSoFafmiV25aFrlwTBgnntnpPiBJh+rFCDqrfdUHH\nNSq+/BQCUXIznfqBUuwx\n=nX8J\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 98f3f972e99397301c285ff7d0276800c4d63ab5\nparent 43c15621a9c81746a9944741c2b9200b399c56bf\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752742290 +0000\ncommitter GitHub <noreply@github.com> 1752742290 +0000\n\nfeat(policy): himkyさんの提案に基づき、世帯単位課税の選択制に関する項目を追加",
+          "verified_at": "2025-07-17T08:51:31Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/dfc62c9e940b427e11610a7f96a5d3ec161019eb",
+      "html_url": "https://github.com/team-mirai/policy/commit/dfc62c9e940b427e11610a7f96a5d3ec161019eb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/dfc62c9e940b427e11610a7f96a5d3ec161019eb/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "43c15621a9c81746a9944741c2b9200b399c56bf",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/43c15621a9c81746a9944741c2b9200b399c56bf",
+          "html_url": "https://github.com/team-mirai/policy/commit/43c15621a9c81746a9944741c2b9200b399c56bf"
+        }
+      ]
+    },
+    {
+      "sha": "9cdd76cc436125f792190615b343d04df7c8dcb6",
+      "node_id": "C_kwDOOqTJvNoAKDljZGQ3NmNjNDM2MTI1Zjc5MjE5MDYxNWIzNDNkMDRkZjdjOGRjYjY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T08:56:26Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T08:56:26Z"
+        },
+        "message": "himkyさんによる提案：世帯単位課税の選択制を導入",
+        "tree": {
+          "sha": "801cc5ec12b699ccbc9e237362c76b80f5675c43",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/801cc5ec12b699ccbc9e237362c76b80f5675c43"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9cdd76cc436125f792190615b343d04df7c8dcb6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeLq6CRC1aQ7uu5UhlAAA0xgQAGQVITs6XS/zov2oYrB7ls4n\nTTfAaDz/6mwm+w/cwaWdPWMlaA18PX+x6gA9WKLukJ/xwDqRQOdxc7CZkt2ZogmW\nGI7S5Tp0Ct+oHOPF0YSmj8CQgpefX1HAY3JULrhl/bDbsP9Be9rrw6Crh78oGq7W\nhMrtLAQHHaQCOKBMmfOym2rC62HO/OG8j250wkLmiW3hXMcw3U38fVA5DPTpLB26\nuTqGSn11UZ9f0ff7RlsJz8apSF6quaRHtdXgjfG/MCdW3+VcjTBJElmNcUUdypFW\nlRkgpuejU2dg0fAQ0HRUm+jJnY+EmLgYqn86cfnoOeNaHixD3kBEvWyZmAkZIRgL\nh+zGDlWDxAqsPNI+2S03OJ77Zml4em8VPGCM30rrA5GnpISCSUTzQxV2xOZMVguS\nDeyJsXXC6/llvkJj68Rn8d2kF8veP1ClM8O1ggEBA44su1DzCGle0VJ3OYoTdhx3\nmHqKvJK5dR0zF37nPkLMrHPdHP6Qf8GPGG2HoZMO1NzzIqILNisE0mHvoLZj0+G6\n+HK2xqVkoVhIm4gACsdXUfoLG9XX+shISVlUpro6Wpw96czpsi/TEnCmOJsMFk9l\nMbjGy1XJaWW58YflMz2YSWLSg7LZBLdmKuyWqfAK7HZQwPmMHyYCpamTETz1VNSD\nYjYx+TeED3H5k5s5JPGm\n=5xtf\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 801cc5ec12b699ccbc9e237362c76b80f5675c43\nparent dfc62c9e940b427e11610a7f96a5d3ec161019eb\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752742586 +0000\ncommitter GitHub <noreply@github.com> 1752742586 +0000\n\nhimkyさんによる提案：世帯単位課税の選択制を導入",
+          "verified_at": "2025-07-17T08:56:26Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9cdd76cc436125f792190615b343d04df7c8dcb6",
+      "html_url": "https://github.com/team-mirai/policy/commit/9cdd76cc436125f792190615b343d04df7c8dcb6",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9cdd76cc436125f792190615b343d04df7c8dcb6/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "dfc62c9e940b427e11610a7f96a5d3ec161019eb",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/dfc62c9e940b427e11610a7f96a5d3ec161019eb",
+          "html_url": "https://github.com/team-mirai/policy/commit/dfc62c9e940b427e11610a7f96a5d3ec161019eb"
+        }
+      ]
+    },
+    {
+      "sha": "bfafec2a6b3e17a1a740c96beda6fff17a8523a1",
+      "node_id": "C_kwDOOqTJvNoAKGJmYWZlYzJhNmIzZTE3YTFhNzQwYzk2YmVkYTZmZmYxN2E4NTIzYTE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T09:08:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T09:08:16Z"
+        },
+        "message": "himkyさんのご指摘に基づき、「世帯単位課税の選択制」に関する記述から不要な一文を削除",
+        "tree": {
+          "sha": "56f7ce149c84ceda0a1229091c1958c99fd2dc96",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/56f7ce149c84ceda0a1229091c1958c99fd2dc96"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/bfafec2a6b3e17a1a740c96beda6fff17a8523a1",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeL2ACRC1aQ7uu5UhlAAAUE0QAECMvur24LhJ+KvgIhih0ZUH\nTObA7aCk6qH4hp/v5XXJM24730T0Feze1sy/0818+nNuXTxDV9xe1ctRjvp97+Vk\nUxyeT82tPPvcJqZIi9Nz9ZVP+ptjr+Ge8ACk1BWS6kFIVzOdGc5a1VvYRVzG2LHg\nEB5i/tqsUvt6pu5fsCLZ2CJ4VH6RlOmQhi5TfNdj5ljSZ/gWkQHPRnfaUm8k279+\ncqKGAgGzamJyIlBcecmFZu0hdxKr9hdUZQxRRbNtaianq0BCjUHWLI/NGtPBf5ZM\n7G1pfmgn3JmDMXqPe+gRM5A+IDkU2H61wFdpI3gQ2llgcxt+HIjucNI3b8a8fmSQ\nMMxk8Wy6/xYPuEILvQ5J1n25eMVq6Rm7YCEpkjjBkYK+I/jRgtD+JTg+ZQeqtwnh\nACM1hH6YinS91kjIxWcJKpvibKCYuEgyOEcngVEHPtCw1PY1IXJ0y+Jh3ESZfChn\nD9JQeZVLZVQQAR5l5ljvW8uHwoUdGaMIpKUIJR7K6UaFlIzKWqMTuF72KwcsTJSJ\nA5VrRQAtfK1o2CUVhY/sS/FYQbCx11kJcWxg5pZ0PYDnAgPp3qH86cqkWQ73IXhF\nsiwWKntxvVvTPQ5BgIwNhoJoz9HWAjXeY8DiNNdSHm9EP7NZejn4b+y4NJ/fSdLM\nbpOHfBHtbXudC5Ky9xDA\n=dOq9\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 56f7ce149c84ceda0a1229091c1958c99fd2dc96\nparent 9cdd76cc436125f792190615b343d04df7c8dcb6\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752743296 +0000\ncommitter GitHub <noreply@github.com> 1752743296 +0000\n\nhimkyさんのご指摘に基づき、「世帯単位課税の選択制」に関する記述から不要な一文を削除",
+          "verified_at": "2025-07-17T09:08:16Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/bfafec2a6b3e17a1a740c96beda6fff17a8523a1",
+      "html_url": "https://github.com/team-mirai/policy/commit/bfafec2a6b3e17a1a740c96beda6fff17a8523a1",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/bfafec2a6b3e17a1a740c96beda6fff17a8523a1/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9cdd76cc436125f792190615b343d04df7c8dcb6",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/9cdd76cc436125f792190615b343d04df7c8dcb6",
+          "html_url": "https://github.com/team-mirai/policy/commit/9cdd76cc436125f792190615b343d04df7c8dcb6"
+        }
+      ]
+    },
+    {
+      "sha": "5ab8317e9a393632c9bf5f4a274f3a2dedb21002",
+      "node_id": "C_kwDOOqTJvNoAKDVhYjgzMTdlOWEzOTM2MzJjOWJmNWY0YTI3NGYzYTJkZWRiMjEwMDI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T09:16:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T09:16:23Z"
+        },
+        "message": "himkyさんによるマニフェスト変更案(「世帯単位課税の選択制を導入」に関する記載の不備を修正)",
+        "tree": {
+          "sha": "a6e93d0292aa86f9ee149ac9b551a77c064e10b0",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a6e93d0292aa86f9ee149ac9b551a77c064e10b0"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/5ab8317e9a393632c9bf5f4a274f3a2dedb21002",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeL9nCRC1aQ7uu5UhlAAAO3YQAGkuq07JHFgTjBL/XUFIbRzu\nH1DZPzgAd3ihRDWqLJGlxgDgohFzj/EdAc4WP5/DNPYGhsslVq5fmCl3Zk9Lty7K\nKHCIZTd7waUZqCPSSL1tVxpq9XsBn7FZvLVW1eTwzNFaFBqJ2XwnVpmaDB2gND/A\n+3TVeWR6yrP+AEeZ188O0ioKB3kMy05EGHHCeZEaGV5EqzyQcp8BLcwB8bDZWrNy\nplEIOT9kNI9vGON6THObXwlZJ7qONvWfDlozBkx6TfVm3D6BOQLKGij8brcTeHu7\nP3uxSCMqO9B+U+QWGEy2T1Xry7S0ZItVLGGqIFu9YX3X1ggdLbxIhhMiWoGvIji/\nTdk8d9Kdjv+b73CoodcBOFnDjhk1RQwO3EyYTYTGRxf6KKvIErKeAom4DG1X9ELV\n8Dcxyg3O8rF/4KJZnd2dpj5wR4RcSnsIZ8UhdDqIbejoDUA1P59ksIOpF0Co8j5B\nk5Sdrr2Ehogo6ZjJAE8KUqs8Vy/uRKnjj2sUCBYLINPj7g8BTe+cM0eD1lTfiEBH\nHyyDviII4VMPoMIk3wjbmc+rhaYgHZ8pJpdK1cBHhpHmp6/mKArrOVmC9gRQhsLD\no/PR5lfMi4O8YinR43EkWi/JM+A4FzG12bNK23RzewCMuvAzuDylTvC1qi7ppjcE\nZjr35RHCeoTiE6iEY5BU\n=dJ43\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a6e93d0292aa86f9ee149ac9b551a77c064e10b0\nparent bfafec2a6b3e17a1a740c96beda6fff17a8523a1\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752743783 +0000\ncommitter GitHub <noreply@github.com> 1752743783 +0000\n\nhimkyさんによるマニフェスト変更案(「世帯単位課税の選択制を導入」に関する記載の不備を修正)",
+          "verified_at": "2025-07-17T09:16:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/5ab8317e9a393632c9bf5f4a274f3a2dedb21002",
+      "html_url": "https://github.com/team-mirai/policy/commit/5ab8317e9a393632c9bf5f4a274f3a2dedb21002",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/5ab8317e9a393632c9bf5f4a274f3a2dedb21002/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "bfafec2a6b3e17a1a740c96beda6fff17a8523a1",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/bfafec2a6b3e17a1a740c96beda6fff17a8523a1",
+          "html_url": "https://github.com/team-mirai/policy/commit/bfafec2a6b3e17a1a740c96beda6fff17a8523a1"
+        }
+      ]
+    },
+    {
+      "sha": "e202accbac0e2aa9b01a1a9698602ff59667113c",
+      "node_id": "C_kwDOOqTJvNoAKGUyMDJhY2NiYWMwZTJhYTliMDFhMWE5Njk4NjAyZmY1OTY2NzExM2M",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T09:24:07Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T09:24:07Z"
+        },
+        "message": "himkyさんの提案に基づき、世帯単位課税の選択制をマニフェストに追加（修正版）",
+        "tree": {
+          "sha": "d227a0c9970c5ea1f1ebb9ab3189de77ee17298c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/d227a0c9970c5ea1f1ebb9ab3189de77ee17298c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e202accbac0e2aa9b01a1a9698602ff59667113c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeME3CRC1aQ7uu5UhlAAAoUIQAD9oecetiRhhldhQcpRo7RBe\nZoeUw5XFYv3gq3H52aDrRDDp34aKILAWFTJIF5K+ntI00tjGAyyGQTs6tiHmH7Ep\n/wiEYewEXbgPYvG58DTOEjXMmI871ytGX32btgoHYIW12qS7RgVyzG/GRYXOnqlY\nCwG8PH7q8z9ugFvziIgXGbVKzLX7czDXdqxH/82tx7iDVN2/P6aN2TZeh7haQgdN\njHQjhL1FwTx+C9dja9ZRS0y6KTvyfP3GsfAy2Q7YGC+LojRGzljeG1TjcXbxB8Tx\ngBac+FJrWXBxDz3jk3vOt0ST2W8WlseaWJqogPwG6LHjvsM/HbhnfaHI5zwImWDq\nFYg2USS/Y/Ds/RldCW+ulBBw0ApqY2iUWTon3102tW2mDkb78CY3rco29dusYwZ8\nZ2owuRSuoE5OoYKHyQFY0/c89i9S5hAE3JoyuxWxtRfODxALqmEYOaCS4WM7Dopp\n96zkqQMqgayUVy8VyVvY+8ehwew2v5n2Yz9bOHGS4ur+QhmcoLXPwZHquh3CQHQl\nRsgRc7JlmjQa2iGrMNNIz1ESZ3ccteEQ7Y/HdTKslFedE6Kq0nUt2mFwlVUvVI5r\nlKT1vWG3cKFqQw9I8OaGhht+/tHz+5ARwNYX9OjuFy7T9DTTMw0zvLl69LZaqB//\nW0AKe47lOSzRjAzNoJgY\n=P87A\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree d227a0c9970c5ea1f1ebb9ab3189de77ee17298c\nparent 5ab8317e9a393632c9bf5f4a274f3a2dedb21002\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752744247 +0000\ncommitter GitHub <noreply@github.com> 1752744247 +0000\n\nhimkyさんの提案に基づき、世帯単位課税の選択制をマニフェストに追加（修正版）",
+          "verified_at": "2025-07-17T09:24:08Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e202accbac0e2aa9b01a1a9698602ff59667113c",
+      "html_url": "https://github.com/team-mirai/policy/commit/e202accbac0e2aa9b01a1a9698602ff59667113c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e202accbac0e2aa9b01a1a9698602ff59667113c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5ab8317e9a393632c9bf5f4a274f3a2dedb21002",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5ab8317e9a393632c9bf5f4a274f3a2dedb21002",
+          "html_url": "https://github.com/team-mirai/policy/commit/5ab8317e9a393632c9bf5f4a274f3a2dedb21002"
+        }
+      ]
+    },
+    {
+      "sha": "54a24681927d491b8b202e2c6a0a4ce40b3eaebd",
+      "node_id": "C_kwDOOqTJvNoAKDU0YTI0NjgxOTI3ZDQ5MWI4YjIwMmUyYzZhMGE0Y2U0MGIzZWFlYmQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T09:27:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T09:27:13Z"
+        },
+        "message": "himkyさんのご提案（世帯単位課税）の反映（度重なる不手際のお詫び）",
+        "tree": {
+          "sha": "3a33171831db4faa3619744400b68bad5fa8804b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3a33171831db4faa3619744400b68bad5fa8804b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/54a24681927d491b8b202e2c6a0a4ce40b3eaebd",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeMHxCRC1aQ7uu5UhlAAAGMoQAHzFHMfM9wQELS0WyFF3Iscu\nlQpa2Mj9fQQ05AVtq74iorQVZInjdTC5Nq7Wzirg6TeDZNGEM3edq52mdddAtY6k\nkI3azt33nKWv0lqg59hjq0RtC5yGiUKN8BJydq2vQ2Obvw7D3D6W38Kj+cu+j/eX\nm0xIZcporGCGAebfM+rGQ+pP8zpe10dJExTQP+dGeh9wksuEjp1CNHtd3lgKww2x\nw+D8kPH8pmxEcRYSkTvW8teYDTjjm+9VAi+s/a5fjX6RBfjvBsCe8CGO4nOqDYDS\nm3Yb6voRlygz6gZwGTNZ8R2n5ZWxXB13pzklTH1xXfZBSmsUAs+cEe9DJQ2/izc2\n3QgIksV8fSEs/SURZ2e1iUtsI/nKV1YpdK8kcHGm+BN9jn6/BmvANGo0rUhT1pUW\nlcuDkROUnhPB9u+aJZOxtrJN3r3PJfuMgmhw5TkY6TQv+K1dKHcr8kkFqEtN0SCx\n1p+duU6jrG7D8afStrr099aSs2Q/1ZvVDs1w0rgadbmeWnq5H1gwN/sG0YVr0U3f\notkynuxLI/jQrvi9iwSjnuripK2mkKbI845a+zdef8l8/alC1t05S0Zpa9voxGzt\nvewGCEfnK1iIRWl8iy26DWTTPy4mKu/jg4i2edRsA0SYrIhNjchsbcEfAkMQepY3\nSCYztE4RW8RZMoovET2e\n=yRfq\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3a33171831db4faa3619744400b68bad5fa8804b\nparent e202accbac0e2aa9b01a1a9698602ff59667113c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752744433 +0000\ncommitter GitHub <noreply@github.com> 1752744433 +0000\n\nhimkyさんのご提案（世帯単位課税）の反映（度重なる不手際のお詫び）",
+          "verified_at": "2025-07-17T09:27:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/54a24681927d491b8b202e2c6a0a4ce40b3eaebd",
+      "html_url": "https://github.com/team-mirai/policy/commit/54a24681927d491b8b202e2c6a0a4ce40b3eaebd",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/54a24681927d491b8b202e2c6a0a4ce40b3eaebd/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e202accbac0e2aa9b01a1a9698602ff59667113c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e202accbac0e2aa9b01a1a9698602ff59667113c",
+          "html_url": "https://github.com/team-mirai/policy/commit/e202accbac0e2aa9b01a1a9698602ff59667113c"
+        }
+      ]
+    },
+    {
+      "sha": "e905d624475994710df1b3b710ce55a5d2c4e667",
+      "node_id": "C_kwDOOqTJvNoAKGU5MDVkNjI0NDc1OTk0NzEwZGYxYjNiNzEwY2U1NWE1ZDJjNGU2Njc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T10:00:04Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T10:00:04Z"
+        },
+        "message": "himkyさん提案：世帯単位課税（有利な方を自動適用）を反映",
+        "tree": {
+          "sha": "3cf1e82696c0409b183337dad93241bd62fa3cd3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3cf1e82696c0409b183337dad93241bd62fa3cd3"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e905d624475994710df1b3b710ce55a5d2c4e667",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeMmkCRC1aQ7uu5UhlAAAPDkQAHDnM0eMblCH6m78oWgnc5Sf\nYiV9Ky9qxxt5NmE2fXswXjMpXsUHJqEh7yClUkQ4UgiyRk5rrNpZ8xzMXQgAh8By\nd1zqOl9Kk3wUbNQcy2pdATvYaDAkTJcdH4Pab98ybmnpHWLGAN7KqHS3ie9G1Xfy\nPhgpGeqWu6uf0DqGwh6y/VdnFZACyK5NAB4bYkRYX0CcDZy+LNwESKOQrMwea+KB\nI80P3VzFHAk/LLV7Wal3BtWnte01E3aRdUekyUU10NVs3NT3Gkd3ewSjoAW0EILh\nPxcnz3tU7FnmrBUGP/X6WBi3UqLEHJyX6ArFdpCb38IelPnUecdem6/HbiijCIuk\nOuu40iZZcaJLzz1IdXari2O4OgF0j/mzyab6C548m5ESpaUK62SSxR248pU1PrTb\n2VUD6U92ugdwYmWWK+6iaBjhlaIXSjv3+HDbrCKd0Kf+cUo1Y6+oI73jbVFgpY80\nW5bSerQ7ZALxDCMVuyl1kqwe518VcAFNYD27Zk7tIDpDKibPE73+rr9Uq2/GRIMF\nqVdzEd2ZQ1RvffQnsgMCF6qQ0eJlEKAdMpjxxySvESh9qk1WC7cAslhYfUYHO0Iw\nh9gJyPOd/NSaY2RDvZNVOth6rG4stokYeWGzLMpmdMFTKqvIi7SFgbOzcCTQ2Wx7\nQFmoITteKT4k7DvSIAQO\n=XbTo\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3cf1e82696c0409b183337dad93241bd62fa3cd3\nparent 54a24681927d491b8b202e2c6a0a4ce40b3eaebd\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752746404 +0000\ncommitter GitHub <noreply@github.com> 1752746404 +0000\n\nhimkyさん提案：世帯単位課税（有利な方を自動適用）を反映",
+          "verified_at": "2025-07-17T10:00:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e905d624475994710df1b3b710ce55a5d2c4e667",
+      "html_url": "https://github.com/team-mirai/policy/commit/e905d624475994710df1b3b710ce55a5d2c4e667",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e905d624475994710df1b3b710ce55a5d2c4e667/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "54a24681927d491b8b202e2c6a0a4ce40b3eaebd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/54a24681927d491b8b202e2c6a0a4ce40b3eaebd",
+          "html_url": "https://github.com/team-mirai/policy/commit/54a24681927d491b8b202e2c6a0a4ce40b3eaebd"
+        }
+      ]
+    },
+    {
+      "sha": "c0b10bcf5f08f0fbe9a99e54c0cb449a9f0480c6",
+      "node_id": "C_kwDOOqTJvNoAKGMwYjEwYmNmNWYwOGYwZmJlOWE5OWU1NGMwY2I0NDlhOWYwNDgwYzY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T10:04:42Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T10:04:42Z"
+        },
+        "message": "himkyさんからの提案を反映：「世帯単位課税と個人単位課税の有利な方を自動適用」を追加",
+        "tree": {
+          "sha": "0f64156cf27166a3f662e751f36a54f9ca114002",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0f64156cf27166a3f662e751f36a54f9ca114002"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/c0b10bcf5f08f0fbe9a99e54c0cb449a9f0480c6",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeMq6CRC1aQ7uu5UhlAAAVk0QAKjGxPnvi0a2wWccw6pyfZN9\nLGEYWSbUxEnlkYK33g78BlhbPWgk2sqx/9tguyJwXQvV0xvWPGWC5mIX8uli0mWQ\nSeHo3r6QvA/Gj9md29sJ+zb9g9wS2ysUXs4+/RrkwXUQbhZYPj821uOWCOtIeIVK\nE+BX5KNcr0tk6k+FVLdU7ovqw5P0KXJTUR9B9b2kJyZGAaxB7O55pdvkLKnArzci\nK7qNpQ8potXv3cF5JO6vQaIrdIsYU8KDgVDjGUQLYbknp9fWpA492jxwiIwmaREo\nir7PpWcXhMzvhhtjpocj015D9CdD6vhznvZ4kjzJ8fgaeNCn1WJJZ+DKHWZJC6By\nBYHH+yNrJBEDvo0weWyM50lYShhYFfoSGXm4ECotxj0nGGnwVVpDzE4j0ySUArFW\nSzHfngDf9LGu/Lkzp7KwSs3eag5IKtKQmP0F96j+HWrTxZ0kWTvysEUTWkNRqSSO\nVkSpUckOgfDyZXlLEBIFcX6xUl8pV9IOH799ySAGlGDBoW2iwqFZb0ojYK5mHxy4\n0J8HWMoKZ5bucVXKqCEmNWRMwEE4ggeoCtjb2K6zdgu5qE5HrW3/OhV6S7F1JTkh\n4Rdfwvpq0f+g8Obr/LIkDDE4/qmZr/89jdAsG/PdkwdubD++mSrJebcdUeiQg+nA\nwndN9zy4ina0JQ300/JF\n=x4uN\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0f64156cf27166a3f662e751f36a54f9ca114002\nparent e905d624475994710df1b3b710ce55a5d2c4e667\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752746682 +0000\ncommitter GitHub <noreply@github.com> 1752746682 +0000\n\nhimkyさんからの提案を反映：「世帯単位課税と個人単位課税の有利な方を自動適用」を追加",
+          "verified_at": "2025-07-17T10:04:42Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/c0b10bcf5f08f0fbe9a99e54c0cb449a9f0480c6",
+      "html_url": "https://github.com/team-mirai/policy/commit/c0b10bcf5f08f0fbe9a99e54c0cb449a9f0480c6",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/c0b10bcf5f08f0fbe9a99e54c0cb449a9f0480c6/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e905d624475994710df1b3b710ce55a5d2c4e667",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e905d624475994710df1b3b710ce55a5d2c4e667",
+          "html_url": "https://github.com/team-mirai/policy/commit/e905d624475994710df1b3b710ce55a5d2c4e667"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-17T10:15:26.176057"
+}

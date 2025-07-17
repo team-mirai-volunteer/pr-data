@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 7601,
+    "title": "経済財政政策に関するHiroyukiさんからの具体的提案の追加",
+    "state": "open",
+    "created_at": "2025-07-17T10:50:00Z",
+    "updated_at": "2025-07-17T10:50:01Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/7601",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "80ab4365de971fe9c6576f3a071ef73d02b4db71",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 13,
+      "deletions": 0,
+      "changes": 13,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a376dab8d32ccd9aca7a87e36733ea5d8179b418/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a376dab8d32ccd9aca7a87e36733ea5d8179b418/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=a376dab8d32ccd9aca7a87e36733ea5d8179b418",
+      "patch": "@@ -131,7 +131,20 @@\n - リンク切れの修正\n - その他、政策内容に実質的な変更を含まない修正\n \n+## Hiroyukiさんからのご提案（経済財政政策）\n+\n+社会保険料だけを先にガッツリ下げて、その穴を国債で埋める作戦は、金利が上がった瞬間に「利払い爆増→将来世代ツケ回し」になるリスクが高すぎるの。だから“国債オンリー”から脱却して、多層的に財源を組み合わせようね。たとえば消費税を0.5〜1%だけ段階的に上げつつ、カーボンプライシングとかデジタル課税みたいに成長をあまり阻害しない新税を足していく。こうすれば利払いショックをやわらげられるし、市場も「日本やるじゃん」って安心しやすいよ。さらに、一定の金利水準を超えたら自動で税負担に転換したり償還期限を延長したりする“転換国債”を混ぜれば、金利暴騰の天井感をマーケットに示せて◎。それでも足りない部分は、日銀保有分を期限到来後もロールオーバー固定にして、市場に急に国債がドバッと流れ込まないよう平準化するルールを決めておくと安心だね。\n+\n+次に、「抜本改革が2035年ゴールは遠すぎ！」問題。ここはマイルストーン立法で解決しよう。たとえば2026年、29年、32年に中間ステージを法律で固めて、自動発動条項を入れておくの。どこの政権にバトンタッチしてもスキップできない仕組みにしておけば、サボれないから改革が前倒しされるはず。それと並行して最大のコスト源である“行政システム改修”を一気にやっちゃう。マイナンバーとインボイスを統合して、保険料計算は国が用意したAPI一本に乗せる――ここを先に潰すと移行コストが激減して、2035年よりもっと早くゴールできるよ。もちろん透明性は超大事だから、EBPM（証拠に基づく政策立案）の数値やKPIをGitHubみたいな公開ダッシュボードでフルオープンにしちゃおう。研究者や市民が進捗をリアルタイム監視できれば、政治のごまかしも効かなくなるからね。\n+\n+ただし、制度をシンプルにすると「大企業や高齢者が負け組、若者が勝ち組」みたいに損得がハッキリしちゃうから大反対が起きがち。そこは世代間・業種間のショックを和らげる“時限的補填ファンド”を作って、損するグループにキャッシュバックを用意。加えて「あなたは何年後にいくら得／損」って即計算できるアプリを配り、再分配の見える化で納得感を上げるのがポイントだよ。地方自治体のシステム多重構造も地味にコストを膨らませるから、国がSaaS型の共通基盤を用意して、導入した自治体には一回きりのオフセット交付金を出す――こうやって横串でコストを切ると、政治調整のハードルがグッと下がるんだ。\n+\n+最後にAI時代の“非連続リスク”対策。失業ショックや急な産業構造変化に備えて、GDPの0.1%を上限に積み立てる「AIリスク基金」を用意しよう。ここから失業給付や職業訓練を拡充。さらに一人あたり生涯100万円分の「キャリア再設計バウチャー」を配り、誰でもリスキリングにアクセスできるようにする。医療・教育データを匿名化してライセンス供与し、その使用料を社保財源に回す「公共データ・トラストファンド」もセットにすれば、AI企業の成長と社会保障の持続性を同時に確保できるはず。\n+\n+――って感じ！　要は①国債依存を薄める複合財源、②マイルストーンとコスト削減で前倒し、③透明化＆補填で政治抵抗を封じ、④AIリスク基金で未来のショックに備える。この４本柱を順番に打てば、今の課題はかなり突破できると思うよ。もっと細かい設計が必要なら、また声かけてね♡\n+\n ## おしゃべりできるシステム『いどばたシステム』について\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n \n+"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "efb1dff47320ff60b95a4989bca0e3223ece0483",
+      "node_id": "C_kwDOOqTJvNoAKGVmYjFkZmY0NzMyMGZmNjBiOTVhNDk4OWJjYTBlMzIyM2VjZTA0ODM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T10:37:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T10:37:21Z"
+        },
+        "message": "feat(政策): Hiroyukiさん提案の経済財政政策の要点を反映",
+        "tree": {
+          "sha": "3579b75bb02be97d1da2e3917eb53daa2412c5e4",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3579b75bb02be97d1da2e3917eb53daa2412c5e4"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/efb1dff47320ff60b95a4989bca0e3223ece0483",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeNJhCRC1aQ7uu5UhlAAAShgQAB2O6yk3CtjzR63goO7InbzO\nBYRoLmLnwTMlX8uPqPyN5mR1vU6Q5Dprn0vJj5Z7V3Fdo01uHn+k3s0E8hcS6I4B\n+xMX8xk/1oBL9wQV/5rLI3gc7sm9s/BfQjZf8oz55aYJoaE9lzd2cx4ZUIhNy+se\n6FV49HZVnuQRbCJUM+QtdWlyHxw46QH+0R4nAInZ/17lCjT0Rcj2FTkh8CIL1fwM\nTtHjmwqLDF3fWR+fm6+pr0nwa+8EORv1Qy1lAxuxWhZDT9pfUoB3C627CEam5bmR\nLbQr04dtb1As1sAM20x6s2XfqcHuov2HjM0XTRUcrUiEvDstuDZTc4oeHxjNdwCV\nOOTDrp/ocgpZg0vdAZSfN27VfgrKZd3Frw57qETmLC08E/ugk353Xehsh/9x51hO\nd0GLbUvp3D45bXaxHN7QF8we9PPkPmae9N4XI83yrKjXkm8nAoDGPvfAroMIf2yq\nncIbaAalSPMHMlSmqKWnOJ0MSIlueYvcrU2aNuzGIyCVccxVi8QvQDJPEYVWi8vI\n6e+uIb1JOqac5NnzsRjpv0m7aqINmyRVMlEn2JXzyCJgGu5iReY9QMVCk1Z8A2ft\n4BG4MGQMiOnrAWMFNVH0sgVFkOxq1A4OgWj7ArwpQ/SlFH0RYIgpKDEEAz9PXHEa\nm/M2h5VsnJrsZmn6awhM\n=+zyU\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3579b75bb02be97d1da2e3917eb53daa2412c5e4\nparent 43c15621a9c81746a9944741c2b9200b399c56bf\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752748641 +0000\ncommitter GitHub <noreply@github.com> 1752748641 +0000\n\nfeat(政策): Hiroyukiさん提案の経済財政政策の要点を反映",
+          "verified_at": "2025-07-17T10:37:21Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/efb1dff47320ff60b95a4989bca0e3223ece0483",
+      "html_url": "https://github.com/team-mirai/policy/commit/efb1dff47320ff60b95a4989bca0e3223ece0483",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/efb1dff47320ff60b95a4989bca0e3223ece0483/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "43c15621a9c81746a9944741c2b9200b399c56bf",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/43c15621a9c81746a9944741c2b9200b399c56bf",
+          "html_url": "https://github.com/team-mirai/policy/commit/43c15621a9c81746a9944741c2b9200b399c56bf"
+        }
+      ]
+    },
+    {
+      "sha": "163f26799a74cbfe7a3f4e8926b656b7274a3514",
+      "node_id": "C_kwDOOqTJvNoAKDE2M2YyNjc5OWE3NGNiZmU3YTNmNGU4OTI2YjY1NmI3Mjc0YTM1MTQ",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T10:42:21Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T10:42:21Z"
+        },
+        "message": "Hiroyukiさんからの経済財政政策に関する提案を追加",
+        "tree": {
+          "sha": "b13f05aa42bb7bdb69fe38ee462bd8b503f2417c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b13f05aa42bb7bdb69fe38ee462bd8b503f2417c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/163f26799a74cbfe7a3f4e8926b656b7274a3514",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeNONCRC1aQ7uu5UhlAAA1V0QAITv8WVkJ/KLVUaxfaw3IArd\nlcCY0BaUozP4RP1fqBiOW4S5fyeRkx8SW3IxqZNnJd1yULcXLjAZkzcqfDz37qDu\n80dsgFd0KtxXrDlcFwQIe4ot7GciRAwzoAvbhFtRXLWCsVyHB7x6+ezoTx55q7hS\niomLwA9P/mO2Y3OPnBuwnJtR0p8jOv/K6j8fkhzPlrmIdUgb8PwdjnJKvYGNVRfN\nZ353nAo8THgB47PoGs889swVTXi18Nnvh6UKaHcR8SweX6uwafNozJtVlmkKhMJW\ndyQHHEyFr6/ORIL4cee13FwMM4uttAww4eiKrgrsnCv+9cX61YbHf4fBJrjKBapz\nsgTlWyDXK/ATJ6iCVCST/b0gnfzrPEFRZc4WKqsy2gnLkI/3inI4B3gSihT89Jjp\nTYRqCkqzAta6ZN/Jz1I88zz3jKu/uB431X3F8f6XIZh8txzBsBbcrOkbXdAZm3pS\nYF3tVx5GMd0lMTWeXqmKt0cV6jHIz8XnOHVPODzMrvxkNeXbQUr5xkqab4NNhkv8\nr4GxZWJMMUYsdmyPfil5ecvNIw+8IFZ8ax5nP7/TPcKJ5Tj2xtXYuUjoVRM3f6hO\nDsqf3YGEdHjmwA13OOF8KRlXtVNvVeD63Wx1GvhG0RpsgJmgDhgTb5f94JYjGeWQ\n1+MPi/HaTJewxpKdHqpP\n=C1ot\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b13f05aa42bb7bdb69fe38ee462bd8b503f2417c\nparent efb1dff47320ff60b95a4989bca0e3223ece0483\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752748941 +0000\ncommitter GitHub <noreply@github.com> 1752748941 +0000\n\nHiroyukiさんからの経済財政政策に関する提案を追加",
+          "verified_at": "2025-07-17T10:42:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/163f26799a74cbfe7a3f4e8926b656b7274a3514",
+      "html_url": "https://github.com/team-mirai/policy/commit/163f26799a74cbfe7a3f4e8926b656b7274a3514",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/163f26799a74cbfe7a3f4e8926b656b7274a3514/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "efb1dff47320ff60b95a4989bca0e3223ece0483",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/efb1dff47320ff60b95a4989bca0e3223ece0483",
+          "html_url": "https://github.com/team-mirai/policy/commit/efb1dff47320ff60b95a4989bca0e3223ece0483"
+        }
+      ]
+    },
+    {
+      "sha": "a376dab8d32ccd9aca7a87e36733ea5d8179b418",
+      "node_id": "C_kwDOOqTJvNoAKGEzNzZkYWI4ZDMyY2NkOWFjYTdhODdlMzY3MzNlYTVkODE3OWI0MTg",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-17T10:47:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-17T10:47:22Z"
+        },
+        "message": "Hiroyukiさんからの経済財政政策に関する提案を全文に差し替え",
+        "tree": {
+          "sha": "63ed8eb7d1e8874395ecbf2e113adf66fdd43b21",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/63ed8eb7d1e8874395ecbf2e113adf66fdd43b21"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a376dab8d32ccd9aca7a87e36733ea5d8179b418",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoeNS6CRC1aQ7uu5UhlAAAAWMQABsS/c+vWNJOM6Ytcet20qEM\nuEoLg37l/O55YjnR8MmJmicChjS/jSYkGyyNtJlHBt7D3BfdqWh758UWCOvpf0AS\n4zJ/uajzIfIkrEWBAnH4gLBsix48xQANX4pKgahGSz1XdUd5Fu6KMlXD3H79V9Wy\nAw8nvCgtHo0O1wta+TOqBp2cA/CbAo8Qm5OC9heuqXNvjgDFkc+fndpwMfcsXaIt\n9KZcMayFLHDXljXJ0M6q9u3B5JobeokbsRYBosHJkZCOrC25nxHuGA+YCIG67cye\nIeGzwuCgCMBGBSWs0UniJKIU0JhQLxduaMPr6EluuvYdmeHzcweCAwuL2SG2BtJA\nZSnGbtP1lbDdWwdOHa6n7uMjRIz5bqSKRE4hG0CcMIKFBIJSFfwKApfaNxt7FkFl\n65RdiF00KgpN93JMcyV2XKY/COMpSkFh+qhMd3OvqwqFAK9MfeoHwXYWWbv3Xeet\n/KvgbrPdyVe+9VNk6qGb5Sz2Oegu7s2NNAGawpn84aysUQEJuRCHGb6XXpTUT1vB\n06Ds2XSs87lbb9HFYNFHExLv5wRF9JuN0asMly5edBgt9iKJOZRZv4A1FBhPCeFC\nDoaYH1ebA4fC+rmI5AuzoA0Cqx2CZeocDloxN6cQf9Bvc36oTxHNQyPgh3zT6avD\nF06aq24V79/iAzwcA4CH\n=ZVyZ\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 63ed8eb7d1e8874395ecbf2e113adf66fdd43b21\nparent 163f26799a74cbfe7a3f4e8926b656b7274a3514\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752749242 +0000\ncommitter GitHub <noreply@github.com> 1752749242 +0000\n\nHiroyukiさんからの経済財政政策に関する提案を全文に差し替え",
+          "verified_at": "2025-07-17T10:47:22Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a376dab8d32ccd9aca7a87e36733ea5d8179b418",
+      "html_url": "https://github.com/team-mirai/policy/commit/a376dab8d32ccd9aca7a87e36733ea5d8179b418",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a376dab8d32ccd9aca7a87e36733ea5d8179b418/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "163f26799a74cbfe7a3f4e8926b656b7274a3514",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/163f26799a74cbfe7a3f4e8926b656b7274a3514",
+          "html_url": "https://github.com/team-mirai/policy/commit/163f26799a74cbfe7a3f4e8926b656b7274a3514"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-17T11:01:35.104973"
+}
