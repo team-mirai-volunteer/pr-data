@@ -4,7 +4,7 @@
     "title": "[DO NOT MERGE]README PR clasification",
     "state": "open",
     "created_at": "2025-06-15T14:12:40Z",
-    "updated_at": "2025-07-16T14:00:30Z",
+    "updated_at": "2025-07-16T23:24:32Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/2452",
@@ -35,9 +35,9 @@
       "additions": 3,
       "deletions": 0,
       "changes": 3,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.env",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.env",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.env?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.env",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.env",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.env?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,3 @@\n+FRONTEND_PORT=5184\n+BACKEND_PORT=8091\n+DATABASE_PORT=5443"
     },
     {
@@ -47,9 +47,9 @@
       "additions": 6,
       "deletions": 0,
       "changes": 6,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.gitignore",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.gitignore",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.gitignore?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.gitignore",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.gitignore",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.gitignore?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,6 @@\n+# PR分析作業用の一時ファイル\n+.pr_analysis/pr_*_analysis.md\n+.pr_analysis/analysis_files_list.json\n+.pr_analysis/remaining_prs.yaml\n+.pr_analysis/pr_analysis_results.json\n+.pr_analysis/*.py \n\\ No newline at end of file"
     },
     {
@@ -59,9 +59,9 @@
       "additions": 42,
       "deletions": 0,
       "changes": 42,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2FREADME.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2FREADME.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2FREADME.md?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2FREADME.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2FREADME.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2FREADME.md?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,42 @@\n+# PR分析システム\n+\n+政策提案PRの分析・整理を行うツール群\n+\n+## ディレクトリ構造\n+\n+```\n+.pr_analysis/\n+├── policy_pr_analyzer/      # 政策分野別PR分析システム（新）\n+│   ├── README.md           # 詳細なドキュメント\n+│   ├── scripts/            # 分析スクリプト\n+│   │   ├── fetch_pr_data.py        # GitHub APIでPRデータ取得\n+│   │   └── prepare_for_analysis.py # LLM分析用プロンプト生成\n+│   └── output/             # 分析結果\n+│\n+└── readme_label_analysis/   # READMEラベル分類システム（旧）\n+    ├── analyze_readme_prs.py      # READMEラベルPR分析\n+    ├── update_pr_labels.py        # GitHubラベル更新\n+    └── archive/                   # 過去の分析結果\n+```\n+\n+## 使い分け\n+\n+### 1. 政策分野別の大量PR分析（新システム）\n+`policy_pr_analyzer/` を使用。教育・医療・福祉など特定の政策分野ラベルが付いたPRを分析し、類似提案をグループ化して政策チームの意思決定を支援。\n+\n+```bash\n+cd policy_pr_analyzer\n+python3 scripts/fetch_pr_data.py --label 教育 --limit 10\n+```\n+\n+### 2. READMEラベルの分類（旧システム）\n+`readme_label_analysis/` を使用。READMEラベルが付いたPRを13の政策分野に自動分類。\n+\n+```bash\n+cd readme_label_analysis\n+python3 analyze_readme_prs.py\n+```\n+\n+## 詳細\n+\n+各システムの詳細は、それぞれのディレクトリ内のREADME.mdを参照してください。\n\\ No newline at end of file"
     },
     {
@@ -71,9 +71,9 @@
       "additions": 0,
       "deletions": 0,
       "changes": 0,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2F__pycache__%2Fauto_classify_prs.cpython-312.pyc",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2F__pycache__%2Fauto_classify_prs.cpython-312.pyc",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2F__pycache__%2Fauto_classify_prs.cpython-312.pyc?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd"
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2F__pycache__%2Fauto_classify_prs.cpython-312.pyc",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2F__pycache__%2Fauto_classify_prs.cpython-312.pyc",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2F__pycache__%2Fauto_classify_prs.cpython-312.pyc?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed"
     },
     {
       "sha": "7b3a04d4a5d126b1d1146e1a166915c92131f6b2",
@@ -82,9 +82,9 @@
       "additions": 103,
       "deletions": 0,
       "changes": 103,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME.md?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME.md?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,103 @@\n+# Policy PR Analyzer\r\n+\r\n+政策提案PRを分析し、政策チームの意思決定を支援するシステム\r\n+\r\n+## 概要\r\n+\r\n+GitHub上の大量の政策提案PR（例：教育ラベル724件）を効率的に分析・整理し、政策チームがレビューしやすい形にまとめるツールです。\r\n+\r\n+## ワークフロー\r\n+\r\n+```\r\n+1. fetch_pr_data.py → PRデータ取得（JSON出力）\r\n+2. prepare_for_analysis.py → LLM分析用プロンプト生成\r\n+3. [手動] claude -p < prompts/input/xxx.txt > prompts/output/xxx.txt\r\n+4. parse_llm_results.py → LLM結果の解析・整理\r\n+5. generate_report.py → レポート・スプレッドシート生成\r\n+```\r\n+\r\n+## ディレクトリ構造\r\n+\r\n+```\r\n+policy_pr_analyzer/\r\n+├── README.md                    # このファイル\r\n+├── scripts/\r\n+│   ├── fetch_pr_data.py        # 1. GitHub APIでPRデータ取得\r\n+│   ├── prepare_for_analysis.py  # 2. LLM分析用プロンプト準備\r\n+│   ├── parse_llm_results.py    # 4. LLM結果のパース\r\n+│   ├── group_similar_prs.py    # 5. 類似PRのグループ化\r\n+│   ├── generate_report.py      # 6. レポート生成\r\n+│   └── execute_decisions.py    # 7. レビュー後の一括処理\r\n+├── prompts/\r\n+│   ├── input/                  # LLMへの入力プロンプト\r\n+│   └── output/                 # LLMからの出力結果\r\n+├── output/\r\n+│   ├── data/                   # 生データ・中間データ\r\n+│   ├── reports/                # 分析レポート\r\n+│   └── spreadsheets/           # スプレッドシート\r\n+└── cache/                      # API応答のキャッシュ\r\n+```\r\n+\r\n+## 使い方\r\n+\r\n+### 1. PRデータの取得\r\n+\r\n+```bash\r\n+python3 scripts/fetch_pr_data.py --label 教育 --output output/data/education_prs.json\r\n+```\r\n+\r\n+### 2. LLM分析の準備\r\n+\r\n+```bash\r\n+python3 scripts/prepare_for_analysis.py output/data/education_prs.json \\\r\n+  --output-dir prompts/input/\r\n+```\r\n+\r\n+### 3. LLM分析の実行（手動）\r\n+\r\n+```bash\r\n+# 個別に実行\r\n+claude -p < prompts/input/pr_1234_analysis.txt > prompts/output/pr_1234_analysis.txt\r\n+\r\n+# またはバッチ実行\r\n+for f in prompts/input/*.txt; do\r\n+  output=\"prompts/output/$(basename $f)\"\r\n+  echo \"Processing $f...\"\r\n+  claude -p < \"$f\" > \"$output\"\r\n+  sleep 2  # レート制限対策\r\n+done\r\n+```\r\n+\r\n+### 4. 結果の解析とレポート生成\r\n+\r\n+```bash\r\n+# LLM結果をパース\r\n+python3 scripts/parse_llm_results.py prompts/output/ \\\r\n+  --output output/data/analyzed_prs.json\r\n+\r\n+# 類似PRをグループ化\r\n+python3 scripts/group_similar_prs.py output/data/analyzed_prs.json \\\r\n+  --output output/data/grouped_prs.json\r\n+\r\n+# レポート生成\r\n+python3 scripts/generate_report.py output/data/grouped_prs.json \\\r\n+  --output output/reports/education_report.md \\\r\n+  --spreadsheet output/spreadsheets/education_analysis.csv\r\n+```\r\n+\r\n+## 必要な環境\r\n+\r\n+- Python 3.6+\r\n+- GitHub CLI (`gh`)：認証済み\r\n+- Claude CLI (`claude`)：インストール済み\r\n+- リポジトリへの読み取り権限\r\n+\r\n+## セットアップ\r\n+\r\n+```bash\r\n+# GitHub CLI認証\r\n+gh auth login\r\n+\r\n+# 依存関係のインストール（もし必要なら）\r\n+pip install -r requirements.txt\r\n+```\n\\ No newline at end of file"
     },
     {
@@ -94,10 +94,22 @@
       "additions": 88,
       "deletions": 0,
       "changes": 88,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME_EXECUTION.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME_EXECUTION.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME_EXECUTION.md?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME_EXECUTION.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME_EXECUTION.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2FREADME_EXECUTION.md?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,88 @@\n+# Policy PR Analyzer 実行手順\n+\n+## 現在の状態\n+\n+✅ **データ取得完了**: 教育ラベルのPR 50件を取得済み\n+✅ **プロンプト生成完了**: LLM分析用のプロンプトを生成済み\n+✅ **分析スクリプト作成**: `analyze_prompts.py`で一括実行可能\n+\n+## 分析実行方法\n+\n+### 方法1: スクリプトで一括実行（推奨）\n+\n+```bash\n+cd policy_pr_analyzer\n+\n+# すべての分析を実行\n+python3 scripts/analyze_prompts.py prompts/batch_50\n+\n+# 個別PR分析のみ実行\n+python3 scripts/analyze_prompts.py prompts/batch_50 --type individual\n+\n+# ドライラン（実行内容を確認）\n+python3 scripts/analyze_prompts.py prompts/batch_50 --dry-run\n+\n+# 進捗状況を確認\n+python3 scripts/analyze_prompts.py prompts/batch_50 --status\n+\n+# 類似度チェックを10件に制限して実行\n+python3 scripts/analyze_prompts.py prompts/batch_50 --type similarity --similarity-limit 10\n+```\n+\n+### 方法2: 手動実行\n+\n+スクリプトを使わずに手動で実行する場合：\n+\n+```bash\n+cd policy_pr_analyzer\n+\n+# 個別PR分析\n+for f in prompts/batch_50/individual/*.txt; do\n+  out=\"prompts/batch_50/output/individual/$(basename \"$f\" .txt).json\"\n+  echo \"Analyzing $(basename $f)...\"\n+  claude -p < \"$f\" > \"$out\"\n+  sleep 2\n+done\n+\n+# 全体傾向分析\n+claude -p < prompts/batch_50/trend/overall_trend_analysis.txt > prompts/batch_50/output/trend/overall_trend_analysis.json\n+```\n+\n+## スクリプトの機能\n+\n+`analyze_prompts.py`は以下の機能を提供します：\n+\n+### 基本機能\n+- **一括分析実行**: 個別PR、類似度チェック、全体傾向を順番に分析\n+- **進捗管理**: 既に分析済みのファイルをスキップ（--no-resumeで無効化可能）\n+- **API制限対策**: 各分析間に2秒のスリープ（--sleepで調整可能）\n+- **エラーハンドリング**: 失敗した分析をスキップして続行\n+\n+### オプション機能\n+- **--status**: 現在の分析進捗を表示\n+- **--dry-run**: 実際には実行せず、何を行うか表示\n+- **--type**: 特定の分析タイプのみ実行（individual/similarity/trend）\n+- **--similarity-limit**: 類似度チェックの実行数を制限\n+- **--no-resume**: すべてのファイルを再分析\n+\n+## 出力ファイル\n+\n+- **個別分析結果**: `prompts/batch_50/output/individual/pr_*_analysis.json`\n+- **類似度分析結果**: `prompts/batch_50/output/similarity/similarity_*.json`\n+- **全体傾向分析**: `prompts/batch_50/output/trend/overall_trend_analysis.json`\n+\n+## 注意事項\n+\n+1. **API制限**: 各分析の間に2秒のスリープを入れています\n+2. **時間**: 50件の個別分析には約2-3分かかります\n+3. **出力形式**: 各分析結果はJSON形式で出力されます\n+\n+## 分析後の処理\n+\n+分析結果が揃ったら、以下のスクリプトで処理できます：\n+\n+- `parse_llm_results.py`: JSON結果をパース・集計\n+- `group_similar_prs.py`: 類似提案をグループ化\n+- `generate_report.py`: 政策チーム向けレポート生成\n+\n+（これらのスクリプトは今後作成予定）\n\\ No newline at end of file"
+    },
+    {
+      "sha": "c6bb11ae08f8ba28713fa9b65f9ff8db4e041de9",
+      "filename": ".pr_analysis/policy_pr_analyzer/analysis_results/pr_5925_analysis.json",
+      "status": "added",
+      "additions": 18,
+      "deletions": 0,
+      "changes": 18,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fanalysis_results%2Fpr_5925_analysis.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fanalysis_results%2Fpr_5925_analysis.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fanalysis_results%2Fpr_5925_analysis.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
+      "patch": "@@ -0,0 +1,18 @@\n+{\n+  \"pr_number\": 5925,\n+  \"summary\": \"全国の公立学校の普通教室と体育館にエアコンを国主導で設置し学習環境格差を解消\",\n+  \"category\": \"設備・インフラ\",\n+  \"specificity\": {\n+    \"level\": \"高\",\n+    \"reason\": \"対象施設、実施主体、財政支援方針が明確に示されている\"\n+  },\n+  \"difficulty\": {\n+    \"level\": \"高\",\n+    \"main_challenge\": \"全国規模での設置に必要な莫大な予算確保\"\n+  },\n+  \"scope\": \"全国\",\n+  \"required_resources\": \"予算\",\n+  \"keywords\": [\"エアコン\", \"空調設備\", \"熱中症対策\", \"学習環境整備\", \"防災拠点\"],\n+  \"unique_features\": \"体育館の防災拠点機能強化も含めた包括的な環境整備提案\",\n+  \"discussion_points\": [\"設置・維持費用の財源確保方法\", \"優先順位付け（地域・学校種別）の基準\"]\n+}\n\\ No newline at end of file"
     },
     {
       "sha": "ed7ab45a1cdc61d80b02746b0519abb7e80e4fa9",
@@ -106,9 +118,9 @@
       "additions": 37,
       "deletions": 0,
       "changes": 37,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,37 @@\n+{\n+  \"additions\": 2,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"本変更提案は、宮嶋龍太郎氏の提案に基づき、「１）一人ひとりの個性に合わせたオーダーメイドカリキュラムを届けます」の項目に、より具体的かつ先進的な視点を盛り込み、教育政策の質的向上を目指すものです。\\n\\n**変更の背景と目的:**\\n\\n現代の教育現場においては、子どもたち一人ひとりの多様な個性や背景を深く理解し、それぞれに最適化された教育を提供することの重要性が増しています。しかしながら、既存の枠組みでは、学習進度やテーマといった表面的な違いへの対応に留まりがちであり、個々の発達特性や遺伝的背景、家庭環境といった、より深層にある要因を十分に捉えきれていないという課題認識がありました。\\n\\nそこで本提案では、特に以下の２つの観点から、現行の政策記述を強化・具体化しました。\\n\\n1.  **ニューロダイバーシティを前提とした、より深い個別理解の追求:**\\n    「現状認識・課題分析」部分に、「加えて、個々の発達特性や遺伝的背景、家庭環境なども考慮した、より深いレベルでの個別理解が求められています。」との記述を追加しました。これは、教育の対象となる子どもたちが持つ本質的な多様性（ニューロダイバーシティ）を尊重し、よりきめ細やかな配慮を可能にするための基盤となる考え方です。遺伝情報や家庭環境といったデリケートな情報については、その取り扱いに最大限の注意を払いつつ、統計的な有意性や関連性を検証することで、教育支援の精度向上に資する可能性を探ります。\\n\\n2.  **AI技術を活用した、エビデンスベースの教育実践と現場の解像度向上:**\\n    「政策概要」部分に、「その際、専門家が監修したAIを活用し、各児童の答案や行動記録、発言などを匿名化・映像音声処理した上で分析することで、個々の児童生徒が抱える可能性のある困難さを、プライバシーに配慮しつつ、これまで以上に高い解像度で把握することを目指します。」との記述を追加しました。これは、最新のAI技術を教育分野に応用することで、これまで教師の経験や勘に頼りがちだった部分をデータに基づいて可視化し、より客観的かつ効果的な指導・支援へと繋げることを意図しています。具体的には、各児童の答案、授業中の行動記録、発言内容などを、個人が特定できないよう厳重に匿名化した上で、専門家の知見を取り入れて開発されたAIが分析します。これにより、例えば特定の学習内容でつまずきやすい傾向や、コミュニケーション上の潜在的な困難さなどを、早期に、かつ高い精度で発見できる可能性があります。収集されたデータは、プライバシー保護を徹底した上で、教育効果の検証や指導方法の改善に活用され、医学的エビデンスの蓄積にも貢献することが期待されます。\\n\\nこれらの改善は、単にAIという新しい技術を導入すること自体が目的ではありません。AIはあくまで、一人ひとりの子どもが持つ可能性を最大限に引き出し、誰一人取り残されることのない、質の高い教育を実現するための手段です。専門家の監修のもと、倫理的配慮とプライバシー保護を最優先事項として取り組みを進めることで、より個別最適化され、かつエビデンスに基づいた教育（EBPM）の推進を目指します。教育現場の「見える化」を進め、課題を早期に発見し、適切な支援を届けることで、多様な個性を持つすべての子どもたちが、それぞれの才能を開花させられる社会の実現に貢献します。\\n\\n宮嶋龍太郎\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T14:04:06Z\",\n+  \"deletions\": 5,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1003,\n+  \"reactionGroups\": [\n+    {\n+      \"content\": \"THUMBS_UP\",\n+      \"users\": {\n+        \"totalCount\": 2\n+      }\n+    }\n+  ],\n+  \"state\": \"OPEN\",\n+  \"title\": \"教育政策における個別最適化の具体化とエビデンスベースの推進（宮嶋龍太郎提案）\",\n+  \"updatedAt\": \"2025-05-19T13:43:52Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1003\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 2\n+}\n\\ No newline at end of file"
     },
     {
@@ -118,9 +130,9 @@
       "additions": 29,
       "deletions": 0,
       "changes": 29,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1003_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,29 @@\n+diff --git \"a/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\" \"b/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n+index 86d1d269be..3f12fce03a 100644\n+--- \"a/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n+@@ -13,7 +13,7 @@\n+ \n+ ### \t\t現状認識・課題分析\n+ \n+-* 子どもたちは、学習の進度、学習のテーマ、コンテンツ、認知特性が多様です。  \n++* 子どもたちは、学習の進度、学習のテーマ、コンテンツ、認知特性が多様であり、加えて、個々の発達特性や遺伝的背景、家庭環境なども考慮した、より深いレベルでの個別理解が求められています。  \n+ * 現在、今後の教育では、個別最適化（カスタマイズ・パーソナライズ）が重要です。  \n+ * 現在は、「年齢」が唯一の変数になって、カリキュラムが編成されています。  \n+   * 小学校・中学校では、各学年で各教科を何時間指導する必要があるか（標準授業時数）が学習指導要領で定められています。  \n+@@ -21,7 +21,7 @@\n+ \n+ ### \t政策概要\n+ \n+-* 今後は、一人ひとりの個性にあわせ、AIでオーダーメイドでカリキュラムを創り、柔軟に学んでいけるよう、標準授業時数の設定を大綱化することを目指します。  \n++* 今後は、一人ひとりの個性にあわせ、AIでオーダーメイドでカリキュラムを創り、柔軟に学んでいけるよう、標準授業時数の設定を大綱化することを目指します。その際、専門家が監修したAIを活用し、各児童の答案や行動記録、発言などを匿名化・映像音声処理した上で分析することで、個々の児童生徒が抱える可能性のある困難さを、プライバシーに配慮しつつ、これまで以上に高い解像度で把握することを目指します。  \n+ * 他方、義務教育として必要な教育の質は担保するよう、イギリスの教育水準局や、オランダの教育監査局が実施している義務教育段階終了時のテストなどを参考に、一人ひとりが義務教育で身につけるべき内容を習得できているかをチェックし、データで改善のPDCAを回します。\n+ \n+ <p align=\"center\">\n+@@ -73,6 +73,3 @@\n+ \n+ イギリスのExplore Education Statisticsによる情報開示の例  \n+ /https://explore-education-statistics.service.gov.uk/find-statistics/pupil-attendance-in-schools/2025-week-15\n+-\n+-\n+-"
     },
     {
@@ -130,9 +142,9 @@
       "additions": 43,
       "deletions": 0,
       "changes": 43,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,43 @@\n+{\n+  \"additions\": 23,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"# 【紫杏さん提案】教育政策文書改善：アルゴリズム活用とEBPM推進の章構成見直し及びDAアルゴリズム事例追加\\n\\n## 提案者\\n紫杏\\n\\n## 変更の背景・目的\\n\\n今回の変更は、政策文書の「教育」セクションにおける「アルゴリズムの活用」と「EBPM（証拠に基づく政策立案）の推進」に関する記述をより明確にし、読者の理解を促進することを目的としています。\\n\\n以前の構成では、「３）アルゴリズムと教育データ利活用によりEBPMを推進します」という一つの章の中に、これらの異なる二つの重要なテーマが混在していました。紫杏さんとの詳細な検討の中で、この構成では各テーマの焦点がぼやけてしまい、特にEBPMという概念とアルゴリズムという技術的手段の関係性が読者に伝わりにくい可能性があるという課題が明らかになりました。\\n\\nまた、DAアルゴリズム（Deferred Acceptance Algorithm）の事例として挙げられていたデジタル併願制について、これがEBPMの直接的な実例と言えるか、またその教育現場での実証性について議論がありました。この議論を通じ、アルゴリズムの具体的な応用例と、データに基づいて政策を評価・改善していくEBPMのプロセスとを、より明確に区別して提示する必要性が認識されました。\\n\\nこれらの背景を踏まえ、読者が各政策の意図と内容を正確に把握できるよう、章構成を見直し、それぞれのテーマを独立したセクションとして記述することで、政策全体の論理構成をより強固なものにすることを目指しました。\\n\\n## 行われた改善点\\n\\n主な変更点は以下の通りです。\\n\\n1.  **章の分割と再編成:**\\n    *   従来の「３）アルゴリズムと教育データ利活用によりEBPMを推進します」の章を、以下の二つの独立した章に分割しました。\\n        *   **新「３）教育におけるアルゴリズムの活用」**\\n        *   **新「４）教育データ利活用によるEBPMの推進」**\\n    *   それぞれの章において、「現状認識・課題分析」と「政策概要」の構成を維持しつつ、関連する情報を適切に整理・再配置しました。\\n\\n2.  **「３）教育におけるアルゴリズムの活用」の内容充実:**\\n    *   この章では、デジタル併願制やDAアルゴリズムといった、教育課題の解決に貢献しうるアルゴリズム技術の応用に焦点を当てています。\\n    *   DAアルゴリズムの解説部分に、紫杏さんからのご提案を受け、**「研修医が配属される病院を決定する際など、公平性が求められる他の分野でも応用が進んでいます」**という具体的な応用例を追記しました。これにより、DAアルゴリズムが特定の教育問題だけでなく、より広範な社会的課題解決に貢献できる実績ある技術であることを示し、提案の信頼性を高めることを意図しています。\\n\\n3.  **「４）教育データ利活用によるEBPMの推進」の内容整理:**\\n    *   この章では、証拠に基づく政策立案（EBPM）の実現に不可欠な、教育データの収集・分析・活用のあり方に焦点を当てています。\\n    *   英国の教育省（DfE）による「Explore Education Statistics (EES)」のようなデータ公開プラットフォームの事例や、日本におけるデータ連携の課題、そして将来的構想としての「Education Data Trust」設立の検討など、EBPM推進のための具体的な方向性を示しています。\\n    *   既存の画像資料（イギリスのExplore Education Statisticsによる情報開示の例）も、この章の内容に合わせて適切に配置しました。\\n\\n## 変更による期待効果\\n\\nこの改善により、以下の効果が期待されます。\\n\\n*   **読者の理解向上:** 「アルゴリズムの活用」と「EBPMの推進」という異なる政策アプローチが明確に区別されるため、読者はそれぞれの政策の目的、内容、および相互関係をより深く、かつ正確に理解できるようになります。\\n*   **政策の焦点明確化:** 各テーマが独立した章として扱われることで、それぞれの重要性が強調され、政策全体のメッセージがより明確に伝わるようになります。\\n*   **議論の活性化:** 各論点が整理されたことで、今後の政策改善に向けたより建設的で具体的な議論が促進されることが見込まれます。\\n*   **提案の説得力向上:** DAアルゴリズムの応用事例を追加することで、具体的な技術活用に対する理解と信頼感が増し、政策提案全体の説得力強化に繋がると考えます。\\n\\nこれらの変更が、本政策文書をより質の高いものへと発展させ、関係各位による深い議論を喚起するための一助となることを願っています。\\n\\n以上\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T14:05:44Z\",\n+  \"deletions\": 16,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    },\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAvEF6g\",\n+      \"name\": \"thankyou\",\n+      \"description\": \"政策の改善につながったPRにつける\",\n+      \"color\": \"0EA988\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1005,\n+  \"reactionGroups\": [\n+    {\n+      \"content\": \"THUMBS_UP\",\n+      \"users\": {\n+        \"totalCount\": 1\n+      }\n+    }\n+  ],\n+  \"state\": \"OPEN\",\n+  \"title\": \"【紫杏さん提案】教育政策文書改善：アルゴリズム活用とEBPM推進の章構成見直し及びDAアルゴリズム事例追加\",\n+  \"updatedAt\": \"2025-05-29T22:39:13Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1005\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 1\n+}\n\\ No newline at end of file"
     },
     {
@@ -142,9 +154,9 @@
       "additions": 68,
       "deletions": 0,
       "changes": 68,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1005_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,68 @@\n+diff --git \"a/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\" \"b/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n+index 86d1d269be..837bb62bb4 100644\n+--- \"a/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n+@@ -30,7 +30,7 @@\n+ \n+ 日本に標準授業時数は学年・教科双方で柔軟性がなく、諸外国と比較しても縛りが強い制度となっている  \n+ 出典：経済産業省資料  \n+-[https://www.meti.go.jp/shingikai/sankoshin/shomu\\_ryutsu/kyoiku\\_innovation/pdf/20220922\\_1.pdf](https://www.meti.go.jp/shingikai/sankoshin/shomu_ryutsu/kyoiku_innovation/pdf/20220922_1.pdf)\n++[https://www.meti.go.jp/shingikai/sankoshin/shomu_ryutsu/kyoiku_innovation/pdf/20220922_1.pdf](https://www.meti.go.jp/shingikai/sankoshin/shomu_ryutsu/kyoiku_innovation/pdf/20220922_1.pdf)\n+ \n+ ## ２）時代の変化にキャッチアップできる学習指導要領に変えます\n+ \n+@@ -47,25 +47,35 @@\n+ * マイナーアップデートは、学習指導要領本体ではなく、学習指導要領の「解説」を充実させることで対応します。この際、スピード感をもったアップデートができるようにするために追記のための手続きはなるべく減らすことを目指します。  \n+ * 学習指導要領のマイナーアップデートを、全国の先生方に速やかに届けるために、学習指導要領のデジタル化を進め、改定場所を先生にプッシュ通知できるようにします。  \n+   * カナダやオーストラリアでは学習指導要領のデジタル化が進んでおり、先生がわかりやすく内容にアクセス出来るように工夫されています。  \n+-    * 参考）文科省での審議会の資料：[https://www.mext.go.jp/content/20250228-mext\\_kyoiku01-000040050\\_03.pdf](https://www.mext.go.jp/content/20250228-mext_kyoiku01-000040050_03.pdf)\n++    * 参考）文科省での審議会の資料：[https://www.mext.go.jp/content/20250228-mext_kyoiku01-000040050_03.pdf](https://www.mext.go.jp/content/20250228-mext_kyoiku01-000040050_03.pdf)\n+ \n+-## ３）アルゴリズムと教育データ利活用によりEBPMを推進します\n++## ３）教育におけるアルゴリズムの活用\n+ \n+ ### \t\t現状認識・課題分析\n+ \n+-* 適切なアルゴリズムを組むことでマッチングの問題を解決する  \n+-  * デジタル併願制は、受験生が複数の公立高校を希望順に志望し、成績に基づいて最適な進学先が独自のアルゴリズムで自動的に割り当てられる仕組みのことである  \n+-  * デジタル併願性を活用することで、公立高校に進学を希望する子どもの機会を保障しやすくなる。特に、経済的に公立しか選択肢のない家庭で、不合格を懸念して志望校を下げる必要がなくなり、教育格差の是正につながる  \n+-  * デジタル併願性は、ゲーム理論におけるDAアルゴリズム (Deferred Acceptance Algorithm)が基礎になっている  \n+-  * このように、学術的に実証されたアルゴリズムを活用すれば、マッチングを最適化することができ、今後別のイシューにも展開出来る\n++* 適切なアルゴリズムを組むことでマッチングの問題を解決する動きがあります。  \n++  * 例えば、デジタル併願制は、受験生が複数の公立高校を希望順に志望し、成績に基づいて最適な進学先が独自のアルゴリズムで自動的に割り当てられる仕組みのことです。  \n++  * デジタル併願制を活用することで、公立高校に進学を希望する子どもの機会を保障しやすくなります。特に、経済的に公立しか選択肢のない家庭で、不合格を懸念して志望校を下げる必要がなくなり、教育格差の是正につながる可能性があります。  \n++  * デジタル併願性は、ゲーム理論におけるDAアルゴリズム (Deferred Acceptance Algorithm)が基礎になっています。このアルゴリズムは、教育現場における生徒と学校のマッチングだけでなく、例えば研修医が配属される病院を決定する際など、公平性が求められる他の分野でも応用が進んでいます。\n++* このように、学術的に実証されたアルゴリズムを活用すれば、マッチングを最適化できる可能性があり、今後別の教育課題にも応用が期待されます。\n+ \n+ ### \t\t政策概要\n+ \n+-* EBPMの基盤を構築する  \n+-  * 英国DfEではExplore Education Statistics (EES)で学校財務や学力データをAPI公開し、政策モデルをオープン検証している。  \n+-  * 他方、日本では全国学力・学習状況調査、GIGA 端末の学習ログ、教員勤務実態などのデータが省庁・自治体・学校間で分断されており、政策判断に活用できていない  \n+-  * ゆえに、日本でも、教育データ標準仕様（IMS/LTI＋国内拡張）の法定化と共に、匿名加工データを信託管理する「Education Data Trust」の創設など、EBPMの基盤整備が必要  \n+-    * 例えば、過去問をRAGや強化学習に使用できるように整備することで、LLMの精度が飛躍的に上がることが期待出来る\n++* 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。\n++* 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。 （例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど）\n++\n++## ４）教育データ利活用によるEBPMの推進\n++\n++### \t\t現状認識・課題分析\n++\n++* 英国の教育省（DfE）では「Explore Education Statistics (EES)」というプラットフォームを通じて、学校の財務状況や学力に関するデータをAPI形式で公開し、政策モデルのオープンな検証を可能にしています。\n++* 一方、日本では、全国学力・学習状況調査の結果、GIGAスクール構想で導入された端末の学習ログ、教員の勤務実態といった重要なデータが、文部科学省、各教育委員会、個々の学校といった組織間で分断されて管理されており、政策立案や効果検証に十分に活用できていないのが現状です。\n++\n++### \t\t政策概要\n++\n++* EBPM（証拠に基づく政策立案）の推進に向けた基盤を構築します。  \n++* データに基づいた効果的な教育政策を実現するために、日本においても教育データ標準仕様（例えば、IMS Common CartridgeやLTIといった国際標準規格に、日本独自の拡張を加えたもの）を定めることを検討します。さらに、匿名加工された教育データを安全かつ倫理的に管理・運用するための「Education Data Trust」のような組織の創設を検討するなど、EBPMを推進するための基盤整備が必要です。\n++* 例えば、過去の試験問題をRAG（Retrieval Augmented Generation）技術や強化学習の手法で活用しやすいように整備することで、教育用大規模言語モデル（LLM）の精度を飛躍的に向上させることが期待できます。これは、教育データの効果的な利活用の一例です。\n+ \n+ <p align=\"center\">\n+  <img src=\"https://github.com/user-attachments/assets/81996478-f465-415c-b1fa-3848e24685a3\">\n+@@ -73,6 +83,3 @@\n+ \n+ イギリスのExplore Education Statisticsによる情報開示の例  \n+ /https://explore-education-statistics.service.gov.uk/find-statistics/pupil-attendance-in-schools/2025-week-15\n+-\n+-\n+-"
     },
     {
@@ -154,9 +166,9 @@
       "additions": 30,
       "deletions": 0,
       "changes": 30,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,30 @@\n+{\n+  \"additions\": 3,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"本改善案は、鈴木邦昌様より提案された教育政策の強化を目的としています。\\n\\n主な変更点は以下の通りです。\\n\\n１．教育ビジョンの拡張\\n\\n現行の教育政策におけるビジョンに対し、AI技術の積極的な活用を中核に据えた大幅な機能強化を提案します。具体的には、AIによる個別最適化された学習支援を推進することで、生徒一人ひとりの能力や学習進度に応じた教育を実現します。これにより、従来の画一的な在学期間や学習時間に過度に縛られることなく、より柔軟な学習課程の設定や、能力に応じた進級・卒業認定のあり方を追求します。\\n\\nこの個別最適化された学びの推進は、生徒の潜在能力を最大限に引き出すことを目指しており、結果として、現行制度では限定的な活用に留まっている「飛び級制度」の積極的な活用を促すことが期待されます。鈴木様からは、特に高校卒業資格を得るための在籍期間要件が、能力ある生徒の早期大学進学を阻害している現状について指摘がありました。本改善案は、こうした制度上の課題解決の一助となることを目指します。\\n\\nさらに、飛び級制度の活性化は、それを受け入れる側の大学教育の質の向上にも繋がると考えます。能力の高い生徒の期待に応えられるような、質の高い教育プログラムを提供する大学への重点的な支援や、大学教育全体の質保証のあり方について、より深度のある議論を喚起していく必要があります。初等中等教育におけるAI活用と個別最適化の推進が、最終的には高等教育の質の向上、ひいては社会全体の知的基盤の強化に貢献することを目指します。\\n\\n２．「１）すべての子どもに「専属のAI家庭教師」を届けます」における学力保証の強化\\n\\nAIを「専属のAI家庭教師」として活用する構想に対し、特に多様な学習形態を選択する生徒の基礎学力保証の観点を強化します。鈴木様からは、近年増加傾向にある通信制高校において、卒業認定に必要な学力水準が十分に担保されていないのではないか、という強い懸念が示されました。ご自身の経験と具体的なデータ分析に基づいたこの指摘は、教育の機会均等と質の担保という両側面から重く受け止めるべき課題です。\\n\\nこの課題に対応するため、本改善案では、AIが個々の生徒の理解度を正確に把握し、きめ細やかな学習支援を行うことで、通信制高校を含む多様な学習形態においても基礎学力の維持・向上に貢献できる点を明記します。AIによる個別最適化された学習は、生徒が自身のペースで着実に学力を積み重ねることを可能にし、教育の質の確保に繋がります。\\n\\n加えて、単にAIによる学習支援を行うだけでなく、多様な学習歴を持つ生徒の学力を客観的に評価し、各教育段階の卒業認定に必要な基礎学力を保証するための新たなアセスメント手法の開発・導入の検討も明記します。これには、AI技術の活用も視野に入れ、より公正かつ効率的な評価システムの構築を目指します。これにより、どのような学習環境にあっても、一定水準以上の基礎学力が保証される体制を構築します。\\n\\nこれらの変更は、AI技術を教育現場に導入するにあたり、その可能性を最大限に引き出しつつ、新たな課題にも適切に対応していくという意思を示すものです。鈴木邦昌様の深い洞察と具体的な問題提起に基づき、より実効性のある教育政策となることを目指して改善を行いました。\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T14:33:47Z\",\n+  \"deletions\": 1,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1018,\n+  \"reactionGroups\": [],\n+  \"state\": \"OPEN\",\n+  \"title\": \"教育政策改善案：AI活用による個別最適化、柔軟な学習課程、学力保証の強化（鈴木邦昌提案）\",\n+  \"updatedAt\": \"2025-05-19T13:43:39Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1018\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 0\n+}\n\\ No newline at end of file"
     },
     {
@@ -166,9 +178,9 @@
       "additions": 22,
       "deletions": 0,
       "changes": 22,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1018_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,22 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 24b6f397c7..c0d994488a 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -9,6 +9,8 @@\n+   * 小中高での情報教育・AIリテラシー教育を強化することで、子どもたちが “AIに使われる”のではなく、”AIを使いこなす” ように進化するように育みます。  \n+   * デジタルを活用して、学校の先生方の働き方改革を進めることで、子どもと向き合う時間を増やし、先生になりたい若者を増やします。  \n+   * 貧困世帯の子どもたち・家庭の支援や、先生方の不登校の子どもたちの支援をデジタルで高度化し、必要な支援を効果的・効率的に行き届かせます。\n++  * 加えて、AI等を活用し個別最適化された学びを推進することで、現行の在学期間や学習時間に過度に縛られることなく、個々の能力と進捗に応じた柔軟な学習課程や進級・卒業認定のあり方を追求し、多様な学びの機会を拡大します。\n++  * さらに、こうした個々の能力を最大限に伸長させる教育の実現は、飛び級制度の積極的な活用を促し、それに応える質の高い教育を提供する大学への重点的な支援や、大学全体の質保証のあり方についての議論にも繋げていく必要があります。\n+ \n+ ## １）すべての子どもに「専属のAI家庭教師」を届けます\n+ \n+@@ -22,7 +24,7 @@\n+ * AIの教育への導入には様々なメリットがあります。\n+   * 習熟度や理解度に応じた学習支援が可能となり、学力の底上げが期待できます。  \n+   * 生徒の自己学習力や質問力が高まります。\n+-  * 多様な学習ニーズ（発達障害、不登校、得意不得意など）を持つ生徒へサポートできます。\n++  * 多様な学習ニーズ（発達障害、不登校、得意不得意など）を持つ生徒へサポートできます。また、近年増加傾向にある通信制高校のような多様な学習形態においても、AIが個々の生徒の理解度を正確に把握し、きめ細やかな学習支援を行うことで、基礎学力の維持・向上に貢献し、教育の質の確保につながります。さらに、多様な学習歴を持つ生徒の学力を客観的に評価し、各教育段階の卒業認定に必要な基礎学力を保証するための、AI技術の活用も視野に入れた新たなアセスメント手法の開発・導入も検討します。\n+   * 教員が全生徒に個別対応する負担を軽減できるため働き方改革にもつながります。\n+ * AIを行政が開発・配布することで、親が子どもにAIを与えるかどうかの格差を是正できます。\n+ "
     },
     {
@@ -178,9 +190,9 @@
       "additions": 30,
       "deletions": 0,
       "changes": 30,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,30 @@\n+{\n+  \"additions\": 8,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"30代ワーママさんより、現行の政策案「１．教育」に対し、特に子育て世帯の意見を政策へより機動的に反映させる仕組みの構築と、子どもの安全確保策の強化に関する重要なご提案をいただきました。この変更は、これらのご意見を具体的に政策案に盛り込むものです。\\n\\n**主な変更点：**\\n\\n1.  **第4章の主題の明確化と拡充：**\\n    *   章タイトルを「AIを活用し、子育て世帯の声を政策へ機動的に反映する仕組みを構築するとともに、必要な支援を届けます」へと変更しました。これにより、従来のプッシュ型支援の概念に加え、子育て当事者の意見を政策形成に活かすことの重要性を明確に打ち出しています。\\n2.  **子育て世帯の声が届きにくい構造的課題への言及：**\\n    *   第4章の「現状認識・課題分析」に、「子育てという期間が限定的であるため、当事者の意見が継続的に政策へ反映されにくいという構造的な課題も存在します。」という一文を追記しました。これは、子育て期間が終了すると当事者意識が薄れ、政策への関与が途絶えがちになるという問題提起を反映したものです。この課題認識のもと、AIを活用した持続的な意見収集・反映システムの必要性を強調しています。\\n3.  **AIを活用した意見収集・政策反映プラットフォームの提案：**\\n    *   第4章の「政策概要」に、「AIを活用し、子育て世帯の声を政策へ機動的に反映する仕組みを構築します。これには、AIを用いた意見収集・分析プラットフォームの構築と、それに基づく機動的な政策改善プロセスの確立を含みます。」という記述を追加しました。これにより、AI技術を用いて子育て世帯の多様な意見を効率的に収集し、分析することで、より実態に即した政策立案と迅速な改善サイクルを実現することを目指します。\\n4.  **プラットフォームで扱うテーマの例示と子どもの安全確保策の明記：**\\n    *   上記プラットフォームで扱う具体的なテーマ例として、「教育内容や学校環境の改善要望、子どもの安全確保（性犯罪対策強化などを含む）などが挙げられます。」と明記しました。これは、30代ワーママさんから特に強いご要望として挙がった「学校等における子どもの安全確保、特に性犯罪者からの保護」という喫緊の課題に対応するためのものです。AIを活用することで、潜在的な危険の察知や、具体的な対策（例えば、GPSや防犯カメラ映像のAI解析による不審者情報の早期発見・共有、性犯罪歴のある人物の教育関連職種への就業制限の徹底と確認プロセスのAIによる支援など、より踏み込んだ対策の検討と実施）を求める声を集め、政策に反映させることを意図しています。多くの子育て世帯が抱える「公教育の場における子どもの安全」への懸念に応え、安心して子どもを預けられる環境整備を求める切実な声を吸い上げ、具体的な政策として推進していくことの重要性を示しています。\\n\\n**変更の意図・目的：**\\n\\nこれらの変更は、子育て世帯が日々直面する課題やニーズ、特に子どもの安全という根源的な願いを、より実効性のある形で政策に反映させることを目的としています。AI技術を単なる効率化のツールとして捉えるのではなく、これまで声が届きにくかった人々の意見を丁寧に拾い上げ、政策の質を高めるための手段として活用することを目指します。\\n\\n子育ての経験は一時的かもしれませんが、それ故に、その期間に抱える問題意識は切実です。その貴重な意見が埋もれることなく、継続的に政策に活かされる仕組みをAIの力で構築することで、より良い教育環境、より安全な社会を実現できると信じています。\\n\\nさらに、公立学校の教育の質や安全性に対する信頼の向上は、子育て世帯の経済的な見通しにも影響を与え、ひいては少子化対策にも繋がりうる重要な視点です。現状、公教育に対する不安感から、私立学校への進学や多くの習い事を検討し、結果として高い教育費を見込まざるを得ない家庭も少なくありません。このような経済的負担感が、希望する子どもの数を諦める一因となっている可能性も指摘されています。本提案のように、子育て世帯の意見が真摯に受け止められ、教育の質と安全性が継続的に改善・担保されていくならば、公教育への信頼感が高まります。それにより、子育てにかかる経済的不安が軽減され、より多くの子どもを育むことを選択できる家庭が増えることが期待されます。これは、個々の家庭の幸福に資するだけでなく、社会全体の持続可能性にとっても極めて重要な意味を持つと考えます。\\n\\n30代ワーママさんのご提案は、この政策案をより多くの当事者の想いに寄り添った、実効性の高いものへと進化させるための重要な一歩です。ご検討のほど、よろしくお願いいたします。\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T14:44:43Z\",\n+  \"deletions\": 6,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1022,\n+  \"reactionGroups\": [],\n+  \"state\": \"OPEN\",\n+  \"title\": \"【30代ワーママさん提案】第4章：AIによる子育て世帯の声の政策反映と子どもの安全確保策の強化\",\n+  \"updatedAt\": \"2025-05-19T13:43:36Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1022\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 0\n+}\n\\ No newline at end of file"
     },
     {
@@ -190,9 +202,9 @@
       "additions": 44,
       "deletions": 0,
       "changes": 44,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1022_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,44 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 24b6f397c7..83e69bd463 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -28,7 +28,7 @@\n+ \n+   ### 政策概要\n+ \n+-* 足元では、ChatGPT等の既存のAI（LLM: 大規模言語モデル）を全児童生徒に配布します。  \n++* 足元では、ChatGPTcyano大好き等の既存のAI（LLM: 大規模言語モデル）を全児童生徒に配布します。  \n+   * 生成AIサプライヤーに対して、事例として発表できるように協力することで調達予算を抑えます。  \n+   * 保護者の明確な同意プロセス、教育機関による監督体制、不適切なコンテンツへのアクセス制限など、厳格な安全措置とプライバシー保護策をとります。\n+   * 完璧なルール整備を待つのではなく、パイロット校でまず試行導入するのと並行して、ガイドラインの見直しや改善を継続的に行います。\n+@@ -40,7 +40,7 @@\n+   * 既存のAIのデータセットには、日本の学校現場特有の概念（古典・日本史・靴箱・給食袋…）が十分に組み込まれていないので、日本の文脈にあったAIを開発する必要があります。  \n+   * 文科省とデジタル庁が連携して、義務教育で使うAIが満たすべき仕様を定め、民間で開発してもらい、それを満たしたものだけ学校に導入出来るようにします。最初の開発にはコストがかかるので、懸賞金型の研究開発補助金の導入も検討します。  \n+   * 開発したAIは、政府のもっているクラウドサーバーにホストすることで個人情報も含めてセキュアに扱えるようにします。\n+-    * 今後、小型言語モデルの性能が上がってきた場合には、特に秘匿性の高い情報については、オフライン環境でも扱えるような仕組みを構築することも検討します。\n++    * 今後、小型言語モデルの性能が上がってきた場合には、特に秘匿性の高い情報については、 офライン環境でも扱えるような仕組みを構築することも検討します。\n+ \n+ ## ２）子どものAIリテラシーを育み、AIと共生する未来を切り拓きます\n+ \n+@@ -93,15 +93,17 @@\n+     * これからの教師の求められている人物像に合わせて、試験問題を改訂します\n+     * ICT機器、AIを活用可とする試験形式や、探究学習の要素を導入します。\n+ \n+-## ４）貧困世帯の子どもたち・保護者の皆様を支援するため、データとAIを駆使し、プッシュ型の支援を実現します\n++## ４）AIを活用し、子育て世帯の声を政策へ機動的に反映する仕組みを構築するとともに、必要な支援を届けます\n+ \n+ ### 現状認識・課題分析\n+ \n+ * 現状は様々な支援策が国や市区町村のサイトに散らばっています。\n+ * 物理的にも縦割りで、一つの窓口では他の支援メニューの紹介が受けられません。  \n+ * 現在の行政は、申請を待って支援を開始するスタイルだが、渦中にいる子どもたち・家庭は支援の申請をすることが難しいことが多いです\n++* 子育てという期間が限定的であるため、当事者の意見が継続的に政策へ反映されにくいという構造的な課題も存在します。\n+ \n+-  ### 政策概要\n++### 政策概要\n+ \n+-    * AIを活用すれば、個々の家庭や子どもの状況から、関連する制度や支援策をワンストップで紹介し、申請することができます。\n+-    * AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができきます。（プッシュ型支援）\n++* AIを活用し、子育て世帯の声を政策へ機動的に反映する仕組みを構築します。これには、AIを用いた意見収集・分析プラットフォームの構築と、それに基づく機動的な政策改善プロセスの確立を含みます。プラットフォームで扱うテーマの例としては、教育内容や学校環境の改善要望、子どもの安全確保（性犯罪対策強化などを含む）などが挙げられます。\n++* AIを活用すれば、個々の家庭や子どもの状況から、関連する制度や支援策をワンストップで紹介し、申請することができます。\n++* AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができきます。（プッシュ型支援）"
     },
     {
@@ -202,9 +214,9 @@
       "additions": 30,
       "deletions": 0,
       "changes": 30,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,30 @@\n+{\n+  \"additions\": 23,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"今回のkaizu氏による改善提案は、チームみらいのマニフェストにおける教育政策の根幹に関わる重要な変更です。主に「ステップ１『デジタル時代の当たり前をやりきる』」で示される教育改革の方向性を、より具体的に、そしてより力強く推進するための内容となっています。\\n\\n１．教育の3つの軸の確立\\n今回の提案の大きな柱の一つは、「人間教育」「国民教育」「特色教育」という3つの明確な軸を教育の基本方針として確立することです。\\n* 人間教育: これは、子どもたちが一人の人間として豊かに生きるための基礎を築く教育です。単に知識を詰め込むのではなく、人としての価値判断や善悪を見極める倫理観を養うことを重視します。そのために、プラトンや論語といった東西の古典に触れ、時代を超えて受け継がれるべき普遍的な知恵や道徳観を学ぶ機会を提供します。これにより、変化の激しい現代社会においても、自らの軸を持ち、他者と共生しながらより良い人生を歩むための土台を育みます。\\n* 国民教育: 日本国民としての一体感や連帯感を育むことも、これからの社会を築く上で不可欠です。自国の歴史や文化、伝統を深く理解し、郷土愛や国への誇りを育むことで、社会の一員としての自覚と責任感を醸成します。これは排他的なナショナリズムを推奨するものではなく、多様な価値観を尊重しつつ、共通の基盤の上に立って協力し合える社会を目指すための教育です。\\n* 特色教育: 個々の才能や可能性を最大限に引き出すための教育も重要です。この提案では、AI技術を積極的に活用し、一人ひとりの学習進度、興味関心、得意分野に合わせたオーダーメイドのカリキュラムを提供します。これにより、画一的な教育では埋もれがちだった才能を開花させ、子どもたちが自らの強みを社会で活かせるよう支援します。AIは単に教材を提供するだけでなく、学習意欲を高めるための動機付けや、進路選択に関する個別のアドバイスなど、多角的なサポートを行います。\\n\\n２．特別教員免許制度の導入\\n教育の質を抜本的に向上させるためのもう一つの柱が、「特別教員免許制度」の導入です。これは、従来の教員制度とは別に、特に優れた指導力、深い専門知識、豊かな人間性、高い倫理観を持つ人材を「特別教員」として認定する制度です。\\n* 高い報酬と裁量: 特別教員には、その能力と貢献に見合う高い報酬を保障し、カリキュラム編成や指導方法において大幅な裁量を与えます。これにより、意欲と能力のある人材が教職に魅力を感じ、教育現場に革新的な実践が生まれることを期待します。\\n* 定期評価と厳罰化: 高い専門性と倫理観を維持するため、特別教員に対する定期的な評価制度を設けます。また、万が一、不正行為や子どもに対する不適切な行為があった場合には、厳罰をもって対処し、制度の信頼性を確保します。\\n* 将来展望: 将来的には、この特別教員免許を持つ教員の数を増やしていくことで、教職全体の専門性と社会的地位を高め、全ての教師がより質の高い教育を提供できる環境を目指します。これは、日本の教育全体の底上げに繋がる長期的なビジョンです。\\n\\nこれらの変更は、子どもたちの未来、ひいては日本の未来をより良くしたいという強い思いから提案されたものです。教育の目的を明確にし、教員の質と意欲を高めることで、変化の時代に対応できるしなやかで力強い人材育成を目指します。\\n\\nこの提案内容につきましては、「README.md」の「ステップ１『デジタル時代の当たり前をやりきる』」セクションに概要を追記しております。各教育関連の個別ページにて、さらに詳細な議論を深めていければと考えております。\\n本提案はkaizuによって作成されました。\",\n+  \"changedFiles\": 2,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T14:49:57Z\",\n+  \"deletions\": 102,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1023,\n+  \"reactionGroups\": [],\n+  \"state\": \"OPEN\",\n+  \"title\": \"kaizu氏による教育改革提案：教育の3つの軸と特別教員免許制度の導入 #1012\",\n+  \"updatedAt\": \"2025-05-19T13:43:34Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1023\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 0\n+}\n\\ No newline at end of file"
     },
     {
@@ -214,9 +226,9 @@
       "additions": 152,
       "deletions": 0,
       "changes": 152,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1023_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,152 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 24b6f397c7..d092288cf6 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -1,107 +1,22 @@\n+-⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n+-💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n++# ステップ１における教育方針 التفصيل (kaizu氏提案)\n+ \n+-# １．教育\n++## １．教育の３つの軸と具体的な内容\n+ \n+-## ビジョン\n++kaizu氏より提案された、教育の３つの軸（人間教育・国民教育・特色教育）および、教科横断的・探究的な学習の必要性についての具体的な内容は以下の通りです。\n+ \n+-* 教育にカスタマイズしたAIを開発・導入することで、子ども一人ひとりの個性・特性に合わせた教育を実施し、子どもたちの学力を伸ばし、好奇心を育みます。  \n+-  * 小中高での情報教育・AIリテラシー教育を強化することで、子どもたちが “AIに使われる”のではなく、”AIを使いこなす” ように進化するように育みます。  \n+-  * デジタルを活用して、学校の先生方の働き方改革を進めることで、子どもと向き合う時間を増やし、先生になりたい若者を増やします。  \n+-  * 貧困世帯の子どもたち・家庭の支援や、先生方の不登校の子どもたちの支援をデジタルで高度化し、必要な支援を効果的・効率的に行き届かせます。\n++### 人間教育\n++- **目的**: 一人の人間として豊かに生きるための基礎を築く。\n++- **主な関連科目・内容**: 道徳倫理、歴史（世界史など普遍的な視点を含む）、科学（基礎的な概念や探究方法）、情報（リテラシー、倫理）、体育、芸術、世界古典。\n+ \n+-## １）すべての子どもに「専属のAI家庭教師」を届けます\n++### 国民教育\n++- **目的**: 日本国民としての一体感や連帯感を育む。\n++- **主な関連科目・内容**: 国民（公民分野など）、日本古典、日本史、日本文化、武道。\n+ \n+-### 現状認識・課題分析\n++### 特色教育\n++- **目的**: 個々の才能や可能性を最大限に引き出す（AI等を活用）。\n++- **例**:\n++    - 乗り物が好きな子供向け: 車の歴史、モーターの仕組み、新素材といった科学技術的側面を探究する。\n++    - 理科が得意な子供向け: 特定の分野を深掘りするプロジェクト学習を展開する。\n+ \n+-* AIの教育への導入の成功事例が出てきています。  \n+-  * ナイジェリアのエド州では、無料のAIチューターにより貧困層の学習機会が拡大し、教育格差の是正と学力向上が確認されました。生徒はAIとの対話を通じて自己学習力とAIリテラシーを高め、質問力も向上しました。 \n+-　　 参考：先端教育オンライン記事　https://www.sentankyo.jp/articles/aisentankyo20250127a\n+-  * シンガポールでは「Adaptive Learning System」で数学や英語の個別学習を進め、生徒が自然にAIリテラシーを習得しています。  \n+-  * スタンフォード大学の「Tutor CoPilot」実験では、AIが提供するヒントによりチューターの指導力が補完され、生徒の習熟度が大幅に向上しました。  \n+-* AIの教育への導入には様々なメリットがあります。\n+-  * 習熟度や理解度に応じた学習支援が可能となり、学力の底上げが期待できます。  \n+-  * 生徒の自己学習力や質問力が高まります。\n+-  * 多様な学習ニーズ（発達障害、不登校、得意不得意など）を持つ生徒へサポートできます。\n+-  * 教員が全生徒に個別対応する負担を軽減できるため働き方改革にもつながります。\n+-* AIを行政が開発・配布することで、親が子どもにAIを与えるかどうかの格差を是正できます。\n+-\n+-  ### 政策概要\n+-\n+-* 足元では、ChatGPT等の既存のAI（LLM: 大規模言語モデル）を全児童生徒に配布します。  \n+-  * 生成AIサプライヤーに対して、事例として発表できるように協力することで調達予算を抑えます。  \n+-  * 保護者の明確な同意プロセス、教育機関による監督体制、不適切なコンテンツへのアクセス制限など、厳格な安全措置とプライバシー保護策をとります。\n+-  * 完璧なルール整備を待つのではなく、パイロット校でまず試行導入するのと並行して、ガイドラインの見直しや改善を継続的に行います。\n+-  * 同時に、保護者向けの説明会や情報提供を積極的に行い、懸念や疑問に丁寧に答え、合意形成を図るプロセスを重視します。\n+-  * 教師がAI出力の妥当性を判断・補完する必要があるため、教師向けにAI出力の評価ガイドラインやフィードバックツールを提供し、AI出力の内容に対するチェックリストを作成します。\n+-  * 教師研修を通じて、AI出力の正確性や信頼性の判断能力を向上します。\n+-* 中長期では、政府が基準を定め、民間のAI開発を支援することで普及を目指します。\n+-  * 生徒はAIに思考を丸投げする可能性があります。ゆえに「答えは教えないが詰まっている箇所の考え方は教える」というAIに移行していきます。（例：KhanmigoというAIでは答えを教えずに問答することを促進）  \n+-  * 既存のAIのデータセットには、日本の学校現場特有の概念（古典・日本史・靴箱・給食袋…）が十分に組み込まれていないので、日本の文脈にあったAIを開発する必要があります。  \n+-  * 文科省とデジタル庁が連携して、義務教育で使うAIが満たすべき仕様を定め、民間で開発してもらい、それを満たしたものだけ学校に導入出来るようにします。最初の開発にはコストがかかるので、懸賞金型の研究開発補助金の導入も検討します。  \n+-  * 開発したAIは、政府のもっているクラウドサーバーにホストすることで個人情報も含めてセキュアに扱えるようにします。\n+-    * 今後、小型言語モデルの性能が上がってきた場合には、特に秘匿性の高い情報については、オフライン環境でも扱えるような仕組みを構築することも検討します。\n+-\n+-## ２）子どものAIリテラシーを育み、AIと共生する未来を切り拓きます\n+-\n+-### 現状認識・課題分析\n+-\n+-* AIには、ハルシネーションやバイアスもあり、使い方によって毒にも薬にもなります。\n+-* そのため、これからの時代、子どもたちのAIリテラシーを育むことにもっと時間を使わなければなりません。\n+-* 現状、文部科学省はAIの利活用ガイドラインを策定しており、子どもたちのAIリテラシー向上に向けて乗り出しています。\n+-* しかし、AIについて学ぶ時間の増加や教材作成までには至っていません。\n+-\n+-  ### 政策概要\n+-\n+-* 小学校で生成AIの授業を行います。\n+-  * 先生の負担にならないように、生成AIの倫理を学ぶコンテンツを政府が開発し、学校に提供します（半年〜毎年更新）。その際、GIGAスクール端末におけるビデオ視聴＋ソフトウェア上のインタラクション（クイズなど）で概ね完了するように手配します。 \n+-* 中学校に教科「情報」を新設します。\n+-  * 中学校には技術・家庭科があり、情報に関する教育内容はそこに含まれています。  \n+-  * しかし中学校「技術・家庭科（情報分野）」は標準時数が 70 時間／３年間しかありません。  \n+-  * 時間が圧倒的に不足しているため、教科として新設し、授業時間を増やします。  \n+-* AIに特化した先進校的な高校（Super AI High Schools：SAIS）を確立します。  \n+-  * 高校は情報Iが２単位必修でベースは整っているが、アドバンスな仕組みがありません。\n+-  * 全学校でアドバンスな学習を実施するのは難しいので、尖った学校を創って、そこに異能・異才を集めます。\n+-  * 方法としては、学校現場と民間企業がタッグを組んで国に申請することを検討します。 \n+-  * 制度枠組みとしてはSSH（スーパーサイエンスハイスクール）を土台にします。\n+-\n+-## ３）：AI＆ITによる教員の働き方改革を進める\n+-\n+-### 現状認識・課題分析\n+-\n+-* OECDのTALIS調査（2018年）は、日本の教員の労働時間は長いにもかかわらず、授業にあてられる時間は短く。学校の先生方が本質的なこと以外に時間を使ってしまっていることを示しています。\n+-  * 小学校では 54.4 時間/週（OECD平均は40.6時間/週）。中学校では56.0時間/週（OECD平均は38.3時間）。そのうち授業に充てられるのは 中学校で18 時間程度で世界最短水準  \n+-  * 参考リンク：[https://www.mext.go.jp/b\\_menu/toukei/data/Others/1349189.htm](https://www.mext.go.jp/b_menu/toukei/data/Others/1349189.htm)  \n+-* 文科省も積極的に働き方改革を進めており、効果は出ているものの、教員の1週間あたりの勤務時間は引き続き長く、国の残業上限を超える層が大半を占めます。 \n+-* AIによる働き方改革の事例はすでに出てきており、成功をおさめています。\n+-  * Oak National Academy の AILAパイロットでは教材作成時間を削減した実績が報告されています。\n+-  * イギリスの「Aila」プロジェクト: イギリスでは、教師向けのAIアシスタント「Aila」を開発し、授業準備や教材作成をサポートすることで、教師の負担軽減を図っています。\n+-    * 加えて、AIによって教師が指導計画を効率的に作成できるようになり、生徒一人ひとりにより多くの時間を割けるようになりました。\n+-\n+-  ### 政策概要\n+-\n+-* 諸外国の事例を参考に、政策的に国産 Copilot の開発・調達し、教材作成時間を3割削減することを目指すなど、AIには教員の働き方改革を大幅に進めます。  \n+-  * 各種行政書類の作成、採点や宿題のチェック、教材の準備など、AIで効率化できる業務は配布するAIでどんどん手放します。\n+-  * AIアシスタントによる個別最適化研修: 各教員の強み・弱み・関心に応じて、AIが研修内容を自動設計し、オンデマンドで学べるようにします。 \n+-  * 教育現場の課題データベース×AI推薦: 全国の授業改善・課題解決事例を収集し、AIが自校の課題に適した事例を推薦します。  \n+-* AI以外のデジタルツールでも先生の教育内容以外の業務を減らすことができ、関連する民間のサービスは既にあるため、補助金などで積極的に導入を進めます。  \n+-  * 先生秘書AIの開発出欠・通知文・保護者連絡帳をスマホ音声で完結させる BOT  \n+-  * 国産 LLM を用いた授業準備・評価・教材検索ワンストップツールの開発  等\n+-* 並行して教職員のAIリテラシーを高める施策を打ちます\n+-  * 教員のICT活用指導力には自己評価でもまだ伸び代があることが判明しています。  \n+-  * 都道府県教育委員会等と連携して、教師採用試験のアップデートにも努めます。\n+-    * これからの教師の求められている人物像に合わせて、試験問題を改訂します\n+-    * ICT機器、AIを活用可とする試験形式や、探究学習の要素を導入します。\n+-\n+-## ４）貧困世帯の子どもたち・保護者の皆様を支援するため、データとAIを駆使し、プッシュ型の支援を実現します\n+-\n+-### 現状認識・課題分析\n+-\n+-* 現状は様々な支援策が国や市区町村のサイトに散らばっています。\n+-* 物理的にも縦割りで、一つの窓口では他の支援メニューの紹介が受けられません。  \n+-* 現在の行政は、申請を待って支援を開始するスタイルだが、渦中にいる子どもたち・家庭は支援の申請をすることが難しいことが多いです\n+-\n+-  ### 政策概要\n+-\n+-    * AIを活用すれば、個々の家庭や子どもの状況から、関連する制度や支援策をワンストップで紹介し、申請することができます。\n+-    * AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができきます。（プッシュ型支援）\n++## ２．指導における重要事項\n++- 上記の教育内容の実施にあたっては、教科ごとに細分化するのではなく、教科横断的で探究的な学習形態を重視する。\n+\\ No newline at end of file\n+diff --git a/README.md b/README.md\n+index cb497f96c5..624fdb3b41 100644\n+--- a/README.md\n++++ b/README.md\n+@@ -11,7 +11,12 @@\n+ * [チームみらいのビジョン](01_チームみらいのビジョン.md)  \n+ * [政策インデックス](02_政策インデックス.md)  \n+ * [ステップ１「デジタル時代の当たり前をやりきる」](10_ステップ１「デジタル時代の当たり前をやりきる」.md)  \n+-  * [１．教育](11_ステップ１教育.md)  \n++  * [１．教育](11_ステップ１教育.md)\n++    * kaizu氏提案のポイント：\n++      * 教育の３つの軸（人間・国民・特色）の確立。各軸の具体的な展開や、教科横断的な探究学習を重視。\n++      * AI等を活用した特色教育の推進。\n++      * 特別教員免許制度の導入。\n++    （これらの詳細や、各軸が目指す具体的な科目については「１．教育」の個別ページで議論を深めましょう）  \n+   * [２．子育て](12_ステップ１子育て.md)  \n+   * [３．行政改革](13_ステップ１行政改革.md)  \n+   * [４．産業](14_ステップ１産業.md)  \n+@@ -106,3 +111,4 @@\n+ ## おしゃべりできるシステム『いどばたシステム』について\n+ \n+ - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n++"
     },
     {
@@ -226,9 +238,9 @@
       "additions": 30,
       "deletions": 0,
       "changes": 30,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,30 @@\n+{\n+  \"additions\": 2,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"匿名ユーザーです。\\n\\n**１．中学校における教科「情報」の新設に関する提案**\\n\\n中学校における教科「情報」の新設に関して、授業時間増に伴う教育現場の負担増や、他教科への影響について懸念があると考えました。\\nそこで、総授業時間数を増やすことなく、既存教科の内容見直しや再編を通じて時間を確保する方針を追記しました。\\n\\n**変更の意図・目的：**\\n* 教科「情報」新設の必要性を示しつつ、教育現場への配慮を明記する。\\n* 総授業時間数を維持することで、学校運営の安定性を確保する。\\n* 既存教科との連携や内容の最適化を促し、より効果的な教育課程の実現を目指す。\\n\\n**背景：**\\n現在の「技術・家庭科（情報分野）」の標準時数は70時間/3年間と、情報化社会に対応するには不十分です。\\n一方で、単純な授業時間増は教員の多忙化を招き、教育の質の低下につながる恐れがあります。\\n今回の修正は、こうした課題を踏まえ、持続可能かつ効果的な情報教育の実現を目指すものです。\\n\\n---\\n\\n**２．教員の働き方改革と人材確保のための教員免許制度改革に関する提案**\\n\\n教員の働き方改革をより構造的に進めるため、AI・IT活用による業務効率化だけでなく、教員の人材供給プロセスの改革も必要であると考えました。\\n具体的には、現行の教員免許制度を見直し、多様な人材が教育現場に参画しやすく、また活躍し続けられるようにすることで、教職人材市場の流動性を高めることを目指します。\\n\\n**変更の意図・目的：**\\n* 多様なバックグラウンドを持つ人材の教育現場への参入を促進する。\\n* 教員組織の活性化と指導の多様性を向上させる。\\n* 教職人材市場の流動性を高め、構造的な人材不足の緩和に貢献する。\\n\\n**背景：**\\n現状の画一的かつ非流動的な人材供給プロセスは、教育現場の人材不足の一因となっている可能性があります。\\n社会人経験者が円滑に教壇に立てるような免許枠組みの導入や、免許更新制度を活用した資質向上の機会の充実、特定分野の専門性を持つ外部人材の登用促進などを通じて、教育現場をより魅力的な職場にし、人材の好循環を生み出すことを期待します。\\n\\n---\\n\\n**【追加の論点提起】**\\n本文書内の「４）貧困世帯の子どもたち・保護者の皆様を支援するため、データとAIを駆使し、プッシュ型の支援を実現します」の項目について、匿名ユーザー様より「教育政策の枠に留まらず、より広範な社会福祉政策に関わる内容であり、教育政策の1項目としての位置づけに検討の余地があるのではないか」とのご意見をいただいております。この点についても、レビューの際に合わせてご意見をいただけますと幸いです。\\n\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T15:08:47Z\",\n+  \"deletions\": 1,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1025,\n+  \"reactionGroups\": [],\n+  \"state\": \"OPEN\",\n+  \"title\": \"教育改革に関する総合的な提案（情報教育の時間配分と教員免許制度改革）\",\n+  \"updatedAt\": \"2025-05-19T13:43:33Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1025\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 0\n+}\n\\ No newline at end of file"
     },
     {
@@ -238,9 +250,9 @@
       "additions": 21,
       "deletions": 0,
       "changes": 21,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1025_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,21 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 24b6f397c7..ff31326808 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -58,7 +58,7 @@\n+ * 中学校に教科「情報」を新設します。\n+   * 中学校には技術・家庭科があり、情報に関する教育内容はそこに含まれています。  \n+   * しかし中学校「技術・家庭科（情報分野）」は標準時数が 70 時間／３年間しかありません。  \n+-  * 時間が圧倒的に不足しているため、教科として新設し、授業時間を増やします。  \n++  * 時間が圧倒的に不足しているため、教科として新設し、授業時間を増やします。 教科『情報』の新設にあたっては、総授業時間数を増やすことなく、既存の各教科における指導内容の精査や関連性の高い単元の統合・再編などを通じて、教育課程全体のバランスを考慮しながら必要な時間を確保します。これにより、教育現場の負担を増やすことなく、効果的に情報教育を推進します。  \n+ * AIに特化した先進校的な高校（Super AI High Schools：SAIS）を確立します。  \n+   * 高校は情報Iが２単位必修でベースは整っているが、アドバンスな仕組みがありません。\n+   * 全学校でアドバンスな学習を実施するのは難しいので、尖った学校を創って、そこに異能・異才を集めます。\n+@@ -92,6 +92,7 @@\n+   * 都道府県教育委員会等と連携して、教師採用試験のアップデートにも努めます。\n+     * これからの教師の求められている人物像に合わせて、試験問題を改訂します\n+     * ICT機器、AIを活用可とする試験形式や、探究学習の要素を導入します。\n++* 教員組織の活性化と指導の多様性を促進するため、現行の教員免許制度patial_start現行の教員免許制度の見直しに着手します。具体的には、社会人経験者がより円滑に教壇に立てるよう、実務経験を評価する新たな免許枠組みの導入や、免許更新制度を活用した資質向上の機会の充実、特定分野における専門性を有する外部人材の登用促進などを検討し、教職人材市場の流動性を高めることを目指します。\n+ \n+ ## ４）貧困世帯の子どもたち・保護者の皆様を支援するため、データとAIを駆使し、プッシュ型の支援を実現します\n+ "
     },
     {
@@ -250,9 +262,9 @@
       "additions": 37,
       "deletions": 0,
       "changes": 37,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,37 @@\n+{\n+  \"additions\": 3,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"この変更は、匿名ユーザーさんからのご提案を受け、「１．教育」マニフェスト内の「１）すべての子どもに「専属のAI家庭教師」を届けます」の章において、AI導入がもたらす教育的メリットをより具体的に示すことを目的としています。\\n\\n**主な変更点:**\\n現在の政策案では、AIの教育導入メリットとして「習熟度や理解度に応じた学習支援」「自己学習力や質問力の向上」「多様な学習ニーズへの対応」「教員負担の軽減」などが挙げられていますが、ここに匿名ユーザーさんのご意見を反映し、特に国語と算数におけるAIの活用イメージを明確化する文言を追加しました。\\n\\n具体的には、「AIの教育への導入には様々なメリットがあります」の項目に以下の記述を加えました。\\n「AIとの対話を通じて、国語における『話す力』を養い、コミュニケーション能力の育成を支援します。また、算数においては、単に正解を教えるのではなく、生徒が本質的な理解に至るまで対話を重ねることで、論理的思考力と学習意欲を育みます。」\\n\\n**変更の意図と目的:**\\nこの変更の意図は、AI家庭教師というコンセプトを、より具体的で魅力的なものとして提示することにあります。匿名ユーザーさんからは、「国語においては読み書きだけでなく『話す力』が重要であり、AIがその練習相手になること」、「算数においてはテクニック偏重ではなく『本質的な理解』が大切であり、AIが粘り強く対話することでそれを助けることができる」という貴重なご意見をいただきました。これらの視点を盛り込むことで、AIが単に知識を教えるだけでなく、子どもたちのコミュニケーション能力や論理的思考力、さらには学習意欲そのものを育む上で、いかに有効なツールとなり得るかを示したいと考えています。\\n\\n**背景:**\\n現代の子どもたち、特に小学生にとって、個別最適化された学習支援の必要性はますます高まっています。一方で、従来の教育現場では、全ての生徒の「話す機会」を十分に確保することや、一人ひとりが「本質的な理解」に至るまで丁寧に指導することは、時間的・人的リソースの制約から難しい側面がありました。\\n\\n匿名ユーザーさんのご指摘の通り、国語教育においては、文章を読んだり書いたりする能力に加え、自分の考えを的確に伝えたり、相手の話を理解したりする「話す力」や「聞く力」といったコミュニケーション能力の育成が不可欠です。しかし、学校や家庭で十分に会話の機会を持てない子どもたちもいるかもしれません。AIが、子どもたちにとって安心して話せる、根気強い対話のパートナーとなることで、語彙力や表現力、さらにはコミュニケーションへの積極性を育むことが期待されます。\\n\\nまた、算数教育においては、公式の暗記や計算テクニックの習得に終始するのではなく、なぜそのように考えるのか、その概念が何を表しているのかといった「本質的な理解」を伴うことが、真の学力向上と学習意欲の維持につながります。AIが、生徒の疑問にていねいに向き合い、多様な角度から問いかけ、ヒントを与えながら、生徒自身が答えにたどり着くまで辛抱強くサポートすることで、子どもたちは表面的な解法だけでなく、深い思考力を養うことができるでしょう。\\n\\n今回の変更は、このような背景を踏まえ、AI家庭教師が提供できる教育的価値をより具体的に示すことで、政策に対する理解と共感を深めることを目指しています。この提案が、日本の子どもたちの未来にとって、より良い教育環境を実現するための一助となることを願っております。（匿名ユーザー）\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T15:48:48Z\",\n+  \"deletions\": 2,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1030,\n+  \"reactionGroups\": [\n+    {\n+      \"content\": \"THUMBS_UP\",\n+      \"users\": {\n+        \"totalCount\": 1\n+      }\n+    }\n+  ],\n+  \"state\": \"OPEN\",\n+  \"title\": \"AI家庭教師による国語・算数の学習支援強化\",\n+  \"updatedAt\": \"2025-05-19T13:43:28Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1030\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 1\n+}\n\\ No newline at end of file"
     },
     {
@@ -262,9 +274,9 @@
       "additions": 27,
       "deletions": 0,
       "changes": 27,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1030_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,27 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 24b6f397c7..986070c52a 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -21,7 +21,7 @@\n+   * スタンフォード大学の「Tutor CoPilot」実験では、AIが提供するヒントによりチューターの指導力が補完され、生徒の習熟度が大幅に向上しました。  \n+ * AIの教育への導入には様々なメリットがあります。\n+   * 習熟度や理解度に応じた学習支援が可能となり、学力の底上げが期待できます。  \n+-  * 生徒の自己学習力や質問力が高まります。\n++  * 生徒の自己学習力や質問力が高まります。AIとの対話を通じて、国語における『話す力』を養い、コミュニケーション能力の育成を支援します。また、算数においては、単に正解を教えるのではなく、生徒が本質的な理解に至るまで対話を重ねることで、論理的思考力と学習意欲を育みます。\n+   * 多様な学習ニーズ（発達障害、不登校、得意不得意など）を持つ生徒へサポートできます。\n+   * 教員が全生徒に個別対応する負担を軽減できるため働き方改革にもつながります。\n+ * AIを行政が開発・配布することで、親が子どもにAIを与えるかどうかの格差を是正できます。\n+@@ -47,7 +47,7 @@\n+ ### 現状認識・課題分析\n+ \n+ * AIには、ハルシネーションやバイアスもあり、使い方によって毒にも薬にもなります。\n+-* そのため、これからの時代、子どもたちのAIリテラシーを育むことにもっと時間を使わなければなりません。\n++* そのため、これからの時代、子どもたちのAIリтеラシーを育むことにもっと時間を使わなければなりません。\n+ * 現状、文部科学省はAIの利活用ガイドラインを策定しており、子どもたちのAIリテラシー向上に向けて乗り出しています。\n+ * しかし、AIについて学ぶ時間の増加や教材作成までには至っていません。\n+ \n+@@ -105,3 +105,4 @@\n+ \n+     * AIを活用すれば、個々の家庭や子どもの状況から、関連する制度や支援策をワンストップで紹介し、申請することができます。\n+     * AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができきます。（プッシュ型支援）\n++"
     },
     {
@@ -274,9 +286,9 @@
       "additions": 43,
       "deletions": 0,
       "changes": 43,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,43 @@\n+{\n+  \"additions\": 5,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"**提案者からの修正意図（原文そのまま）**\\n- 現在の「独自のアルゴリズムで自動的に割り当てられる」という表現はなにか自分が知らない方法で割当てされてしまう印象があるように思います。そこで課題の明確化や割り当て方法を分かりやすく記述するのが望ましいと考えました。\\n- DAアルゴリズムについては説明によって主張を強化する利点より、全体文章量が増えることによるマニフェストを読むのをやめる不利益の方が多いと考えられ、削除しました\\n- 今後別のイシューについて、何を指しているかやや不明瞭であると考えたことから、教育分野として同様に関心度が高いと思われる大学入試について触れるようにしました。（そもそも主文で対象を高校入試ではなく、より広い選抜試験とするようなこともAIと議論しましたが、大学入試への適用と高校入試への適用では導入難易度に差がある可能性があると考えました。そこでまずは現実的に実現可能性が高い高校入試から初めて、他の入学者選抜に広げていく余地をのこす形にしました）\\n\\n**1. はじめに**\\n本提案は、みやこしさんとの議論に基づき、教育政策マニフェスト「１．教育」の「３）アルゴリズムと教育データ利活用によりEBPMを推進します」セクションにおけるデジタル併願制に関する記述を改善するものです。現行の記述では専門的な表現が見受けられ、読者にとって必ずしも分かりやすいとは言えない可能性がありました。また、デジタル併願制が解決しようとする具体的な課題や、その将来的な発展可能性についても十分に触れられていませんでした。今回の修正は、これらの点を改善し、マニフェストの訴求力を高めることを目的としています。\\n\\n**2. 主な変更点**\\n\\n*   **デジタル併願制のアルゴリズムに関する説明の具体化:**\\n    *   従来の「独自のアルゴリズム」という抽象的な表現を、「受験生が複数の公立高校を希望順に志望し、成績に基づいて、かつ生徒の希望順位を最大限尊重し、合格可能な学校の中から最も志望度の高い学校に自動的に割り当てられる仕組み」という、より具体的で読者の理解を助ける表現に修正しました。これにより、選考プロセスに対する透明性と安心感を高めることを目指します。\\n\\n*   **現状認識・課題分析の明確化:**\\n    *   公立高校入試における課題として、「不合格を恐れるあまり、生徒が自身の能力に見合った、あるいはそれ以上の挑戦的な学校選択を躊躇し、結果として志望校のレベルを下げてしまうケースが指摘されている」という点を明示的に追加しました。これにより、デジタル併願制導入の必要性をより具体的に示し、政策の意義を強調しています。\\n\\n*   **将来的な適用範囲の拡大に関する言及の追加:**\\n    *   デジタル併願制の考え方が公立高校入試に留まらず、「将来的には、こうしたマッチングアルゴリズムの知見を大学入試等、他の入学者選抜の機会にも応用し、より多くの学習者の機会損失を防ぐことの可能性も探ります」という一文を加えました。これにより、政策の発展性を示唆し、より広範な教育課題への貢献可能性を示すことを意図しています。\\n\\n**3. 変更の意図と期待される効果**\\n\\n今回の修正は、以下の点を意図しています。\\n\\n*   **読者の理解促進:** 専門用語を避け、より平易で具体的な言葉を用いることで、教育に関心を持つ幅広い層の読者が、政策内容を正確に理解できるようにします。\\n*   **政策の説得力向上:** デジタル併願制が解決しようとする課題を具体的に示すことで、政策の必要性やメリットに対する読者の共感を深めます。\\n*   **政策への期待感の醸成:** 大学入試など、より広範な影響力を持つ分野への展開可能性に触れることで、政策の将来性に対する期待感を高めます。\\n*   **みやこしさんのご意見の反映:** ご提案者であるみやこしさんとの詳細な議論を通じて練り上げられた内容であり、現場の感覚や読者の視点を重視した改善となっています。\\n\\nこの変更により、本マニフェストがより多くの人々に理解され、支持されるものとなることを期待しています。\\n\\nご多忙中恐縮ですが、本提案内容のご確認とご承認をいただけますよう、お願い申し上げます。\\n\\nみやこし\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T15:59:21Z\",\n+  \"deletions\": 8,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    },\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAvEF6g\",\n+      \"name\": \"thankyou\",\n+      \"description\": \"政策の改善につながったPRにつける\",\n+      \"color\": \"0EA988\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1033,\n+  \"reactionGroups\": [\n+    {\n+      \"content\": \"THUMBS_UP\",\n+      \"users\": {\n+        \"totalCount\": 1\n+      }\n+    }\n+  ],\n+  \"state\": \"OPEN\",\n+  \"title\": \"教育政策：デジタル併願制に関する記述の改善（みやこしさん提案）\",\n+  \"updatedAt\": \"2025-05-30T04:25:07Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1033\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 1\n+}\n\\ No newline at end of file"
     },
     {
@@ -286,9 +298,9 @@
       "additions": 28,
       "deletions": 0,
       "changes": 28,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1033_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,28 @@\n+diff --git \"a/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\" \"b/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n+index 86d1d269be..f27f407ad1 100644\n+--- \"a/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/21_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\222\\346\\225\\231\\350\\202\\262.md\"\n+@@ -53,11 +53,11 @@\n+ \n+ ### \t\t現状認識・課題分析\n+ \n+-* 適切なアルゴリズムを組むことでマッチングの問題を解決する  \n+-  * デジタル併願制は、受験生が複数の公立高校を希望順に志望し、成績に基づいて最適な進学先が独自のアルゴリズムで自動的に割り当てられる仕組みのことである  \n+-  * デジタル併願性を活用することで、公立高校に進学を希望する子どもの機会を保障しやすくなる。特に、経済的に公立しか選択肢のない家庭で、不合格を懸念して志望校を下げる必要がなくなり、教育格差の是正につながる  \n+-  * デジタル併願性は、ゲーム理論におけるDAアルゴリズム (Deferred Acceptance Algorithm)が基礎になっている  \n+-  * このように、学術的に実証されたアルゴリズムを活用すれば、マッチングを最適化することができ、今後別のイシューにも展開出来る\n++* 私たちは、デジタル併願制の導入を促進することで、生徒の進路選択におけるマッチングの問題解決に取り組みます。\n++  * 現状、一度の選抜機会しかない公立高校入試においては、不合格を恐れるあまり、生徒が自身の能力に見合った、あるいはそれ以上の挑戦的な学校選択を躊躇し、結果として志望校のレベルを下げてしまうケースが指摘されています。\n++  * デジタル併願制は、受験生が複数の公立高校を希望順に志望し、成績に基づいて、かつ生徒の希望順位を最大限尊重し、合格可能な学校の中から最も志望度の高い学校に自動的に割り当てられる仕組みのことです。これにより、公立高校に進学を希望する子どもの機会を保障しやすくなります。\n++  * 特に、経済的に公立しか選択肢のない家庭で、不合格を懸念して志望校を下げる必要がなくなり、教育格差の是正につながります。\n++  * また、将来的には、こうしたマッチングアルゴリズムの知見を大学入試等、他の入学者選抜の機会にも応用し、より多くの学習者の機会損失を防ぐことの可能性も探ります。\n+ \n+ ### \t\t政策概要\n+ \n+@@ -73,6 +73,3 @@\n+ \n+ イギリスのExplore Education Statisticsによる情報開示の例  \n+ /https://explore-education-statistics.service.gov.uk/find-statistics/pupil-attendance-in-schools/2025-week-15\n+-\n+-\n+-"
     },
     {
@@ -298,9 +310,9 @@
       "additions": 30,
       "deletions": 0,
       "changes": 30,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,30 @@\n+{\n+  \"additions\": 4,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"**提案者:** 匿名ユーザー\\n\\n**1. はじめに**\\n本提案は、教育分野におけるAI活用をより効果的に推進し、すべての子どもたちがその恩恵を享受できる環境を整備するための改善案です。匿名ユーザー様との議論を通じて、現行の政策案に対し、理念の強調と具体的な利用環境への配慮を加えることの重要性が確認されました。\\n\\n**2. 変更点の概要と目的**\\n\\n*   **ビジョンの強化:**\\n    *   **変更点:** 「１．教育」の「ビジョン」冒頭に「将来世代への投資は、国の持続的な発展を実現するための最重要課題です。この認識のもと、私たちは教育の革新を目指します。」という文言を追加しました。\\n    *   **目的・意図:** 教育政策、特にAIのような先進技術の導入は、単に教育手法の改善に留まらず、国家の持続的な成長と発展を支える基盤となる「将来世代への投資」であるという根源的な意義を明確にするためです。この理念を冒頭に掲げることで、政策全体の方向性と重要性をより強く訴求し、関係者の共通認識を醸成することを意図しています。\\n\\n*   **AI利用場所の明確化:**\\n    *   **変更点:** 「１）すべての子どもに「専属のAI家庭教師」を届けます」の「政策概要」において、AI配布の対象を「学校や家庭など、場所を問わず学習に活用できるよう」と具体的に記述しました。\\n    *   **目的・意図:** これまでの記述では、AIの利用が主に学校内に限定されるかのような印象を与える可能性がありました。「専属のAI家庭教師」というコンセプトをより具現化し、学習機会を学校外にも広げる意図を明確にするため、家庭を含む多様な場所での活用を想定していることを明記しました。これにより、時間や場所にとらわれない柔軟な学習スタイルへの移行を支援する姿勢を示します。\\n\\n*   **家庭における通信環境整備への配慮:**\\n    *   **変更点:** 上記のAI利用場所の明確化に伴い、「家庭での利用を促進するため、希望する家庭へのWi--Fi環境整備支援策を検討し、学習機会の均等化を図ります。」という一文を「政策概要」に追加しました。\\n    *   **目的・意図:** AIを効果的に活用するためには、安定したインターネット接続環境が不可欠です。特に家庭学習において、通信環境の有無が新たな教育格差を生む可能性を考慮しました。GIGAスクール構想による学校のネットワーク環境整備に加え、家庭環境にも目を向けることで、すべての子どもたちが等しくAI活用の機会を得られるようにするための支援策の検討を促すものです。これにより、経済的な事情等で不利な立場にある家庭の子どもたちへの配慮を示し、教育機会の公平性を担保することを目指します。\\n\\n**3. 背景**\\n今回の改善提案は、AI技術の教育現場への導入が急速に進む現代において、その効果を最大化し、同時に潜在的な課題にも先回りして対処する必要があるとの認識に基づいています。特に、AIというツールが、子どもたちの学習意欲や能力を最大限に引き出すためには、その利用環境が公平かつ普遍的であることが求められます。\\n「将来世代への戦略的な投資」という視点を加えることで、教育政策に対する社会全体の理解と支持を深め、より広範な協力を得ることにも繋がると考えます。また、家庭の通信環境という具体的な課題に言及することで、政策が絵に描いた餅で終わらないよう、実現に向けた具体的なアクションを喚起する狙いがあります。\\n\\n**4. 期待される効果**\\nこれらの変更により、以下の効果が期待されます。\\n*   政策の理念とAI導入の戦略的重要性が明確になる。\\n*   AI活用の範囲が学校に限定されず、より多様な学習シーンで活用されるイメージが共有される。\\n*   AI導入に伴う潜在的な格差問題への配慮が示され、より包括的で公平な政策としての評価が高まる。\\n*   具体的な課題（家庭のWi-Fi環境）への言及により、政策実現に向けた具体的な議論が促進される。\\n\\n本提案を通じて、本政策が、より多くの子どもたちにとって真に有益なものとなり、わが国の教育の未来を明るく照らす一助となることを願っております。\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T16:34:17Z\",\n+  \"deletions\": 1,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1036,\n+  \"reactionGroups\": [],\n+  \"state\": \"OPEN\",\n+  \"title\": \"教育政策におけるAI活用推進と環境整備に関する改善提案\",\n+  \"updatedAt\": \"2025-05-19T13:43:23Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1036\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 0\n+}\n\\ No newline at end of file"
     },
     {
@@ -310,9 +322,9 @@
       "additions": 27,
       "deletions": 0,
       "changes": 27,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1036_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,27 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 24b6f397c7..3cbe21b6ae 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -5,6 +5,7 @@\n+ \n+ ## ビジョン\n+ \n++* 将来世代への投資は、国の持続的な発展を実現するための最重要課題です。この認識のもと、私たちは教育の革新を目指します。\n+ * 教育にカスタマイズしたAIを開発・導入することで、子ども一人ひとりの個性・特性に合わせた教育を実施し、子どもたちの学力を伸ばし、好奇心を育みます。  \n+   * 小中高での情報教育・AIリテラシー教育を強化することで、子どもたちが “AIに使われる”のではなく、”AIを使いこなす” ように進化するように育みます。  \n+   * デジタルを活用して、学校の先生方の働き方改革を進めることで、子どもと向き合う時間を増やし、先生になりたい若者を増やします。  \n+@@ -28,7 +29,8 @@\n+ \n+   ### 政策概要\n+ \n+-* 足元では、ChatGPT等の既存のAI（LLM: 大規模言語モデル）を全児童生徒に配布します。  \n++* 足元では、ChatGPT等の既存のAI（LLM: 大規模言語モデル）を、学校や家庭など、場所を問わず学習に活用できるよう全児童生徒に配布します。  \n++  * また、家庭での利用を促進するため、希望する家庭へのWi-Fi環境整備支援策を検討し、学習機会の均等化を図ります。\n+   * 生成AIサプライヤーに対して、事例として発表できるように協力することで調達予算を抑えます。  \n+   * 保護者の明確な同意プロセス、教育機関による監督体制、不適切なコンテンツへのアクセス制限など、厳格な安全措置とプライバシー保護策をとります。\n+   * 完璧なルール整備を待つのではなく、パイロット校でまず試行導入するのと並行して、ガイドラインの見直しや改善を継続的に行います。\n+@@ -105,3 +107,4 @@\n+ \n+     * AIを活用すれば、個々の家庭や子どもの状況から、関連する制度や支援策をワンストップで紹介し、申請することができます。\n+     * AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができきます。（プッシュ型支援）\n++"
     },
     {
@@ -322,9 +334,9 @@
       "additions": 37,
       "deletions": 0,
       "changes": 37,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,37 @@\n+{\n+  \"additions\": 2,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"【鈴麻呂さんによる教育政策改善提案】\\n\\nこの提案は、鈴麻呂さんのご意見に基づき、「１１_ステップ１教育.md」ファイル内の「３）：AI＆ITによる教員の働き方改革を進める」の項目を一部変更するものです。\\n\\n**変更点：**\\n政策概要の冒頭、「AIで効率化できる業務は配布するAIでどんどん手放します。」という記述の後に、以下の文章を追記しました。\\n「創出された時間を活用し、教師は児童生徒との対話的な活動や、特に幼児・小学校教育段階で重要となる集団性や身体性を育む指導に、より注力できるようにします。」\\n\\n**提案の意図と目的：**\\n今回の変更は、AI技術の導入によって教員の業務負担が軽減された際に生まれる時間を、どのように活用すべきかという点を具体的に示すことを目的としています。\\n鈴麻呂さんからは、「幼児や小学生の教育には集団性や身体性を重視すべき部分もある」という重要なご指摘がありました。AIによる個別最適化された学習支援は非常に有効ですが、特に発達の初期段階にある子どもたちにとっては、他者との関わりの中で社会性を育んだり、身体を動かすことを通して心身の健全な発達を促したりすることも不可欠です。\\nこの追記により、AIは教員の仕事を奪うのではなく、教員がより人間的な触れ合いや、集団教育・体験活動といった重要な教育活動に専念できるようにするための支援ツールである、という政策の方向性をより明確にすることを目指しています。教育におけるAIの役割と、教師だからこそできる教育活動の価値を両立させる意図があります。\\n\\n**背景：**\\n現在の政策案は、AI家庭教師の導入やAIリテラシー教育の強化など、AI技術を活用した教育の革新に重点を置いています。これは非常に重要な視点ですが、一方で、子どもたちの全人的な発達という観点からは、AIだけでは代替できない教育領域も存在します。\\nご提案いただいた鈴麻呂さんのご意見は、まさにこの点を的確に捉えたものであり、AI導入のメリットを最大限に活かしつつ、教育の本質を見失わないための重要な指摘であると考えました。教員がAIによって創出された時間を、児童生徒との直接的なコミュニケーションや、発達段階に応じた集団活動の指導といった、より本質的な教育活動に再投資できるようにすることで、AI時代における新しい教師の役割を具体的に示すことができると考えます。\\nこの変更を通じて、教育政策が技術革新と教育的配慮のバランスを取りながら、子どもたちの未来にとって最善のものとなるよう、議論を深める一助となれば幸いです。\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-16T08:37:21Z\",\n+  \"deletions\": 1,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 103,\n+  \"reactionGroups\": [\n+    {\n+      \"content\": \"THUMBS_UP\",\n+      \"users\": {\n+        \"totalCount\": 1\n+      }\n+    }\n+  ],\n+  \"state\": \"OPEN\",\n+  \"title\": \"教育政策改善案：教員の役割明確化（集団性・身体性の重視）\",\n+  \"updatedAt\": \"2025-05-18T06:20:48Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/103\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 1\n+}\n\\ No newline at end of file"
     },
     {
@@ -334,9 +346,9 @@
       "additions": 18,
       "deletions": 0,
       "changes": 18,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_103_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,18 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 6c73747b42..096d7e285d 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -81,7 +81,7 @@\n+   ### 政策概要\n+ \n+ * 諸外国の事例を参考に、政策的に国産 Copilot の開発・調達し、教材作成時間を3割削減することを目指すなど、AIには教員の働き方改革を大幅に進めます。  \n+-  * 各種行政書類の作成、採点や宿題のチェック、教材の準備など、AIで効率化できる業務は配布するAIでどんどん手放します。\n++  * 各種行政書類の作成、採点や宿題のチェック、教材の準備など、AIで効率化できる業務は配布するAIでどんどん手放します。創出された時間を活用し、教師は児童生徒との対話的な活動や、特に幼児・小学校教育段階で重要となる集団性や身体性を育む指導に、より注力できるようにします。\n+   * AIアシスタントによる個別最適化研修: 各教員の強み・弱み・関心に応じて、AIが研修内容を自動設計し、オンデマンドで学べるようにします。 \n+   * 教育現場の課題データベース×AI推薦: 全国の授業改善・課題解決事例を収集し、AIが自校の課題に適した事例を推薦します。  \n+ * AI以外のデジタルツールでも先生の教育内容以外の業務を減らすことができ、関連する民間のサービスは既にあるため、補助金などで積極的に導入を進めます。  \n+@@ -105,3 +105,4 @@\n+ \n+     * AIを活用すれば、個々の家庭や子どもの状況から、関連する制度や支援策をワンストップで紹介し、申請することができます。\n+     * AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができきます。（プッシュ型支援）\n++"
     },
     {
@@ -346,9 +358,9 @@
       "additions": 37,
       "deletions": 0,
       "changes": 37,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,37 @@\n+{\n+  \"additions\": 4,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"本提案は、匿名ユーザー様よりいただいた貴重なご意見に基づき、現在策定中の教育政策案に対し、子どもたちの思考力を実践的に育むための具体的なプログラム導入を提案するものです。\\n\\n**1. 背景と課題意識**\\n\\n現代社会は情報に溢れ、子どもたちも日々多くの情報に接しています。しかし、その中には誤った情報や偏った意見も少なくありません。このような状況下で、情報を鵜呑みにせず、その真偽を見抜き、多角的な視点から物事の本質を捉える能力は、これからの社会を生き抜く上で不可欠です。\\n\\n匿名ユーザー様は、現在の学校教育が依然として知識の習得に重点を置きすぎており、子どもたちが自ら思考し、判断する力の育成が十分ではないのではないか、という課題意識をお持ちです。これからの社会では、単に多くの知識を持つこと以上に、得た情報をどのように活用し、論理的に思考し、新たな価値を生み出していくかが重要になります。まさに「どう思考するか」が問われる時代です。\\n\\n**2. 提案の目的と意義**\\n\\n本提案の最大の目的は、AIとの共生が日常となる未来を見据え、子どもたちが情報に流されることなく、自らの頭で考え、本質を見抜く力を育むことにあります。そのために、AIを効果的に活用し、観察力、洞察力、論理的な推理力を実践的に鍛える教育を推進します。\\n\\nさらに重要なのは、学習や学問が本来持っている「面白さ」や「楽しさ」を子どもたちに体験してもらうことです。匿名ユーザー様がご自身の経験として語られた、「論理パズルが解けた時のスッキリ感」「パラドックスの構造を理解できた時の知的な興奮」「自分の予想した未来が実際に訪れた時の達成感」といった「知る喜び」「理解する楽しさ」は、内発的な学習意欲を喚起する上で非常に重要です。本提案のプログラムは、まさにそのような知的な喜びを多くの子どもたちに提供することを目指します。\\n\\n**3. 具体的な変更内容**\\n\\n上記目的を達成するため、政策案「２）子どものAIリテラシーを育み、AIと共生する未来を切り拓きます」の「政策概要」部分に、以下の内容を追記しました。\\n\\n*   AIとの共生が日常となる未来において、子どもたちが情報を鵜呑みにせず、多角的な視点から物事の本質を見抜き、複雑な課題を解決していくためには、観察力、洞察力、そして論理的な推理力が不可欠であることを明記。\\n*   具体的な施策として、AIを活用し、子どもたちの観察力・推理力を養うプログラムを導入することを提案。\\n*   プログラムの具体例として、「名探偵AI」のようなキャラクターが登場し、子どもたちが日常に潜む謎をAIの助けを借りながら解決するゲーム形式の学習を提示。AIが子どもたちに観察のヒントを与えたり、集めた情報から一緒に推理を組み立てたりすることで、楽しみながら観察力、分析力、論理的思考力を養うことを目指します。\\n\\n**4. 期待される効果**\\n\\nこのプログラム導入により、以下のような効果が期待されます。\\n\\n*   子どもたちが、情報リテラシー（情報を正しく読み解く力）に加え、情報を見極め、批判的に思考する能力（クリティカルシンキング）を高める。\\n*   AIを、知識を一方的に教えられるツールとしてではなく、自らの思考を深め、課題解決を助けてくれる「一緒に学ぶパートナー」として認識し、活用する経験を積む。\\n*   ゲーム感覚で楽しく取り組む中で、観察力、分析力、論理的思考力といった、変化の激しい現代社会において将来にわたって役立つ汎用的なスキルが自然と身につく。\\n*   「やらされる勉強」から「自ら探求する学び」への転換を促し、知的好奇心に基づいた生涯にわたる学習意欲の礎を築く。\\n*   教育現場において、知識偏重から思考力重視へのシフトを具体的に後押しする一助となる。\\n\\n本提案は、教育におけるAIの新たな可能性を示唆するものであり、子どもたちの未来をより豊かにするための重要な一歩となると信じております。\\n\\n（提案者：匿名ユーザー）\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T17:58:07Z\",\n+  \"deletions\": 0,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1042,\n+  \"reactionGroups\": [\n+    {\n+      \"content\": \"THUMBS_UP\",\n+      \"users\": {\n+        \"totalCount\": 1\n+      }\n+    }\n+  ],\n+  \"state\": \"OPEN\",\n+  \"title\": \"【匿名ユーザー提案】情報に流されないための、AIを活用した観察力・推理力育成プログラム導入\",\n+  \"updatedAt\": \"2025-05-19T13:43:18Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1042\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 1\n+}\n\\ No newline at end of file"
     },
     {
@@ -358,9 +370,9 @@
       "additions": 21,
       "deletions": 0,
       "changes": 21,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_diff.txt",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_diff.txt",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1042_diff.txt?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,21 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 24b6f397c7..3189af0120 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -1,3 +1,4 @@\n++\\\n+ ⚠️ 本マニフェストは作成途中版であり、内容は今後変更の可能性があります。  \n+ 💬 ご意見・ご指摘をもとに、より良いものへと進化させていきます。詳しくは[こちら](README.md#このマニフェスト自身もみんなの知恵を集めて改善していきます)\n+ \n+@@ -53,8 +54,11 @@\n+ \n+   ### 政策概要\n+ \n++* AIとの共生が日常となる未来において、子どもたちが情報を鵜呑みにせず、多角的な視点から物事の本質を見抜き、複雑な課題を解決していくためには、観察力、洞察力、そして論理的な推理力が不可欠です。このため、AIを効果的に活用し、これらの能力を実践的に育む教育を推進します。\n+ * 小学校で生成AIの授業を行います。\n+   * 先生の負担にならないように、生成AIの倫理を学ぶコンテンツを政府が開発し、学校に提供します（半年〜毎年更新）。その際、GIGAスクール端末におけるビデオ視聴＋ソフトウェア上のインタラクション（クイズなど）で概ね完了するように手配します。 \n++* AIを活用し、子どもたちの観察力・推理力を養うプログラムを導入します。\n++  * 例えば、子どもたちが「名探偵AI」のようなキャラクターの助けを借りながら、日常に潜む謎を解決するゲーム形式のプログラムを導入します。AIが子どもたちに観察のヒントを与えたり、集めた情報から一緒に推理を組み立てたりすることで、楽しみながら観察力、分析力、論理的思考力を養います。\n+ * 中学校に教科「情報」を新設します。\n+   * 中学校には技術・家庭科があり、情報に関する教育内容はそこに含まれています。  \n+   * しかし中学校「技術・家庭科（情報分野）」は標準時数が 70 時間／３年間しかありません。  "
     },
     {
@@ -370,22 +382,10 @@
       "additions": 37,
       "deletions": 0,
       "changes": 37,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_details.json",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_details.json",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_details.json?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
+      "blob_url": "https://github.com/team-mirai/policy/blob/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_details.json",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_details.json",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_details.json?ref=a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
       "patch": "@@ -0,0 +1,37 @@\n+{\n+  \"additions\": 2,\n+  \"author\": {\n+    \"is_bot\": true,\n+    \"login\": \"app/idobata-policy-app\"\n+  },\n+  \"body\": \"今回の変更は、匿名ユーザーさんからいただいたご提案に基づき、「３）AI＆ITによる教員の働き方改革を進める」の章にある「先生秘書AIの開発」に関する記述をより具体的にし、その可能性を広げるものです。\\n\\n**変更点：**\\n\\n元の記述：「先生秘書AIの開発出欠・通知文・保護者連絡帳をスマホ音声で完結させる BOT」\\n\\n変更後の記述：「『AIいと電話』のような先生秘書AIの開発：出欠連絡、テストの自動採点報告（個別の得意・苦手分野の分析コメント付き）、通知文の作成、保護者連絡帳のデジタル化などをスマホ音声やメッセージで完結させるBOT」\\n\\n**変更の意図・目的：**\\n\\nこの変更の主な目的は、AI技術を教育現場、特に教員の業務負担軽減にどのように活用できるか、具体的なイメージを提示することです。匿名ユーザーさんからのご提案である「AIいと電話」という名称は親しみやすさがあり、政策への関心を高める効果も期待されます。\\n\\nまた、単に連絡を自動化するだけでなく、「テストの自動採点報告」に「個別の得意・苦手分野の分析コメント付き」という機能を加えることで、保護者への情報提供の質を高め、子ども一人ひとりの学習状況に合わせたよりきめ細やかなコミュニケーションを支援することを目指します。これにより、教員は煩雑な事務作業から解放され、児童生徒と向き合う時間や教材研究といった、より本質的な業務に集中できるようになることを期待しています。\\n\\n**背景：**\\n\\n教員の長時間労働は依然として大きな課題であり、その中でも保護者への連絡や報告業務は、時間的にも精神的にも負担が大きい業務の一つとして認識されています。現行の政策案でも「先生秘書AI」による支援は検討されていましたが、匿名ユーザーさんとの議論の中で、より踏み込んだ具体的な機能のアイデアが出てきました。\\n\\n特に、「AIいと電話」という具体的な名称と、テスト結果にAIが分析コメントを付加するというアイデアは、AIの得意なデータ分析能力を活かし、単なる業務効率化に留まらない付加価値を生み出す可能性を示唆しています。このような具体的な提案を盛り込むことで、政策の実現性と、それによってもたらされる教育現場へのポジティブな影響を、より明確に伝えることができると考えました。\\n\\nこの政策が実現すれば、教員はより創造的で人間的な業務に集中できるようになり、結果として教育の質の向上にもつながるでしょう。また、保護者にとっても、子どもの学習状況をより詳細に،かつタイムリーに把握できるようになるというメリットがあります。\\n\\nこの変更が、より良い教育環境の実現に向けた一歩となることを願っています。\\n\\n匿名ユーザー\",\n+  \"changedFiles\": 1,\n+  \"comments\": [],\n+  \"createdAt\": \"2025-05-18T19:13:24Z\",\n+  \"deletions\": 1,\n+  \"labels\": [\n+    {\n+      \"id\": \"LA_kwDOOqTJvM8AAAACAn5d8w\",\n+      \"name\": \"教育\",\n+      \"description\": \"\",\n+      \"color\": \"E57B81\"\n+    }\n+  ],\n+  \"mergeable\": \"UNKNOWN\",\n+  \"mergedAt\": null,\n+  \"number\": 1048,\n+  \"reactionGroups\": [\n+    {\n+      \"content\": \"THUMBS_UP\",\n+      \"users\": {\n+        \"totalCount\": 1\n+      }\n+    }\n+  ],\n+  \"state\": \"OPEN\",\n+  \"title\": \"匿名ユーザーさん発案：AIによる連絡自動化・高度化で教員をサポート\",\n+  \"updatedAt\": \"2025-05-19T13:43:11Z\",\n+  \"url\": \"https://github.com/team-mirai/policy/pull/1048\",\n+  \"commentsCount\": 0,\n+  \"totalReactions\": 1\n+}\n\\ No newline at end of file"
-    },
-    {
-      "sha": "3aa2ec963781ede09d477dbc7fc195aaae4199f4",
-      "filename": ".pr_analysis/policy_pr_analyzer/cache/pr_1048_diff.txt",
-      "status": "added",
-      "additions": 18,
-      "deletions": 0,
-      "changes": 18,
-      "blob_url": "https://github.com/team-mirai/policy/blob/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_diff.txt",
-      "raw_url": "https://github.com/team-mirai/policy/raw/0442bf804f21d632cdfa68a933a0718b4125f3dd/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_diff.txt",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.pr_analysis%2Fpolicy_pr_analyzer%2Fcache%2Fpr_1048_diff.txt?ref=0442bf804f21d632cdfa68a933a0718b4125f3dd",
-      "patch": "@@ -0,0 +1,18 @@\n+diff --git \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\" \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+index 24b6f397c7..926511d1e6 100644\n+--- \"a/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n++++ \"b/11_\\343\\202\\271\\343\\203\\206\\343\\203\\203\\343\\203\\227\\357\\274\\221\\346\\225\\231\\350\\202\\262.md\"\n+@@ -85,7 +85,7 @@\n+   * AIアシスタントによる個別最適化研修: 各教員の強み・弱み・関心に応じて、AIが研修内容を自動設計し、オンデマンドで学べるようにします。 \n+   * 教育現場の課題データベース×AI推薦: 全国の授業改善・課題解決事例を収集し、AIが自校の課題に適した事例を推薦します。  \n+ * AI以外のデジタルツールでも先生の教育内容以外の業務を減らすことができ、関連する民間のサービスは既にあるため、補助金などで積極的に導入を進めます。  \n+-  * 先生秘書AIの開発出欠・通知文・保護者連絡帳をスマホ音声で完結させる BOT  \n++  * 『AIいと電話』のような先生秘書AIの開発：出欠連絡、テストの自動採点報告（個別の得意・苦手分野の分析コメント付き）、通知文の作成、保護者連絡帳のデジタル化などをスマホ音声やメッセージで完結させるBOT  \n+   * 国産 LLM を用いた授業準備・評価・教材検索ワンストップツールの開発  等\n+ * 並行して教職員のAIリテラシーを高める施策を打ちます\n+   * 教員のICT活用指導力には自己評価でもまだ伸び代があることが判明しています。  \n+@@ -105,3 +105,4 @@\n+ \n+     * AIを活用すれば、個々の家庭や子どもの状況から、関連する制度や支援策をワンストップで紹介し、申請することができます。\n+     * AIを活用すれば、あらかじめ問題を検知し、行政から積極的に問題解決のための行動を起こすことができきます。（プッシュ型支援）\n++"
     }
   ],
   "commits": [
@@ -1700,7 +1700,171 @@
           "html_url": "https://github.com/team-mirai/policy/commit/ed66d260a8e749a86db040756d471c94deba5a71"
         }
       ]
+    },
+    {
+      "sha": "a47a7171017c1c2a9bd51f09438d820da68e776a",
+      "node_id": "C_kwDOOqTJvNoAKGE0N2E3MTcxMDE3YzFjMmE5YmQ1MWYwOTQzOGQ4MjBkYTY4ZTc3NmE",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-16T22:50:22Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-16T22:50:22Z"
+        },
+        "message": "update",
+        "tree": {
+          "sha": "45eae6a1f40d365b3af3f9b41a17800f15a1431d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/45eae6a1f40d365b3af3f9b41a17800f15a1431d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a47a7171017c1c2a9bd51f09438d820da68e776a",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a47a7171017c1c2a9bd51f09438d820da68e776a",
+      "html_url": "https://github.com/team-mirai/policy/commit/a47a7171017c1c2a9bd51f09438d820da68e776a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a47a7171017c1c2a9bd51f09438d820da68e776a/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "0442bf804f21d632cdfa68a933a0718b4125f3dd",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/0442bf804f21d632cdfa68a933a0718b4125f3dd",
+          "html_url": "https://github.com/team-mirai/policy/commit/0442bf804f21d632cdfa68a933a0718b4125f3dd"
+        }
+      ]
+    },
+    {
+      "sha": "a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
+      "node_id": "C_kwDOOqTJvNoAKGE2ODA3ZjAyZGRlYWJhNzdkMDJjZWUzZmUyZDQ5NDZhM2Y5MzUwZWQ",
+      "commit": {
+        "author": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-16T23:24:26Z"
+        },
+        "committer": {
+          "name": "Takeshi Kondo",
+          "email": "10370988+chaspy@users.noreply.github.com",
+          "date": "2025-07-16T23:24:26Z"
+        },
+        "message": "update trends",
+        "tree": {
+          "sha": "3f6a66b736acf37ad2c6bc96c05321012d97adff",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3f6a66b736acf37ad2c6bc96c05321012d97adff"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
+      "html_url": "https://github.com/team-mirai/policy/commit/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a6807f02ddeaba77d02cee3fe2d4946a3f9350ed/comments",
+      "author": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chaspy",
+        "id": 10370988,
+        "node_id": "MDQ6VXNlcjEwMzcwOTg4",
+        "avatar_url": "https://avatars.githubusercontent.com/u/10370988?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chaspy",
+        "html_url": "https://github.com/chaspy",
+        "followers_url": "https://api.github.com/users/chaspy/followers",
+        "following_url": "https://api.github.com/users/chaspy/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chaspy/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chaspy/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chaspy/subscriptions",
+        "organizations_url": "https://api.github.com/users/chaspy/orgs",
+        "repos_url": "https://api.github.com/users/chaspy/repos",
+        "events_url": "https://api.github.com/users/chaspy/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chaspy/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a47a7171017c1c2a9bd51f09438d820da68e776a",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a47a7171017c1c2a9bd51f09438d820da68e776a",
+          "html_url": "https://github.com/team-mirai/policy/commit/a47a7171017c1c2a9bd51f09438d820da68e776a"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-16T15:17:44.421193"
+  "collected_at": "2025-07-17T04:34:39.307398"
 }
