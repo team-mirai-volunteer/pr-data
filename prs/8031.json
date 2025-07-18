@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 8031,
+    "title": "憲法9条に関する議論の記録を追記",
+    "state": "open",
+    "created_at": "2025-07-18T12:02:55Z",
+    "updated_at": "2025-07-18T12:02:56Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/8031",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "968bf64ff77dfd4d5cdc7d0f8ecaf344cfdc5036",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 5,
+      "changes": 10,
+      "blob_url": "https://github.com/team-mirai/policy/blob/cfb09653966f83adaab44386da4a48e45dd5d9b2/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/cfb09653966f83adaab44386da4a48e45dd5d9b2/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=cfb09653966f83adaab44386da4a48e45dd5d9b2",
+      "patch": "@@ -116,11 +116,7 @@\n \n ### 通知のスキップ機能\n \n-政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキップできます。\n-\n-#### 使い方\n-\n-1. Pull Requestを作成後、右側のLabelsセクションから `skip-notification` ラベルを選択して追加\n+政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキ_notification` ラベルを選択して追加\n 2. このラベルが付いているPRは、マージされてもX通知が送信されません\n 3. Slack通知は引き続き送信されます（内部での進捗管理のため）\n \n@@ -135,3 +131,7 @@\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n \n+---\n+## 議論の記録\n+\n+* 憲法9条について：改正はせず、現行憲法の理念を尊重し、解釈の明確化に努める。（匿名ユーザーからの提案）"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "af31c4cab4ed68e1e1ce73925971f2616d820427",
+      "node_id": "C_kwDOOqTJvNoAKGFmMzFjNGNhYjRlZDY4ZTFlMWNlNzM5MjU5NzFmMjYxNmQ4MjA0Mjc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T11:57:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T11:57:27Z"
+        },
+        "message": "匿名ユーザーからの提案: 憲法9条に関する意見を追記",
+        "tree": {
+          "sha": "f28c5335acf146863907172fbeef166f65056b40",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f28c5335acf146863907172fbeef166f65056b40"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/af31c4cab4ed68e1e1ce73925971f2616d820427",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoejanCRC1aQ7uu5UhlAAAlYQQAELKZBDkLwfTcsuopbYiBAKy\nRT8wp+++ILP3KIVFBoVxa7NNe+BJhlCAW8NglTJ/J/MKWSjxFxuOGMHE6RrR/Wkk\ng/Z5shoeiNeN3+J1+TE4HuOnQfnblv0hdk0TPDASXSv79deLW1dXNi0tt0d3vYwa\n4yAv5SEhGRIDhmGQymVqp+32e+ZUWVX5TgCwBAyO1YVwQYROlFlB8OcttxewHe3b\nVX4I/vO/6v/um2oAgCI6W6WOiKCaq6oaWPEdlk+2wtcdKYJlUEgMmLbtzh94SJKi\n8P3zjgHUieVNz+RddGiM0tbX6H7ccQJYvof92dQrIlr8MUh3X3w3jfjsX/+9If6x\nQBj7N9IS2579OacYWy6iG7Rl3HIVeq+yHfSSD4m3a2fV1tvQBt7V1mRs/AFQ/QTq\nm3UTIC6UyVx3W0w9WLQk+rUwTXYtLmeyHMZg7CRESdC7facEhoLu1mzyYNH78XuG\n3XARQaZBfahi5wFuKa1N2fwPnE4T1xh4A3sa9y4ztrM+lQh9lqeRnceszsCDf1DA\n/9fC/8X3mNMaBMbpAnEd1FilRz0zEXsjYDylyTeEpHInDK5/zP07ChpyxxH8fYTw\nKlnDK0JIIqxl3ZlbiilkEvGrKc51D/SsclQTwD4/3mzI51n4SC6JAYq3QIcEu0Ab\nh6lixmPNuJl46V309FTW\n=MPBf\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f28c5335acf146863907172fbeef166f65056b40\nparent 51133deea3620910fe1ab5aecc7021213564e923\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752839847 +0000\ncommitter GitHub <noreply@github.com> 1752839847 +0000\n\n匿名ユーザーからの提案: 憲法9条に関する意見を追記",
+          "verified_at": "2025-07-18T11:57:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/af31c4cab4ed68e1e1ce73925971f2616d820427",
+      "html_url": "https://github.com/team-mirai/policy/commit/af31c4cab4ed68e1e1ce73925971f2616d820427",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/af31c4cab4ed68e1e1ce73925971f2616d820427/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "51133deea3620910fe1ab5aecc7021213564e923",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/51133deea3620910fe1ab5aecc7021213564e923",
+          "html_url": "https://github.com/team-mirai/policy/commit/51133deea3620910fe1ab5aecc7021213564e923"
+        }
+      ]
+    },
+    {
+      "sha": "cfb09653966f83adaab44386da4a48e45dd5d9b2",
+      "node_id": "C_kwDOOqTJvNoAKGNmYjA5NjUzOTY2ZjgzYWRhYWI0NDM4NmRhNGE0OGU0NWRkNWQ5YjI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T12:00:14Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T12:00:14Z"
+        },
+        "message": "匿名ユーザーからの提案に基づき、憲法9条に関する議論の記録を追記",
+        "tree": {
+          "sha": "c6ef527767ce6ba309abd140a1bbccecdcc576a2",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c6ef527767ce6ba309abd140a1bbccecdcc576a2"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/cfb09653966f83adaab44386da4a48e45dd5d9b2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoejdOCRC1aQ7uu5UhlAAAwI0QAKuyaIx59atNjOWOEzoui4SK\npcFNXbYm2uNtMgpyvux5aiz2k4amjQLbPCZnYqalLPvDd9lyVmNmu2F1RDCH/gSv\nYXSAt3rirreUX+tEQcfSmYRztmipohmnc/tQ5tAmeS7NzJne8DvKMskS6CisSGDj\nLnj6009iVqK2yn8NfH/xd6N3zjEY2Wv+6KKuwxR24eP5mz5IOdjvf2AhR7KYkekP\n+mnnhHeW1AoL3wGGbLaHr/GlHRWkwP5U+yGIfmZj3cgZeZs30H3UQqqjiOhI7OcS\nO0I3o0Biy/JIT4esTIQDkKq4u2+znY1/nx0+jGPNxBrB5nXeBNG39F3riB36v1CN\nkxDfRfH+6OTbWwNKaBCUnYXvtzueNY3N9PaAf+7BFgNwMCWnoo5OSPZMnGbZ+Ttl\nFRjtzqvUzVunNOpgFIYXfR4CxwAXL39KBNFqQL1KqPVFg0faC1qfmNn5vhijE8qS\n2t1riz/+9s9qzjolp7Ds/BYPAh/uyrdq3IlS6DbrUFDypOwll3c70uv6a1xi7f6c\njr9OOdzuVCRgH2GdiVEM/Qzg6lsx+7TUSnhRpabeogkPv/dAGTUZBOo83bsxXeQp\n3qdzNRdSD1trZn/hf7t0G2L1UnVVvzMajLcdSAbNBnnqP2/XCnvQoznJZCWIBW75\nvDy2XPHZ+/l+rt/qxRYI\n=5z9H\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c6ef527767ce6ba309abd140a1bbccecdcc576a2\nparent af31c4cab4ed68e1e1ce73925971f2616d820427\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752840014 +0000\ncommitter GitHub <noreply@github.com> 1752840014 +0000\n\n匿名ユーザーからの提案に基づき、憲法9条に関する議論の記録を追記",
+          "verified_at": "2025-07-18T12:00:15Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/cfb09653966f83adaab44386da4a48e45dd5d9b2",
+      "html_url": "https://github.com/team-mirai/policy/commit/cfb09653966f83adaab44386da4a48e45dd5d9b2",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/cfb09653966f83adaab44386da4a48e45dd5d9b2/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "af31c4cab4ed68e1e1ce73925971f2616d820427",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/af31c4cab4ed68e1e1ce73925971f2616d820427",
+          "html_url": "https://github.com/team-mirai/policy/commit/af31c4cab4ed68e1e1ce73925971f2616d820427"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-18T12:26:24.958348"
+}
