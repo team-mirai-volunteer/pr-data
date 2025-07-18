@@ -1,13 +1,13 @@
 {
   "basic_info": {
-    "number": 7835,
-    "title": "「コミュニケーションデザイン」の視点を教育マニフェストに導入",
+    "number": 7858,
+    "title": "選択的夫婦別姓制度の実現に関する提案",
     "state": "open",
-    "created_at": "2025-07-18T03:47:59Z",
-    "updated_at": "2025-07-18T04:32:32Z",
+    "created_at": "2025-07-18T04:50:46Z",
+    "updated_at": "2025-07-18T04:50:54Z",
     "closed_at": null,
     "merged_at": null,
-    "html_url": "https://github.com/team-mirai/policy/pull/7835",
+    "html_url": "https://github.com/team-mirai/policy/pull/7858",
     "user": {
       "login": "idobata-policy-app[bot]",
       "id": 211775619,
@@ -17,11 +17,11 @@
   "labels": [],
   "comments": [
     {
-      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3086612778",
-      "html_url": "https://github.com/team-mirai/policy/pull/7835#issuecomment-3086612778",
-      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/7835",
-      "id": 3086612778,
-      "node_id": "IC_kwDOOqTJvM63-fkq",
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3086732450",
+      "html_url": "https://github.com/team-mirai/policy/pull/7858#issuecomment-3086732450",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/7858",
+      "id": 3086732450,
+      "node_id": "IC_kwDOOqTJvM63-8yi",
       "user": {
         "login": "github-actions[bot]",
         "id": 41898282,
@@ -43,12 +43,12 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "created_at": "2025-07-18T03:48:06Z",
-      "updated_at": "2025-07-18T03:48:06Z",
+      "created_at": "2025-07-18T04:50:54Z",
+      "updated_at": "2025-07-18T04:50:54Z",
       "author_association": "NONE",
       "body": "## 📢 X（旧Twitter）通知について\n\nこのPRがマージされると、自動的にX（旧Twitter）に投稿されます。\n\nもし以下のような政策内容の実質的な変更を含まないPRの場合、X通知をスキップすることができます：\n- タイポや誤字脱字の修正\n- マークダウンのフォーマット調整\n- リンク切れの修正\n- その他、政策内容に実質的な変更を含まない修正\n\n### 通知をスキップする方法\nPRに `skip-notification` ラベルを追加してください。\n1. 右側のLabelsセクションをクリック\n2. `skip-notification` を選択\n\n※ Slack通知は内部進捗管理のため、引き続き送信されます。",
       "reactions": {
-        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3086612778/reactions",
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3086732450/reactions",
         "total_count": 0,
         "+1": 0,
         "-1": 0,
@@ -153,51 +153,63 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "8bd6c4240f14cd63a7dc23128b7f01f6d3928eb6",
-      "filename": "11_ステップ１教育.md",
-      "status": "modified",
+      "sha": "172143d31fa0380a6a083e246bac0ddb6792783d",
+      "filename": "60_選択的夫婦別姓制度の実現.md",
+      "status": "added",
       "additions": 7,
-      "deletions": 1,
-      "changes": 8,
-      "blob_url": "https://github.com/team-mirai/policy/blob/4b17d47307d1a28ec2e0001f0bc7092d07f791a1/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/4b17d47307d1a28ec2e0001f0bc7092d07f791a1/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
-      "patch": "@@ -3,6 +3,8 @@\n \n # １．教育\n \n+本章で提案する全ての教育政策は、「誰かをおとしめない」「分断を煽らない」「何事も決めつけない」という基本理念に基づいています。\n+\n ## ビジョン\n \n * 学校教育向けのAIを開発・導入し、以下を実現します。\n@@ -13,6 +15,7 @@\n   * 小中高でのデジタルリテラシー教育を強化し、子どもたち自身に、AIなどのテクノロジーを使いこなす力を育みます。\n   * AIなどのテクノロジー利用に際して予想される懸念事項に対して、文部科学省とデジタル庁とが連携してその解消に努めます。\n * 支援の必要な子ども・ご家庭に、テクノロジーの助けを借りながら、必要十分な支援をより効果的に届けます。\n+* AIだけでなく、人間同士の対話を通じて多様な価値観を理解し、建設的な合意形成ができる力を育みます。\n \n ## １）子ども一人ひとりに「専属のAIアシスタント」を届けます\n \n@@ -71,7 +74,7 @@\n ### 政策概要\n \n * IT/AIツールや追加の人員配置により、教員の授業外業務を削減します。  \n-  * 補助金等を活用し、校務支援ツールを積極的に導入します。  \n+  * 補助金 établissementsを活用し、校務支援ツールを積極的に導入します。  \n   * 各自治体の教育委員会にデジタル推進委員を配備し、各校への円滑なテクノロジー導入を支援します。  \n * 学校支援・先生支援AIを開発します。  \n   * 生徒の個人情報を安全に扱うことのできるAIを配布することで、教職員が広範な業務にAIを活用できるようにします。  \n@@ -105,6 +108,7 @@\n   * 現状の枠組みの中でできる取り組み  \n     * 道徳の時間に生成AI倫理を扱ったり、総合的な学習の時間に生成AIの使い方や注意点を学んだりします。  \n       * 教員の負担を可能な限り低減するため、学習コンテンツを政府主導で高頻度に開発し、学校に提供します。  \n+    * 多様な意見を持つ他者と協調的なコミュニケーションをとり、合意形成を図るプロセスを体験的に学ぶためのシリアスゲーム（「分断を煽らないゲーム」など）を開発・導入し、建設的な対話のスキルを育みます。\n     * 保護者世代のリテラシーを育むための啓発教材も作成し、必要に応じて学級・学校・自治体単位での研修をサポートします。  \n   * 新たな枠組みの発展的な取り組み  \n     * 中学校に教科「情報」を新設します。  \n@@ -185,3 +189,5 @@\n * 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。  \n * 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。   \n   * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n+\n+"
+      "deletions": 0,
+      "changes": 7,
+      "blob_url": "https://github.com/team-mirai/policy/blob/af795af857933c8dcf293b99a45c81005c9c9212/60_%E9%81%B8%E6%8A%9E%E7%9A%84%E5%A4%AB%E5%A9%A6%E5%88%A5%E5%A7%93%E5%88%B6%E5%BA%A6%E3%81%AE%E5%AE%9F%E7%8F%BE.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/af795af857933c8dcf293b99a45c81005c9c9212/60_%E9%81%B8%E6%8A%9E%E7%9A%84%E5%A4%AB%E5%A9%A6%E5%88%A5%E5%A7%93%E5%88%B6%E5%BA%A6%E3%81%AE%E5%AE%9F%E7%8F%BE.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/60_%E9%81%B8%E6%8A%9E%E7%9A%84%E5%A4%AB%E5%A9%A6%E5%88%A5%E5%A7%93%E5%88%B6%E5%BA%A6%E3%81%AE%E5%AE%9F%E7%8F%BE.md?ref=af795af857933c8dcf293b99a45c81005c9c9212",
+      "patch": "@@ -0,0 +1,7 @@\n+# 選択的夫婦別姓制度の実現\n+\n+## 基本的な考え方\n+* 夫婦が望む場合、結婚後も各々が法的な本名として旧姓を使用できる制度の導入を目指す。\n+\n+## DXによる戸籍制度との両立\n+* DXを推進し戸籍情報とマイナンバーを連携させることで、個人の身元や親子関係は正確に証明できる。これにより、戸籍制度の機能を維持しつつ、別姓の選択を可能にする。\n\\ No newline at end of file"
+    },
+    {
+      "sha": "5440c6153a093c0f651c0c7ff97a85ae3a40c492",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/team-mirai/policy/blob/af795af857933c8dcf293b99a45c81005c9c9212/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/af795af857933c8dcf293b99a45c81005c9c9212/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=af795af857933c8dcf293b99a45c81005c9c9212",
+      "patch": "@@ -36,6 +36,7 @@\n   * [８．福祉](38_ステップ３福祉.md) \n * [国政政党成立後１００日プラン](40_国政政党成立後100日プラン.md)  \n * [その他重要分野についての政策・ビジョン](50_国政のその他重要分野.md)\n+* [選択的夫婦別姓制度の実現](60_選択的夫婦別姓制度の実現.md)\n * [本マニフェスト掲載の政策に関する､財政支出の規模感と財源の考え](70_本マニフェスト掲載の政策に関する､財政支出の規模感と財源の考え.md)\n \n "
     }
   ],
   "commits": [
     {
-      "sha": "d5dc70561cc3aa401443ff838331007180e4a650",
-      "node_id": "C_kwDOOqTJvNoAKGQ1ZGM3MDU2MWNjM2FhNDAxNDQzZmY4MzgzMzEwMDcxODBlNGE2NTA",
+      "sha": "bb73a5887bec08b58cfe287728882b0e65406363",
+      "node_id": "C_kwDOOqTJvNoAKGJiNzNhNTg4N2JlYzA4YjU4Y2ZlMjg3NzI4ODgyYjBlNjU0MDYzNjM",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-18T03:34:48Z"
+          "date": "2025-07-18T04:43:07Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-18T03:34:48Z"
+          "date": "2025-07-18T04:43:07Z"
         },
-        "message": "匿名ユーザーさんの提案に基づき、コミュニケーションデザインの視点を追加",
+        "message": "匿名ユーザーの提案：選択的夫婦別姓制度の実現をマニフェストに追加",
         "tree": {
-          "sha": "420ac057df3a7d0c396035fb6e6e3ca8d8634c7f",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/420ac057df3a7d0c396035fb6e6e3ca8d8634c7f"
+          "sha": "3ca4c79013ccdaf27df4d3097eb4504702f85173",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3ca4c79013ccdaf27df4d3097eb4504702f85173"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d5dc70561cc3aa401443ff838331007180e4a650",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/bb73a5887bec08b58cfe287728882b0e65406363",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoecDYCRC1aQ7uu5UhlAAAJCYQAAIQR1DWYRuvpZ9H47ByCOp1\naxBgZnDYCV/GP5gVyCfnNizwLqT690jJWLU9IMQrEdhLowHkBsf0jqvpwRZ9AEkl\nzkq7Uso1O9tiuV9ZbIvSw33nyPjg6XRZjwXYQwULJNAVBB7dvgJ1NPbEnyOy3G7U\nDzerhEPktwLFA+ZHRU8KtcAOGRmhxuSP6HpfOVYGoLdoFWTL1CKB5XfxHCTMZtqT\n7YznHzZ1k9sEY8rv3JTARLIUshxMTNX+RDtHdPXc4bQJ46bucaiiyvFSC4j1Td3C\nz0RU2AOpmaUmaJKCFQIVmmNI4L4W+8Tj0BkLmf3yIg/zRfMzJmjjmET6xOx+QWWS\nKxxDpoqTvLMxed5Ccr65dvKMYEtnj0SS5yZhQtbBMRYmvm8ilkxH2qT6AhFQEtqc\nmgsa8yxBpB7KHyb3eeHIT7Et+KqFLm3SjlWWNmLLZbwQ5g7god+QgrpRmQvDJDGr\nx/ZUoEaRrv/1Rz8Wfpr7B99pjaVPeGGIUrOwdohKldou07zVrDqLVEAkm2I4VJ8S\ny4+BufL7yiYgYkTfgo2HFInDVtOYaTGJA39YnqaP8DBB1V0HkKjyiyJqQq0H6oGt\nzHhfwYh6qWZp3GNsVcneA9aNu8BGQrePpXOKq6NWX71qV+4zg3DgF4edLyZejb/5\nTKg+tug88b+EhhdnGp2A\n=AoZP\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 420ac057df3a7d0c396035fb6e6e3ca8d8634c7f\nparent 51133deea3620910fe1ab5aecc7021213564e923\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752809688 +0000\ncommitter GitHub <noreply@github.com> 1752809688 +0000\n\n匿名ユーザーさんの提案に基づき、コミュニケーションデザインの視点を追加",
-          "verified_at": "2025-07-18T03:34:48Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoedDbCRC1aQ7uu5UhlAAAdZIQAB/a7jcfLxJnSplUxPwuGCAn\n7Ijne62WgAZIoDBkzhcVrJY/gXO3KEy9B9qM2PZBXZ0fkw8PtNl5XWSwM7EdPJsI\nMyxIJhn4Mb+ihmBmxk9/wQTVBzs0uUw5sDzrqLGBVJwfqWjAzQXPZ8aiVUoRDP9K\nkwyqUasZW6ubhcX+kRre2WIAuSFaDW4u3EZCyryKEcDLuq2brfEyfNo3EdHm434z\nnuvZkBEh0wneGNoYarFQs57cONIoVzKSi/MXigt5jaZrnRxLbPV6uJ2L7a0DG21n\nZOt1QTrSjEfN1+r0pk5d6rNFROCaswCV9L2xYFuPix9qRZmEDgb61+jwf08rzP72\nkSe5aL6haloFV8uniSFvvWOwFIHibBzx+6ArU7D1ClYStbAuEargYmolXRL3XuGX\nfPvt22jZ3z0QZToq7JEturLnpyLaaoh1ZMGDRA2kChpRXCPtxfqls8XZ3exwLLT5\nLzUWePjayEZ/G2ooNnIuWZ8z8WdxssaHNYmXF5KShdUEnxHIFRWb2FhsGeQiQQEK\nYM5mRVVQ6NYu0dKr2xX7d6OnQV7S3LcOQtsP+0e6ZDM5pgoLVz9yVB25P1r2qFPY\nNQlwQphg8jkJkVWQ9dzBtjHdtGvbmCXOASl3o2PndNabnwm30mOkwRKC6RdZJp8M\ntAshTjNpPFxC9nJtNzEL\n=9F3V\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3ca4c79013ccdaf27df4d3097eb4504702f85173\nparent 51133deea3620910fe1ab5aecc7021213564e923\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752813787 +0000\ncommitter GitHub <noreply@github.com> 1752813787 +0000\n\n匿名ユーザーの提案：選択的夫婦別姓制度の実現をマニフェストに追加",
+          "verified_at": "2025-07-18T04:43:08Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/d5dc70561cc3aa401443ff838331007180e4a650",
-      "html_url": "https://github.com/team-mirai/policy/commit/d5dc70561cc3aa401443ff838331007180e4a650",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d5dc70561cc3aa401443ff838331007180e4a650/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/bb73a5887bec08b58cfe287728882b0e65406363",
+      "html_url": "https://github.com/team-mirai/policy/commit/bb73a5887bec08b58cfe287728882b0e65406363",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/bb73a5887bec08b58cfe287728882b0e65406363/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -249,37 +261,37 @@
       ]
     },
     {
-      "sha": "8654cad70bd69adab1f33103ea9350dc8fd6c983",
-      "node_id": "C_kwDOOqTJvNoAKDg2NTRjYWQ3MGJkNjlhZGFiMWYzMzEwM2VhOTM1MGRjOGZkNmM5ODM",
+      "sha": "af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22",
+      "node_id": "C_kwDOOqTJvNoAKGFmMjgzNDFiNWUzY2Q4YjJkNmFkMTljZTE0ZDdlMGI3Y2M1ZDFiMjI",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-18T03:41:25Z"
+          "date": "2025-07-18T04:49:56Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-18T03:41:25Z"
+          "date": "2025-07-18T04:49:56Z"
         },
-        "message": "匿名ユーザーの提案に基づき、コミュニケーションデザインの視点を追加",
+        "message": "feat(政策): 匿名ユーザーの提案に基づき、選択的夫婦別姓の項目を追加",
         "tree": {
-          "sha": "6f83bb4edb08d1291d05dd5744a718415687ddf0",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6f83bb4edb08d1291d05dd5744a718415687ddf0"
+          "sha": "3ca4c79013ccdaf27df4d3097eb4504702f85173",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3ca4c79013ccdaf27df4d3097eb4504702f85173"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8654cad70bd69adab1f33103ea9350dc8fd6c983",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoecJlCRC1aQ7uu5UhlAAAhAgQAK7/RpCSheNANYgByWPp7ReK\n2MSx+eQ/1Lr6jxjsDLx5f+3wCPmixVnaClkuBSnQu52B57S+gpHvB1KQm9lLoJ8z\ndfSFtb5ntYzrnhBekMCYZNkd3if6sgi4cwlzJ4QtoSe3TYv7t3AmJdmdsEBuaqrc\nhDkQQ0dn6Up/6eIw/5zuyJnlFxvAzxOa4N3gN98vA4JJ1a2Y9pFohoage89Be1go\ndHJCTlbNc8eXb107Sfhp4IwkltYmZyyn43u/SqGEMUllT6sZs1+a7saASq+DlWAm\nVNFJyLCard/1xw6dpd6fWtJ2yyp+ErhJ9ogKPqPHSLnmJRE+AoZeEWtDCkXfXKnY\n+iNN1X+WunlPo+LU1IbgsbEulvelvvEsbfH7mUNZuQck0ZBzpCvaPVwLUH2nuicn\nF6aSm0ai7MT+S8NJ/2JAgkZY+esoMeCQoRulbCT2kKyxlLBfkwhf06s8JvKLMMWx\nx2po+UljzhuHgs9frcH8dk3zpSu/VdXFDIav06//CAjbAW8dEJh4APM3haKqKi5M\nJ6T9KpkkLJ2C0wLJF6vn20g70ongdYUm6i/GBxeIUb7MOFCKmvRXifXS8unQrb/v\nOBgrb1iRQ/vpfqzTtf89z8/klUz8HqfMKk301736FL+beNM/+Q0B3Xz/z0sWVPGA\nXhLhb7SNBan0pEa9e57y\n=+iYS\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 6f83bb4edb08d1291d05dd5744a718415687ddf0\nparent d5dc70561cc3aa401443ff838331007180e4a650\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752810085 +0000\ncommitter GitHub <noreply@github.com> 1752810085 +0000\n\n匿名ユーザーの提案に基づき、コミュニケーションデザインの視点を追加",
-          "verified_at": "2025-07-18T03:41:26Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoedJ0CRC1aQ7uu5UhlAAAHWYQAIrIAdns6KUh03XN1V2St+lJ\nOal/Fxf7Xw5vxnawpxABHvr7swq8+nmULEg0WmTdHtcccfLDA2W6KuaOhACZpP20\nssHaP0DbchXG6/hVU1yVTXCx1B6Jfbs8WmYkh8fCxDWrp65fAAOSHBzMVRy2qzJO\nJ+KsJFhOdaygh5WknOzq9bSN6+6nhEwBsVIrpgdLHixZ4C4dR6CYJkccyEeM/mve\n+FPOYdiMyhEn7LqziiFcLCIIajtqXR8JuK12Oeq/J7IxFMK5ooiKRy6VDXYRPK6k\naVtAVOhUK/p8jhOQw6tis3X/K9B09TRL15bEEv1tPBDU99YmBCJmpg46K5WkjbLT\nkU6KaxrUcUXhZMo+4lgIdLXy+lWE3JpOrZt4RAzkJViZkUCiKdbfYWCvaUyldlvJ\nms6NgVM/sFyPDNiipQGPnX/34EFNbMLzBy5Ib1bh/mM2KUgIAHNmwtextzlPA9R9\nVUq+yJrQeoGAtpOebCEHRb1WlSlHCRKVlH1jLftjB7vtzstzkH/ijmGR1LXRlTqU\n9d8oaPvAoWrV7lJuTJo5yycrqDB6LYR2ImMfcEEt21CtL47e8btJJ4mAlHDyObZc\nboayiUk9+VjP2O1lR8gSU2LGd7m9ecgpEztZCg74LYHemYdJE/Fi5qpb8XIV/uKq\n0CVhcOIOM7UIFT1kvsfL\n=/ucV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3ca4c79013ccdaf27df4d3097eb4504702f85173\nparent bb73a5887bec08b58cfe287728882b0e65406363\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752814196 +0000\ncommitter GitHub <noreply@github.com> 1752814196 +0000\n\nfeat(政策): 匿名ユーザーの提案に基づき、選択的夫婦別姓の項目を追加",
+          "verified_at": "2025-07-18T04:49:56Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/8654cad70bd69adab1f33103ea9350dc8fd6c983",
-      "html_url": "https://github.com/team-mirai/policy/commit/8654cad70bd69adab1f33103ea9350dc8fd6c983",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8654cad70bd69adab1f33103ea9350dc8fd6c983/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22",
+      "html_url": "https://github.com/team-mirai/policy/commit/af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -324,44 +336,44 @@
       },
       "parents": [
         {
-          "sha": "d5dc70561cc3aa401443ff838331007180e4a650",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/d5dc70561cc3aa401443ff838331007180e4a650",
-          "html_url": "https://github.com/team-mirai/policy/commit/d5dc70561cc3aa401443ff838331007180e4a650"
+          "sha": "bb73a5887bec08b58cfe287728882b0e65406363",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/bb73a5887bec08b58cfe287728882b0e65406363",
+          "html_url": "https://github.com/team-mirai/policy/commit/bb73a5887bec08b58cfe287728882b0e65406363"
         }
       ]
     },
     {
-      "sha": "4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
-      "node_id": "C_kwDOOqTJvNoAKDRiMTdkNDczMDdkMWEyOGVjMmUwMDAxZjBiYzcwOTJkMDdmNzkxYTE",
+      "sha": "af795af857933c8dcf293b99a45c81005c9c9212",
+      "node_id": "C_kwDOOqTJvNoAKGFmNzk1YWY4NTc5MzNjOGRjZjI5M2I5OWE0NWM4MTAwNWM5YzkyMTI",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-18T04:32:31Z"
+          "date": "2025-07-18T04:49:57Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-18T04:32:31Z"
+          "date": "2025-07-18T04:49:57Z"
         },
-        "message": "匿名ユーザー様の提案に基づき、教育の基本理念、対話の重要性、シリアスゲーム開発を追記",
+        "message": "feat(政策): 匿名ユーザーの提案に基づき、選択的夫婦別姓のページを新設",
         "tree": {
-          "sha": "2883794280fcb36b2cd1f7c25023d870fba7394f",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2883794280fcb36b2cd1f7c25023d870fba7394f"
+          "sha": "42436b41fa7362a3e25d0cfb4ad30cc92b15bc25",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/42436b41fa7362a3e25d0cfb4ad30cc92b15bc25"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/af795af857933c8dcf293b99a45c81005c9c9212",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoec5fCRC1aQ7uu5UhlAAAaoUQAFMsatNCzekI/FxvlwUIVcvS\niJUhE0LiVYcLoO3BcxU5liz21P8nVVUVavbbXUgX6tm9qL7VFWHmECW7UCRSbeu2\nIFicfUQoz4ChEj0rduIkUrtARhz9LJp/1uIxWSAZjSCOV46TPFZMczb3nzzVOi5C\nFImb4LqQXtd6mk/IQgyDRUe0Qwy/hcopQKIZUv6+YRblDWkHYt+S5TyHDmtWanY3\nzqMlnHwGSWmZjLuY1FhMm/lZmxb6BwtgAsfO5kORraLMtKAjD97V4w1pI8xCvVRa\ntATC5lEXjqdbKi8wgi6O8B+XsY7QiFF9IkD8ga22rxqPrAM6yNjchTG8/xznXSvm\nZ4xKIzi4Vuf6rUa+mkAczYCU9Wz3+iYjvwofsafmvYJg0PAZXUXvM5RW0UZRl31v\nMfK+4aXFxWDkIkEUkOthtp+4dR2B/hFW71YlxSz9E5rw9TBtf2j1/thazJBgMJJ7\nVRzAtCSJZvIpMPvngaF3k5ArjKMUhU84NjB5EWfJCPH4avKdX1CHIhFxg5Gfi+z2\nFetkzZ6zTF0LTGSJyZUHxR2U9FgdeJC6bsP36aQZcBjsAO9RCpejOU7n+dWr2Zwl\nHObG87myFEAl6gmLyt9uYswWyAXcQYHHNBVTkNT4MHFeqe0ZlHr+WO9PmDq0a966\npscHl+uNlhYZhwooDj9e\n=00uE\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 2883794280fcb36b2cd1f7c25023d870fba7394f\nparent 8654cad70bd69adab1f33103ea9350dc8fd6c983\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752813151 +0000\ncommitter GitHub <noreply@github.com> 1752813151 +0000\n\n匿名ユーザー様の提案に基づき、教育の基本理念、対話の重要性、シリアスゲーム開発を追記",
-          "verified_at": "2025-07-18T04:32:31Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoedJ1CRC1aQ7uu5UhlAAA3qAQAAtFx5s+vZ6bAoKxz6qY9DG0\nfpiqHwAlQXwOmGXmLBriJPRVZh3RJuqUM4OdQXZWk9Y6Dp1G7WxRWngI9vIgXSu/\nN9DwuTIQ9zyIL6uQXy52nwNlFMHfdDYlhEpu0CLiT7TO8SQJiae5CP4LZaLsipUH\na+WGZsCi6mzkt3Ldx+VaqAT3tCAbq8GYPb3YwvTCFDtMBo2BCyx7lynfGF1tmPaD\nPzWDiuzk4lefwyiVsU3vX2OY8WxjP6Necrf2lUeERUOPSXYAW8LzklXSF8DXs9aG\nK+R8oIdDaYwzxnVnAuIYfozi7KVIwzNlfzTfxsBgYxyLzjKNt+QwphV5yun2Uutt\nh6+aok2h4fcUtyvCsEFq7JZJCi5tJLW17AU+09U/8n04/h5928Yrk55G2EUXzzF2\nHfxgP6p+Vl7D2Z7+jZV8MrwQUL/1n0KWWun8CK73IMs7xciHksbqU74KzxbeyEoa\n373Yu9YXsIOm/trJxyREih1YoIvcTmE0cqEO6MShP5Qr9ObbNxsnI2fHH8q8zfjv\nENo4TA/5mTHVihXLTbq2ZyjC5zXHcLRBhXpjTphbeKcOJ8wHZ4b1HUFFYOG69+7G\nvRRNsU2VuqywjShCUDigCDmP+sU0pjxlip+MlWzR2rEuG9qiRjsIEwx6n6pOlgaV\ne0krfqQnhP7OqQusS4bB\n=JKXG\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 42436b41fa7362a3e25d0cfb4ad30cc92b15bc25\nparent af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752814197 +0000\ncommitter GitHub <noreply@github.com> 1752814197 +0000\n\nfeat(政策): 匿名ユーザーの提案に基づき、選択的夫婦別姓のページを新設",
+          "verified_at": "2025-07-18T04:49:57Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
-      "html_url": "https://github.com/team-mirai/policy/commit/4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/4b17d47307d1a28ec2e0001f0bc7092d07f791a1/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/af795af857933c8dcf293b99a45c81005c9c9212",
+      "html_url": "https://github.com/team-mirai/policy/commit/af795af857933c8dcf293b99a45c81005c9c9212",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/af795af857933c8dcf293b99a45c81005c9c9212/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -406,12 +418,12 @@
       },
       "parents": [
         {
-          "sha": "8654cad70bd69adab1f33103ea9350dc8fd6c983",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/8654cad70bd69adab1f33103ea9350dc8fd6c983",
-          "html_url": "https://github.com/team-mirai/policy/commit/8654cad70bd69adab1f33103ea9350dc8fd6c983"
+          "sha": "af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22",
+          "html_url": "https://github.com/team-mirai/policy/commit/af28341b5e3cd8b2d6ad19ce14d7e0b7cc5d1b22"
         }
       ]
     }
   ],
-  "collected_at": "2025-07-18T04:34:19.683007"
+  "collected_at": "2025-07-18T05:02:47.081331"
 }

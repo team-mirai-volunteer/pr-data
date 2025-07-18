@@ -1,13 +1,13 @@
 {
   "basic_info": {
-    "number": 7835,
-    "title": "「コミュニケーションデザイン」の視点を教育マニフェストに導入",
+    "number": 7861,
+    "title": "「労働」の項目を新設し、実効性のある労働環境改善策を提案",
     "state": "open",
-    "created_at": "2025-07-18T03:47:59Z",
-    "updated_at": "2025-07-18T04:32:32Z",
+    "created_at": "2025-07-18T04:55:59Z",
+    "updated_at": "2025-07-18T04:56:11Z",
     "closed_at": null,
     "merged_at": null,
-    "html_url": "https://github.com/team-mirai/policy/pull/7835",
+    "html_url": "https://github.com/team-mirai/policy/pull/7861",
     "user": {
       "login": "idobata-policy-app[bot]",
       "id": 211775619,
@@ -17,11 +17,11 @@
   "labels": [],
   "comments": [
     {
-      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3086612778",
-      "html_url": "https://github.com/team-mirai/policy/pull/7835#issuecomment-3086612778",
-      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/7835",
-      "id": 3086612778,
-      "node_id": "IC_kwDOOqTJvM63-fkq",
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3086740262",
+      "html_url": "https://github.com/team-mirai/policy/pull/7861#issuecomment-3086740262",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/7861",
+      "id": 3086740262,
+      "node_id": "IC_kwDOOqTJvM63--sm",
       "user": {
         "login": "github-actions[bot]",
         "id": 41898282,
@@ -43,12 +43,12 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "created_at": "2025-07-18T03:48:06Z",
-      "updated_at": "2025-07-18T03:48:06Z",
+      "created_at": "2025-07-18T04:56:11Z",
+      "updated_at": "2025-07-18T04:56:11Z",
       "author_association": "NONE",
       "body": "## 📢 X（旧Twitter）通知について\n\nこのPRがマージされると、自動的にX（旧Twitter）に投稿されます。\n\nもし以下のような政策内容の実質的な変更を含まないPRの場合、X通知をスキップすることができます：\n- タイポや誤字脱字の修正\n- マークダウンのフォーマット調整\n- リンク切れの修正\n- その他、政策内容に実質的な変更を含まない修正\n\n### 通知をスキップする方法\nPRに `skip-notification` ラベルを追加してください。\n1. 右側のLabelsセクションをクリック\n2. `skip-notification` を選択\n\n※ Slack通知は内部進捗管理のため、引き続き送信されます。",
       "reactions": {
-        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3086612778/reactions",
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3086740262/reactions",
         "total_count": 0,
         "+1": 0,
         "-1": 0,
@@ -153,51 +153,63 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "8bd6c4240f14cd63a7dc23128b7f01f6d3928eb6",
-      "filename": "11_ステップ１教育.md",
+      "sha": "9779992d12252b01b8193754d2f0560c81426888",
+      "filename": "19_ステップ１労働.md",
+      "status": "added",
+      "additions": 39,
+      "deletions": 0,
+      "changes": 39,
+      "blob_url": "https://github.com/team-mirai/policy/blob/688150ad8e924f27b6da0ef81a0c0fc56529f98e/19_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8A%B4%E5%83%8D.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/688150ad8e924f27b6da0ef81a0c0fc56529f98e/19_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8A%B4%E5%83%8D.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/19_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E5%8A%B4%E5%83%8D.md?ref=688150ad8e924f27b6da0ef81a0c0fc56529f98e",
+      "patch": "@@ -0,0 +1,39 @@\n+# ステップ１-９．労働\n+\n+## 頑張った人が報われる、公正な労働環境へ\n+\n+長時間労働、残業代の未払い、有給休暇取得の妨害など、労働基準法が守られない職場の問題は後を絶ちません。特に中小企業では、経営体力や情報不足から、働き方改革の流れから取り残されがちです。これでは、働く人々が疲弊し、産業の健全な成長も望めません。\n+\n+チームみらいは、誰もが安心して、公正な環境で働ける社会を目指します。頑張った人が正当に報われ、心身ともに健康に働き続けられる仕組みを、デジタル技術を活用して構築します。\n+\n+### １．改ざん不可能な勤怠管理システムで、ごまかしを許さない\n+\n+**課題:**\n+従来のタイムカードや自己申告制の勤怠管理は、改ざんや虚偽報告のリスクが常にありました。労働基準監督署の監査が入っても、その場しのぎの対応で実態が隠蔽されてしまうケースが少なくありません。\n+\n+**解決策:**\n+*   **改ざん防止機能付き勤怠管理システムの導入義務化:**\n+    *   全事業者を対象に、一度記録した情報の修正・削除履歴がすべて残る、改ざん不可能な勤怠管理システムの導入を義務付けます。\n+    *   労働者のスマートフォンなどから、出退勤時刻や休憩時間がGPS情報などと連携して自動的に記録される仕組みを推進します。\n+\n+### ２．労働者の声を直接届ける、新しい監査の仕組み\n+\n+**課題:**\n+現在の監査では、経営者への聞き取りが中心となり、現場で働く労働者の声が直接届きにくい構造になっています。これでは、本当の労働実態を把握することは困難です。\n+\n+**解決策:**\n+*   **労働者から公的機関へのダイレクト・匿名報告:**\n+    *   労働者が、自身の勤怠記録や給与明細などのデータを、匿名性を確保した上で、スマートフォンなどから直接、労働基準監督署などの公的機関に報告できるシステムを構築・義務化します。\n+    *   監査の際には、経営層への聞き取りだけでなく、全労働者を対象とした匿名のオンラインアンケートや、希望者への個別ヒアリングを必ず実施するよう制度化します。\n+\n+### ３．一度きりで終わらせない、継続的な監視と改善支援\n+\n+**課題:**\n+労働基準監督署から是正勧告が出されても、その後の改善が十分に行われず、再び問題が繰り返されるケースが多く見られます。\n+\n+**解決策:**\n+*   **是正勧告後の継続的モニタリングと改善支援:**\n+    *   一度でも是正勧告を受けた企業に対しては、改善が確認されるまで、労働者への定期的な匿名アンケートの実施を義務付けます。\n+    *   専門家（社会保険労務士など）が、単に問題点を指摘するだけでなく、企業の実情に合わせて、どうすれば労働環境を改善できるか、具体的なアドバイスやコンサルティングを継続的に行う仕組みを構築します。\n+\n+これらの政策を通じて、私たちは、一部の不公正な企業が利益を得るのではなく、すべての働く人が尊重され、その努力が正当に報われる社会を実現します。\n\\ No newline at end of file"
+    },
+    {
+      "sha": "4e0e821280b045b1a65a23f8225e921f3de9e5a0",
+      "filename": "README.md",
       "status": "modified",
-      "additions": 7,
+      "additions": 1,
       "deletions": 1,
-      "changes": 8,
-      "blob_url": "https://github.com/team-mirai/policy/blob/4b17d47307d1a28ec2e0001f0bc7092d07f791a1/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/4b17d47307d1a28ec2e0001f0bc7092d07f791a1/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/11_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E6%95%99%E8%82%B2.md?ref=4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
-      "patch": "@@ -3,6 +3,8 @@\n \n # １．教育\n \n+本章で提案する全ての教育政策は、「誰かをおとしめない」「分断を煽らない」「何事も決めつけない」という基本理念に基づいています。\n+\n ## ビジョン\n \n * 学校教育向けのAIを開発・導入し、以下を実現します。\n@@ -13,6 +15,7 @@\n   * 小中高でのデジタルリテラシー教育を強化し、子どもたち自身に、AIなどのテクノロジーを使いこなす力を育みます。\n   * AIなどのテクノロジー利用に際して予想される懸念事項に対して、文部科学省とデジタル庁とが連携してその解消に努めます。\n * 支援の必要な子ども・ご家庭に、テクノロジーの助けを借りながら、必要十分な支援をより効果的に届けます。\n+* AIだけでなく、人間同士の対話を通じて多様な価値観を理解し、建設的な合意形成ができる力を育みます。\n \n ## １）子ども一人ひとりに「専属のAIアシスタント」を届けます\n \n@@ -71,7 +74,7 @@\n ### 政策概要\n \n * IT/AIツールや追加の人員配置により、教員の授業外業務を削減します。  \n-  * 補助金等を活用し、校務支援ツールを積極的に導入します。  \n+  * 補助金 établissementsを活用し、校務支援ツールを積極的に導入します。  \n   * 各自治体の教育委員会にデジタル推進委員を配備し、各校への円滑なテクノロジー導入を支援します。  \n * 学校支援・先生支援AIを開発します。  \n   * 生徒の個人情報を安全に扱うことのできるAIを配布することで、教職員が広範な業務にAIを活用できるようにします。  \n@@ -105,6 +108,7 @@\n   * 現状の枠組みの中でできる取り組み  \n     * 道徳の時間に生成AI倫理を扱ったり、総合的な学習の時間に生成AIの使い方や注意点を学んだりします。  \n       * 教員の負担を可能な限り低減するため、学習コンテンツを政府主導で高頻度に開発し、学校に提供します。  \n+    * 多様な意見を持つ他者と協調的なコミュニケーションをとり、合意形成を図るプロセスを体験的に学ぶためのシリアスゲーム（「分断を煽らないゲーム」など）を開発・導入し、建設的な対話のスキルを育みます。\n     * 保護者世代のリテラシーを育むための啓発教材も作成し、必要に応じて学級・学校・自治体単位での研修をサポートします。  \n   * 新たな枠組みの発展的な取り組み  \n     * 中学校に教科「情報」を新設します。  \n@@ -185,3 +189,5 @@\n * 教育現場における様々な課題解決のため、実証されたアルゴリズムの活用を推進します。  \n * 今後、更なるアルゴリズムの活用可能性を探り、教育の質の向上や機会の均等化に繋がる具体的な政策を検討していきます。   \n   * 例：個々の学習進度に合わせた教材推薦アルゴリズム、特別な支援が必要な生徒の早期発見アルゴリズムなど。\n+\n+"
+      "changes": 2,
+      "blob_url": "https://github.com/team-mirai/policy/blob/688150ad8e924f27b6da0ef81a0c0fc56529f98e/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/688150ad8e924f27b6da0ef81a0c0fc56529f98e/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=688150ad8e924f27b6da0ef81a0c0fc56529f98e",
+      "patch": "@@ -19,6 +19,7 @@\n   * [６．デジタル民主主義](16_ステップ１デジタル民主主義.md)  \n   * [７．医療](17_ステップ１医療.md)\n   * [８．福祉](18_ステップ１福祉.md)\n+  * [９．労働](19_ステップ１労働.md)\n * [ステップ２「変化に対応できる、しなやかな仕組みづくり」](20_ステップ２「変化に対応できるしなやかな仕組みづくり」.md)  \n   * [１．教育](21_ステップ２教育.md)  \n   * [２．くらしと行政](22_ステップ２くらしと行政.md)  \n@@ -134,4 +135,3 @@\n ## おしゃべりできるシステム『いどばたシステム』について\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n-"
     }
   ],
   "commits": [
     {
-      "sha": "d5dc70561cc3aa401443ff838331007180e4a650",
-      "node_id": "C_kwDOOqTJvNoAKGQ1ZGM3MDU2MWNjM2FhNDAxNDQzZmY4MzgzMzEwMDcxODBlNGE2NTA",
+      "sha": "a5a2b2c8c43267e34bd20befd073f547c373a365",
+      "node_id": "C_kwDOOqTJvNoAKGE1YTJiMmM4YzQzMjY3ZTM0YmQyMGJlZmQwNzNmNTQ3YzM3M2EzNjU",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-18T03:34:48Z"
+          "date": "2025-07-18T04:36:53Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-18T03:34:48Z"
+          "date": "2025-07-18T04:36:53Z"
         },
-        "message": "匿名ユーザーさんの提案に基づき、コミュニケーションデザインの視点を追加",
+        "message": "feat: ステップ1に労働分野を追加 by 麻婆ドーフ",
         "tree": {
-          "sha": "420ac057df3a7d0c396035fb6e6e3ca8d8634c7f",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/420ac057df3a7d0c396035fb6e6e3ca8d8634c7f"
+          "sha": "dd7d6bde03fb868ab381eb2ebfad1a253402fdf3",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/dd7d6bde03fb868ab381eb2ebfad1a253402fdf3"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d5dc70561cc3aa401443ff838331007180e4a650",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a5a2b2c8c43267e34bd20befd073f547c373a365",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoecDYCRC1aQ7uu5UhlAAAJCYQAAIQR1DWYRuvpZ9H47ByCOp1\naxBgZnDYCV/GP5gVyCfnNizwLqT690jJWLU9IMQrEdhLowHkBsf0jqvpwRZ9AEkl\nzkq7Uso1O9tiuV9ZbIvSw33nyPjg6XRZjwXYQwULJNAVBB7dvgJ1NPbEnyOy3G7U\nDzerhEPktwLFA+ZHRU8KtcAOGRmhxuSP6HpfOVYGoLdoFWTL1CKB5XfxHCTMZtqT\n7YznHzZ1k9sEY8rv3JTARLIUshxMTNX+RDtHdPXc4bQJ46bucaiiyvFSC4j1Td3C\nz0RU2AOpmaUmaJKCFQIVmmNI4L4W+8Tj0BkLmf3yIg/zRfMzJmjjmET6xOx+QWWS\nKxxDpoqTvLMxed5Ccr65dvKMYEtnj0SS5yZhQtbBMRYmvm8ilkxH2qT6AhFQEtqc\nmgsa8yxBpB7KHyb3eeHIT7Et+KqFLm3SjlWWNmLLZbwQ5g7god+QgrpRmQvDJDGr\nx/ZUoEaRrv/1Rz8Wfpr7B99pjaVPeGGIUrOwdohKldou07zVrDqLVEAkm2I4VJ8S\ny4+BufL7yiYgYkTfgo2HFInDVtOYaTGJA39YnqaP8DBB1V0HkKjyiyJqQq0H6oGt\nzHhfwYh6qWZp3GNsVcneA9aNu8BGQrePpXOKq6NWX71qV+4zg3DgF4edLyZejb/5\nTKg+tug88b+EhhdnGp2A\n=AoZP\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 420ac057df3a7d0c396035fb6e6e3ca8d8634c7f\nparent 51133deea3620910fe1ab5aecc7021213564e923\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752809688 +0000\ncommitter GitHub <noreply@github.com> 1752809688 +0000\n\n匿名ユーザーさんの提案に基づき、コミュニケーションデザインの視点を追加",
-          "verified_at": "2025-07-18T03:34:48Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoec9lCRC1aQ7uu5UhlAAAcBoQAB29MAC0xAnfn6PcfvTU90Z7\nG6x7gK7bQdsAb8Os5xUqipqrPs5kkDmrlc63PCIiX+jqJpzq4fveotZ5MOb5A6km\nbySvmSCP97H6WdoRdRvC1FipS81b9isCtYfopiFp4upuHeZtCExPO6chqX6QKIzg\n870+cspfbDcVYsGltPDfxEnmp9Xh3PZu5CEzX5zrGnrZMIm5J6Gqf1B01/G2wXt6\njclk9mQvKNMB+cPW01IzqM9g11sNqAHa+DXc9JxKbeI4jkAcCj9ttmA6jshROQPY\n9UlT7CdZ8CUIn4nRJXQxzJzfQEqxRaV9rl/7v1XVS6ctsdPgs3CY/XFmrmw7BpXW\ncqJ9RvS4m4OiyyIzvxohBpL4oHBJIQG+pOsL4OjV3HXdgcmvq82VYRigDlLoL5fh\nKip4Xf67aeXxS2qMjrQ9F3Q7bMi/qyXIggOFYe6UI+IKsDfFjyMAXnRjSLiaQDyc\n7/umeClct9IL+zuEJHqLlAv411rnoKQX/gP3iHjaePVb0lTjZjnxrt/dRqWZRbhA\nCzQLwVSdqYugfMqndFIYgIkMu++9Hni04OS0AAeHYK881KUAzHbXQlbMcONnedPx\naOwXBCZw6agTTCMwnXDKLwcdYN29nwmDgpdkAt9gh3rM3JGOPdI+BoC598xKSjn5\n20zwpaBkbY65k/8QZjX4\n=LSsv\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree dd7d6bde03fb868ab381eb2ebfad1a253402fdf3\nparent 51133deea3620910fe1ab5aecc7021213564e923\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752813413 +0000\ncommitter GitHub <noreply@github.com> 1752813413 +0000\n\nfeat: ステップ1に労働分野を追加 by 麻婆ドーフ",
+          "verified_at": "2025-07-18T04:36:54Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/d5dc70561cc3aa401443ff838331007180e4a650",
-      "html_url": "https://github.com/team-mirai/policy/commit/d5dc70561cc3aa401443ff838331007180e4a650",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d5dc70561cc3aa401443ff838331007180e4a650/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a5a2b2c8c43267e34bd20befd073f547c373a365",
+      "html_url": "https://github.com/team-mirai/policy/commit/a5a2b2c8c43267e34bd20befd073f547c373a365",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a5a2b2c8c43267e34bd20befd073f547c373a365/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -249,37 +261,37 @@
       ]
     },
     {
-      "sha": "8654cad70bd69adab1f33103ea9350dc8fd6c983",
-      "node_id": "C_kwDOOqTJvNoAKDg2NTRjYWQ3MGJkNjlhZGFiMWYzMzEwM2VhOTM1MGRjOGZkNmM5ODM",
+      "sha": "96390e4cff1f9c4f12d0be7356912aa923f9275d",
+      "node_id": "C_kwDOOqTJvNoAKDk2MzkwZTRjZmYxZjljNGYxMmQwYmU3MzU2OTEyYWE5MjNmOTI3NWQ",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-18T03:41:25Z"
+          "date": "2025-07-18T04:40:54Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-18T03:41:25Z"
+          "date": "2025-07-18T04:40:54Z"
         },
-        "message": "匿名ユーザーの提案に基づき、コミュニケーションデザインの視点を追加",
+        "message": "麻婆ドーフさんの提案に基づき、ステップ1の目次に「労働」の項目を追加",
         "tree": {
-          "sha": "6f83bb4edb08d1291d05dd5744a718415687ddf0",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/6f83bb4edb08d1291d05dd5744a718415687ddf0"
+          "sha": "a9b686dea318c19795cd0a9ca644bfe335382278",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a9b686dea318c19795cd0a9ca644bfe335382278"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/8654cad70bd69adab1f33103ea9350dc8fd6c983",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/96390e4cff1f9c4f12d0be7356912aa923f9275d",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoecJlCRC1aQ7uu5UhlAAAhAgQAK7/RpCSheNANYgByWPp7ReK\n2MSx+eQ/1Lr6jxjsDLx5f+3wCPmixVnaClkuBSnQu52B57S+gpHvB1KQm9lLoJ8z\ndfSFtb5ntYzrnhBekMCYZNkd3if6sgi4cwlzJ4QtoSe3TYv7t3AmJdmdsEBuaqrc\nhDkQQ0dn6Up/6eIw/5zuyJnlFxvAzxOa4N3gN98vA4JJ1a2Y9pFohoage89Be1go\ndHJCTlbNc8eXb107Sfhp4IwkltYmZyyn43u/SqGEMUllT6sZs1+a7saASq+DlWAm\nVNFJyLCard/1xw6dpd6fWtJ2yyp+ErhJ9ogKPqPHSLnmJRE+AoZeEWtDCkXfXKnY\n+iNN1X+WunlPo+LU1IbgsbEulvelvvEsbfH7mUNZuQck0ZBzpCvaPVwLUH2nuicn\nF6aSm0ai7MT+S8NJ/2JAgkZY+esoMeCQoRulbCT2kKyxlLBfkwhf06s8JvKLMMWx\nx2po+UljzhuHgs9frcH8dk3zpSu/VdXFDIav06//CAjbAW8dEJh4APM3haKqKi5M\nJ6T9KpkkLJ2C0wLJF6vn20g70ongdYUm6i/GBxeIUb7MOFCKmvRXifXS8unQrb/v\nOBgrb1iRQ/vpfqzTtf89z8/klUz8HqfMKk301736FL+beNM/+Q0B3Xz/z0sWVPGA\nXhLhb7SNBan0pEa9e57y\n=+iYS\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 6f83bb4edb08d1291d05dd5744a718415687ddf0\nparent d5dc70561cc3aa401443ff838331007180e4a650\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752810085 +0000\ncommitter GitHub <noreply@github.com> 1752810085 +0000\n\n匿名ユーザーの提案に基づき、コミュニケーションデザインの視点を追加",
-          "verified_at": "2025-07-18T03:41:26Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoedBWCRC1aQ7uu5UhlAAAdywQADwgetTUWGzyfrTbGLdJhGGf\n5ondcIIhmS0eRdQ3R+hXRRK5GrCPL4j35IOouNSp1Z5P5SJ3ygYM+BSuNWO4m7Dd\nHwJIPCxmS6PWPNB5G+nV1lArhvjpH7KnfP1/3JPiWRG4LNGm83IG+Y7N7Ss5gZdy\nfiz4dMHRQXalXn6EGJ95K+/mbJI8ZcQ5U5K0hRQTVYtIdHc7zbnuIBcqi2bXDK91\n1zfooFmIAi5KybJyiR33ST6f62vyvNdICsiakk3nwXX+ZzVqJ+CDN7UNU7YYgGA7\nkmneqqvMCwZXHfXt+/gMGoSBSrBUGLMH+MEKD32CE0bJ5rTbBOx8PpL8q8JQIYQe\nLZcGCBK2iqfwMXbLZPb0IuwHrMeGcZYeGlnNaOMNGhMeadEiRy/CtUo0EP7QMtet\nigvcehpOzB4GhwInmc520vuO0oSnjCAEbBoIDIsk7shjN9JITLYImNdsrI3SppSw\nYgzYw/lz0IIdczIxeYGqZbunmJGq3SlWBDDic05hCgJhV19e/iDeEUJpY1OAX9SS\nlTyjbyIRAD0ytQOJ8Jjvl8/XLFJ0jKZj01ASTL9gQLXfDcapLxD88B7rslEwLZPV\nOBhMjIY7H1dg1TgoG8PNGXZSrC+c8nu/GeMmD/Uu8/avIRAY6hrfkneJmryAaYJv\nlq/kCehqqtSHdAr6w6xY\n=acSD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a9b686dea318c19795cd0a9ca644bfe335382278\nparent a5a2b2c8c43267e34bd20befd073f547c373a365\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752813654 +0000\ncommitter GitHub <noreply@github.com> 1752813654 +0000\n\n麻婆ドーフさんの提案に基づき、ステップ1の目次に「労働」の項目を追加",
+          "verified_at": "2025-07-18T04:40:55Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/8654cad70bd69adab1f33103ea9350dc8fd6c983",
-      "html_url": "https://github.com/team-mirai/policy/commit/8654cad70bd69adab1f33103ea9350dc8fd6c983",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/8654cad70bd69adab1f33103ea9350dc8fd6c983/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/96390e4cff1f9c4f12d0be7356912aa923f9275d",
+      "html_url": "https://github.com/team-mirai/policy/commit/96390e4cff1f9c4f12d0be7356912aa923f9275d",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/96390e4cff1f9c4f12d0be7356912aa923f9275d/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -324,44 +336,44 @@
       },
       "parents": [
         {
-          "sha": "d5dc70561cc3aa401443ff838331007180e4a650",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/d5dc70561cc3aa401443ff838331007180e4a650",
-          "html_url": "https://github.com/team-mirai/policy/commit/d5dc70561cc3aa401443ff838331007180e4a650"
+          "sha": "a5a2b2c8c43267e34bd20befd073f547c373a365",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/a5a2b2c8c43267e34bd20befd073f547c373a365",
+          "html_url": "https://github.com/team-mirai/policy/commit/a5a2b2c8c43267e34bd20befd073f547c373a365"
         }
       ]
     },
     {
-      "sha": "4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
-      "node_id": "C_kwDOOqTJvNoAKDRiMTdkNDczMDdkMWEyOGVjMmUwMDAxZjBiYzcwOTJkMDdmNzkxYTE",
+      "sha": "688150ad8e924f27b6da0ef81a0c0fc56529f98e",
+      "node_id": "C_kwDOOqTJvNoAKDY4ODE1MGFkOGU5MjRmMjdiNmRhMGVmODFhMGMwZmM1NjUyOWY5OGU",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-18T04:32:31Z"
+          "date": "2025-07-18T04:53:07Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-18T04:32:31Z"
+          "date": "2025-07-18T04:53:07Z"
         },
-        "message": "匿名ユーザー様の提案に基づき、教育の基本理念、対話の重要性、シリアスゲーム開発を追記",
+        "message": "麻婆ドーフさんの提案に基づき、労働に関する政策を新設",
         "tree": {
-          "sha": "2883794280fcb36b2cd1f7c25023d870fba7394f",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2883794280fcb36b2cd1f7c25023d870fba7394f"
+          "sha": "7fe6eb172528fa38d51b4a345c0108c4c34bc223",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/7fe6eb172528fa38d51b4a345c0108c4c34bc223"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/688150ad8e924f27b6da0ef81a0c0fc56529f98e",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoec5fCRC1aQ7uu5UhlAAAaoUQAFMsatNCzekI/FxvlwUIVcvS\niJUhE0LiVYcLoO3BcxU5liz21P8nVVUVavbbXUgX6tm9qL7VFWHmECW7UCRSbeu2\nIFicfUQoz4ChEj0rduIkUrtARhz9LJp/1uIxWSAZjSCOV46TPFZMczb3nzzVOi5C\nFImb4LqQXtd6mk/IQgyDRUe0Qwy/hcopQKIZUv6+YRblDWkHYt+S5TyHDmtWanY3\nzqMlnHwGSWmZjLuY1FhMm/lZmxb6BwtgAsfO5kORraLMtKAjD97V4w1pI8xCvVRa\ntATC5lEXjqdbKi8wgi6O8B+XsY7QiFF9IkD8ga22rxqPrAM6yNjchTG8/xznXSvm\nZ4xKIzi4Vuf6rUa+mkAczYCU9Wz3+iYjvwofsafmvYJg0PAZXUXvM5RW0UZRl31v\nMfK+4aXFxWDkIkEUkOthtp+4dR2B/hFW71YlxSz9E5rw9TBtf2j1/thazJBgMJJ7\nVRzAtCSJZvIpMPvngaF3k5ArjKMUhU84NjB5EWfJCPH4avKdX1CHIhFxg5Gfi+z2\nFetkzZ6zTF0LTGSJyZUHxR2U9FgdeJC6bsP36aQZcBjsAO9RCpejOU7n+dWr2Zwl\nHObG87myFEAl6gmLyt9uYswWyAXcQYHHNBVTkNT4MHFeqe0ZlHr+WO9PmDq0a966\npscHl+uNlhYZhwooDj9e\n=00uE\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree 2883794280fcb36b2cd1f7c25023d870fba7394f\nparent 8654cad70bd69adab1f33103ea9350dc8fd6c983\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752813151 +0000\ncommitter GitHub <noreply@github.com> 1752813151 +0000\n\n匿名ユーザー様の提案に基づき、教育の基本理念、対話の重要性、シリアスゲーム開発を追記",
-          "verified_at": "2025-07-18T04:32:31Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoedMzCRC1aQ7uu5UhlAAA0qkQAAqXXZ7nq6+Yq3T6LfC2mwZt\n8wrH3E7/3AynyzQ2wbXWZRMCxYs+C2HVqKUVYYPNdhDglprCRhQY45unmxiaSJpg\naYvtjDC/Khsa4EsfrN4dK3oqY8jzF40PgB5Uy7Mw5zLlKNDj4IlCxU55fALgYXPk\nD92C/cL+FcXe/eoiZF25G0BW9HgfB5gN9WZ8lnVL6gIBQ33q4rt8LorLIzhzJezz\nhYwmGnXczTlQclZPa3KtXaxAw6Wxm8LrZONW6X6vDipMl8HJvtRKubdfMed5YDfF\nWjX5r6t5rILyEZBoLMgyKHPpFokil6jSI8jKc2K+52Asyf/LXP8hz6hWEhPgnqcb\nr5NIhvyVKR1HDVN7OO+rSeDVtx11U5R6ix6vWDCQOR39MkTVBrnsktkMiqiJWEP4\nDzzzKu1vVa0FbHTdGkeL2pgexnFYBVFJ0RgEA492QOhJVGxhZmO1xggBrnV4njyb\nuKyrF1YRoUFQWUiOYK0t4nBNajVGKs6oxkf/3kqsoa3dCgVhV3YotkeYuM/s171C\ndwlYPDuBvZBcRT7cJMYofroS7sYIlWg0m3IvP5w3J0e5TzYuOo9ChyJkX9UKv0ru\nCctPq/P3SV8jUhhkmVGrJq94WIo4Gwto9HVj+Mh21p0Ufka6daLx/89ksch4krrk\nFdmtme51suA+2oqD5ulI\n=UUuS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 7fe6eb172528fa38d51b4a345c0108c4c34bc223\nparent 96390e4cff1f9c4f12d0be7356912aa923f9275d\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752814387 +0000\ncommitter GitHub <noreply@github.com> 1752814387 +0000\n\n麻婆ドーフさんの提案に基づき、労働に関する政策を新設",
+          "verified_at": "2025-07-18T04:53:07Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
-      "html_url": "https://github.com/team-mirai/policy/commit/4b17d47307d1a28ec2e0001f0bc7092d07f791a1",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/4b17d47307d1a28ec2e0001f0bc7092d07f791a1/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/688150ad8e924f27b6da0ef81a0c0fc56529f98e",
+      "html_url": "https://github.com/team-mirai/policy/commit/688150ad8e924f27b6da0ef81a0c0fc56529f98e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/688150ad8e924f27b6da0ef81a0c0fc56529f98e/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -406,12 +418,12 @@
       },
       "parents": [
         {
-          "sha": "8654cad70bd69adab1f33103ea9350dc8fd6c983",
-          "url": "https://api.github.com/repos/team-mirai/policy/commits/8654cad70bd69adab1f33103ea9350dc8fd6c983",
-          "html_url": "https://github.com/team-mirai/policy/commit/8654cad70bd69adab1f33103ea9350dc8fd6c983"
+          "sha": "96390e4cff1f9c4f12d0be7356912aa923f9275d",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/96390e4cff1f9c4f12d0be7356912aa923f9275d",
+          "html_url": "https://github.com/team-mirai/policy/commit/96390e4cff1f9c4f12d0be7356912aa923f9275d"
         }
       ]
     }
   ],
-  "collected_at": "2025-07-18T04:34:19.683007"
+  "collected_at": "2025-07-18T05:02:51.312307"
 }
