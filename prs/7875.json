@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 7875,
+    "title": "feat: デジタル化で取り残される人への配慮として紙保険証の選択肢を追記",
+    "state": "open",
+    "created_at": "2025-07-18T05:28:37Z",
+    "updated_at": "2025-07-18T05:28:37Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/7875",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "49f2a6b10b41f062e6af2e8d9b8a38c7018bfbd5",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 7,
+      "changes": 9,
+      "blob_url": "https://github.com/team-mirai/policy/blob/7f3e323afddbbbbdfd9fdb10a0663d08bc9affb5/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/7f3e323afddbbbbdfd9fdb10a0663d08bc9affb5/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=7f3e323afddbbbbdfd9fdb10a0663d08bc9affb5",
+      "patch": "@@ -41,7 +41,7 @@\n \n ## このマニフェスト自身も、みんなの知恵を集めて改善していきます\n \n-　チームみらいは全てを決めた後にマニフェストを発表するのではなく、よりオープンにみなさんと一緒にマニフェストを育てていきたいと考えております。具体的には、AI熟議システムの『いどばた』や全国で開催するオフラインミーティング、独自に行う専門家へのインタビューなどを通じて、どんどん知恵を集めたいと思います。\n+　チームみらいは全てを決めた後にマニフェストを発表するのではなく、よりオープンにみなさんと一緒にマニフェストを育てていきたいと考えております。具体的には、AI熟議システムの『いどばた』や全国で開催するオフラインミーティング、独自に行う専門家へのインタビューなどを通じて、どんどん知恵を集めたいと思います。例えば『紙の保険証も選択できるようにすべき』といった具体的なご提案をいただきながら、一つ一つの政策を丁寧に見直してゆきます。\n \n 　「考えがまだまとまっていないではないか」とご批判を受けるリスクを積極的に取りながら、未熟なバージョンであっても公開に踏み切ります。なぜそうするかといえば、批判の目をたくさん入れ、意見を取り入れてゆくことが最も良い政策を作るやり方だと思うからです。また、これはシンプルな多数決のように「意見が多いものを取り入れる」ということではありません。意見は聞きますし、プロセスの透明化も行いますが、あくまで意思決定は既存政党と同様にチームみらいの人が行います。これは、責任を取れる『人』が主体となって判断をすることが重要であるという価値観に基づくものです。\n \n@@ -116,11 +116,7 @@\n \n ### 通知のスキップ機能\n \n-政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキップできます。\n-\n-#### 使い方\n-\n-1. Pull Requestを作成後、右側のLabelsセクションから `skip-notification` ラベルを選択して追加\n+政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキ_notification` ラベルを選択して追加\n 2. このラベルが付いているPRは、マージされてもX通知が送信されません\n 3. Slack通知は引き続き送信されます（内部での進捗管理のため）\n \n@@ -134,4 +130,3 @@\n ## おしゃべりできるシステム『いどばたシステム』について\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n-"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "591b0d5a9640a551c034722fc317ae6c1be22e4c",
+      "node_id": "C_kwDOOqTJvNoAKDU5MWIwZDVhOTY0MGE1NTFjMDM0NzIyZmMzMTdhZTZjMWJlMjJlNGM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T05:21:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T05:21:01Z"
+        },
+        "message": "匿名ユーザーからの提案：「紙の保険証」選択肢に関する議論を反映",
+        "tree": {
+          "sha": "941fd2aa48aebc5d6f9d5741c417b93bff40794c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/941fd2aa48aebc5d6f9d5741c417b93bff40794c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/591b0d5a9640a551c034722fc317ae6c1be22e4c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoedm9CRC1aQ7uu5UhlAAA5+YQAKsyHKKJ7FVo3r9iXucwSoUe\nWVQCV2YinyypB2KG2njXMYAxoOzQUYeS05218tWdEvuORdEvYfBW5JSTffuiPSxV\ng3+bga4jMGZzGJSnERyVhvuU52T4rOFyuz/r9tyXhp2vjKTljtnNYQc2EHdMQ9AS\nJqV8dDxH5XdD2K++gBU88jVUscebcAMb2KRBAyzUD4yaDuNivL+9qFTi0eXo0pJv\nkVn+jSK8wScP4OVi3unNFtXCGSMFVi1MCZA9pUSxpuSNm71l7YQ3c1bH9tCV4ooq\nBiiG3VaNlYgYbulNECm8YSvCsjZ7/RylLTj5Er+n0ZmLBb38JQFs4iRs2pYbiMlR\nh5vd/URaJQ5YEsdBuNkVNobhuyzzAAR6uw9se16sxVxB9D6Xusv0KfIh/5jhncjB\nkyGPy+Bgb1j+UNK91h+tZdGKK+NHc9r54oAEJHguaLaYGO3g79sVsXPjmIMCgAqD\nmTulWBvTuT/YbXo/MdOMzowgk37GDLjgpTB6ZThX2RqVl8v5kvdOOYB7UoGHWWqB\nZK3a9oh8s2wEBMjrorLYInnVlhnTv9v3Ds3PCw2pCyKI2cbeXckbrZXmFnoRwOr+\nyIITm9m77NiHR51acoiAcXl2saqRaaPt0KLZTGvc8+U1xt2YF47+J6frDu/Dwml/\nDSSyeaV7wIVfzdlS/XzP\n=78rV\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 941fd2aa48aebc5d6f9d5741c417b93bff40794c\nparent 51133deea3620910fe1ab5aecc7021213564e923\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752816061 +0000\ncommitter GitHub <noreply@github.com> 1752816061 +0000\n\n匿名ユーザーからの提案：「紙の保険証」選択肢に関する議論を反映",
+          "verified_at": "2025-07-18T05:21:01Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/591b0d5a9640a551c034722fc317ae6c1be22e4c",
+      "html_url": "https://github.com/team-mirai/policy/commit/591b0d5a9640a551c034722fc317ae6c1be22e4c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/591b0d5a9640a551c034722fc317ae6c1be22e4c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "51133deea3620910fe1ab5aecc7021213564e923",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/51133deea3620910fe1ab5aecc7021213564e923",
+          "html_url": "https://github.com/team-mirai/policy/commit/51133deea3620910fe1ab5aecc7021213564e923"
+        }
+      ]
+    },
+    {
+      "sha": "7f3e323afddbbbbdfd9fdb10a0663d08bc9affb5",
+      "node_id": "C_kwDOOqTJvNoAKDdmM2UzMjNhZmRkYmJiYmRmZDlmZGIxMGEwNjYzZDA4YmM5YWZmYjU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T05:25:50Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T05:25:50Z"
+        },
+        "message": "匿名ユーザーからの提案：紙の保険証の選択肢に関する記述を追加",
+        "tree": {
+          "sha": "b8e611afb5badaafa4e5be0ca7ea1166dc46b10e",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/b8e611afb5badaafa4e5be0ca7ea1166dc46b10e"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7f3e323afddbbbbdfd9fdb10a0663d08bc9affb5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoedreCRC1aQ7uu5UhlAAAGnsQABfNrogHFLyc9ENB19pAI1i/\nu20V76gCeWy9DjnR9tybm/N4Qbd8yvBpLvMQ6WTy0Xo+yUEjaMA4RpsYueIjFG6M\nxRjcNL4jTCgj8G6YOD5PVOK1nA/fDwdjYr8mcJHovmjYcDPcd+JuT6H0eTjWFML5\nxB1cy253oKdXl8zvy3DnrdAgSNpY02nF070+NIBjTejsV9c32CJI/NZP3EQiHKWx\nwXSINkF7/01Q0+DViikXETlxJKK9k/1G2t4hkds+rUUdWUb/gYTZmNOb3La0ewKC\ngkM26dUmhpRvVB5e4siQDZWz3ax/t80Mm01QvHpT+eI/WV10Beu6a7TB4Em3YUvH\npOKz0w2ifJByoGtMoSpccvOXQ4xEJA0+RSsfPgApb2qfGW+Ny+Q94SiGdjgixDLk\nCOio06HqLJY9XdIEICNPmFzTxPZn/lMP7SQvgKQUEGwGw+aV2P+SiIEFpZmuivDZ\ntcMuGEtd7Kv/CNjChZYPzzaQaMfZrJp4eWrNIqeW6F3LwPQRJEM96rS1hadUmlFr\nagGEGOrLt1MrTBdfVwm7st6L0yczcWOcAx1RBSc5GfxU/IiC+tt0GLz1W1oh0nEC\npmx965M10rxIZ8jCzWP7dYxTdNCP/wtYqbz6I/bDeia5h5+ghdaZtIdjsQGWbwy7\nv2SglME79TTBFvHcMut4\n=C+3B\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree b8e611afb5badaafa4e5be0ca7ea1166dc46b10e\nparent 591b0d5a9640a551c034722fc317ae6c1be22e4c\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752816350 +0000\ncommitter GitHub <noreply@github.com> 1752816350 +0000\n\n匿名ユーザーからの提案：紙の保険証の選択肢に関する記述を追加",
+          "verified_at": "2025-07-18T05:25:50Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7f3e323afddbbbbdfd9fdb10a0663d08bc9affb5",
+      "html_url": "https://github.com/team-mirai/policy/commit/7f3e323afddbbbbdfd9fdb10a0663d08bc9affb5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7f3e323afddbbbbdfd9fdb10a0663d08bc9affb5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "591b0d5a9640a551c034722fc317ae6c1be22e4c",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/591b0d5a9640a551c034722fc317ae6c1be22e4c",
+          "html_url": "https://github.com/team-mirai/policy/commit/591b0d5a9640a551c034722fc317ae6c1be22e4c"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-18T07:19:16.360990"
+}

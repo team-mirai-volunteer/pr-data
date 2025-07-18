@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 7934,
+    "title": "【大森忠さん提案】「いどばたシステム」の国際的価値と連携可能性を追記",
+    "state": "open",
+    "created_at": "2025-07-18T08:01:43Z",
+    "updated_at": "2025-07-18T08:01:43Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/7934",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "f7e610f16ce5d5aa9865bd75ac18a4e41c8669bc",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 5,
+      "deletions": 6,
+      "changes": 11,
+      "blob_url": "https://github.com/team-mirai/policy/blob/e2275eacc02b652883f2e589a12faba28845484a/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/e2275eacc02b652883f2e589a12faba28845484a/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=e2275eacc02b652883f2e589a12faba28845484a",
+      "patch": "@@ -116,11 +116,7 @@\n \n ### 通知のスキップ機能\n \n-政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキップできます。\n-\n-#### 使い方\n-\n-1. Pull Requestを作成後、右側のLabelsセクションから `skip-notification` ラベルを選択して追加\n+政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキestep-notification` ラベルを選択して追加\n 2. このラベルが付いているPRは、マージされてもX通知が送信されません\n 3. Slack通知は引き続き送信されます（内部での進捗管理のため）\n \n@@ -133,5 +129,8 @@\n \n ## おしゃべりできるシステム『いどばたシステム』について\n \n-- [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n+このマニフェストでの議論には、[デジタル民主主義2030](https://dd2030.org)が開発した熟議プラットフォーム[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています。\n+\n+“いどばた”は、民主主義の文化と制度の再設計を支える、日本発の共創型ガバナンス基盤です。本システムは、台湾の「vTaiwan」やスペイン・バルセロナの「Decidim」など、世界的に注目されている熟議・市民参加型プラットフォームの潮流を踏まえ、日本に適した形で制度化・社会実装を目指すものです。\n \n+その思想と設計は、グローバルに共有可能な価値を備えており、将来的には他国への制度的輸出も視野に入れています。今後、OECDやUNDPなど、参加型ガバナンスや公共イノベーションを推進する国際機関との知見共有も視野に入れ、政策・技術の両面で世界的潮流と連携していきます。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "9d623e24020d38031857e33575bcdedd0918e2d5",
+      "node_id": "C_kwDOOqTJvNoAKDlkNjIzZTI0MDIwZDM4MDMxODU3ZTMzNTc1YmNkZWRkMDkxOGUyZDU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T07:58:23Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T07:58:23Z"
+        },
+        "message": "大森忠さんの提案に基づき、いどばたシステムの説明を国際的な視点で更新",
+        "tree": {
+          "sha": "2575451e5d934f8863660d6339cc1c3d8949003f",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2575451e5d934f8863660d6339cc1c3d8949003f"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9d623e24020d38031857e33575bcdedd0918e2d5",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoef6fCRC1aQ7uu5UhlAAAPDQQAGhYtKiPPkPGKK0+dzJ02GL8\n2xTAhl02aRT79k+cvxoY99kSHY2TeeATM3yKmw8pLmaPvZLYGD81QbbsGQCAOzrF\nADW5/98zzXSJ6DtpFgEkyLmaEIQYApwmL5mymLmVW++dxZ6dLxEW2OQLGkofHMmO\n8LyhAogHqXW1/R8n38KYMG9QmNTbtjQQGgEox7gXibVXdvB8Lf3q5QFAwF1c28ul\nufAhHT2nV1tyTeEH05U5lgmvZUnpoiFr6814kto75lxCzjoWoMVD9D2/QcZS7t6Z\nHez32iBUORWHuANYMcyBfDX2nFNlIUgUS6cfKh89XIRjoDmJoNaGbTNfRHaV6vfG\nzx2Eg55OIb1oUQZM2XKIqFnQyhtXGnD6ehayo3AknWxK8cCLnNKsS+iQZvqjjNX0\nIJuyvQ/yaTJKvlc8UlsaNOJm1lf6gaNz06cKMeaB2yjpIzleE6Qd05rW/8D/mhjZ\nIShx5Cj6YTZn5mp8Mr8YZhQGQxcDz/4k8PpNFJOMraGVyafxnDLJYHua+f2wyh+8\nwKDu34ViTnN7xeC0cMFKdwa4MTOjL4Q3hNyzeQNYYloGBhS0r7h7L8/NPBwIBZMm\nYdYI6mXobKc/smXo/CuyDF0yIrd11uFFmDX3s+bMCPaA/4W4IgtXwEiEkMrDv4bN\nuyAaIl5rdptPfdGOqbvO\n=ovdS\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2575451e5d934f8863660d6339cc1c3d8949003f\nparent 51133deea3620910fe1ab5aecc7021213564e923\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752825503 +0000\ncommitter GitHub <noreply@github.com> 1752825503 +0000\n\n大森忠さんの提案に基づき、いどばたシステムの説明を国際的な視点で更新",
+          "verified_at": "2025-07-18T07:58:24Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9d623e24020d38031857e33575bcdedd0918e2d5",
+      "html_url": "https://github.com/team-mirai/policy/commit/9d623e24020d38031857e33575bcdedd0918e2d5",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9d623e24020d38031857e33575bcdedd0918e2d5/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "51133deea3620910fe1ab5aecc7021213564e923",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/51133deea3620910fe1ab5aecc7021213564e923",
+          "html_url": "https://github.com/team-mirai/policy/commit/51133deea3620910fe1ab5aecc7021213564e923"
+        }
+      ]
+    },
+    {
+      "sha": "e2275eacc02b652883f2e589a12faba28845484a",
+      "node_id": "C_kwDOOqTJvNoAKGUyMjc1ZWFjYzAyYjY1Mjg4M2YyZTU4OWExMmZhYmEyODg0NTQ4NGE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T08:00:05Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T08:00:05Z"
+        },
+        "message": "大森忠さんの提案に基づき、「いどばたシステム」の国際的な文脈を追記",
+        "tree": {
+          "sha": "3612ce36a98800c9b05178abca8e3f0455741940",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/3612ce36a98800c9b05178abca8e3f0455741940"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/e2275eacc02b652883f2e589a12faba28845484a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoef8FCRC1aQ7uu5UhlAAADKQQAHfO+t0uS1NsxWCMk0KkqGgF\n0ctXTNvGMN82FzAVw/3KojNNvYVSmftcM3c4n0z0n0YeOaVUkJ6kttN1b1cwTW/7\nyg5zcelBOqAOAjQbTAcSZZBDxDYkW9bp+BIiWjkOTzlqJ50pW7RJi6dV4h0n0l6H\n1zT35YafPVGYaf70snRoI3E4BYiqEniFnSxYy+bOuTBH3p1pQ1GJ816SgT4Y/r+0\n1CNY96kUDF1bIlkyTiY0jTf51majyYHZdOtsMYX95fQznJxBjHf2OeZppDI/MHW5\n9fC/EY0stgXLLYmybkleIO2gc6ITa1WxJBqXXilWawVRGGlr9NBmCDlUBc/ee7h2\n9ro81e9wQn2DoFG3ui6zYqRrpYuKjbYdMIkxtW/lnQoAbTKVH47bs2PtsCWz/wAg\n/C3lMzY+s2CIAwpLVhxGBGN6FyDe9ohAHO+yL547K0Gva60dkrD/ji6xrzL84GU2\n7VF+qzrPKvx9IAReSdr4jOMdh/LKh8vf+2fSMiLB6H6N4S4yqg4WFoPFQF/SVy8z\napxojjTCeuTojqa2NpzEt8tHklRqVUX+Bu8nQYt+k/572v00OCWIdb4Ztaq+fh1Q\nyrYdvd559BGiXGopM3eGn0VJ3cybXkpnGpxOGmC2ipzfZlXi2lsDDYRj2ujs0lbf\nQnk16/iOq9r0UnRaNZxU\n=cxCr\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 3612ce36a98800c9b05178abca8e3f0455741940\nparent 9d623e24020d38031857e33575bcdedd0918e2d5\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752825605 +0000\ncommitter GitHub <noreply@github.com> 1752825605 +0000\n\n大森忠さんの提案に基づき、「いどばたシステム」の国際的な文脈を追記",
+          "verified_at": "2025-07-18T08:00:05Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/e2275eacc02b652883f2e589a12faba28845484a",
+      "html_url": "https://github.com/team-mirai/policy/commit/e2275eacc02b652883f2e589a12faba28845484a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/e2275eacc02b652883f2e589a12faba28845484a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9d623e24020d38031857e33575bcdedd0918e2d5",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/9d623e24020d38031857e33575bcdedd0918e2d5",
+          "html_url": "https://github.com/team-mirai/policy/commit/9d623e24020d38031857e33575bcdedd0918e2d5"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-18T08:04:02.187106"
+}
