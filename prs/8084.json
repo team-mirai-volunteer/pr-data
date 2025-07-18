@@ -1,0 +1,201 @@
+{
+  "basic_info": {
+    "number": 8084,
+    "title": "不妊治療と仕事の両立を支援する制度の新設",
+    "state": "open",
+    "created_at": "2025-07-18T13:38:03Z",
+    "updated_at": "2025-07-18T13:46:42Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/8084",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "e12d4591689c85a97e5ae24f7d950abc0560856a",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 1,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/a5872ac70b3bab284f54f32c96153818851a338c/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/a5872ac70b3bab284f54f32c96153818851a338c/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=a5872ac70b3bab284f54f32c96153818851a338c",
+      "patch": "@@ -116,7 +116,7 @@\n \n ### 通知のスキップ機能\n \n-政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキップできます。\n+政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキLプできます。\n \n #### 使い方\n \n@@ -135,3 +135,16 @@\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n \n+\n+## 現在、ゆいさんと検討中の改善案\n+\n+### 不妊治療と仕事の両立支援\n+\n+*   **不妊治療休暇制度の創設**：不妊治療を受ける際に、時間単位や半日単位で取得できる柔軟な休暇制度を設けます。\n+*   **協力的な企業への支援**：休暇を取得した従業員のいる企業に対し、国が補助金を支給します。補助金の額は、休暇の取得時間や対象となる従業員数に応じて変動する仕組みとします。\n+*   **同僚へのサポート**：企業は国からの補助金を活用し、休暇取得者の業務をカバーする同僚に「サポート手当」などを支給できるようにします。\n+*   **「子育てサポート企業」認定制度の拡充**：不妊治療への協力姿勢を企業の採用活動などでアピールできるよう、認定制度を設けて公表します。これにより、社会全体で不妊治療を支える文化を醸成し、企業の魅力向上にも繋げます。\n+\n+### UI改善提案（ゆいさんより）\n+\n+*   **スマートフォンでの表示改善**：iPhoneで閲覧した際、画面上部の案内文が大きな面積を占めて固定表示されるため、チャット部分の表示領域が狭くなっています。チャットをより快適に行えるよう、画面レイアウトの改善を希望します。"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "9c41e6eb99ce1fe6764ffea6869474af591688c0",
+      "node_id": "C_kwDOOqTJvNoAKDljNDFlNmViOTljZTFmZTY3NjRmZmVhNjg2OTQ3NGFmNTkxNjg4YzA",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T13:35:37Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T13:35:37Z"
+        },
+        "message": "不妊治療支援策を追記（ゆいさんからの提案）",
+        "tree": {
+          "sha": "05ce00a981981ca025e10e54e94e3f064e85da81",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/05ce00a981981ca025e10e54e94e3f064e85da81"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/9c41e6eb99ce1fe6764ffea6869474af591688c0",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoek2pCRC1aQ7uu5UhlAAARDcQABWSp4qP6G/bmoU9l4IM1LBq\nEUjx76c6Nz48bvEvp+/M7GHcF0rB6do5NagtPR8s/AU46bpCzjm1dmBJcSYYQ4lx\nU9gZ7h6Ofv+18ViWledhFNHlik9/bGPknVEwm17ih8FMhgHpXmf2v8DqGPs6ITqp\nnVHmcEdkdGw9hyJK0qaIJ+BTNKiJziPZtyQoeLVIas0Glh0dlyXzKjL8MvtmBcit\nK8lZYwCcg+KgF6V8/lGkg0eaC2z15HTygHwaSXpxY2cxbkF8CP+qTzJN+2+WBMzi\n/QTu9lYBHDRMspdEy1XXEPVxomhi2wByCzFOzPdsfySsIjFCOrTs4b5z49Gx7uUD\ni6WJVuxJnchCcBK/K3HAOK0CUNPOetsdd53uXvIGZ9s0/7qL1gH/+goSxfJcHuvr\ntfYR53UxhBr5emdxa0Tf2RrCYoAmXgdkOMZNpzzrkX3hegcKbd6c/+hG93DrqxmU\nI5nG68CmZTwqpNdgU2gbEQTlkdNiUl5rFXXY69fDwErnnz8Z2Z8XKiCLRUmpMfqh\nAQzY2h3PBhvT8n6KizzUE0acjwiBYKlHZ9bZLXFIDsbmR0Vop5dCinkvQdLbgaOP\nasdqJE/uD7Nfx+8pwmIXHIcwhsmqhKWnwoCrlDXOY0oNnH1EfQiCWvI6JQv3ybd7\nsidr4dfPD3lwMCkEIGd6\n=rRP1\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 05ce00a981981ca025e10e54e94e3f064e85da81\nparent 51133deea3620910fe1ab5aecc7021213564e923\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752845737 +0000\ncommitter GitHub <noreply@github.com> 1752845737 +0000\n\n不妊治療支援策を追記（ゆいさんからの提案）",
+          "verified_at": "2025-07-18T13:35:37Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/9c41e6eb99ce1fe6764ffea6869474af591688c0",
+      "html_url": "https://github.com/team-mirai/policy/commit/9c41e6eb99ce1fe6764ffea6869474af591688c0",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/9c41e6eb99ce1fe6764ffea6869474af591688c0/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "51133deea3620910fe1ab5aecc7021213564e923",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/51133deea3620910fe1ab5aecc7021213564e923",
+          "html_url": "https://github.com/team-mirai/policy/commit/51133deea3620910fe1ab5aecc7021213564e923"
+        }
+      ]
+    },
+    {
+      "sha": "a5872ac70b3bab284f54f32c96153818851a338c",
+      "node_id": "C_kwDOOqTJvNoAKGE1ODcyYWM3MGIzYmFiMjg0ZjU0ZjMyYzk2MTUzODE4ODUxYTMzOGM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T13:46:41Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T13:46:41Z"
+        },
+        "message": "ゆいさんからの提案：UI改善（iPhone表示）の要望を追記",
+        "tree": {
+          "sha": "90066e2f138e81b7237bd777c5e342bdd7372fd0",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/90066e2f138e81b7237bd777c5e342bdd7372fd0"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/a5872ac70b3bab284f54f32c96153818851a338c",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoelBBCRC1aQ7uu5UhlAAAT6sQADZ/TcawP6cU91l8B9RoIzxu\n3CysOxx0ecvhKXA5Td3apCcfsXcDZ9CaTzkMNGOGKB+1nApDg8rCMkoNTt3ctUqz\njuJUzBYZoUD2Mr/Il6ZjpMKjEhZseumJDQ623r6z7TnwGEM1xN/o0sPWysBitGme\nHe7dHFY2JqR/Mo6mo5gV7gK8sDQQSBwoMlLs1voc4CAj4z5zy0NiANgP1EmwUzR0\nzygprn0GDDXKvRlxVwUOV6BkgkMm7XknOlyiPfX0pr1JUyzu5noHRpW1cEMeI6Td\ngL2NCM8s3cQedvUaSt0wGiOjgmXTSZwQ3CM68Ftdg+zYZE6ui7rsNBCyoMAcf8oM\np+NMazKEEe3xXEbxVUSottoepqBvoZoF60gPLre9jMid6IrDH8QO9pvXPEcGxcgD\nLaiAJ+pmPBFI4AgvhGVh6zV3BRpxJGR2tB5Ob3Trpyrq2dev/5KQmKPEvb9h12vh\npXFaQk7fLAxpOpntCvl4H+HJfGxviAqqHtIfNG4ynFj5H5BEY0aKZZfMoTf078Wh\n33Z5LtrU6UIYGZn5ILkjA9dbgRuo7UxbJjQFkKJ95fl7xFUh9UeC4vVtNh5/n/wb\nv9Oe943Gn3nh/JHGaKFORLhXxduVx2VRtw1GnGo8jgQVz4963tNtX4BIEHLP0Yg3\nKQhovjpNM6AEvg/kqHzd\n=NpTX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 90066e2f138e81b7237bd777c5e342bdd7372fd0\nparent 9c41e6eb99ce1fe6764ffea6869474af591688c0\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752846401 +0000\ncommitter GitHub <noreply@github.com> 1752846401 +0000\n\nゆいさんからの提案：UI改善（iPhone表示）の要望を追記",
+          "verified_at": "2025-07-18T13:46:41Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/a5872ac70b3bab284f54f32c96153818851a338c",
+      "html_url": "https://github.com/team-mirai/policy/commit/a5872ac70b3bab284f54f32c96153818851a338c",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/a5872ac70b3bab284f54f32c96153818851a338c/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "9c41e6eb99ce1fe6764ffea6869474af591688c0",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/9c41e6eb99ce1fe6764ffea6869474af591688c0",
+          "html_url": "https://github.com/team-mirai/policy/commit/9c41e6eb99ce1fe6764ffea6869474af591688c0"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-18T14:12:21.643983"
+}
