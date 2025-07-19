@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 8607,
+    "title": "マニフェストの構造定義を追加し、管理をしやすくする提案",
+    "state": "open",
+    "created_at": "2025-07-19T13:32:52Z",
+    "updated_at": "2025-07-19T13:32:53Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/8607",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "aa6f8c7540afcd5188b5e0e0f25bc3128bf19f6a",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 68,
+      "deletions": 0,
+      "changes": 68,
+      "blob_url": "https://github.com/team-mirai/policy/blob/871f87f6f9cdc6066c8cd4f094f12d30d83ce1e2/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/871f87f6f9cdc6066c8cd4f094f12d30d83ce1e2/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=871f87f6f9cdc6066c8cd4f094f12d30d83ce1e2",
+      "patch": "@@ -135,3 +135,71 @@\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n \n+## マニフェストの構造定義（案）\n+\n+```yaml\n+manifest:\n+  version: 1.0\n+  table_of_contents:\n+    - title: \"チームみらいのビジョン\"\n+      file: \"01_チームみらいのビジョン.md\"\n+    - title: \"政策インデックス\"\n+      file: \"02_政策インデックス.md\"\n+    - title: \"ステップ１「デジタル時代の当たり前をやりきる」\"\n+      file: \"10_ステップ１「デジタル時代の当たり前をやりきる」.md\"\n+      subsections:\n+        - title: \"１．教育\"\n+          file: \"11_ステップ１教育.md\"\n+        - title: \"２．子育て\"\n+          file: \"12_ステップ１子育て.md\"\n+        - title: \"３．くらしと行政\"\n+          file: \"13_ステップ１くらしと行政.md\"\n+        - title: \"４．産業\"\n+          file: \"14_ステップ１産業.md\"\n+        - title: \"５．科学技術\"\n+          file: \"15_ステップ１科学技術.md\"\n+        - title: \"６．デジタル民主主義\"\n+          file: \"16_ステップ１デジタル民主主義.md\"\n+        - title: \"７．医療\"\n+          file: \"17_ステップ１医療.md\"\n+        - title: \"８．福祉\"\n+          file: \"18_ステップ１福祉.md\"\n+    - title: \"ステップ２「変化に対応できる、しなやかな仕組みづくり」\"\n+      file: \"20_ステップ２「変化に対応できるしなやかな仕組みづくり」.md\"\n+      subsections:\n+        - title: \"１．教育\"\n+          file: \"21_ステップ２教育.md\"\n+        - title: \"２．くらしと行政\"\n+          file: \"22_ステップ２くらしと行政.md\"\n+        - title: \"３．医療\"\n+          file: \"23_ステップ２医療.md\"\n+        - title: \"４．デジタル民主主義\"\n+          file: \"24_ステップ２デジタル民主主義.md\"\n+        - title: \"５．福祉\"\n+          file: \"25_ステップ２福祉.md\"\n+    - title: \"ステップ３「長期の成長に大胆に投資する」\"\n+      file: \"30_ステップ３「長期の成長に大胆に投資する」.md\"\n+      subsections:\n+        - title: \"１．子育て\"\n+          file: \"31_ステップ３子育て.md\"\n+        - title: \"２．教育\"\n+          file: \"32_ステップ３教育.md\"\n+        - title: \"３．科学技術\"\n+          file: \"33_ステップ３科学技術.md\"\n+        - title: \"４．産業\"\n+          file: \"34_ステップ３産業.md\"\n+        - title: \"５．エネルギー\"\n+          file: \"35_ステップ３エネルギー.md\"\n+        - title: \"６．経済財政\"\n+          file: \"36_ステップ３経済財政.md\"\n+        - title: \"７．医療\"\n+          file: \"37_ステップ３医療.md\"\n+        - title: \"８．福祉\"\n+          file: \"38_ステップ３福祉.md\"\n+    - title: \"国政政党成立後１００日プラン\"\n+      file: \"40_国政政党成立後100日プラン.md\"\n+    - title: \"その他重要分野についての政策・ビジョン\"\n+      file: \"50_国政のその他重要分野.md\"\n+    - title: \"本マニフェスト掲載の政策に関する､財政支出の規模感と財源の考え\"\n+      file: \"70_本マニフェスト掲載の政策に関する､財政支出の規模感と財源の考え.md\"\n+```\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "871f87f6f9cdc6066c8cd4f094f12d30d83ce1e2",
+      "node_id": "C_kwDOOqTJvNoAKDg3MWY4N2Y2ZjljZGM2MDY2YzhjZDRmMDk0ZjEyZDMwZDgzY2UxZTI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-19T13:32:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-19T13:32:13Z"
+        },
+        "message": "feat: マニフェストの構造をYAMLで定義 by 大森忠",
+        "tree": {
+          "sha": "f6dff5c842fb7f800f04c2363e233f3044e166db",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/f6dff5c842fb7f800f04c2363e233f3044e166db"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/871f87f6f9cdc6066c8cd4f094f12d30d83ce1e2",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoe55dCRC1aQ7uu5UhlAAA4MkQAGaYq3fTpyspNuLc7uZ1bXJD\nDs5aTOz5exrO+SumzhZENypGR/9VQjK0CfuY19kqbn5fCCw74DYLl9Ac5FMiPm1V\noF5eCGkMR+ENSEqW//2Am3ykB/VSpRKB6N7VzTvvJ2gjnqmkQoF7CZkaTz02rSvE\nBz73L/1wWeT/I/+jmBt5BE60i1MfHyBbAuXlpzMlVqDUUACl8f9agvAz+LW17jlV\nstwKUtiRn9T/P2AGinEEx0UoKk0f3hRkTppMOeGxsIfdWUP/tqu8S7TckZoWDqs2\n8wo8L3wsNudoYfo5On4uPfKyXDR8J6t3/QdU5AHB9PjsFtr1NVn09DF/L970A81z\nDlrtm3zlIsvEJp35nGlz3Vhk7ou8oUEYLKcAUzYXFdLZOyDwyqmlRQm2bi/wm1Yx\ncwzxTjkswZ3rAWVfr8eyhZWJNc6HhfejYEpSg42+w9Eh+heiymWtXq2bSupudud7\nvpv8dbL7nYeLUvMdH9VE1Kbqf68eH/JpaY7RyFNsp5RqnzBOnzrCKfeWp0Rn5NsC\nSY7uUAX1Zz33MRJfwFGuvtXZB/D6P0gUWQ2ej7AtUzB7VxKbPzjCo3c5qyDOrteP\nqOtNfypIGlVdCSJCHWq+aMKM7wMe+PabhAmnduuQfGfwUT3ro3s5H5o3QlBFbGmF\nkqR9NZ4Qh3mhm7gOpgN8\n=0YF+\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree f6dff5c842fb7f800f04c2363e233f3044e166db\nparent 1e79686d47665634b6c03e6092e6ffd2b2302a0e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752931933 +0000\ncommitter GitHub <noreply@github.com> 1752931933 +0000\n\nfeat: マニフェストの構造をYAMLで定義 by 大森忠",
+          "verified_at": "2025-07-19T13:32:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/871f87f6f9cdc6066c8cd4f094f12d30d83ce1e2",
+      "html_url": "https://github.com/team-mirai/policy/commit/871f87f6f9cdc6066c8cd4f094f12d30d83ce1e2",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/871f87f6f9cdc6066c8cd4f094f12d30d83ce1e2/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e79686d47665634b6c03e6092e6ffd2b2302a0e"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-19T14:12:39.078944"
+}
