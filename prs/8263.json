@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 8263,
+    "title": "マニフェストへの選択的夫婦別姓および同性婚の法制化の追加",
+    "state": "open",
+    "created_at": "2025-07-19T02:01:00Z",
+    "updated_at": "2025-07-19T02:01:01Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/8263",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "7a552416c568eed0c03417024c4d09b200b0eb34",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 2,
+      "changes": 6,
+      "blob_url": "https://github.com/team-mirai/policy/blob/3bfab6d82ee51eeac8b5c8dab8c28b3f1d69719b/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/3bfab6d82ee51eeac8b5c8dab8c28b3f1d69719b/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=3bfab6d82ee51eeac8b5c8dab8c28b3f1d69719b",
+      "patch": "@@ -25,6 +25,8 @@\n   * [３．医療](23_ステップ２医療.md)\n   * [４．デジタル民主主義](24_ステップ２デジタル民主主義.md)\n   * [５．福祉](25_ステップ２福祉.md)\n+  * [６．選択的夫婦別姓](26_ステップ２選択的夫婦別姓.md)\n+  * [７．同性婚の法制化](27_ステップ２同性婚の法制化.md)\n * [ステップ３「長期の成長に大胆に投資する」](30_ステップ３「長期の成長に大胆に投資する」.md)  \n   * [１．子育て](31_ステップ３子育て.md)  \n   * [２．教育](32_ステップ３教育.md)  \n@@ -116,9 +118,9 @@\n \n ### 通知のスキップ機能\n \n-政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキップできます。\n+政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキロップできます。\n \n-#### 使い方\n+#### 使いかた\n \n 1. Pull Requestを作成後、右側のLabelsセクションから `skip-notification` ラベルを選択して追加\n 2. このラベルが付いているPRは、マージされてもX通知が送信されません"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "65759002b5e279528e6fceb00a61925861cf8107",
+      "node_id": "C_kwDOOqTJvNoAKDY1NzU5MDAyYjVlMjc5NTI4ZTZmY2ViMDBhNjE5MjU4NjFjZjgxMDc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-19T01:47:27Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-19T01:47:27Z"
+        },
+        "message": "feat: 匿名ユーザーの提案に基づき、ステップ2に選択的夫婦別姓の項目を追加",
+        "tree": {
+          "sha": "ce96f125c5df746c0588b63a6c0d8c4fe54c0910",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/ce96f125c5df746c0588b63a6c0d8c4fe54c0910"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/65759002b5e279528e6fceb00a61925861cf8107",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoevkvCRC1aQ7uu5UhlAAAyScQAI81TXM4GLTaz8/MjhYU6lrc\n9Cwp5i5T7EPZmOwM0cc/rfeFKTazdlVWsjzvroTK3KqaMB9rvah3ftFrJWBWAlUy\ni2Wj6EwwjgZez9bkp9twxAJc+sfN4U5idAonbdgO8AuG7owOCQf7QHUf8pJSLzuV\nQno70hRYNJGlv3yokT+AroytEnAudyF4oOapssFp/K6FqV2ZhMM1ieYdemzKycpj\nl74QUZF6wOaUsCXgMfjPjU7WGPg07fflE8MFsIsjCqtONfWwVwn2hv/wQTO75INf\nIgdOs1ftehg0YkBAalUQH6n0cFzN1AuQD8cKq2/k96GLt7JOyOGIxKMM6L/6Sza9\nJK7ujW3Ig4YYlEa9U/cn1zuLjF+gzJ26+hga8U0nmNW5doy7g/QdTDG+GsPkNnbg\nGxIMfkX/uCg9t5DauYQ4ZbvP/OFq+W59GwDQJaxa6cTQ3p/MlGqyMng6VhLlf+vt\nv37pFKauFS2qruDx9nu6/8ywJquGkp5iUstOVHT6PMTzgEipY/ecR+QYNwl7TtgX\nyiIaHLPzYzC4iC7zQG21CDNU5RDIRwBXTMSmteWrO2lPSzmdY8uFAmdWdIN8qfua\nCMGKxohTSecKJ/XQOvHnlji90+22VOwdnDhI2I+yxQxi1py9TYDUcgvpnL+bykaU\nbqYPhfwXAAOyq8WIGstP\n=WlOx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree ce96f125c5df746c0588b63a6c0d8c4fe54c0910\nparent e500f1b135761936a3752b82f8b139957cf32880\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752889647 +0000\ncommitter GitHub <noreply@github.com> 1752889647 +0000\n\nfeat: 匿名ユーザーの提案に基づき、ステップ2に選択的夫婦別姓の項目を追加",
+          "verified_at": "2025-07-19T01:47:28Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/65759002b5e279528e6fceb00a61925861cf8107",
+      "html_url": "https://github.com/team-mirai/policy/commit/65759002b5e279528e6fceb00a61925861cf8107",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/65759002b5e279528e6fceb00a61925861cf8107/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "e500f1b135761936a3752b82f8b139957cf32880",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/e500f1b135761936a3752b82f8b139957cf32880",
+          "html_url": "https://github.com/team-mirai/policy/commit/e500f1b135761936a3752b82f8b139957cf32880"
+        }
+      ]
+    },
+    {
+      "sha": "2e5818aa6ecea6bebeb89bd7d9be2a9237dad973",
+      "node_id": "C_kwDOOqTJvNoAKDJlNTgxOGFhNmVjZWE2YmViZWI4OWJkN2Q5YmUyYTkyMzdkYWQ5NzM",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-19T01:53:25Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-19T01:53:25Z"
+        },
+        "message": "匿名ユーザーさんの提案に基づき、政策インデックスに同性婚の法制化を追加",
+        "tree": {
+          "sha": "1ca74979ead0eec9b436c273ce00033be530725d",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1ca74979ead0eec9b436c273ce00033be530725d"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2e5818aa6ecea6bebeb89bd7d9be2a9237dad973",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoevqVCRC1aQ7uu5UhlAAAsQQQAG/aXMHVmhFJtBAidaNZKV85\nKOUInlSA5yr9mekTm6xSYo/5k94BXOjXM3lLttgGbWJaN8FwM+G3XSdL4Qpchwdx\nTiibn6miwWb3lVcDqAY8pkKEWKogIfddo5fEj4WkiBugP1MRh4wfIhEq8lvGEdDq\n2jGztQqNxUUElQHaSH1a1aNO1dAEp8KbptB4cpqrTKl6iJ8BPh7a5gNDveRexeA6\n1aAwgaOjyXP54LFSl3VAyp6/2RUxpCyS4Qxe7ApRkg+nnuRAcN5t2e4GSAoZTtYt\nCkB+rD8X6q2F3oJUOQioY4PtJFJf1UrK4V1+irf/pMjg3SP85Xcgt2wFB9ueY+vR\nxKS8SfW6r1/+iYEX5qOfCP38gDhpgZaDbUdq8KH47HEGF9e1cnriHuXfz0WCLmvJ\nk5Vdkz/TtuGvdewKNb72CM+nRTv8HMGYgVQwsV6Umhm1lphBt/qw/G4wsZjf8j8C\nIiDMa4ZsQWoIhOhWa7aQNEy/tKB/ZkDkgdyRiKzGfH/5v5x4PxGFKKJjuk9J+fHn\n9/WDej71aumU9opvuU0Wn6UTonldUzhEd80M//+ouk/ydw8cTjlP/xVVrdZpndkV\nsDTTppk2HGTbxCb1+HUA3AvbA/GnEKxp6y6eijth/NpTgLfJ1sRCe3RJyEMbPFPI\nC5s4rO+xqz4lucOTO9mW\n=+RNx\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1ca74979ead0eec9b436c273ce00033be530725d\nparent 65759002b5e279528e6fceb00a61925861cf8107\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752890005 +0000\ncommitter GitHub <noreply@github.com> 1752890005 +0000\n\n匿名ユーザーさんの提案に基づき、政策インデックスに同性婚の法制化を追加",
+          "verified_at": "2025-07-19T01:53:25Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2e5818aa6ecea6bebeb89bd7d9be2a9237dad973",
+      "html_url": "https://github.com/team-mirai/policy/commit/2e5818aa6ecea6bebeb89bd7d9be2a9237dad973",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2e5818aa6ecea6bebeb89bd7d9be2a9237dad973/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "65759002b5e279528e6fceb00a61925861cf8107",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/65759002b5e279528e6fceb00a61925861cf8107",
+          "html_url": "https://github.com/team-mirai/policy/commit/65759002b5e279528e6fceb00a61925861cf8107"
+        }
+      ]
+    },
+    {
+      "sha": "3bfab6d82ee51eeac8b5c8dab8c28b3f1d69719b",
+      "node_id": "C_kwDOOqTJvNoAKDNiZmFiNmQ4MmVlNTFlZWFjOGI1YzhkYWI4YzI4YjNmMWQ2OTcxOWI",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-19T01:54:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-19T01:54:58Z"
+        },
+        "message": "匿名ユーザーさんの提案に基づき、同性婚の法制化の項目をマニフェストに追加",
+        "tree": {
+          "sha": "0287bd0e151bde5b49f920561b004d8020e4f420",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0287bd0e151bde5b49f920561b004d8020e4f420"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/3bfab6d82ee51eeac8b5c8dab8c28b3f1d69719b",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoevryCRC1aQ7uu5UhlAAAkk0QAB02sUe1832C+jTGeGzheRrw\nIr4SLbAvGaxVndp1Luz2uOMp/dRDpYf3RlzxGPbatM0Gg5UrqCoA6lggDYsT89i4\n/pBXVvCtPODxCvfx8o0j5q4rJE+iMkDDHZiKUmH7lWeetOP6crPS8IuOlTiaCKGN\noxthTTR93S9Y8lmauxaMvDs/P/OecW31iYYZNsu4OK/mW5JLInAJOu+BL+7jYaCc\n5El3Xdrl8hIbGNv4RDzjI2RaDasi/4lgOv5Xocp3Xhcv2VU6Y0/vvJTteStX3ix9\nf2GBlNVsvQXUwa5UAsPWs8uf28WFO1xj3Vn+1HVIgyDYflD2Cybs2ChxxQJDrWP6\nUwpvG/xaWIDx7kbRJnqb+WCdmV9ueR9WvQMTjCAH14PA4vSEx4BSGjG9uwxbmk+h\n8z6jIOYcbsGQ+Gih7K3fJQBpHPvcouOIqXzvFziTgs5qvNFKkX2lc80dWY9v5nKN\n8F0SwbUCXu0FckLt37k4JvhFCVNhJf7fHKkABf1IfiXdACSj8TQRC1M/W1cUFtV9\ncNcxxPFhzNZ1Z//YbVheGJ7rlADVWYH5kLYN2VSjs96rc8Tzp3j74awCL+vWxbBC\nI7X2Tiy6ICPoXtzg4CrGMRQrTtSgWvQHTXAIZKE0BgI/AnfnGojmR3JXgWbpyR6i\nkkaBdy1goglO46iTRx1d\n=VqsB\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0287bd0e151bde5b49f920561b004d8020e4f420\nparent 2e5818aa6ecea6bebeb89bd7d9be2a9237dad973\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752890098 +0000\ncommitter GitHub <noreply@github.com> 1752890098 +0000\n\n匿名ユーザーさんの提案に基づき、同性婚の法制化の項目をマニフェストに追加",
+          "verified_at": "2025-07-19T01:54:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/3bfab6d82ee51eeac8b5c8dab8c28b3f1d69719b",
+      "html_url": "https://github.com/team-mirai/policy/commit/3bfab6d82ee51eeac8b5c8dab8c28b3f1d69719b",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/3bfab6d82ee51eeac8b5c8dab8c28b3f1d69719b/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2e5818aa6ecea6bebeb89bd7d9be2a9237dad973",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2e5818aa6ecea6bebeb89bd7d9be2a9237dad973",
+          "html_url": "https://github.com/team-mirai/policy/commit/2e5818aa6ecea6bebeb89bd7d9be2a9237dad973"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-19T03:19:28.871526"
+}
