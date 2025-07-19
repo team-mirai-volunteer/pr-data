@@ -4,7 +4,7 @@
     "title": "本籍地を覚えていなくても戸籍謄本を取得できる仕組みの構築",
     "state": "open",
     "created_at": "2025-07-18T12:30:50Z",
-    "updated_at": "2025-07-18T13:00:49Z",
+    "updated_at": "2025-07-18T13:45:14Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/8043",
@@ -153,16 +153,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "08434ab51edd7f0d93d278498e3c7c16e9bc2060",
+      "sha": "13f14223c3659d888fb761e9f1bb008d0ad77ad8",
       "filename": "13_ステップ１くらしと行政.md",
       "status": "modified",
-      "additions": 9,
+      "additions": 16,
       "deletions": 4,
-      "changes": 13,
-      "blob_url": "https://github.com/team-mirai/policy/blob/62f8b64adac57b26baa492524f5394aa30d4cecc/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/62f8b64adac57b26baa492524f5394aa30d4cecc/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=62f8b64adac57b26baa492524f5394aa30d4cecc",
-      "patch": "@@ -72,6 +72,7 @@\n     * マイナンバーを活用して、利用可能な税・社会保障データの範囲を段階的に拡大し、自動連携することで申請時の住民による再入力を排除します。\n       * 各省庁と自治体のデータベース連携を推進することで、住民が同じ情報を何度も提出する必要を無くします。 \n     * さらに、国民健康保険料の算定や各種減免措置については、行政が既に保有している課税・所得情報を標準APIにより内部で自動参照・適用することを原則とし、国民に対して紙の書類提出を求めない運用を標準化します。すでに一部自治体で試行が始まっており、全国展開に向けた制度設計を加速させます。\n+    * また、戸籍謄本などの請求時に、利用者が本籍地を覚えていなくても手続きを完結できるよう、マイナンバーカードによる本人確認と情報連携に基づき、本籍地情報を自動で表示・入力する仕組みを整備します。\n     * デジタル庁の推し進める「[自治体窓口DX](https://www.digital.go.jp/policies/cs-dx#local-governments)」を更に推進していくとともに、加えてIT\\&AIを活用したバックヤード改革を行い、入力内容の確認、窓口業務職員の負担軽減を図ります。  \n   * 待たせない  \n     * 前提として、オンライン化を推し進め、行政機関への訪問を不要にします。  \n@@ -89,10 +90,12 @@\n       * 一定の要件を満たす給付金や手当については、本人への通知後、一定期間内に異議がなければ公金受取口座に自動的に振り込まれる「オプトアウト型自動給付」の仕組みを整備します。2024年の定額減税補足給付では、申請不要の給付が一部自治体で実施されており、これを皮切りに、恒久的な制度への段階的移行を進めていきます。\n       * 加えて、会社からの退職情報や介護・障害の認定など、個人のライフイベントの情報が行政に届いた時点で、国民健康保険の加入や保険料の減免申請といった関連手続きを行政側で一括処理し、本人にはその結果のみを「通知」として送付する仕組みも構築していきます。2025年度より始まる電子離職票のデジタル連携はその基盤となり、今後は国保・年金・雇用保険など複数制度を一体で処理する「ワンストップ型自動手続」への発展させていきます。\n       * 一方、守りの側面も重要で、制度の拡張とともに、AIを活用した不正受給リスクの自動検知モデルを導入し、高リスクケースを優先的に審査するリスクベースアプローチを採用します。東京都の特別区を中心に生活保護や児童扶養手当などで導入が始まっており、これを他の給付分野にも広げていく方針です。あわせて、マイナポータル上で給付履歴や本人への情報照会履歴を確認できるダッシュボード機能を拡充し、透明性とトレーサビリティの確保も図ります。\n-    * ユーザーの質問や状況に応じて最適な窓口や手続きをナビゲート、代行するAIチャットボット、AIエージェント等の導入を加速させ、迷いなく必要な情報にたどり着ける環境を整備します。\n-        * また、AIチャットボットでの対応が難しい場合には、速やかに専門の相談員へ引き継ぐ体制を構築します。デジタル機器の操作に不慣れな方でも安心して利用できるよう、人によるサポートの選択肢を常に用意します。\n-        * 特に高齢者の方々に対しては、デジタル庁の「[デジタル推進委員](https://www.digital.go.jp/policies/digital_promotion_staff)」の取組等と連携し、対面相談窓口の充実や、わかりやすい言葉づかい、大きな文字表示といったインターフェース配慮を徹底します。これには、日本産業規格（JIS）等に準拠したアクセシビリティ基準の採用を含みます。\n-        * 既に成果を上げている自治体と民間企業の連携による現場サービス（例：出張講習、地域サークルと連動したIT体験会）などの優良事例を迅速に横展開し、全国での実装を加速させます。\n+    * プッシュ型支援では届かない個人の予期せぬ困難に対応するため、マイナポータル等に『SOSボタン（仮称）』を設置します。\n+        * ボタンを押すとまずAIが対応し、課題が解決するまで対話を継続。相談内容はマイナンバーに紐づけて記録・管理し、継続的な支援や見守りにつなげます。AIで対応困難な場合や本人が希望する場合は、対話内容を専門の相談員に引き継ぎ、利用者の負担を軽減します。\n+        * さらに、SOSボタンからの相談を受けた行政職員をAIがサポートし、必要な複数の支援（生活、住居、就労など）を部署横断で同時に開始できる仕組みを構築。これにより、行政内の『タライ回し』を解消します。\n+        * あわせて、月１回程度のプッシュ通知で「お困りごとはありませんか？」と定期的に声かけを行い、潜在的な課題の早期発見に努め、孤立を防ぎます。\n+    * 特に高齢者の方々に対しては、デジタル庁の「[デジタル推進委員](https://www.digital.go.jp/policies/digital_promotion_staff)」の取組等と連携し、対面相談窓口の充実や、わかりやすい言葉づかい、大きな文字表示といったインターフェース配慮を徹底します。これには、日本産業規格（JIS）等に準拠したアクセシビリティ基準の採用を含みます。\n+    * 既に成果を上げている自治体と民間企業の連携による現場サービス（例：出張講習、地域サークルと連動したIT体験会）などの優良事例を迅速に横展開し、全国での実装を加速させます。\n     * 政策情報や手続き案内を、AIや検索エンジンが解析しやすい機械可読なデータ形式（HTML, JSONなど）で提供。AI・アプリ・Web検索を活用した情報アクセス性を向上させます。\n     * 行政文書の日付表記を分かりやすく改善し、西暦を併記または主として使用することで、和暦の確認や年数の計算といった無駄な確認作業をなくし、利便性を向上させます。\n \n@@ -217,3 +220,5 @@\n    * さらに、音声読み上げ・多言語対応などのアクセシビリティ施策を拡充することで、情報の届け方そのものを多様化し、「紙が前提」となっている現行制度を超えた、誰もがアクセスできる“開かれた選挙”の実現を目指します。\n \n \n+\n+"
+      "changes": 20,
+      "blob_url": "https://github.com/team-mirai/policy/blob/68cdc5db0ad69ac931c089d0d03f320e3de39f0a/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/68cdc5db0ad69ac931c089d0d03f320e3de39f0a/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/13_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%81%8F%E3%82%89%E3%81%97%E3%81%A8%E8%A1%8C%E6%94%BF.md?ref=68cdc5db0ad69ac931c089d0d03f320e3de39f0a",
+      "patch": "@@ -72,6 +72,7 @@\n     * マイナンバーを活用して、利用可能な税・社会保障データの範囲を段階的に拡大し、自動連携することで申請時の住民による再入力を排除します。\n       * 各省庁と自治体のデータベース連携を推進することで、住民が同じ情報を何度も提出する必要を無くします。 \n     * さらに、国民健康保険料の算定や各種減免措置については、行政が既に保有している課税・所得情報を標準APIにより内部で自動参照・適用することを原則とし、国民に対して紙の書類提出を求めない運用を標準化します。すでに一部自治体で試行が始まっており、全国展開に向けた制度設計を加速させます。\n+    * また、戸籍謄本などの請求時に、利用者が本籍地を覚えていなくても手続きを完結できるよう、マイナンバーカードによる本人確認と情報連携に基づき、本籍地情報を自動で表示・入力する仕組みを整備します。\n     * デジタル庁の推し進める「[自治体窓口DX](https://www.digital.go.jp/policies/cs-dx#local-governments)」を更に推進していくとともに、加えてIT\\&AIを活用したバックヤード改革を行い、入力内容の確認、窓口業務職員の負担軽減を図ります。  \n   * 待たせない  \n     * 前提として、オンライン化を推し進め、行政機関への訪問を不要にします。  \n@@ -89,10 +90,18 @@\n       * 一定の要件を満たす給付金や手当については、本人への通知後、一定期間内に異議がなければ公金受取口座に自動的に振り込まれる「オプトアウト型自動給付」の仕組みを整備します。2024年の定額減税補足給付では、申請不要の給付が一部自治体で実施されており、これを皮切りに、恒久的な制度への段階的移行を進めていきます。\n       * 加えて、会社からの退職情報や介護・障害の認定など、個人のライフイベントの情報が行政に届いた時点で、国民健康保険の加入や保険料の減免申請といった関連手続きを行政側で一括処理し、本人にはその結果のみを「通知」として送付する仕組みも構築していきます。2025年度より始まる電子離職票のデジタル連携はその基盤となり、今後は国保・年金・雇用保険など複数制度を一体で処理する「ワンストップ型自動手続」への発展させていきます。\n       * 一方、守りの側面も重要で、制度の拡張とともに、AIを活用した不正受給リスクの自動検知モデルを導入し、高リスクケースを優先的に審査するリスクベースアプローチを採用します。東京都の特別区を中心に生活保護や児童扶養手当などで導入が始まっており、これを他の給付分野にも広げていく方針です。あわせて、マイナポータル上で給付履歴や本人への情報照会履歴を確認できるダッシュボード機能を拡充し、透明性とトレーサビリティの確保も図ります。\n-    * ユーザーの質問や状況に応じて最適な窓口や手続きをナビゲート、代行するAIチャットボット、AIエージェント等の導入を加速させ、迷いなく必要な情報にたどり着ける環境を整備します。\n-        * また、AIチャットボットでの対応が難しい場合には、速やかに専門の相談員へ引き継ぐ体制を構築します。デジタル機器の操作に不慣れな方でも安心して利用できるよう、人によるサポートの選択肢を常に用意します。\n-        * 特に高齢者の方々に対しては、デジタル庁の「[デジタル推進委員](https://www.digital.go.jp/policies/digital_promotion_staff)」の取組等と連携し、対面相談窓口の充実や、わかりやすい言葉づかい、大きな文字表示といったインターフェース配慮を徹底します。これには、日本産業規格（JIS）等に準拠したアクセシビリティ基準の採用を含みます。\n-        * 既に成果を上げている自治体と民間企業の連携による現場サービス（例：出張講習、地域サークルと連動したIT体験会）などの優良事例を迅速に横展開し、全国での実装を加速させます。\n+    * プッシュ型支援では届かない個人の予期せぬ困難に対応するため、マイナポータル等に『SOSボタン（仮称）』を設置します。\n+        * ボタンを押すとまずAIが対応し、課題が解決するまで対話を継続。相談内容はマイナンバーに紐づけて記録・管理し、継続的な支援や見守りにつなげます。AIで対応困難な場合や本人が希望する場合は、対話内容を専門の相談員に引き継ぎ、利用者の負担を軽減します。\n+        * さらに、SOSボタンからの相談を受けた行政職員をAIがサポートし、必要な複数の支援（生活、住居、就労など）を部署横断で同時に開始できる仕組みを構築。これにより、行政内の『タライ回し』を解消します。\n+        * あわせて、月１回程度のプッシュ通知で「お困りごとはありませんか？」と定期的に声かけを行い、潜在的な課題の早期発見に努め、孤立を防ぎます。\n+    * **人生の節目に寄り添う「ワンストップ相続」を実現**\n+        * 家族を亡くした悲しみの中、複雑で膨大な手続きに追われる現状を解消するため、行政がハブとなり、民間とも連携したシームレスな相続手続きを実現します。\n+        * **死亡届をワンストップ手続きの入口に：** 市区町村への死亡届の提出をトリガーに、年金、健康保険、税、各種名義変更など、公的機関が関わる手続きにシステム側で自動的に着手します。\n+        * **国が「相続手続きセット」を標準化：** 戸籍情報とマイナンバーの連携により、国が正当な相続人であることを証明するデジタルな「相続資格証明（仮称）」を発行。金融機関をはじめとする民間企業は、この証明書と標準化された書類セットによって手続きを進めることを原則とし、遺族が機関ごとに異なる書類を集める負担を抜本的に解消します。\n+        * **マイナポータルが「相続ダッシュボード」に：** 相続人ご自身のマイナンバーカードでマイナポータルにログインすれば、専用の「相続ダッシュボード」が表示されます。そこでは、法務省・自治体等と連携して把握された被相続人の不動産や、故人名義の許認可などの情報が一覧で確認でき、やるべき手続きのチェックリストや進捗管理も可能です。\n+        * **専門家との連携もサポート：** 不動産の名義変更（相続登記）など、司法書士といった専門家が必要な手続きについては、ダッシュボード上から地域の専門家団体への相談や紹介を受けられる仕組みも整え、あらゆる場面で「迷わせない」サポートを提供します。\n+    * 特に高齢者の方々に対しては、デジタル庁の「[デジタル推進委員](https://www.digital.go.jp/policies/digital_promotion_staff)」の取組等と連携し、対面相談窓口の充実や、わかりやすい言葉づかい、大きな文字表示といったインターフェース配慮を徹底します。これには、日本産業規格（JIS）等に準拠したアクセシビリティ基準の採用を含みます。\n+    * 既に成果を上げている自治体と民間企業の連携による現場サービス（例：出張講習、地域サークルと連動したIT体験会）などの優良事例を迅速に横展開し、全国での実装を加速させます。\n     * 政策情報や手続き案内を、AIや検索エンジンが解析しやすい機械可読なデータ形式（HTML, JSONなど）で提供。AI・アプリ・Web検索を活用した情報アクセス性を向上させます。\n     * 行政文書の日付表記を分かりやすく改善し、西暦を併記または主として使用することで、和暦の確認や年数の計算といった無駄な確認作業をなくし、利便性を向上させます。\n \n@@ -217,3 +226,6 @@\n    * さらに、音声読み上げ・多言語対応などのアクセシビリティ施策を拡充することで、情報の届け方そのものを多様化し、「紙が前提」となっている現行制度を超えた、誰もがアクセスできる“開かれた選挙”の実現を目指します。\n \n \n+\n+\n+"
     }
   ],
   "commits": [
@@ -329,7 +329,89 @@
           "html_url": "https://github.com/team-mirai/policy/commit/4c7ac03105c40668720f1adbfad561fd765bd598"
         }
       ]
+    },
+    {
+      "sha": "68cdc5db0ad69ac931c089d0d03f320e3de39f0a",
+      "node_id": "C_kwDOOqTJvNoAKDY4Y2RjNWRiMGFkNjlhYzkzMWMwODlkMGQwM2YzMjBlM2RlMzlmMGE",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-18T13:45:13Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-18T13:45:13Z"
+        },
+        "message": ".34さんの提案に基づき、SOSボタン、本籍地、相続に関する改善案を反映",
+        "tree": {
+          "sha": "eca3fcf26883c1656d15a1e0a94adcc76eca91b7",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/eca3fcf26883c1656d15a1e0a94adcc76eca91b7"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/68cdc5db0ad69ac931c089d0d03f320e3de39f0a",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoek/pCRC1aQ7uu5UhlAAATzMQABegftzA8q/Gn8VQccRcTycH\n0IKDVTNJOC4MVNFjavZk6KCla+eHOY4dG7DhQKl5YQjQ8zIFW52cDEfVhAMX1N3w\nV3X3gXm1PtelENtGaCeuwLVLQzDYFLBHA/BgW+DcSOo89rEuyIdCwEivAkgM+PR0\nkJT/MKbDfXapWqMIUI1IuXlT29DO7Kg6kQGWDo3Byeb3Qapi+1d/7sMWG4Ju/bPq\nv1NfbrQHKgbU/FuWZqIK89rLHafZd82MzTddPNLzGHR/VUn6e9iu6510uJ4MMUyB\nqvkiOU58OyXI4R3pQGERnBPRMcXwlU7kPgPt85DUxyOPFgc3Z4ZaCG0ar8Ryr9mc\nA5B2QKT0LCRc5fciA1gfHe0DXEzHhlaBi2N+OE+F4HJZ0B3tm4Xe3VD6QfBVQU8B\ndQ/ZyuoZtBVA5hc1ieU92yD5KzFAEjNDt3uUMonwFIVXTUSoSKtwI0dJJaX1gOEu\n8f+z3CXh5RzqrMuY9Zhiu2GRrqERDrspJcPNqZF1XZqI2rg2ftnaWyIKQOIMW9+i\nMCNC69zr2puCqDiTzJRWyHW0iaQkUjSsKVstBUkBgpViGPLANk9EepSljWGWJv/l\ncL+GST90SFewJlPSCj+HctgkAQI9iCidLPbxHIZnW3iwesNMKsklQuO5CXuK76/e\nfLD0tffd8TCK1SkQqvxp\n=Xaid\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree eca3fcf26883c1656d15a1e0a94adcc76eca91b7\nparent 62f8b64adac57b26baa492524f5394aa30d4cecc\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1752846313 +0000\ncommitter GitHub <noreply@github.com> 1752846313 +0000\n\n.34さんの提案に基づき、SOSボタン、本籍地、相続に関する改善案を反映",
+          "verified_at": "2025-07-18T13:45:13Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/68cdc5db0ad69ac931c089d0d03f320e3de39f0a",
+      "html_url": "https://github.com/team-mirai/policy/commit/68cdc5db0ad69ac931c089d0d03f320e3de39f0a",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/68cdc5db0ad69ac931c089d0d03f320e3de39f0a/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "62f8b64adac57b26baa492524f5394aa30d4cecc",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/62f8b64adac57b26baa492524f5394aa30d4cecc",
+          "html_url": "https://github.com/team-mirai/policy/commit/62f8b64adac57b26baa492524f5394aa30d4cecc"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-18T13:33:08.258606"
+  "collected_at": "2025-07-19T06:21:26.080543"
 }

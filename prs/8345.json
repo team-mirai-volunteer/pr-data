@@ -1,0 +1,131 @@
+{
+  "basic_info": {
+    "number": 8345,
+    "title": "Update: 投開票日に向けて自動通知のワークフローを削除",
+    "state": "closed",
+    "created_at": "2025-07-19T04:32:22Z",
+    "updated_at": "2025-07-19T04:41:17Z",
+    "closed_at": "2025-07-19T04:41:12Z",
+    "merged_at": "2025-07-19T04:41:12Z",
+    "html_url": "https://github.com/team-mirai/policy/pull/8345",
+    "user": {
+      "login": "jujunjun110",
+      "id": 4201520,
+      "html_url": "https://github.com/jujunjun110"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "3783024f3fa9105695e3515951e8c784886dfcd7",
+      "filename": ".github/workflows/post-to-x.yml",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 38,
+      "changes": 38,
+      "blob_url": "https://github.com/team-mirai/policy/blob/df65ae5293022c494abbd85260769a470411eeb4/.github%2Fworkflows%2Fpost-to-x.yml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/df65ae5293022c494abbd85260769a470411eeb4/.github%2Fworkflows%2Fpost-to-x.yml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fworkflows%2Fpost-to-x.yml?ref=df65ae5293022c494abbd85260769a470411eeb4",
+      "patch": "@@ -1,38 +0,0 @@\n-name: Post PR Info to X\n-\n-on:\n-  pull_request_target:\n-    types: [closed]\n-    branches: [main]\n-    paths-ignore:\n-      - '.github/**'\n-      - '.tools/**'\n-      - '.meta/**'\n-\n-jobs:\n-  post-to-x:\n-    runs-on: ubuntu-latest\n-    # マージされたPRのみX投稿を実行する\n-    if: github.event.pull_request.merged == true\n-    steps:\n-      - name: Checkout\n-        uses: actions/checkout@v4\n-\n-      - name: Set up Node.js\n-        uses: actions/setup-node@v4\n-        with:\n-          node-version: '20'\n-\n-      - name: Run post script\n-        if: github.event.pull_request.merged == true\n-        env:\n-          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}\n-          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}\n-          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}\n-          TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}\n-        run: |\n-          cd .github/scripts\n-          npm init -y\n-          npm install twitter-api-v2 typescript @types/node\n-          npx tsc post_to_x.ts --target ES2020 --module commonjs\n-          node post_to_x.js"
+    },
+    {
+      "sha": "5ddaa87494b5234a6fbd44e1bf8064130593333e",
+      "filename": ".github/workflows/slack-notification-on-merge.yml",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 63,
+      "changes": 63,
+      "blob_url": "https://github.com/team-mirai/policy/blob/df65ae5293022c494abbd85260769a470411eeb4/.github%2Fworkflows%2Fslack-notification-on-merge.yml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/df65ae5293022c494abbd85260769a470411eeb4/.github%2Fworkflows%2Fslack-notification-on-merge.yml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2Fworkflows%2Fslack-notification-on-merge.yml?ref=df65ae5293022c494abbd85260769a470411eeb4",
+      "patch": "@@ -1,63 +0,0 @@\n-name: Slack Notification on PR Close\n-\n-on:\n-  pull_request_target:\n-    types: [closed]\n-    branches: [main]\n-\n-jobs:\n-  notify-slack:\n-    runs-on: ubuntu-24.04\n-    # 悪意あるユーザーが自分でPRをクローズしただけで通知が送信されることを防ぐため、\n-    # 同一リポジトリからのPRまたは実際にマージされたPRのみ通知を行う\n-    if: |\n-      github.event.pull_request.head.repo.full_name == github.repository ||\n-      github.event.pull_request.merged == true\n-    steps:\n-      - name: Get PR labels and changed files\n-        id: get-pr-info\n-        run: |\n-          labels=$(curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n-            \"https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}\" | \\\n-            jq -r '.labels | map(.name) | join(\", \")')\n-          echo \"labels=$labels\" >> $GITHUB_OUTPUT\n-          \n-          has_thankyou=$(curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n-            \"https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}\" | \\\n-            jq -r '.labels | map(.name) | contains([\"thankyou\"])')\n-          echo \"has_thankyou=$has_thankyou\" >> $GITHUB_OUTPUT\n-          \n-          changed_files=$(curl -s -H \"Authorization: token ${{ secrets.GITHUB_TOKEN }}\" \\\n-            \"https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files\" | \\\n-            jq -r '.[].filename | select(. != null)' | tr '\\n' ',' | sed 's/,$//')\n-          echo \"changed_files=$changed_files\" >> $GITHUB_OUTPUT\n-      \n-      - name: Determine notification message\n-        id: message-template\n-        run: |\n-          if [ \"${{ github.event.pull_request.merged }}\" == \"true\" ]; then\n-            echo \"message=政策提案がマニフェストに取り込まれました:tada:\" >> $GITHUB_OUTPUT\n-            echo \"handler=${{ github.event.pull_request.merged_by.login }}\" >> $GITHUB_OUTPUT\n-          elif [ \"${{ steps.get-pr-info.outputs.has_thankyou }}\" == \"true\" ]; then\n-            echo \"message=政策提案がThank You付きでクローズされました:white_check_mark:\" >> $GITHUB_OUTPUT\n-            echo \"handler=${{ github.actor }}\" >> $GITHUB_OUTPUT\n-          else\n-            echo \"message=政策提案がクローズされました:octagonal_sign:\" >> $GITHUB_OUTPUT\n-            echo \"handler=${{ github.actor }}\" >> $GITHUB_OUTPUT\n-          fi\n-      \n-      - name: Send Slack notification to first channel\n-        run: |\n-          curl -X POST -H 'Content-type: application/json' \\\n-            --data \"{\n-              \\\"text\\\": \\\"${{ steps.message-template.outputs.message }}\\\\n\\\\n*<${{ github.event.pull_request.html_url }}|${{ github.event.pull_request.title }}>*\\\\n* 提案者: ${{ github.event.pull_request.user.login }}\\\\n* 対応者: ${{ steps.message-template.outputs.handler }}\\\\n* 変更ファイル: ${{ steps.get-pr-info.outputs.changed_files }}\\\\n* ラベル: ${{ steps.get-pr-info.outputs.labels }}\\\"\n-            }\" \\\n-            ${{ secrets.SLACK_WEBHOOK_URL_01 }}\n-      \n-      - name: Send Slack notification to second channel\n-        run: |\n-          curl -X POST -H 'Content-type: application/json' \\\n-            --data \"{\n-              \\\"text\\\": \\\"${{ steps.message-template.outputs.message }}\\\\n\\\\n*<${{ github.event.pull_request.html_url }}|${{ github.event.pull_request.title }}>*\\\\n* 提案者: ${{ github.event.pull_request.user.login }}\\\\n* 対応者: ${{ steps.message-template.outputs.handler }}\\\\n* 変更ファイル: ${{ steps.get-pr-info.outputs.changed_files }}\\\\n* ラベル: ${{ steps.get-pr-info.outputs.labels }}\\\"\n-            }\" \\\n-            ${{ secrets.SLACK_WEBHOOK_URL_02 }}"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "f7b2713e0f04c6d04137f7090a5f991136ce81f9",
+      "node_id": "C_kwDOOqTJvNoAKGY3YjI3MTNlMGYwNGM2ZDA0MTM3ZjcwOTBhNWY5OTExMzZjZTgxZjk",
+      "commit": {
+        "author": {
+          "name": "Jun Ito",
+          "email": "jujunjun110@gmail.com",
+          "date": "2025-07-19T04:30:50Z"
+        },
+        "committer": {
+          "name": "Jun Ito",
+          "email": "jujunjun110@gmail.com",
+          "date": "2025-07-19T04:30:50Z"
+        },
+        "message": "Update: 投開票日に向けて自動通知のワークフローを削除",
+        "tree": {
+          "sha": "15e1bacd54d9febabbb5453d1be53e70edf1b11a",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/15e1bacd54d9febabbb5453d1be53e70edf1b11a"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/f7b2713e0f04c6d04137f7090a5f991136ce81f9",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null,
+          "verified_at": null
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/f7b2713e0f04c6d04137f7090a5f991136ce81f9",
+      "html_url": "https://github.com/team-mirai/policy/commit/f7b2713e0f04c6d04137f7090a5f991136ce81f9",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/f7b2713e0f04c6d04137f7090a5f991136ce81f9/comments",
+      "author": {
+        "login": "jujunjun110",
+        "id": 4201520,
+        "node_id": "MDQ6VXNlcjQyMDE1MjA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4201520?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jujunjun110",
+        "html_url": "https://github.com/jujunjun110",
+        "followers_url": "https://api.github.com/users/jujunjun110/followers",
+        "following_url": "https://api.github.com/users/jujunjun110/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jujunjun110/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jujunjun110/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jujunjun110/subscriptions",
+        "organizations_url": "https://api.github.com/users/jujunjun110/orgs",
+        "repos_url": "https://api.github.com/users/jujunjun110/repos",
+        "events_url": "https://api.github.com/users/jujunjun110/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jujunjun110/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "jujunjun110",
+        "id": 4201520,
+        "node_id": "MDQ6VXNlcjQyMDE1MjA=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/4201520?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/jujunjun110",
+        "html_url": "https://github.com/jujunjun110",
+        "followers_url": "https://api.github.com/users/jujunjun110/followers",
+        "following_url": "https://api.github.com/users/jujunjun110/following{/other_user}",
+        "gists_url": "https://api.github.com/users/jujunjun110/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/jujunjun110/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/jujunjun110/subscriptions",
+        "organizations_url": "https://api.github.com/users/jujunjun110/orgs",
+        "repos_url": "https://api.github.com/users/jujunjun110/repos",
+        "events_url": "https://api.github.com/users/jujunjun110/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/jujunjun110/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "df65ae5293022c494abbd85260769a470411eeb4",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/df65ae5293022c494abbd85260769a470411eeb4",
+          "html_url": "https://github.com/team-mirai/policy/commit/df65ae5293022c494abbd85260769a470411eeb4"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-19T06:19:22.140367"
+}
