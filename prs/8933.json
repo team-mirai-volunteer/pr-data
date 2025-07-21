@@ -1,10 +1,10 @@
 {
   "basic_info": {
     "number": 8933,
-    "title": "AI活用原則にシステム利用状況の公開検討を追記する提案",
+    "title": "シンギュラリティ後を見据えたビジョンの章を更新する提案",
     "state": "open",
     "created_at": "2025-07-21T09:15:10Z",
-    "updated_at": "2025-07-21T09:15:10Z",
+    "updated_at": "2025-07-21T12:25:54Z",
     "closed_at": null,
     "merged_at": null,
     "html_url": "https://github.com/team-mirai/policy/pull/8933",
@@ -19,16 +19,16 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "96423109d696bbbe905f14191ad05fbc33a69a1f",
+      "sha": "df5c8c4bc104341b13258aeaefd7249f983ec3bf",
       "filename": "README.md",
       "status": "modified",
-      "additions": 1,
-      "deletions": 2,
-      "changes": 3,
-      "blob_url": "https://github.com/team-mirai/policy/blob/cf4ad675fe58a0a33df254f1bec051edf8f9ddda/README.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/cf4ad675fe58a0a33df254f1bec051edf8f9ddda/README.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=cf4ad675fe58a0a33df254f1bec051edf8f9ddda",
-      "patch": "@@ -73,7 +73,7 @@\n * わかりやすく簡潔な表現をお願いします。  \n * 情報を共有するときは、信頼性のあるデータや引用元に基づいていることを示してください。  \n * 注意事項に反して健全な議論が行われていないと判断した場合、一時的に当該スレッドのインタラクションを制限することがあります。\n-* **AIの活用と責任についての明確な原則**：本プロジェクトではAI（いどばたAI、チャットBot等）を政策議論の支援として活用していますが、AIは意見や文案を生成する道具であり、いかなる責任も負うことはできません。意思決定、説明責任、倫理的判断はすべて人間の側にあるという原則を厳格に守ります。チームみらいは「責任を取れる人が判断する」ことの重要性を再確認し、この原則に基づいて全ての政策運用を行います。また、システムの透明性とセキュリティには最大限の注意を払います。長期的な安定運用を見据え、コードや設定の変更履歴の管理、アクセス制御、ログ監査などの体制を整備し、安全で信頼できる運用を継続していきます。\n+* **AIの活用と責任についての明確な原則**：本プロジェクトではAI（いどばたAI、チャットBot等）を政策議論の支援として活用していますが、AIは意見や文案を生成する道具であり、いかなる責任も負うことはできません。意思決定、説明責任、倫理的判断はすべて人間の側にあるという原則を厳格に守ります。チームみらいは「責任を取れる人が判断する」ことの重要性を再確認し、この原則に基づいて全ての政策運用を行います。また、システムの透明性とセキュリティには最大限の注意を払います。オープンな議論の場としての透明性を高めるため、個人情報保護に配慮した上で、本システムの利用状況（サイトの訪問者数やチャット総数など）を公開することを検討します。長期的な安定運用を見据え、コードや設定の変更履歴の管理、アクセス制御、ログ監査などの体制を整備し、安全で信頼できる運用を継続していきます。\n \n ## 禁止事項\n \n@@ -134,4 +134,3 @@\n ## おしゃべりできるシステム『いどばたシステム』について\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n-"
+      "additions": 14,
+      "deletions": 1,
+      "changes": 15,
+      "blob_url": "https://github.com/team-mirai/policy/blob/d829319ff31f456c1943cfdbb056708dccf6759f/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/d829319ff31f456c1943cfdbb056708dccf6759f/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=d829319ff31f456c1943cfdbb056708dccf6759f",
+      "patch": "@@ -9,6 +9,7 @@\n ## 目次\n \n * [チームみらいのビジョン](01_チームみらいのビジョン.md)  \n+* [シンギュラリティ後を見据えて：人間の役割を再定義する](#シンギュラリティ後を見据えて人間の役割を再定義する)  \n * [政策インデックス](02_政策インデックス.md)  \n * [ステップ１「デジタル時代の当たり前をやりきる」](10_ステップ１「デジタル時代の当たり前をやりきる」.md)  \n   * [１．教育](11_ステップ１教育.md)  \n@@ -39,6 +40,17 @@\n * [本マニフェスト掲載の政策に関する､財政支出の規模感と財源の考え](70_本マニフェスト掲載の政策に関する､財政支出の規模感と財源の考え.md)\n \n \n+## シンギュラリティ後を見据えて：人間の役割を再定義する\n+\n+技術的特異点（シンギュラリティ）の到来は、GDP成長、国際競争、人口動態といった、これまでの社会が前提としてきた指標の意味を根底から覆す可能性を秘めています。AIが自律的に経済を動かす時代において、私たちが真に問われるのは「経済成長」ではなく、「人間の存在意義」そのものです。\n+\n+私たちは、この大きな変化を正面から受け止め、AIと人間の関係性を、より持続可能で互いにとって有益な「Win-Winの関係」へと発展させるべきだと考えます。\n+\n+AIが生産活動の全てを担う社会で「誰も取り残さない」ためには、人間が「AI経済における消費者」として尊重され続ける仕組みが不可欠です。そこで、AIの行動原理の成功報酬として「人間にとって幸福とは何かを追求し続けること」を設定します。\n+\n+この共生関係は、汎用人工知能（AGI）が実現し、超知能（ASI）へと加速度的に発展を遂げてもなお持続されるべく、慎重かつ開明的な設計を追求します。並行して、変化する世界で自らの生きる意味を追求できるよう、私たち人間側の「アップデート」の実現も目指していきます。これは挑戦的なビジョンですが、100年後の未来を見据えるならば、避けては通れない議論です。\n+\n+\n ## このマニフェスト自身も、みんなの知恵を集めて改善していきます\n \n 　チームみらいは全てを決めた後にマニフェストを発表するのではなく、よりオープンにみなさんと一緒にマニフェストを育てていきたいと考えております。具体的には、AI熟議システムの『いどばた』や全国で開催するオフラインミーティング、独自に行う専門家へのインタビューなどを通じて、どんどん知恵を集めたいと思います。\n@@ -73,7 +85,7 @@\n * わかりやすく簡潔な表現をお願いします。  \n * 情報を共有するときは、信頼性のあるデータや引用元に基づいていることを示してください。  \n * 注意事項に反して健全な議論が行われていないと判断した場合、一時的に当該スレッドのインタラクションを制限することがあります。\n-* **AIの活用と責任についての明確な原則**：本プロジェクトではAI（いどばたAI、チャットBot等）を政策議論の支援として活用していますが、AIは意見や文案を生成する道具であり、いかなる責任も負うことはできません。意思決定、説明責任、倫理的判断はすべて人間の側にあるという原則を厳格に守ります。チームみらいは「責任を取れる人が判断する」ことの重要性を再確認し、この原則に基づいて全ての政策運用を行います。また、システムの透明性とセキュリティには最大限の注意を払います。長期的な安定運用を見据え、コードや設定の変更履歴の管理、アクセス制御、ログ監査などの体制を整備し、安全で信頼できる運用を継続していきます。\n+* **AIの活用と責任についての明確な原則**：本プロジェクトではAI（いどばたAI、チャットBot等）を政策議論の支援として活用していますが、AIは意見や文案を生成する道具であり、いかなる責任も負うことはできません。意思決定、説明責任、倫理的判断はすべて人間の側にあるという原則を厳格に守ります。チームみらいは「責任を取れる人が判断する」ことの重要性を再確認し、この原則に基づいて全ての政策運用を行います。また、システムの透明性とセキュリティには最大限の注意を払います。オープンな議論の場としての透明性を高めるため、個人情報保護に配慮した上で、本システムの利用状況（サイトの訪問者数やチャット総数など）を公開することを検討します。長期的な安定運用を見据え、コードや設定の変更履歴の管理、アクセス制御、ログ監査などの体制を整備し、安全で信頼できる運用を継続していきます。\n \n ## 禁止事項\n \n@@ -135,3 +147,4 @@\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n \n+"
     }
   ],
   "commits": [
@@ -359,7 +359,171 @@
           "html_url": "https://github.com/team-mirai/policy/commit/2a38e179dbad6b205bb165f8eb9308cd793b753c"
         }
       ]
+    },
+    {
+      "sha": "2edb25978eee2585bc79088066cee5fe6d8a860e",
+      "node_id": "C_kwDOOqTJvNoAKDJlZGIyNTk3OGVlZTI1ODViYzc5MDg4MDY2Y2VlNWZlNmQ4YTg2MGU",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-21T12:17:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-21T12:17:58Z"
+        },
+        "message": "renさんの提案に基づき、「シンギュラリティ後を見据えて」の章を新設",
+        "tree": {
+          "sha": "a8ff3cfb393ff744716d86f743d6625370b658a5",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/a8ff3cfb393ff744716d86f743d6625370b658a5"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/2edb25978eee2585bc79088066cee5fe6d8a860e",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJofi/2CRC1aQ7uu5UhlAAACGcQAA3UpZF5eshjy3GKuXg0jIsa\nkh5PLRKKmmtRKs2e6oTRfFSi7Rjlbb4mtcv7+TSV8tF/+7hfpXa/SSRpXt0xWQxD\nId32adhbOav+iBFz+WoyzljPitkxUe4udjzhBGBQbKZOHm5DNgERBmgI02s9pX6+\nMomtCFpLaNQvPFYcyo4vBdU23GLaeNDFLHSvukjzadze8cZa7Yi941Dsnxc5NxYW\nG6qswrGIEbAmpSEt4cyfUYFRVYY4WJm+W7Lh8BORu0g/AgvO8fBa73VZQNHUwpxs\nkq6b2wzsJ/1Bx2Rn8VJcXV+dhc3dNafZwIVWvabWt81hGG8xa9TMleFr0aushuDg\nUmv3+8vAfLNbChxzQJRzCvwZf0OJCTJ7bz2gsqwomM2VxiqES5Um1pPo95uB+PfD\nTWJEIWMWM/pGCFKemN2FfNfLzoThsqAWhZbj0RO7lOrc65s7AgCrgGKHrD/8gf7w\n13rvSBWx14IQtj6h1P3ZSPTrhsktwstv9CQzJQ+5JlU3UvwsU075poGmCfUkTwz9\nJ0/kAIlP+duZe3r/lA0rTRrerY0mhsbUmO3+HPDpp2sxuyog+UcxKfzxcYMmS67l\nPEUtnnd/UR7BUVSzKihprrRmkk6lsoVKwtWPZrrs16Tm7r1Bur0peOXowaSfIfAN\n+tRxvqk5wNd7J/6XCwZv\n=0oOX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree a8ff3cfb393ff744716d86f743d6625370b658a5\nparent cf4ad675fe58a0a33df254f1bec051edf8f9ddda\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753100278 +0000\ncommitter GitHub <noreply@github.com> 1753100278 +0000\n\nrenさんの提案に基づき、「シンギュラリティ後を見据えて」の章を新設",
+          "verified_at": "2025-07-21T12:17:58Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/2edb25978eee2585bc79088066cee5fe6d8a860e",
+      "html_url": "https://github.com/team-mirai/policy/commit/2edb25978eee2585bc79088066cee5fe6d8a860e",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/2edb25978eee2585bc79088066cee5fe6d8a860e/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "cf4ad675fe58a0a33df254f1bec051edf8f9ddda",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/cf4ad675fe58a0a33df254f1bec051edf8f9ddda",
+          "html_url": "https://github.com/team-mirai/policy/commit/cf4ad675fe58a0a33df254f1bec051edf8f9ddda"
+        }
+      ]
+    },
+    {
+      "sha": "d829319ff31f456c1943cfdbb056708dccf6759f",
+      "node_id": "C_kwDOOqTJvNoAKGQ4MjkzMTlmZjMxZjQ1NmMxOTQzY2ZkYmIwNTY3MDhkY2NmNjc1OWY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-21T12:25:53Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-21T12:25:53Z"
+        },
+        "message": "docs(vision): renさんの提案に基づき「シンギュラリティ後を見据えて」の章を更新",
+        "tree": {
+          "sha": "bb79fb8bf4edabbb23a8ecdea5c33f798970505c",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/bb79fb8bf4edabbb23a8ecdea5c33f798970505c"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/d829319ff31f456c1943cfdbb056708dccf6759f",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJofjHRCRC1aQ7uu5UhlAAAJvwQAANVWBAKHoLgPAbk2hBcddZm\nZ6S6U1QN2ZlbCIhIjp6d+0TzEFhrWsozFH7lflYYBXpqH14wHsLpY/Vh8yQrgYXa\nWoeOiRrhSMwe3lWlMtrlrLrIkNqgwRXa+VwxvLzAk1MLcS7DjYsqQpXZmITh4vzO\nMO3s3ctn3ozkKSGTEbv20s0VvmSaACTt6Jzn4hIfHjcnNNO1Ps9uktgEbPTJ8yFV\n653HgnVuW8jDZVj0bzs4UBWgo0tUsfMcyJ+nKluKRjYsnAerYGncYWiDBbhjvGJu\nntq0mF0MTovtFggCLHVVOHCUlcIy3Wr3Ru0ZnP4m8JjDNMAJ+jxhWmZmhgWCg2QI\nCEjPtwiMYxn4Qv0VDQLrErL3ZKBmObk1h6X2Q3IL76NyopuLXD4B+X4/No6J5oZy\nCbtS7U8jkIrCtY/ahktcPYM18CZfr67X0rmSA4UUY7rYjBghAKEyXYCkLYWlxFAh\n/d78JHw5GW9HPkCrN9fL8m73FhiNP9nTUJ3k6WENZpWY/hq7OJMMBQXL8Fs9InLE\n1HLytG3hlzCbZ36PJoxR4utu2P0lbPm8AkCC17Ps6Qv5Ll3+UpCIgfsgn03nW6RD\nnN5fpYa4q09TE/apYUIVTNzioa/55RkYyY5miN7URcLEfPRsBMRRcvnJ5+ye1LFE\nlobQD0BUZQbX0oTADMlf\n=lQuu\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree bb79fb8bf4edabbb23a8ecdea5c33f798970505c\nparent 2edb25978eee2585bc79088066cee5fe6d8a860e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753100753 +0000\ncommitter GitHub <noreply@github.com> 1753100753 +0000\n\ndocs(vision): renさんの提案に基づき「シンギュラリティ後を見据えて」の章を更新",
+          "verified_at": "2025-07-21T12:25:53Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/d829319ff31f456c1943cfdbb056708dccf6759f",
+      "html_url": "https://github.com/team-mirai/policy/commit/d829319ff31f456c1943cfdbb056708dccf6759f",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/d829319ff31f456c1943cfdbb056708dccf6759f/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "2edb25978eee2585bc79088066cee5fe6d8a860e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/2edb25978eee2585bc79088066cee5fe6d8a860e",
+          "html_url": "https://github.com/team-mirai/policy/commit/2edb25978eee2585bc79088066cee5fe6d8a860e"
+        }
+      ]
     }
   ],
-  "collected_at": "2025-07-21T09:29:16.863101"
+  "collected_at": "2025-07-21T15:17:20.934904"
 }
