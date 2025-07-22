@@ -1,13 +1,13 @@
 {
   "basic_info": {
-    "number": 9112,
-    "title": "「人生の最終段階における医療（ACP）の意思決定支援」の項目を追加",
+    "number": 9270,
+    "title": "行政システムのUI/UX改善提案",
     "state": "open",
-    "created_at": "2025-07-22T01:36:42Z",
-    "updated_at": "2025-07-22T02:54:04Z",
+    "created_at": "2025-07-22T15:57:28Z",
+    "updated_at": "2025-07-22T15:57:37Z",
     "closed_at": null,
     "merged_at": null,
-    "html_url": "https://github.com/team-mirai/policy/pull/9112",
+    "html_url": "https://github.com/team-mirai/policy/pull/9270",
     "user": {
       "login": "idobata-policy-app[bot]",
       "id": 211775619,
@@ -17,11 +17,11 @@
   "labels": [],
   "comments": [
     {
-      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3100285650",
-      "html_url": "https://github.com/team-mirai/policy/pull/9112#issuecomment-3100285650",
-      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/9112",
-      "id": 3100285650,
-      "node_id": "IC_kwDOOqTJvM64yprS",
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3103569687",
+      "html_url": "https://github.com/team-mirai/policy/pull/9270#issuecomment-3103569687",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/9270",
+      "id": 3103569687,
+      "node_id": "IC_kwDOOqTJvM64_LcX",
       "user": {
         "login": "github-actions[bot]",
         "id": 41898282,
@@ -43,12 +43,12 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "created_at": "2025-07-22T01:36:51Z",
-      "updated_at": "2025-07-22T01:36:51Z",
+      "created_at": "2025-07-22T15:57:37Z",
+      "updated_at": "2025-07-22T15:57:37Z",
       "author_association": "NONE",
       "body": "## 📢 X（旧Twitter）通知について\n\nこのPRがマージされると、自動的にX（旧Twitter）に投稿されます。\n\nもし以下のような政策内容の実質的な変更を含まないPRの場合、X通知をスキップすることができます：\n- タイポや誤字脱字の修正\n- マークダウンのフォーマット調整\n- リンク切れの修正\n- その他、政策内容に実質的な変更を含まない修正\n\n### 通知をスキップする方法\nPRに `skip-notification` ラベルを追加してください。\n1. 右側のLabelsセクションをクリック\n2. `skip-notification` を選択\n\n※ Slack通知は内部進捗管理のため、引き続き送信されます。",
       "reactions": {
-        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3100285650/reactions",
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3103569687/reactions",
         "total_count": 0,
         "+1": 0,
         "-1": 0,
@@ -153,51 +153,51 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "1ebe559d24da24ecfed8a81286e921d53fd9bd92",
-      "filename": "23_ステップ２医療.md",
+      "sha": "288b6c4e96d3de58eb99c5cd2184b99c8f3bf476",
+      "filename": "16_ステップ１デジタル民主主義.md",
       "status": "modified",
-      "additions": 10,
-      "deletions": 0,
-      "changes": 10,
-      "blob_url": "https://github.com/team-mirai/policy/blob/fc2dcd455d7eebe66299641b7e14d2e47a852637/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/fc2dcd455d7eebe66299641b7e14d2e47a852637/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=fc2dcd455d7eebe66299641b7e14d2e47a852637",
-      "patch": "@@ -59,3 +59,13 @@\n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n   * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+\n+## 3）人生の最終段階における医療（ACP）の意思決定支援\n+\n+### 現状認識・課題分析\n+*   救急や終末期の現場では、本人の意思が不明なまま、ご家族が延命治療などの重い判断を迫られることが少なくありません。\n+*   延命治療の選択肢について、その後の療養生活の具体的なイメージが共有されないまま意思決定が行われることがあります。\n+\n+### 政策概要\n+*   本人が望む医療やケアを事前に話し合う「人生会議（ACP）」を推進し、その意思を尊重する文化を醸成します。\n+*   延命治療等の選択肢について、その後の生活実態等を映像やデータで「見える化」し、国民が判断材料として参照できる仕組みを構築します。"
+      "additions": 8,
+      "deletions": 1,
+      "changes": 9,
+      "blob_url": "https://github.com/team-mirai/policy/blob/157254823228812bb1964e9b5586e0e28d6cbcdb/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/157254823228812bb1964e9b5586e0e28d6cbcdb/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/16_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E6%B0%91%E4%B8%BB%E4%B8%BB%E7%BE%A9.md?ref=157254823228812bb1964e9b5586e0e28d6cbcdb",
+      "patch": "@@ -43,11 +43,18 @@ AIを活用してパブリックコメントの取りまとめをすることに\n   <img src=\"https://github.com/user-attachments/assets/bf5de7d9-c5d6-4eea-8154-579693106340\">\n </p>\n \n+## ３）行政システムのUI/UX改善\n+\n+### 現状認識・課題分析\n+e-taxやマイナポータルはUIが分かりにくく、専門用語が多いため、多くの利用者が手続きを円滑に進められない。\n+\n+### 政策概要\n+全てのページに常駐する「AIコンシェルジュ」を導入し、利用者が自然言語で質問すれば、必要な手続きの案内や専門用語の解説を受けられるようにする。\n \n ## 補足：『デジタル民主主義2030』とは？\n \n デジタル民主主義2030は安野たかひろが2025年1月に立ち上げたオープンソース開発のコミュニティです。現在も政治的中立を保ちながら活動を進めていきます（中立性維持を構造上可能なようにすべく、安野貴博も2025年5月にボードメンバーを辞しています）。詳細は[こちら](https://dd2030.org/)のページをご確認ください。\n \n ## 補足：Plurality（多元性）について\n \n-Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。\n\\ No newline at end of file\n+Pluralityとは、オードリー・タン氏とE・グレン・ワイル氏が共同で提唱する概念です。この概念は「社会的および文化的な違いを超えた協働を認識し、尊重し、力を与えるテクノロジー」と定義されています。デジタル技術を活用して多様な意見をまとめあげ、より良い合意形成を目指すデジタル民主主義にとって、このPluralityの考え方は重要な指針となります。詳細は[「Plurality」とは何か｜日本語版解説](https://wired.jp/article/what-is-plurality-book/)をご参照ください。"
     }
   ],
   "commits": [
     {
-      "sha": "fc2dcd455d7eebe66299641b7e14d2e47a852637",
-      "node_id": "C_kwDOOqTJvNoAKGZjMmRjZDQ1NWQ3ZWViZTY2Mjk5NjQxYjdlMTRkMmU0N2E4NTI2Mzc",
+      "sha": "157254823228812bb1964e9b5586e0e28d6cbcdb",
+      "node_id": "C_kwDOOqTJvNoAKDE1NzI1NDgyMzIyODgxMmJiMTk2NGU5YjU1ODZlMGUyOGQ2Y2JjZGI",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-22T01:36:03Z"
+          "date": "2025-07-22T15:55:40Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-22T01:36:03Z"
+          "date": "2025-07-22T15:55:40Z"
         },
-        "message": "匿名ユーザーからの提案：人生の最終段階における医療（ACP）の意思決定支援に関する項目を追加",
+        "message": "石田さんの提案に基づき、行政システムのUI/UX改善に関する項目を追加",
         "tree": {
-          "sha": "c0030f21a6ff43bd466cb4f692cdc5e19d1d0abd",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c0030f21a6ff43bd466cb4f692cdc5e19d1d0abd"
+          "sha": "c1878a0c98c10090e0d6b7a376767e271de2a8ce",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c1878a0c98c10090e0d6b7a376767e271de2a8ce"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/fc2dcd455d7eebe66299641b7e14d2e47a852637",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/157254823228812bb1964e9b5586e0e28d6cbcdb",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJofusDCRC1aQ7uu5UhlAAARt4QAFncZBo61LxMs70uhLleXx4h\n/mI6QU+G3HL2B+ikax3Uf0z3ciDElDqW4TrKcdFSBTFnVbn7tqUdhlK697ZuQpFv\nP60mBbukOPYuRohE2k2yYkfsYptW5ad5XNtoABzUxtK+p/eL7349skUa8uvhvIbj\nQ0KOzkq4829ipZBaTr8UMbu+3SRZ+XVqR6GuVlO21SsaDpWONPS0tUmoyQWY8m9d\nleiDRoLWtNb3yV94CKc2EewZdESRxS3ToJ+OQNC96rhzkpGF6dgEHMGg9KMjHtLD\n4Hzf6+8ClIF+GUg3FDvUO9RQxhpsk3IYV0KjZBI6ZB95nQlfqC1SB3I9UiQQLoQf\nrAIm9DT/gAHZwrtowS6bLKtfdF/zB6KCd0XPwOkUvHeu7CMOkjugt3z2iM5/z4/z\n0juGVVOJI0MfUfIYrR6f7W9dMq7/V/2n611MvBQwBXgOEoi+G7xmskxHl/TnX2ND\nTwWdkCMkVZ5tty8AowhLG9uzaGJCYSPKnwspCi2NnSUSm9RHHzY1dDixxO1/Dd2+\n+j2QaICTOU0w93ZvAkYEETUUsxpiy0o1uO5yZfNTb13ENkHEzdXDdM1YEjEh6L0/\njX5cX3vtPhr0tK7bvqrDHXSswA65Nal87AzFhV09oOX3mA0j4iCVgp+L2k54hM6f\nm0pyaa87e2A6P5czAl00\n=FJw/\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree c0030f21a6ff43bd466cb4f692cdc5e19d1d0abd\nparent 1e79686d47665634b6c03e6092e6ffd2b2302a0e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753148163 +0000\ncommitter GitHub <noreply@github.com> 1753148163 +0000\n\n匿名ユーザーからの提案：人生の最終段階における医療（ACP）の意思決定支援に関する項目を追加",
-          "verified_at": "2025-07-22T01:36:03Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJof7R8CRC1aQ7uu5UhlAAAti8QAIYNvWEJWHC8/4IuoR5J8Qlr\ny1qi2Xa6g7rvFwE8fbPhEZXJwFimNbxpykiZwLHvRetL4ZMwPeDTAfQtxUZ/ndzd\nusFW7KIAkbY+VudK0cGwkMVwS33iTy53bthT2QeshSXYPy9fKo/1wJoU51Wbpvr7\neJXnqeNaEjtpXVN78V/wXKVvckEfqHXJnBgknriftkfTfdmv3SkaxOSip4kUVPnM\n7IDnfUKVnreBVp2G0h4S0pWXiO3odjt8XokbqHyfu02zKzcvqN0qdj5n5P/smLVj\nARwbA3Y7XQ5e5e23gAwBnpeuxUKeLMzEsFlzj7KpwRRxmBw4Aqj2zcrFSU99FMU9\n+S9aNxIQkdCX/BJd2OPWE/W/FAxR8yoPgQV3gO4cGQsU+c5zFmIpa6gy9zgaaD+y\n+sv3FKD7fb0eXnsEmdZ57ASv5+x+ZgtpdVD5Qs26EbToqrqeYQ9Wcpcy+SFLM+1p\n96ygEGrGwR3K9MCrjk51ZSg561YMuO5+EGLkypn/idE0I5YOTkQugaHdXXbuGe6V\nFyW9OsyRI0ESfhEIPVmC+F39GvYGZ9919EV4ASZz+qjXvsgzHE4mRzFB4Y0uo8m/\nwPtkeyDEbF+i1irfRs7Yl+trsXgMSDmimn8wjH15eZWtobKJAVfxF1p4ozE2x2mo\n9c6T6/x6zdpsy1ooWfLk\n=dZHY\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c1878a0c98c10090e0d6b7a376767e271de2a8ce\nparent 1e79686d47665634b6c03e6092e6ffd2b2302a0e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753199740 +0000\ncommitter GitHub <noreply@github.com> 1753199740 +0000\n\n石田さんの提案に基づき、行政システムのUI/UX改善に関する項目を追加",
+          "verified_at": "2025-07-22T15:55:40Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/fc2dcd455d7eebe66299641b7e14d2e47a852637",
-      "html_url": "https://github.com/team-mirai/policy/commit/fc2dcd455d7eebe66299641b7e14d2e47a852637",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/fc2dcd455d7eebe66299641b7e14d2e47a852637/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/157254823228812bb1964e9b5586e0e28d6cbcdb",
+      "html_url": "https://github.com/team-mirai/policy/commit/157254823228812bb1964e9b5586e0e28d6cbcdb",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/157254823228812bb1964e9b5586e0e28d6cbcdb/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -249,5 +249,5 @@
       ]
     }
   ],
-  "collected_at": "2025-07-22T15:18:54.689676"
+  "collected_at": "2025-07-22T16:09:30.695717"
 }

@@ -1,13 +1,13 @@
 {
   "basic_info": {
-    "number": 9112,
-    "title": "「人生の最終段階における医療（ACP）の意思決定支援」の項目を追加",
+    "number": 9271,
+    "title": "政策提案：「表現の自由」に関する項目を追加",
     "state": "open",
-    "created_at": "2025-07-22T01:36:42Z",
-    "updated_at": "2025-07-22T02:54:04Z",
+    "created_at": "2025-07-22T16:05:31Z",
+    "updated_at": "2025-07-22T16:05:41Z",
     "closed_at": null,
     "merged_at": null,
-    "html_url": "https://github.com/team-mirai/policy/pull/9112",
+    "html_url": "https://github.com/team-mirai/policy/pull/9271",
     "user": {
       "login": "idobata-policy-app[bot]",
       "id": 211775619,
@@ -17,11 +17,11 @@
   "labels": [],
   "comments": [
     {
-      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3100285650",
-      "html_url": "https://github.com/team-mirai/policy/pull/9112#issuecomment-3100285650",
-      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/9112",
-      "id": 3100285650,
-      "node_id": "IC_kwDOOqTJvM64yprS",
+      "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3103595190",
+      "html_url": "https://github.com/team-mirai/policy/pull/9271#issuecomment-3103595190",
+      "issue_url": "https://api.github.com/repos/team-mirai/policy/issues/9271",
+      "id": 3103595190,
+      "node_id": "IC_kwDOOqTJvM64_Rq2",
       "user": {
         "login": "github-actions[bot]",
         "id": 41898282,
@@ -43,12 +43,12 @@
         "user_view_type": "public",
         "site_admin": false
       },
-      "created_at": "2025-07-22T01:36:51Z",
-      "updated_at": "2025-07-22T01:36:51Z",
+      "created_at": "2025-07-22T16:05:41Z",
+      "updated_at": "2025-07-22T16:05:41Z",
       "author_association": "NONE",
       "body": "## 📢 X（旧Twitter）通知について\n\nこのPRがマージされると、自動的にX（旧Twitter）に投稿されます。\n\nもし以下のような政策内容の実質的な変更を含まないPRの場合、X通知をスキップすることができます：\n- タイポや誤字脱字の修正\n- マークダウンのフォーマット調整\n- リンク切れの修正\n- その他、政策内容に実質的な変更を含まない修正\n\n### 通知をスキップする方法\nPRに `skip-notification` ラベルを追加してください。\n1. 右側のLabelsセクションをクリック\n2. `skip-notification` を選択\n\n※ Slack通知は内部進捗管理のため、引き続き送信されます。",
       "reactions": {
-        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3100285650/reactions",
+        "url": "https://api.github.com/repos/team-mirai/policy/issues/comments/3103595190/reactions",
         "total_count": 0,
         "+1": 0,
         "-1": 0,
@@ -153,51 +153,51 @@
   "review_comments": [],
   "files": [
     {
-      "sha": "1ebe559d24da24ecfed8a81286e921d53fd9bd92",
-      "filename": "23_ステップ２医療.md",
-      "status": "modified",
+      "sha": "49d6606b8ec4a30c5e5cbb7e541d5abd0d1b8e8e",
+      "filename": "19_ステップ１表現の自由.md",
+      "status": "added",
       "additions": 10,
       "deletions": 0,
       "changes": 10,
-      "blob_url": "https://github.com/team-mirai/policy/blob/fc2dcd455d7eebe66299641b7e14d2e47a852637/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
-      "raw_url": "https://github.com/team-mirai/policy/raw/fc2dcd455d7eebe66299641b7e14d2e47a852637/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md",
-      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/23_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%92%E5%8C%BB%E7%99%82.md?ref=fc2dcd455d7eebe66299641b7e14d2e47a852637",
-      "patch": "@@ -59,3 +59,13 @@\n   * 診療記録や検査結果をデータ化し、治療成果を判定、成果加算が自動的に反映される仕組みを設計します  \n   * アウトカム評価指標の提出、確認が行われることで医療機関の負担が増えないよう、民間企業と連携した電子カルテの解析システムの開発を促します  \n   * また、電子カルテの情報連携においてセキュリティとプライバシーを確保するため、必要な法令、医療機関向け指針の整備を進めます\n+\n+## 3）人生の最終段階における医療（ACP）の意思決定支援\n+\n+### 現状認識・課題分析\n+*   救急や終末期の現場では、本人の意思が不明なまま、ご家族が延命治療などの重い判断を迫られることが少なくありません。\n+*   延命治療の選択肢について、その後の療養生活の具体的なイメージが共有されないまま意思決定が行われることがあります。\n+\n+### 政策概要\n+*   本人が望む医療やケアを事前に話し合う「人生会議（ACP）」を推進し、その意思を尊重する文化を醸成します。\n+*   延命治療等の選択肢について、その後の生活実態等を映像やデータで「見える化」し、国民が判断材料として参照できる仕組みを構築します。"
+      "blob_url": "https://github.com/team-mirai/policy/blob/dfb35aee25f6fe4662aa9dccf510d0a2d7f28c14/19_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%A8%E7%8F%BE%E3%81%AE%E8%87%AA%E7%94%B1.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/dfb35aee25f6fe4662aa9dccf510d0a2d7f28c14/19_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%A8%E7%8F%BE%E3%81%AE%E8%87%AA%E7%94%B1.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/19_%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%EF%BC%91%E8%A1%A8%E7%8F%BE%E3%81%AE%E8%87%AA%E7%94%B1.md?ref=dfb35aee25f6fe4662aa9dccf510d0a2d7f28c14",
+      "patch": "@@ -0,0 +1,10 @@\n+# 表現の自由\n+\n+## 目的\n+\n+自由な創作活動を保障し、文化の多様性を育むため、表現の自由を最大限に尊重する社会を目指します。\n+\n+## 具体的な施策\n+\n+*   わいせつ物頒布等の罪（刑法175条）を撤廃し、成人向け表現と創作活動の自由を保障します。\n+*   実在の児童の性的搾取から保護するための法整備は、表現の自由とは明確に区別し、断固として強化します。\n\\ No newline at end of file"
     }
   ],
   "commits": [
     {
-      "sha": "fc2dcd455d7eebe66299641b7e14d2e47a852637",
-      "node_id": "C_kwDOOqTJvNoAKGZjMmRjZDQ1NWQ3ZWViZTY2Mjk5NjQxYjdlMTRkMmU0N2E4NTI2Mzc",
+      "sha": "dfb35aee25f6fe4662aa9dccf510d0a2d7f28c14",
+      "node_id": "C_kwDOOqTJvNoAKGRmYjM1YWVlMjVmNmZlNDY2MmFhOWRjY2Y1MTBkMGEyZDdmMjhjMTQ",
       "commit": {
         "author": {
           "name": "idobata-policy-app[bot]",
           "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
-          "date": "2025-07-22T01:36:03Z"
+          "date": "2025-07-22T16:03:02Z"
         },
         "committer": {
           "name": "GitHub",
           "email": "noreply@github.com",
-          "date": "2025-07-22T01:36:03Z"
+          "date": "2025-07-22T16:03:02Z"
         },
-        "message": "匿名ユーザーからの提案：人生の最終段階における医療（ACP）の意思決定支援に関する項目を追加",
+        "message": "なかのわたりさんの提案に基づき、「表現の自由」に関する政策案を新規作成",
         "tree": {
-          "sha": "c0030f21a6ff43bd466cb4f692cdc5e19d1d0abd",
-          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c0030f21a6ff43bd466cb4f692cdc5e19d1d0abd"
+          "sha": "2d7b4264a3d22dbc797e75cdb7c2ce6d38988c55",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/2d7b4264a3d22dbc797e75cdb7c2ce6d38988c55"
         },
-        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/fc2dcd455d7eebe66299641b7e14d2e47a852637",
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/dfb35aee25f6fe4662aa9dccf510d0a2d7f28c14",
         "comment_count": 0,
         "verification": {
           "verified": true,
           "reason": "valid",
-          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJofusDCRC1aQ7uu5UhlAAARt4QAFncZBo61LxMs70uhLleXx4h\n/mI6QU+G3HL2B+ikax3Uf0z3ciDElDqW4TrKcdFSBTFnVbn7tqUdhlK697ZuQpFv\nP60mBbukOPYuRohE2k2yYkfsYptW5ad5XNtoABzUxtK+p/eL7349skUa8uvhvIbj\nQ0KOzkq4829ipZBaTr8UMbu+3SRZ+XVqR6GuVlO21SsaDpWONPS0tUmoyQWY8m9d\nleiDRoLWtNb3yV94CKc2EewZdESRxS3ToJ+OQNC96rhzkpGF6dgEHMGg9KMjHtLD\n4Hzf6+8ClIF+GUg3FDvUO9RQxhpsk3IYV0KjZBI6ZB95nQlfqC1SB3I9UiQQLoQf\nrAIm9DT/gAHZwrtowS6bLKtfdF/zB6KCd0XPwOkUvHeu7CMOkjugt3z2iM5/z4/z\n0juGVVOJI0MfUfIYrR6f7W9dMq7/V/2n611MvBQwBXgOEoi+G7xmskxHl/TnX2ND\nTwWdkCMkVZ5tty8AowhLG9uzaGJCYSPKnwspCi2NnSUSm9RHHzY1dDixxO1/Dd2+\n+j2QaICTOU0w93ZvAkYEETUUsxpiy0o1uO5yZfNTb13ENkHEzdXDdM1YEjEh6L0/\njX5cX3vtPhr0tK7bvqrDHXSswA65Nal87AzFhV09oOX3mA0j4iCVgp+L2k54hM6f\nm0pyaa87e2A6P5czAl00\n=FJw/\n-----END PGP SIGNATURE-----\n",
-          "payload": "tree c0030f21a6ff43bd466cb4f692cdc5e19d1d0abd\nparent 1e79686d47665634b6c03e6092e6ffd2b2302a0e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753148163 +0000\ncommitter GitHub <noreply@github.com> 1753148163 +0000\n\n匿名ユーザーからの提案：人生の最終段階における医療（ACP）の意思決定支援に関する項目を追加",
-          "verified_at": "2025-07-22T01:36:03Z"
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJof7Y2CRC1aQ7uu5UhlAAAG48QAHCPulQHzTgqfXQDcZCnb+VO\nMc5aQ+i1//DU62zRbRY/P5JVBDBJN9uNDTO3+BbKhbFQlm2JzM7CI1sk8he9FxLP\nSiltWUjSAGwwqb9UrcnBd12+jpqjrM0poldzgW+eVQUPGRT/cmGfm6nppYFnp7Jy\niDhnwCaD+C9ZMz3dyJ4TmZqT/w+aVy9n927xhzWuAI9xNQdXCmxL5J4WUHdwtF2m\nOq5CBHjjaTS4ilIvXQVJnvx9ANaN9Kf3rvxkdwNm+V/6DAJH3QLfLGTAT3UMX231\nOrjn4+qX5oZZYkrE079TYfkoHcRHkQWBfV61Xc6CUj9LhMy+scbHX/WZOU23CP6J\ng5nwGO2auhnsLtMdNW31Qq7Mxpzbi8eqd0T/yqQ71o+mNN6LDxHQE941qLyIUXyI\nWpa5nQS2x11C+T/OPxhHgILEz8uez6N6amh1iB/uPOv9uVVcdM3wdMAjiIoFUpV8\nEEQjXpXmrN6O2kwfizcIkKGroJD3pgFuRwD4xUw9W1s8+WpshLu0+ovqF0U0yGbR\ndUx+UPQiwRGkNfibiIFKfQN+Tntdd9kfcAfAQIIuPS3ZlZKpTNA4V9EuCmLudjpg\nrrQwCRsDHidwlZW1k/Cyo3M9US6dFcnpyozKH1TsVS7RTQC/1SL8RSmnmTpP4OYh\nZeC0R9syIkMCDWim9PUK\n=9bVD\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 2d7b4264a3d22dbc797e75cdb7c2ce6d38988c55\nparent 1e79686d47665634b6c03e6092e6ffd2b2302a0e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753200182 +0000\ncommitter GitHub <noreply@github.com> 1753200182 +0000\n\nなかのわたりさんの提案に基づき、「表現の自由」に関する政策案を新規作成",
+          "verified_at": "2025-07-22T16:03:02Z"
         }
       },
-      "url": "https://api.github.com/repos/team-mirai/policy/commits/fc2dcd455d7eebe66299641b7e14d2e47a852637",
-      "html_url": "https://github.com/team-mirai/policy/commit/fc2dcd455d7eebe66299641b7e14d2e47a852637",
-      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/fc2dcd455d7eebe66299641b7e14d2e47a852637/comments",
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/dfb35aee25f6fe4662aa9dccf510d0a2d7f28c14",
+      "html_url": "https://github.com/team-mirai/policy/commit/dfb35aee25f6fe4662aa9dccf510d0a2d7f28c14",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/dfb35aee25f6fe4662aa9dccf510d0a2d7f28c14/comments",
       "author": {
         "login": "idobata-policy-app[bot]",
         "id": 211775619,
@@ -249,5 +249,5 @@
       ]
     }
   ],
-  "collected_at": "2025-07-22T15:18:54.689676"
+  "collected_at": "2025-07-22T16:09:32.825794"
 }
