@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 9315,
+    "title": "「注意事項」に脆弱性診断に関する記述を追加",
+    "state": "open",
+    "created_at": "2025-07-23T02:46:23Z",
+    "updated_at": "2025-07-23T02:46:24Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/9315",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "cce7bb10652481d0a81801dbe50230f9df8fe243",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 2,
+      "changes": 3,
+      "blob_url": "https://github.com/team-mirai/policy/blob/548d113473a2dcea41258ed89d45d71430c749bf/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/548d113473a2dcea41258ed89d45d71430c749bf/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=548d113473a2dcea41258ed89d45d71430c749bf",
+      "patch": "@@ -73,7 +73,7 @@\n * わかりやすく簡潔な表現をお願いします。  \n * 情報を共有するときは、信頼性のあるデータや引用元に基づいていることを示してください。  \n * 注意事項に反して健全な議論が行われていないと判断した場合、一時的に当該スレッドのインタラクションを制限することがあります。\n-* **AIの活用と責任についての明確な原則**：本プロジェクトではAI（いどばたAI、チャットBot等）を政策議論の支援として活用していますが、AIは意見や文案を生成する道具であり、いかなる責任も負うことはできません。意思決定、説明責任、倫理的判断はすべて人間の側にあるという原則を厳格に守ります。チームみらいは「責任を取れる人が判断する」ことの重要性を再確認し、この原則に基づいて全ての政策運用を行います。また、システムの透明性とセキュリティには最大限の注意を払います。長期的な安定運用を見据え、コードや設定の変更履歴の管理、アクセス制御、ログ監査などの体制を整備し、安全で信頼できる運用を継続していきます。\n+* **AIの活用と責任についての明確な原則**：本プロジェクトではAI（いどばたAI、チャットBot等）を政策議論の支援として活用していますが、AIは意見や文案を生成する道具であり、いかなる責任も負うことはできません。意思決定、説明責任、倫理的判断はすべて人間の側にあるという原則を厳格に守ります。チームみらいは「責任を取れる人が判断する」ことの重要性を再確認し、この原則に基づいて全ての政策運用を行います。また、システムの透明性とセキュリティには最大限の注意を払います。長期的な安定運用を見据え、コードや設定の変更履歴の管理、アクセス制御、ログ監査などの体制を整備し、安全で信頼できる運用を継続していきます。また、定期的な脆弱性診断を実施し、その対応結果についても迅速に公表します。\n \n ## 禁止事項\n \n@@ -134,4 +134,3 @@\n ## おしゃべりできるシステム『いどばたシステム』について\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n-"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "118a79df698a209f6d0e99a08ba7e179d51db066",
+      "node_id": "C_kwDOOqTJvNoAKDExOGE3OWRmNjk4YTIwOWY2ZDBlOTlhMDhiYTdlMTc5ZDUxZGIwNjY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-23T02:42:58Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-23T02:42:58Z"
+        },
+        "message": "しょあさんの提案に基づき、脆弱性診断に関する記述を追加",
+        "tree": {
+          "sha": "c7bee628b60504d6fd675d08bf1343365e73bcd6",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/c7bee628b60504d6fd675d08bf1343365e73bcd6"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/118a79df698a209f6d0e99a08ba7e179d51db066",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJogEwyCRC1aQ7uu5UhlAAAaZQQAGgU+9GZPoyeApL4wHbW3bwU\nqAFxY2iN4IC7Oq+YAeWJOnjVSOjrm67UV73oAHqz5jaHPYqACP+KMZuj5AqN39E+\n4BIeKp9sD2xbFcelhM/4zwRVzaDASW6pnlVQ4XLnNX4XGhS5xRZ8RxQqo0/PWYl0\nHMkw6TG/x04KApAkwc0fI24Y/g96Q+Qf7aFxW/22Q0zb7PJUiwfGJEdNIEgk2kV1\nBP4gnjD9ZkVQuDeqR6gNq/qby+lDwek/344+BXt2dVwV3Of2hjSyqi1Io/G1X3TY\nYRtzJvvSQOz4YZO4cEGEm4qgK6P+OgzuU6pmlUy0jr5kTZWhqVwwLYi1vlgE+hdf\nbS56nb0PKW9pnkehV3SwCm/BnZ+RyGoxN63m/CRSteg1wwLhvHcd3lIWCG9jloGn\nL3mcTZbDZeu2LRuk+Gn2Fl9LVME2TgV1LA5iIQtAcBSFm12/JyXI7bbCCjZS9VUK\nO4Rl+Lx4YadmYIUorj3Vk3Fpvqbx1axmsFl60O2V/cRgeB0e0UHA03BIa7/gD/45\nRWBl+6VSV2JRZyydQ/KHt9NTC3f9vdk1/wHlXrbe3LTvslSuEyinjsFIEeLTxG6o\nqvg8j1+bzFLQlpSckWxOl6fha4DQTbKO/NKiac8dyEVdsUDp1/DDKZGUq6ZNzUNY\nd9gtcKMgkz/AJMyiIwqT\n=L2Hc\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree c7bee628b60504d6fd675d08bf1343365e73bcd6\nparent 1e79686d47665634b6c03e6092e6ffd2b2302a0e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753238578 +0000\ncommitter GitHub <noreply@github.com> 1753238578 +0000\n\nしょあさんの提案に基づき、脆弱性診断に関する記述を追加",
+          "verified_at": "2025-07-23T02:42:59Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/118a79df698a209f6d0e99a08ba7e179d51db066",
+      "html_url": "https://github.com/team-mirai/policy/commit/118a79df698a209f6d0e99a08ba7e179d51db066",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/118a79df698a209f6d0e99a08ba7e179d51db066/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e79686d47665634b6c03e6092e6ffd2b2302a0e"
+        }
+      ]
+    },
+    {
+      "sha": "7128ef65d812d67e322d0f7c178c53beb40554f9",
+      "node_id": "C_kwDOOqTJvNoAKDcxMjhlZjY1ZDgxMmQ2N2UzMjJkMGY3YzE3OGM1M2JlYjQwNTU0Zjk",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-23T02:44:19Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-23T02:44:19Z"
+        },
+        "message": "脆弱性診断に関する記述を追加 by しょあ",
+        "tree": {
+          "sha": "0a3de87f19511b959070fe68a0c2d27b31049adf",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/0a3de87f19511b959070fe68a0c2d27b31049adf"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/7128ef65d812d67e322d0f7c178c53beb40554f9",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJogEyDCRC1aQ7uu5UhlAAAyDQQAEJymyBHRwZhjbQxNmO+/hqQ\ngSewwiGON/7S5JrMrjSEggObtUdXfv6VbNGFrcX9XOorlMpect+Lkl53rdmKPj+3\n5jYgXJc6770gwVHRO74bGeugQ7ecY6vN66TUhgxbqQtGjR9XjP2VnTkcmSsXcwDs\nLcNcev6EcVGLg8tYoyjW2vkbqLMq38G/E8p6H3WCV7sgNrPdhbQTojD3Zft18Fe7\nkCOQkV7jgALjqHir00NZ1nozh9fZnYRfnvbk+wfnXexhOb/EzBzk3/VOAZm40I62\n2I4DMLuU+Oc4mi4jvzfIatpaMHpbPmJRTs0TxeI3/aKCZjpdmE9512vV1eoxW+ko\nRSp+M2JMPGZOvGFsoY0eTFEcix+2LaxgVRVOSaMujkV+SHy4akXuvCg/9knGrGkg\naUNqDmB7sB5Dk45efn5SKXqTPzVW2QIMFhXsLrunOV0dmkn8rr1Gm9d0+G2zCEli\nrdVTu+cBAkJZ+7Gm6q6rWiqyoNKFbhz1j+2l3Z1HTjuTcnaUWiOoDb6F5VR/R4WW\nGAF/ZLMKxDIWif5DOFM2EQVVuom2GgsNpZS2m84yjja2DxLIEEUeQClpaa5RJgcq\nZ3Db+ClWjikl7McLCOItHX0TXcEQB2yq3CCNtChi4/bDsm6p4PorGZihfBaUW9B7\nhz0Ulg7wSRJBusVelD0Z\n=EpmG\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 0a3de87f19511b959070fe68a0c2d27b31049adf\nparent 118a79df698a209f6d0e99a08ba7e179d51db066\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753238659 +0000\ncommitter GitHub <noreply@github.com> 1753238659 +0000\n\n脆弱性診断に関する記述を追加 by しょあ",
+          "verified_at": "2025-07-23T02:44:19Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/7128ef65d812d67e322d0f7c178c53beb40554f9",
+      "html_url": "https://github.com/team-mirai/policy/commit/7128ef65d812d67e322d0f7c178c53beb40554f9",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/7128ef65d812d67e322d0f7c178c53beb40554f9/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "118a79df698a209f6d0e99a08ba7e179d51db066",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/118a79df698a209f6d0e99a08ba7e179d51db066",
+          "html_url": "https://github.com/team-mirai/policy/commit/118a79df698a209f6d0e99a08ba7e179d51db066"
+        }
+      ]
+    },
+    {
+      "sha": "548d113473a2dcea41258ed89d45d71430c749bf",
+      "node_id": "C_kwDOOqTJvNoAKDU0OGQxMTM0NzNhMmRjZWE0MTI1OGVkODlkNDVkNzE0MzBjNzQ5YmY",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-23T02:46:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-23T02:46:22Z"
+        },
+        "message": "しょあさんの提案に基づき、脆弱性診断に関する記述を追加",
+        "tree": {
+          "sha": "398d816d5c3ed747ca32e06496cecf4e884a0c29",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/398d816d5c3ed747ca32e06496cecf4e884a0c29"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/548d113473a2dcea41258ed89d45d71430c749bf",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJogEz+CRC1aQ7uu5UhlAAAkjsQADpLwTRMcIZvdj4ysyEpaoiq\nis1eeRyzWOGiqZXSHIxHpnZUo/BITyigad4NtaWq61j/B1zRvrth4EJxttTIKbtH\nYf5n8uzspxqTgerqRmQ3KQp1ECPxNawfFqfqreMxKMwEtmyo50SJQ8Kn01mzxl6i\nbwuHK0Ws49dh9XFBWih2PgZFl0KruT5IIhojIgbt3OJCs6oI1daSf+7dB5EARkiC\nRHZbbW4Rjs8kGBtB8hlN0ZdHK74CyhGlPmUD87di3Z826U9TqYtWDxHd9mptlhcP\n3awdI8+56ZtEZNnkpxvtKusAQQ0ZPjZmTwNLj1nop/9gBn8GTyOrqbOfKnQtLDgQ\ncWSzHAF/Kaf9Wa0CiYKrM1c9vj1CJYHTi43HmVnAYIn18A+F7oe8XUkt+tLZj9UA\nlm8MKK6oOeM+GFWv9sJZJaXfVB588107F/KPaii431dUqWgoLZ08hP+jXQWB7V/t\nJrS6ysm2SWxto9hJJEfWEXizG6m/nMocnCXjF47gHaglipbEXOjNvSWh9LcyJVEY\n3aCksXr0KfE80U2yoW9zy63JaaFewe0AXvT3uIakhheT/6J7QSuzZoyFxdjXstNb\nKxTJtWM2LLrfDBQSRrtl5w1N8LetmWqb+tQ9vm6i6u1ArCMt3jkWVx+mE50R+QT3\n/jiX1VgpW9HntWPOoNSE\n=8w4f\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 398d816d5c3ed747ca32e06496cecf4e884a0c29\nparent 7128ef65d812d67e322d0f7c178c53beb40554f9\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753238782 +0000\ncommitter GitHub <noreply@github.com> 1753238782 +0000\n\nしょあさんの提案に基づき、脆弱性診断に関する記述を追加",
+          "verified_at": "2025-07-23T02:46:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/548d113473a2dcea41258ed89d45d71430c749bf",
+      "html_url": "https://github.com/team-mirai/policy/commit/548d113473a2dcea41258ed89d45d71430c749bf",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/548d113473a2dcea41258ed89d45d71430c749bf/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7128ef65d812d67e322d0f7c178c53beb40554f9",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/7128ef65d812d67e322d0f7c178c53beb40554f9",
+          "html_url": "https://github.com/team-mirai/policy/commit/7128ef65d812d67e322d0f7c178c53beb40554f9"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-23T04:02:46.065614"
+}
