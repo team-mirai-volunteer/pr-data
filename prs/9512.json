@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 9512,
+    "title": "【古村剛さん提案】政府の通貨発行権に関する政策案",
+    "state": "open",
+    "created_at": "2025-07-24T09:32:49Z",
+    "updated_at": "2025-07-24T09:54:45Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/9512",
+    "user": {
+      "login": "idobata-policy-app[bot]",
+      "id": 211775619,
+      "html_url": "https://github.com/apps/idobata-policy-app"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "2af94e8419ebae397e724520bf84149888f7b03d",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 6,
+      "changes": 10,
+      "blob_url": "https://github.com/team-mirai/policy/blob/16d2251510eb848cfeaa0720a360bcce4c8d89d7/README.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/16d2251510eb848cfeaa0720a360bcce4c8d89d7/README.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/README.md?ref=16d2251510eb848cfeaa0720a360bcce4c8d89d7",
+      "patch": "@@ -38,6 +38,9 @@\n * [その他重要分野についての政策・ビジョン](50_国政のその他重要分野.md)\n * [本マニフェスト掲載の政策に関する､財政支出の規模感と財源の考え](70_本マニフェスト掲載の政策に関する､財政支出の規模感と財源の考え.md)\n \n+## 現在検討中の新しい政策案\n+### 政府の通貨発行権について（古村剛さんからの提案）\n+政府が通貨発行権を持つことで、国債の利払いをなくし財政赤字の解消を目指します。インフレを抑制するため、消費者物価指数（CPI）を監視し、物価を高騰させている原因を特定した上で、対象を絞った税制によって通貨量を調整します。\n \n ## このマニフェスト自身も、みんなの知恵を集めて改善していきます\n \n@@ -116,11 +119,7 @@\n \n ### 通知のスキップ機能\n \n-政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキップできます。\n-\n-#### 使い方\n-\n-1. Pull Requestを作成後、右側のLabelsセクションから `skip-notification` ラベルを選択して追加\n+政策内容の変更以外のPR（例：タイポ修正、フォーマット調整、ドキュメント更新など）でX通知を避けたい場合は、PRに `skip-notification` ラベルを付けることで通知をスキ_notification` ラベルを選択して追加\n 2. このラベルが付いているPRは、マージされてもX通知が送信されません\n 3. Slack通知は引き続き送信されます（内部での進捗管理のため）\n \n@@ -134,4 +133,3 @@\n ## おしゃべりできるシステム『いどばたシステム』について\n \n - [デジタル民主主義2030](https://dd2030.org)で開発した[『いどばた』](https://github.com/digitaldemocracy2030/idobata/)を活用しています\n-"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "16d2251510eb848cfeaa0720a360bcce4c8d89d7",
+      "node_id": "C_kwDOOqTJvNoAKDE2ZDIyNTE1MTBlYjg0OGNmZWFhMDcyMGEzNjBiY2NlNGM4ZDg5ZDc",
+      "commit": {
+        "author": {
+          "name": "idobata-policy-app[bot]",
+          "email": "211775619+idobata-policy-app[bot]@users.noreply.github.com",
+          "date": "2025-07-24T09:29:54Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-24T09:29:54Z"
+        },
+        "message": "古村剛さんの提案に基づき、政府の通貨発行権に関する新しい政策案を追加",
+        "tree": {
+          "sha": "008118b2a70fd4b5246db70f516b11fc0ed32dbf",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/008118b2a70fd4b5246db70f516b11fc0ed32dbf"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/16d2251510eb848cfeaa0720a360bcce4c8d89d7",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJogf0SCRC1aQ7uu5UhlAAAR+UQADq/WMKsUnkqbxGQunknLY3t\nq5UIAIQvLJgmK/dk+M+C1IsbscmpdB/cQNV+p7ChfapZdNxJksA+MPF8LYZ1yGR+\nvyFqKETiu7hwYDEpDI1U0PHD/uqkwGq9DCHFI5Xh5vdVqPw4gxhCvSmb4kizGtdh\nzY4ijyX8CE0v0i9uzGjuw/YPwojLYttnsOrzQcKhCYeLBopvioB6NsPb5ikTuKgo\nEqGVcJSJZz8XgpNOcqdRRZ9aSdGlieJPx98r0uHH6uuYMIWh8hsHL1efdkDwj/PR\ndLi+rltbLsDyP8V00zp+0odTlMDC4ZEeozVFKeR6hrz6Pu/VzWM04YfJ5CUpiCrv\neRPJloG8NJ9QwhASMxwfXjLsK6y/Gs28pJ/wiTSKtjDmVfntDWyVrKfb9CvllH5p\nQPuuIgAuhe8O2xTU2GCSpOpYBLEfS4eNakxsH9lmp9KYdQf6FIdR3QU83gJkO41r\nnFZb0VJxdUABkKpO/uKEsmEIx0PkiFyQL+dudjHlU+xOctuPzE1lkbCRcTXYbmKg\nSmANupj2TRZr7qdrjjUVoCGHoti5CEfXXw+ohTHxkFbnWE+dtngVkIrv4WRkHnLf\nVM4yuIQGFpijTxrA1arN/bOqtn0cifI+1D3mqpn1lA5gU71aaG8h1+Ny1bQwd/x7\ne973atCnlFmEdwfaVWaw\n=DkWR\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 008118b2a70fd4b5246db70f516b11fc0ed32dbf\nparent 1e79686d47665634b6c03e6092e6ffd2b2302a0e\nauthor idobata-policy-app[bot] <211775619+idobata-policy-app[bot]@users.noreply.github.com> 1753349394 +0000\ncommitter GitHub <noreply@github.com> 1753349394 +0000\n\n古村剛さんの提案に基づき、政府の通貨発行権に関する新しい政策案を追加",
+          "verified_at": "2025-07-24T09:29:55Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/16d2251510eb848cfeaa0720a360bcce4c8d89d7",
+      "html_url": "https://github.com/team-mirai/policy/commit/16d2251510eb848cfeaa0720a360bcce4c8d89d7",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/16d2251510eb848cfeaa0720a360bcce4c8d89d7/comments",
+      "author": {
+        "login": "idobata-policy-app[bot]",
+        "id": 211775619,
+        "node_id": "BOT_kgDODJ9wgw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/210232249?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D",
+        "html_url": "https://github.com/apps/idobata-policy-app",
+        "followers_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/followers",
+        "following_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/following{/other_user}",
+        "gists_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/subscriptions",
+        "organizations_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/orgs",
+        "repos_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/repos",
+        "events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/idobata-policy-app%5Bbot%5D/received_events",
+        "type": "Bot",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e79686d47665634b6c03e6092e6ffd2b2302a0e"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-24T11:13:31.284688"
+}
