@@ -1,0 +1,119 @@
+{
+  "basic_info": {
+    "number": 9531,
+    "title": "Remove unused .github/.linkspector.yml config file",
+    "state": "open",
+    "created_at": "2025-07-24T13:26:47Z",
+    "updated_at": "2025-07-24T13:32:58Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/9531",
+    "user": {
+      "login": "chibicco",
+      "id": 3061562,
+      "html_url": "https://github.com/chibicco"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "742c65e4fc5f46895f1cfa24a199323fb2fd3193",
+      "filename": ".github/.linkspector.yml",
+      "status": "removed",
+      "additions": 0,
+      "deletions": 20,
+      "changes": 20,
+      "blob_url": "https://github.com/team-mirai/policy/blob/1e79686d47665634b6c03e6092e6ffd2b2302a0e/.github%2F.linkspector.yml",
+      "raw_url": "https://github.com/team-mirai/policy/raw/1e79686d47665634b6c03e6092e6ffd2b2302a0e/.github%2F.linkspector.yml",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/.github%2F.linkspector.yml?ref=1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+      "patch": "@@ -1,20 +0,0 @@\n-dirs:\n-  - .\n-\n-useGitIgnore: true\n-\n-ignorePatterns:\n-  - pattern: '^#'\n-\n-  - pattern: '^https://x.com/'\n-    # \"reason\": \"X.com blocks automated requests from GitHub Actions\"\n-  - pattern: '^https://www.meti.go.jp/.*\\.pdf$'\n-    # \"reason\": \"METI government PDF links often timeout in CI\"\n-  - pattern: '^https://www.jftc.go.jp/'\n-    # \"reason\": \"JFTC government links often return 403 in CI\"\n-  - pattern: '^https://odin\\.opendatawatch\\.com/'\n-    # \"reason\": \"ODIN website returns Status 500 errors consistently\"\n-  - pattern: '^%20https://'\n-    # \"reason\": \"Malformed URLs with spaces at the beginning\"\n-  - pattern: '^https://www\\.science\\.org/'\n-    # \"reason\": \"Science.org blocks automated requests from GitHub Actions with 403 errors\""
+    }
+  ],
+  "commits": [
+    {
+      "sha": "5ad88328ce7427c1a5ad4524979d384ece3674f3",
+      "node_id": "C_kwDOPSENwNoAKDVhZDg4MzI4Y2U3NDI3YzFhNWFkNDUyNDk3OWQzODRlY2UzNjc0ZjM",
+      "commit": {
+        "author": {
+          "name": "chibicco",
+          "email": "me@chibicco.dev",
+          "date": "2025-07-24T13:17:39Z"
+        },
+        "committer": {
+          "name": "chibicco",
+          "email": "me@chibicco.dev",
+          "date": "2025-07-24T13:17:39Z"
+        },
+        "message": "Remove unused .github/.linkspector.yml config file",
+        "tree": {
+          "sha": "eeb3825364e6533c64a1ad97316e471715c2b3d8",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/eeb3825364e6533c64a1ad97316e471715c2b3d8"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/5ad88328ce7427c1a5ad4524979d384ece3674f3",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgt1/DA8FCJM6l1XlRTU7almHnKi\nKmen8Cr+W2g0urKI4AAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5\nAAAAQBwv+stx5J+25iAfP9UbKswY9df8BPCo8sgI3RqqHD39lmv6K2qET85O1WPUM9Je/8\nYRVrC0uKfVQpzsDLMD4Aw=\n-----END SSH SIGNATURE-----",
+          "payload": "tree eeb3825364e6533c64a1ad97316e471715c2b3d8\nparent 1e79686d47665634b6c03e6092e6ffd2b2302a0e\nauthor chibicco <me@chibicco.dev> 1753363059 +0900\ncommitter chibicco <me@chibicco.dev> 1753363059 +0900\n\nRemove unused .github/.linkspector.yml config file\n",
+          "verified_at": "2025-07-24T13:17:49Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/5ad88328ce7427c1a5ad4524979d384ece3674f3",
+      "html_url": "https://github.com/team-mirai/policy/commit/5ad88328ce7427c1a5ad4524979d384ece3674f3",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/5ad88328ce7427c1a5ad4524979d384ece3674f3/comments",
+      "author": {
+        "login": "chibicco",
+        "id": 3061562,
+        "node_id": "MDQ6VXNlcjMwNjE1NjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3061562?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chibicco",
+        "html_url": "https://github.com/chibicco",
+        "followers_url": "https://api.github.com/users/chibicco/followers",
+        "following_url": "https://api.github.com/users/chibicco/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chibicco/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chibicco/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chibicco/subscriptions",
+        "organizations_url": "https://api.github.com/users/chibicco/orgs",
+        "repos_url": "https://api.github.com/users/chibicco/repos",
+        "events_url": "https://api.github.com/users/chibicco/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chibicco/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "chibicco",
+        "id": 3061562,
+        "node_id": "MDQ6VXNlcjMwNjE1NjI=",
+        "avatar_url": "https://avatars.githubusercontent.com/u/3061562?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/chibicco",
+        "html_url": "https://github.com/chibicco",
+        "followers_url": "https://api.github.com/users/chibicco/followers",
+        "following_url": "https://api.github.com/users/chibicco/following{/other_user}",
+        "gists_url": "https://api.github.com/users/chibicco/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/chibicco/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/chibicco/subscriptions",
+        "organizations_url": "https://api.github.com/users/chibicco/orgs",
+        "repos_url": "https://api.github.com/users/chibicco/repos",
+        "events_url": "https://api.github.com/users/chibicco/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/chibicco/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/1e79686d47665634b6c03e6092e6ffd2b2302a0e",
+          "html_url": "https://github.com/team-mirai/policy/commit/1e79686d47665634b6c03e6092e6ffd2b2302a0e"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-24T15:14:50.544525"
+}
