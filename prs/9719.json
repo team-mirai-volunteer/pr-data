@@ -1,0 +1,283 @@
+{
+  "basic_info": {
+    "number": 9719,
+    "title": "feat: 0歳投票権（Demeny Voting）追加",
+    "state": "open",
+    "created_at": "2025-07-26T08:37:25Z",
+    "updated_at": "2025-07-26T10:08:17Z",
+    "closed_at": null,
+    "merged_at": null,
+    "html_url": "https://github.com/team-mirai/policy/pull/9719",
+    "user": {
+      "login": "amannsan",
+      "id": 215979425,
+      "html_url": "https://github.com/amannsan"
+    }
+  },
+  "labels": [],
+  "comments": [],
+  "review_comments": [],
+  "files": [
+    {
+      "sha": "0160e7ed45c081bd2fe4b40b7342d3a560c517fd",
+      "filename": "docs/26_0歳投票権.md",
+      "status": "added",
+      "additions": 49,
+      "deletions": 0,
+      "changes": 49,
+      "blob_url": "https://github.com/team-mirai/policy/blob/fc47adf2b3c25aa42d2a9bd0a28465e2810b0917/docs%2F26_0%E6%AD%B3%E6%8A%95%E7%A5%A8%E6%A8%A9.md",
+      "raw_url": "https://github.com/team-mirai/policy/raw/fc47adf2b3c25aa42d2a9bd0a28465e2810b0917/docs%2F26_0%E6%AD%B3%E6%8A%95%E7%A5%A8%E6%A8%A9.md",
+      "contents_url": "https://api.github.com/repos/team-mirai/policy/contents/docs%2F26_0%E6%AD%B3%E6%8A%95%E7%A5%A8%E6%A8%A9.md?ref=fc47adf2b3c25aa42d2a9bd0a28465e2810b0917",
+      "patch": "@@ -0,0 +1,49 @@\n+# ０歳投票権（Demeny Voting）\n+\n+## 背景・課題\n+- 15歳未満人口 1,374 万（11.1%）、65歳以上 3,624 万（29.4%）（総務省 2025）。\n+- 世代間バランス欠如で将来世代向け投資が慢性的に不足。\n+\n+## 政策概要\n+1. 18 歳未満国民 1 人につき追加 1 票を親権者が代理行使  \n+2. 票管理は住基ネット連携＋マイナカード認証  \n+3. 段階導入：市区町村選 ▶ 国政比例 ▶ 全選挙区\n+\n+## 実装ロードマップ\n+| 年 | アクション |\n+|----|-----------|\n+| 2025 | 超党派PT設置・パイロット自治体公募 |\n+| 2026 | 公選法一部改正 → 市区町村選で試行 |\n+| 2027 | 憲法15条改正案発議・国民投票 |\n+| 2029 | 国政選挙全面適用 |\n+\n+## 財政インパクト\n+- 65歳以上比率 ▲5.1pt\n+- 教育・保育投資 +0.4〜0.6% GDP（RIETI 小黒 2024 試算）\n+\n+## 少子化ストッパーとしての効果\n+* **出生率押上げメカニズム**  \n+  - 子育て世帯の投票力↑ → 政策競争が「現金給付＋保育インフラ強化」へシフト  \n+  - 家計シミュレーションで 2 児世帯の可処分所得が平均＋6〜8%  \n+* **国際研究の示唆**  \n+  - Sánchez (2023) の代理投票モデルで TFR が **+0.15〜0.20**  \n+  - OECD “Future of Families” 報告書も「投票権付与は出生意欲の心理的後押し」と位置づけ\n+\n+## 政治的インパクトと野党へのメリット\n+| 項目 | 内容 |\n+|------|------|\n+| 高齢者票への対抗軸 | 追加票で **18歳未満 1,780 万票** を創出し、若年・子育て世帯の政策争点が際立つ |\n+| 野党の差別化材料 | 与党が踏み込みにくい選挙制度改革を掲げ **“次世代重視” の旗印** を共有しやすい |\n+| 票田構造の刷新 | 現役世代＋子育て世帯の支持で、野党全体の得票が相対的に増えるシミュレーション |\n+| 超党派議連の芽 | 立民・維新・国民民主の少子化PT連携に「選挙権改革」を加えることで議連形成が現実的 |\n+\n+## 想定反論と対応\n+| 反論 | 対応策 |\n+|------|--------|\n+| 一人一票の平等に反する | 将来負担者の実質的平等を確保する新しい平等概念を提示 |\n+| 親が意思をねじ曲げる | 15–17歳はオンライン意思登録し、相違時は無効票 |\n+| 外国籍親が代理行使し間接的な外国人参政権になる | 親が外国籍のみの場合、子どもの祖父母など日本国籍の後見人を指名し代理行使させる制度で主権論への懸念を回避 |\n+\n+## 参考文献\n+- Demeny, P. (1986). “Population Policy and …”\n+- 小黒一正 (2024). RIETI Discussion Paper 24‑J‑01\n\\ No newline at end of file"
+    }
+  ],
+  "commits": [
+    {
+      "sha": "5e7080904743e4100e3546d8ea64e5263d5b5b41",
+      "node_id": "C_kwDOPTDTRNoAKDVlNzA4MDkwNDc0M2U0MTAwZTM1NDZkOGVhNjRlNTI2M2Q1YjViNDE",
+      "commit": {
+        "author": {
+          "name": "amannsan",
+          "email": "so10ko6@gmail.com",
+          "date": "2025-07-26T08:36:22Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-26T08:36:22Z"
+        },
+        "message": "Create 26_0歳投票権.md",
+        "tree": {
+          "sha": "1a429c3a66b56fea25dc341aaeab8c7352b16dd5",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/1a429c3a66b56fea25dc341aaeab8c7352b16dd5"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/5e7080904743e4100e3546d8ea64e5263d5b5b41",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJohJOGCRC1aQ7uu5UhlAAAWrkQAKNuKJlDRDj+GUjlB82xX7xy\nFV3r9XlfjykM8g8xNPisFay/Yghik3PNWqAKmynNEAmRcMKNIUPtRp9YsPrS4Ylc\ncZ1q0NJ0Eb1uqPl8dMlo2qPP2tAKR/Ram5c8JNCpTCjaY1hGRKISlPEjCosjLCp/\nsmNSRgcbrC9aTrz6w1DvJXIWZDGkhD4g1FHQz+uPIgNENwWMTMwO1fwpdSOEEW4L\npXoD4yYNCxSatOoSVErWGdYoJjLjDEnHbNnxHKrtXvtr9F0XpRP5V4dHUIjnRral\nK4RFckBWqwKuk7s4P0OS88nNYx5/IvrCwRsPgjcVGKMNI8lgzYzfpp1mS9G2vl2Z\nW8GUwbxj/Ro/xl7eN7IcendXIBF+IqoDRWmJlNBm/QuuuPwmU9+G37XrYrMoerVW\nXGtR4QOa51DVv/gf5v/JgFzknllL9ekiOuQXLxJ39GJRNle/MrCSxX8wBLaPyQcc\njtieVjjnxD870Oh09NjiYOSeKGP+oQbilG+AIbI+rfmFPbKVBrm9VgVJvpa8DC+P\nnKoWMh8VJXAMyhcpBxvJLm6/L5O/DgrOD2TjvcP/qfsK0qeyNjz6aACCqzN9jrPv\n1EoNjXPeSEq8JkQnImRh2H65eH2aVNkU/PtaahL0Bohr5h+CfihhGXvbvFzcoL/P\nwXfJkpUhiRtNE/Q5t6Jh\n=spNX\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 1a429c3a66b56fea25dc341aaeab8c7352b16dd5\nparent 7208cc2cf4a34dc75035f37433459c21821fbb68\nauthor amannsan <so10ko6@gmail.com> 1753518982 -0700\ncommitter GitHub <noreply@github.com> 1753518982 -0700\n\nCreate 26_0歳投票権.md",
+          "verified_at": "2025-07-26T08:36:23Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/5e7080904743e4100e3546d8ea64e5263d5b5b41",
+      "html_url": "https://github.com/team-mirai/policy/commit/5e7080904743e4100e3546d8ea64e5263d5b5b41",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/5e7080904743e4100e3546d8ea64e5263d5b5b41/comments",
+      "author": {
+        "login": "amannsan",
+        "id": 215979425,
+        "node_id": "U_kgDODN-VoQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/215979425?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/amannsan",
+        "html_url": "https://github.com/amannsan",
+        "followers_url": "https://api.github.com/users/amannsan/followers",
+        "following_url": "https://api.github.com/users/amannsan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/amannsan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/amannsan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/amannsan/subscriptions",
+        "organizations_url": "https://api.github.com/users/amannsan/orgs",
+        "repos_url": "https://api.github.com/users/amannsan/repos",
+        "events_url": "https://api.github.com/users/amannsan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/amannsan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "7208cc2cf4a34dc75035f37433459c21821fbb68",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/7208cc2cf4a34dc75035f37433459c21821fbb68",
+          "html_url": "https://github.com/team-mirai/policy/commit/7208cc2cf4a34dc75035f37433459c21821fbb68"
+        }
+      ]
+    },
+    {
+      "sha": "786c33d2154838a01f1c525dcf13354516bd5b61",
+      "node_id": "C_kwDOPTDTRNoAKDc4NmMzM2QyMTU0ODM4YTAxZjFjNTI1ZGNmMTMzNTQ1MTZiZDViNjE",
+      "commit": {
+        "author": {
+          "name": "aman",
+          "email": "so10ko6@gmail.com",
+          "date": "2025-07-26T10:04:01Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-26T10:04:01Z"
+        },
+        "message": "docs: 少子化・野党メリットセクションを追加",
+        "tree": {
+          "sha": "096b3f357abef01a6e092163392016db26c2e0c7",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/096b3f357abef01a6e092163392016db26c2e0c7"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/786c33d2154838a01f1c525dcf13354516bd5b61",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJohKgSCRC1aQ7uu5UhlAAAigsQAKIoMipeU2MxJLb9eDXfrQTk\nekG+aKdhn6aK2dNms3d6Rv8pGqZv4P4Bq/rzSGJK3FFpDNNyHcnaDwpQ1LByUEss\nbS/8lKgq8lh16pzICdkVTm9hSMPj6vqxjVglTb1AZCL0N44VlOrYaLxXucl1YdnD\nnzPfbqxCQC+S92GrA6W1zHS2lvkA7Ms14BMFGKm65ednAYwtrzYGZZw2l5gK0Aef\nEAFVFeztmOFKYvLrZxXyYoDX5YH5aAJT4GP8YWEDAV5a3k7CMyNMLZNfbCpah0cr\nh3Q5dfFnUzj6s7c6NkbhJv8SAbVYR1bp15HZPAZRgVVWJozJccnS/qdb3VKeN6w9\n0zChufKF61i8l39dyhG1Rq9PpW0EKSb6gOB5xe5zwzmF/gZ8Uhywa2QiY+CAsi17\n8NtPU1WJBot4YUu5viI0t4+AcnvvFbWhMJvYgQOrn439Rh/g/iFUYzRpFeTftL+i\nm5HTTJayrvtqqHLS+8R2mpBMCzYmMyJSmljsY6UN9IjWnhJmYtz2XUBEzZsaA22Z\nTRXi3BP6GB2in/IruCENJAp04vIc4h4WLWkB3rlleoOrFAWQJ04zvtRrRi1ACDbd\nKqBt0xD6JiO3jYJ4Pa6JZGce6GRFzYeqIhSgAgF1IUQKyONsNR0JvNcI+gyv6z4I\nvsVgvlrTb0ZIl7m6Mj1N\n=ZSqI\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 096b3f357abef01a6e092163392016db26c2e0c7\nparent 5e7080904743e4100e3546d8ea64e5263d5b5b41\nauthor aman <so10ko6@gmail.com> 1753524241 +0900\ncommitter GitHub <noreply@github.com> 1753524241 +0900\n\ndocs: 少子化・野党メリットセクションを追加",
+          "verified_at": "2025-07-26T10:04:02Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/786c33d2154838a01f1c525dcf13354516bd5b61",
+      "html_url": "https://github.com/team-mirai/policy/commit/786c33d2154838a01f1c525dcf13354516bd5b61",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/786c33d2154838a01f1c525dcf13354516bd5b61/comments",
+      "author": {
+        "login": "amannsan",
+        "id": 215979425,
+        "node_id": "U_kgDODN-VoQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/215979425?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/amannsan",
+        "html_url": "https://github.com/amannsan",
+        "followers_url": "https://api.github.com/users/amannsan/followers",
+        "following_url": "https://api.github.com/users/amannsan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/amannsan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/amannsan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/amannsan/subscriptions",
+        "organizations_url": "https://api.github.com/users/amannsan/orgs",
+        "repos_url": "https://api.github.com/users/amannsan/repos",
+        "events_url": "https://api.github.com/users/amannsan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/amannsan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "5e7080904743e4100e3546d8ea64e5263d5b5b41",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/5e7080904743e4100e3546d8ea64e5263d5b5b41",
+          "html_url": "https://github.com/team-mirai/policy/commit/5e7080904743e4100e3546d8ea64e5263d5b5b41"
+        }
+      ]
+    },
+    {
+      "sha": "fc47adf2b3c25aa42d2a9bd0a28465e2810b0917",
+      "node_id": "C_kwDOPTDTRNoAKGZjNDdhZGYyYjNjMjVhYTQyZDJhOWJkMGEyODQ2NWUyODEwYjA5MTc",
+      "commit": {
+        "author": {
+          "name": "aman",
+          "email": "so10ko6@gmail.com",
+          "date": "2025-07-26T10:08:16Z"
+        },
+        "committer": {
+          "name": "GitHub",
+          "email": "noreply@github.com",
+          "date": "2025-07-26T10:08:16Z"
+        },
+        "message": "docs: 外国籍親の代理行使リスクと対策を追記",
+        "tree": {
+          "sha": "73544dfc75b43ef976b6c479c5ec2766adfb743b",
+          "url": "https://api.github.com/repos/team-mirai/policy/git/trees/73544dfc75b43ef976b6c479c5ec2766adfb743b"
+        },
+        "url": "https://api.github.com/repos/team-mirai/policy/git/commits/fc47adf2b3c25aa42d2a9bd0a28465e2810b0917",
+        "comment_count": 0,
+        "verification": {
+          "verified": true,
+          "reason": "valid",
+          "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJohKkQCRC1aQ7uu5UhlAAAmDEQAIvYEi6Ki33q89FKBnviGTVu\nvJV1IhhwAuB+wVz475GM5UB/GEorjsXUfgdjUsOY+RpkfhopetIVQHPxBAEpj6zZ\nPQdzF2hN0rmZtaKYHTwQU3yB5aa0YWDn2IRUkRtPVrV7ruv7qWXJfebl2Rl8qFj3\ngyyvuzeP7QsoxwC6B+LLCSSq0RUTM+uG2eVTPyxiNjngnWrkTyix5o5tmjzxWlA8\nfK3C5XKlE9+7Mc7M43/hEMc/LZ8EaDsCLo50pX3/M/IRaK4pGy8R7kHV0XmGtGKz\nvxuwAIlCpLyvyd998K8OmFvJonN1xK30aeZZuoBeDW4RuaLBcZrT95Pl2UaQtVup\n4fzRQyryv+Bho+vQVV4/3HzrBnkt9SqW37SkEe5VAoeRiIy88IZUIKPuWOThOAA5\nELO9zw7cteCiSO4pVdsFNCs2xWFkiBYn23R+GrL65hgsHhv7PvJuerYNXgS5kIot\nq7PS1yM9FVaiU05ua6BexR2it2HEIANl4et4Bw1OAAD4Yy8S8ERiTlmN++X6HpYk\n06WYX1vjQ+JpRtreN1azJx/eyDurYl6Atg0mTSAUdJELB/4dY7lb1Sh//ewVPvVX\n3r53njJDO2Wxt2055hL0UUdgmxuu1ATluORRyf/E3mK3baw1+g+hVoCne2Ay7kii\nTcuY0ZWFEClHhyZBWtgn\n=bo+W\n-----END PGP SIGNATURE-----\n",
+          "payload": "tree 73544dfc75b43ef976b6c479c5ec2766adfb743b\nparent 786c33d2154838a01f1c525dcf13354516bd5b61\nauthor aman <so10ko6@gmail.com> 1753524496 +0900\ncommitter GitHub <noreply@github.com> 1753524496 +0900\n\ndocs: 外国籍親の代理行使リスクと対策を追記",
+          "verified_at": "2025-07-26T10:08:17Z"
+        }
+      },
+      "url": "https://api.github.com/repos/team-mirai/policy/commits/fc47adf2b3c25aa42d2a9bd0a28465e2810b0917",
+      "html_url": "https://github.com/team-mirai/policy/commit/fc47adf2b3c25aa42d2a9bd0a28465e2810b0917",
+      "comments_url": "https://api.github.com/repos/team-mirai/policy/commits/fc47adf2b3c25aa42d2a9bd0a28465e2810b0917/comments",
+      "author": {
+        "login": "amannsan",
+        "id": 215979425,
+        "node_id": "U_kgDODN-VoQ",
+        "avatar_url": "https://avatars.githubusercontent.com/u/215979425?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/amannsan",
+        "html_url": "https://github.com/amannsan",
+        "followers_url": "https://api.github.com/users/amannsan/followers",
+        "following_url": "https://api.github.com/users/amannsan/following{/other_user}",
+        "gists_url": "https://api.github.com/users/amannsan/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/amannsan/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/amannsan/subscriptions",
+        "organizations_url": "https://api.github.com/users/amannsan/orgs",
+        "repos_url": "https://api.github.com/users/amannsan/repos",
+        "events_url": "https://api.github.com/users/amannsan/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/amannsan/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "web-flow",
+        "id": 19864447,
+        "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+        "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/web-flow",
+        "html_url": "https://github.com/web-flow",
+        "followers_url": "https://api.github.com/users/web-flow/followers",
+        "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+        "organizations_url": "https://api.github.com/users/web-flow/orgs",
+        "repos_url": "https://api.github.com/users/web-flow/repos",
+        "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/web-flow/received_events",
+        "type": "User",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "786c33d2154838a01f1c525dcf13354516bd5b61",
+          "url": "https://api.github.com/repos/team-mirai/policy/commits/786c33d2154838a01f1c525dcf13354516bd5b61",
+          "html_url": "https://github.com/team-mirai/policy/commit/786c33d2154838a01f1c525dcf13354516bd5b61"
+        }
+      ]
+    }
+  ],
+  "collected_at": "2025-07-26T10:14:45.725914"
+}
